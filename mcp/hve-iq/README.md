@@ -67,7 +67,9 @@ S016  teaches            Data moves between levels in fixed-size blocks
 
 The pairing is the point. **A vendor change should cost you an instance, not a claim** — that is the rule the [Durable and Perishable Register](wiki/program/09-Durable-and-Perishable-Register.md) exists to enforce, and seeing both halves together tells you whether you are swapping an example or rewriting a day.
 
-Nothing here is authored by the extractor; it reads tables the days already carry. **Sixteen days are invisible to it** — S001–S015 use a prose register that predates the table format, and S090 has no perishable content. The tool declares that in every answer rather than returning a confidently incomplete list.
+Nothing here is authored by the extractor; it reads tables the days already carry. **One day is invisible to it** — S090, which has no perishable content of substance. The tool declares that in every answer rather than returning a confidently incomplete list.
+
+S001–S015 used to be invisible too. Closing that found something worth knowing: **five of those days already had conforming tables and were hidden by a section heading**, not by a missing format. Thirty claims were one string literal away from being indexed.
 
 ### What is claim-atomic, and what is not
 
@@ -75,7 +77,7 @@ All three claim layers are extracted mechanically from structure the substrate a
 
 | Layer | Rows | Granularity | Covers |
 |---|---|---|---|
-| Platform claims | **489** | atomic — one durable/perishable pair per row | `platform`, 74 days |
+| Platform claims | **581** | atomic — one durable/perishable pair per row | `platform`, 89 of 90 days |
 | Predictions | **512** | atomic — one falsifiable claim + named instrument | **all namespaces**, 90 papers |
 | Evidence ledger | **360** | **class-level, not atomic** | all namespaces, 90 papers × 4 classes |
 

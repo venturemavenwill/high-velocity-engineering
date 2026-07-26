@@ -328,10 +328,11 @@ if ($esMissing.Count) {
 # platform decay actually demands.
 #
 # Two known blind spots, recorded rather than papered over:
-#   S001-S015 use a prose "Perishability register" that predates the table format.
-#             Left unconverted on the same principle as the unamended S001-S040
-#             specifications: the early form stays legible.
-#   S090      genuinely has no perishable content of substance. A true zero.
+#   S090      genuinely has no perishable content of substance. A true zero, and
+#             now the ONLY day the index cannot see.
+#   S001-S015 formerly used a prose heading that this parser skipped. Converted
+#             2026-07-26: the heading was the whole defect -- S011-S015 already
+#             had conforming tables and were invisible only because of it.
 $claims   = [System.Collections.Generic.List[object]]::new()
 $claimGap = @()
 foreach ($n in $nodes) {

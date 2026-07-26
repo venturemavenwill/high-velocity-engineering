@@ -141,16 +141,24 @@ Four mechanisms, because a rule with no enforcement is a preference.
 
 ## The machine index
 
-Mechanism 5 above makes every day state its durable claim and its platform instance side by side. From S016 onward that pairing is a table, which means **it can be read by a machine without anyone re-authoring it**. [scripts/build-graph.ps1](scripts/build-graph.ps1) extracts those rows into `graph/claims.jsonl` — **489 pairs across 74 days** — and [HVE IQ](mcp/hve-iq/README.md) serves them, so the question *"this service changed; what does it cost us?"* is answered by query rather than by re-reading ninety files.
+Mechanism 5 above makes every day state its durable claim and its platform instance side by side, and every day now expresses that pairing as a table — which means **it can be read by a machine without anyone re-authoring it**. [scripts/build-graph.ps1](scripts/build-graph.ps1) extracts those rows into `graph/claims.jsonl` — **581 pairs across 89 days** — and [HVE IQ](mcp/hve-iq/README.md) serves them, so the question *"this service changed; what does it cost us?"* is answered by query rather than by re-reading ninety files.
 
 No judgement is applied in the extraction. The claims are the ones the day already wrote; the index adds only the day's anchor, module and quarter by join. **If the index disagrees with a day, the day is right.**
 
-**Two blind spots, both declared by the tool in every answer rather than left to be discovered:**
+**One blind spot remains, and it is declared by the tool in every answer:** [S090](wiki/seminars/S090.md) has no perishable content of substance. That is a true zero, not a gap — the day's anchor is not a service.
 
-- **S001–S015** carry a prose *Perishability register* that predates the table format. **This is a format gap, not a design gap** — those days do separate the durable claim from the platform instance, in sentences, and they satisfy mechanism 5. They are simply not machine-readable, and are left unconverted on the same principle as the unamended S001–S040 specifications: the earlier form stays legible, and the reader can see when the format was fixed.
-- **S090** has no perishable content of substance. That is a true zero, not a gap.
+### What the conversion of S001–S015 found
 
-The cost of the first is real: a vendor change that lands on S011 will not appear in a query, and must be caught by hand. Recorded here so the person running the pre-offering check knows to do that.
+S001–S015 were originally invisible to the index, and the assumption recorded here was that they were prose-only and predated the table format. **That was half wrong, and the half that was wrong is the useful part.**
+
+S011–S015 already carried conforming tables. They were invisible for one reason: the section heading read `## Perishability register` rather than `## Perishable content in this day`, and the extractor keyed on the literal string. **A heading, not a format, was hiding thirty claims** — including every perishable instance in the module that first introduces Foundry embeddings.
+
+Only S001–S010 needed pairings authored, and their prose already separated durable from perishable, so the authoring was pairing rather than invention. All original prose survives beneath the tables, including S001's record of what the register cost it.
+
+Two findings worth keeping:
+
+- **[S002](wiki/seminars/S002.md)'s central durable claim has no platform instance at all.** *A machine's next state is a function of its current state* is carried by a teaching machine that "corresponds to no product and never will." It is the one headline claim in the early modules with zero perishable exposure, and the table records that by omission rather than by inventing a carrier.
+- **One vendor behaviour is load-bearing for two separate days.** The file-visibility-versus-terminal-permission asymmetry carries a durable claim in both S001 and S002. That concentration is exactly what the index exists to surface, and it is now visible.
 
 ## The uncomfortable consequence
 

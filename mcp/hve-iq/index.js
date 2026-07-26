@@ -29,9 +29,9 @@ const CLAIMS = graph.claims ?? [];
 const PREDICTIONS = graph.predictions ?? [];
 const EVIDENCE = graph.evidence ?? [];
 
-// Days whose perishable content this index cannot see. S001-S015 predate the
-// table format and use prose; S090 genuinely has none. Surfaced by the exposure
-// tool rather than left as a silent gap in a decay answer.
+// Days whose perishable content this index cannot see. Only S090 remains: it
+// genuinely has none. Surfaced by the exposure tool rather than left as a silent
+// gap in a decay answer.
 const CLAIM_DAYS = new Set(CLAIMS.map((c) => c.day));
 const BLIND = NODES.filter((n) => n.kind === "seminar" && !CLAIM_DAYS.has(n.id)).map((n) => n.id).sort();
 
@@ -279,7 +279,7 @@ server.registerTool(
       note:
         "Perishable content may be used as an instance of durable content but may NEVER be the thing assessed, so a change here should cost you an instance, not a claim. " +
         (blind.length
-          ? `${blind.length} day(s) carry perishable content this index cannot see — S001-S015 use a prose register that predates the table format, and S090 has none of substance. Check those by hand.`
+          ? `${blind.length} day(s) carry perishable content this index cannot see, and must be checked by hand.`
           : "No blind spots in this result.")
     });
   }

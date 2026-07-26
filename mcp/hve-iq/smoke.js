@@ -60,9 +60,9 @@ const missing = await call("hve_get", { id: "wiki/seminars/S999" });
 check("unknown id fails gracefully", Boolean(missing.error));
 
 const allClaims = await call("hve_platform_exposure", { limit: 1 });
-check("489 platform claims indexed", allClaims.total_claims_indexed === 489, `${allClaims.total_claims_indexed}`);
-check("blind spots are declared", allClaims.blind_spot_days.length === 16 && allClaims.blind_spot_days.includes("wiki/seminars/S001"),
-  `${allClaims.blind_spot_days.length} days (S001-S015 prose + S090)`);
+check("581 platform claims indexed", allClaims.total_claims_indexed === 581, `${allClaims.total_claims_indexed}`);
+check("only S090 remains a blind spot", allClaims.blind_spot_days.length === 1 && allClaims.blind_spot_days[0] === "wiki/seminars/S090",
+  `${allClaims.blind_spot_days.length} day(s)`);
 
 const foundry = await call("hve_platform_exposure", { product: "Foundry" });
 check("Foundry exposure found", foundry.matched > 0 && foundry.days_affected > 0, `${foundry.matched} claims across ${foundry.days_affected} days`);
@@ -72,8 +72,11 @@ check("each hit pairs instance with durable claim",
 const scoped = await call("hve_platform_exposure", { days: ["wiki/seminars/S016"] });
 check("day scoping works", scoped.days_affected === 1 && scoped.blind_spot_days.length === 0, `${scoped.matched} claims in S016`);
 
-const blindScope = await call("hve_platform_exposure", { days: ["wiki/seminars/S011"] });
+const blindScope = await call("hve_platform_exposure", { days: ["wiki/seminars/S090"] });
 check("scoping a blind day warns instead of returning nothing", blindScope.matched === 0 && blindScope.blind_spot_days.length === 1);
+
+const early = await call("hve_platform_exposure", { days: ["wiki/seminars/S001"] });
+check("the converted early days are now visible", early.matched > 0 && early.blind_spot_days.length === 0, `${early.matched} claims in S001`);
 
 const preds = await call("hve_predictions", { limit: 1 });
 check("512 predictions indexed", preds.total_indexed === 512, `${preds.total_indexed}`);
