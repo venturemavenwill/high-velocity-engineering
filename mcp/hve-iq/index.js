@@ -26,6 +26,8 @@ const graph = JSON.parse(readFileSync(join(REPO, "graph", "graph.json"), "utf8")
 const NODES = graph.nodes;
 const EDGES = graph.edges;
 const CLAIMS = graph.claims ?? [];
+const PREDICTIONS = graph.predictions ?? [];
+const EVIDENCE = graph.evidence ?? [];
 
 // Days whose perishable content this index cannot see. S001-S015 predate the
 // table format and use prose; S090 genuinely has none. Surfaced by the exposure
@@ -279,6 +281,85 @@ server.registerTool(
         (blind.length
           ? `${blind.length} day(s) carry perishable content this index cannot see — S001-S015 use a prose register that predates the table format, and S090 has none of substance. Check those by hand.`
           : "No blind spots in this result.")
+    });
+  }
+);
+
+// ---------------------------------------------------------------- predictions
+
+server.registerTool(
+  "hve_predictions",
+  {
+    title: "Find the falsifiable predictions and their instruments",
+    description:
+      "Every whitepaper's section 9 states falsifiable predictions, each with a named instrument. This is the repository's own claim layer: the things it says would prove it wrong. Use it to find what a day predicts, what would falsify a design decision, or what instrument a claim depends on. NONE of these have been measured — no cohort has run — so treat every one as an open commitment, not a result.",
+    inputSchema: {
+      query: z.string().optional().describe("matches the prediction text or its instrument"),
+      namespace: z.string().optional(),
+      days: z.array(z.string()).optional().describe("restrict to these day ids"),
+      limit: z.number().int().positive().max(100).optional()
+    }
+  },
+  async ({ query, namespace, days, limit = 20 }) => {
+    const q = query?.toLowerCase();
+    const dayFilter = days?.length ? new Set(days) : null;
+    const hits = PREDICTIONS.filter((p) => {
+      if (namespace && p.namespace !== namespace) return false;
+      if (dayFilter && !dayFilter.has(p.day)) return false;
+      if (!q) return true;
+      return `${p.claim} ${p.instrument ?? ""}`.toLowerCase().includes(q);
+    });
+    return ok({
+      total_indexed: PREDICTIONS.length,
+      matched: hits.length,
+      results: hits.slice(0, limit).map((p) => ({
+        id: p.id, day: p.day, namespace: p.namespace, claim: p.claim, instrument: p.instrument
+      })),
+      truncated: hits.length > limit,
+      note:
+        "Status of every prediction here is UNMEASURED, because the programme has never been delivered. WP-090 section 8 concedes the instrumentation is probably unexecutable and predicts fewer than one in ten will ever be measured. Cite these as commitments the design made, never as findings."
+    });
+  }
+);
+
+// ---------------------------------------------------------------- evidence
+
+server.registerTool(
+  "hve_evidence",
+  {
+    title: "Ask what a claim rests on, or what a source is holding up",
+    description:
+      "Every whitepaper sorts its claims into exactly four evidence classes. Ask what one paper rests on, or invert it: give a research source and find every paper that would be affected if it turned out to be wrong or was retracted. Class 2 (general knowledge, not verified here) is the highest-risk class and licenses direction and mechanism only — never an effect size.",
+    inputSchema: {
+      whitepaper: z.string().optional().describe("e.g. 'WP-049' or a full node id"),
+      source: z.string().optional().describe("a research note, e.g. 'dellacqua' or 'research/04-professional-formation'"),
+      evidence_class: z.union([z.number().int().min(1).max(4), z.enum(["verified-here", "general-knowledge", "design-reasoning", "vendor-docs"])]).optional(),
+      limit: z.number().int().positive().max(100).optional()
+    }
+  },
+  async ({ whitepaper, source, evidence_class, limit = 25 }) => {
+    const wp = whitepaper?.toLowerCase();
+    const src = source?.toLowerCase();
+    const hits = EVIDENCE.filter((e) => {
+      if (wp && !e.whitepaper.toLowerCase().includes(wp)) return false;
+      if (typeof evidence_class === "number" && e.class !== evidence_class) return false;
+      if (typeof evidence_class === "string" && e.class_name !== evidence_class) return false;
+      if (src && !e.cites.some((c) => c.toLowerCase().includes(src))) return false;
+      return true;
+    });
+    const byClass = {};
+    for (const e of hits) byClass[e.class_name] = (byClass[e.class_name] ?? 0) + 1;
+    return ok({
+      total_indexed: EVIDENCE.length,
+      matched: hits.length,
+      by_class: byClass,
+      results: hits.slice(0, limit).map((e) => ({
+        id: e.id, whitepaper: e.whitepaper, day: e.day, class: e.class, class_name: e.class_name,
+        licenses: e.licenses, cites: e.cites
+      })),
+      truncated: hits.length > limit,
+      note:
+        "This indexes the CLASS a claim was placed in and what that class cites, not the individual claims — those are prose inside each class, and splitting them needs authoring judgement this index deliberately does not apply. If you need a specific claim, read the whitepaper's Evidence status section."
     });
   }
 );

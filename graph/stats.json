@@ -5,6 +5,8 @@
   "claim_count": 489,
   "claim_days": 74,
   "claim_gap_days": 16,
+  "prediction_count": 512,
+  "evidence_count": 360,
   "nodes_by_kind": {
     "design-analysis": 3,
     "module": 18,
@@ -43,5 +45,14 @@
     "either": 47,
     "ordinary-professional-experience": 2,
     "this-programme-only": 41
+  },
+  "predictions_by_ns": {
+    "platform": 207,
+    "measurement": 169,
+    "fde-craft": 43,
+    "pedagogy": 42,
+    "ai-systems": 27,
+    "assessment": 12,
+    "curriculum": 12
   }
 }

@@ -22,7 +22,7 @@ const check = (label, cond, detail = "") => {
 
 const tools = (await client.listTools()).tools.map((t) => t.name).sort();
 console.log("\ntools:", tools.join(", "), "\n");
-check("five tools registered", tools.length === 5, `${tools.length}`);
+check("seven tools registered", tools.length === 7, `${tools.length}`);
 
 const ns = await call("hve_namespaces");
 check("eight namespaces", ns.namespaces.length === 8, ns.namespaces.map((n) => n.namespace).join(", "));
@@ -74,6 +74,23 @@ check("day scoping works", scoped.days_affected === 1 && scoped.blind_spot_days.
 
 const blindScope = await call("hve_platform_exposure", { days: ["wiki/seminars/S011"] });
 check("scoping a blind day warns instead of returning nothing", blindScope.matched === 0 && blindScope.blind_spot_days.length === 1);
+
+const preds = await call("hve_predictions", { limit: 1 });
+check("512 predictions indexed", preds.total_indexed === 512, `${preds.total_indexed}`);
+check("predictions are flagged unmeasured", /UNMEASURED/.test(preds.note));
+const calib = await call("hve_predictions", { query: "calibration", limit: 100 });
+check("predictions are searchable", calib.matched > 0, `${calib.matched} mention calibration`);
+check("every prediction carries an instrument", calib.results.every((p) => p.instrument));
+
+const ev = await call("hve_evidence", { limit: 1 });
+check("360 evidence rows indexed", ev.total_indexed === 360, `${ev.total_indexed} (90 papers x 4 classes)`);
+const wp049 = await call("hve_evidence", { whitepaper: "WP-049" });
+check("a paper has all four classes", wp049.matched === 4, `${wp049.matched}`);
+const risky = await call("hve_evidence", { evidence_class: "general-knowledge", limit: 1 });
+check("general-knowledge class is queryable", risky.matched === 90, `${risky.matched} papers assert from general knowledge`);
+check("class 2 licenses direction only", /No effect size/.test(risky.results[0].licenses));
+const dell = await call("hve_evidence", { source: "dellacqua" });
+check("reverse source lookup works", dell.matched > 0, `${dell.matched} evidence rows would be affected`);
 
 await client.close();
 console.log(failures ? `\n${failures} FAILED\n` : "\nall passed\n");

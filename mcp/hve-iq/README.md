@@ -33,6 +33,8 @@ Already configured in [.vscode/mcp.json](.vscode/mcp.json). Open Copilot Chat in
 | `hve_get` | One document with its typed neighbours — depends on, re-tested by, grounded in, paired whitepaper. |
 | `hve_dependency_closure` | **The differentiator.** Given what you intend to teach, what must you also cover? |
 | `hve_platform_exposure` | A vendor shipped a breaking change. What does it cost you? |
+| `hve_predictions` | What does this design say would prove it wrong, and with what instrument? |
+| `hve_evidence` | What does this claim rest on — and what breaks if a source is retracted? |
 
 ### The closure tool is the point
 
@@ -67,13 +69,31 @@ The pairing is the point. **A vendor change should cost you an instance, not a c
 
 Nothing here is authored by the extractor; it reads tables the days already carry. **Sixteen days are invisible to it** — S001–S015 use a prose register that predates the table format, and S090 has no perishable content. The tool declares that in every answer rather than returning a confidently incomplete list.
 
+### What is claim-atomic, and what is not
+
+All three claim layers are extracted mechanically from structure the substrate already had. **No LLM pass touches them, so none of them can drift.** They differ in granularity, and the difference matters:
+
+| Layer | Rows | Granularity | Covers |
+|---|---|---|---|
+| Platform claims | **489** | atomic — one durable/perishable pair per row | `platform`, 74 days |
+| Predictions | **512** | atomic — one falsifiable claim + named instrument | **all namespaces**, 90 papers |
+| Evidence ledger | **360** | **class-level, not atomic** | all namespaces, 90 papers × 4 classes |
+
+The evidence ledger indexes *which class a set of claims was placed in* and *what that class cites* — not the individual claims, because inside each class they are prose: "transfer-appropriate processing, contrasting cases, the generation effect, retrieval practice at expanding intervals…" is one sentence carrying four claims.
+
+**Splitting that needs authoring judgement, and it is deliberately not done here.** A judged split would be the first thing in this repository that could drift silently between rebuilds, and it would need its own warrant discipline. It is a separate decision, not an afterthought.
+
+What the class level already buys you is the question that actually gets asked: *this source was retracted — what depends on it, and at what strength?* `hve_evidence` answers that by inverting the `cites` index.
+
+**Prediction density is flat**: 5.0 to 6.0 per paper in every namespace. The whitepaper standard's §9 requirement produces uniform commitment regardless of subject, which is a mild but real piece of evidence that the standard is doing work. `method` shows zero only because no whitepaper has `method` as its primary namespace — not because it avoids falsification.
+
 ## What v0 does not do
 
-- **Claim-level only for `platform`.** The other seven namespaces are still document-level, because only the perishability tables were already claim-shaped in the substrate.
+- **The evidence ledger is class-level, not claim-atomic.** Splitting prose claim bundles needs authoring judgement; see above for why that is deferred rather than forgotten.
 - **No semantic search.** Substring matching. Adequate at 332 nodes; add embeddings when it stops being.
 - **No writes.** By design, permanently. The graph is derived and the substrate is truth; a future research loop proposes **pull requests**, never commits.
 - **No auth.** stdio only. Remote deployment needs Entra or OAuth first.
 
 ## Next
 
-Claim extraction, starting with the `platform` namespace — highest volume, fastest decay, most mechanical. Until then every tool here answers at document granularity, which is coarser than the questions people actually ask.
+A judged split of the evidence-status prose into atomic claims — the first extraction here that would carry authoring judgement, and so the first that needs a drift discipline of its own.

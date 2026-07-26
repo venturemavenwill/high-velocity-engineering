@@ -22,7 +22,7 @@ flowchart TD
   W --> G
   P --> G
   C --> G
-  G["graph/ · 332 nodes · 7,021 edges · 489 claims<br/>derived · regenerable · never hand-edited"] --> M["mcp/hve-iq<br/>read-only MCP server"] --> A["any agent"]
+  G["graph/ · 332 nodes · 7,021 edges<br/>489 platform claims · 512 predictions · 360 evidence rows<br/>derived · regenerable · never hand-edited"] --> M["mcp/hve-iq<br/>read-only MCP server"] --> A["any agent"]
 ```
 
 ## Start here
@@ -101,7 +101,7 @@ Registered in [.vscode/mcp.json](.vscode/mcp.json), so in Copilot agent mode you
 
 > *"Using hve-iq, what would a two-day workshop on judge bias and criterion construction also have to cover, for an audience of experienced engineers?"*
 
-Five tools: `hve_namespaces`, `hve_search`, `hve_get`, `hve_dependency_closure` and `hve_platform_exposure`. The last two are the ones that are not ordinary retrieval — one tells you what a format must also cover, the other tells you what a vendor change just broke. Details and known gaps: [mcp/hve-iq/README.md](mcp/hve-iq/README.md).
+Seven tools. Four answer structural questions; three are the claim layer — `hve_platform_exposure` (what a vendor change broke), `hve_predictions` (what would prove this wrong) and `hve_evidence` (what a claim rests on, and what a retraction would cost). Details and known gaps: [mcp/hve-iq/README.md](mcp/hve-iq/README.md).
 ## It corrects itself in public
 
 The most valuable and most fragile thing here. Superseded positions stay visible; amendments are annotated where they happened.
@@ -118,8 +118,8 @@ A reader who cannot see the defect cannot evaluate the correction. **When you ch
 ## Validate
 
 ```powershell
-pwsh ./scripts/build-graph.ps1        # 332 nodes, ~7,021 edges, 489 claims
-cd mcp/hve-iq; npm run smoke          # 24 checks, all must pass
+pwsh ./scripts/build-graph.ps1        # 332 nodes, ~7,021 edges, 489+512+360 claim rows
+cd mcp/hve-iq; npm run smoke          # 33 checks, all must pass
 ```
 
 Link integrity should report exactly **3 broken links** — all placeholders inside a fenced code block in the whitepaper standard. The command is in [AGENTS.md](AGENTS.md).
@@ -128,6 +128,7 @@ Link integrity should report exactly **3 broken links** — all placeholders ins
 
 - **The platform layer is the most perishable content here.** Two of the six vendor sources were already classic or superseded when read; the [study-note package](sources/README.md) they came from reflects July 2026 and needs checking before it is quoted.
 - **The entry-state register is untested** against a real audience and plausibly circular. It is a usable default, not a finding.
-- **Claim extraction has only reached `platform`**, and only where the substrate had already made it a table — **489 pairs across 74 days**. S001–S015 use a prose register that predates the format and are invisible to decay queries; the other seven namespaces remain document-level.
+- **The evidence ledger is class-level, not claim-atomic.** Where a whitepaper places four claims in one sentence, the index sees the sentence. Splitting them needs authoring judgement, which would be the first thing here able to drift silently — deferred deliberately, not forgotten.
+- **Sixteen days are invisible to decay queries.** S001–S015 use a prose perishability register predating the table format; S090 has none. Declared in every answer the tool gives.
 - **Two rule elevations are unratified** at programme close ([WP-090](wiki/whitepapers/WP-090.md) §7).
 - **WP-090 §8 concedes the instrumentation is probably unexecutable**, and predicts fewer than one in ten of the wiki's own §9 predictions will ever be measured.

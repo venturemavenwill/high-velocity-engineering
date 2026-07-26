@@ -366,6 +366,89 @@ foreach ($n in $nodes) {
     if ($k -eq 0 -and $claimGap -notcontains $n.id) { $claimGap += $n.id }
 }
 
+# ---------------------------------------------------------------- predictions
+
+# The whitepapers' section 9 is the repository's own falsifiable-claim layer: an
+# atomic prediction with a named instrument, in a uniform format, in all 90 papers.
+# Extracted mechanically for the same reason as the platform claims -- no judgement
+# means no drift. Unlike the platform table this spans ALL eight namespaces, because
+# every whitepaper carries one whatever it is about.
+$predictions = [System.Collections.Generic.List[object]]::new()
+foreach ($n in $nodes) {
+    if ($n.kind -ne 'whitepaper') { continue }
+    $text = Get-Content -LiteralPath (Join-Path $RepoRoot ($n.path -replace '/', '\')) -Raw
+    $wp   = $n.id -replace '.*/', ''
+    $day  = 'wiki/seminars/S' + ($wp -replace '\D', '')
+    $k = 0
+    foreach ($m in [regex]::Matches($text, '(?ms)^\*\*(Prediction[^*]*?)\*\*(.+?)(?=^\*\*Prediction|^##\s|\z)')) {
+        $body = $m.Groups[2].Value
+        $parts = $body -split '\*Instrument:\*', 2
+        $k++
+        $predictions.Add([pscustomobject]@{
+            id         = ('{0}.pred{1}' -f $wp, $k)
+            whitepaper = $n.id
+            day        = $day
+            module     = $n.module
+            quarter    = $n.quarter
+            label      = ($m.Groups[1].Value -replace '\s+', ' ').Trim()
+            claim      = (($parts[0] -replace '\s+', ' ').Trim() -replace '^[.\s]+', '')
+            instrument = if ($parts.Count -gt 1) { ($parts[1] -replace '\s+', ' ').Trim() } else { $null }
+            namespace  = $n.primary_namespace
+            namespaces = $n.namespaces
+        })
+    }
+}
+
+# ---------------------------------------------------------------- evidence ledger
+
+# Every whitepaper closes by sorting its claims into exactly four evidence classes.
+# The classes are uniform across all 90; the claims inside each are prose, so this
+# indexes the CLASS and what it cites, not the individual claims. Splitting those
+# paragraphs into atomic claims needs authoring judgement and is deliberately not
+# done here -- see mcp/hve-iq/README.md for why that is a separate decision.
+$EVIDENCE_CLASSES = [ordered]@{
+    'Verified in this repository.'                                            = @{ n = 1; name = 'verified-here';     licenses = 'Cites a Cliff Note in research/, which records what was checked and against what.' }
+    'Cited from general knowledge, not verified here.'                        = @{ n = 2; name = 'general-knowledge'; licenses = 'Direction and mechanism only. No effect size, ever.' }
+    'Design reasoning with no external warrant.'                              = @{ n = 3; name = 'design-reasoning';  licenses = 'The design''s own argument. Carries no evidential weight outside it.' }
+    'Grounded in vendor documentation, with its version and its silence recorded.' = @{ n = 4; name = 'vendor-docs'; licenses = 'What the documentation states at a version, together with what it does NOT report that a reader would need.' }
+}
+$evidence = [System.Collections.Generic.List[object]]::new()
+foreach ($n in $nodes) {
+    if ($n.kind -ne 'whitepaper') { continue }
+    $text = Get-Content -LiteralPath (Join-Path $RepoRoot ($n.path -replace '/', '\')) -Raw
+    $i = $text.IndexOf('## Evidence status')
+    if ($i -lt 0) { continue }
+    $sec = $text.Substring($i)
+    $wp  = $n.id -replace '.*/', ''
+
+    # locate each class lead, then slice from it to whichever lead comes next
+    $marks = @()
+    foreach ($lead in $EVIDENCE_CLASSES.Keys) {
+        $at = $sec.IndexOf('**' + $lead + '**')
+        if ($at -ge 0) { $marks += [pscustomobject]@{ lead = $lead; at = $at } }
+    }
+    $marks = @($marks | Sort-Object at)
+    for ($x = 0; $x -lt $marks.Count; $x++) {
+        $start = $marks[$x].at
+        $end   = if ($x + 1 -lt $marks.Count) { $marks[$x + 1].at } else { $sec.Length }
+        $body  = $sec.Substring($start, $end - $start)
+        $meta  = $EVIDENCE_CLASSES[$marks[$x].lead]
+        $cites = @([regex]::Matches($body, '\((research/[^)\s]+?\.md)\)') | ForEach-Object { $_.Groups[1].Value -replace '\.md$', '' } | Select-Object -Unique)
+        $evidence.Add([pscustomobject]@{
+            id          = ('{0}.e{1}' -f $wp, $meta.n)
+            whitepaper  = $n.id
+            day         = 'wiki/seminars/S' + ($wp -replace '\D', '')
+            module      = $n.module
+            class       = $meta.n
+            class_name  = $meta.name
+            licenses    = $meta.licenses
+            cites       = $cites
+            namespace   = $n.primary_namespace
+            words       = (($body -split '\s+' | Where-Object { $_ }).Count)
+        })
+    }
+}
+
 # ---------------------------------------------------------------- write
 
 $nodesPath = Join-Path $OutDir 'nodes.jsonl'
@@ -374,30 +457,38 @@ $edgesPath = Join-Path $OutDir 'edges.jsonl'
 $nodes | ForEach-Object { $_ | ConvertTo-Json -Compress -Depth 6 } | Set-Content $nodesPath -Encoding utf8
 $final | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content $edgesPath -Encoding utf8
 $claims | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join-Path $OutDir 'claims.jsonl') -Encoding utf8
+$predictions | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join-Path $OutDir 'predictions.jsonl') -Encoding utf8
+$evidence | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join-Path $OutDir 'evidence.jsonl') -Encoding utf8
 
 [pscustomobject]@{
-    generated = (Get-Date).ToString('yyyy-MM-dd')
-    nodes     = $nodes
-    edges     = $final
-    claims    = $claims
+    generated   = (Get-Date).ToString('yyyy-MM-dd')
+    nodes       = $nodes
+    edges       = $final
+    claims      = $claims
+    predictions = $predictions
+    evidence    = $evidence
 } | ConvertTo-Json -Depth 8 | Set-Content (Join-Path $OutDir 'graph.json') -Encoding utf8
 
 $kindMap  = [ordered]@{}; $nodes | Group-Object kind  | Sort-Object Name | ForEach-Object { $kindMap[$_.Name]  = $_.Count }
 $layerMap = [ordered]@{}; $nodes | Group-Object layer | Sort-Object Name | ForEach-Object { $layerMap[$_.Name] = $_.Count }
 $typeMap  = [ordered]@{}; $final | Group-Object type  | Sort-Object Name | ForEach-Object { $typeMap[$_.Name]  = $_.Count }
 $esMap    = [ordered]@{}; $nodes | Where-Object { $_.satisfiable_from } | Group-Object satisfiable_from | Sort-Object Name | ForEach-Object { $esMap[$_.Name] = $_.Count }
+$predNs   = [ordered]@{}; $predictions | Where-Object { $_.namespace } | Group-Object namespace | Sort-Object Count -Descending | ForEach-Object { $predNs[$_.Name] = $_.Count }
 
 [pscustomobject]@{
-    generated        = (Get-Date).ToString('yyyy-MM-dd')
-    node_count       = $nodes.Count
-    edge_count       = $final.Count
-    claim_count      = $claims.Count
-    claim_days       = @($claims | Select-Object -ExpandProperty day -Unique).Count
-    claim_gap_days   = $claimGap.Count
-    nodes_by_kind    = $kindMap
-    nodes_by_layer   = $layerMap
-    edges_by_type    = $typeMap
-    satisfiable_from = $esMap
+    generated         = (Get-Date).ToString('yyyy-MM-dd')
+    node_count        = $nodes.Count
+    edge_count        = $final.Count
+    claim_count       = $claims.Count
+    claim_days        = @($claims | Select-Object -ExpandProperty day -Unique).Count
+    claim_gap_days    = $claimGap.Count
+    prediction_count  = $predictions.Count
+    evidence_count    = $evidence.Count
+    nodes_by_kind     = $kindMap
+    nodes_by_layer    = $layerMap
+    edges_by_type     = $typeMap
+    satisfiable_from  = $esMap
+    predictions_by_ns = $predNs
 } | ConvertTo-Json -Depth 6 | Set-Content (Join-Path $OutDir 'stats.json') -Encoding utf8
 
 Write-Host "nodes: $($nodes.Count)  edges: $($final.Count)"
@@ -407,3 +498,5 @@ if ($esMap.Count) {
     $esMap.GetEnumerator() | ForEach-Object { '  {0,-32} {1}' -f $_.Key, $_.Value }
 }
 Write-Host "platform claims: $($claims.Count) across $(@($claims | Select-Object -ExpandProperty day -Unique).Count) days  (no table: $($claimGap.Count))"
+Write-Host "predictions:     $($predictions.Count)   evidence rows: $($evidence.Count)"
+$predNs.GetEnumerator() | ForEach-Object { '  {0,-14} {1}' -f $_.Key, $_.Value }
