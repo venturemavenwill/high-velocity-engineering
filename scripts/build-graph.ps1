@@ -291,6 +291,34 @@ foreach ($n in $nodes) {
     $n | Add-Member -NotePropertyName evidence_classes -NotePropertyValue $cls -Force
 }
 
+# ---------------------------------------------------------------- entry state
+
+# satisfiable_from deliberately does NOT live in the seminar files. Those are the
+# substrate of ONE projection (the BSc), whose entry state is fixed at "knows
+# nothing"; a cross-projection field does not belong inside one projection's
+# files, and 90 scattered values cannot be reviewed for consistency.
+# concepts/entry-state.md is the source and this attaches it to the nodes.
+# Node-level, not edge-level: the consumer is closure pruning, which asks a node
+# question. See that page for why, and for the limitations on the judgements.
+$entryState = @{}
+$esPath = Join-Path $RepoRoot 'concepts\entry-state.md'
+if (Test-Path $esPath) {
+    $esText = Get-Content -LiteralPath $esPath -Raw
+    $esRow  = '(?m)^\|\s*(S\d{3})\s*\|\s*(this-programme-only|ordinary-professional-experience|either)\s*\|'
+    foreach ($m in [regex]::Matches($esText, $esRow)) {
+        $entryState['wiki/seminars/' + $m.Groups[1].Value] = $m.Groups[2].Value
+    }
+}
+foreach ($n in $nodes) {
+    if ($entryState.ContainsKey($n.id)) {
+        $n | Add-Member -NotePropertyName satisfiable_from -NotePropertyValue $entryState[$n.id] -Force
+    }
+}
+$esMissing = @($nodes | Where-Object { $_.kind -eq 'seminar' -and -not $_.satisfiable_from })
+if ($esMissing.Count) {
+    Write-Warning "satisfiable_from missing for $($esMissing.Count) day(s): $(($esMissing.id | Sort-Object) -join ', ')"
+}
+
 # ---------------------------------------------------------------- write
 
 $nodesPath = Join-Path $OutDir 'nodes.jsonl'
@@ -308,15 +336,21 @@ $final | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content $edgesPa
 $kindMap  = [ordered]@{}; $nodes | Group-Object kind  | Sort-Object Name | ForEach-Object { $kindMap[$_.Name]  = $_.Count }
 $layerMap = [ordered]@{}; $nodes | Group-Object layer | Sort-Object Name | ForEach-Object { $layerMap[$_.Name] = $_.Count }
 $typeMap  = [ordered]@{}; $final | Group-Object type  | Sort-Object Name | ForEach-Object { $typeMap[$_.Name]  = $_.Count }
+$esMap    = [ordered]@{}; $nodes | Where-Object { $_.satisfiable_from } | Group-Object satisfiable_from | Sort-Object Name | ForEach-Object { $esMap[$_.Name] = $_.Count }
 
 [pscustomobject]@{
-    generated      = (Get-Date).ToString('yyyy-MM-dd')
-    node_count     = $nodes.Count
-    edge_count     = $final.Count
-    nodes_by_kind  = $kindMap
-    nodes_by_layer = $layerMap
-    edges_by_type  = $typeMap
+    generated        = (Get-Date).ToString('yyyy-MM-dd')
+    node_count       = $nodes.Count
+    edge_count       = $final.Count
+    nodes_by_kind    = $kindMap
+    nodes_by_layer   = $layerMap
+    edges_by_type    = $typeMap
+    satisfiable_from = $esMap
 } | ConvertTo-Json -Depth 6 | Set-Content (Join-Path $OutDir 'stats.json') -Encoding utf8
 
 Write-Host "nodes: $($nodes.Count)  edges: $($final.Count)"
 $final | Group-Object type | Sort-Object Count -Descending | ForEach-Object { '  {0,-16} {1}' -f $_.Name, $_.Count }
+if ($esMap.Count) {
+    Write-Host 'satisfiable_from:'
+    $esMap.GetEnumerator() | ForEach-Object { '  {0,-32} {1}' -f $_.Key, $_.Value }
+}

@@ -1,130 +1,134 @@
 # High Velocity Engineering
 
-> A three-year BSc Computer Science programme design, the research it was built from, and the vendor study notes that started it.
-> **AI agents: read [AGENTS.md](AGENTS.md) first, then load [graph/graph.json](graph/graph.json).**
+> A knowledge system about forward-deployed and hypervelocity engineering — and about **how to teach them**.
+>
+> **Agents: read [AGENTS.md](AGENTS.md) first, then load [graph/graph.json](graph/graph.json).**
 
-## Repository map
+Most curricula are a syllabus: a list of topics in an order someone defended once, in a format chosen before the content existed. This is the other thing.
 
-| Path | What it holds | Count |
-|---|---|---|
-| [wiki/](wiki/Home.md) | **The programme.** 9 quarters, 18 modules, 90 seminar days, 90 whitepapers, 13 programme pages. | 221 |
-| [research/](research/99-source-register/source-register.md) | **The evidence.** Cliff Notes on every external source, organised in 9 topic folders plus a source register. | 90 |
-| [sources/](sources/) | **The raw material.** 8 vendor course notes and 3 design-analysis documents. | 11 |
-| [graph/](graph/README.md) | **The index.** A regenerable knowledge graph of every file above. | — |
-| [scripts/](scripts/build-graph.ps1) | Graph builder. Re-run after any structural change. | — |
+It is a body of **claims**, each carrying the evidence that warrants it, the namespace that governs what it may be compared against, and the rate at which it goes stale. Teaching formats are **projected** from that body rather than being the body itself. The three-year BSc in [wiki/](wiki/Home.md) is the first projection and the only finished one — **it is a seed, not the product.** A two-day workshop, a certification path, a thirty-day onboarding plan and an engagement playbook are equally legitimate read models over the same claims.
 
-The three content layers form a citation chain: **sources → research → wiki**. A claim in the wiki cites a research note; a research note cites a source or an external URL. Nothing in the wiki asserts an external fact without one of those two backings, and the [Whitepaper Standard](wiki/program/05-Whitepaper-Standard.md) enforces it.
+331 markdown files, one graph builder, one MCP server. **Every fact lives in the markdown**; the two pieces of code are derived tooling that never writes to the substrate.
 
-The rest of this page is the study-note package that the `sources/` layer came from.
+```mermaid
+flowchart TD
+  S["sources/ · 11<br/>raw vendor and design material"] --> R
+  R["research/ · 90<br/>Cliff Notes — what was verified,<br/>from where, and what the source omits"] --> W
+  R --> P
+  W["wiki/ · 221<br/>the BSc · 90 seminar days + 90 whitepapers"]
+  P["projections/<br/>other read models"]
+  C["concepts/ · 3<br/>namespaces · projections · entry state"] -.governs.-> W
+  C -.governs.-> P
+  W --> G
+  P --> G
+  C --> G
+  G["graph/ · 331 nodes · 6,966 edges<br/>derived · regenerable · never hand-edited"] --> M["mcp/hve-iq<br/>read-only MCP server"] --> A["any agent"]
+```
 
----
+## Start here
 
-# Frontier Transformation Engineer — Study Note Package
+| If you want to | Go to |
+|---|---|
+| Read the programme | [wiki/Home.md](wiki/Home.md) |
+| Check what backs a claim | [research/](research/99-source-register/source-register.md) |
+| Build your own format from this | [concepts/projections.md](concepts/projections.md) |
+| Query it from an agent | [mcp/hve-iq/](mcp/hve-iq/README.md) |
+| Understand the rules the design set itself | [AGENTS.md](AGENTS.md) |
+| See where the vendor study notes went | [sources/README.md](sources/README.md) |
 
-> Complete study notes for the Microsoft **Frontier Transformation Engineer (FTE)** badge learning journey on LevelUp (`skillupwithlevelup.com/frontier`).
-> 11 courses · ~86 hours · 3 phases · compiled 25 July 2026
+## The citation chain
 
----
+**sources → research → wiki.** Every external factual claim in the wiki traces to a Cliff Note; every Cliff Note records what was verified, from where, and **what the source does not say**. This is enforced, not aspirational: all 90 whitepapers close with an `## Evidence status` section sorting every claim into exactly one of four classes.
 
-## What the badge is
+1. **Verified in this repository** — cites a `research/` note.
+2. **Cited from general knowledge, not verified here** — direction and mechanism only.
+3. **Design reasoning with no external warrant** — the design's own argument, marked as such.
+4. **Grounded in vendor documentation, with its version and its silence recorded.**
 
-The Frontier Transformation Engineer badge is Microsoft's partner credential for technical professionals who deliver AI transformation at "Frontier Firm" scale. It validates end‑to‑end capability across Microsoft's advanced AI stack — Microsoft IQ, Microsoft 365 Copilot, Copilot Studio, Microsoft Foundry, Fabric, and Agent 365 — plus the engineering discipline (Hypervelocity Engineering) to ship it.
+There is no fifth class. A claim that fits none of them does not go in.
 
-**Three steps to earn it:** Complete Certifications → Project Ready → Frontier CoE & Hypervelocity Engineering.
+**No effect size is asserted anywhere for an unverified source** — including vendor material. A short list of widely repeated figures is [explicitly prohibited](wiki/program/09-Durable-and-Perishable-Register.md) because no published source substantiates them; they appear in this repository only on the prohibition lists themselves.
 
-### Before you start (prerequisites)
+## Eight namespaces, not one
 
-1. Create your LevelUp account with your **work (MAICPP partner) email** only.
-2. Sign in to **MS Learn with your personal email**, then link your work‑email profile.
-3. Link your MS Learn profile to **Partner Center** so your admin can see your credentials.
+Claims may not be compared across namespaces raw. A Learn page and a learning-science finding are both "evidence" and neither licenses what the other licenses.
 
-> Certification recognition is not immediate — allow **2–3 weeks** after your exam pass date.
-
----
-
-## Journey map
-
-### Phase 1 — Certifications (required: 3 of 3)
-
-| Certification | Hours | Prep course | Study notes |
+| Namespace | Licenses | Decays in | Pages |
 |---|---|---|---|
-| **GH-300: GitHub Copilot** | 10 | LevelUp 1776161 | [07 — GH-300 Prep](./sources/vendor-courses/07-GH-300-GitHub-Copilot-Certification-Prep.md) |
-| **AI-103: Develop AI apps and agents on Azure** | 10 | (no LevelUp prep course; an active **AI-102** is accepted in its place) | — |
-| **AB-100: Agentic AI Business Solutions Architect** | 10 | LevelUp 2426785 | [08 — AB-100 Prep](./sources/vendor-courses/08-AB-100-Agentic-AI-Business-Solutions-Architect-Prep.md) |
+| `platform` | Vendor docs at a stated version, plus what they do **not** report | **months** | 40 |
+| `ai-systems` | Mechanism verified; magnitudes do not transfer | 1–3 years | 4 |
+| `measurement` | Identity under a stated model and interval, with dependency structure | permanent | 79 |
+| `pedagogy` | **Direction and mechanism only. No effect size, ever.** | decades | 39 |
+| `assessment` | Ordinal judgement with narrative substantiation; no percentages | decades | 22 |
+| `fde-craft` | Practice pattern, weak formal warrant | slow | 16 |
+| `curriculum` | Design reasoning and accreditation mapping | years | 12 |
+| `method` | Design reasoning, no external warrant | on amendment | 9 |
 
-Preparation courses are optional; passing the certification exam is what counts. Exams are booked through Microsoft Learn.
+The number worth holding: **212 of 221 wiki pages are platform-bearing, but only 40 have `platform` as their primary namespace.** The durable/perishable split runs *inside* pages, at claim level — which is why [11-Microsoft-AI-Platform-Map.md](wiki/program/11-Microsoft-AI-Platform-Map.md) demands verification before every offering rather than once a term.
 
-### Phase 2 — Project Ready + Assessments (required: 5 of 5)
+Full definitions: [concepts/namespaces.md](concepts/namespaces.md).
 
-Preparation courses are optional; the **Frontier Engineer Assessment for each course is required at ≥ 80%**.
+## Projections
 
-| # | Course | Hours | Type | Study notes | Assessment course ID |
-|---|---|---|---|---|---|
-| 1 | Activate organizational intelligence with Microsoft IQ | 1 | Project Ready | [01](./sources/vendor-courses/01-Activate-Organizational-Intelligence-with-Microsoft-IQ.md) | 2421493 |
-| 2 | Build Frontier Firm productivity with Work IQ, Copilot & agents | 15 | Project Ready + Labs | [02](./sources/vendor-courses/02-Build-Frontier-Firm-Productivity-with-Work-IQ-Copilot-and-Agents.md) | 2431760 |
-| 3 | Accelerate Agentic AI | 15 | Project Ready + Labs | [03](./sources/vendor-courses/03-Accelerate-Agentic-AI.md) | 2431478 |
-| 4 | Microsoft Fabric IQ & Data Agents | 8 | Project Ready + Labs | [04](./sources/vendor-courses/04-Microsoft-Fabric-IQ-and-Data-Agents.md) | 2431757 |
-| 5 | Implement Agent 365 to observe, govern and secure AI apps, Copilot & Agents | 12 | Project Ready + Labs | [05](./sources/vendor-courses/05-Implement-Agent-365-Observe-Govern-Secure.md) | 2431791 |
+A projection may select, sequence, compress and re-voice. It may **not** upgrade an evidence class, assert what the claims do not license, or quietly drop the decay clock. **Abstention is a valid output** — a projection that cannot honestly cover something says so.
 
-### Phase 3 — Frontier CoE & Hypervelocity Engineering (required: 1 of 1)
+- [wiki/](wiki/Home.md) — the BSc. 9 quarters, 18 modules, 90 seminar days, 90 whitepapers, 11 assessed days.
+- [projections/workshop-2day/](projections/workshop-2day/README.md) — ten claims, four explicit abstentions, and a [derivation log](projections/workshop-2day/DERIVATION.md) recording every place the format broke.
 
-| Course | Hours | Status | Study notes |
-|---|---|---|---|
-| **Hypervelocity Engineering Framework** | 1.5 | **Required** — assessment at ≥ 80% | [06](./sources/vendor-courses/06-Hypervelocity-Engineering-Framework.md) |
-| Create AI Center of Excellence | — | Optional · available July 2026 | not yet released |
-| Industry Expertise for building AI agents | — | Optional · available July 2026 | not yet released |
+### What a projection owes its audience
 
----
+Dependencies are not absolute. They are relative to an **entry state**, and the wiki natively encodes only one — the BSc's, which is *knows nothing*. [concepts/entry-state.md](concepts/entry-state.md) classifies all 90 days against a fixed reference professional so other projections can compute their own:
 
-## The eight study-note documents
-
-| File | Covers | Size |
+| Value | Days | The projection must |
 |---|---|---|
-| [01 — Activate Organizational Intelligence with Microsoft IQ](./sources/vendor-courses/01-Activate-Organizational-Intelligence-with-Microsoft-IQ.md) | The Microsoft IQ platform as a unified intelligence layer: Work IQ, Fabric IQ, Foundry IQ, Agent 365; the Sunrise Farms scenario; the partner sales motion | 67 KB |
-| [02 — Build Frontier Firm Productivity with Work IQ, Copilot & Agents](./sources/vendor-courses/02-Build-Frontier-Firm-Productivity-with-Work-IQ-Copilot-and-Agents.md) | Work IQ's four layers, the five M365 Copilot pillars, licensing/E7, Copilot Control System, oversharing remediation, no‑code → pro‑code agent building, five‑step adoption method (ZAVA case study) | 81 KB |
-| [03 — Accelerate Agentic AI](./sources/vendor-courses/03-Accelerate-Agentic-AI.md) | Full agent lifecycle: Copilot Studio and Microsoft Foundry, MCP / A2A / OpenAPI tools, knowledge grounding, Microsoft Agent Framework multi‑agent orchestration, Foundry Control Plane | 110 KB |
-| [04 — Microsoft Fabric IQ & Data Agents](./sources/vendor-courses/04-Microsoft-Fabric-IQ-and-Data-Agents.md) | Ontology, semantic models, graph and digital twins on OneLake; Fabric Data Agents; MCP server/client; Python SDK; Git, CI/CD and ALM for data agents | 58 KB |
-| [05 — Implement Agent 365](./sources/vendor-courses/05-Implement-Agent-365-Observe-Govern-Secure.md) | Observe / Govern / Secure pillars, Entra Agent ID, agent registry and dashboards, Purview DLP, Defender XDR for agents, Security Copilot, Foundry Control Plane, Zero Trust for AI | 87 KB |
-| [06 — Hypervelocity Engineering Framework](./sources/vendor-courses/06-Hypervelocity-Engineering-Framework.md) | **Required assessment.** HVE ways of working, the five‑phase Research‑Plan‑Implement flow, context engineering, Forward Deployed Engineering, Responsible AI, SFI, and the Accelerate/SAFe/SPACE/ESSP measurement frameworks | 70 KB |
-| [07 — GH-300 GitHub Copilot Prep](./sources/vendor-courses/07-GH-300-GitHub-Copilot-Certification-Prep.md) | Copilot fundamentals, prompt engineering, VS Code / Visual Studio features, agent mode across the SDLC, SKU comparison, exam strategy | 72 KB |
-| [08 — AB-100 Agentic AI Business Solutions Architect Prep](./sources/vendor-courses/08-AB-100-Agentic-AI-Business-Solutions-Architect-Prep.md) | AI architect role, agent design patterns, build & deploy with Copilot Studio and Foundry, testing, ALM, responsible AI governance, exam preparation | 106 KB |
+| `ordinary-professional-experience` | **2** | assume silently |
+| `either` | **47** | **declare** as an assumption |
+| `this-programme-only` | **41** | deliver, or drop what depends on it |
 
-Each document follows the same shape: **At a glance → Module map → per‑module notes (what it covers · key concepts · detailed notes · exam pointers) → glossary → labs → pitfalls → self‑test questions with answer key.**
+Two days of ninety can be assumed silently. The consequence for the workshop: its closure falls from **57 days to 23** once it declares its assumptions — and five of the fourteen it must still deliver are the measurement spine, which is the workshop's own subject. That finding came from a mechanical query, not from taste, and it overturned a hand-written estimate that had said three.
 
-`_source-transcripts/` contains the raw underlying course material (on‑screen text plus full English narration transcripts, ~1.9 MB) if you want to check anything against the original wording.
+The register is `method` namespace, has no external warrant, and **has never been tested against a real audience.** Its limitations are stated on the page, including the possibility that it is circular.
 
----
+## HVE IQ
 
-## The five ideas that tie the whole journey together
+A read-only MCP server over the graph, so any agent can consume this — Copilot in an IDE or CLI, a Foundry agent, Copilot Studio, Claude, Cursor. An agent has one consumer; a server has all of them.
 
-1. **Context, not model quality, is the bottleneck.** Every course makes the same argument from a different angle: an agent without organisational context is "a brilliant intern on their first day"; with Microsoft IQ it behaves like "a ten‑year veteran who knows the business." HVE states it as a principle — *output quality is bounded by context quality, not model quality*.
-2. **Three sources of context, one platform.** Work IQ = how your people work. Fabric IQ = how your business operates. Foundry IQ = how your agents unlock knowledge. Learn which layer answers which class of question — this distinction recurs in nearly every assessment.
-3. **Governance is a first‑class design concern, not an afterthought.** Agent 365 (identity via Entra Agent ID, observability, Purview DLP, Defender XDR) and the Foundry Control Plane are presented as the reason enterprises can say yes to agents at all.
-4. **Choose the right build surface.** No‑code Agent Builder → low‑code Copilot Studio → pro‑code Agents Toolkit / Microsoft Foundry. Both AB-100 and the Project Ready courses test the "when would you use which" judgement.
-5. **Delivery discipline is part of the credential.** Hypervelocity Engineering and Forward Deployed Engineering are how the technical capability turns into weeks‑not‑months delivery — and it is the one assessment you cannot skip in Phase 3.
+```bash
+cd mcp/hve-iq && npm install && npm run smoke
+```
 
----
+Registered in [.vscode/mcp.json](.vscode/mcp.json), so in Copilot agent mode you can ask:
 
-## Suggested study plan
+> *"Using hve-iq, what would a two-day workshop on judge bias and criterion construction also have to cover, for an audience of experienced engineers?"*
 
-| Week | Focus | Outcome |
-|---|---|---|
-| 1 | Notes 01 → then 02 (Work IQ / Copilot) | Foundation vocabulary; pass assessments 2421493 and 2431760 |
-| 2 | Notes 03 (Accelerate Agentic AI) | Pass 2431478; you now understand the build surfaces |
-| 3 | Notes 04 (Fabric IQ) + 05 (Agent 365) | Pass 2431757 and 2431791; Phase 2 complete |
-| 4 | Note 06 (HVE) — study hardest, it is mandatory | Pass the Hypervelocity Engineering Framework assessment; Phase 3 complete |
-| 5–7 | Notes 07 and 08 + AI-103/AI-102 self-study on Microsoft Learn | Sit GH-300, AB-100 and AI-103; Phase 1 complete |
+Four tools: `hve_namespaces`, `hve_search`, `hve_get`, and `hve_dependency_closure` — the last being the only one that is not ordinary retrieval. Details and known gaps: [mcp/hve-iq/README.md](mcp/hve-iq/README.md).
 
-Practical notes:
-- Do the **assessments** in Phase 2 even if you skip the preparation courses — only the assessment is required.
-- Leave **2–3 weeks** of slack at the end for certifications to propagate into Partner Center.
-- Start note 06 early if your badge deadline is tight; it is short (1.5 h) but the assessment is rigorous and mandatory.
-- Work through the **self-test questions** at the end of each document before attempting the real knowledge checks — they were written from the same material the checks are drawn from.
+## It corrects itself in public
 
----
+The most valuable and most fragile thing here. Superseded positions stay visible; amendments are annotated where they happened.
 
-## Caveats
+- **Nine instrumentation rules**, each recorded with the failure that produced it ([04-Seminar-Day-Design-Pattern.md](wiki/program/04-Seminar-Day-Design-Pattern.md)).
+- **Rule 5 was found unsatisfiable at design time** and amended twice rather than quietly dropped.
+- A **compliance register** recording where the design broke its own rules, with `Fixed` / `Recorded` / `Discharged` status ([05-Whitepaper-Standard.md](wiki/program/05-Whitepaper-Standard.md)).
+- Specifications close with **"Nothing else is assessed."** — except S001–S040, which predate the rule and are **deliberately left unamended** so the defect that produced it stays legible ([03-Assessment-Architecture.md](wiki/program/03-Assessment-Architecture.md)).
+- Every whitepaper's §8 states at least two objections at their strongest, **concedes at least one**, and names the fix it declined.
+- The workshop projection has now been corrected twice by mechanical queries against its own claims, both corrections kept in view ([DERIVATION.md](projections/workshop-2day/DERIVATION.md)).
 
-- Content reflects the courses as published in **July 2026**. Several capabilities referenced (Agent 365 GA, Microsoft 365 E7 "Frontier Suite", the two optional Phase 3 courses) were dated to May–July 2026 in the material; verify current availability before quoting dates to a customer.
-- The **GH-300 sessions are Cloudweek 2024 recordings** and may lag the current exam objectives — cross‑check against the live GH-300 skills outline on Microsoft Learn.
-- Where a course delivers content only as a live demo, the notes capture the narrated steps rather than screenshots.
+A reader who cannot see the defect cannot evaluate the correction. **When you change something here, add to the record rather than erasing what it replaced.**
+
+## Validate
+
+```powershell
+pwsh ./scripts/build-graph.ps1        # 331 nodes, ~6,966 edges
+cd mcp/hve-iq; npm run smoke          # 18 checks, all must pass
+```
+
+Link integrity should report exactly **3 broken links** — all placeholders inside a fenced code block in the whitepaper standard. The command is in [AGENTS.md](AGENTS.md).
+
+## Open issues, honestly recorded
+
+- **The platform layer is the most perishable content here.** Two of the six vendor sources were already classic or superseded when read; the [study-note package](sources/README.md) they came from reflects July 2026 and needs checking before it is quoted.
+- **The entry-state register is untested** against a real audience and plausibly circular. It is a usable default, not a finding.
+- **Claims are still embedded in prose.** Extraction has not started, so the graph is document-level rather than claim-level — the next real piece of work.
+- **Two rule elevations are unratified** at programme close ([WP-090](wiki/whitepapers/WP-090.md) §7).
+- **WP-090 §8 concedes the instrumentation is probably unexecutable**, and predicts fewer than one in ten of the wiki's own §9 predictions will ever be measured.

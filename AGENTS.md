@@ -7,13 +7,15 @@
 
 A body of knowledge about **forward-deployed engineering and hypervelocity engineering, and how to teach it** — together with the research it was derived from and the vendor study notes that started it.
 
-It is **330 markdown files, one graph builder and one MCP server.** The knowledge layers are markdown and nothing else — the artefact is the argument. The two pieces of code are both **derived tooling**: [scripts/build-graph.ps1](scripts/build-graph.ps1) regenerates the index from the files, and [mcp/hve-iq](mcp/hve-iq/README.md) serves it read-only. **Neither holds a fact of its own, and neither ever writes to the substrate.**
+It is **332 markdown files, one graph builder and one MCP server.** The knowledge layers are markdown and nothing else — the artefact is the argument. The two pieces of code are both **derived tooling**: [scripts/build-graph.ps1](scripts/build-graph.ps1) regenerates the index from the files, and [mcp/hve-iq](mcp/hve-iq/README.md) serves it read-only. **Neither holds a fact of its own, and neither ever writes to the substrate.**
 
 **The three-year BSc programme in `wiki/` is a seed, not the product.** It is one *projection* over the knowledge — the first built and the one that happens to be finished. Other projections (a two-day workshop, certification prep, an engagement playbook, a thirty-day onboarding path) are read models over the same claims and are equally legitimate. An agent asked for a format that is not the BSc is not being asked to invent something; it is being asked to project. See [concepts/projections.md](concepts/projections.md) for what a projection may and may not do.
 
 **The knowledge is eight namespaces, not one.** Each has its own warrant standard, its own decay rate and its own specialization frontier, and **claims may not be compared across them raw**. A Learn page and a learning-science finding are both "evidence" and neither licenses what the other licenses. See [concepts/namespaces.md](concepts/namespaces.md). Every node in the graph carries `primary_namespace`, `namespaces`, `decay` and `platform_bearing`.
 
 The single number worth holding: **212 of 221 wiki pages are platform-bearing, but only 40 have `platform` as their primary namespace.** The durable/perishable split is claim-level inside pages, not page-level.
+
+**A dependency is relative to an assumed entry state**, and the wiki natively encodes only one — the BSc's, which is *knows nothing*. [concepts/entry-state.md](concepts/entry-state.md) classifies all 90 days as `ordinary-professional-experience` (2), `either` (47) or `this-programme-only` (41) against a fixed reference professional, so other projections can compute their own closure. That register is **`method` namespace, has no external warrant, and has never been tested against a real audience** — read its limitations before quoting any number derived from it. It lives in `concepts/` and not in the seminar files on purpose: it is cross-projection, and the seminar files are one projection's substrate.
 
 ## The three layers, and the rule that binds them
 
@@ -56,8 +58,9 @@ It is derived entirely from the files and holds no facts of its own, so it is al
 | Which days teach Azure AI Search? | filter nodes on `platform_anchor` |
 | What decays in months? | filter on `platform_bearing` — **212 pages**, then read their perishability registers |
 | What survives any projection? | filter on `primary_namespace` = `measurement` or `pedagogy` |
-| What does S049 depend on? | follow `retrieves_from` edges out of `wiki/seminars/S049` |
+| What does S049 depend on? | follow `depends_on` edges out of `wiki/seminars/S049` |
 | Which later days retrieve S013? | follow `retrieves_from` edges *into* `wiki/seminars/S013` |
+| What can an experienced audience be assumed to hold? | filter on `satisfiable_from` — only **2 days** may be assumed silently |
 | What evidence backs WP-053? | follow `grounded_in` edges out of it |
 | Which whitepaper documents S070? | follow `documents` / `has_whitepaper` |
 | What is in module M10? | filter nodes on `module`, or follow `part_of` |
@@ -92,11 +95,11 @@ Get-ChildItem -Recurse -Filter *.md | ForEach-Object { $t=Get-Content $_.FullNam
 Expected: **3 hits only**, all placeholders inside a fenced code block in `05-Whitepaper-Standard.md`.
 
 ```powershell
-pwsh ./scripts/build-graph.ps1   # expect 329 nodes, ~6960 edges
+pwsh ./scripts/build-graph.ps1   # expect 332 nodes, ~7020 edges
 ```
 
 ```bash
-cd mcp/hve-iq && npm install && npm run smoke   # 13 checks, all must pass
+cd mcp/hve-iq && npm install && npm run smoke   # 18 checks, all must pass
 ```
 
 ## Known open issues, honestly recorded

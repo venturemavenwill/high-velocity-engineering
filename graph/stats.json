@@ -1,11 +1,11 @@
 {
   "generated": "2026-07-26",
-  "node_count": 330,
-  "edge_count": 6960,
+  "node_count": 332,
+  "edge_count": 7019,
   "nodes_by_kind": {
     "design-analysis": 3,
     "module": 18,
-    "other": 7,
+    "other": 9,
     "program-page": 13,
     "quarter": 9,
     "readme": 1,
@@ -21,8 +21,8 @@
   },
   "nodes_by_layer": {
     "research": 90,
-    "root": 8,
-    "sources": 11,
+    "root": 9,
+    "sources": 12,
     "wiki": 221
   },
   "edges_by_type": {
@@ -30,10 +30,15 @@
     "documents": 90,
     "grounded_in": 598,
     "has_whitepaper": 90,
-    "links_to": 5119,
+    "links_to": 5178,
     "part_of": 443,
     "re_tests": 93,
     "retrieves_from": 309,
     "summarises": 2
+  },
+  "satisfiable_from": {
+    "either": 47,
+    "ordinary-professional-experience": 2,
+    "this-programme-only": 41
   }
 }

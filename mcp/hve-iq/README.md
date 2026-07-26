@@ -38,14 +38,18 @@ Already configured in [.vscode/mcp.json](.vscode/mcp.json). Open Copilot Chat in
 Everything else is retrieval that any RAG system could do. This is not:
 
 ```
-seed:     9 seminar days (a two-day workshop's claims)
-closure:  57 days
-implied:  48 prerequisites
+seed:      9 seminar days (a two-day workshop's claims)
+
+novice                  57 days to cover     — the BSc's entry state
+professional-strict     56 days              — assume only what is reliably held
+professional-declared   23 days + 8 declared — assume what is held informally, and say so
 ```
 
 It follows `depends_on` and deliberately **excludes** `re_tests`. A dependency constrains ordering in *every* format; a re-test only constrains it where there is spacing. Those were one edge type until they were split by hand across all 90 days — see [DERIVATION.md](projections/workshop-2day/DERIVATION.md).
 
-**A dependency is relative to an assumed entry state**, and the one encoded here is the BSc's: *knows nothing*. A projection to experienced practitioners will already satisfy much of any closure — but it must **say which**, rather than leave it implicit. That is what this tool exists to force.
+**Traversal stops at whatever the audience already holds.** If they hold a claim, how they came to hold it is not your projection's problem — so its prerequisites are never walked. Seeds are always expanded, because you are teaching those by choice rather than by prerequisite.
+
+The `entry_state` values come from [concepts/entry-state.md](concepts/entry-state.md), which classifies all 90 days against a fixed reference professional. **Read its limitations before quoting a number.** It is `method` namespace, carries no external warrant, and has never been tested against a real audience — and `must_declare` is not optional output. Those are the claims your audience holds informally and may not hold precisely.
 
 ## What v0 does not do
 
@@ -56,4 +60,4 @@ It follows `depends_on` and deliberately **excludes** `re_tests`. A dependency c
 
 ## Next
 
-`satisfiable_from` on dependency edges — whether a prerequisite can be met from ordinary professional experience or only here. Without it, every projection to a non-novice audience computes a closure that is correct for the BSc and useless for itself.
+Claim extraction, starting with the `platform` namespace — highest volume, fastest decay, most mechanical. Until then every tool here answers at document granularity, which is coarser than the questions people actually ask.

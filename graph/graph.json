@@ -17,8 +17,8 @@
         "Validation",
         "Known open issues, honestly recorded"
       ],
-      "words": 1225,
-      "lines": 108,
+      "words": 1349,
+      "lines": 111,
       "assessment_bearing": true
     },
     {
@@ -28,16 +28,38 @@
       "layer": "root",
       "title": "High Velocity Engineering",
       "headings": [
-        "Repository map",
-        "What the badge is",
-        "Journey map",
-        "The eight study-note documents",
-        "The five ideas that tie the whole journey together",
-        "Suggested study plan",
-        "Caveats"
+        "Start here",
+        "The citation chain",
+        "Eight namespaces, not one",
+        "Projections",
+        "HVE IQ",
+        "It corrects itself in public",
+        "Validate",
+        "Open issues, honestly recorded"
       ],
-      "words": 1624,
-      "lines": 131,
+      "words": 1438,
+      "lines": 135,
+      "assessment_bearing": false
+    },
+    {
+      "id": "concepts/entry-state",
+      "path": "concepts/entry-state.md",
+      "kind": "other",
+      "layer": "root",
+      "title": "Entry state and `satisfiable_from`",
+      "headings": [
+        "Why the field exists",
+        "The reference entry state",
+        "The three values, and what each obliges a projection to do",
+        "Why the field is on the day and not on the edge",
+        "The register",
+        "What the distribution says",
+        "Limitations — read these before using the register",
+        "Falsifiable prediction",
+        "Related pages"
+      ],
+      "words": 2971,
+      "lines": 170,
       "assessment_bearing": false
     },
     {
@@ -54,7 +76,7 @@
         "Specialization frontiers",
         "Related"
       ],
-      "words": 1013,
+      "words": 1017,
       "lines": 70,
       "assessment_bearing": false
     },
@@ -72,7 +94,7 @@
         "The order of work",
         "Related"
       ],
-      "words": 1093,
+      "words": 1097,
       "lines": 82,
       "assessment_bearing": false
     },
@@ -108,8 +130,8 @@
         "What v0 does not do",
         "Next"
       ],
-      "words": 520,
-      "lines": 60,
+      "words": 598,
+      "lines": 64,
       "assessment_bearing": false
     },
     {
@@ -130,10 +152,15 @@
         "What it means",
         "The field this adds to the schema",
         "What changed as a result",
-        "What this says about the method"
+        "What this says about the method",
+        "What was measured",
+        "The first finding: declaring is worth 33 days, and strictness is worth one",
+        "The second finding: the workshop under-counted its own gap, again",
+        "The third finding, which is the uncomfortable one",
+        "What this costs the register"
       ],
-      "words": 1630,
-      "lines": 124,
+      "words": 2142,
+      "lines": 169,
       "assessment_bearing": false
     },
     {
@@ -152,8 +179,8 @@
         "Fidelity",
         "Related"
       ],
-      "words": 1553,
-      "lines": 117,
+      "words": 1753,
+      "lines": 133,
       "assessment_bearing": false
     },
     {
@@ -2437,6 +2464,23 @@
       "assessment_bearing": false
     },
     {
+      "id": "sources/README",
+      "path": "sources/README.md",
+      "kind": "other",
+      "layer": "sources",
+      "title": "Sources — the raw material",
+      "headings": [
+        "What the badge is",
+        "Journey map",
+        "The eight documents",
+        "Suggested study plan",
+        "The five ideas the journey keeps returning to"
+      ],
+      "words": 1217,
+      "lines": 100,
+      "assessment_bearing": false
+    },
+    {
       "id": "sources/design-analysis/09-Curriculum-Design-Benchmark-and-Sources",
       "path": "sources/design-analysis/09-Curriculum-Design-Benchmark-and-Sources.md",
       "kind": "design-analysis",
@@ -2733,8 +2777,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "pedagogy": 2,
-        "platform": 1,
         "measurement": 1,
+        "platform": 1,
         "curriculum": 1
       },
       "primary_namespace": "pedagogy",
@@ -2779,8 +2823,8 @@
       "assessment_bearing": true,
       "namespaces": {
         "pedagogy": 2,
-        "platform": 1,
         "assessment": 1,
+        "platform": 1,
         "curriculum": 1
       },
       "primary_namespace": "pedagogy",
@@ -2823,14 +2867,14 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
+        "platform": 1,
         "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually"
     },
     {
       "id": "wiki/modules/M04",
@@ -2871,15 +2915,15 @@
       ],
       "assessment_bearing": true,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "fde-craft": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually"
     },
     {
       "id": "wiki/modules/M05",
@@ -2917,15 +2961,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "fde-craft": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually"
     },
     {
       "id": "wiki/modules/M06",
@@ -2964,15 +3008,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "assessment": 1,
         "measurement": 1,
+        "platform": 1,
         "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "assessment",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "decades",
+      "verify_cadence": "3 years"
     },
     {
       "id": "wiki/modules/M07",
@@ -3015,8 +3059,8 @@
       "namespaces": {
         "platform": 2,
         "ai-systems": 1,
-        "fde-craft": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -3062,14 +3106,14 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "fde-craft": 1,
+        "curriculum": 1,
         "pedagogy": 1,
-        "curriculum": 1
+        "fde-craft": 1
       },
-      "primary_namespace": "fde-craft",
+      "primary_namespace": "curriculum",
       "platform_bearing": true,
-      "decay": "slow",
-      "verify_cadence": "3 years"
+      "decay": "years",
+      "verify_cadence": "annually"
     },
     {
       "id": "wiki/modules/M09",
@@ -3110,15 +3154,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "curriculum": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1,
+        "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually"
     },
     {
       "id": "wiki/modules/M10",
@@ -3158,15 +3202,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "assessment": 1,
         "measurement": 1,
+        "platform": 1,
         "pedagogy": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "assessment",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "decades",
+      "verify_cadence": "3 years"
     },
     {
       "id": "wiki/modules/M11",
@@ -3206,15 +3250,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "pedagogy": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1,
+        "pedagogy": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually"
     },
     {
       "id": "wiki/modules/M12",
@@ -3255,16 +3299,16 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
+        "measurement": 1,
+        "platform": 1,
         "pedagogy": 1,
-        "curriculum": 1,
-        "measurement": 1
+        "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually"
     },
     {
       "id": "wiki/modules/M13",
@@ -3306,8 +3350,8 @@
       "namespaces": {
         "platform": 3,
         "ai-systems": 1,
-        "pedagogy": 1,
-        "measurement": 1
+        "measurement": 1,
+        "pedagogy": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -3354,9 +3398,9 @@
       "namespaces": {
         "platform": 2,
         "ai-systems": 1,
+        "measurement": 1,
         "pedagogy": 1,
-        "assessment": 1,
-        "measurement": 1
+        "assessment": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -3403,8 +3447,8 @@
         "platform": 4,
         "ai-systems": 3,
         "curriculum": 2,
-        "pedagogy": 1,
-        "measurement": 1
+        "measurement": 1,
+        "pedagogy": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -3451,10 +3495,10 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 3,
-        "assessment": 1,
         "ai-systems": 1,
-        "pedagogy": 1,
-        "measurement": 1
+        "assessment": 1,
+        "measurement": 1,
+        "pedagogy": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -3497,17 +3541,17 @@
       ],
       "assessment_bearing": true,
       "namespaces": {
+        "fde-craft": 1,
         "curriculum": 1,
         "platform": 1,
-        "fde-craft": 1,
+        "measurement": 1,
         "pedagogy": 1,
-        "assessment": 1,
-        "measurement": 1
+        "assessment": 1
       },
-      "primary_namespace": "curriculum",
+      "primary_namespace": "fde-craft",
       "platform_bearing": true,
-      "decay": "years",
-      "verify_cadence": "annually"
+      "decay": "slow",
+      "verify_cadence": "3 years"
     },
     {
       "id": "wiki/modules/M18",
@@ -3550,16 +3594,16 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "measurement": 1,
         "assessment": 1,
-        "fde-craft": 1,
+        "curriculum": 1,
+        "measurement": 1,
         "pedagogy": 1,
-        "curriculum": 1
+        "fde-craft": 1
       },
-      "primary_namespace": "measurement",
+      "primary_namespace": "assessment",
       "platform_bearing": true,
-      "decay": "permanent",
-      "verify_cadence": "on amendment"
+      "decay": "decades",
+      "verify_cadence": "3 years"
     },
     {
       "id": "wiki/program/00-Program-Charter",
@@ -3613,14 +3657,14 @@
       "lines": 156,
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "assessment": 1,
+        "platform": 1,
         "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "assessment",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "decades",
+      "verify_cadence": "3 years"
     },
     {
       "id": "wiki/program/02-Learning-Science-Foundations",
@@ -3775,9 +3819,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "ai-systems": 1,
+        "curriculum": 1,
         "measurement": 1,
-        "fde-craft": 1,
-        "curriculum": 1
+        "fde-craft": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": false,
@@ -3890,13 +3934,13 @@
       "lines": 148,
       "assessment_bearing": false,
       "namespaces": {
-        "curriculum": 1,
-        "platform": 1
+        "platform": 1,
+        "curriculum": 1
       },
-      "primary_namespace": "curriculum",
+      "primary_namespace": "platform",
       "platform_bearing": true,
-      "decay": "years",
-      "verify_cadence": "annually"
+      "decay": "months",
+      "verify_cadence": "before every offering"
     },
     {
       "id": "wiki/program/11-Microsoft-AI-Platform-Map",
@@ -4330,7 +4374,8 @@
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
       "decay": "decades",
-      "verify_cadence": "3 years"
+      "verify_cadence": "3 years",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S002",
@@ -4373,13 +4418,14 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "curriculum": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "curriculum": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
       "decay": "months",
-      "verify_cadence": "before every offering"
+      "verify_cadence": "before every offering",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S003",
@@ -4420,14 +4466,15 @@
       "re_tests_raw": "S002",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "measurement": 1,
+        "platform": 1,
         "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "permanent",
+      "verify_cadence": "on amendment",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S004",
@@ -4467,15 +4514,16 @@
       "re_tests_raw": "S002, S003",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "assessment": 1,
-        "curriculum": 1,
-        "pedagogy": 1
+        "platform": 1,
+        "pedagogy": 1,
+        "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "assessment",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "decades",
+      "verify_cadence": "3 years",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S005",
@@ -4516,16 +4564,17 @@
       "re_tests_raw": "S001, S003",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
+        "curriculum": 1,
         "measurement": 1,
-        "fde-craft": 1,
+        "platform": 1,
         "pedagogy": 1,
-        "curriculum": 1
+        "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "curriculum",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "years",
+      "verify_cadence": "annually",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S006",
@@ -4567,14 +4616,15 @@
       "assessment_bearing": false,
       "namespaces": {
         "pedagogy": 2,
+        "curriculum": 1,
         "platform": 1,
-        "fde-craft": 1,
-        "curriculum": 1
+        "fde-craft": 1
       },
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
       "decay": "decades",
-      "verify_cadence": "3 years"
+      "verify_cadence": "3 years",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S007",
@@ -4617,13 +4667,14 @@
       "namespaces": {
         "pedagogy": 2,
         "assessment": 1,
-        "fde-craft": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
       "decay": "decades",
-      "verify_cadence": "3 years"
+      "verify_cadence": "3 years",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S008",
@@ -4668,7 +4719,8 @@
       "primary_namespace": "platform",
       "platform_bearing": true,
       "decay": "months",
-      "verify_cadence": "before every offering"
+      "verify_cadence": "before every offering",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S009",
@@ -4714,7 +4766,8 @@
       "primary_namespace": "platform",
       "platform_bearing": true,
       "decay": "months",
-      "verify_cadence": "before every offering"
+      "verify_cadence": "before every offering",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S010",
@@ -4757,13 +4810,14 @@
       "assessment_bearing": true,
       "namespaces": {
         "assessment": 1,
-        "fde-craft": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "assessment",
       "platform_bearing": true,
       "decay": "decades",
-      "verify_cadence": "3 years"
+      "verify_cadence": "3 years",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S011",
@@ -4805,14 +4859,15 @@
       "depends_on_raw": "S003, S007",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
+        "platform": 1,
         "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S012",
@@ -4855,14 +4910,15 @@
       "re_tests_raw": "S005",
       "assessment_bearing": false,
       "namespaces": {
-        "assessment": 1,
         "ai-systems": 1,
+        "assessment": 1,
         "fde-craft": 1
       },
-      "primary_namespace": "assessment",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "decades",
-      "verify_cadence": "3 years"
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S013",
@@ -4904,16 +4960,17 @@
       "re_tests_raw": "S011, S012",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
-        "assessment": 1,
         "ai-systems": 1,
-        "fde-craft": 1,
-        "measurement": 1
+        "assessment": 1,
+        "measurement": 1,
+        "platform": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S014",
@@ -4955,13 +5012,14 @@
       "assessment_bearing": false,
       "namespaces": {
         "ai-systems": 1,
-        "fde-craft": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
       "decay": "1-3 years",
-      "verify_cadence": "annually"
+      "verify_cadence": "annually",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S015",
@@ -5004,14 +5062,15 @@
       "re_tests_raw": "S009",
       "assessment_bearing": false,
       "namespaces": {
-        "fde-craft": 1,
+        "curriculum": 1,
         "pedagogy": 1,
-        "curriculum": 1
+        "fde-craft": 1
       },
-      "primary_namespace": "fde-craft",
+      "primary_namespace": "curriculum",
       "platform_bearing": true,
-      "decay": "slow",
-      "verify_cadence": "3 years"
+      "decay": "years",
+      "verify_cadence": "annually",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S016",
@@ -5052,14 +5111,15 @@
       "re_tests_raw": "S011",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
+        "platform": 1,
         "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S017",
@@ -5101,15 +5161,16 @@
       "re_tests_raw": "S007",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "fde-craft": 1,
-        "pedagogy": 1
+        "platform": 1,
+        "pedagogy": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S018",
@@ -5149,15 +5210,16 @@
       "depends_on_raw": "S013, S016, S017",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S019",
@@ -5199,15 +5261,16 @@
       "re_tests_raw": "S012, S017",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S020",
@@ -5252,16 +5315,17 @@
       "re_tests_raw": "S009, S015",
       "assessment_bearing": true,
       "namespaces": {
-        "platform": 1,
-        "assessment": 1,
         "ai-systems": 1,
-        "fde-craft": 1,
-        "pedagogy": 1
+        "assessment": 1,
+        "platform": 1,
+        "pedagogy": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S021",
@@ -5302,15 +5366,16 @@
       "re_tests_raw": "S014",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "fde-craft": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S022",
@@ -5351,15 +5416,16 @@
       "re_tests_raw": "S019, S021",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
         "measurement": 1,
+        "platform": 1,
         "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S023",
@@ -5400,15 +5466,16 @@
       "re_tests_raw": "S005",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "fde-craft": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S024",
@@ -5449,16 +5516,17 @@
       "depends_on_raw": "S023",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
-        "assessment": 1,
         "ai-systems": 1,
-        "fde-craft": 1,
-        "pedagogy": 1
+        "assessment": 1,
+        "platform": 1,
+        "pedagogy": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S025",
@@ -5500,15 +5568,16 @@
       "re_tests_raw": "S015",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
         "measurement": 1,
+        "platform": 1,
         "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S026",
@@ -5551,14 +5620,15 @@
       "re_tests_raw": "S001, S009",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "measurement": 1,
+        "platform": 1,
         "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "permanent",
+      "verify_cadence": "on amendment",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S027",
@@ -5600,14 +5670,15 @@
       "re_tests_raw": "S019, S022",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "measurement": 1,
+        "platform": 1,
         "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "permanent",
+      "verify_cadence": "on amendment",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S028",
@@ -5647,15 +5718,16 @@
       "depends_on_raw": "S026, S027",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "assessment": 1,
         "measurement": 1,
+        "platform": 1,
         "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "assessment",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "decades",
+      "verify_cadence": "3 years",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S029",
@@ -5697,13 +5769,14 @@
       "re_tests_raw": "S009, S015",
       "assessment_bearing": false,
       "namespaces": {
-        "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "fde-craft",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "slow",
-      "verify_cadence": "3 years"
+      "decay": "permanent",
+      "verify_cadence": "on amendment",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S030",
@@ -5747,14 +5820,15 @@
       "re_tests_raw": "S020, S025",
       "assessment_bearing": true,
       "namespaces": {
-        "measurement": 1,
         "assessment": 1,
+        "measurement": 1,
         "pedagogy": 1
       },
-      "primary_namespace": "measurement",
+      "primary_namespace": "assessment",
       "platform_bearing": true,
-      "decay": "permanent",
-      "verify_cadence": "on amendment"
+      "decay": "decades",
+      "verify_cadence": "3 years",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S031",
@@ -5801,7 +5875,8 @@
       "primary_namespace": "platform",
       "platform_bearing": true,
       "decay": "months",
-      "verify_cadence": "before every offering"
+      "verify_cadence": "before every offering",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S032",
@@ -5849,7 +5924,8 @@
       "primary_namespace": "platform",
       "platform_bearing": true,
       "decay": "months",
-      "verify_cadence": "before every offering"
+      "verify_cadence": "before every offering",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S033",
@@ -5897,7 +5973,8 @@
       "primary_namespace": "platform",
       "platform_bearing": true,
       "decay": "months",
-      "verify_cadence": "before every offering"
+      "verify_cadence": "before every offering",
+      "satisfiable_from": "ordinary-professional-experience"
     },
     {
       "id": "wiki/seminars/S034",
@@ -5944,7 +6021,8 @@
       "primary_namespace": "platform",
       "platform_bearing": true,
       "decay": "months",
-      "verify_cadence": "before every offering"
+      "verify_cadence": "before every offering",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S035",
@@ -5990,15 +6068,16 @@
       "re_tests_raw": "S028, S032, S033",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S036",
@@ -6041,14 +6120,15 @@
       "assessment_bearing": false,
       "namespaces": {
         "pedagogy": 2,
-        "platform": 1,
         "measurement": 1,
+        "platform": 1,
         "fde-craft": 1
       },
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
       "decay": "decades",
-      "verify_cadence": "3 years"
+      "verify_cadence": "3 years",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S037",
@@ -6088,15 +6168,16 @@
       "depends_on_raw": "S036",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "measurement": 1,
-        "fde-craft": 1,
-        "pedagogy": 1
+        "platform": 1,
+        "pedagogy": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "permanent",
+      "verify_cadence": "on amendment",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S038",
@@ -6139,15 +6220,16 @@
       "re_tests_raw": "S015",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "fde-craft": 1,
-        "pedagogy": 1
+        "platform": 1,
+        "pedagogy": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S039",
@@ -6189,13 +6271,14 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "fde-craft": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
       "decay": "months",
-      "verify_cadence": "before every offering"
+      "verify_cadence": "before every offering",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S040",
@@ -6242,14 +6325,15 @@
       "assessment_bearing": true,
       "namespaces": {
         "pedagogy": 2,
-        "platform": 1,
         "assessment": 1,
+        "platform": 1,
         "fde-craft": 1
       },
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
       "decay": "decades",
-      "verify_cadence": "3 years"
+      "verify_cadence": "3 years",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S041",
@@ -6292,14 +6376,15 @@
       "re_tests_raw": "S009, S026",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S042",
@@ -6341,14 +6426,15 @@
       "re_tests_raw": "S028, S029",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S043",
@@ -6390,14 +6476,15 @@
       "re_tests_raw": "S027, S041",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S044",
@@ -6447,7 +6534,8 @@
       "primary_namespace": "platform",
       "platform_bearing": true,
       "decay": "months",
-      "verify_cadence": "before every offering"
+      "verify_cadence": "before every offering",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S045",
@@ -6494,15 +6582,16 @@
       "re_tests_raw": "S030, S040",
       "assessment_bearing": true,
       "namespaces": {
-        "platform": 1,
         "assessment": 1,
         "measurement": 1,
+        "platform": 1,
         "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "assessment",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "decades",
+      "verify_cadence": "3 years",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S046",
@@ -6544,15 +6633,16 @@
       "depends_on_raw": "S026, S036, S037",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "measurement": 1,
-        "fde-craft": 1,
-        "pedagogy": 1
+        "platform": 1,
+        "pedagogy": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "permanent",
+      "verify_cadence": "on amendment",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S047",
@@ -6594,14 +6684,15 @@
       "re_tests_raw": "S042",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "measurement": 1,
+        "platform": 1,
         "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "permanent",
+      "verify_cadence": "on amendment",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S048",
@@ -6649,7 +6740,8 @@
       "primary_namespace": "measurement",
       "platform_bearing": true,
       "decay": "permanent",
-      "verify_cadence": "on amendment"
+      "verify_cadence": "on amendment",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S049",
@@ -6695,7 +6787,8 @@
       "primary_namespace": "measurement",
       "platform_bearing": true,
       "decay": "permanent",
-      "verify_cadence": "on amendment"
+      "verify_cadence": "on amendment",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S050",
@@ -6738,15 +6831,16 @@
       "re_tests_raw": "S024, S030, S047",
       "assessment_bearing": true,
       "namespaces": {
-        "platform": 1,
-        "measurement": 1,
         "assessment": 1,
+        "measurement": 1,
+        "platform": 1,
         "pedagogy": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "assessment",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "decades",
+      "verify_cadence": "3 years",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S051",
@@ -6789,15 +6883,16 @@
       "re_tests_raw": "S016, S041",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "curriculum": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1,
+        "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S052",
@@ -6838,14 +6933,15 @@
       "re_tests_raw": "S012",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S053",
@@ -6888,15 +6984,16 @@
       "re_tests_raw": "S043, S051",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "curriculum": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1,
+        "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S054",
@@ -6938,15 +7035,16 @@
       "re_tests_raw": "S042, S053",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "pedagogy": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1,
+        "pedagogy": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S055",
@@ -6987,15 +7085,16 @@
       "depends_on_raw": "S024, S050, S054",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "pedagogy": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1,
+        "pedagogy": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S056",
@@ -7041,7 +7140,8 @@
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
       "decay": "1-3 years",
-      "verify_cadence": "annually"
+      "verify_cadence": "annually",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S057",
@@ -7082,16 +7182,17 @@
       "depends_on_raw": "S051, S052, S056",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
-        "measurement": 1,
         "ai-systems": 1,
-        "curriculum": 1,
-        "pedagogy": 1
+        "measurement": 1,
+        "platform": 1,
+        "pedagogy": 1,
+        "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S058",
@@ -7137,7 +7238,8 @@
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
       "decay": "1-3 years",
-      "verify_cadence": "annually"
+      "verify_cadence": "annually",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S059",
@@ -7180,14 +7282,15 @@
       "assessment_bearing": false,
       "namespaces": {
         "measurement": 3,
-        "platform": 1,
         "ai-systems": 1,
+        "platform": 1,
         "pedagogy": 1
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
       "decay": "permanent",
-      "verify_cadence": "on amendment"
+      "verify_cadence": "on amendment",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S060",
@@ -7234,16 +7337,17 @@
       "assessment_bearing": true,
       "namespaces": {
         "curriculum": 1,
-        "platform": 1,
         "ai-systems": 1,
+        "measurement": 1,
         "pedagogy": 1,
         "assessment": 1,
-        "measurement": 1
+        "platform": 1
       },
       "primary_namespace": "curriculum",
       "platform_bearing": true,
       "decay": "years",
-      "verify_cadence": "annually"
+      "verify_cadence": "annually",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S061",
@@ -7291,7 +7395,8 @@
       "primary_namespace": "platform",
       "platform_bearing": true,
       "decay": "months",
-      "verify_cadence": "before every offering"
+      "verify_cadence": "before every offering",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S062",
@@ -7337,7 +7442,8 @@
       "primary_namespace": "platform",
       "platform_bearing": true,
       "decay": "months",
-      "verify_cadence": "before every offering"
+      "verify_cadence": "before every offering",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S063",
@@ -7378,15 +7484,16 @@
       "depends_on_raw": "S018, S061, S062",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "curriculum": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1,
+        "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S064",
@@ -7433,7 +7540,8 @@
       "primary_namespace": "platform",
       "platform_bearing": true,
       "decay": "months",
-      "verify_cadence": "before every offering"
+      "verify_cadence": "before every offering",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S065",
@@ -7477,16 +7585,17 @@
       "assessment_bearing": true,
       "namespaces": {
         "curriculum": 1,
-        "platform": 1,
         "ai-systems": 1,
+        "measurement": 1,
         "pedagogy": 1,
         "assessment": 1,
-        "measurement": 1
+        "platform": 1
       },
       "primary_namespace": "curriculum",
       "platform_bearing": true,
       "decay": "years",
-      "verify_cadence": "annually"
+      "verify_cadence": "annually",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S066",
@@ -7533,7 +7642,8 @@
       "primary_namespace": "platform",
       "platform_bearing": true,
       "decay": "months",
-      "verify_cadence": "before every offering"
+      "verify_cadence": "before every offering",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S067",
@@ -7582,7 +7692,8 @@
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
       "decay": "1-3 years",
-      "verify_cadence": "annually"
+      "verify_cadence": "annually",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S068",
@@ -7625,15 +7736,16 @@
       "depends_on_raw": "S027, S033, S035, S067",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "measurement": 1,
-        "curriculum": 1,
-        "pedagogy": 1
+        "platform": 1,
+        "pedagogy": 1,
+        "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "permanent",
+      "verify_cadence": "on amendment",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S069",
@@ -7676,17 +7788,18 @@
       "depends_on_raw": "S039, S046, S066, S068",
       "assessment_bearing": false,
       "namespaces": {
+        "fde-craft": 1,
         "curriculum": 1,
         "platform": 1,
-        "fde-craft": 1,
+        "measurement": 1,
         "pedagogy": 1,
-        "assessment": 1,
-        "measurement": 1
+        "assessment": 1
       },
-      "primary_namespace": "curriculum",
+      "primary_namespace": "fde-craft",
       "platform_bearing": true,
-      "decay": "years",
-      "verify_cadence": "annually"
+      "decay": "slow",
+      "verify_cadence": "3 years",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S070",
@@ -7731,14 +7844,15 @@
       "assessment_bearing": true,
       "namespaces": {
         "curriculum": 2,
-        "measurement": 1,
         "assessment": 1,
+        "measurement": 1,
         "pedagogy": 1
       },
       "primary_namespace": "curriculum",
       "platform_bearing": true,
       "decay": "years",
-      "verify_cadence": "annually"
+      "verify_cadence": "annually",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S071",
@@ -7781,14 +7895,15 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 3,
-        "measurement": 1,
         "ai-systems": 1,
+        "measurement": 1,
         "pedagogy": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
       "decay": "months",
-      "verify_cadence": "before every offering"
+      "verify_cadence": "before every offering",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S072",
@@ -7831,13 +7946,14 @@
       "namespaces": {
         "platform": 3,
         "ai-systems": 1,
-        "curriculum": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "curriculum": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
       "decay": "months",
-      "verify_cadence": "before every offering"
+      "verify_cadence": "before every offering",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S073",
@@ -7888,7 +8004,8 @@
       "primary_namespace": "platform",
       "platform_bearing": true,
       "decay": "months",
-      "verify_cadence": "before every offering"
+      "verify_cadence": "before every offering",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S074",
@@ -7938,7 +8055,8 @@
       "primary_namespace": "platform",
       "platform_bearing": true,
       "decay": "months",
-      "verify_cadence": "before every offering"
+      "verify_cadence": "before every offering",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S075",
@@ -7987,7 +8105,8 @@
       "primary_namespace": "measurement",
       "platform_bearing": true,
       "decay": "permanent",
-      "verify_cadence": "on amendment"
+      "verify_cadence": "on amendment",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S076",
@@ -8030,15 +8149,16 @@
       "re_tests_raw": "S071",
       "assessment_bearing": false,
       "namespaces": {
-        "assessment": 1,
         "ai-systems": 1,
-        "pedagogy": 1,
-        "measurement": 1
+        "assessment": 1,
+        "measurement": 1,
+        "pedagogy": 1
       },
-      "primary_namespace": "assessment",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "decades",
-      "verify_cadence": "3 years"
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S077",
@@ -8080,16 +8200,17 @@
       "depends_on_raw": "S043, S064, S076",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
-        "assessment": 1,
         "ai-systems": 1,
-        "pedagogy": 1,
-        "measurement": 1
+        "assessment": 1,
+        "measurement": 1,
+        "platform": 1,
+        "pedagogy": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S078",
@@ -8137,7 +8258,8 @@
       "primary_namespace": "platform",
       "platform_bearing": true,
       "decay": "months",
-      "verify_cadence": "before every offering"
+      "verify_cadence": "before every offering",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S079",
@@ -8180,16 +8302,17 @@
       "re_tests_raw": "S027, S075",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "assessment": 1,
         "measurement": 1,
-        "curriculum": 1,
-        "pedagogy": 1
+        "platform": 1,
+        "pedagogy": 1,
+        "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "assessment",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "decades",
+      "verify_cadence": "3 years",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S080",
@@ -8234,16 +8357,17 @@
       "re_tests_raw": "S076",
       "assessment_bearing": true,
       "namespaces": {
-        "measurement": 1,
         "assessment": 1,
-        "fde-craft": 1,
+        "curriculum": 1,
+        "measurement": 1,
         "pedagogy": 1,
-        "curriculum": 1
+        "fde-craft": 1
       },
-      "primary_namespace": "measurement",
+      "primary_namespace": "assessment",
       "platform_bearing": true,
-      "decay": "permanent",
-      "verify_cadence": "on amendment"
+      "decay": "decades",
+      "verify_cadence": "3 years",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S081",
@@ -8285,13 +8409,14 @@
       "namespaces": {
         "fde-craft": 4,
         "pedagogy": 2,
-        "platform": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1
       },
       "primary_namespace": "fde-craft",
       "platform_bearing": true,
       "decay": "slow",
-      "verify_cadence": "3 years"
+      "verify_cadence": "3 years",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S082",
@@ -8333,13 +8458,14 @@
       "namespaces": {
         "fde-craft": 3,
         "pedagogy": 2,
-        "platform": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "platform": 1
       },
       "primary_namespace": "fde-craft",
       "platform_bearing": true,
       "decay": "slow",
-      "verify_cadence": "3 years"
+      "verify_cadence": "3 years",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S083",
@@ -8383,15 +8509,16 @@
       "assessment_bearing": false,
       "namespaces": {
         "measurement": 4,
-        "fde-craft": 2,
         "pedagogy": 2,
-        "platform": 1,
-        "assessment": 1
+        "fde-craft": 2,
+        "assessment": 1,
+        "platform": 1
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
       "decay": "permanent",
-      "verify_cadence": "on amendment"
+      "verify_cadence": "on amendment",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S084",
@@ -8433,13 +8560,14 @@
       "namespaces": {
         "fde-craft": 5,
         "pedagogy": 2,
-        "platform": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1
       },
       "primary_namespace": "fde-craft",
       "platform_bearing": true,
       "decay": "slow",
-      "verify_cadence": "3 years"
+      "verify_cadence": "3 years",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S085",
@@ -8486,7 +8614,8 @@
       "primary_namespace": "platform",
       "platform_bearing": true,
       "decay": "months",
-      "verify_cadence": "before every offering"
+      "verify_cadence": "before every offering",
+      "satisfiable_from": "ordinary-professional-experience"
     },
     {
       "id": "wiki/seminars/S086",
@@ -8529,14 +8658,15 @@
       "namespaces": {
         "fde-craft": 4,
         "pedagogy": 2,
-        "platform": 1,
+        "curriculum": 1,
         "measurement": 1,
-        "curriculum": 1
+        "platform": 1
       },
       "primary_namespace": "fde-craft",
       "platform_bearing": true,
       "decay": "slow",
-      "verify_cadence": "3 years"
+      "verify_cadence": "3 years",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S087",
@@ -8580,15 +8710,16 @@
       "assessment_bearing": false,
       "namespaces": {
         "pedagogy": 3,
-        "platform": 1,
         "ai-systems": 1,
-        "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
       "decay": "decades",
-      "verify_cadence": "3 years"
+      "verify_cadence": "3 years",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S088",
@@ -8639,7 +8770,8 @@
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
       "decay": "decades",
-      "verify_cadence": "3 years"
+      "verify_cadence": "3 years",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/seminars/S089",
@@ -8683,14 +8815,15 @@
       "namespaces": {
         "fde-craft": 4,
         "assessment": 2,
-        "platform": 1,
         "ai-systems": 1,
+        "platform": 1,
         "pedagogy": 1
       },
       "primary_namespace": "fde-craft",
       "platform_bearing": true,
       "decay": "slow",
-      "verify_cadence": "3 years"
+      "verify_cadence": "3 years",
+      "satisfiable_from": "either"
     },
     {
       "id": "wiki/seminars/S090",
@@ -8746,7 +8879,8 @@
       "primary_namespace": "assessment",
       "platform_bearing": true,
       "decay": "decades",
-      "verify_cadence": "3 years"
+      "verify_cadence": "3 years",
+      "satisfiable_from": "this-programme-only"
     },
     {
       "id": "wiki/whitepapers/WP-001",
@@ -8784,8 +8918,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "pedagogy": 3,
-        "curriculum": 1,
-        "platform": 1
+        "platform": 1,
+        "curriculum": 1
       },
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
@@ -8834,8 +8968,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "curriculum": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "curriculum": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -8883,14 +9017,14 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "measurement": 1,
+        "platform": 1,
         "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "permanent",
+      "verify_cadence": "on amendment",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -8933,15 +9067,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "assessment": 1,
-        "curriculum": 1,
-        "pedagogy": 1
+        "platform": 1,
+        "pedagogy": 1,
+        "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "assessment",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "decades",
+      "verify_cadence": "3 years",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -8984,16 +9118,16 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
+        "curriculum": 1,
         "measurement": 1,
-        "fde-craft": 1,
+        "platform": 1,
         "pedagogy": 1,
-        "curriculum": 1
+        "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "curriculum",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -9037,9 +9171,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "pedagogy": 2,
+        "curriculum": 1,
         "platform": 1,
-        "fde-craft": 1,
-        "curriculum": 1
+        "fde-craft": 1
       },
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
@@ -9089,8 +9223,8 @@
       "namespaces": {
         "pedagogy": 2,
         "assessment": 1,
-        "fde-craft": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
@@ -9137,15 +9271,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "assessment": 1,
-        "curriculum": 1,
-        "pedagogy": 1
+        "platform": 1,
+        "pedagogy": 1,
+        "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "assessment",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "decades",
+      "verify_cadence": "3 years",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -9189,8 +9323,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "assessment": 1,
-        "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "assessment",
       "platform_bearing": true,
@@ -9239,8 +9373,8 @@
       "assessment_bearing": true,
       "namespaces": {
         "assessment": 1,
-        "fde-craft": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "assessment",
       "platform_bearing": true,
@@ -9289,14 +9423,14 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
+        "platform": 1,
         "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -9340,14 +9474,14 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "assessment": 1,
         "ai-systems": 1,
+        "assessment": 1,
         "fde-craft": 1
       },
-      "primary_namespace": "assessment",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "decades",
-      "verify_cadence": "3 years",
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -9390,16 +9524,16 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
-        "assessment": 1,
         "ai-systems": 1,
-        "fde-craft": 1,
-        "measurement": 1
+        "assessment": 1,
+        "measurement": 1,
+        "platform": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -9443,8 +9577,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "ai-systems": 1,
-        "fde-craft": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -9493,14 +9627,14 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "fde-craft": 1,
+        "curriculum": 1,
         "pedagogy": 1,
-        "curriculum": 1
+        "fde-craft": 1
       },
-      "primary_namespace": "fde-craft",
+      "primary_namespace": "curriculum",
       "platform_bearing": true,
-      "decay": "slow",
-      "verify_cadence": "3 years",
+      "decay": "years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -9543,14 +9677,14 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
+        "platform": 1,
         "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -9594,15 +9728,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "fde-craft": 1,
-        "pedagogy": 1
+        "platform": 1,
+        "pedagogy": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -9645,15 +9779,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -9697,15 +9831,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -9750,16 +9884,16 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
-        "assessment": 1,
         "ai-systems": 1,
-        "fde-craft": 1,
-        "pedagogy": 1
+        "assessment": 1,
+        "platform": 1,
+        "pedagogy": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -9802,15 +9936,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "fde-craft": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -9853,15 +9987,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
         "measurement": 1,
+        "platform": 1,
         "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -9904,15 +10038,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "fde-craft": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -9956,16 +10090,16 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
-        "assessment": 1,
         "ai-systems": 1,
-        "fde-craft": 1,
-        "pedagogy": 1
+        "assessment": 1,
+        "platform": 1,
+        "pedagogy": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -10009,15 +10143,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
         "measurement": 1,
+        "platform": 1,
         "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -10061,14 +10195,14 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "measurement": 1,
+        "platform": 1,
         "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "permanent",
+      "verify_cadence": "on amendment",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -10112,14 +10246,14 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "measurement": 1,
+        "platform": 1,
         "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "permanent",
+      "verify_cadence": "on amendment",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -10162,15 +10296,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "assessment": 1,
         "measurement": 1,
+        "platform": 1,
         "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "assessment",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "decades",
+      "verify_cadence": "3 years",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -10214,13 +10348,13 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "fde-craft",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "slow",
-      "verify_cadence": "3 years",
+      "decay": "permanent",
+      "verify_cadence": "on amendment",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -10265,14 +10399,14 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "measurement": 1,
         "assessment": 1,
+        "measurement": 1,
         "pedagogy": 1
       },
-      "primary_namespace": "measurement",
+      "primary_namespace": "assessment",
       "platform_bearing": true,
-      "decay": "permanent",
-      "verify_cadence": "on amendment",
+      "decay": "decades",
+      "verify_cadence": "3 years",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -10318,8 +10452,8 @@
       "namespaces": {
         "platform": 2,
         "ai-systems": 1,
-        "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -10371,8 +10505,8 @@
         "platform": 2,
         "fde-craft": 1,
         "ai-systems": 1,
-        "assessment": 1,
-        "measurement": 1
+        "measurement": 1,
+        "assessment": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -10423,8 +10557,8 @@
       "namespaces": {
         "platform": 2,
         "ai-systems": 1,
-        "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -10475,8 +10609,8 @@
       "namespaces": {
         "platform": 2,
         "ai-systems": 1,
-        "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -10527,15 +10661,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -10580,8 +10714,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "pedagogy": 2,
-        "platform": 1,
         "measurement": 1,
+        "platform": 1,
         "fde-craft": 1
       },
       "primary_namespace": "pedagogy",
@@ -10630,15 +10764,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "measurement": 1,
-        "fde-craft": 1,
-        "pedagogy": 1
+        "platform": 1,
+        "pedagogy": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "permanent",
+      "verify_cadence": "on amendment",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -10683,15 +10817,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "fde-craft": 1,
-        "pedagogy": 1
+        "platform": 1,
+        "pedagogy": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -10736,8 +10870,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "fde-craft": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -10789,8 +10923,8 @@
       "assessment_bearing": true,
       "namespaces": {
         "pedagogy": 2,
-        "platform": 1,
         "assessment": 1,
+        "platform": 1,
         "fde-craft": 1
       },
       "primary_namespace": "pedagogy",
@@ -10840,14 +10974,14 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -10891,14 +11025,14 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -10942,14 +11076,14 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -11047,15 +11181,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "assessment": 1,
         "measurement": 1,
+        "platform": 1,
         "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "assessment",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "decades",
+      "verify_cadence": "3 years",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -11100,15 +11234,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "measurement": 1,
-        "fde-craft": 1,
-        "pedagogy": 1
+        "platform": 1,
+        "pedagogy": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "permanent",
+      "verify_cadence": "on amendment",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -11152,14 +11286,14 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "measurement": 1,
+        "platform": 1,
         "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "permanent",
+      "verify_cadence": "on amendment",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -11300,15 +11434,15 @@
       ],
       "assessment_bearing": true,
       "namespaces": {
-        "platform": 1,
-        "measurement": 1,
         "assessment": 1,
+        "measurement": 1,
+        "platform": 1,
         "pedagogy": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "assessment",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "decades",
+      "verify_cadence": "3 years",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -11353,15 +11487,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "curriculum": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1,
+        "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -11404,14 +11538,14 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -11455,15 +11589,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "curriculum": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1,
+        "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -11507,15 +11641,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "pedagogy": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1,
+        "pedagogy": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -11559,15 +11693,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "pedagogy": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1,
+        "pedagogy": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -11611,10 +11745,10 @@
       "assessment_bearing": false,
       "namespaces": {
         "ai-systems": 2,
+        "measurement": 1,
         "platform": 1,
         "pedagogy": 1,
-        "curriculum": 1,
-        "measurement": 1
+        "curriculum": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -11663,16 +11797,16 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
-        "measurement": 1,
         "ai-systems": 1,
-        "curriculum": 1,
-        "pedagogy": 1
+        "measurement": 1,
+        "platform": 1,
+        "pedagogy": 1,
+        "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -11717,9 +11851,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "ai-systems": 4,
+        "measurement": 1,
         "pedagogy": 1,
-        "curriculum": 1,
-        "measurement": 1
+        "curriculum": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -11769,8 +11903,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "measurement": 3,
-        "platform": 1,
         "ai-systems": 1,
+        "platform": 1,
         "pedagogy": 1
       },
       "primary_namespace": "measurement",
@@ -11824,11 +11958,11 @@
       "assessment_bearing": true,
       "namespaces": {
         "curriculum": 1,
-        "platform": 1,
         "ai-systems": 1,
+        "measurement": 1,
         "pedagogy": 1,
         "assessment": 1,
-        "measurement": 1
+        "platform": 1
       },
       "primary_namespace": "curriculum",
       "platform_bearing": true,
@@ -11880,8 +12014,8 @@
       "namespaces": {
         "platform": 2,
         "ai-systems": 1,
-        "curriculum": 1,
-        "measurement": 1
+        "measurement": 1,
+        "curriculum": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -11933,8 +12067,8 @@
         "platform": 2,
         "curriculum": 1,
         "ai-systems": 1,
-        "pedagogy": 1,
-        "measurement": 1
+        "measurement": 1,
+        "pedagogy": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -11983,15 +12117,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "ai-systems": 1,
-        "curriculum": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1,
+        "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -12039,8 +12173,8 @@
         "platform": 3,
         "curriculum": 1,
         "ai-systems": 1,
-        "pedagogy": 1,
-        "measurement": 1
+        "measurement": 1,
+        "pedagogy": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -12090,11 +12224,11 @@
       "assessment_bearing": true,
       "namespaces": {
         "curriculum": 1,
-        "platform": 1,
         "ai-systems": 1,
+        "measurement": 1,
         "pedagogy": 1,
         "assessment": 1,
-        "measurement": 1
+        "platform": 1
       },
       "primary_namespace": "curriculum",
       "platform_bearing": true,
@@ -12143,15 +12277,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "assessment": 1,
         "measurement": 1,
+        "platform": 1,
         "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "assessment",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "decades",
+      "verify_cadence": "3 years",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -12247,15 +12381,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "measurement": 1,
-        "curriculum": 1,
-        "pedagogy": 1
+        "platform": 1,
+        "pedagogy": 1,
+        "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "permanent",
+      "verify_cadence": "on amendment",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -12300,17 +12434,17 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
+        "fde-craft": 1,
         "curriculum": 1,
         "platform": 1,
-        "fde-craft": 1,
+        "measurement": 1,
         "pedagogy": 1,
-        "assessment": 1,
-        "measurement": 1
+        "assessment": 1
       },
-      "primary_namespace": "curriculum",
+      "primary_namespace": "fde-craft",
       "platform_bearing": true,
-      "decay": "years",
-      "verify_cadence": "annually",
+      "decay": "slow",
+      "verify_cadence": "3 years",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -12356,8 +12490,8 @@
       "assessment_bearing": true,
       "namespaces": {
         "curriculum": 2,
-        "measurement": 1,
         "assessment": 1,
+        "measurement": 1,
         "pedagogy": 1
       },
       "primary_namespace": "curriculum",
@@ -12408,8 +12542,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 3,
-        "measurement": 1,
         "ai-systems": 1,
+        "measurement": 1,
         "pedagogy": 1
       },
       "primary_namespace": "platform",
@@ -12461,8 +12595,8 @@
       "namespaces": {
         "platform": 3,
         "ai-systems": 1,
-        "curriculum": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "curriculum": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -12669,15 +12803,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "assessment": 1,
         "ai-systems": 1,
-        "pedagogy": 1,
-        "measurement": 1
+        "assessment": 1,
+        "measurement": 1,
+        "pedagogy": 1
       },
-      "primary_namespace": "assessment",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "decades",
-      "verify_cadence": "3 years",
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -12722,16 +12856,16 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
-        "assessment": 1,
         "ai-systems": 1,
-        "pedagogy": 1,
-        "measurement": 1
+        "assessment": 1,
+        "measurement": 1,
+        "platform": 1,
+        "pedagogy": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -12777,11 +12911,11 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 3,
-        "ai-systems": 1,
         "fde-craft": 1,
+        "ai-systems": 1,
+        "measurement": 1,
         "pedagogy": 1,
-        "assessment": 1,
-        "measurement": 1
+        "assessment": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -12831,16 +12965,16 @@
       ],
       "assessment_bearing": true,
       "namespaces": {
-        "platform": 1,
         "assessment": 1,
         "measurement": 1,
-        "curriculum": 1,
-        "pedagogy": 1
+        "platform": 1,
+        "pedagogy": 1,
+        "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "assessment",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "decades",
+      "verify_cadence": "3 years",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -12886,16 +13020,16 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "measurement": 1,
         "assessment": 1,
-        "fde-craft": 1,
+        "curriculum": 1,
+        "measurement": 1,
         "pedagogy": 1,
-        "curriculum": 1
+        "fde-craft": 1
       },
-      "primary_namespace": "measurement",
+      "primary_namespace": "assessment",
       "platform_bearing": true,
-      "decay": "permanent",
-      "verify_cadence": "on amendment",
+      "decay": "decades",
+      "verify_cadence": "3 years",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -12939,8 +13073,8 @@
       "namespaces": {
         "fde-craft": 4,
         "pedagogy": 2,
-        "platform": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1
       },
       "primary_namespace": "fde-craft",
       "platform_bearing": true,
@@ -12990,8 +13124,8 @@
       "namespaces": {
         "fde-craft": 3,
         "pedagogy": 2,
-        "platform": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "platform": 1
       },
       "primary_namespace": "fde-craft",
       "platform_bearing": true,
@@ -13042,10 +13176,10 @@
       "assessment_bearing": false,
       "namespaces": {
         "measurement": 4,
-        "fde-craft": 2,
         "pedagogy": 2,
-        "platform": 1,
-        "assessment": 1
+        "fde-craft": 2,
+        "assessment": 1,
+        "platform": 1
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -13095,8 +13229,8 @@
       "namespaces": {
         "fde-craft": 5,
         "pedagogy": 2,
-        "platform": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1
       },
       "primary_namespace": "fde-craft",
       "platform_bearing": true,
@@ -13147,8 +13281,8 @@
         "assessment": 4,
         "fde-craft": 4,
         "pedagogy": 2,
-        "platform": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       },
       "primary_namespace": "assessment",
       "platform_bearing": true,
@@ -13199,9 +13333,9 @@
       "namespaces": {
         "fde-craft": 4,
         "pedagogy": 2,
-        "platform": 1,
+        "curriculum": 1,
         "measurement": 1,
-        "curriculum": 1
+        "platform": 1
       },
       "primary_namespace": "fde-craft",
       "platform_bearing": true,
@@ -13252,10 +13386,10 @@
       "assessment_bearing": false,
       "namespaces": {
         "pedagogy": 3,
-        "platform": 1,
         "ai-systems": 1,
-        "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
@@ -13360,8 +13494,8 @@
       "namespaces": {
         "fde-craft": 4,
         "assessment": 2,
-        "platform": 1,
         "ai-systems": 1,
+        "platform": 1,
         "pedagogy": 1
       },
       "primary_namespace": "fde-craft",
@@ -13444,6 +13578,11 @@
     },
     {
       "from": "AGENTS",
+      "to": "concepts/entry-state",
+      "type": "links_to"
+    },
+    {
+      "from": "AGENTS",
       "to": "wiki/program/11-Microsoft-AI-Platform-Map",
       "type": "links_to"
     },
@@ -13499,12 +13638,97 @@
     },
     {
       "from": "README",
-      "to": "graph/README",
+      "to": "concepts/projections",
+      "type": "links_to"
+    },
+    {
+      "from": "README",
+      "to": "mcp/hve-iq/README",
+      "type": "links_to"
+    },
+    {
+      "from": "README",
+      "to": "sources/README",
+      "type": "links_to"
+    },
+    {
+      "from": "README",
+      "to": "wiki/program/09-Durable-and-Perishable-Register",
+      "type": "links_to"
+    },
+    {
+      "from": "README",
+      "to": "wiki/program/11-Microsoft-AI-Platform-Map",
+      "type": "links_to"
+    },
+    {
+      "from": "README",
+      "to": "concepts/namespaces",
+      "type": "links_to"
+    },
+    {
+      "from": "README",
+      "to": "projections/workshop-2day/README",
+      "type": "links_to"
+    },
+    {
+      "from": "README",
+      "to": "projections/workshop-2day/DERIVATION",
+      "type": "links_to"
+    },
+    {
+      "from": "README",
+      "to": "concepts/entry-state",
+      "type": "links_to"
+    },
+    {
+      "from": "README",
+      "to": "wiki/program/04-Seminar-Day-Design-Pattern",
       "type": "links_to"
     },
     {
       "from": "README",
       "to": "wiki/program/05-Whitepaper-Standard",
+      "type": "links_to"
+    },
+    {
+      "from": "README",
+      "to": "wiki/program/03-Assessment-Architecture",
+      "type": "links_to"
+    },
+    {
+      "from": "README",
+      "to": "wiki/whitepapers/WP-090",
+      "type": "links_to"
+    },
+    {
+      "from": "concepts/entry-state",
+      "to": "concepts/namespaces",
+      "type": "links_to"
+    },
+    {
+      "from": "concepts/entry-state",
+      "to": "projections/workshop-2day/DERIVATION",
+      "type": "links_to"
+    },
+    {
+      "from": "concepts/entry-state",
+      "to": "wiki/seminars/S029",
+      "type": "links_to"
+    },
+    {
+      "from": "concepts/entry-state",
+      "to": "wiki/seminars/S048",
+      "type": "links_to"
+    },
+    {
+      "from": "concepts/entry-state",
+      "to": "concepts/projections",
+      "type": "links_to"
+    },
+    {
+      "from": "concepts/entry-state",
+      "to": "mcp/hve-iq/README",
       "type": "links_to"
     },
     {
@@ -13623,6 +13847,11 @@
       "type": "links_to"
     },
     {
+      "from": "mcp/hve-iq/README",
+      "to": "concepts/entry-state",
+      "type": "links_to"
+    },
+    {
       "from": "projections/workshop-2day/DERIVATION",
       "to": "projections/workshop-2day/README",
       "type": "links_to"
@@ -13630,6 +13859,36 @@
     {
       "from": "projections/workshop-2day/DERIVATION",
       "to": "concepts/projections",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/workshop-2day/DERIVATION",
+      "to": "concepts/entry-state",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/workshop-2day/DERIVATION",
+      "to": "wiki/seminars/S026",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/workshop-2day/DERIVATION",
+      "to": "wiki/seminars/S027",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/workshop-2day/DERIVATION",
+      "to": "wiki/seminars/S028",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/workshop-2day/DERIVATION",
+      "to": "wiki/seminars/S029",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/workshop-2day/DERIVATION",
+      "to": "wiki/seminars/S049",
       "type": "links_to"
     },
     {
@@ -13649,7 +13908,82 @@
     },
     {
       "from": "projections/workshop-2day/README",
+      "to": "concepts/entry-state",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/workshop-2day/README",
+      "to": "wiki/seminars/S007",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/workshop-2day/README",
+      "to": "wiki/seminars/S011",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/workshop-2day/README",
+      "to": "wiki/seminars/S016",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/workshop-2day/README",
+      "to": "wiki/seminars/S017",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/workshop-2day/README",
+      "to": "wiki/seminars/S039",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/workshop-2day/README",
+      "to": "wiki/seminars/S062",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/workshop-2day/README",
+      "to": "wiki/seminars/S068",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/workshop-2day/README",
+      "to": "wiki/seminars/S073",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/workshop-2day/README",
+      "to": "wiki/seminars/S004",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/workshop-2day/README",
+      "to": "wiki/seminars/S013",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/workshop-2day/README",
+      "to": "wiki/seminars/S018",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/workshop-2day/README",
+      "to": "wiki/seminars/S019",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/workshop-2day/README",
+      "to": "wiki/seminars/S020",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/workshop-2day/README",
       "to": "wiki/seminars/S026",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/workshop-2day/README",
+      "to": "wiki/seminars/S027",
       "type": "links_to"
     },
     {
@@ -13659,7 +13993,37 @@
     },
     {
       "from": "projections/workshop-2day/README",
-      "to": "wiki/seminars/S036",
+      "to": "wiki/seminars/S029",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/workshop-2day/README",
+      "to": "wiki/seminars/S037",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/workshop-2day/README",
+      "to": "wiki/seminars/S049",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/workshop-2day/README",
+      "to": "wiki/seminars/S052",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/workshop-2day/README",
+      "to": "wiki/seminars/S061",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/workshop-2day/README",
+      "to": "wiki/seminars/S063",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/workshop-2day/README",
+      "to": "wiki/program/04-Seminar-Day-Design-Pattern",
       "type": "links_to"
     },
     {
@@ -13704,12 +14068,12 @@
     },
     {
       "from": "projections/workshop-2day/README",
-      "to": "wiki/seminars/S050",
+      "to": "wiki/seminars/S036",
       "type": "links_to"
     },
     {
       "from": "projections/workshop-2day/README",
-      "to": "wiki/program/04-Seminar-Day-Design-Pattern",
+      "to": "wiki/seminars/S050",
       "type": "links_to"
     },
     {
@@ -14691,6 +15055,71 @@
       "from": "research/08-assessment-epas/ten-cate-epa-framework",
       "to": "research/08-assessment-epas/collected-materials",
       "type": "part_of"
+    },
+    {
+      "from": "sources/README",
+      "to": "wiki/Home",
+      "type": "links_to"
+    },
+    {
+      "from": "sources/README",
+      "to": "research/99-source-register/source-register",
+      "type": "links_to"
+    },
+    {
+      "from": "sources/README",
+      "to": "sources/vendor-courses/06-Hypervelocity-Engineering-Framework",
+      "type": "links_to"
+    },
+    {
+      "from": "sources/README",
+      "to": "sources/design-analysis/10-Gap-Analysis-and-Course-Architecture",
+      "type": "links_to"
+    },
+    {
+      "from": "sources/README",
+      "to": "wiki/program/11-Microsoft-AI-Platform-Map",
+      "type": "links_to"
+    },
+    {
+      "from": "sources/README",
+      "to": "sources/vendor-courses/07-GH-300-GitHub-Copilot-Certification-Prep",
+      "type": "links_to"
+    },
+    {
+      "from": "sources/README",
+      "to": "sources/vendor-courses/08-AB-100-Agentic-AI-Business-Solutions-Architect-Prep",
+      "type": "links_to"
+    },
+    {
+      "from": "sources/README",
+      "to": "sources/vendor-courses/01-Activate-Organizational-Intelligence-with-Microsoft-IQ",
+      "type": "links_to"
+    },
+    {
+      "from": "sources/README",
+      "to": "sources/vendor-courses/02-Build-Frontier-Firm-Productivity-with-Work-IQ-Copilot-and-Agents",
+      "type": "links_to"
+    },
+    {
+      "from": "sources/README",
+      "to": "sources/vendor-courses/03-Accelerate-Agentic-AI",
+      "type": "links_to"
+    },
+    {
+      "from": "sources/README",
+      "to": "sources/vendor-courses/04-Microsoft-Fabric-IQ-and-Data-Agents",
+      "type": "links_to"
+    },
+    {
+      "from": "sources/README",
+      "to": "sources/vendor-courses/05-Implement-Agent-365-Observe-Govern-Secure",
+      "type": "links_to"
+    },
+    {
+      "from": "sources/README",
+      "to": "wiki/program/09-Durable-and-Perishable-Register",
+      "type": "links_to"
     },
     {
       "from": "sources/design-analysis/10-Gap-Analysis-and-Course-Architecture",

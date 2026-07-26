@@ -121,3 +121,48 @@ The wiki already holds the raw material: **every whitepaper's §2 is "Entry stat
 ## What this says about the method
 
 The split was made because building one projection by hand suggested a defect. Within an hour of the split landing, a mechanical query using it falsified a claim the same projection had made about itself. **That is the loop working**, and it is the first time in this repository that a structural change to the graph has produced a correction to content rather than the reverse.
+
+---
+
+# Addendum two — the field arrives, and falsifies the section the first addendum wrote
+
+**Recorded the day [`satisfiable_from`](concepts/entry-state.md) was populated.** Addendum one named the missing field. This is what happened when it existed.
+
+## What was measured
+
+Ninety days classified against a fixed reference professional — five years' delivery experience, no formal training in measurement, statistics or ML. **Two days of ninety can be assumed silently.** Forty-seven are held informally and must be declared; forty-one are unavailable from ordinary practice.
+
+Recomputing this workshop's closure with traversal stopping at whatever the audience already holds:
+
+| Entry state | Days to cover |
+|---|---|
+| `novice` | 57 |
+| `professional-strict` | 56 |
+| `professional-declared` | **23** |
+
+## The first finding: declaring is worth 33 days, and strictness is worth one
+
+`professional-strict` — assume only what an engineer *reliably* holds — moves the number from 57 to **56**. One day. The register's honesty about what practice actually teaches makes strict pruning almost worthless.
+
+Nearly all of the benefit sits in `either`, the value that obliges a projection to **say the assumption out loud**. That is a better outcome than it looks: the cheap path and the honest path are the same path, and a projection that wants the 33 days has to pay for them in declarations.
+
+## The second finding: the workshop under-counted its own gap, again
+
+Addendum one had this projection declare its entry state by hand. It named **three** at-risk prerequisites. The mechanical answer is **fourteen**, and one of the three named — S036 — was not among them, because it is a seed the workshop already teaches.
+
+**A hand-built projection under-counted its own gap by roughly a factor of four, twice, in the same section**, after having just been corrected once for exactly this. The section now carries both numbers and the reason the first was wrong.
+
+## The third finding, which is the uncomfortable one
+
+Five of the fourteen undelivered dependencies are **the measurement spine**: [S026](wiki/seminars/S026.md), [S027](wiki/seminars/S027.md), [S028](wiki/seminars/S028.md), [S029](wiki/seminars/S029.md), [S049](wiki/seminars/S049.md).
+
+This is a workshop about judge bias and criterion construction. Its largest undelivered dependency is **measurement itself**. It was attempting to teach the conclusions of a discipline while assuming the discipline, and no amount of audience seniority fixes that — all five are classified `this-programme-only` precisely because ordinary practice teaches proxy-as-truth.
+
+**The correct response is not to compress them into the two days.** It is what the README now says: a team without the spine should be offered a longer format.
+
+## What this costs the register
+
+The register is `method` namespace with no external warrant, and it has a specific credibility problem recorded in [concepts/entry-state.md](concepts/entry-state.md): **nine agents reading this programme's own pages concluded that ordinary practice does not teach what this programme teaches.** That is either corroboration or circularity and the repository cannot currently distinguish them.
+
+So the 23 is not a fact about workshops. It is the arithmetic consequence of a set of untested judgements, and it inherits their status exactly. What it is *not* is silence, which is what stood here before.
+

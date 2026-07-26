@@ -38,11 +38,19 @@ check("S049 depends on S028", s049.depends_on.includes("wiki/seminars/S028"), s0
 check("S049 re-tests S022 and S043", s049.re_tests.length === 2, s049.re_tests.join(", "));
 check("S049 paired with WP-049", s049.pair.includes("wiki/whitepapers/WP-049"));
 
-const workshop = await call("hve_dependency_closure", {
-  ids: ["S051", "S048", "S053", "S046", "S047", "S064", "S074", "S036", "S050"].map((d) => `wiki/seminars/${d}`)
-});
+const WORKSHOP = ["S051", "S048", "S053", "S046", "S047", "S064", "S074", "S036", "S050"].map((d) => `wiki/seminars/${d}`);
+const workshop = await call("hve_dependency_closure", { ids: WORKSHOP });
 check("workshop closure is 57", workshop.closure_size === 57, `${workshop.closure_size}, ${workshop.implied_count} implied`);
 check("no unknown seed ids", workshop.unknown_ids.length === 0);
+check("novice assumes nothing", workshop.must_declare_count === 0 && workshop.may_assume_silently.length === 0);
+
+const strict = await call("hve_dependency_closure", { ids: WORKSHOP, entry_state: "professional-strict" });
+const declared = await call("hve_dependency_closure", { ids: WORKSHOP, entry_state: "professional-declared" });
+check("entry state prunes the closure", declared.closure_size < strict.closure_size && strict.closure_size <= 57,
+  `novice 57 -> strict ${strict.closure_size} -> declared ${declared.closure_size}`);
+check("declared owes the reader a list", declared.must_declare_count > 0, `${declared.must_declare_count} to declare`);
+check("nothing declarable is also delivered", declared.implied.every((n) => n.satisfiable_from === "this-programme-only"));
+check("S049 is programme-only", (await call("hve_get", { id: "wiki/seminars/S049" })).satisfiable_from === "this-programme-only");
 
 const withRetests = await call("hve_dependency_closure", { ids: ["wiki/seminars/S049"], include_re_tests: true });
 const without = await call("hve_dependency_closure", { ids: ["wiki/seminars/S049"] });

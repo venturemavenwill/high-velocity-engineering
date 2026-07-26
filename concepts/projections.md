@@ -6,7 +6,7 @@
 
 ## The split
 
-Borrowed from the [Semantic Interoperability Layer](../../Semantic%20Interoperability%20Layer/concepts/ledger.md), where it is load-bearing:
+Borrowed from the **Semantic Interoperability Layer** (a separate repository, `concepts/ledger.md`), where it is load-bearing:
 
 ```
 claims          the ledger. truth. append-only, namespaced, each carrying its own warrant.

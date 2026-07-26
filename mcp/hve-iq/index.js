@@ -154,37 +154,72 @@ server.registerTool(
 
 // ---------------------------------------------------------------- closure
 
+// What each entry state lets a projection assume rather than deliver.
+// Source: concepts/entry-state.md, which also carries the limitations.
+const ASSUMABLE = {
+  novice: new Set(),
+  "professional-strict": new Set(["ordinary-professional-experience"]),
+  "professional-declared": new Set(["ordinary-professional-experience", "either"])
+};
+
 server.registerTool(
   "hve_dependency_closure",
   {
     title: "Compute what a projection must also cover",
     description:
-      "Given claims or days you intend to teach, return everything they transitively DEPEND ON. Use this before building a workshop, a course, an onboarding path or a brief: it tells you what you must either deliver or explicitly assume. A dependency constrains ordering in every format; a re-test only constrains it where there is spacing, so re-tests are deliberately excluded.",
+      "Given claims or days you intend to teach, return everything they transitively DEPEND ON, and split it into what you must DELIVER, what you must DECLARE as an assumption, and what you may ASSUME silently. Use this before building a workshop, a course, an onboarding path or a brief. A dependency constrains ordering in every format; a re-test only constrains it where there is spacing, so re-tests are excluded by default.",
     inputSchema: {
       ids: z.array(z.string()).min(1).describe("e.g. ['wiki/seminars/S048','wiki/seminars/S051']"),
-      include_re_tests: z.boolean().optional().describe("default false; true also follows the spacing schedule")
+      include_re_tests: z.boolean().optional().describe("default false; true also follows the spacing schedule"),
+      entry_state: z
+        .enum(["novice", "professional-strict", "professional-declared"])
+        .optional()
+        .describe(
+          "who the audience is. novice (default) assumes nothing and is the BSc's own entry state. professional-strict assumes only what a five-year engineer reliably holds. professional-declared also assumes what they commonly hold informally, and returns it as must_declare — you owe the reader that list."
+        )
     }
   },
-  async ({ ids, include_re_tests = false }) => {
+  async ({ ids, include_re_tests = false, entry_state = "novice" }) => {
     const types = include_re_tests ? ["depends_on", "re_tests"] : ["depends_on"];
-    const seen = new Set(ids);
-    const queue = [...ids];
+    const assumable = ASSUMABLE[entry_state];
     const unknown = ids.filter((i) => !byId.has(i));
+    const seedSet = new Set(ids);
+
+    // Traversal STOPS at an assumed node: if the audience already holds the claim,
+    // how they came to hold it is not this projection's problem. Seeds are always
+    // expanded — you are teaching them by choice, not by prerequisite.
+    const deliver = new Set(ids);
+    const assumed = new Set();
+    const queue = [...ids];
     while (queue.length) {
       const cur = queue.shift();
       for (const t of types) for (const nxt of out(t, cur)) {
-        if (!seen.has(nxt)) { seen.add(nxt); queue.push(nxt); }
+        if (deliver.has(nxt) || assumed.has(nxt)) continue;
+        if (!seedSet.has(nxt) && assumable.has(byId.get(nxt)?.satisfiable_from)) { assumed.add(nxt); continue; }
+        deliver.add(nxt);
+        queue.push(nxt);
       }
     }
-    const implied = [...seen].filter((i) => !ids.includes(i)).sort();
+
+    const label = (i) => ({ id: i, title: byId.get(i)?.title, satisfiable_from: byId.get(i)?.satisfiable_from });
+    const implied = [...deliver].filter((i) => !seedSet.has(i)).sort();
+    const mustDeclare = [...assumed].filter((i) => byId.get(i)?.satisfiable_from === "either").sort();
+    const silent = [...assumed].filter((i) => byId.get(i)?.satisfiable_from === "ordinary-professional-experience").sort();
+
     return ok({
       seed: ids,
       unknown_ids: unknown,
-      closure_size: seen.size,
+      entry_state,
+      closure_size: deliver.size,
       implied_count: implied.length,
-      implied: implied.map((i) => ({ id: i, title: byId.get(i)?.title })),
+      implied: implied.map(label),
+      must_declare_count: mustDeclare.length,
+      must_declare: mustDeclare.map(label),
+      may_assume_silently: silent.map(label),
       note:
-        "A depends_on edge is relative to an assumed entry state, and the one encoded here is the BSc's: knows nothing. A projection to experienced practitioners will already satisfy much of this closure — but it must SAY which, rather than leave it implicit."
+        entry_state === "novice"
+          ? "Nothing assumed. This is the BSc's own entry state. Re-run with entry_state='professional-declared' if your audience has delivery experience — but you will then owe the reader the must_declare list."
+          : "must_declare is not optional. Those claims are commonly held informally and rarely in the precise form the dependents need, so some of your audience will not have them. Entry-state judgements are method-namespace, untested against a real audience: see concepts/entry-state.md."
     });
   }
 );

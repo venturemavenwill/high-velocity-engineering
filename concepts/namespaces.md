@@ -2,7 +2,7 @@
 
 > HVE is not one body of knowledge. It is **eight**, each with its own warrant standard, its own decay rate, and its own specialization frontier. This page defines them.
 >
-> The discipline is borrowed from the [Semantic Interoperability Layer](../../Semantic%20Interoperability%20Layer/concepts/namespace.md): a namespace is a domain whose claims **may not be compared raw** against another namespace's. You decode first.
+> The discipline is borrowed from the **Semantic Interoperability Layer** (a separate repository, `concepts/namespace.md`): a namespace is a domain whose claims **may not be compared raw** against another namespace's. You decode first.
 
 ## Why this is not just a topic list
 

@@ -24,19 +24,35 @@ Per [projection rule 5](concepts/projections.md), abstention is a valid output. 
 
 ## Entry state
 
-**Added after the dependency closure was computed** — see the [addendum](projections/workshop-2day/DERIVATION.md). The ten claims below have a transitive `depends_on` closure of **57 of the 90 seminar days**. This projection delivers none of those 57. It assumes them.
+**Written by hand after the first closure was computed, then corrected by a second mechanical query.** Both corrections are recorded in the [addendum](projections/workshop-2day/DERIVATION.md); the superseded position is kept below because it is evidence about how projections mislead themselves.
 
-That assumption is only defensible for a specific audience, so it is stated rather than left implicit:
+Once [`satisfiable_from`](concepts/entry-state.md) existed, the closure could be recomputed against a real audience rather than against the BSc's "knows nothing":
 
-**Assumed from ordinary professional experience** — participants are practising engineers who already hold, from doing the work: cost models and asymptotic reasoning; hashing, indexing and lookup; memory hierarchy and contention; latency, throughput and operating points; concurrency and partial failure; service contracts and blast radius; hypothesis, evidence and falsification.
+| Entry state | Days this projection must cover |
+|---|---|
+| `novice` — the BSc's own | **57** |
+| `professional-strict` — assume only what a five-year engineer reliably holds | **56** |
+| `professional-declared` — also assume what they hold informally, and say so | **23** |
 
-**Assumed and genuinely at risk** — three prerequisites that practising engineers often do *not* hold, and which the workshop needs:
+Declaring assumptions is worth 33 days. It is not worth 57, and the gap is the point.
 
-- **A construct/instrument distinction** ([S026](wiki/seminars/S026.md)). Sessions 2, 3 and 4 all rest on it. It is compressed into the first fifteen minutes of session 2 and that is not enough.
-- **Sampling and what an interval licenses** ([S028](wiki/seminars/S028.md)). Session 3's per-class reveal is weaker without it.
-- **The request/need gap** ([S036](wiki/seminars/S036.md)). Session 7 introduces it cold.
+### The eight this workshop declares
 
-**A team missing all three should be offered a three-day format, not this one.** That is a real recommendation and it follows from the closure, not from taste.
+Commonly held by practising engineers, but informally — so some of your room will not have them. Naming them is the price of assuming them.
+
+[S007](wiki/seminars/S007.md) seams · [S011](wiki/seminars/S011.md) what a representation makes cheap · [S016](wiki/seminars/S016.md) memory hierarchy · [S017](wiki/seminars/S017.md) scheduling · [S039](wiki/seminars/S039.md) requirements as negotiated constraint · [S062](wiki/seminars/S062.md) batching and throughput · [S068](wiki/seminars/S068.md) detectability · [S073](wiki/seminars/S073.md) tools and the trust boundary
+
+**Nothing is assumed silently.** Neither of the two days marked `ordinary-professional-experience` in the register lies in this closure.
+
+### The fourteen it must deliver and does not
+
+[S004](wiki/seminars/S004.md) · [S013](wiki/seminars/S013.md) · [S018](wiki/seminars/S018.md) · [S019](wiki/seminars/S019.md) · [S020](wiki/seminars/S020.md) ⊘ · [S026](wiki/seminars/S026.md) · [S027](wiki/seminars/S027.md) · [S028](wiki/seminars/S028.md) · [S029](wiki/seminars/S029.md) · [S037](wiki/seminars/S037.md) · [S049](wiki/seminars/S049.md) · [S052](wiki/seminars/S052.md) · [S061](wiki/seminars/S061.md) · [S063](wiki/seminars/S063.md)
+
+**Five of the fourteen are the measurement spine** — [S026](wiki/seminars/S026.md) construct and instrument, [S027](wiki/seminars/S027.md) error structure, [S028](wiki/seminars/S028.md) sampling and intervals, [S029](wiki/seminars/S029.md) instrument design, [S049](wiki/seminars/S049.md) clustering and power. That is not an incidental gap. **It is the workshop's own subject matter appearing as its largest undelivered dependency**, which is what happens when a two-day format tries to teach the *conclusions* of measurement without the measurement.
+
+**A team missing the measurement spine should be offered a longer format, not this one.** That recommendation survives; only its basis has changed, from taste to arithmetic.
+
+> **Superseded, kept deliberately.** This section previously named **three** at-risk prerequisites — S026, S028 and S036 — chosen by reading the material and asking which felt thin. The mechanical answer is fourteen, and S036 was not among them because it is a seed the workshop already teaches. **A hand-built projection under-counted its own gap by a factor of four, twice, in the same section.** Recorded under [instrumentation rule 9](wiki/program/04-Seminar-Day-Design-Pattern.md).
 
 ## What it does deliver
 
