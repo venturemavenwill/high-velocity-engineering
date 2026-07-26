@@ -28,6 +28,7 @@ const EDGES = graph.edges;
 const CLAIMS = graph.claims ?? [];
 const PREDICTIONS = graph.predictions ?? [];
 const EVIDENCE = graph.evidence ?? [];
+const SOURCES = graph.sources ?? [];
 
 // Days whose perishable content this index cannot see. Only S090 remains: it
 // genuinely has none. Surfaced by the exposure tool rather than left as a silent
@@ -360,6 +361,84 @@ server.registerTool(
       truncated: hits.length > limit,
       note:
         "This indexes the CLASS a claim was placed in and what that class cites, not the individual claims — those are prose inside each class, and splitting them needs authoring judgement this index deliberately does not apply. If you need a specific claim, read the whitepaper's Evidence status section."
+    });
+  }
+);
+
+// ---------------------------------------------------------------- sources
+
+// Reverse index: which evidence rows cite a given research note.
+const CITED_BY = new Map();
+for (const e of EVIDENCE) {
+  for (const c of e.cites ?? []) {
+    if (!CITED_BY.has(c)) CITED_BY.set(c, []);
+    CITED_BY.get(c).push(e);
+  }
+}
+// Exposure computed here is a FLOOR, not a total: most citations in the evidence
+// prose point at a folder-level collected-materials index rather than a named
+// note, and those cannot be attributed to a single source.
+const AGG_SHARE = (() => {
+  const all = EVIDENCE.flatMap((e) => e.cites ?? []);
+  const agg = all.filter((c) => c.endsWith("collected-materials")).length;
+  return all.length ? Math.round((100 * agg) / all.length) : 0;
+})();
+
+server.registerTool(
+  "hve_sources",
+  {
+    title: "Ask how strong the warrant under a claim actually is",
+    description:
+      "The source register records, per external source, whether anyone actually read it — in full, abstract only, or not at all. Use this to find claims resting on sources nobody opened, to check what a whitepaper's evidence is really worth, or to see what a retraction would touch. `read: 'unread'` is the one to run first.",
+    inputSchema: {
+      read: z.enum(["full", "abstract", "unread", "unknown"]).optional().describe("filter by whether the source was actually read"),
+      query: z.string().optional().describe("matches source title, identifier or access note"),
+      whitepaper: z.string().optional().describe("instead return the read-state profile of what this paper rests on, e.g. 'WP-049'"),
+      limit: z.number().int().positive().max(100).optional()
+    }
+  },
+  async ({ read, query, whitepaper, limit = 25 }) => {
+    if (whitepaper) {
+      const wp = whitepaper.toLowerCase();
+      const rows = EVIDENCE.filter((e) => e.whitepaper.toLowerCase().includes(wp));
+      const cited = new Set(rows.flatMap((e) => e.cites ?? []));
+      const named = SOURCES.filter((s) => s.note && cited.has(s.note));
+      const profile = {};
+      for (const s of named) profile[s.read] = (profile[s.read] ?? 0) + 1;
+      return ok({
+        whitepaper, evidence_rows: rows.length,
+        attributable_sources: named.length,
+        read_profile: profile,
+        unread: named.filter((s) => s.read === "unread").map((s) => ({ source: s.source, access: s.access, note: s.note })),
+        note:
+          `Covers only citations naming a source note. ${AGG_SHARE}% of citations in this repository point at a folder-level index instead, so the real exposure is higher than this. An 'unread' source is one the register marks synthesis-only or not consulted — the claim above it is direction-and-mechanism at best.`
+      });
+    }
+
+    const q = query?.toLowerCase();
+    const hits = SOURCES.filter((s) => {
+      if (read && s.read !== read) return false;
+      if (!q) return true;
+      return `${s.source} ${s.identifier} ${s.access}`.toLowerCase().includes(q);
+    });
+    const byRead = {};
+    for (const s of SOURCES) byRead[s.read] = (byRead[s.read] ?? 0) + 1;
+
+    return ok({
+      total_sources: SOURCES.length,
+      all_by_read: byRead,
+      matched: hits.length,
+      results: hits.slice(0, limit).map((s) => {
+        const rows = s.note ? CITED_BY.get(s.note) ?? [] : [];
+        return {
+          source: s.source, identifier: s.identifier, access: s.access,
+          read: s.read, read_as_recorded: s.read_raw, note: s.note,
+          relied_on_by: [...new Set(rows.map((e) => e.whitepaper))].sort()
+        };
+      }),
+      truncated: hits.length > limit,
+      note:
+        `relied_on_by is a FLOOR. ${AGG_SHARE}% of citations point at a folder-level collected-materials index rather than a named source, and those cannot be attributed here — so anything with an empty list may still be load-bearing. ${SOURCES.filter((s) => !s.note).length} register rows have no matching note, mostly aggregate rows and organisational authors.`
     });
   }
 );

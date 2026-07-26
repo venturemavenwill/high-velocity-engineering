@@ -57,6 +57,7 @@
 {"from":"mcp/hve-iq/README","to":"projections/workshop-2day/DERIVATION","type":"links_to"}
 {"from":"mcp/hve-iq/README","to":"concepts/entry-state","type":"links_to"}
 {"from":"mcp/hve-iq/README","to":"wiki/program/09-Durable-and-Perishable-Register","type":"links_to"}
+{"from":"mcp/hve-iq/README","to":"research/99-source-register/source-register","type":"links_to"}
 {"from":"projections/workshop-2day/DERIVATION","to":"projections/workshop-2day/README","type":"links_to"}
 {"from":"projections/workshop-2day/DERIVATION","to":"concepts/projections","type":"links_to"}
 {"from":"projections/workshop-2day/DERIVATION","to":"concepts/entry-state","type":"links_to"}
@@ -298,6 +299,8 @@
 {"from":"research/08-assessment-epas/ten-cate-epa-framework","to":"research/03-measurement-evaluation/ten-cate-epas","type":"links_to"}
 {"from":"research/08-assessment-epas/ten-cate-epa-framework","to":"research/07-accreditation-exemplars/ten-cate-epa-framework","type":"links_to"}
 {"from":"research/08-assessment-epas/ten-cate-epa-framework","to":"research/08-assessment-epas/collected-materials","type":"part_of"}
+{"from":"research/99-source-register/source-register","to":"mcp/hve-iq/README","type":"links_to"}
+{"from":"research/99-source-register/source-register","to":"wiki/program/09-Durable-and-Perishable-Register","type":"links_to"}
 {"from":"sources/README","to":"wiki/Home","type":"links_to"}
 {"from":"sources/README","to":"research/99-source-register/source-register","type":"links_to"}
 {"from":"sources/README","to":"sources/vendor-courses/06-Hypervelocity-Engineering-Framework","type":"links_to"}

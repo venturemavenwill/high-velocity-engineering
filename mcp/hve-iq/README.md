@@ -35,6 +35,7 @@ Already configured in [.vscode/mcp.json](.vscode/mcp.json). Open Copilot Chat in
 | `hve_platform_exposure` | A vendor shipped a breaking change. What does it cost you? |
 | `hve_predictions` | What does this design say would prove it wrong, and with what instrument? |
 | `hve_evidence` | What does this claim rest on — and what breaks if a source is retracted? |
+| `hve_sources` | **Did anyone actually read it?** |
 
 ### The closure tool is the point
 
@@ -89,6 +90,20 @@ What the class level already buys you is the question that actually gets asked: 
 
 **Prediction density is flat**: 5.0 to 6.0 per paper in every namespace. The whitepaper standard's §9 requirement produces uniform commitment regardless of subject, which is a mild but real piece of evidence that the standard is doing work. `method` shows zero only because no whitepaper has `method` as its primary namespace — not because it avoids falsification.
 
+### Warrant strength, which is sharper than citation identity
+
+[research/99-source-register](research/99-source-register/source-register.md) records, per external source, its identifier, whether it could be accessed, and **whether anyone actually read it**. That column is the strongest warrant signal in the repository and nothing could query it before:
+
+| Read state | Sources |
+|---|---|
+| `full` | 13 |
+| `abstract` | 17 |
+| **`unread`** — synthesis only, or not consulted | **23** |
+
+Run `hve_sources({ read: "unread" })` first. The two most load-bearing unread sources are **Keith and Frese on error management training, under 10 whitepapers**, and **Edmondson on psychological safety, under 9**. Most of the rest are copyrighted books the register marks as such — this is a documented constraint the design worked within, not an oversight, and the claims above them are class 2, licensing direction and mechanism only.
+
+**Exposure counts are a floor, and the tool says so in every answer.** 74% of citations in the evidence prose point at a folder-level `collected-materials` index rather than a named source, so a source showing zero dependants may still be load-bearing. Only 46 of 90 whitepapers cite any named source at all.
+
 ## What v0 does not do
 
 - **The evidence ledger is class-level, not claim-atomic.** Splitting prose claim bundles needs authoring judgement; see above for why that is deferred rather than forgotten.
@@ -98,4 +113,4 @@ What the class level already buys you is the question that actually gets asked: 
 
 ## Next
 
-A judged split of the evidence-status prose into atomic claims — the first extraction here that would carry authoring judgement, and so the first that needs a drift discipline of its own.
+Resolve the folder-level citations to named sources. Until that lands, every exposure number here is a floor, and the retraction query is blunter than it looks. A judged split of the evidence-status prose into atomic claims should wait behind it — precise claims pointing at imprecise sources would be false precision.

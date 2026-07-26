@@ -450,6 +450,63 @@ foreach ($n in $nodes) {
     }
 }
 
+# ---------------------------------------------------------------- source register
+
+# research/99-source-register/source-register.md already records, per external
+# source, its identifier, whether it could be accessed, and WHETHER ANYONE
+# ACTUALLY READ IT. That last column is a sharper warrant signal than the citation
+# graph: a claim resting on a source marked "synthesis only" rests on a source
+# nobody opened, and the repository already knew that but could not be asked.
+#
+# Sources are joined to their Cliff Note by author surname, which is how the notes
+# are named. Unmatched rows are kept with note = null rather than dropped -- they
+# are mostly legitimate: aggregate rows covering several works, organisational
+# authors such as ACM/IEEE-CS, and one bare URL.
+$noteByFile = @{}
+foreach ($n in $nodes) {
+    if ($n.layer -ne 'research') { continue }
+    if ($n.path -like '*collected-materials.md') { continue }
+    $noteByFile[$n.id] = ($n.id -replace '.*/', '')
+}
+$sources    = [System.Collections.Generic.List[object]]::new()
+$regPath    = Join-Path $RepoRoot 'research\99-source-register\source-register.md'
+$SKIP_SECTIONS = @('Retrieval methods that worked', 'Retrieval methods that failed',
+                   'Internal documents, not external sources',
+                   'Memo sources collected from the department simulation')
+if (Test-Path $regPath) {
+    $section = ''
+    foreach ($line in (Get-Content -LiteralPath $regPath)) {
+        if ($line -match '^##\s+(.+?)\s*$') { $section = $Matches[1]; continue }
+        if ($line -notmatch '^\|' -or $line -match '^\|\s*[-: ]+\|' -or $line -match '^\|\s*Source\b') { continue }
+        if ($SKIP_SECTIONS -contains $section) { continue }
+        $c = @($line.Trim().Trim('|') -split '\|' | ForEach-Object { $_.Trim() })
+        if ($c.Count -lt 4 -or -not $c[0]) { continue }
+
+        # normalise the Read column. Order matters: "not read in full" is unread.
+        $raw  = $c[3]
+        $read = if ($raw -match 'not read|synthesis only') { 'unread' }
+                elseif ($raw -match 'full')                { 'full' }
+                elseif ($raw -match 'abstract|HTML pages') { 'abstract' }
+                else                                       { 'unknown' }
+
+        $surname = ((($c[0] -replace '[*"]', '') -split '[ ,]')[0]).ToLower() -replace '[^a-z-]', ''
+        $note = $null
+        if ($surname.Length -ge 3) {
+            $note = @($noteByFile.Keys | Where-Object { $noteByFile[$_].StartsWith($surname) } | Sort-Object)[0]
+        }
+
+        $sources.Add([pscustomobject]@{
+            source     = ($c[0] -replace '\*', '')
+            identifier = $c[1]
+            access     = ($c[2] -replace '\*', '')
+            read       = $read
+            read_raw   = ($raw -replace '\*', '')
+            section    = $section
+            note       = $note
+        })
+    }
+}
+
 # ---------------------------------------------------------------- write
 
 $nodesPath = Join-Path $OutDir 'nodes.jsonl'
@@ -460,6 +517,7 @@ $final | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content $edgesPa
 $claims | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join-Path $OutDir 'claims.jsonl') -Encoding utf8
 $predictions | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join-Path $OutDir 'predictions.jsonl') -Encoding utf8
 $evidence | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join-Path $OutDir 'evidence.jsonl') -Encoding utf8
+$sources | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join-Path $OutDir 'sources.jsonl') -Encoding utf8
 
 [pscustomobject]@{
     generated   = (Get-Date).ToString('yyyy-MM-dd')
@@ -468,6 +526,7 @@ $evidence | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join
     claims      = $claims
     predictions = $predictions
     evidence    = $evidence
+    sources     = $sources
 } | ConvertTo-Json -Depth 8 | Set-Content (Join-Path $OutDir 'graph.json') -Encoding utf8
 
 $kindMap  = [ordered]@{}; $nodes | Group-Object kind  | Sort-Object Name | ForEach-Object { $kindMap[$_.Name]  = $_.Count }
@@ -475,6 +534,7 @@ $layerMap = [ordered]@{}; $nodes | Group-Object layer | Sort-Object Name | ForEa
 $typeMap  = [ordered]@{}; $final | Group-Object type  | Sort-Object Name | ForEach-Object { $typeMap[$_.Name]  = $_.Count }
 $esMap    = [ordered]@{}; $nodes | Where-Object { $_.satisfiable_from } | Group-Object satisfiable_from | Sort-Object Name | ForEach-Object { $esMap[$_.Name] = $_.Count }
 $predNs   = [ordered]@{}; $predictions | Where-Object { $_.namespace } | Group-Object namespace | Sort-Object Count -Descending | ForEach-Object { $predNs[$_.Name] = $_.Count }
+$srcRead  = [ordered]@{}; $sources | Group-Object read | Sort-Object Count -Descending | ForEach-Object { $srcRead[$_.Name] = $_.Count }
 
 [pscustomobject]@{
     generated         = (Get-Date).ToString('yyyy-MM-dd')
@@ -485,6 +545,8 @@ $predNs   = [ordered]@{}; $predictions | Where-Object { $_.namespace } | Group-O
     claim_gap_days    = $claimGap.Count
     prediction_count  = $predictions.Count
     evidence_count    = $evidence.Count
+    source_count      = $sources.Count
+    sources_by_read   = $srcRead
     nodes_by_kind     = $kindMap
     nodes_by_layer    = $layerMap
     edges_by_type     = $typeMap
@@ -501,3 +563,5 @@ if ($esMap.Count) {
 Write-Host "platform claims: $($claims.Count) across $(@($claims | Select-Object -ExpandProperty day -Unique).Count) days  (no table: $($claimGap.Count))"
 Write-Host "predictions:     $($predictions.Count)   evidence rows: $($evidence.Count)"
 $predNs.GetEnumerator() | ForEach-Object { '  {0,-14} {1}' -f $_.Key, $_.Value }
+Write-Host "sources: $($sources.Count)  (joined to a note: $(@($sources | Where-Object { $_.note }).Count))"
+$srcRead.GetEnumerator() | ForEach-Object { '  {0,-14} {1}' -f $_.Key, $_.Value }

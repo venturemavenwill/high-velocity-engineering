@@ -153,5 +153,24 @@ Specific claims flagged as **unverified** across the research set:
 - **Semi-durable:** course exemplars, which are offering-specific and change yearly.
 - **Perishable:** everything in `research/06-microsoft-platform/`. Two pages consulted were already superseded at the time of reading, and one Defender capability moves to a separate licence on 1 July 2026. Re-verify before every offering.
 
+## The machine index
+
+The tables above are extracted into `graph/sources.jsonl` by [scripts/build-graph.ps1](scripts/build-graph.ps1) and served by [HVE IQ](mcp/hve-iq/README.md), so the **Read** column can be queried rather than read. No judgement is applied; sources are joined to their Cliff Note by author surname, and the 11 rows that do not join — aggregate rows, organisational authors, one bare URL — are kept with a null note rather than dropped.
+
+**53 sources: 13 read in full, 17 abstract only, 23 not read at all.**
+
+That last number is not a defect being confessed. Most of the 23 are copyrighted books, and this register's own [copyright handling](research/99-source-register/source-register.md) rule is to store a synthesis rather than copy the text. The claims resting on them are evidence class 2, which licenses direction and mechanism and forbids an effect size. **The register always knew this. What is new is that a reader can ask.**
+
+Two sources are worth naming because of how much sits on them:
+
+| Source | Whitepapers depending on it | Read |
+|---|---|---|
+| Keith and Frese, error management training | **10** | synthesis only |
+| Edmondson, psychological safety | **9** | synthesis only |
+
+Both underpin content the [Durable and Perishable Register](wiki/program/09-Durable-and-Perishable-Register.md) lists as **durable and therefore assessable** — *psychological safety; error management; blameless review*. Durable content may be assessed; the warrant under these two is direction-only. That tension is real, it is not resolved here, and it is exactly what this index exists to make visible.
+
+**Dependency counts from this index are a floor.** 74% of citations in whitepaper evidence sections point at a folder-level `collected-materials` file rather than a named source, and only 46 of 90 whitepapers cite any named source at all. A source showing no dependants may still be carrying weight.
+
 ## Copyright handling
 When a source is copyrighted or paywalled, store a Cliff Notes-style synthesis and citation details rather than copying the source text into the repository.

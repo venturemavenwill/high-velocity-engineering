@@ -22,7 +22,7 @@ const check = (label, cond, detail = "") => {
 
 const tools = (await client.listTools()).tools.map((t) => t.name).sort();
 console.log("\ntools:", tools.join(", "), "\n");
-check("seven tools registered", tools.length === 7, `${tools.length}`);
+check("eight tools registered", tools.length === 8, `${tools.length}`);
 
 const ns = await call("hve_namespaces");
 check("eight namespaces", ns.namespaces.length === 8, ns.namespaces.map((n) => n.namespace).join(", "));
@@ -94,6 +94,18 @@ check("general-knowledge class is queryable", risky.matched === 90, `${risky.mat
 check("class 2 licenses direction only", /No effect size/.test(risky.results[0].licenses));
 const dell = await call("hve_evidence", { source: "dellacqua" });
 check("reverse source lookup works", dell.matched > 0, `${dell.matched} evidence rows would be affected`);
+
+const src = await call("hve_sources", { limit: 1 });
+check("53 sources registered", src.total_sources === 53, `${src.total_sources}`);
+check("read state is tallied", src.all_by_read.unread === 23 && src.all_by_read.full === 13,
+  `unread ${src.all_by_read.unread}, abstract ${src.all_by_read.abstract}, full ${src.all_by_read.full}`);
+const unread = await call("hve_sources", { read: "unread", limit: 100 });
+check("unread sources are findable", unread.matched === 23, `${unread.matched}`);
+check("exposure is declared a floor", /FLOOR/.test(unread.note));
+check("unread sources carry their access reason", unread.results.every((s) => s.access));
+const prof = await call("hve_sources", { whitepaper: "WP-049" });
+check("a paper's warrant profile resolves", prof.evidence_rows === 4 && typeof prof.read_profile === "object",
+  `${prof.attributable_sources} attributable sources`);
 
 await client.close();
 console.log(failures ? `\n${failures} FAILED\n` : "\nall passed\n");

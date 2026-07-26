@@ -59,6 +59,7 @@ It is derived entirely from the files and holds no facts of its own, so it is al
 | What breaks if Foundry changes? | `graph/claims.jsonl` — **581 durable/perishable pairs across 89 days**, or `hve_platform_exposure` |
 | What would prove this design wrong? | `graph/predictions.jsonl` — **512 predictions, each with a named instrument**, all unmeasured |
 | What breaks if a source is retracted? | `graph/evidence.jsonl` — **360 rows**, 90 papers × 4 evidence classes, or `hve_evidence` |
+| Did anyone actually read the source? | `graph/sources.jsonl` — **53 sources; 23 were never read**, or `hve_sources` |
 | What decays in months? | filter on `platform_bearing` — **212 pages**, then read their perishability registers |
 | What survives any projection? | filter on `primary_namespace` = `measurement` or `pedagogy` |
 | What does S049 depend on? | follow `depends_on` edges out of `wiki/seminars/S049` |
@@ -98,11 +99,11 @@ Get-ChildItem -Recurse -Filter *.md | ForEach-Object { $t=Get-Content $_.FullNam
 Expected: **3 hits only**, all placeholders inside a fenced code block in `05-Whitepaper-Standard.md`.
 
 ```powershell
-pwsh ./scripts/build-graph.ps1   # expect 332 nodes, ~7020 edges, 581 claims, 512 predictions, 360 evidence rows
+pwsh ./scripts/build-graph.ps1   # expect 332 nodes, ~7020 edges, 581 claims, 512 predictions, 360 evidence rows, 53 sources
 ```
 
 ```bash
-cd mcp/hve-iq && npm install && npm run smoke   # 34 checks, all must pass
+cd mcp/hve-iq && npm install && npm run smoke   # 40 checks, all must pass
 ```
 
 ## Known open issues, honestly recorded
