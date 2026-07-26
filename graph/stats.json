@@ -1,7 +1,10 @@
 {
   "generated": "2026-07-26",
   "node_count": 332,
-  "edge_count": 7019,
+  "edge_count": 7021,
+  "claim_count": 489,
+  "claim_days": 74,
+  "claim_gap_days": 16,
   "nodes_by_kind": {
     "design-analysis": 3,
     "module": 18,
@@ -30,7 +33,7 @@
     "documents": 90,
     "grounded_in": 598,
     "has_whitepaper": 90,
-    "links_to": 5178,
+    "links_to": 5180,
     "part_of": 443,
     "re_tests": 93,
     "retrieves_from": 309,

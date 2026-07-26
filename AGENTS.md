@@ -56,6 +56,7 @@ It is derived entirely from the files and holds no facts of its own, so it is al
 | Question | Approach |
 |---|---|
 | Which days teach Azure AI Search? | filter nodes on `platform_anchor` |
+| What breaks if Foundry changes? | `graph/claims.jsonl` — **489 durable/perishable pairs**, or `hve_platform_exposure` |
 | What decays in months? | filter on `platform_bearing` — **212 pages**, then read their perishability registers |
 | What survives any projection? | filter on `primary_namespace` = `measurement` or `pedagogy` |
 | What does S049 depend on? | follow `depends_on` edges out of `wiki/seminars/S049` |
@@ -95,11 +96,11 @@ Get-ChildItem -Recurse -Filter *.md | ForEach-Object { $t=Get-Content $_.FullNam
 Expected: **3 hits only**, all placeholders inside a fenced code block in `05-Whitepaper-Standard.md`.
 
 ```powershell
-pwsh ./scripts/build-graph.ps1   # expect 332 nodes, ~7020 edges
+pwsh ./scripts/build-graph.ps1   # expect 332 nodes, ~7020 edges, 489 claims
 ```
 
 ```bash
-cd mcp/hve-iq && npm install && npm run smoke   # 18 checks, all must pass
+cd mcp/hve-iq && npm install && npm run smoke   # 24 checks, all must pass
 ```
 
 ## Known open issues, honestly recorded

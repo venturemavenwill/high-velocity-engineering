@@ -139,6 +139,19 @@ Four mechanisms, because a rule with no enforcement is a preference.
 4. **Re-verification passes, at three different cadences.** Before each delivery, the semi-durable table is re-checked and the perishable instances in each affected seminar day are refreshed. **Before every offering, the platform layer is verified in full against the four checks above**, and the outcome is recorded so that the next pass can see what changed rather than re-deriving it. The durable table is reviewed on a three-year cycle.
 5. **A day states its anchor and its perishability together.** Each seminar day's header block names its platform anchor, and the day's own perishability register separates the durable claim from the platform instance carrying it. The claim is assessed; the instance is the vehicle. A day whose header names an anchor and whose register does not name the durable claim behind it has not been designed, and is caught in the same review as an unmarked perishable claim.
 
+## The machine index
+
+Mechanism 5 above makes every day state its durable claim and its platform instance side by side. From S016 onward that pairing is a table, which means **it can be read by a machine without anyone re-authoring it**. [scripts/build-graph.ps1](scripts/build-graph.ps1) extracts those rows into `graph/claims.jsonl` — **489 pairs across 74 days** — and [HVE IQ](mcp/hve-iq/README.md) serves them, so the question *"this service changed; what does it cost us?"* is answered by query rather than by re-reading ninety files.
+
+No judgement is applied in the extraction. The claims are the ones the day already wrote; the index adds only the day's anchor, module and quarter by join. **If the index disagrees with a day, the day is right.**
+
+**Two blind spots, both declared by the tool in every answer rather than left to be discovered:**
+
+- **S001–S015** carry a prose *Perishability register* that predates the table format. **This is a format gap, not a design gap** — those days do separate the durable claim from the platform instance, in sentences, and they satisfy mechanism 5. They are simply not machine-readable, and are left unconverted on the same principle as the unamended S001–S040 specifications: the earlier form stays legible, and the reader can see when the format was fixed.
+- **S090** has no perishable content of substance. That is a true zero, not a gap.
+
+The cost of the first is real: a vendor change that lands on S011 will not appear in a query, and must be caught by hand. Recorded here so the person running the pre-offering check knows to do that.
+
 ## The uncomfortable consequence
 
 Students will occasionally learn a concept through an instance that is already stale by the time they encounter it in industry, and will find that the specific commands they were shown do not work. This design accepts that outcome. The alternative — chasing currency — produces a programme that is a perpetually out-of-date tutorial, which is both worse and more expensive.

@@ -319,6 +319,53 @@ if ($esMissing.Count) {
     Write-Warning "satisfiable_from missing for $($esMissing.Count) day(s): $(($esMissing.id | Sort-Object) -join ', ')"
 }
 
+# ---------------------------------------------------------------- claims
+
+# Platform claims are NOT authored here and no judgement is applied. Every seminar
+# day from S016 already carries a "Perishable content in this day" table pairing a
+# durable claim with the platform instance that teaches it; this indexes those rows
+# so they can be queried by product before an offering, which is what the months-long
+# platform decay actually demands.
+#
+# Two known blind spots, recorded rather than papered over:
+#   S001-S015 use a prose "Perishability register" that predates the table format.
+#             Left unconverted on the same principle as the unamended S001-S040
+#             specifications: the early form stays legible.
+#   S090      genuinely has no perishable content of substance. A true zero.
+$claims   = [System.Collections.Generic.List[object]]::new()
+$claimGap = @()
+foreach ($n in $nodes) {
+    if ($n.kind -ne 'seminar') { continue }
+    $text = Get-Content -LiteralPath (Join-Path $RepoRoot ($n.path -replace '/', '\')) -Raw
+    $i = $text.IndexOf('## Perishable content in this day')
+    if ($i -lt 0) { $claimGap += $n.id; continue }
+    $j = $text.IndexOf("`n## ", $i + 5)
+    if ($j -lt 0) { $j = $text.Length }
+    $k = 0
+    foreach ($line in (($text.Substring($i, $j - $i)) -split "`r?`n")) {
+        if ($line -notmatch '^\|')          { continue }   # not a table row
+        if ($line -match   '^\|\s*[-: ]+\|'){ continue }   # separator
+        if ($line -match   '^\|\s*Durable') { continue }   # header, both variants
+        $cells = @($line.Trim().Trim('|') -split '\|' | ForEach-Object { $_.Trim() })
+        if ($cells.Count -lt 2 -or -not $cells[0] -or -not $cells[1]) { continue }
+        $k++
+        $claims.Add([pscustomobject]@{
+            id                 = ('{0}.p{1}' -f ($n.id -replace '.*/', ''), $k)
+            day                = $n.id
+            module             = $n.module
+            quarter            = $n.quarter
+            durable            = $cells[0]
+            perishable         = $cells[1]
+            platform_anchor    = $n.platform_anchor
+            namespace          = 'platform'
+            decay              = 'months'
+            verify_cadence     = 'before every offering'
+            assessment_bearing = [bool]$n.assessment_bearing
+        })
+    }
+    if ($k -eq 0 -and $claimGap -notcontains $n.id) { $claimGap += $n.id }
+}
+
 # ---------------------------------------------------------------- write
 
 $nodesPath = Join-Path $OutDir 'nodes.jsonl'
@@ -326,11 +373,13 @@ $edgesPath = Join-Path $OutDir 'edges.jsonl'
 
 $nodes | ForEach-Object { $_ | ConvertTo-Json -Compress -Depth 6 } | Set-Content $nodesPath -Encoding utf8
 $final | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content $edgesPath -Encoding utf8
+$claims | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join-Path $OutDir 'claims.jsonl') -Encoding utf8
 
 [pscustomobject]@{
     generated = (Get-Date).ToString('yyyy-MM-dd')
     nodes     = $nodes
     edges     = $final
+    claims    = $claims
 } | ConvertTo-Json -Depth 8 | Set-Content (Join-Path $OutDir 'graph.json') -Encoding utf8
 
 $kindMap  = [ordered]@{}; $nodes | Group-Object kind  | Sort-Object Name | ForEach-Object { $kindMap[$_.Name]  = $_.Count }
@@ -342,6 +391,9 @@ $esMap    = [ordered]@{}; $nodes | Where-Object { $_.satisfiable_from } | Group-
     generated        = (Get-Date).ToString('yyyy-MM-dd')
     node_count       = $nodes.Count
     edge_count       = $final.Count
+    claim_count      = $claims.Count
+    claim_days       = @($claims | Select-Object -ExpandProperty day -Unique).Count
+    claim_gap_days   = $claimGap.Count
     nodes_by_kind    = $kindMap
     nodes_by_layer   = $layerMap
     edges_by_type    = $typeMap
@@ -354,3 +406,4 @@ if ($esMap.Count) {
     Write-Host 'satisfiable_from:'
     $esMap.GetEnumerator() | ForEach-Object { '  {0,-32} {1}' -f $_.Key, $_.Value }
 }
+Write-Host "platform claims: $($claims.Count) across $(@($claims | Select-Object -ExpandProperty day -Unique).Count) days  (no table: $($claimGap.Count))"

@@ -22,7 +22,7 @@ const check = (label, cond, detail = "") => {
 
 const tools = (await client.listTools()).tools.map((t) => t.name).sort();
 console.log("\ntools:", tools.join(", "), "\n");
-check("four tools registered", tools.length === 4, `${tools.length}`);
+check("five tools registered", tools.length === 5, `${tools.length}`);
 
 const ns = await call("hve_namespaces");
 check("eight namespaces", ns.namespaces.length === 8, ns.namespaces.map((n) => n.namespace).join(", "));
@@ -58,6 +58,22 @@ check("re-tests widen the closure", withRetests.closure_size > without.closure_s
 
 const missing = await call("hve_get", { id: "wiki/seminars/S999" });
 check("unknown id fails gracefully", Boolean(missing.error));
+
+const allClaims = await call("hve_platform_exposure", { limit: 1 });
+check("489 platform claims indexed", allClaims.total_claims_indexed === 489, `${allClaims.total_claims_indexed}`);
+check("blind spots are declared", allClaims.blind_spot_days.length === 16 && allClaims.blind_spot_days.includes("wiki/seminars/S001"),
+  `${allClaims.blind_spot_days.length} days (S001-S015 prose + S090)`);
+
+const foundry = await call("hve_platform_exposure", { product: "Foundry" });
+check("Foundry exposure found", foundry.matched > 0 && foundry.days_affected > 0, `${foundry.matched} claims across ${foundry.days_affected} days`);
+check("each hit pairs instance with durable claim",
+  foundry.by_day.every((d) => d.claims.every((c) => c.teaches && c.instance_at_risk)));
+
+const scoped = await call("hve_platform_exposure", { days: ["wiki/seminars/S016"] });
+check("day scoping works", scoped.days_affected === 1 && scoped.blind_spot_days.length === 0, `${scoped.matched} claims in S016`);
+
+const blindScope = await call("hve_platform_exposure", { days: ["wiki/seminars/S011"] });
+check("scoping a blind day warns instead of returning nothing", blindScope.matched === 0 && blindScope.blind_spot_days.length === 1);
 
 await client.close();
 console.log(failures ? `\n${failures} FAILED\n` : "\nall passed\n");

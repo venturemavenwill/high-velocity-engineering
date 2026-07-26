@@ -25,6 +25,13 @@ const REPO = process.env.HVE_REPO_ROOT ?? join(HERE, "..", "..");
 const graph = JSON.parse(readFileSync(join(REPO, "graph", "graph.json"), "utf8"));
 const NODES = graph.nodes;
 const EDGES = graph.edges;
+const CLAIMS = graph.claims ?? [];
+
+// Days whose perishable content this index cannot see. S001-S015 predate the
+// table format and use prose; S090 genuinely has none. Surfaced by the exposure
+// tool rather than left as a silent gap in a decay answer.
+const CLAIM_DAYS = new Set(CLAIMS.map((c) => c.day));
+const BLIND = NODES.filter((n) => n.kind === "seminar" && !CLAIM_DAYS.has(n.id)).map((n) => n.id).sort();
 
 const byId = new Map(NODES.map((n) => [n.id, n]));
 
@@ -220,6 +227,58 @@ server.registerTool(
         entry_state === "novice"
           ? "Nothing assumed. This is the BSc's own entry state. Re-run with entry_state='professional-declared' if your audience has delivery experience — but you will then owe the reader the must_declare list."
           : "must_declare is not optional. Those claims are commonly held informally and rarely in the precise form the dependents need, so some of your audience will not have them. Entry-state judgements are method-namespace, untested against a real audience: see concepts/entry-state.md."
+    });
+  }
+);
+
+// ---------------------------------------------------------------- decay
+
+server.registerTool(
+  "hve_platform_exposure",
+  {
+    title: "Find what a platform change breaks",
+    description:
+      "The platform layer decays in months. Given a product, service or API that has changed — or a set of days you are about to deliver — return every perishable platform instance affected, paired with the durable claim it was teaching. Use it before an offering, or when a vendor ships a breaking change. The durable claim almost never changes; the instance does, and swapping the instance is usually the whole fix.",
+    inputSchema: {
+      product: z.string().optional().describe("e.g. 'Foundry', 'Azure AI Search', 'Agent Framework', 'embeddings', 'prompt caching'"),
+      days: z.array(z.string()).optional().describe("restrict to these day ids, e.g. a projection's day list"),
+      limit: z.number().int().positive().max(200).optional()
+    }
+  },
+  async ({ product, days, limit = 40 }) => {
+    const q = product?.toLowerCase();
+    const dayFilter = days?.length ? new Set(days) : null;
+    const hits = CLAIMS.filter((c) => {
+      if (dayFilter && !dayFilter.has(c.day)) return false;
+      if (!q) return true;
+      return `${c.platform_anchor ?? ""} ${c.perishable} ${c.durable}`.toLowerCase().includes(q);
+    });
+
+    const byDay = new Map();
+    for (const c of hits) {
+      if (!byDay.has(c.day)) byDay.set(c.day, []);
+      byDay.get(c.day).push({ id: c.id, teaches: c.durable, instance_at_risk: c.perishable });
+    }
+
+    // A decay answer that silently omits days is worse than no answer.
+    const blind = dayFilter ? BLIND.filter((d) => dayFilter.has(d)) : BLIND;
+
+    return ok({
+      product: product ?? "(all)",
+      total_claims_indexed: CLAIMS.length,
+      matched: hits.length,
+      days_affected: byDay.size,
+      by_day: [...byDay.entries()]
+        .sort()
+        .slice(0, limit)
+        .map(([day, claims]) => ({ day, title: byId.get(day)?.title, platform_anchor: byId.get(day)?.platform_anchor, claims })),
+      truncated: byDay.size > limit,
+      blind_spot_days: blind,
+      note:
+        "Perishable content may be used as an instance of durable content but may NEVER be the thing assessed, so a change here should cost you an instance, not a claim. " +
+        (blind.length
+          ? `${blind.length} day(s) carry perishable content this index cannot see — S001-S015 use a prose register that predates the table format, and S090 has none of substance. Check those by hand.`
+          : "No blind spots in this result.")
     });
   }
 );

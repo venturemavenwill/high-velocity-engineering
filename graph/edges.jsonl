@@ -56,6 +56,7 @@
 {"from":"graph/README","to":"projections/workshop-2day/DERIVATION","type":"links_to"}
 {"from":"mcp/hve-iq/README","to":"projections/workshop-2day/DERIVATION","type":"links_to"}
 {"from":"mcp/hve-iq/README","to":"concepts/entry-state","type":"links_to"}
+{"from":"mcp/hve-iq/README","to":"wiki/program/09-Durable-and-Perishable-Register","type":"links_to"}
 {"from":"projections/workshop-2day/DERIVATION","to":"projections/workshop-2day/README","type":"links_to"}
 {"from":"projections/workshop-2day/DERIVATION","to":"concepts/projections","type":"links_to"}
 {"from":"projections/workshop-2day/DERIVATION","to":"concepts/entry-state","type":"links_to"}
@@ -1396,6 +1397,7 @@
 {"from":"wiki/program/09-Durable-and-Perishable-Register","to":"research/06-microsoft-platform/collected-materials","type":"grounded_in"}
 {"from":"wiki/program/09-Durable-and-Perishable-Register","to":"wiki/program/11-Microsoft-AI-Platform-Map","type":"links_to"}
 {"from":"wiki/program/09-Durable-and-Perishable-Register","to":"wiki/program/05-Whitepaper-Standard","type":"links_to"}
+{"from":"wiki/program/09-Durable-and-Perishable-Register","to":"mcp/hve-iq/README","type":"links_to"}
 {"from":"wiki/program/09-Durable-and-Perishable-Register","to":"wiki/program/00-Program-Charter","type":"links_to"}
 {"from":"wiki/program/09-Durable-and-Perishable-Register","to":"wiki/program/12-Copilot-Practice-Standard","type":"links_to"}
 {"from":"wiki/program/09-Durable-and-Perishable-Register","to":"wiki/program/10-Substrate-and-Infrastructure","type":"links_to"}

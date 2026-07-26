@@ -32,6 +32,7 @@ Already configured in [.vscode/mcp.json](.vscode/mcp.json). Open Copilot Chat in
 | `hve_search` | Find documents by text, namespace, kind, or perishability. `platform_bearing: true` returns everything that decays in months. |
 | `hve_get` | One document with its typed neighbours — depends on, re-tested by, grounded in, paired whitepaper. |
 | `hve_dependency_closure` | **The differentiator.** Given what you intend to teach, what must you also cover? |
+| `hve_platform_exposure` | A vendor shipped a breaking change. What does it cost you? |
 
 ### The closure tool is the point
 
@@ -51,10 +52,25 @@ It follows `depends_on` and deliberately **excludes** `re_tests`. A dependency c
 
 The `entry_state` values come from [concepts/entry-state.md](concepts/entry-state.md), which classifies all 90 days against a fixed reference professional. **Read its limitations before quoting a number.** It is `method` namespace, carries no external warrant, and has never been tested against a real audience — and `must_declare` is not optional output. Those are the claims your audience holds informally and may not hold precisely.
 
+### The exposure tool is the decay answer
+
+The platform layer decays in **months**, which makes "what did this vendor change cost us?" the most frequently asked operational question about this material. `hve_platform_exposure` answers it from **489 durable/perishable pairs** the seminar days had already written:
+
+```
+product: "Foundry"  ->  302 claims across 47 days
+
+S016  teaches            Data moves between levels in fixed-size blocks
+      instance at risk   The 1,024-token minimum and the 128-token hit increment
+```
+
+The pairing is the point. **A vendor change should cost you an instance, not a claim** — that is the rule the [Durable and Perishable Register](wiki/program/09-Durable-and-Perishable-Register.md) exists to enforce, and seeing both halves together tells you whether you are swapping an example or rewriting a day.
+
+Nothing here is authored by the extractor; it reads tables the days already carry. **Sixteen days are invisible to it** — S001–S015 use a prose register that predates the table format, and S090 has no perishable content. The tool declares that in every answer rather than returning a confidently incomplete list.
+
 ## What v0 does not do
 
-- **No claim-level granularity.** Document-level only; claims are still embedded in prose. Tools 1–4 get sharper once extraction lands.
-- **No semantic search.** Substring matching. Adequate at 329 nodes; add embeddings when it stops being.
+- **Claim-level only for `platform`.** The other seven namespaces are still document-level, because only the perishability tables were already claim-shaped in the substrate.
+- **No semantic search.** Substring matching. Adequate at 332 nodes; add embeddings when it stops being.
 - **No writes.** By design, permanently. The graph is derived and the substrate is truth; a future research loop proposes **pull requests**, never commits.
 - **No auth.** stdio only. Remote deployment needs Entra or OAuth first.
 
