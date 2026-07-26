@@ -1,0 +1,10 @@
+{
+  "servers": {
+    "hve-iq": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${workspaceFolder}/mcp/hve-iq/index.js"],
+      "env": { "HVE_REPO_ROOT": "${workspaceFolder}" }
+    }
+  }
+}

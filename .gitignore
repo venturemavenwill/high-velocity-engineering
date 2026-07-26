@@ -12,7 +12,8 @@ Thumbs.db
 desktop.ini
 
 # Editor
-.vscode/
+.vscode/*
+!.vscode/mcp.json
 .idea/
 *.swp
 *~
@@ -21,3 +22,14 @@ desktop.ini
 *.tmp
 *.bak
 *.log
+
+# Agent memory. Repo-scoped memory currently lives in VS Code workspaceStorage,
+# outside this tree, so it is excluded by construction. These entries are
+# defensive: if a future memory backend writes in-tree, it must not be committed.
+.memories/
+memories/
+**/memory-tool/
+
+# MCP server build output and deps
+mcp/**/node_modules/
+mcp/**/dist/

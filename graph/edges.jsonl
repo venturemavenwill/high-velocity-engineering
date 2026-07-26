@@ -1,3 +1,4 @@
+{"from":"AGENTS","to":"mcp/hve-iq/README","type":"links_to"}
 {"from":"AGENTS","to":"concepts/projections","type":"links_to"}
 {"from":"AGENTS","to":"concepts/namespaces","type":"links_to"}
 {"from":"AGENTS","to":"wiki/program/11-Microsoft-AI-Platform-Map","type":"links_to"}
@@ -35,6 +36,7 @@
 {"from":"graph/README","to":"concepts/namespaces","type":"links_to"}
 {"from":"graph/README","to":"projections/workshop-2day/README","type":"links_to"}
 {"from":"graph/README","to":"projections/workshop-2day/DERIVATION","type":"links_to"}
+{"from":"mcp/hve-iq/README","to":"projections/workshop-2day/DERIVATION","type":"links_to"}
 {"from":"projections/workshop-2day/DERIVATION","to":"projections/workshop-2day/README","type":"links_to"}
 {"from":"projections/workshop-2day/DERIVATION","to":"concepts/projections","type":"links_to"}
 {"from":"projections/workshop-2day/README","to":"wiki/Home","type":"links_to"}

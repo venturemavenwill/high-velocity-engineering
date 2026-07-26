@@ -7,7 +7,7 @@
 
 A body of knowledge about **forward-deployed engineering and hypervelocity engineering, and how to teach it** — together with the research it was derived from and the vendor study notes that started it.
 
-It is **328 markdown files and nothing else.** No code, no build, no tests. The artefact is the argument.
+It is **330 markdown files, one graph builder and one MCP server.** The knowledge layers are markdown and nothing else — the artefact is the argument. The two pieces of code are both **derived tooling**: [scripts/build-graph.ps1](scripts/build-graph.ps1) regenerates the index from the files, and [mcp/hve-iq](mcp/hve-iq/README.md) serves it read-only. **Neither holds a fact of its own, and neither ever writes to the substrate.**
 
 **The three-year BSc programme in `wiki/` is a seed, not the product.** It is one *projection* over the knowledge — the first built and the one that happens to be finished. Other projections (a two-day workshop, certification prep, an engagement playbook, a thirty-day onboarding path) are read models over the same claims and are equally legitimate. An agent asked for a format that is not the BSc is not being asked to invent something; it is being asked to project. See [concepts/projections.md](concepts/projections.md) for what a projection may and may not do.
 
@@ -92,7 +92,11 @@ Get-ChildItem -Recurse -Filter *.md | ForEach-Object { $t=Get-Content $_.FullNam
 Expected: **3 hits only**, all placeholders inside a fenced code block in `05-Whitepaper-Standard.md`.
 
 ```powershell
-pwsh ./scripts/build-graph.ps1   # expect 323 nodes, ~6600 edges
+pwsh ./scripts/build-graph.ps1   # expect 329 nodes, ~6960 edges
+```
+
+```bash
+cd mcp/hve-iq && npm install && npm run smoke   # 13 checks, all must pass
 ```
 
 ## Known open issues, honestly recorded
