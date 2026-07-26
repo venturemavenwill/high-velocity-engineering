@@ -37,20 +37,22 @@ The BSc exists. These are the ones the same claims should support, and the reaso
 | Projection | Shape | What it would test |
 |---|---|---|
 | **`bsc-programme`** *(built)* | 3 years · 90 days · 10 entrustment occasions | Whether the claims support a certifiable judgement of readiness. |
-| `workshop-2day` | 2 days · one team · no assessment | Whether anything survives the loss of spacing. **Most of the pedagogy namespace says no** — that is a finding, not a failure. |
+| **[`workshop-2day`](projections/workshop-2day/README.md)** *(built)* | 2 days · one team · no assessment | Whether anything survives the loss of spacing. **It largely does not — and the projection says so on its first morning.** |
 | `cert-prep` | GH-300 / AB-100 aligned | Whether `platform` claims stand alone once `method` and `measurement` are stripped out. |
 | `engagement-playbook` | Reference, non-linear | Whether `fde-craft` claims are usable outside a teaching sequence. |
 | `onboarding-30day` | New FDE hire | Whether the complexity-class ladder compresses, or only stretches. |
 | `assessment-kit` | The entrustment machinery alone | Whether `assessment` separates cleanly from `curriculum`. |
 | `platform-brief` | Dated, disposable | Whether the perishable layer can be shipped separately and thrown away on schedule. |
 
-**`workshop-2day` is the most informative and the most likely to fail honestly.** Spacing, interleaving and expanding-interval retrieval are the pedagogy namespace's best-warranted content, and a two-day format destroys all three. A projection that admits this — and states which claims it cannot deliver — is worth more than one that pretends otherwise.
+**`workshop-2day` was built second, by hand, deliberately.** It was chosen because it should partly fail: spacing, interleaving and expanding-interval retrieval are the pedagogy namespace's best-warranted content and a two-day format destroys all three. It abstains explicitly on retention, entrustment, complexity class 3+, and consequence.
+
+Its [derivation record](projections/workshop-2day/DERIVATION.md) is the more valuable artefact. Building it by hand established that **the claim/projection split holds** — and found four fields the schema needs that exist nowhere, plus one defect that must be fixed before extraction runs.
 
 ## Current state, stated plainly
 
 **The claims are not extracted.** They are embedded in prose across 325 files, and the [graph](graph/README.md) indexes documents and their relationships, not claims. I flagged that limit when the graph was built and it is now the binding constraint.
 
-The practical consequence: **an agent asked to build a new projection today must read, not query.** That is workable for one projection and does not scale to seven, and it means every projection re-derives the same claims independently and will disagree with the others in small ways nobody notices.
+The practical consequence, now measured rather than predicted: **building [workshop-2day](projections/workshop-2day/README.md) required reading, not querying.** That was workable for one projection. It does not scale to seven, and every projection built this way re-derives the same claims independently and will disagree with the others in small ways nobody notices.
 
 What exists that makes extraction tractable:
 
@@ -63,13 +65,14 @@ What is missing is stable claim IDs and an append-only place to put them.
 
 ## The order of work
 
-1. **Version control.** An append-only ledger in a directory with no version control is not append-only. This is prerequisite zero and nothing below is safe without it.
-2. **Namespace fields on the graph** — so `platform`-dominated pages can be found and re-verified on their own cadence. *Cheap, and the perishability loop depends only on this.*
-3. **Claim extraction**, namespace by namespace, starting with `platform` — highest volume, fastest decay, most mechanical to extract, and least costly to get wrong.
-4. **A second projection**, built from claims alone. `workshop-2day`, because it is the one that should partly fail.
-5. **Findings**, once a cohort exists, against the §9 predictions.
+1. ~~**Version control.**~~ **Done.** An append-only ledger in a directory with no version control is not append-only.
+2. ~~**Namespace fields on the graph**~~ **Done.** Every node carries `primary_namespace`, `namespaces`, `decay`, `verify_cadence` and `platform_bearing`.
+3. ~~**A second projection**, built to test the split.~~ **Done — [workshop-2day](projections/workshop-2day/README.md).** Built by hand, deliberately ahead of extraction, so the schema would be specified by a real projection's needs rather than guessed.
+4. **Split `retrieves_from` into `depends_on` and `re_tests`.** **This now blocks extraction.** One edge type is carrying two relations — a dependency that constrains ordering in every projection, and a re-test that constrains ordering only where there is spacing. All 309 edges are affected. See [DERIVATION.md](projections/workshop-2day/DERIVATION.md).
+5. **Claim extraction**, namespace by namespace, starting with `platform` — highest volume, fastest decay, most mechanical, least costly to get wrong.
+6. **Findings**, once a cohort exists, against the §9 predictions.
 
-Step 4 is the real test. Until a second projection is derived from the same claims, the claim/projection split is an assertion — and this repository does not get to make assertions it has not tested.
+Step 3 has been taken and the split holds: a second projection was derived, it obeys all five rules, and it abstains rather than padding. **Step 4 is now the binding constraint** — running extraction before it would bake the conflation in permanently.
 
 ## Related
 
