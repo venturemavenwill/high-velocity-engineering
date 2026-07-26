@@ -1,0 +1,81 @@
+# Cliff Notes — Stanford CS336 Language Modeling from Scratch
+
+## Citation and access
+- **Authors:** Tatsunori Hashimoto and Percy Liang (instructors); Marcel Rød, Neil Band and Rohith Kuditipudi (course assistants)
+- **Title:** CS336: Language Modeling from Scratch
+- **Venue and year:** Stanford University, Spring 2025 offering (archived); affiliated with the Stanford NLP Group and the Center for Research on Foundation Models
+- **Source consulted:** `http://cs336.stanford.edu/spring2025/`; assignment repositories under `https://github.com/stanford-cs336`
+- **Access status:** open. Course site, schedule, assignment repositories, leaderboards and lecture materials are public. Compute for the class was sponsored by Together AI.
+
+## What this source is
+CS336 is the public syllabus and assignment set for a five-unit, implementation-heavy Stanford course in which students build a language model end to end. It is included here as an exemplar for two reasons that have nothing to do with its subject matter: it is the clearest published example of scaffolding deliberately withheld as a pedagogical instrument, and it carries the most reasoned AI-tool policy of any course in this collection. Its schedule, assignment decomposition and honour code are the transferable artefacts.
+
+## The argument in full
+The course's premise is stated by analogy, and the analogy is doing real work: "Drawing inspiration from operating systems courses that create an entire operating system from scratch, we will lead students through every aspect of language model creation, including data collection and cleaning for pre-training, transformer model construction, model training, and evaluation before deployment." The claim behind the analogy is that certain kinds of understanding are only available through construction. You can read about a tokenizer; you understand a tokenizer differently after implementing one that has to interoperate with your own attention implementation and your own optimiser. The course argues this is now necessary rather than merely enriching: "As the field of artificial intelligence (AI), machine learning (ML), and NLP continues to grow, possessing a deep understanding of language models becomes essential for scientists and engineers alike."
+
+The prerequisites section is where the course's distinctive design decision is made explicit, and it is a decision about scaffolding rather than about content. Under "Proficiency in Python" the site states: "Unlike most other AI classes, students will be given minimal scaffolding. The amount of code you will write will be at least an order of magnitude greater than for other classes. Therefore, being proficient in Python and software engineering is paramount." This is not incidental difficulty. Minimal scaffolding is the mechanism by which the from-scratch premise is enforced; a generously scaffolded version of the same assignments would leave the pedagogical claim unfulfilled. The other prerequisites follow from the same logic: experience with deep learning and systems optimisation, because "a significant part of the course will involve making neural language models run quickly and efficiently on GPUs across multiple machines", with strong PyTorch familiarity and "basic systems concepts like the memory hierarchy"; college calculus and linear algebra; basic probability and statistics; and machine learning. The site closes the section with a warning about load: "Note that this is a 5-unit class. This is a very implementation-heavy class, so please allocate enough time for it."
+
+The five assignments decompose the construction into layers that build on each other, and each layer is a different kind of engineering. Assignment 1, Basics, requires students to "implement all of the components (tokenizer, model architecture, optimizer) necessary to train a standard Transformer language model" and then "train a minimal language model." Assignment 2, Systems, turns the artefact from Assignment 1 into an object of performance engineering: "profile and benchmark the model and layers from Assignment 1 using advanced tools, optimize Attention with your own Triton implementation of FlashAttention2" and "build a memory-efficient, distributed version of the Assignment 1 model training code." Assignment 3, Scaling, is analytical rather than constructive: "understand the function of each component of the Transformer" and "query a training API to fit a scaling law to project model scaling." Assignment 4, Data, moves to the least glamorous and arguably most consequential layer: "convert raw Common Crawl dumps into usable pretraining data" and "perform filtering and deduplication to improve model performance." Assignment 5, Alignment and Reasoning RL, closes the loop: "apply supervised finetuning and reinforcement learning to train LMs to reason when solving math problems", with an optional second part to "implement and apply safety alignment methods such as DPO." Several assignments carry public leaderboards, which introduces a competitive quality signal without converting the grade into a ranking.
+
+The honour code section is the part most worth borrowing, because its AI-tool policy is derived from a stated learning mechanism rather than from a stance about tools. Collaboration is handled conventionally: "Study groups are allowed, but students must understand and complete their own assignments, and hand in one assignment per student. If you worked in a group, please put the names of the members of your study group at the top of your assignment." The AI clause draws a line between assistance and substitution: "Prompting LLMs such as ChatGPT is permitted for low-level programming questions or high-level conceptual questions about language models, but using it directly to solve the problem is prohibited." Then comes the passage that makes the policy interesting. The course goes beyond permission and prohibition to make a request with a reason attached: "We strongly encourage you to disable AI autocomplete (e.g., Cursor Tab, GitHub CoPilot) in your IDE when completing assignments (though non-AI autocomplete, e.g., autocompleting function names is totally fine). We have found that AI autocomplete makes it much harder to engage deeply with the content." The argument is not that autocomplete is cheating; it is that autocomplete defeats the specific mechanism — sustained struggle with implementation detail — through which this course intends learning to happen. The same reasoning extends to existing code: "Implementations for many of the things you will implement exist online. The handouts we'll give will be self-contained, so that you will not need to consult third-party code for producing your own implementation. Thus, you should not look at any existing code unless when otherwise specified in the handouts." Note the structure of that sentence — the restriction is justified by the self-containedness of the handout, so the course has taken on the obligation that makes the restriction fair.
+
+The logistics are conventional but well-specified and worth recording as calibration. Coursework is submitted through Gradescope, resubmission is unlimited until the deadline with only the last submission graded, and "partial work is better than not submitting any work." Each student has six late days, extending a deadline by twenty-four hours each, with a maximum of three per assignment. Regrade requests must be filed within three days of grades being released. Students are directed to ask all course-related questions in public Slack channels, with email reserved for personal matters.
+
+Finally, the course publishes something few courses do: a costed path for self-study. It lists prices for a single H100 80GB GPU as of 6 June 2025 — RunPod at $1.99-2.99 per hour, Lambda Labs at $2.49-3.29, Paperspace at $2.24, and Together at $2.85 with an eight-GPU minimum — and gives a cost-management heuristic: "we recommend debugging correctness of your implementation on CPU first and then using GPU(s) (with the count recommended in the assignments) for completing training runs (A1, A4, A5) or benchmarking GPU operations (A2)." Publishing the compute bill is a small act of honesty that makes the course genuinely reusable outside Stanford.
+
+## Structure of the original
+- Course staff
+- Logistics: lecture times and venue, office hours per staff member, contact policy
+- Content: what the course is about; prerequisites
+- Coursework: five assignments; GPU compute for self-study; honour code; submitting coursework; late days; regrade requests; sponsor
+- Schedule: nineteen numbered lectures with materials and assignment out/due markers
+
+## Key concepts and specifics
+- Five units; lectures Tuesday and Thursday 15:00-16:20 in NVIDIA Auditorium; five staff running office hours across the week.
+- Five assignments, each with a public GitHub repository; leaderboards on Assignments 1, 2 and 4.
+- Late policy: six late days total, at most three on any one assignment; regrade window of three days.
+- Nineteen lectures: Overview and tokenization; PyTorch and resource accounting; Architectures and hyperparameters; Mixture of experts; GPUs; Kernels and Triton; Parallelism (twice); Scaling laws (twice); Inference; Evaluation; Data (twice); Alignment SFT/RLHF; Alignment RL (twice); and two guest lectures, by Junyang Lin and Mike Lewis.
+- Assignment deadlines in Spring 2025: A1 due 15 April, A2 due 30 April, A3 due 6 May, A4 due 23 May, A5 due 6 June.
+- H100 80GB hourly prices published as of 6 June 2025: RunPod $1.99-2.99, Lambda Labs $2.49-3.29, Paperspace $2.24, Together $2.85 with an eight-GPU minimum.
+- Compute sponsored by Together AI.
+- "Resource accounting" appears as a lecture topic in its own right, in the second session — cost and memory arithmetic is taught as a foundational skill, not as an afterthought.
+
+## Method and evidence base
+This is a syllabus, not a study, and it makes no empirical claims beyond one: "We have found that AI autocomplete makes it much harder to engage deeply with the content." That is an instructor observation offered as such, not a research finding, and it should be cited that way. The course's authority rests on the standing of its instructors within the foundation-model research community and on the fact that its assignments are public and independently attemptable — anyone can check that the scaffolding really is minimal and that the handouts really are self-contained.
+
+## Vocabulary the source introduces
+- **From scratch** — the operating-systems-course model of building the entire artefact rather than composing library calls.
+- **Minimal scaffolding** — deliberately withholding starter code as a pedagogical instrument.
+- **Resource accounting** — reasoning quantitatively about compute, memory and cost as a first-class course topic.
+- **Self-contained handout** — the course's own obligation that justifies its prohibition on consulting existing implementations.
+- **Late days** — a fixed per-student budget of deadline extension, capped per assignment.
+
+## What to remember
+- Tool policy should be derived from the learning mechanism the assessment depends on, and the derivation should be stated to students.
+- Prohibiting existing implementations is only fair if the handout is genuinely self-contained. The restriction and the obligation come as a pair.
+- Autocomplete is a distinct case from chat assistance. This course permits conceptual and low-level prompting while discouraging inline completion, because the two interfere with engagement differently.
+- Minimal scaffolding is a deliberate design choice with a stated cost — an order of magnitude more code — and must be paired with an honest workload warning.
+- Layered assignments that each re-use the previous artefact create genuine cumulative dependency, which is a stronger structure than parallel independent problem sets.
+- Publishing the compute cost makes a course reusable by people without institutional GPU access.
+
+## Why it matters for the course
+CS336 gives this curriculum a principled template for AI-tool policy that neither bans tools reflexively nor permits them thoughtlessly. The template is: identify the evidence each assessment is trying to collect, identify which tool behaviours would destroy that evidence, restrict only those, and tell students the reason. Read against the CMU exemplar the pair is instructive — CMU permits nearly everything because it verifies orally, CS336 restricts more because its evidence is the implementation process itself. Both are coherent; neither is a moral position; the difference is entirely a function of what each course is measuring. The course also demonstrates that a from-scratch construction sequence and a systems-and-cost orientation can coexist, which is directly relevant to a curriculum that wants students to reason about inference economics rather than only about model quality.
+
+## How to use it in course design
+- **Policy:** write the AI-tool policy per assessment rather than per course, stating for each item what evidence it collects and which tool uses would compromise that evidence.
+- **Policy:** distinguish chat assistance from inline autocomplete explicitly; they are different interventions with different effects on engagement.
+- **Assessment:** where a restriction is imposed, state the reciprocal obligation the course accepts — self-contained materials, adequate time, published specifications.
+- **Lab:** structure implementation work so each assignment consumes the previous one's artefact, which makes shortcuts in early work surface as pain in later work.
+- **Lecture:** teach resource accounting early and explicitly, as CS336 does in its second session.
+- **Logistics:** adopt a small, capped late-day budget as a lightweight alternative to CMU's fuller token economy where the course cannot support the bookkeeping.
+- **Access:** publish the compute cost and a CPU-first debugging heuristic so the course is attemptable without institutional infrastructure.
+
+## Limits and cautions
+- The prerequisites are steep and the course says so. Its policies presuppose a self-selected cohort with strong Python, PyTorch and systems background; they will not transfer unmodified to a mixed-preparation class.
+- The autocomplete claim is an instructor observation, not evidence. It should be quoted as the instructors' finding, not as an established result.
+- Restricting reference to existing implementations imposes a real authoring burden — every handout must be self-contained — which is expensive to maintain as the field moves.
+- The Spring 2025 page is archived and explicitly points to a later offering; GPU prices in particular are dated to 6 June 2025 and will be wrong quickly.
+- The course covers model construction, not deployment, operations or stakeholder work. It is an exemplar for policy and scaffolding design, not for the professional-practice half of this curriculum.
+
+## Verification status
+Verified directly against the archived Spring 2025 course site: instructors and course assistants; the five-unit designation, lecture times and NVIDIA Auditorium venue; the public-Slack contact policy; the full "What is this course about?" text including the operating-systems analogy; all five prerequisite items including the quoted minimal-scaffolding and order-of-magnitude-more-code passage and the implementation-heavy workload warning; all five assignment descriptions with their stated deliverables, the optional DPO supplement to Assignment 5, and which assignments carry leaderboards; the complete honour code including the collaboration, AI-tools and existing-code clauses with all quoted text; the Gradescope submission policy, the six-late-days rule with the three-per-assignment cap, and the three-day regrade window; the Together AI sponsorship; the self-study GPU price list with its 6 June 2025 date and all four providers' figures, plus the CPU-first debugging recommendation; and the full nineteen-lecture schedule with instructor attributions, guest lecturers and all assignment out/due dates. Not verified: any outcome evidence for the minimal-scaffolding approach, and the content of the assignment handouts themselves, which were not retrieved.
