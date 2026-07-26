@@ -22,7 +22,7 @@ flowchart TD
   W --> G
   P --> G
   C --> G
-  G["graph/ · 332 nodes · 7,026 edges<br/>581 platform claims · 512 predictions · 360 evidence rows<br/>derived · regenerable · never hand-edited"] --> M["mcp/hve-iq<br/>read-only MCP server"] --> A["any agent"]
+  G["graph/ · 332 nodes · 7,387 edges<br/>581 platform claims · 512 predictions · 360 evidence rows · 53 sources<br/>derived · regenerable · never hand-edited"] --> M["mcp/hve-iq<br/>read-only MCP server"] --> A["any agent"]
 ```
 
 ## Start here
@@ -118,7 +118,7 @@ A reader who cannot see the defect cannot evaluate the correction. **When you ch
 ## Validate
 
 ```powershell
-pwsh ./scripts/build-graph.ps1        # 332 nodes, ~7,026 edges, 581+512+360 claim rows, 53 sources
+pwsh ./scripts/build-graph.ps1        # 332 nodes, ~7,387 edges, 581+512+360 claim rows, 53 sources
 cd mcp/hve-iq; npm run smoke          # 40 checks, all must pass
 ```
 
@@ -129,7 +129,8 @@ Link integrity should report exactly **3 broken links** — all placeholders ins
 - **The platform layer is the most perishable content here.** Two of the six vendor sources were already classic or superseded when read; the [study-note package](sources/README.md) they came from reflects July 2026 and needs checking before it is quoted.
 - **The entry-state register is untested** against a real audience and plausibly circular. It is a usable default, not a finding.
 - **The evidence ledger is class-level, not claim-atomic.** Where a whitepaper places four claims in one sentence, the index sees the sentence. Splitting them needs authoring judgement, which would be the first thing here able to drift silently — deferred deliberately, not forgotten.
-- **23 of 53 external sources were never read** — synthesis-only or not consulted, mostly copyrighted books the design could not reproduce. The claims above them license direction and mechanism only. Two of them carry 10 and 9 whitepapers respectively.
-- **74% of citations point at folder-level aggregates**, not named sources, so "what breaks if this is retracted?" is currently blunt and every exposure number is a floor. Resolving those gates any further claim work.
+- **23 of 53 external sources were never read** — synthesis-only or not consulted, mostly copyrighted books the design could not reproduce. Two of them, Edmondson and Keith & Frese, now show as carrying 29 and 25 whitepapers respectively.
+- **52 of 90 class-1 paragraphs cite a never-read source.** Permitted by the standard — class 1 means a note exists, not that the source was read — but only if the depth of verification is carried forward honestly, and several do not. Recorded, not fixed.
+- **This repository and its own notes disagree about effect sizes.** The source register marks five formation sources as synthesis-only; those notes carry magnitudes. No whitepaper propagates them, so the prohibition holds, but the contradiction is unresolved.
 - **Two rule elevations are unratified** at programme close ([WP-090](wiki/whitepapers/WP-090.md) §7).
 - **WP-090 §8 concedes the instrumentation is probably unexecutable**, and predicts fewer than one in ten of the wiki's own §9 predictions will ever be measured.

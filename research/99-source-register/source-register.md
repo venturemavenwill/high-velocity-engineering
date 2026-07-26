@@ -165,12 +165,32 @@ Two sources are worth naming because of how much sits on them:
 
 | Source | Whitepapers depending on it | Read |
 |---|---|---|
-| Keith and Frese, error management training | **10** | synthesis only |
-| Edmondson, psychological safety | **9** | synthesis only |
+| Edmondson, psychological safety | **29** | synthesis only |
+| Keith and Frese, error management training | **25** | synthesis only |
 
 Both underpin content the [Durable and Perishable Register](wiki/program/09-Durable-and-Perishable-Register.md) lists as **durable and therefore assessable** — *psychological safety; error management; blameless review*. Durable content may be assessed; the warrant under these two is direction-only. That tension is real, it is not resolved here, and it is exactly what this index exists to make visible.
 
-**Dependency counts from this index are a floor.** 74% of citations in whitepaper evidence sections point at a folder-level `collected-materials` file rather than a named source, and only 46 of 90 whitepapers cite any named source at all. A source showing no dependants may still be carrying weight.
+## What resolving the citations exposed
+
+Citations in whitepaper evidence sections used to point at folder-level `collected-materials` files 74% of the time. [The whitepaper standard](wiki/program/05-Whitepaper-Standard.md) requires class 1 to cite **"the specific note… and the depth of verification recorded there carried forward honestly"** — so a folder link was never compliant. 193 of 348 were resolved to named notes by reading the notes and confirming they carry the claim.
+
+| | Before | After |
+|---|---|---|
+| Citations naming a source | 26% | **76%** |
+| Whitepapers citing any named source | 46 of 90 | **90 of 90** |
+| Distinct named sources cited | 43 | 55 |
+
+**Making the citations specific exposed things the folder links had concealed.** Three are recorded here rather than fixed, because each needs a decision this index has no authority to make.
+
+**1. 52 of 90 class-1 paragraphs cite at least one never-read source.** The standard permits this — class 1 means a note exists, not that the source was read — *provided the depth is carried forward honestly*. Several paragraphs do not carry it forward: claims phrased as "the finding that…" sit in class 1 while resting on synthesis-only notes. Whoever owns the four-class scheme should rule on whether synthesis-only notes may support class 1 at all.
+
+**2. This register and the notes disagree about effect sizes.** The register marks Keith & Frese, Edmondson, Bandura, Frazier and Sinha & Kapur as *synthesis only*. Those notes' own `## Verification status` sections carry magnitudes — Keith & Frese *d* = 0.44 / 0.56 / 0.80, Sinha & Kapur *g* = 0.36 and 0.87. **Two sources of truth disagree about what was verified.** No whitepaper propagates any of these figures, so the standing prohibition holds, but the contradiction is real and unresolved.
+
+**3. Claims resting on folders that hold no such source.** `research/02-technical-foundations/` is cited in class 1 for resilience patterns, tail latency and memory pressure; it holds no note on any of them, and *Release It!* and *SRE* appear neither there nor in this register. Separately, `research/04-professional-formation/` is repeatedly cited for FDE-craft material that lives in `research/05-fde-craft/`. Either the notes should be commissioned or the claims reclassified to class 2.
+
+**A retraction query still under-counts.** ten Cate, Govaerts and Thakur each exist as several non-identical notes under different filenames across folders, so retracting one source hits nodes this index counts separately. An alias field would fix it.
+
+**Dependency counts remain a floor.** 24% of citations are still folder-level, most of them legitimately — the clearest case being `research/06-microsoft-platform/`, whose claim that *every source states a latency or a bound and none states an accuracy* is a cross-source observation no single note carries.
 
 ## Copyright handling
 When a source is copyrighted or paywalled, store a Cliff Notes-style synthesis and citation details rather than copying the source text into the repository.

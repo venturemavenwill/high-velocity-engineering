@@ -99,7 +99,7 @@ Get-ChildItem -Recurse -Filter *.md | ForEach-Object { $t=Get-Content $_.FullNam
 Expected: **3 hits only**, all placeholders inside a fenced code block in `05-Whitepaper-Standard.md`.
 
 ```powershell
-pwsh ./scripts/build-graph.ps1   # expect 332 nodes, ~7020 edges, 581 claims, 512 predictions, 360 evidence rows, 53 sources
+pwsh ./scripts/build-graph.ps1   # expect 332 nodes, ~7390 edges, 581 claims, 512 predictions, 360 evidence rows, 53 sources
 ```
 
 ```bash

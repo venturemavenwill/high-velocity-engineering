@@ -100,9 +100,9 @@ What the class level already buys you is the question that actually gets asked: 
 | `abstract` | 17 |
 | **`unread`** — synthesis only, or not consulted | **23** |
 
-Run `hve_sources({ read: "unread" })` first. The two most load-bearing unread sources are **Keith and Frese on error management training, under 10 whitepapers**, and **Edmondson on psychological safety, under 9**. Most of the rest are copyrighted books the register marks as such — this is a documented constraint the design worked within, not an oversight, and the claims above them are class 2, licensing direction and mechanism only.
+Run `hve_sources({ read: "unread" })` first. The two most load-bearing unread sources are **Edmondson on psychological safety, under 29 whitepapers**, and **Keith and Frese on error management training, under 25**. Most of the rest are copyrighted books the register marks as such — this is a documented constraint the design worked within, not an oversight, and the claims above them are class 2, licensing direction and mechanism only.
 
-**Exposure counts are a floor, and the tool says so in every answer.** 74% of citations in the evidence prose point at a folder-level `collected-materials` index rather than a named source, so a source showing zero dependants may still be load-bearing. Only 46 of 90 whitepapers cite any named source at all.
+**Exposure counts are a floor, and the tool says so in every answer.** 24% of citations still point at a folder-level `collected-materials` index rather than a named source, so a source showing few dependants may still be carrying more. That figure was 74% before the citations were resolved by hand; every one of the 90 whitepapers now cites at least one named source, where only 46 did.
 
 ## What v0 does not do
 
@@ -113,4 +113,4 @@ Run `hve_sources({ read: "unread" })` first. The two most load-bearing unread so
 
 ## Next
 
-Resolve the folder-level citations to named sources. Until that lands, every exposure number here is a floor, and the retraction query is blunter than it looks. A judged split of the evidence-status prose into atomic claims should wait behind it — precise claims pointing at imprecise sources would be false precision.
+A judged split of the evidence-status prose into atomic claims — the first extraction here that would carry authoring judgement, and so the first needing a drift discipline of its own. Ahead of it sit three findings the citation resolution exposed and did not fix, all recorded in [the source register](research/99-source-register/source-register.md): class-1 paragraphs resting on never-read sources, a contradiction between the register and the notes about effect sizes, and claims cited to folders that hold no such source.
