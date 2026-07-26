@@ -101,7 +101,9 @@ foreach ($f in $files) {
     if ($text -match '\*\*MCP servers:\*\*\s*(.+?)\s*(?:\r?\n|$)') {
         $node.mcp_servers = @($Matches[1] -split '[·,]' | ForEach-Object { ($_ -replace '\*', '').Trim() } | Where-Object { $_ })
     }
-    if ($text -match '(?m)^\*\*Retrieves from:\*\*\s*(.+?)\s*$') { $node.retrieves_from_raw = $Matches[1].Trim() }
+    if ($text -match '(?m)^\*\*Depends on:\*\*\s*(.+?)\s*$')      { $node.depends_on_raw = $Matches[1].Trim() }
+    if ($text -match '(?m)^\*\*Re-tests:\*\*\s*(.+?)\s*$')        { $node.re_tests_raw   = $Matches[1].Trim() }
+    if ($text -match '(?m)^\*\*Retrieves from:\*\*\s*(.+?)\s*$')   { $node.retrieves_from_raw = $Matches[1].Trim() }
 
     $node.assessment_bearing = ($title -match '⊘') -or ($text -match 'Assessment-bearing day')
 
@@ -133,16 +135,43 @@ foreach ($n in $nodes) {
         }
     }
 
-    # retrieves_from — the spaced-retrieval schedule, expanding S0NN–S0MM ranges
-    if ($n.retrieves_from_raw) {
-        $raw = $n.retrieves_from_raw
+    # depends_on  — the day's argument cannot be constructed without it. Constrains
+    #               ordering in EVERY projection.
+    # re_tests    — retrieved because the spaced-retrieval schedule says so. Constrains
+    #               ordering ONLY where there is spacing.
+    # Split at 2026-07-26; see projections/workshop-2day/DERIVATION.md for why one
+    # edge type could not carry both. `retrieves_from` is retained as their union so
+    # existing queries keep working.
+    foreach ($pair in @(
+        @{ raw = $n.depends_on_raw;     type = 'depends_on' },
+        @{ raw = $n.re_tests_raw;       type = 're_tests' },
+        @{ raw = $n.retrieves_from_raw; type = 'retrieves_from' }
+    )) {
+        if (-not $pair.raw) { continue }
+        $raw = $pair.raw
         foreach ($m in [regex]::Matches($raw, 'S(\d{3})\s*[–-]\s*S(\d{3})')) {
             [int]$a = $m.Groups[1].Value; [int]$b = $m.Groups[2].Value
-            for ($i = $a; $i -le $b; $i++) { Add-Edge $n.id ('wiki/seminars/S{0:D3}' -f $i) 'retrieves_from' }
+            for ($i = $a; $i -le $b; $i++) { Add-Edge $n.id ('wiki/seminars/S{0:D3}' -f $i) $pair.type }
             $raw = $raw.Replace($m.Value, ' ')
         }
         foreach ($m in [regex]::Matches($raw, 'S(\d{3})')) {
-            Add-Edge $n.id ('wiki/seminars/S' + $m.Groups[1].Value) 'retrieves_from'
+            Add-Edge $n.id ('wiki/seminars/S' + $m.Groups[1].Value) $pair.type
+        }
+    }
+
+    # retrieves_from is the union of the two, for queries written before the split
+    if (-not $n.retrieves_from_raw) {
+        foreach ($src in @($n.depends_on_raw, $n.re_tests_raw)) {
+            if (-not $src) { continue }
+            $raw = $src
+            foreach ($m in [regex]::Matches($raw, 'S(\d{3})\s*[–-]\s*S(\d{3})')) {
+                [int]$a = $m.Groups[1].Value; [int]$b = $m.Groups[2].Value
+                for ($i = $a; $i -le $b; $i++) { Add-Edge $n.id ('wiki/seminars/S{0:D3}' -f $i) 'retrieves_from' }
+                $raw = $raw.Replace($m.Value, ' ')
+            }
+            foreach ($m in [regex]::Matches($raw, 'S(\d{3})')) {
+                Add-Edge $n.id ('wiki/seminars/S' + $m.Groups[1].Value) 'retrieves_from'
+            }
         }
     }
 

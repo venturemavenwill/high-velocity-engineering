@@ -22,6 +22,22 @@ Per [projection rule 5](concepts/projections.md), abstention is a valid output. 
 
 **Consequence.** The BSc's substrate is a live service with real external users, and every class-5 and class-6 claim depends on decisions that cost something. A workshop has no consequence, so **every claim about judgement under consequence is delivered as information rather than as capability.** The distinction is stated in each session.
 
+## Entry state
+
+**Added after the dependency closure was computed** — see the [addendum](projections/workshop-2day/DERIVATION.md). The ten claims below have a transitive `depends_on` closure of **57 of the 90 seminar days**. This projection delivers none of those 57. It assumes them.
+
+That assumption is only defensible for a specific audience, so it is stated rather than left implicit:
+
+**Assumed from ordinary professional experience** — participants are practising engineers who already hold, from doing the work: cost models and asymptotic reasoning; hashing, indexing and lookup; memory hierarchy and contention; latency, throughput and operating points; concurrency and partial failure; service contracts and blast radius; hypothesis, evidence and falsification.
+
+**Assumed and genuinely at risk** — three prerequisites that practising engineers often do *not* hold, and which the workshop needs:
+
+- **A construct/instrument distinction** ([S026](wiki/seminars/S026.md)). Sessions 2, 3 and 4 all rest on it. It is compressed into the first fifteen minutes of session 2 and that is not enough.
+- **Sampling and what an interval licenses** ([S028](wiki/seminars/S028.md)). Session 3's per-class reveal is weaker without it.
+- **The request/need gap** ([S036](wiki/seminars/S036.md)). Session 7 introduces it cold.
+
+**A team missing all three should be offered a three-day format, not this one.** That is a real recommendation and it follows from the closure, not from taste.
+
 ## What it does deliver
 
 Ten claims, chosen because they are durable, immediately applicable, and each one is something the team is probably getting wrong today.

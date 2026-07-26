@@ -90,8 +90,8 @@
         "Worked queries",
         "Limits"
       ],
-      "words": 900,
-      "lines": 120,
+      "words": 1116,
+      "lines": 139,
       "assessment_bearing": false
     },
     {
@@ -107,10 +107,15 @@
         "The defect worth fixing before extraction",
         "Resolved",
         "Next",
-        "Honest limits of this finding"
+        "Honest limits of this finding",
+        "What was measured",
+        "What it means",
+        "The field this adds to the schema",
+        "What changed as a result",
+        "What this says about the method"
       ],
-      "words": 1116,
-      "lines": 80,
+      "words": 1630,
+      "lines": 124,
       "assessment_bearing": false
     },
     {
@@ -122,14 +127,15 @@
       "headings": [
         "What this projection is for",
         "What it cannot deliver, stated first",
+        "Entry state",
         "What it does deliver",
         "Shape",
         "After the workshop",
         "Fidelity",
         "Related"
       ],
-      "words": 1344,
-      "lines": 101,
+      "words": 1553,
+      "lines": 117,
       "assessment_bearing": false
     },
     {
@@ -2710,8 +2716,8 @@
       "namespaces": {
         "pedagogy": 2,
         "platform": 1,
-        "measurement": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "measurement": 1
       },
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
@@ -2755,9 +2761,9 @@
       "assessment_bearing": true,
       "namespaces": {
         "pedagogy": 2,
-        "assessment": 1,
         "platform": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "assessment": 1
       },
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
@@ -2799,14 +2805,14 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "curriculum": 1,
         "platform": 1,
+        "curriculum": 1,
         "ai-systems": 1
       },
-      "primary_namespace": "curriculum",
+      "primary_namespace": "platform",
       "platform_bearing": true,
-      "decay": "years",
-      "verify_cadence": "annually"
+      "decay": "months",
+      "verify_cadence": "before every offering"
     },
     {
       "id": "wiki/modules/M04",
@@ -2847,15 +2853,15 @@
       ],
       "assessment_bearing": true,
       "namespaces": {
-        "curriculum": 1,
         "platform": 1,
-        "fde-craft": 1,
-        "ai-systems": 1
+        "curriculum": 1,
+        "ai-systems": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "curriculum",
+      "primary_namespace": "platform",
       "platform_bearing": true,
-      "decay": "years",
-      "verify_cadence": "annually"
+      "decay": "months",
+      "verify_cadence": "before every offering"
     },
     {
       "id": "wiki/modules/M05",
@@ -2893,15 +2899,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "curriculum": 1,
         "platform": 1,
-        "fde-craft": 1,
-        "ai-systems": 1
+        "curriculum": 1,
+        "ai-systems": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "curriculum",
+      "primary_namespace": "platform",
       "platform_bearing": true,
-      "decay": "years",
-      "verify_cadence": "annually"
+      "decay": "months",
+      "verify_cadence": "before every offering"
     },
     {
       "id": "wiki/modules/M06",
@@ -2941,9 +2947,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
+        "curriculum": 1,
         "assessment": 1,
-        "measurement": 1,
-        "curriculum": 1
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -2991,8 +2997,8 @@
       "namespaces": {
         "platform": 2,
         "curriculum": 1,
-        "fde-craft": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -3038,14 +3044,14 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "fde-craft": 1,
+        "curriculum": 1,
         "pedagogy": 1,
-        "curriculum": 1
+        "fde-craft": 1
       },
-      "primary_namespace": "fde-craft",
+      "primary_namespace": "curriculum",
       "platform_bearing": true,
-      "decay": "slow",
-      "verify_cadence": "3 years"
+      "decay": "years",
+      "verify_cadence": "annually"
     },
     {
       "id": "wiki/modules/M09",
@@ -3088,8 +3094,8 @@
       "namespaces": {
         "platform": 1,
         "curriculum": 1,
-        "measurement": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -3136,8 +3142,8 @@
       "namespaces": {
         "platform": 1,
         "assessment": 1,
-        "measurement": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -3183,9 +3189,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
         "pedagogy": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -3233,9 +3239,9 @@
       "namespaces": {
         "platform": 1,
         "curriculum": 1,
-        "measurement": 1,
         "pedagogy": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -3281,9 +3287,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 3,
-        "measurement": 1,
         "pedagogy": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -3330,9 +3336,9 @@
       "namespaces": {
         "platform": 2,
         "ai-systems": 1,
-        "measurement": 1,
+        "assessment": 1,
         "pedagogy": 1,
-        "assessment": 1
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -3379,8 +3385,8 @@
         "platform": 4,
         "ai-systems": 3,
         "curriculum": 2,
-        "measurement": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -3427,10 +3433,10 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 3,
-        "assessment": 1,
-        "measurement": 1,
         "pedagogy": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1,
+        "assessment": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -3473,17 +3479,17 @@
       ],
       "assessment_bearing": true,
       "namespaces": {
-        "platform": 1,
-        "pedagogy": 1,
-        "measurement": 1,
-        "curriculum": 1,
         "assessment": 1,
-        "fde-craft": 1
+        "pedagogy": 1,
+        "fde-craft": 1,
+        "platform": 1,
+        "measurement": 1,
+        "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "assessment",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "decades",
+      "verify_cadence": "3 years"
     },
     {
       "id": "wiki/modules/M18",
@@ -3526,15 +3532,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "assessment": 1,
-        "measurement": 1,
         "fde-craft": 1,
         "pedagogy": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "assessment": 1,
+        "measurement": 1
       },
-      "primary_namespace": "assessment",
+      "primary_namespace": "fde-craft",
       "platform_bearing": true,
-      "decay": "decades",
+      "decay": "slow",
       "verify_cadence": "3 years"
     },
     {
@@ -3589,14 +3595,14 @@
       "lines": 156,
       "assessment_bearing": false,
       "namespaces": {
-        "assessment": 1,
         "platform": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "assessment": 1
       },
-      "primary_namespace": "assessment",
+      "primary_namespace": "platform",
       "platform_bearing": true,
-      "decay": "decades",
-      "verify_cadence": "3 years"
+      "decay": "months",
+      "verify_cadence": "before every offering"
     },
     {
       "id": "wiki/program/02-Learning-Science-Foundations",
@@ -3751,9 +3757,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "curriculum": 1,
-        "measurement": 1,
+        "ai-systems": 1,
         "fde-craft": 1,
-        "ai-systems": 1
+        "measurement": 1
       },
       "primary_namespace": "curriculum",
       "platform_bearing": false,
@@ -4329,7 +4335,7 @@
         "Perishability register",
         "Related pages"
       ],
-      "words": 3221,
+      "words": 3220,
       "lines": 210,
       "module": "M01",
       "quarter": "Q1",
@@ -4345,12 +4351,12 @@
         "read-only",
         "shown once)"
       ],
-      "retrieves_from_raw": "S001",
+      "re_tests_raw": "S001",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "pedagogy": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "pedagogy": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -4378,8 +4384,8 @@
         "Perishability register",
         "Related pages"
       ],
-      "words": 3204,
-      "lines": 214,
+      "words": 3205,
+      "lines": 215,
       "module": "M01",
       "quarter": "Q1",
       "complexity_class": 1,
@@ -4392,12 +4398,13 @@
       "mcp_servers": [
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S001, S002",
+      "depends_on_raw": "S001",
+      "re_tests_raw": "S002",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -4425,7 +4432,7 @@
         "Perishability register",
         "Related pages"
       ],
-      "words": 3183,
+      "words": 3182,
       "lines": 209,
       "module": "M01",
       "quarter": "Q1",
@@ -4439,18 +4446,18 @@
       "mcp_servers": [
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S002, S003",
+      "re_tests_raw": "S002, S003",
       "assessment_bearing": false,
       "namespaces": {
-        "assessment": 1,
         "platform": 1,
+        "curriculum": 1,
         "pedagogy": 1,
-        "curriculum": 1
+        "assessment": 1
       },
-      "primary_namespace": "assessment",
+      "primary_namespace": "platform",
       "platform_bearing": true,
-      "decay": "decades",
-      "verify_cadence": "3 years"
+      "decay": "months",
+      "verify_cadence": "before every offering"
     },
     {
       "id": "wiki/seminars/S005",
@@ -4473,8 +4480,8 @@
         "Perishability register",
         "Related pages"
       ],
-      "words": 3501,
-      "lines": 222,
+      "words": 3502,
+      "lines": 223,
       "module": "M01",
       "quarter": "Q1",
       "complexity_class": 1,
@@ -4487,14 +4494,15 @@
       "mcp_servers": [
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S001, S003, S004",
+      "depends_on_raw": "S004",
+      "re_tests_raw": "S001, S003",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
-        "fde-craft": 1,
+        "curriculum": 1,
         "pedagogy": 1,
-        "curriculum": 1
+        "fde-craft": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -4522,8 +4530,8 @@
         "Perishability register",
         "Related pages"
       ],
-      "words": 3586,
-      "lines": 207,
+      "words": 3587,
+      "lines": 208,
       "module": "M02",
       "quarter": "Q1",
       "complexity_class": 1,
@@ -4536,13 +4544,14 @@
       "mcp_servers": [
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S004, S005",
+      "depends_on_raw": "S005",
+      "re_tests_raw": "S004",
       "assessment_bearing": false,
       "namespaces": {
         "pedagogy": 2,
         "platform": 1,
-        "fde-craft": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
@@ -4570,8 +4579,8 @@
         "Perishability register",
         "Related pages"
       ],
-      "words": 3303,
-      "lines": 209,
+      "words": 3304,
+      "lines": 210,
       "module": "M02",
       "quarter": "Q1",
       "complexity_class": 1,
@@ -4584,13 +4593,14 @@
       "mcp_servers": [
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S002, S003, S006",
+      "depends_on_raw": "S006",
+      "re_tests_raw": "S002, S003",
       "assessment_bearing": false,
       "namespaces": {
         "pedagogy": 2,
+        "curriculum": 1,
         "assessment": 1,
-        "fde-craft": 1,
-        "curriculum": 1
+        "fde-craft": 1
       },
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
@@ -4632,7 +4642,7 @@
         "Microsoft Learn MCP Server (`microsoft_docs_search`",
         "`microsoft_docs_fetch`)"
       ],
-      "retrieves_from_raw": "S005, S006",
+      "depends_on_raw": "S005, S006",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1
@@ -4663,8 +4673,8 @@
         "Perishability register",
         "Related pages"
       ],
-      "words": 3076,
-      "lines": 208,
+      "words": 3077,
+      "lines": 209,
       "module": "M02",
       "quarter": "Q1",
       "complexity_class": 1,
@@ -4677,7 +4687,8 @@
       "mcp_servers": [
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S001, S004, S007",
+      "depends_on_raw": "S007",
+      "re_tests_raw": "S001, S004",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1
@@ -4724,16 +4735,16 @@
       "mcp_servers": [
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S006, S007, S008, S009",
+      "depends_on_raw": "S006, S007, S008, S009",
       "assessment_bearing": true,
       "namespaces": {
-        "assessment": 1,
         "fde-craft": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "assessment": 1
       },
-      "primary_namespace": "assessment",
+      "primary_namespace": "fde-craft",
       "platform_bearing": true,
-      "decay": "decades",
+      "decay": "slow",
       "verify_cadence": "3 years"
     },
     {
@@ -4773,17 +4784,17 @@
         "Azure MCP Server",
         "started with the Read only option set to true"
       ],
-      "retrieves_from_raw": "S003, S007",
+      "depends_on_raw": "S003, S007",
       "assessment_bearing": false,
       "namespaces": {
-        "curriculum": 1,
         "platform": 1,
+        "curriculum": 1,
         "ai-systems": 1
       },
-      "primary_namespace": "curriculum",
+      "primary_namespace": "platform",
       "platform_bearing": true,
-      "decay": "years",
-      "verify_cadence": "annually"
+      "decay": "months",
+      "verify_cadence": "before every offering"
     },
     {
       "id": "wiki/seminars/S012",
@@ -4806,8 +4817,8 @@
         "Perishability register",
         "Related pages"
       ],
-      "words": 2650,
-      "lines": 188,
+      "words": 2651,
+      "lines": 189,
       "module": "M03",
       "quarter": "Q2",
       "complexity_class": 1,
@@ -4822,12 +4833,13 @@
         "Azure MCP Server",
         "Read only = true"
       ],
-      "retrieves_from_raw": "S005, S008, S011",
+      "depends_on_raw": "S008, S011",
+      "re_tests_raw": "S005",
       "assessment_bearing": false,
       "namespaces": {
         "assessment": 1,
-        "fde-craft": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "assessment",
       "platform_bearing": true,
@@ -4855,8 +4867,8 @@
         "Perishability register",
         "Related pages"
       ],
-      "words": 2883,
-      "lines": 196,
+      "words": 2884,
+      "lines": 197,
       "module": "M03",
       "quarter": "Q2",
       "complexity_class": 1,
@@ -4870,14 +4882,15 @@
         "Azure MCP Server",
         "Read only = true"
       ],
-      "retrieves_from_raw": "S004, S011, S012",
+      "depends_on_raw": "S004",
+      "re_tests_raw": "S011, S012",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
         "assessment": 1,
-        "measurement": 1,
+        "ai-systems": 1,
         "fde-craft": 1,
-        "ai-systems": 1
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -4920,16 +4933,16 @@
         "Azure MCP Server",
         "Read only = true"
       ],
-      "retrieves_from_raw": "S008, S012",
+      "depends_on_raw": "S008, S012",
       "assessment_bearing": false,
       "namespaces": {
-        "fde-craft": 1,
         "pedagogy": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "fde-craft",
+      "primary_namespace": "pedagogy",
       "platform_bearing": true,
-      "decay": "slow",
+      "decay": "decades",
       "verify_cadence": "3 years"
     },
     {
@@ -4953,8 +4966,8 @@
         "Perishability register",
         "Related pages"
       ],
-      "words": 2687,
-      "lines": 185,
+      "words": 2688,
+      "lines": 186,
       "module": "M03",
       "quarter": "Q2",
       "complexity_class": 1,
@@ -4969,17 +4982,18 @@
         "Azure MCP Server",
         "Read only = true — used to establish what the caller's component actually runs on"
       ],
-      "retrieves_from_raw": "S006, S009, S011, S014",
+      "depends_on_raw": "S006, S011, S014",
+      "re_tests_raw": "S009",
       "assessment_bearing": false,
       "namespaces": {
-        "fde-craft": 1,
+        "curriculum": 1,
         "pedagogy": 1,
-        "curriculum": 1
+        "fde-craft": 1
       },
-      "primary_namespace": "fde-craft",
+      "primary_namespace": "curriculum",
       "platform_bearing": true,
-      "decay": "slow",
-      "verify_cadence": "3 years"
+      "decay": "years",
+      "verify_cadence": "annually"
     },
     {
       "id": "wiki/seminars/S016",
@@ -5002,8 +5016,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 2663,
-      "lines": 181,
+      "words": 2664,
+      "lines": 182,
       "module": "M04",
       "quarter": "Q2",
       "complexity_class": 2,
@@ -5016,12 +5030,13 @@
         "Azure MCP Server (read)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S002, S003, S011",
+      "depends_on_raw": "S002, S003",
+      "re_tests_raw": "S011",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "fde-craft": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -5049,8 +5064,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 2504,
-      "lines": 184,
+      "words": 2505,
+      "lines": 185,
       "module": "M04",
       "quarter": "Q2",
       "complexity_class": 2,
@@ -5064,13 +5079,14 @@
         "Azure MCP Server (read)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S002, S007, S016",
+      "depends_on_raw": "S002, S016",
+      "re_tests_raw": "S007",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "fde-craft": 1,
         "pedagogy": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -5112,13 +5128,13 @@
         "Azure MCP Server (read)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S013, S016, S017",
+      "depends_on_raw": "S013, S016, S017",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
+        "ai-systems": 1,
         "fde-craft": 1,
-        "ai-systems": 1
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -5146,8 +5162,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 2758,
-      "lines": 186,
+      "words": 2759,
+      "lines": 187,
       "module": "M04",
       "quarter": "Q2",
       "complexity_class": 2,
@@ -5161,13 +5177,14 @@
         "Azure MCP Server (read)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S012, S017, S018",
+      "depends_on_raw": "S018",
+      "re_tests_raw": "S012, S017",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
+        "ai-systems": 1,
         "fde-craft": 1,
-        "ai-systems": 1
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -5197,8 +5214,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 3238,
-      "lines": 224,
+      "words": 3239,
+      "lines": 225,
       "module": "M04",
       "quarter": "Q2",
       "complexity_class": 2,
@@ -5213,19 +5230,20 @@
         "Azure MCP Server (read)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S009, S015, S016, S017, S018, S019",
+      "depends_on_raw": "S016, S017, S018, S019",
+      "re_tests_raw": "S009, S015",
       "assessment_bearing": true,
       "namespaces": {
-        "assessment": 1,
         "platform": 1,
-        "fde-craft": 1,
         "pedagogy": 1,
-        "ai-systems": 1
+        "assessment": 1,
+        "ai-systems": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "assessment",
+      "primary_namespace": "platform",
       "platform_bearing": true,
-      "decay": "decades",
-      "verify_cadence": "3 years"
+      "decay": "months",
+      "verify_cadence": "before every offering"
     },
     {
       "id": "wiki/seminars/S021",
@@ -5248,8 +5266,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 3149,
-      "lines": 184,
+      "words": 3150,
+      "lines": 185,
       "module": "M05",
       "quarter": "Q3",
       "complexity_class": 2,
@@ -5262,18 +5280,19 @@
         "Azure MCP Server (read)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S008, S012, S014",
+      "depends_on_raw": "S008, S012",
+      "re_tests_raw": "S014",
       "assessment_bearing": false,
       "namespaces": {
-        "curriculum": 1,
         "platform": 1,
-        "fde-craft": 1,
-        "ai-systems": 1
+        "curriculum": 1,
+        "ai-systems": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "curriculum",
+      "primary_namespace": "platform",
       "platform_bearing": true,
-      "decay": "years",
-      "verify_cadence": "annually"
+      "decay": "months",
+      "verify_cadence": "before every offering"
     },
     {
       "id": "wiki/seminars/S022",
@@ -5296,8 +5315,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 2910,
-      "lines": 181,
+      "words": 2911,
+      "lines": 182,
       "module": "M05",
       "quarter": "Q3",
       "complexity_class": 2,
@@ -5310,13 +5329,14 @@
         "Azure MCP Server (read)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S013, S019, S021",
+      "depends_on_raw": "S013",
+      "re_tests_raw": "S019, S021",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
+        "ai-systems": 1,
         "fde-craft": 1,
-        "ai-systems": 1
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -5344,8 +5364,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 3028,
-      "lines": 181,
+      "words": 3029,
+      "lines": 182,
       "module": "M05",
       "quarter": "Q3",
       "complexity_class": 2,
@@ -5358,18 +5378,19 @@
         "Azure MCP Server (read)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S004, S005, S021",
+      "depends_on_raw": "S004, S021",
+      "re_tests_raw": "S005",
       "assessment_bearing": false,
       "namespaces": {
-        "curriculum": 1,
         "platform": 1,
-        "fde-craft": 1,
-        "ai-systems": 1
+        "curriculum": 1,
+        "ai-systems": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "curriculum",
+      "primary_namespace": "platform",
       "platform_bearing": true,
-      "decay": "years",
-      "verify_cadence": "annually"
+      "decay": "months",
+      "verify_cadence": "before every offering"
     },
     {
       "id": "wiki/seminars/S024",
@@ -5407,19 +5428,19 @@
         "Azure MCP Server (read)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S023",
+      "depends_on_raw": "S023",
       "assessment_bearing": false,
       "namespaces": {
-        "assessment": 1,
         "platform": 1,
-        "fde-craft": 1,
+        "ai-systems": 1,
+        "assessment": 1,
         "pedagogy": 1,
-        "ai-systems": 1
+        "fde-craft": 1
       },
-      "primary_namespace": "assessment",
+      "primary_namespace": "platform",
       "platform_bearing": true,
-      "decay": "decades",
-      "verify_cadence": "3 years"
+      "decay": "months",
+      "verify_cadence": "before every offering"
     },
     {
       "id": "wiki/seminars/S025",
@@ -5442,8 +5463,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 3690,
-      "lines": 197,
+      "words": 3691,
+      "lines": 198,
       "module": "M05",
       "quarter": "Q3",
       "complexity_class": 2,
@@ -5457,13 +5478,14 @@
         "Azure MCP Server (read)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S015, S022, S024",
+      "depends_on_raw": "S022, S024",
+      "re_tests_raw": "S015",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
+        "ai-systems": 1,
         "fde-craft": 1,
-        "ai-systems": 1
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -5492,8 +5514,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 3416,
-      "lines": 209,
+      "words": 3417,
+      "lines": 210,
       "module": "M06",
       "quarter": "Q3",
       "complexity_class": 2,
@@ -5507,12 +5529,13 @@
         "Microsoft Learn MCP Server",
         "Azure MCP Server (read)"
       ],
-      "retrieves_from_raw": "S001, S009, S020",
+      "depends_on_raw": "S020",
+      "re_tests_raw": "S001, S009",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -5540,8 +5563,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 2855,
-      "lines": 190,
+      "words": 2856,
+      "lines": 191,
       "module": "M06",
       "quarter": "Q3",
       "complexity_class": 2,
@@ -5555,12 +5578,13 @@
         "Microsoft Learn MCP Server",
         "Azure MCP Server (read)"
       ],
-      "retrieves_from_raw": "S019, S022, S026",
+      "depends_on_raw": "S026",
+      "re_tests_raw": "S019, S022",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -5602,13 +5626,13 @@
         "Microsoft Learn MCP Server",
         "Azure MCP Server (read)"
       ],
-      "retrieves_from_raw": "S026, S027",
+      "depends_on_raw": "S026, S027",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
         "assessment": 1,
-        "measurement": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -5636,8 +5660,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 3264,
-      "lines": 195,
+      "words": 3265,
+      "lines": 196,
       "module": "M06",
       "quarter": "Q3",
       "complexity_class": 2,
@@ -5651,16 +5675,17 @@
         "Microsoft Learn MCP Server",
         "Azure MCP Server (read)"
       ],
-      "retrieves_from_raw": "S009, S015, S026, S028",
+      "depends_on_raw": "S026, S028",
+      "re_tests_raw": "S009, S015",
       "assessment_bearing": false,
       "namespaces": {
-        "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "fde-craft",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "slow",
-      "verify_cadence": "3 years"
+      "decay": "permanent",
+      "verify_cadence": "on amendment"
     },
     {
       "id": "wiki/seminars/S030",
@@ -5684,8 +5709,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 2788,
-      "lines": 208,
+      "words": 2789,
+      "lines": 209,
       "module": "M06",
       "quarter": "Q3",
       "complexity_class": 2,
@@ -5700,14 +5725,15 @@
         "Microsoft Learn MCP Server",
         "Azure MCP Server (read)"
       ],
-      "retrieves_from_raw": "S020, S025, S026, S027, S028, S029",
+      "depends_on_raw": "S026, S027, S028, S029",
+      "re_tests_raw": "S020, S025",
       "assessment_bearing": true,
       "namespaces": {
+        "pedagogy": 1,
         "assessment": 1,
-        "measurement": 1,
-        "pedagogy": 1
+        "measurement": 1
       },
-      "primary_namespace": "assessment",
+      "primary_namespace": "pedagogy",
       "platform_bearing": true,
       "decay": "decades",
       "verify_cadence": "3 years"
@@ -5733,8 +5759,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 3072,
-      "lines": 196,
+      "words": 3073,
+      "lines": 197,
       "module": "M07",
       "quarter": "Q4",
       "complexity_class": 3,
@@ -5748,7 +5774,8 @@
         "Azure MCP Server (write)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S006, S017, S023",
+      "depends_on_raw": "S006",
+      "re_tests_raw": "S017, S023",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1
@@ -5780,8 +5807,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 3387,
-      "lines": 206,
+      "words": 3388,
+      "lines": 207,
       "module": "M07",
       "quarter": "Q4",
       "complexity_class": 3,
@@ -5795,7 +5822,8 @@
         "Azure MCP Server (write)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S010, S027, S031",
+      "depends_on_raw": "S027, S031",
+      "re_tests_raw": "S010",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 2
@@ -5827,8 +5855,8 @@
         "What is inherited from this day",
         "Related pages"
       ],
-      "words": 3538,
-      "lines": 200,
+      "words": 3539,
+      "lines": 201,
       "module": "M07",
       "quarter": "Q4",
       "complexity_class": 3,
@@ -5842,7 +5870,8 @@
         "Azure MCP Server (write)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S019, S031, S032",
+      "depends_on_raw": "S019",
+      "re_tests_raw": "S031, S032",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1
@@ -5873,8 +5902,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 3307,
-      "lines": 198,
+      "words": 3308,
+      "lines": 199,
       "module": "M07",
       "quarter": "Q4",
       "complexity_class": 3,
@@ -5888,7 +5917,8 @@
         "Azure MCP Server (write)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S015, S031, S033",
+      "depends_on_raw": "S031, S033",
+      "re_tests_raw": "S015",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1
@@ -5921,8 +5951,8 @@
         "What is inherited from this day",
         "Related pages"
       ],
-      "words": 3803,
-      "lines": 221,
+      "words": 3804,
+      "lines": 222,
       "module": "M07",
       "quarter": "Q4",
       "complexity_class": 3,
@@ -5938,13 +5968,14 @@
         "disposable environments only)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S009, S028, S032, S033, S034",
+      "depends_on_raw": "S009, S034",
+      "re_tests_raw": "S028, S032, S033",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
+        "ai-systems": 1,
         "fde-craft": 1,
-        "ai-systems": 1
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -5972,8 +6003,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 3560,
-      "lines": 207,
+      "words": 3561,
+      "lines": 208,
       "module": "M08",
       "quarter": "Q4",
       "complexity_class": 3,
@@ -5987,13 +6018,14 @@
         "disposable resource group)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S001, S026",
+      "depends_on_raw": "S026",
+      "re_tests_raw": "S001",
       "assessment_bearing": false,
       "namespaces": {
         "pedagogy": 2,
         "platform": 1,
-        "measurement": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "measurement": 1
       },
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
@@ -6035,13 +6067,13 @@
         "for the telemetry policy; monitor namespace for queries)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S036",
+      "depends_on_raw": "S036",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
+        "pedagogy": 1,
         "fde-craft": 1,
-        "pedagogy": 1
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -6069,8 +6101,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 3335,
-      "lines": 195,
+      "words": 3336,
+      "lines": 196,
       "module": "M08",
       "quarter": "Q4",
       "complexity_class": 3,
@@ -6085,13 +6117,14 @@
         "disposable resource group)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S011, S015, S037",
+      "depends_on_raw": "S011, S037",
+      "re_tests_raw": "S015",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "fde-craft": 1,
+        "ai-systems": 1,
         "pedagogy": 1,
-        "ai-systems": 1
+        "fde-craft": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -6134,12 +6167,12 @@
         "Azure MCP Server (write; monitor and quota namespaces)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S029, S034, S038",
+      "depends_on_raw": "S029, S034, S038",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "fde-craft": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -6169,8 +6202,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 3135,
-      "lines": 222,
+      "words": 3136,
+      "lines": 223,
       "module": "M08",
       "quarter": "Q4",
       "complexity_class": 3,
@@ -6186,12 +6219,13 @@
         "deliberately)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S030, S036, S037, S038, S039",
+      "depends_on_raw": "S036",
+      "re_tests_raw": "S030, S037, S038, S039",
       "assessment_bearing": true,
       "namespaces": {
         "pedagogy": 2,
-        "assessment": 1,
         "platform": 1,
+        "assessment": 1,
         "fde-craft": 1
       },
       "primary_namespace": "pedagogy",
@@ -6220,8 +6254,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 3173,
-      "lines": 195,
+      "words": 3174,
+      "lines": 196,
       "module": "M09",
       "quarter": "Q5",
       "complexity_class": 3,
@@ -6236,12 +6270,13 @@
         "first use)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S009, S026, S028",
+      "depends_on_raw": "S028",
+      "re_tests_raw": "S009, S026",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -6269,8 +6304,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 3202,
-      "lines": 199,
+      "words": 3203,
+      "lines": 200,
       "module": "M09",
       "quarter": "Q5",
       "complexity_class": 3,
@@ -6284,12 +6319,13 @@
         "Foundry MCP Server (preview)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S028, S029, S041",
+      "depends_on_raw": "S041",
+      "re_tests_raw": "S028, S029",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -6317,8 +6353,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 3186,
-      "lines": 207,
+      "words": 3187,
+      "lines": 208,
       "module": "M09",
       "quarter": "Q5",
       "complexity_class": 3,
@@ -6332,12 +6368,13 @@
         "Foundry MCP Server (preview)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S021, S027, S041, S042",
+      "depends_on_raw": "S021, S042",
+      "re_tests_raw": "S027, S041",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -6365,8 +6402,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 3640,
-      "lines": 222,
+      "words": 3641,
+      "lines": 223,
       "module": "M09",
       "quarter": "Q5",
       "complexity_class": 3,
@@ -6381,12 +6418,13 @@
         "Foundry MCP Server (preview)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S035, S039, S041",
+      "depends_on_raw": "S035",
+      "re_tests_raw": "S039, S041",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 2,
-        "fde-craft": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -6417,8 +6455,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 3735,
-      "lines": 256,
+      "words": 3736,
+      "lines": 257,
       "module": "M09",
       "quarter": "Q5",
       "complexity_class": 3,
@@ -6434,13 +6472,14 @@
         "Azure MCP Server",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S030, S040, S041, S042, S043, S044",
+      "depends_on_raw": "S041, S042, S043, S044",
+      "re_tests_raw": "S030, S040",
       "assessment_bearing": true,
       "namespaces": {
         "platform": 1,
         "assessment": 1,
-        "measurement": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -6484,13 +6523,13 @@
         "Microsoft Learn MCP Server",
         "Azure MCP Server (read)"
       ],
-      "retrieves_from_raw": "S026, S036, S037",
+      "depends_on_raw": "S026, S036, S037",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
         "fde-craft": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -6518,8 +6557,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 2676,
-      "lines": 180,
+      "words": 2677,
+      "lines": 181,
       "module": "M10",
       "quarter": "Q5",
       "complexity_class": 4,
@@ -6533,12 +6572,13 @@
         "Foundry MCP Server (preview)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S029, S042, S046",
+      "depends_on_raw": "S029, S046",
+      "re_tests_raw": "S042",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -6566,8 +6606,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 3381,
-      "lines": 196,
+      "words": 3382,
+      "lines": 197,
       "module": "M10",
       "quarter": "Q5",
       "complexity_class": 4,
@@ -6581,7 +6621,8 @@
         "Foundry MCP Server (preview)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S027, S046, S047",
+      "depends_on_raw": "S027, S046",
+      "re_tests_raw": "S047",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
@@ -6613,8 +6654,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 3751,
-      "lines": 224,
+      "words": 3752,
+      "lines": 225,
       "module": "M10",
       "quarter": "Q5",
       "complexity_class": 4,
@@ -6627,7 +6668,8 @@
         "Foundry MCP Server (preview)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S022, S028, S043",
+      "depends_on_raw": "S028",
+      "re_tests_raw": "S022, S043",
       "assessment_bearing": false,
       "namespaces": {
         "measurement": 1
@@ -6660,8 +6702,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 4062,
-      "lines": 247,
+      "words": 4063,
+      "lines": 248,
       "module": "M10",
       "quarter": "Q5",
       "complexity_class": 4,
@@ -6674,13 +6716,14 @@
         "Foundry MCP Server (preview)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S024, S030, S046, S047, S048, S049",
+      "depends_on_raw": "S046, S048, S049",
+      "re_tests_raw": "S024, S030, S047",
       "assessment_bearing": true,
       "namespaces": {
         "platform": 1,
+        "pedagogy": 1,
         "assessment": 1,
-        "measurement": 1,
-        "pedagogy": 1
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -6708,8 +6751,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 4040,
-      "lines": 228,
+      "words": 4041,
+      "lines": 229,
       "module": "M11",
       "quarter": "Q6",
       "complexity_class": 4,
@@ -6724,13 +6767,14 @@
         "Foundry MCP Server",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S011, S016, S041",
+      "depends_on_raw": "S011",
+      "re_tests_raw": "S016, S041",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
         "curriculum": 1,
-        "measurement": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -6758,8 +6802,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 4128,
-      "lines": 243,
+      "words": 4129,
+      "lines": 244,
       "module": "M11",
       "quarter": "Q6",
       "complexity_class": 4,
@@ -6772,12 +6816,13 @@
         "Foundry MCP Server",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S012, S013, S051",
+      "depends_on_raw": "S013, S051",
+      "re_tests_raw": "S012",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -6806,8 +6851,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 4031,
-      "lines": 255,
+      "words": 4032,
+      "lines": 256,
       "module": "M11",
       "quarter": "Q6",
       "complexity_class": 4,
@@ -6821,13 +6866,14 @@
         "Foundry MCP Server",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S007, S043, S051, S052",
+      "depends_on_raw": "S007, S052",
+      "re_tests_raw": "S043, S051",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
         "curriculum": 1,
-        "measurement": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -6855,8 +6901,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 4114,
-      "lines": 240,
+      "words": 4115,
+      "lines": 241,
       "module": "M11",
       "quarter": "Q6",
       "complexity_class": 4,
@@ -6870,13 +6916,14 @@
         "Foundry MCP Server",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S042, S046, S048, S053",
+      "depends_on_raw": "S046, S048",
+      "re_tests_raw": "S042, S053",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
         "pedagogy": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -6919,13 +6966,13 @@
         "Foundry MCP Server",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S024, S050, S054",
+      "depends_on_raw": "S024, S050, S054",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
         "pedagogy": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -6953,8 +7000,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 4583,
-      "lines": 245,
+      "words": 4584,
+      "lines": 246,
       "module": "M12",
       "quarter": "Q6",
       "complexity_class": 4,
@@ -6967,7 +7014,8 @@
         "Azure MCP Server (Search)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S013, S041, S051",
+      "depends_on_raw": "S013, S051",
+      "re_tests_raw": "S041",
       "assessment_bearing": false,
       "namespaces": {
         "ai-systems": 1
@@ -7013,14 +7061,14 @@
         "Foundry MCP Server",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S051, S052, S056",
+      "depends_on_raw": "S051, S052, S056",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "curriculum": 1,
-        "measurement": 1,
+        "ai-systems": 1,
         "pedagogy": 1,
-        "ai-systems": 1
+        "curriculum": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -7063,7 +7111,7 @@
         "Azure MCP Server (Search)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S014, S019, S025, S057",
+      "depends_on_raw": "S014, S019, S025, S057",
       "assessment_bearing": false,
       "namespaces": {
         "ai-systems": 1
@@ -7094,8 +7142,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 4975,
-      "lines": 254,
+      "words": 4976,
+      "lines": 255,
       "module": "M12",
       "quarter": "Q6",
       "complexity_class": 4,
@@ -7109,7 +7157,8 @@
         "Azure MCP Server (Search)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S041, S049, S050, S056",
+      "depends_on_raw": "S041, S049, S056",
+      "re_tests_raw": "S050",
       "assessment_bearing": false,
       "namespaces": {
         "measurement": 3,
@@ -7144,8 +7193,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 4737,
-      "lines": 270,
+      "words": 4738,
+      "lines": 271,
       "module": "M12",
       "quarter": "Q6",
       "complexity_class": 4,
@@ -7162,20 +7211,21 @@
         "Foundry MCP Server",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S035, S045, S056, S057, S058, S059",
+      "depends_on_raw": "S035, S056, S057, S058, S059",
+      "re_tests_raw": "S045",
       "assessment_bearing": true,
       "namespaces": {
-        "platform": 1,
-        "pedagogy": 1,
         "ai-systems": 1,
+        "assessment": 1,
+        "pedagogy": 1,
+        "platform": 1,
         "measurement": 1,
-        "curriculum": 1,
-        "assessment": 1
+        "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually"
     },
     {
       "id": "wiki/seminars/S061",
@@ -7198,8 +7248,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 4987,
-      "lines": 243,
+      "words": 4988,
+      "lines": 244,
       "module": "M13",
       "quarter": "Q7",
       "complexity_class": 5,
@@ -7214,7 +7264,8 @@
         "Foundry MCP Server",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S007, S016, S053",
+      "depends_on_raw": "S016, S053",
+      "re_tests_raw": "S007",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1
@@ -7260,7 +7311,7 @@
         "Azure MCP Server (write)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S019, S034, S061",
+      "depends_on_raw": "S019, S034, S061",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1
@@ -7306,13 +7357,13 @@
         "Azure MCP Server (write)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S018, S061, S062",
+      "depends_on_raw": "S018, S061, S062",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
         "curriculum": 1,
-        "measurement": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -7356,7 +7407,7 @@
         "Foundry MCP Server",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S020, S039, S062, S063",
+      "depends_on_raw": "S020, S039, S062, S063",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1
@@ -7388,8 +7439,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 5431,
-      "lines": 275,
+      "words": 5432,
+      "lines": 276,
       "module": "M13",
       "quarter": "Q7",
       "complexity_class": 5,
@@ -7403,20 +7454,21 @@
         "Azure MCP Server (read)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S029, S050, S061, S062, S063, S064",
+      "depends_on_raw": "S029, S061, S062, S063, S064",
+      "re_tests_raw": "S050",
       "assessment_bearing": true,
       "namespaces": {
-        "platform": 1,
-        "pedagogy": 1,
         "ai-systems": 1,
+        "assessment": 1,
+        "pedagogy": 1,
+        "platform": 1,
         "measurement": 1,
-        "curriculum": 1,
-        "assessment": 1
+        "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "1-3 years",
+      "verify_cadence": "annually"
     },
     {
       "id": "wiki/seminars/S066",
@@ -7455,7 +7507,7 @@
         "Azure MCP Server",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S009, S047, S059",
+      "depends_on_raw": "S009, S047, S059",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1
@@ -7502,17 +7554,17 @@
         "Azure MCP Server",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S041, S049, S059, S066",
+      "depends_on_raw": "S041, S049, S059, S066",
       "assessment_bearing": false,
       "namespaces": {
-        "measurement": 1,
+        "curriculum": 1,
         "ai-systems": 1,
-        "curriculum": 1
+        "measurement": 1
       },
-      "primary_namespace": "measurement",
+      "primary_namespace": "curriculum",
       "platform_bearing": true,
-      "decay": "permanent",
-      "verify_cadence": "on amendment"
+      "decay": "years",
+      "verify_cadence": "annually"
     },
     {
       "id": "wiki/seminars/S068",
@@ -7552,13 +7604,13 @@
         "Azure MCP Server",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S027, S033, S035, S067",
+      "depends_on_raw": "S027, S033, S035, S067",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
+        "curriculum": 1,
         "pedagogy": 1,
-        "curriculum": 1
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -7603,20 +7655,20 @@
         "Foundry MCP Server (preview)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S039, S046, S066, S068",
+      "depends_on_raw": "S039, S046, S066, S068",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
-        "pedagogy": 1,
-        "measurement": 1,
-        "curriculum": 1,
         "assessment": 1,
-        "fde-craft": 1
+        "pedagogy": 1,
+        "fde-craft": 1,
+        "platform": 1,
+        "measurement": 1,
+        "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "assessment",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "decades",
+      "verify_cadence": "3 years"
     },
     {
       "id": "wiki/seminars/S070",
@@ -7657,13 +7709,13 @@
         "none in use during the assessed phases; the Foundry",
         "Azure and Learn MCP Servers are available for questions of fact only"
       ],
-      "retrieves_from_raw": "S030, S050, S065, S066, S067, S068, S069",
+      "depends_on_raw": "S030, S050, S065, S066, S067, S068, S069",
       "assessment_bearing": true,
       "namespaces": {
         "curriculum": 2,
+        "pedagogy": 1,
         "assessment": 1,
-        "measurement": 1,
-        "pedagogy": 1
+        "measurement": 1
       },
       "primary_namespace": "curriculum",
       "platform_bearing": true,
@@ -7691,8 +7743,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 6468,
-      "lines": 257,
+      "words": 6469,
+      "lines": 258,
       "module": "M15",
       "quarter": "Q8",
       "complexity_class": 5,
@@ -7706,13 +7758,14 @@
         "Foundry MCP Server",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S031, S044, S055",
+      "depends_on_raw": "S031, S055",
+      "re_tests_raw": "S044",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 3,
-        "measurement": 1,
+        "ai-systems": 1,
         "pedagogy": 1,
-        "ai-systems": 1
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -7755,7 +7808,7 @@
         "Foundry MCP Server",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S017, S031, S033, S071",
+      "depends_on_raw": "S017, S031, S033, S071",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 3,
@@ -7789,8 +7842,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 6532,
-      "lines": 265,
+      "words": 6533,
+      "lines": 266,
       "module": "M15",
       "quarter": "Q8",
       "complexity_class": 5,
@@ -7805,13 +7858,14 @@
         "Foundry MCP Server",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S034, S039, S044, S072",
+      "depends_on_raw": "S034, S044, S072",
+      "re_tests_raw": "S039",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 4,
         "fde-craft": 2,
-        "pedagogy": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "pedagogy": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -7839,8 +7893,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 6920,
-      "lines": 269,
+      "words": 6921,
+      "lines": 270,
       "module": "M15",
       "quarter": "Q8",
       "complexity_class": 5,
@@ -7854,13 +7908,14 @@
         "Foundry MCP Server",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S027, S032, S068, S073",
+      "depends_on_raw": "S068, S073",
+      "re_tests_raw": "S027, S032",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 2,
         "pedagogy": 2,
-        "measurement": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -7903,7 +7958,7 @@
         "Foundry MCP Server",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S046, S048, S067, S074",
+      "depends_on_raw": "S046, S048, S067, S074",
       "assessment_bearing": false,
       "namespaces": {
         "measurement": 6,
@@ -7937,8 +7992,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 6392,
-      "lines": 271,
+      "words": 6393,
+      "lines": 272,
       "module": "M16",
       "quarter": "Q8",
       "complexity_class": 6,
@@ -7953,15 +8008,16 @@
         "Azure MCP Server",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S044, S071, S073",
+      "depends_on_raw": "S044, S073",
+      "re_tests_raw": "S071",
       "assessment_bearing": false,
       "namespaces": {
-        "assessment": 1,
-        "measurement": 1,
         "pedagogy": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1,
+        "assessment": 1
       },
-      "primary_namespace": "assessment",
+      "primary_namespace": "pedagogy",
       "platform_bearing": true,
       "decay": "decades",
       "verify_cadence": "3 years"
@@ -8003,14 +8059,14 @@
         "Foundry MCP Server",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S043, S064, S076",
+      "depends_on_raw": "S043, S064, S076",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "assessment": 1,
-        "measurement": 1,
         "pedagogy": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1,
+        "assessment": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -8038,8 +8094,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 7111,
-      "lines": 275,
+      "words": 7112,
+      "lines": 276,
       "module": "M16",
       "quarter": "Q8",
       "complexity_class": 6,
@@ -8054,7 +8110,8 @@
         "Foundry MCP Server",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S038, S057, S060, S073",
+      "depends_on_raw": "S060, S073",
+      "re_tests_raw": "S038, S057",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 3
@@ -8085,8 +8142,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 6929,
-      "lines": 281,
+      "words": 6930,
+      "lines": 282,
       "module": "M16",
       "quarter": "Q8",
       "complexity_class": 6,
@@ -8101,14 +8158,15 @@
         "Azure MCP Server",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S027, S067, S068, S075",
+      "depends_on_raw": "S067, S068",
+      "re_tests_raw": "S027, S075",
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
+        "curriculum": 1,
         "assessment": 1,
-        "measurement": 1,
         "pedagogy": 1,
-        "curriculum": 1
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -8137,8 +8195,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 6718,
-      "lines": 310,
+      "words": 6719,
+      "lines": 311,
       "module": "M16",
       "quarter": "Q8",
       "complexity_class": 6,
@@ -8154,18 +8212,19 @@
         "Foundry MCP Server",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S010, S032, S035, S076, S077, S078, S079",
+      "depends_on_raw": "S010, S032, S035, S077, S078, S079",
+      "re_tests_raw": "S076",
       "assessment_bearing": true,
       "namespaces": {
-        "assessment": 1,
-        "measurement": 1,
         "fde-craft": 1,
         "pedagogy": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "assessment": 1,
+        "measurement": 1
       },
-      "primary_namespace": "assessment",
+      "primary_namespace": "fde-craft",
       "platform_bearing": true,
-      "decay": "decades",
+      "decay": "slow",
       "verify_cadence": "3 years"
     },
     {
@@ -8189,8 +8248,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 5946,
-      "lines": 253,
+      "words": 5947,
+      "lines": 254,
       "module": "M17",
       "quarter": "Q9",
       "complexity_class": 6,
@@ -8202,7 +8261,8 @@
         "Azure MCP Server (read)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S036, S037, S069",
+      "depends_on_raw": "S036, S037",
+      "re_tests_raw": "S069",
       "assessment_bearing": false,
       "namespaces": {
         "fde-craft": 4,
@@ -8250,7 +8310,7 @@
         "Azure MCP Server (read)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S038, S078, S081",
+      "depends_on_raw": "S038, S078, S081",
       "assessment_bearing": false,
       "namespaces": {
         "fde-craft": 3,
@@ -8284,8 +8344,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 5972,
-      "lines": 255,
+      "words": 5973,
+      "lines": 256,
       "module": "M17",
       "quarter": "Q9",
       "complexity_class": 6,
@@ -8300,12 +8360,13 @@
         "pricing)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S028, S050, S065, S079",
+      "depends_on_raw": "S028, S050, S079",
+      "re_tests_raw": "S065",
       "assessment_bearing": false,
       "namespaces": {
         "measurement": 4,
-        "fde-craft": 2,
         "pedagogy": 2,
+        "fde-craft": 2,
         "platform": 1,
         "assessment": 1
       },
@@ -8349,7 +8410,7 @@
         "Azure MCP Server (monitor)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S037, S081, S082",
+      "depends_on_raw": "S037, S081, S082",
       "assessment_bearing": false,
       "namespaces": {
         "fde-craft": 5,
@@ -8384,8 +8445,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 7038,
-      "lines": 298,
+      "words": 7039,
+      "lines": 299,
       "module": "M17",
       "quarter": "Q9",
       "complexity_class": 6,
@@ -8398,7 +8459,8 @@
         "pricing)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S039, S064, S070, S081, S082, S083, S084",
+      "depends_on_raw": "S039, S064, S070, S081, S082, S084",
+      "re_tests_raw": "S083",
       "assessment_bearing": true,
       "namespaces": {
         "platform": 1
@@ -8444,14 +8506,14 @@
         "Azure MCP Server (read)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S015, S038, S084",
+      "depends_on_raw": "S015, S038, S084",
       "assessment_bearing": false,
       "namespaces": {
         "fde-craft": 4,
         "pedagogy": 2,
         "platform": 1,
-        "measurement": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "measurement": 1
       },
       "primary_namespace": "fde-craft",
       "platform_bearing": true,
@@ -8479,8 +8541,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 7319,
-      "lines": 262,
+      "words": 7320,
+      "lines": 263,
       "module": "M18",
       "quarter": "Q9",
       "complexity_class": 6,
@@ -8495,14 +8557,15 @@
         "Foundry MCP Server (preview)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S024, S044, S068, S076, S077, S078, S079",
+      "depends_on_raw": "S024, S068, S076, S077, S078, S079",
+      "re_tests_raw": "S044",
       "assessment_bearing": false,
       "namespaces": {
         "pedagogy": 3,
         "platform": 1,
-        "measurement": 1,
         "fde-craft": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1
       },
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
@@ -8530,8 +8593,8 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 7913,
-      "lines": 273,
+      "words": 7914,
+      "lines": 274,
       "module": "M18",
       "quarter": "Q9",
       "complexity_class": 6,
@@ -8546,13 +8609,14 @@
         "Azure MCP Server (read)",
         "Foundry MCP Server (preview)"
       ],
-      "retrieves_from_raw": "S028, S050, S083, S087",
+      "depends_on_raw": "S050, S083, S087",
+      "re_tests_raw": "S028",
       "assessment_bearing": false,
       "namespaces": {
         "pedagogy": 3,
         "assessment": 2,
-        "measurement": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "measurement": 1
       },
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
@@ -8596,7 +8660,7 @@
         "Foundry MCP Server (preview)",
         "Microsoft Learn MCP Server"
       ],
-      "retrieves_from_raw": "S034, S069, S086, S088",
+      "depends_on_raw": "S034, S069, S086, S088",
       "assessment_bearing": false,
       "namespaces": {
         "fde-craft": 4,
@@ -8634,7 +8698,7 @@
         "Perishable content in this day",
         "Related pages"
       ],
-      "words": 8597,
+      "words": 8596,
       "lines": 368,
       "module": "M18",
       "quarter": "Q9",
@@ -8653,7 +8717,7 @@
         "Foundry MCP Server (preview)",
         "Microsoft Learn MCP Server — all three withdrawn for phase 1b"
       ],
-      "retrieves_from_raw": "programme-wide",
+      "re_tests_raw": "programme-wide",
       "assessment_bearing": true,
       "namespaces": {
         "assessment": 4,
@@ -8702,8 +8766,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "pedagogy": 3,
-        "platform": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       },
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
@@ -8752,8 +8816,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "pedagogy": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "pedagogy": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -8802,8 +8866,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -8851,15 +8915,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "assessment": 1,
         "platform": 1,
+        "curriculum": 1,
         "pedagogy": 1,
-        "curriculum": 1
+        "assessment": 1
       },
-      "primary_namespace": "assessment",
+      "primary_namespace": "platform",
       "platform_bearing": true,
-      "decay": "decades",
-      "verify_cadence": "3 years",
+      "decay": "months",
+      "verify_cadence": "before every offering",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -8903,10 +8967,10 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
-        "fde-craft": 1,
+        "curriculum": 1,
         "pedagogy": 1,
-        "curriculum": 1
+        "fde-craft": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -8956,8 +9020,8 @@
       "namespaces": {
         "pedagogy": 2,
         "platform": 1,
-        "fde-craft": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
@@ -9006,9 +9070,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "pedagogy": 2,
+        "curriculum": 1,
         "assessment": 1,
-        "fde-craft": 1,
-        "curriculum": 1
+        "fde-craft": 1
       },
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
@@ -9055,15 +9119,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "assessment": 1,
         "platform": 1,
+        "curriculum": 1,
         "pedagogy": 1,
-        "curriculum": 1
+        "assessment": 1
       },
-      "primary_namespace": "assessment",
+      "primary_namespace": "platform",
       "platform_bearing": true,
-      "decay": "decades",
-      "verify_cadence": "3 years",
+      "decay": "months",
+      "verify_cadence": "before every offering",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -9107,8 +9171,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "assessment": 1,
-        "measurement": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "measurement": 1
       },
       "primary_namespace": "assessment",
       "platform_bearing": true,
@@ -9156,13 +9220,13 @@
       ],
       "assessment_bearing": true,
       "namespaces": {
-        "assessment": 1,
         "fde-craft": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "assessment": 1
       },
-      "primary_namespace": "assessment",
+      "primary_namespace": "fde-craft",
       "platform_bearing": true,
-      "decay": "decades",
+      "decay": "slow",
       "verify_cadence": "3 years",
       "evidence_classes": [
         "verified-in-repo",
@@ -9207,14 +9271,14 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "curriculum": 1,
         "platform": 1,
+        "curriculum": 1,
         "ai-systems": 1
       },
-      "primary_namespace": "curriculum",
+      "primary_namespace": "platform",
       "platform_bearing": true,
-      "decay": "years",
-      "verify_cadence": "annually",
+      "decay": "months",
+      "verify_cadence": "before every offering",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -9259,8 +9323,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "assessment": 1,
-        "fde-craft": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "assessment",
       "platform_bearing": true,
@@ -9310,9 +9374,9 @@
       "namespaces": {
         "platform": 1,
         "assessment": 1,
-        "measurement": 1,
+        "ai-systems": 1,
         "fde-craft": 1,
-        "ai-systems": 1
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -9360,13 +9424,13 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "fde-craft": 1,
         "pedagogy": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "fde-craft",
+      "primary_namespace": "pedagogy",
       "platform_bearing": true,
-      "decay": "slow",
+      "decay": "decades",
       "verify_cadence": "3 years",
       "evidence_classes": [
         "verified-in-repo",
@@ -9411,14 +9475,14 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "fde-craft": 1,
+        "curriculum": 1,
         "pedagogy": 1,
-        "curriculum": 1
+        "fde-craft": 1
       },
-      "primary_namespace": "fde-craft",
+      "primary_namespace": "curriculum",
       "platform_bearing": true,
-      "decay": "slow",
-      "verify_cadence": "3 years",
+      "decay": "years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -9462,8 +9526,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "fde-craft": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -9513,9 +9577,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "fde-craft": 1,
         "pedagogy": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -9564,9 +9628,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
+        "ai-systems": 1,
         "fde-craft": 1,
-        "ai-systems": 1
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -9616,9 +9680,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
+        "ai-systems": 1,
         "fde-craft": 1,
-        "ai-systems": 1
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -9668,16 +9732,16 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "assessment": 1,
         "platform": 1,
-        "fde-craft": 1,
         "pedagogy": 1,
-        "ai-systems": 1
+        "assessment": 1,
+        "ai-systems": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "assessment",
+      "primary_namespace": "platform",
       "platform_bearing": true,
-      "decay": "decades",
-      "verify_cadence": "3 years",
+      "decay": "months",
+      "verify_cadence": "before every offering",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -9720,15 +9784,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "curriculum": 1,
         "platform": 1,
-        "fde-craft": 1,
-        "ai-systems": 1
+        "curriculum": 1,
+        "ai-systems": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "curriculum",
+      "primary_namespace": "platform",
       "platform_bearing": true,
-      "decay": "years",
-      "verify_cadence": "annually",
+      "decay": "months",
+      "verify_cadence": "before every offering",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -9772,9 +9836,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
+        "ai-systems": 1,
         "fde-craft": 1,
-        "ai-systems": 1
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -9822,15 +9886,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "curriculum": 1,
         "platform": 1,
-        "fde-craft": 1,
-        "ai-systems": 1
+        "curriculum": 1,
+        "ai-systems": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "curriculum",
+      "primary_namespace": "platform",
       "platform_bearing": true,
-      "decay": "years",
-      "verify_cadence": "annually",
+      "decay": "months",
+      "verify_cadence": "before every offering",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -9874,16 +9938,16 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "assessment": 1,
         "platform": 1,
-        "fde-craft": 1,
+        "ai-systems": 1,
+        "assessment": 1,
         "pedagogy": 1,
-        "ai-systems": 1
+        "fde-craft": 1
       },
-      "primary_namespace": "assessment",
+      "primary_namespace": "platform",
       "platform_bearing": true,
-      "decay": "decades",
-      "verify_cadence": "3 years",
+      "decay": "months",
+      "verify_cadence": "before every offering",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -9928,9 +9992,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
+        "ai-systems": 1,
         "fde-craft": 1,
-        "ai-systems": 1
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -9980,8 +10044,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -10031,8 +10095,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -10082,8 +10146,8 @@
       "namespaces": {
         "platform": 1,
         "assessment": 1,
-        "measurement": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -10132,13 +10196,13 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "fde-craft": 1
       },
-      "primary_namespace": "fde-craft",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "slow",
-      "verify_cadence": "3 years",
+      "decay": "permanent",
+      "verify_cadence": "on amendment",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -10183,11 +10247,11 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
+        "pedagogy": 1,
         "assessment": 1,
-        "measurement": 1,
-        "pedagogy": 1
+        "measurement": 1
       },
-      "primary_namespace": "assessment",
+      "primary_namespace": "pedagogy",
       "platform_bearing": true,
       "decay": "decades",
       "verify_cadence": "3 years",
@@ -10235,9 +10299,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 2,
-        "measurement": 1,
+        "ai-systems": 1,
         "fde-craft": 1,
-        "ai-systems": 1
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -10288,9 +10352,9 @@
       "namespaces": {
         "platform": 2,
         "ai-systems": 1,
-        "measurement": 1,
         "assessment": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -10340,9 +10404,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 2,
-        "measurement": 1,
+        "ai-systems": 1,
         "fde-craft": 1,
-        "ai-systems": 1
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -10392,9 +10456,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 2,
-        "measurement": 1,
+        "ai-systems": 1,
         "fde-craft": 1,
-        "ai-systems": 1
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -10446,9 +10510,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
+        "ai-systems": 1,
         "fde-craft": 1,
-        "ai-systems": 1
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -10499,8 +10563,8 @@
       "namespaces": {
         "pedagogy": 2,
         "platform": 1,
-        "measurement": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "measurement": 1
       },
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
@@ -10549,9 +10613,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
+        "pedagogy": 1,
         "fde-craft": 1,
-        "pedagogy": 1
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -10602,9 +10666,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "fde-craft": 1,
+        "ai-systems": 1,
         "pedagogy": 1,
-        "ai-systems": 1
+        "fde-craft": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -10654,8 +10718,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "fde-craft": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -10707,8 +10771,8 @@
       "assessment_bearing": true,
       "namespaces": {
         "pedagogy": 2,
-        "assessment": 1,
         "platform": 1,
+        "assessment": 1,
         "fde-craft": 1
       },
       "primary_namespace": "pedagogy",
@@ -10759,8 +10823,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -10810,8 +10874,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -10861,8 +10925,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -10913,8 +10977,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 2,
-        "fde-craft": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -10967,8 +11031,8 @@
       "namespaces": {
         "platform": 1,
         "assessment": 1,
-        "measurement": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -11019,9 +11083,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
         "fde-craft": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -11071,8 +11135,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -11219,9 +11283,9 @@
       "assessment_bearing": true,
       "namespaces": {
         "platform": 1,
+        "pedagogy": 1,
         "assessment": 1,
-        "measurement": 1,
-        "pedagogy": 1
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -11273,8 +11337,8 @@
       "namespaces": {
         "platform": 1,
         "curriculum": 1,
-        "measurement": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -11323,8 +11387,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -11375,8 +11439,8 @@
       "namespaces": {
         "platform": 1,
         "curriculum": 1,
-        "measurement": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -11426,9 +11490,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
         "pedagogy": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -11478,9 +11542,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
         "pedagogy": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -11531,8 +11595,8 @@
         "ai-systems": 2,
         "platform": 1,
         "curriculum": 1,
-        "measurement": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "measurement": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -11582,10 +11646,10 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "curriculum": 1,
-        "measurement": 1,
+        "ai-systems": 1,
         "pedagogy": 1,
-        "ai-systems": 1
+        "curriculum": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -11636,8 +11700,8 @@
       "namespaces": {
         "ai-systems": 4,
         "curriculum": 1,
-        "measurement": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "measurement": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -11741,17 +11805,17 @@
       ],
       "assessment_bearing": true,
       "namespaces": {
-        "platform": 1,
-        "pedagogy": 1,
         "ai-systems": 1,
+        "assessment": 1,
+        "pedagogy": 1,
+        "platform": 1,
         "measurement": 1,
-        "curriculum": 1,
-        "assessment": 1
+        "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -11798,8 +11862,8 @@
       "namespaces": {
         "platform": 2,
         "curriculum": 1,
-        "measurement": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -11850,8 +11914,8 @@
       "namespaces": {
         "platform": 2,
         "ai-systems": 1,
-        "measurement": 1,
         "pedagogy": 1,
+        "measurement": 1,
         "curriculum": 1
       },
       "primary_namespace": "platform",
@@ -11903,8 +11967,8 @@
       "namespaces": {
         "platform": 1,
         "curriculum": 1,
-        "measurement": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -11956,8 +12020,8 @@
       "namespaces": {
         "platform": 3,
         "ai-systems": 1,
-        "measurement": 1,
         "pedagogy": 1,
+        "measurement": 1,
         "curriculum": 1
       },
       "primary_namespace": "platform",
@@ -12007,17 +12071,17 @@
       ],
       "assessment_bearing": true,
       "namespaces": {
-        "platform": 1,
-        "pedagogy": 1,
         "ai-systems": 1,
+        "assessment": 1,
+        "pedagogy": 1,
+        "platform": 1,
         "measurement": 1,
-        "curriculum": 1,
-        "assessment": 1
+        "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "1-3 years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -12062,9 +12126,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
+        "curriculum": 1,
         "assessment": 1,
-        "measurement": 1,
-        "curriculum": 1
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -12113,14 +12177,14 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "measurement": 1,
+        "curriculum": 1,
         "ai-systems": 1,
-        "curriculum": 1
+        "measurement": 1
       },
-      "primary_namespace": "measurement",
+      "primary_namespace": "curriculum",
       "platform_bearing": true,
-      "decay": "permanent",
-      "verify_cadence": "on amendment",
+      "decay": "years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -12166,9 +12230,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "measurement": 1,
+        "curriculum": 1,
         "pedagogy": 1,
-        "curriculum": 1
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -12218,17 +12282,17 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
-        "pedagogy": 1,
-        "measurement": 1,
-        "curriculum": 1,
         "assessment": 1,
-        "fde-craft": 1
+        "pedagogy": 1,
+        "fde-craft": 1,
+        "platform": 1,
+        "measurement": 1,
+        "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "assessment",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "decades",
+      "verify_cadence": "3 years",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -12274,9 +12338,9 @@
       "assessment_bearing": true,
       "namespaces": {
         "curriculum": 2,
+        "pedagogy": 1,
         "assessment": 1,
-        "measurement": 1,
-        "pedagogy": 1
+        "measurement": 1
       },
       "primary_namespace": "curriculum",
       "platform_bearing": true,
@@ -12326,9 +12390,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 3,
-        "measurement": 1,
+        "ai-systems": 1,
         "pedagogy": 1,
-        "ai-systems": 1
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -12432,8 +12496,8 @@
       "namespaces": {
         "platform": 4,
         "fde-craft": 2,
-        "pedagogy": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "pedagogy": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -12484,8 +12548,8 @@
       "namespaces": {
         "platform": 2,
         "pedagogy": 2,
-        "measurement": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -12587,12 +12651,12 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "assessment": 1,
-        "measurement": 1,
         "pedagogy": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1,
+        "assessment": 1
       },
-      "primary_namespace": "assessment",
+      "primary_namespace": "pedagogy",
       "platform_bearing": true,
       "decay": "decades",
       "verify_cadence": "3 years",
@@ -12641,10 +12705,10 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 1,
-        "assessment": 1,
-        "measurement": 1,
         "pedagogy": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1,
+        "assessment": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -12696,10 +12760,10 @@
       "namespaces": {
         "platform": 3,
         "ai-systems": 1,
-        "measurement": 1,
-        "pedagogy": 1,
         "assessment": 1,
-        "fde-craft": 1
+        "pedagogy": 1,
+        "fde-craft": 1,
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -12750,10 +12814,10 @@
       "assessment_bearing": true,
       "namespaces": {
         "platform": 1,
+        "curriculum": 1,
         "assessment": 1,
-        "measurement": 1,
         "pedagogy": 1,
-        "curriculum": 1
+        "measurement": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -12804,15 +12868,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "assessment": 1,
-        "measurement": 1,
         "fde-craft": 1,
         "pedagogy": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "assessment": 1,
+        "measurement": 1
       },
-      "primary_namespace": "assessment",
+      "primary_namespace": "fde-craft",
       "platform_bearing": true,
-      "decay": "decades",
+      "decay": "slow",
       "verify_cadence": "3 years",
       "evidence_classes": [
         "verified-in-repo",
@@ -12960,8 +13024,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "measurement": 4,
-        "fde-craft": 2,
         "pedagogy": 2,
+        "fde-craft": 2,
         "platform": 1,
         "assessment": 1
       },
@@ -13118,8 +13182,8 @@
         "fde-craft": 4,
         "pedagogy": 2,
         "platform": 1,
-        "measurement": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "measurement": 1
       },
       "primary_namespace": "fde-craft",
       "platform_bearing": true,
@@ -13171,9 +13235,9 @@
       "namespaces": {
         "pedagogy": 3,
         "platform": 1,
-        "measurement": 1,
         "fde-craft": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "measurement": 1
       },
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
@@ -13225,8 +13289,8 @@
       "namespaces": {
         "pedagogy": 3,
         "assessment": 2,
-        "measurement": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "measurement": 1
       },
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
@@ -13521,6 +13585,16 @@
       "type": "links_to"
     },
     {
+      "from": "graph/README",
+      "to": "projections/workshop-2day/README",
+      "type": "links_to"
+    },
+    {
+      "from": "graph/README",
+      "to": "projections/workshop-2day/DERIVATION",
+      "type": "links_to"
+    },
+    {
       "from": "projections/workshop-2day/DERIVATION",
       "to": "projections/workshop-2day/README",
       "type": "links_to"
@@ -13543,6 +13617,21 @@
     {
       "from": "projections/workshop-2day/README",
       "to": "concepts/projections",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/workshop-2day/README",
+      "to": "wiki/seminars/S026",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/workshop-2day/README",
+      "to": "wiki/seminars/S028",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/workshop-2day/README",
+      "to": "wiki/seminars/S036",
       "type": "links_to"
     },
     {
@@ -13583,11 +13672,6 @@
     {
       "from": "projections/workshop-2day/README",
       "to": "wiki/seminars/S074",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "wiki/seminars/S036",
       "type": "links_to"
     },
     {
@@ -21638,6 +21722,11 @@
     {
       "from": "wiki/seminars/S002",
       "to": "wiki/seminars/S001",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S002",
+      "to": "wiki/seminars/S001",
       "type": "retrieves_from"
     },
     {
@@ -21708,6 +21797,16 @@
     {
       "from": "wiki/seminars/S003",
       "to": "wiki/seminars/S001",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S003",
+      "to": "wiki/seminars/S002",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S003",
+      "to": "wiki/seminars/S001",
       "type": "retrieves_from"
     },
     {
@@ -21764,6 +21863,16 @@
       "from": "wiki/seminars/S004",
       "to": "wiki/program/12-Copilot-Practice-Standard",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S004",
+      "to": "wiki/seminars/S002",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S004",
+      "to": "wiki/seminars/S003",
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S004",
@@ -21842,17 +21951,32 @@
     },
     {
       "from": "wiki/seminars/S005",
+      "to": "wiki/seminars/S004",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S005",
+      "to": "wiki/seminars/S001",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S005",
+      "to": "wiki/seminars/S003",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S005",
+      "to": "wiki/seminars/S004",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S005",
       "to": "wiki/seminars/S001",
       "type": "retrieves_from"
     },
     {
       "from": "wiki/seminars/S005",
       "to": "wiki/seminars/S003",
-      "type": "retrieves_from"
-    },
-    {
-      "from": "wiki/seminars/S005",
-      "to": "wiki/seminars/S004",
       "type": "retrieves_from"
     },
     {
@@ -21932,12 +22056,22 @@
     },
     {
       "from": "wiki/seminars/S006",
+      "to": "wiki/seminars/S005",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S006",
       "to": "wiki/seminars/S004",
-      "type": "retrieves_from"
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S006",
       "to": "wiki/seminars/S005",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S006",
+      "to": "wiki/seminars/S004",
       "type": "retrieves_from"
     },
     {
@@ -22012,17 +22146,32 @@
     },
     {
       "from": "wiki/seminars/S007",
+      "to": "wiki/seminars/S006",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S007",
+      "to": "wiki/seminars/S002",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S007",
+      "to": "wiki/seminars/S003",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S007",
+      "to": "wiki/seminars/S006",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S007",
       "to": "wiki/seminars/S002",
       "type": "retrieves_from"
     },
     {
       "from": "wiki/seminars/S007",
       "to": "wiki/seminars/S003",
-      "type": "retrieves_from"
-    },
-    {
-      "from": "wiki/seminars/S007",
-      "to": "wiki/seminars/S006",
       "type": "retrieves_from"
     },
     {
@@ -22094,6 +22243,16 @@
       "from": "wiki/seminars/S008",
       "to": "wiki/program/11-Microsoft-AI-Platform-Map",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S008",
+      "to": "wiki/seminars/S005",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S008",
+      "to": "wiki/seminars/S006",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S008",
@@ -22187,17 +22346,32 @@
     },
     {
       "from": "wiki/seminars/S009",
+      "to": "wiki/seminars/S007",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S009",
+      "to": "wiki/seminars/S001",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S009",
+      "to": "wiki/seminars/S004",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S009",
+      "to": "wiki/seminars/S007",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S009",
       "to": "wiki/seminars/S001",
       "type": "retrieves_from"
     },
     {
       "from": "wiki/seminars/S009",
       "to": "wiki/seminars/S004",
-      "type": "retrieves_from"
-    },
-    {
-      "from": "wiki/seminars/S009",
-      "to": "wiki/seminars/S007",
       "type": "retrieves_from"
     },
     {
@@ -22259,6 +22433,26 @@
       "from": "wiki/seminars/S010",
       "to": "wiki/program/03-Assessment-Architecture",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S010",
+      "to": "wiki/seminars/S006",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S010",
+      "to": "wiki/seminars/S007",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S010",
+      "to": "wiki/seminars/S008",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S010",
+      "to": "wiki/seminars/S009",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S010",
@@ -22363,6 +22557,16 @@
     {
       "from": "wiki/seminars/S011",
       "to": "wiki/seminars/S003",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S011",
+      "to": "wiki/seminars/S007",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S011",
+      "to": "wiki/seminars/S003",
       "type": "retrieves_from"
     },
     {
@@ -22417,8 +22621,18 @@
     },
     {
       "from": "wiki/seminars/S012",
+      "to": "wiki/seminars/S008",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S012",
+      "to": "wiki/seminars/S011",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S012",
       "to": "wiki/seminars/S005",
-      "type": "retrieves_from"
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S012",
@@ -22428,6 +22642,11 @@
     {
       "from": "wiki/seminars/S012",
       "to": "wiki/seminars/S011",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S012",
+      "to": "wiki/seminars/S005",
       "type": "retrieves_from"
     },
     {
@@ -22479,6 +22698,21 @@
       "from": "wiki/seminars/S013",
       "to": "wiki/seminars/S050",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S013",
+      "to": "wiki/seminars/S004",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S013",
+      "to": "wiki/seminars/S011",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S013",
+      "to": "wiki/seminars/S012",
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S013",
@@ -22563,6 +22797,16 @@
     {
       "from": "wiki/seminars/S014",
       "to": "wiki/seminars/S008",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S014",
+      "to": "wiki/seminars/S012",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S014",
+      "to": "wiki/seminars/S008",
       "type": "retrieves_from"
     },
     {
@@ -22623,11 +22867,26 @@
     {
       "from": "wiki/seminars/S015",
       "to": "wiki/seminars/S006",
-      "type": "retrieves_from"
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S015",
+      "to": "wiki/seminars/S011",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S015",
+      "to": "wiki/seminars/S014",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S015",
       "to": "wiki/seminars/S009",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S015",
+      "to": "wiki/seminars/S006",
       "type": "retrieves_from"
     },
     {
@@ -22638,6 +22897,11 @@
     {
       "from": "wiki/seminars/S015",
       "to": "wiki/seminars/S014",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S015",
+      "to": "wiki/seminars/S009",
       "type": "retrieves_from"
     },
     {
@@ -22713,6 +22977,21 @@
     {
       "from": "wiki/seminars/S016",
       "to": "wiki/seminars/S002",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S016",
+      "to": "wiki/seminars/S003",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S016",
+      "to": "wiki/seminars/S011",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S016",
+      "to": "wiki/seminars/S002",
       "type": "retrieves_from"
     },
     {
@@ -22783,16 +23062,31 @@
     {
       "from": "wiki/seminars/S017",
       "to": "wiki/seminars/S002",
-      "type": "retrieves_from"
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S017",
+      "to": "wiki/seminars/S016",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S017",
       "to": "wiki/seminars/S007",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S017",
+      "to": "wiki/seminars/S002",
       "type": "retrieves_from"
     },
     {
       "from": "wiki/seminars/S017",
       "to": "wiki/seminars/S016",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S017",
+      "to": "wiki/seminars/S007",
       "type": "retrieves_from"
     },
     {
@@ -22854,6 +23148,21 @@
       "from": "wiki/seminars/S018",
       "to": "wiki/program/11-Microsoft-AI-Platform-Map",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S018",
+      "to": "wiki/seminars/S013",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S018",
+      "to": "wiki/seminars/S016",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S018",
+      "to": "wiki/seminars/S017",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S018",
@@ -22947,17 +23256,32 @@
     },
     {
       "from": "wiki/seminars/S019",
+      "to": "wiki/seminars/S018",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S019",
+      "to": "wiki/seminars/S012",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S019",
+      "to": "wiki/seminars/S017",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S019",
+      "to": "wiki/seminars/S018",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S019",
       "to": "wiki/seminars/S012",
       "type": "retrieves_from"
     },
     {
       "from": "wiki/seminars/S019",
       "to": "wiki/seminars/S017",
-      "type": "retrieves_from"
-    },
-    {
-      "from": "wiki/seminars/S019",
-      "to": "wiki/seminars/S018",
       "type": "retrieves_from"
     },
     {
@@ -23052,13 +23376,33 @@
     },
     {
       "from": "wiki/seminars/S020",
+      "to": "wiki/seminars/S016",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S020",
+      "to": "wiki/seminars/S017",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S020",
+      "to": "wiki/seminars/S018",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S020",
+      "to": "wiki/seminars/S019",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S020",
       "to": "wiki/seminars/S009",
-      "type": "retrieves_from"
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S020",
       "to": "wiki/seminars/S015",
-      "type": "retrieves_from"
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S020",
@@ -23078,6 +23422,16 @@
     {
       "from": "wiki/seminars/S020",
       "to": "wiki/seminars/S019",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S020",
+      "to": "wiki/seminars/S009",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S020",
+      "to": "wiki/seminars/S015",
       "type": "retrieves_from"
     },
     {
@@ -23144,6 +23498,21 @@
       "from": "wiki/seminars/S021",
       "to": "wiki/program/11-Microsoft-AI-Platform-Map",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S021",
+      "to": "wiki/seminars/S008",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S021",
+      "to": "wiki/seminars/S012",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S021",
+      "to": "wiki/seminars/S014",
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S021",
@@ -23219,6 +23588,21 @@
       "from": "wiki/seminars/S022",
       "to": "wiki/program/11-Microsoft-AI-Platform-Map",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S022",
+      "to": "wiki/seminars/S013",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S022",
+      "to": "wiki/seminars/S019",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S022",
+      "to": "wiki/seminars/S021",
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S022",
@@ -23303,16 +23687,31 @@
     {
       "from": "wiki/seminars/S023",
       "to": "wiki/seminars/S004",
-      "type": "retrieves_from"
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S023",
+      "to": "wiki/seminars/S021",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S023",
       "to": "wiki/seminars/S005",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S023",
+      "to": "wiki/seminars/S004",
       "type": "retrieves_from"
     },
     {
       "from": "wiki/seminars/S023",
       "to": "wiki/seminars/S021",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S023",
+      "to": "wiki/seminars/S005",
       "type": "retrieves_from"
     },
     {
@@ -23403,6 +23802,11 @@
     {
       "from": "wiki/seminars/S024",
       "to": "wiki/seminars/S023",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S024",
+      "to": "wiki/seminars/S023",
       "type": "retrieves_from"
     },
     {
@@ -23487,8 +23891,18 @@
     },
     {
       "from": "wiki/seminars/S025",
+      "to": "wiki/seminars/S022",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S025",
+      "to": "wiki/seminars/S024",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S025",
       "to": "wiki/seminars/S015",
-      "type": "retrieves_from"
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S025",
@@ -23498,6 +23912,11 @@
     {
       "from": "wiki/seminars/S025",
       "to": "wiki/seminars/S024",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S025",
+      "to": "wiki/seminars/S015",
       "type": "retrieves_from"
     },
     {
@@ -23577,17 +23996,32 @@
     },
     {
       "from": "wiki/seminars/S026",
+      "to": "wiki/seminars/S020",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S026",
+      "to": "wiki/seminars/S001",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S026",
+      "to": "wiki/seminars/S009",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S026",
+      "to": "wiki/seminars/S020",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S026",
       "to": "wiki/seminars/S001",
       "type": "retrieves_from"
     },
     {
       "from": "wiki/seminars/S026",
       "to": "wiki/seminars/S009",
-      "type": "retrieves_from"
-    },
-    {
-      "from": "wiki/seminars/S026",
-      "to": "wiki/seminars/S020",
       "type": "retrieves_from"
     },
     {
@@ -23652,17 +24086,32 @@
     },
     {
       "from": "wiki/seminars/S027",
+      "to": "wiki/seminars/S026",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S027",
+      "to": "wiki/seminars/S019",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S027",
+      "to": "wiki/seminars/S022",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S027",
+      "to": "wiki/seminars/S026",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S027",
       "to": "wiki/seminars/S019",
       "type": "retrieves_from"
     },
     {
       "from": "wiki/seminars/S027",
       "to": "wiki/seminars/S022",
-      "type": "retrieves_from"
-    },
-    {
-      "from": "wiki/seminars/S027",
-      "to": "wiki/seminars/S026",
       "type": "retrieves_from"
     },
     {
@@ -23729,6 +24178,16 @@
       "from": "wiki/seminars/S028",
       "to": "wiki/program/11-Microsoft-AI-Platform-Map",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S028",
+      "to": "wiki/seminars/S026",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S028",
+      "to": "wiki/seminars/S027",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S028",
@@ -23817,13 +24276,23 @@
     },
     {
       "from": "wiki/seminars/S029",
+      "to": "wiki/seminars/S026",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S029",
+      "to": "wiki/seminars/S028",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S029",
       "to": "wiki/seminars/S009",
-      "type": "retrieves_from"
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S029",
       "to": "wiki/seminars/S015",
-      "type": "retrieves_from"
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S029",
@@ -23833,6 +24302,16 @@
     {
       "from": "wiki/seminars/S029",
       "to": "wiki/seminars/S028",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S029",
+      "to": "wiki/seminars/S009",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S029",
+      "to": "wiki/seminars/S015",
       "type": "retrieves_from"
     },
     {
@@ -23897,13 +24376,33 @@
     },
     {
       "from": "wiki/seminars/S030",
+      "to": "wiki/seminars/S026",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S030",
+      "to": "wiki/seminars/S027",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S030",
+      "to": "wiki/seminars/S028",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S030",
+      "to": "wiki/seminars/S029",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S030",
       "to": "wiki/seminars/S020",
-      "type": "retrieves_from"
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S030",
       "to": "wiki/seminars/S025",
-      "type": "retrieves_from"
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S030",
@@ -23923,6 +24422,16 @@
     {
       "from": "wiki/seminars/S030",
       "to": "wiki/seminars/S029",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S030",
+      "to": "wiki/seminars/S020",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S030",
+      "to": "wiki/seminars/S025",
       "type": "retrieves_from"
     },
     {
@@ -24018,6 +24527,21 @@
     {
       "from": "wiki/seminars/S031",
       "to": "wiki/seminars/S006",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S031",
+      "to": "wiki/seminars/S017",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S031",
+      "to": "wiki/seminars/S023",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S031",
+      "to": "wiki/seminars/S006",
       "type": "retrieves_from"
     },
     {
@@ -24127,8 +24651,18 @@
     },
     {
       "from": "wiki/seminars/S032",
+      "to": "wiki/seminars/S027",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S032",
+      "to": "wiki/seminars/S031",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S032",
       "to": "wiki/seminars/S010",
-      "type": "retrieves_from"
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S032",
@@ -24138,6 +24672,11 @@
     {
       "from": "wiki/seminars/S032",
       "to": "wiki/seminars/S031",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S032",
+      "to": "wiki/seminars/S010",
       "type": "retrieves_from"
     },
     {
@@ -24214,6 +24753,21 @@
       "from": "wiki/seminars/S033",
       "to": "research/06-microsoft-platform/apim-ai-gateway-docs",
       "type": "grounded_in"
+    },
+    {
+      "from": "wiki/seminars/S033",
+      "to": "wiki/seminars/S019",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S033",
+      "to": "wiki/seminars/S031",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S033",
+      "to": "wiki/seminars/S032",
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S033",
@@ -24307,8 +24861,18 @@
     },
     {
       "from": "wiki/seminars/S034",
+      "to": "wiki/seminars/S031",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S034",
+      "to": "wiki/seminars/S033",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S034",
       "to": "wiki/seminars/S015",
-      "type": "retrieves_from"
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S034",
@@ -24318,6 +24882,11 @@
     {
       "from": "wiki/seminars/S034",
       "to": "wiki/seminars/S033",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S034",
+      "to": "wiki/seminars/S015",
       "type": "retrieves_from"
     },
     {
@@ -24408,6 +24977,36 @@
     {
       "from": "wiki/seminars/S035",
       "to": "wiki/seminars/S009",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S035",
+      "to": "wiki/seminars/S034",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S035",
+      "to": "wiki/seminars/S028",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S035",
+      "to": "wiki/seminars/S032",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S035",
+      "to": "wiki/seminars/S033",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S035",
+      "to": "wiki/seminars/S009",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S035",
+      "to": "wiki/seminars/S034",
       "type": "retrieves_from"
     },
     {
@@ -24423,11 +25022,6 @@
     {
       "from": "wiki/seminars/S035",
       "to": "wiki/seminars/S033",
-      "type": "retrieves_from"
-    },
-    {
-      "from": "wiki/seminars/S035",
-      "to": "wiki/seminars/S034",
       "type": "retrieves_from"
     },
     {
@@ -24492,12 +25086,22 @@
     },
     {
       "from": "wiki/seminars/S036",
+      "to": "wiki/seminars/S026",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S036",
       "to": "wiki/seminars/S001",
-      "type": "retrieves_from"
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S036",
       "to": "wiki/seminars/S026",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S036",
+      "to": "wiki/seminars/S001",
       "type": "retrieves_from"
     },
     {
@@ -24564,6 +25168,11 @@
       "from": "wiki/seminars/S037",
       "to": "wiki/program/11-Microsoft-AI-Platform-Map",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S037",
+      "to": "wiki/seminars/S036",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S037",
@@ -24643,16 +25252,31 @@
     {
       "from": "wiki/seminars/S038",
       "to": "wiki/seminars/S011",
-      "type": "retrieves_from"
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S038",
+      "to": "wiki/seminars/S037",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S038",
       "to": "wiki/seminars/S015",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S038",
+      "to": "wiki/seminars/S011",
       "type": "retrieves_from"
     },
     {
       "from": "wiki/seminars/S038",
       "to": "wiki/seminars/S037",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S038",
+      "to": "wiki/seminars/S015",
       "type": "retrieves_from"
     },
     {
@@ -24724,6 +25348,21 @@
       "from": "wiki/seminars/S039",
       "to": "wiki/program/11-Microsoft-AI-Platform-Map",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S039",
+      "to": "wiki/seminars/S029",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S039",
+      "to": "wiki/seminars/S034",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S039",
+      "to": "wiki/seminars/S038",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S039",
@@ -24812,12 +25451,37 @@
     },
     {
       "from": "wiki/seminars/S040",
+      "to": "wiki/seminars/S036",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S040",
       "to": "wiki/seminars/S030",
-      "type": "retrieves_from"
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S040",
+      "to": "wiki/seminars/S037",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S040",
+      "to": "wiki/seminars/S038",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S040",
+      "to": "wiki/seminars/S039",
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S040",
       "to": "wiki/seminars/S036",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S040",
+      "to": "wiki/seminars/S030",
       "type": "retrieves_from"
     },
     {
@@ -24917,17 +25581,32 @@
     },
     {
       "from": "wiki/seminars/S041",
+      "to": "wiki/seminars/S028",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S041",
+      "to": "wiki/seminars/S009",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S041",
+      "to": "wiki/seminars/S026",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S041",
+      "to": "wiki/seminars/S028",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S041",
       "to": "wiki/seminars/S009",
       "type": "retrieves_from"
     },
     {
       "from": "wiki/seminars/S041",
       "to": "wiki/seminars/S026",
-      "type": "retrieves_from"
-    },
-    {
-      "from": "wiki/seminars/S041",
-      "to": "wiki/seminars/S028",
       "type": "retrieves_from"
     },
     {
@@ -24997,17 +25676,32 @@
     },
     {
       "from": "wiki/seminars/S042",
+      "to": "wiki/seminars/S041",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S042",
+      "to": "wiki/seminars/S028",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S042",
+      "to": "wiki/seminars/S029",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S042",
+      "to": "wiki/seminars/S041",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S042",
       "to": "wiki/seminars/S028",
       "type": "retrieves_from"
     },
     {
       "from": "wiki/seminars/S042",
       "to": "wiki/seminars/S029",
-      "type": "retrieves_from"
-    },
-    {
-      "from": "wiki/seminars/S042",
-      "to": "wiki/seminars/S041",
       "type": "retrieves_from"
     },
     {
@@ -25078,6 +25772,31 @@
     {
       "from": "wiki/seminars/S043",
       "to": "wiki/seminars/S021",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S043",
+      "to": "wiki/seminars/S042",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S043",
+      "to": "wiki/seminars/S027",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S043",
+      "to": "wiki/seminars/S041",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S043",
+      "to": "wiki/seminars/S021",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S043",
+      "to": "wiki/seminars/S042",
       "type": "retrieves_from"
     },
     {
@@ -25088,11 +25807,6 @@
     {
       "from": "wiki/seminars/S043",
       "to": "wiki/seminars/S041",
-      "type": "retrieves_from"
-    },
-    {
-      "from": "wiki/seminars/S043",
-      "to": "wiki/seminars/S042",
       "type": "retrieves_from"
     },
     {
@@ -25169,6 +25883,21 @@
       "from": "wiki/seminars/S044",
       "to": "wiki/program/11-Microsoft-AI-Platform-Map",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S044",
+      "to": "wiki/seminars/S035",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S044",
+      "to": "wiki/seminars/S039",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S044",
+      "to": "wiki/seminars/S041",
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S044",
@@ -25272,13 +26001,33 @@
     },
     {
       "from": "wiki/seminars/S045",
+      "to": "wiki/seminars/S041",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S045",
+      "to": "wiki/seminars/S042",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S045",
+      "to": "wiki/seminars/S043",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S045",
+      "to": "wiki/seminars/S044",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S045",
       "to": "wiki/seminars/S030",
-      "type": "retrieves_from"
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S045",
       "to": "wiki/seminars/S040",
-      "type": "retrieves_from"
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S045",
@@ -25298,6 +26047,16 @@
     {
       "from": "wiki/seminars/S045",
       "to": "wiki/seminars/S044",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S045",
+      "to": "wiki/seminars/S030",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S045",
+      "to": "wiki/seminars/S040",
       "type": "retrieves_from"
     },
     {
@@ -25379,6 +26138,21 @@
       "from": "wiki/seminars/S046",
       "to": "wiki/program/11-Microsoft-AI-Platform-Map",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S046",
+      "to": "wiki/seminars/S026",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S046",
+      "to": "wiki/seminars/S036",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S046",
+      "to": "wiki/seminars/S037",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S046",
@@ -25468,16 +26242,31 @@
     {
       "from": "wiki/seminars/S047",
       "to": "wiki/seminars/S029",
-      "type": "retrieves_from"
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S047",
+      "to": "wiki/seminars/S046",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S047",
       "to": "wiki/seminars/S042",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S047",
+      "to": "wiki/seminars/S029",
       "type": "retrieves_from"
     },
     {
       "from": "wiki/seminars/S047",
       "to": "wiki/seminars/S046",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S047",
+      "to": "wiki/seminars/S042",
       "type": "retrieves_from"
     },
     {
@@ -25554,6 +26343,21 @@
       "from": "wiki/seminars/S048",
       "to": "wiki/program/11-Microsoft-AI-Platform-Map",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S048",
+      "to": "wiki/seminars/S027",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S048",
+      "to": "wiki/seminars/S046",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S048",
+      "to": "wiki/seminars/S047",
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S048",
@@ -25657,12 +26461,27 @@
     },
     {
       "from": "wiki/seminars/S049",
+      "to": "wiki/seminars/S028",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S049",
       "to": "wiki/seminars/S022",
-      "type": "retrieves_from"
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S049",
+      "to": "wiki/seminars/S043",
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S049",
       "to": "wiki/seminars/S028",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S049",
+      "to": "wiki/seminars/S022",
       "type": "retrieves_from"
     },
     {
@@ -25782,22 +26601,37 @@
     },
     {
       "from": "wiki/seminars/S050",
+      "to": "wiki/seminars/S046",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S050",
+      "to": "wiki/seminars/S048",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S050",
+      "to": "wiki/seminars/S049",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S050",
       "to": "wiki/seminars/S024",
-      "type": "retrieves_from"
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S050",
       "to": "wiki/seminars/S030",
-      "type": "retrieves_from"
-    },
-    {
-      "from": "wiki/seminars/S050",
-      "to": "wiki/seminars/S046",
-      "type": "retrieves_from"
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S050",
       "to": "wiki/seminars/S047",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S050",
+      "to": "wiki/seminars/S046",
       "type": "retrieves_from"
     },
     {
@@ -25808,6 +26642,21 @@
     {
       "from": "wiki/seminars/S050",
       "to": "wiki/seminars/S049",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S050",
+      "to": "wiki/seminars/S024",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S050",
+      "to": "wiki/seminars/S030",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S050",
+      "to": "wiki/seminars/S047",
       "type": "retrieves_from"
     },
     {
@@ -25924,6 +26773,21 @@
       "from": "wiki/seminars/S051",
       "to": "wiki/program/11-Microsoft-AI-Platform-Map",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S051",
+      "to": "wiki/seminars/S011",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S051",
+      "to": "wiki/seminars/S016",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S051",
+      "to": "wiki/seminars/S041",
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S051",
@@ -26072,8 +26936,18 @@
     },
     {
       "from": "wiki/seminars/S052",
+      "to": "wiki/seminars/S013",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S052",
+      "to": "wiki/seminars/S051",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S052",
       "to": "wiki/seminars/S012",
-      "type": "retrieves_from"
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S052",
@@ -26083,6 +26957,11 @@
     {
       "from": "wiki/seminars/S052",
       "to": "wiki/seminars/S051",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S052",
+      "to": "wiki/seminars/S012",
       "type": "retrieves_from"
     },
     {
@@ -26213,6 +27092,31 @@
     {
       "from": "wiki/seminars/S053",
       "to": "wiki/seminars/S007",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S053",
+      "to": "wiki/seminars/S052",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S053",
+      "to": "wiki/seminars/S043",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S053",
+      "to": "wiki/seminars/S051",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S053",
+      "to": "wiki/seminars/S007",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S053",
+      "to": "wiki/seminars/S052",
       "type": "retrieves_from"
     },
     {
@@ -26223,11 +27127,6 @@
     {
       "from": "wiki/seminars/S053",
       "to": "wiki/seminars/S051",
-      "type": "retrieves_from"
-    },
-    {
-      "from": "wiki/seminars/S053",
-      "to": "wiki/seminars/S052",
       "type": "retrieves_from"
     },
     {
@@ -26347,8 +27246,23 @@
     },
     {
       "from": "wiki/seminars/S054",
+      "to": "wiki/seminars/S046",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S054",
+      "to": "wiki/seminars/S048",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S054",
       "to": "wiki/seminars/S042",
-      "type": "retrieves_from"
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S054",
+      "to": "wiki/seminars/S053",
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S054",
@@ -26358,6 +27272,11 @@
     {
       "from": "wiki/seminars/S054",
       "to": "wiki/seminars/S048",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S054",
+      "to": "wiki/seminars/S042",
       "type": "retrieves_from"
     },
     {
@@ -26498,6 +27417,21 @@
     {
       "from": "wiki/seminars/S055",
       "to": "wiki/seminars/S024",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S055",
+      "to": "wiki/seminars/S050",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S055",
+      "to": "wiki/seminars/S054",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S055",
+      "to": "wiki/seminars/S024",
       "type": "retrieves_from"
     },
     {
@@ -26658,16 +27592,31 @@
     {
       "from": "wiki/seminars/S056",
       "to": "wiki/seminars/S013",
-      "type": "retrieves_from"
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S056",
+      "to": "wiki/seminars/S051",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S056",
       "to": "wiki/seminars/S041",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S056",
+      "to": "wiki/seminars/S013",
       "type": "retrieves_from"
     },
     {
       "from": "wiki/seminars/S056",
       "to": "wiki/seminars/S051",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S056",
+      "to": "wiki/seminars/S041",
       "type": "retrieves_from"
     },
     {
@@ -26774,6 +27723,21 @@
       "from": "wiki/seminars/S057",
       "to": "wiki/program/11-Microsoft-AI-Platform-Map",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S057",
+      "to": "wiki/seminars/S051",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S057",
+      "to": "wiki/seminars/S052",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S057",
+      "to": "wiki/seminars/S056",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S057",
@@ -26948,6 +27912,26 @@
     {
       "from": "wiki/seminars/S058",
       "to": "wiki/seminars/S014",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S058",
+      "to": "wiki/seminars/S019",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S058",
+      "to": "wiki/seminars/S025",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S058",
+      "to": "wiki/seminars/S057",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S058",
+      "to": "wiki/seminars/S014",
       "type": "retrieves_from"
     },
     {
@@ -27093,6 +28077,26 @@
     {
       "from": "wiki/seminars/S059",
       "to": "wiki/seminars/S041",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S059",
+      "to": "wiki/seminars/S049",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S059",
+      "to": "wiki/seminars/S056",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S059",
+      "to": "wiki/seminars/S050",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S059",
+      "to": "wiki/seminars/S041",
       "type": "retrieves_from"
     },
     {
@@ -27102,12 +28106,12 @@
     },
     {
       "from": "wiki/seminars/S059",
-      "to": "wiki/seminars/S050",
+      "to": "wiki/seminars/S056",
       "type": "retrieves_from"
     },
     {
       "from": "wiki/seminars/S059",
-      "to": "wiki/seminars/S056",
+      "to": "wiki/seminars/S050",
       "type": "retrieves_from"
     },
     {
@@ -27273,11 +28277,36 @@
     {
       "from": "wiki/seminars/S060",
       "to": "wiki/seminars/S035",
-      "type": "retrieves_from"
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S060",
+      "to": "wiki/seminars/S056",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S060",
+      "to": "wiki/seminars/S057",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S060",
+      "to": "wiki/seminars/S058",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S060",
+      "to": "wiki/seminars/S059",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S060",
       "to": "wiki/seminars/S045",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S060",
+      "to": "wiki/seminars/S035",
       "type": "retrieves_from"
     },
     {
@@ -27298,6 +28327,11 @@
     {
       "from": "wiki/seminars/S060",
       "to": "wiki/seminars/S059",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S060",
+      "to": "wiki/seminars/S045",
       "type": "retrieves_from"
     },
     {
@@ -27437,8 +28471,18 @@
     },
     {
       "from": "wiki/seminars/S061",
+      "to": "wiki/seminars/S016",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S061",
+      "to": "wiki/seminars/S053",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S061",
       "to": "wiki/seminars/S007",
-      "type": "retrieves_from"
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S061",
@@ -27448,6 +28492,11 @@
     {
       "from": "wiki/seminars/S061",
       "to": "wiki/seminars/S053",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S061",
+      "to": "wiki/seminars/S007",
       "type": "retrieves_from"
     },
     {
@@ -27588,6 +28637,21 @@
     {
       "from": "wiki/seminars/S062",
       "to": "wiki/seminars/S019",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S062",
+      "to": "wiki/seminars/S034",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S062",
+      "to": "wiki/seminars/S061",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S062",
+      "to": "wiki/seminars/S019",
       "type": "retrieves_from"
     },
     {
@@ -27704,6 +28768,21 @@
       "from": "wiki/seminars/S063",
       "to": "wiki/program/04-Seminar-Day-Design-Pattern",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S063",
+      "to": "wiki/seminars/S018",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S063",
+      "to": "wiki/seminars/S061",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S063",
+      "to": "wiki/seminars/S062",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S063",
@@ -27834,6 +28913,26 @@
       "from": "wiki/seminars/S064",
       "to": "wiki/program/04-Seminar-Day-Design-Pattern",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S064",
+      "to": "wiki/seminars/S020",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S064",
+      "to": "wiki/seminars/S039",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S064",
+      "to": "wiki/seminars/S062",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S064",
+      "to": "wiki/seminars/S063",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S064",
@@ -28008,11 +29107,36 @@
     {
       "from": "wiki/seminars/S065",
       "to": "wiki/seminars/S029",
-      "type": "retrieves_from"
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S065",
+      "to": "wiki/seminars/S061",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S065",
+      "to": "wiki/seminars/S062",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S065",
+      "to": "wiki/seminars/S063",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S065",
+      "to": "wiki/seminars/S064",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S065",
       "to": "wiki/seminars/S050",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S065",
+      "to": "wiki/seminars/S029",
       "type": "retrieves_from"
     },
     {
@@ -28033,6 +29157,11 @@
     {
       "from": "wiki/seminars/S065",
       "to": "wiki/seminars/S064",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S065",
+      "to": "wiki/seminars/S050",
       "type": "retrieves_from"
     },
     {
@@ -28193,6 +29322,21 @@
     {
       "from": "wiki/seminars/S066",
       "to": "wiki/seminars/S009",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S066",
+      "to": "wiki/seminars/S047",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S066",
+      "to": "wiki/seminars/S059",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S066",
+      "to": "wiki/seminars/S009",
       "type": "retrieves_from"
     },
     {
@@ -28339,6 +29483,26 @@
       "from": "wiki/seminars/S067",
       "to": "wiki/program/11-Microsoft-AI-Platform-Map",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S067",
+      "to": "wiki/seminars/S041",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S067",
+      "to": "wiki/seminars/S049",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S067",
+      "to": "wiki/seminars/S059",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S067",
+      "to": "wiki/seminars/S066",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S067",
@@ -28518,6 +29682,26 @@
     {
       "from": "wiki/seminars/S068",
       "to": "wiki/seminars/S027",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S068",
+      "to": "wiki/seminars/S033",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S068",
+      "to": "wiki/seminars/S035",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S068",
+      "to": "wiki/seminars/S067",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S068",
+      "to": "wiki/seminars/S027",
       "type": "retrieves_from"
     },
     {
@@ -28674,6 +29858,26 @@
       "from": "wiki/seminars/S069",
       "to": "wiki/program/11-Microsoft-AI-Platform-Map",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S069",
+      "to": "wiki/seminars/S039",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S069",
+      "to": "wiki/seminars/S046",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S069",
+      "to": "wiki/seminars/S066",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S069",
+      "to": "wiki/seminars/S068",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S069",
@@ -28844,6 +30048,41 @@
       "from": "wiki/seminars/S070",
       "to": "wiki/program/11-Microsoft-AI-Platform-Map",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S070",
+      "to": "wiki/seminars/S030",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S070",
+      "to": "wiki/seminars/S050",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S070",
+      "to": "wiki/seminars/S065",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S070",
+      "to": "wiki/seminars/S066",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S070",
+      "to": "wiki/seminars/S067",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S070",
+      "to": "wiki/seminars/S068",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S070",
+      "to": "wiki/seminars/S069",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S070",
@@ -29038,16 +30277,31 @@
     {
       "from": "wiki/seminars/S071",
       "to": "wiki/seminars/S031",
-      "type": "retrieves_from"
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S071",
+      "to": "wiki/seminars/S055",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S071",
       "to": "wiki/seminars/S044",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S071",
+      "to": "wiki/seminars/S031",
       "type": "retrieves_from"
     },
     {
       "from": "wiki/seminars/S071",
       "to": "wiki/seminars/S055",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S071",
+      "to": "wiki/seminars/S044",
       "type": "retrieves_from"
     },
     {
@@ -29184,6 +30438,26 @@
       "from": "wiki/seminars/S072",
       "to": "wiki/program/11-Microsoft-AI-Platform-Map",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S072",
+      "to": "wiki/seminars/S017",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S072",
+      "to": "wiki/seminars/S031",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S072",
+      "to": "wiki/seminars/S033",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S072",
+      "to": "wiki/seminars/S071",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S072",
@@ -29358,11 +30632,26 @@
     {
       "from": "wiki/seminars/S073",
       "to": "wiki/seminars/S034",
-      "type": "retrieves_from"
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S073",
+      "to": "wiki/seminars/S044",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S073",
+      "to": "wiki/seminars/S072",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S073",
       "to": "wiki/seminars/S039",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S073",
+      "to": "wiki/seminars/S034",
       "type": "retrieves_from"
     },
     {
@@ -29373,6 +30662,11 @@
     {
       "from": "wiki/seminars/S073",
       "to": "wiki/seminars/S072",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S073",
+      "to": "wiki/seminars/S039",
       "type": "retrieves_from"
     },
     {
@@ -29532,13 +30826,23 @@
     },
     {
       "from": "wiki/seminars/S074",
+      "to": "wiki/seminars/S068",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S074",
+      "to": "wiki/seminars/S073",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S074",
       "to": "wiki/seminars/S027",
-      "type": "retrieves_from"
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S074",
       "to": "wiki/seminars/S032",
-      "type": "retrieves_from"
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S074",
@@ -29548,6 +30852,16 @@
     {
       "from": "wiki/seminars/S074",
       "to": "wiki/seminars/S073",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S074",
+      "to": "wiki/seminars/S027",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S074",
+      "to": "wiki/seminars/S032",
       "type": "retrieves_from"
     },
     {
@@ -29709,6 +31023,26 @@
       "from": "wiki/seminars/S075",
       "to": "wiki/program/11-Microsoft-AI-Platform-Map",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S075",
+      "to": "wiki/seminars/S046",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S075",
+      "to": "wiki/seminars/S048",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S075",
+      "to": "wiki/seminars/S067",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S075",
+      "to": "wiki/seminars/S074",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S075",
@@ -29918,16 +31252,31 @@
     {
       "from": "wiki/seminars/S076",
       "to": "wiki/seminars/S044",
-      "type": "retrieves_from"
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S076",
+      "to": "wiki/seminars/S073",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S076",
       "to": "wiki/seminars/S071",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S076",
+      "to": "wiki/seminars/S044",
       "type": "retrieves_from"
     },
     {
       "from": "wiki/seminars/S076",
       "to": "wiki/seminars/S073",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S076",
+      "to": "wiki/seminars/S071",
       "type": "retrieves_from"
     },
     {
@@ -30094,6 +31443,21 @@
       "from": "wiki/seminars/S077",
       "to": "wiki/program/11-Microsoft-AI-Platform-Map",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S077",
+      "to": "wiki/seminars/S043",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S077",
+      "to": "wiki/seminars/S064",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S077",
+      "to": "wiki/seminars/S076",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S077",
@@ -30302,13 +31666,23 @@
     },
     {
       "from": "wiki/seminars/S078",
+      "to": "wiki/seminars/S060",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S078",
+      "to": "wiki/seminars/S073",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S078",
       "to": "wiki/seminars/S038",
-      "type": "retrieves_from"
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S078",
       "to": "wiki/seminars/S057",
-      "type": "retrieves_from"
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S078",
@@ -30318,6 +31692,16 @@
     {
       "from": "wiki/seminars/S078",
       "to": "wiki/seminars/S073",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S078",
+      "to": "wiki/seminars/S038",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S078",
+      "to": "wiki/seminars/S057",
       "type": "retrieves_from"
     },
     {
@@ -30497,8 +31881,23 @@
     },
     {
       "from": "wiki/seminars/S079",
+      "to": "wiki/seminars/S067",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S079",
+      "to": "wiki/seminars/S068",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S079",
       "to": "wiki/seminars/S027",
-      "type": "retrieves_from"
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S079",
+      "to": "wiki/seminars/S075",
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S079",
@@ -30508,6 +31907,11 @@
     {
       "from": "wiki/seminars/S079",
       "to": "wiki/seminars/S068",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S079",
+      "to": "wiki/seminars/S027",
       "type": "retrieves_from"
     },
     {
@@ -30698,6 +32102,41 @@
     {
       "from": "wiki/seminars/S080",
       "to": "wiki/seminars/S010",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S080",
+      "to": "wiki/seminars/S032",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S080",
+      "to": "wiki/seminars/S035",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S080",
+      "to": "wiki/seminars/S077",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S080",
+      "to": "wiki/seminars/S078",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S080",
+      "to": "wiki/seminars/S079",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S080",
+      "to": "wiki/seminars/S076",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S080",
+      "to": "wiki/seminars/S010",
       "type": "retrieves_from"
     },
     {
@@ -30708,11 +32147,6 @@
     {
       "from": "wiki/seminars/S080",
       "to": "wiki/seminars/S035",
-      "type": "retrieves_from"
-    },
-    {
-      "from": "wiki/seminars/S080",
-      "to": "wiki/seminars/S076",
       "type": "retrieves_from"
     },
     {
@@ -30728,6 +32162,11 @@
     {
       "from": "wiki/seminars/S080",
       "to": "wiki/seminars/S079",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S080",
+      "to": "wiki/seminars/S076",
       "type": "retrieves_from"
     },
     {
@@ -30849,6 +32288,21 @@
       "from": "wiki/seminars/S081",
       "to": "wiki/program/11-Microsoft-AI-Platform-Map",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S081",
+      "to": "wiki/seminars/S036",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S081",
+      "to": "wiki/seminars/S037",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S081",
+      "to": "wiki/seminars/S069",
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S081",
@@ -31018,6 +32472,21 @@
     {
       "from": "wiki/seminars/S082",
       "to": "wiki/seminars/S038",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S082",
+      "to": "wiki/seminars/S078",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S082",
+      "to": "wiki/seminars/S081",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S082",
+      "to": "wiki/seminars/S038",
       "type": "retrieves_from"
     },
     {
@@ -31173,6 +32642,26 @@
     {
       "from": "wiki/seminars/S083",
       "to": "wiki/seminars/S028",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S083",
+      "to": "wiki/seminars/S050",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S083",
+      "to": "wiki/seminars/S079",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S083",
+      "to": "wiki/seminars/S065",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S083",
+      "to": "wiki/seminars/S028",
       "type": "retrieves_from"
     },
     {
@@ -31182,12 +32671,12 @@
     },
     {
       "from": "wiki/seminars/S083",
-      "to": "wiki/seminars/S065",
+      "to": "wiki/seminars/S079",
       "type": "retrieves_from"
     },
     {
       "from": "wiki/seminars/S083",
-      "to": "wiki/seminars/S079",
+      "to": "wiki/seminars/S065",
       "type": "retrieves_from"
     },
     {
@@ -31319,6 +32808,21 @@
       "from": "wiki/seminars/S084",
       "to": "wiki/program/11-Microsoft-AI-Platform-Map",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S084",
+      "to": "wiki/seminars/S037",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S084",
+      "to": "wiki/seminars/S081",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S084",
+      "to": "wiki/seminars/S082",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S084",
@@ -31508,6 +33012,41 @@
     {
       "from": "wiki/seminars/S085",
       "to": "wiki/seminars/S039",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S085",
+      "to": "wiki/seminars/S064",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S085",
+      "to": "wiki/seminars/S070",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S085",
+      "to": "wiki/seminars/S081",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S085",
+      "to": "wiki/seminars/S082",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S085",
+      "to": "wiki/seminars/S084",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S085",
+      "to": "wiki/seminars/S083",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S085",
+      "to": "wiki/seminars/S039",
       "type": "retrieves_from"
     },
     {
@@ -31532,12 +33071,12 @@
     },
     {
       "from": "wiki/seminars/S085",
-      "to": "wiki/seminars/S083",
+      "to": "wiki/seminars/S084",
       "type": "retrieves_from"
     },
     {
       "from": "wiki/seminars/S085",
-      "to": "wiki/seminars/S084",
+      "to": "wiki/seminars/S083",
       "type": "retrieves_from"
     },
     {
@@ -31674,6 +33213,21 @@
       "from": "wiki/seminars/S086",
       "to": "wiki/program/11-Microsoft-AI-Platform-Map",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S086",
+      "to": "wiki/seminars/S015",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S086",
+      "to": "wiki/seminars/S038",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S086",
+      "to": "wiki/seminars/S084",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S086",
@@ -31883,11 +33437,41 @@
     {
       "from": "wiki/seminars/S087",
       "to": "wiki/seminars/S024",
-      "type": "retrieves_from"
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S087",
+      "to": "wiki/seminars/S068",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S087",
+      "to": "wiki/seminars/S076",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S087",
+      "to": "wiki/seminars/S077",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S087",
+      "to": "wiki/seminars/S078",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S087",
+      "to": "wiki/seminars/S079",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S087",
       "to": "wiki/seminars/S044",
+      "type": "re_tests"
+    },
+    {
+      "from": "wiki/seminars/S087",
+      "to": "wiki/seminars/S024",
       "type": "retrieves_from"
     },
     {
@@ -31913,6 +33497,11 @@
     {
       "from": "wiki/seminars/S087",
       "to": "wiki/seminars/S079",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S087",
+      "to": "wiki/seminars/S044",
       "type": "retrieves_from"
     },
     {
@@ -32057,8 +33646,23 @@
     },
     {
       "from": "wiki/seminars/S088",
+      "to": "wiki/seminars/S050",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S088",
+      "to": "wiki/seminars/S083",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S088",
+      "to": "wiki/seminars/S087",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S088",
       "to": "wiki/seminars/S028",
-      "type": "retrieves_from"
+      "type": "re_tests"
     },
     {
       "from": "wiki/seminars/S088",
@@ -32073,6 +33677,11 @@
     {
       "from": "wiki/seminars/S088",
       "to": "wiki/seminars/S087",
+      "type": "retrieves_from"
+    },
+    {
+      "from": "wiki/seminars/S088",
+      "to": "wiki/seminars/S028",
       "type": "retrieves_from"
     },
     {
@@ -32204,6 +33813,26 @@
       "from": "wiki/seminars/S089",
       "to": "wiki/program/11-Microsoft-AI-Platform-Map",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S089",
+      "to": "wiki/seminars/S034",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S089",
+      "to": "wiki/seminars/S069",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S089",
+      "to": "wiki/seminars/S086",
+      "type": "depends_on"
+    },
+    {
+      "from": "wiki/seminars/S089",
+      "to": "wiki/seminars/S088",
+      "type": "depends_on"
     },
     {
       "from": "wiki/seminars/S089",

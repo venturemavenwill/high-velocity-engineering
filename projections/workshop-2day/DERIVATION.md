@@ -77,3 +77,47 @@ claim:
 **One projection, built by its own designer, is a weak test.** I chose which ten claims to carry, and I chose ones I already knew were portable. A projection built by someone else, or one required to carry a claim set chosen in advance, would be a real test and would probably find more missing fields.
 
 **The workshop has never been run.** Every claim in it about what a working team will retain, commit or resist is a prediction with no instrument attached. The week-6 follow-up is the only occasion that would settle any of it, and the projection itself predicts that session will be the first thing cancelled.
+
+---
+
+# Addendum — the split fired immediately
+
+**Recorded the same day the `depends_on` / `re_tests` split was made.** The split's whole purpose was to let a projection compute its own prerequisite structure. The first time that was possible, it contradicted this projection.
+
+## What was measured
+
+309 retrieval edges resolved to **216 `depends_on` and 93 `re_tests`** — a 70/30 split toward dependency. The "spaced-retrieval schedule" framing had implied the reverse.
+
+The transitive `depends_on` closure of the workshop's nine seed days is **57 of the 90 seminar days**. Forty-eight implied prerequisites, for a two-day format.
+
+## What it means
+
+**workshop-2day is not dependency-closed, and it never said so.** It states four things it cannot deliver; it does not state what it assumes the audience already holds. On the numbers above that assumption is enormous, and it was invisible until the edge types were separated.
+
+Two readings, and the second is right.
+
+**Reading one — the classification is too generous.** 216 of 309 is a lot, despite nine agents being told to prefer `re_tests` when torn. Rejected: the per-edge reasons are specific and checkable, and several reports show the tie-break being applied against the classifier's own instinct.
+
+**Reading two — "dependency" was measured relative to the wrong entry state.** S051 depends on S011 because S051's Bridge asks *"what does S011 tell you it must therefore make expensive?"* That is a dependency on S011's **claim**, not on having met it *in this programme*. A working engineer with five years of experience already holds a great many of these claims from practice. A first-year student holds none.
+
+**So a dependency edge is not absolute. It is relative to an assumed entry state, and the graph currently encodes exactly one — the BSc's, which is "knows nothing".**
+
+## The field this adds to the schema
+
+The derivation above named four missing fields. This adds a fifth, and it is the one that makes the other four usable:
+
+```
+  satisfiable_from   this-programme-only | ordinary-professional-experience | either
+```
+
+Without it, every projection to a non-novice audience computes a closure that is correct for the BSc and useless for itself.
+
+The wiki already holds the raw material: **every whitepaper's §2 is "Entry state and prior knowledge assumptions"**, stated per day. It has never been stated per *projection*, which is the gap.
+
+## What changed as a result
+
+[README.md](projections/workshop-2day/README.md) now carries an **Entry state** section declaring what the workshop assumes, and naming the prerequisites it assumes from experience rather than delivering. That declaration is a claim about the audience and it is untested — which is the correct status for it, and better than the previous status, which was silence.
+
+## What this says about the method
+
+The split was made because building one projection by hand suggested a defect. Within an hour of the split landing, a mechanical query using it falsified a claim the same projection had made about itself. **That is the loop working**, and it is the first time in this repository that a structural change to the graph has produced a correction to content rather than the reverse.

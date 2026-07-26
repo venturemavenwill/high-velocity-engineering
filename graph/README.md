@@ -73,17 +73,36 @@ Fields after `lines` appear only where the document carries them. All 90 seminar
 
 | Type | Meaning | Count |
 |---|---|---|
-| `links_to` | Any resolvable internal markdown link. The raw hyperlink structure. | 5062 |
+| `links_to` | Any resolvable internal markdown link. The raw hyperlink structure. | 5113 |
 | `grounded_in` | A wiki page cites a research note. **The evidence chain.** | 598 |
 | `part_of` | Seminar or whitepaper → module and quarter; research note → its folder index. | 443 |
-| `retrieves_from` | The spaced-retrieval schedule: this day deliberately re-tests that day. **The pedagogical spine.** | 309 |
+| `retrieves_from` | Union of the two below, kept for queries written before the split. | 309 |
+| `depends_on` | **The day's argument cannot be constructed without it.** Constrains ordering in *every* projection. | 216 |
+| `re_tests` | Retrieved because the spaced-retrieval schedule says so. Constrains ordering **only where there is spacing.** | 93 |
 | `has_whitepaper` | Seminar → its whitepaper. | 90 |
 | `documents` | Whitepaper → its seminar. The inverse. | 90 |
 | `summarises` | A research note → the source document it was written from. | 2 |
 
 Edges are closed: any edge whose target is not a node in this repository is dropped, so traversal never dead-ends.
 
-`retrieves_from` is the one worth understanding. It is not a citation — it is a claim that the later day re-tests the earlier one after a deliberate interval. Following it backwards from any day shows what that day assumes; following it forwards shows where a change would propagate.
+**`depends_on` and `re_tests` are the pair that matters, and they were one edge type until 2026-07-26.** Splitting them was the first thing [workshop-2day](projections/workshop-2day/README.md) proved necessary: a short-format projection must honour every dependency and may safely ignore every re-test, and the union could not tell it which was which. All 90 seminar days were reclassified by hand against a fixed test — *does phase 2's Bridge use it, or do phases 3–5 use it as machinery?* — with ties broken toward `re_tests`, because a false dependency over-constrains every future projection while a missed one fails loudly on first delivery.
+
+**A `depends_on` edge is relative to an assumed entry state**, and the one encoded here is the BSc's: *knows nothing*. A projection to experienced practitioners will find much of its closure already satisfied. See the addendum in [DERIVATION.md](projections/workshop-2day/DERIVATION.md).
+
+### Worked query — is a projection dependency-closed?
+
+```powershell
+$dep = @{}
+Get-Content graph/edges.jsonl | ForEach-Object { $_ | ConvertFrom-Json } |
+  Where-Object { $_.type -eq 'depends_on' } |
+  ForEach-Object { $dep[$_.from] = @($dep[$_.from]) + $_.to }
+
+$seed = 'S051','S048','S046' | ForEach-Object { "wiki/seminars/$_" }
+$seen = @{}; $q = [System.Collections.Queue]::new()
+$seed | ForEach-Object { $q.Enqueue($_); $seen[$_] = $true }
+while ($q.Count) { foreach ($d in $dep[$q.Dequeue()]) { if (-not $seen[$d]) { $seen[$d] = $true; $q.Enqueue($d) } } }
+$seen.Count   # everything the projection must assume or deliver
+```
 
 ## Worked queries
 
