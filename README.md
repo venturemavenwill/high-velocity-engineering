@@ -22,7 +22,7 @@ flowchart TD
   W --> G
   P --> G
   C --> G
-  G["graph/ · 332 nodes · 7,387 edges<br/>581 platform claims · 512 predictions · 360 evidence rows · 53 sources<br/>derived · regenerable · never hand-edited"] --> M["mcp/hve-iq<br/>read-only MCP server"] --> A["any agent"]
+  G["graph/ · 332 nodes · 7,394 edges<br/>581 platform claims · 512 predictions · 360 evidence rows · 53 sources<br/>derived · regenerable · never hand-edited"] --> M["mcp/hve-iq<br/>read-only MCP server"] --> A["any agent"]
 ```
 
 ## Start here
@@ -118,7 +118,7 @@ A reader who cannot see the defect cannot evaluate the correction. **When you ch
 ## Validate
 
 ```powershell
-pwsh ./scripts/build-graph.ps1        # 332 nodes, ~7,387 edges, 581+512+360 claim rows, 53 sources
+pwsh ./scripts/build-graph.ps1        # 332 nodes, ~7,394 edges, 581+512+360 claim rows, 53 sources
 cd mcp/hve-iq; npm run smoke          # 40 checks, all must pass
 ```
 

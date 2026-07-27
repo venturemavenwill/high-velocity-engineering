@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-26",
+  "generated": "2026-07-27",
   "node_count": 332,
-  "edge_count": 7387,
+  "edge_count": 7394,
   "claim_count": 581,
   "claim_days": 89,
   "claim_gap_days": 1,
@@ -39,9 +39,9 @@
   "edges_by_type": {
     "depends_on": 216,
     "documents": 90,
-    "grounded_in": 778,
+    "grounded_in": 779,
     "has_whitepaper": 90,
-    "links_to": 5366,
+    "links_to": 5372,
     "part_of": 443,
     "re_tests": 93,
     "retrieves_from": 309,
@@ -53,12 +53,12 @@
     "this-programme-only": 41
   },
   "predictions_by_ns": {
-    "fde-craft": 127,
-    "measurement": 118,
-    "ai-systems": 90,
-    "platform": 88,
-    "pedagogy": 53,
-    "assessment": 24,
-    "curriculum": 12
+    "measurement": 159,
+    "ai-systems": 102,
+    "fde-craft": 74,
+    "pedagogy": 59,
+    "assessment": 54,
+    "platform": 46,
+    "curriculum": 18
   }
 }

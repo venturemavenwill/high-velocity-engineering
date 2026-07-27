@@ -50,18 +50,29 @@ Its [derivation record](projections/workshop-2day/DERIVATION.md) is the more val
 
 ## Current state, stated plainly
 
-**The claims are not extracted.** They are embedded in prose across 325 files, and the [graph](graph/README.md) indexes documents and their relationships, not claims. I flagged that limit when the graph was built and it is now the binding constraint.
+**Extraction has happened, and this section originally said it had not.** The paragraphs below record what was predicted here and what actually occurred, because the gap between them is the useful part.
 
-The practical consequence, now measured rather than predicted: **building [workshop-2day](projections/workshop-2day/README.md) required reading, not querying.** That was workable for one projection. It does not scale to seven, and every projection built this way re-derives the same claims independently and will disagree with the others in small ways nobody notices.
+> **What this section said when it was written.** *"The claims are not extracted. They are embedded in prose across 325 files, and the graph indexes documents and their relationships, not claims. I flagged that limit when the graph was built and it is now the binding constraint."* It went on to say that what was missing was **stable claim IDs and an append-only place to put them**.
 
-What exists that makes extraction tractable:
+Three claim layers now exist, all extracted mechanically from structure the substrate already had, and none of them authored by the extractor:
 
-- **The wiki is already unusually claim-shaped.** Phase 4 of every seminar day is eight numbered points. Every whitepaper's §9 is a list of falsifiable predictions each with a named instrument. Every rule carries its provenance. Every scope statement names safe and unsafe conditions. This is prose written by someone who wanted it extracted.
-- **598 `grounded_in` edges** already connect wiki assertions to research notes.
-- **The four-part `Evidence status`** already assigns warrant class to whole sections.
-- **208 pages carry a `platform_anchor`**, which is a claim-level annotation that happens to sit in a header.
+| Layer | Rows | Granularity | Covers |
+|---|---|---|---|
+| Platform claims | **581** | atomic — one durable/perishable pair | 89 of 90 days |
+| Predictions | **512** | atomic — one falsifiable claim + named instrument | all namespaces, 90 papers |
+| Evidence ledger | **360** | **class-level, not atomic** | 90 papers × 4 classes |
 
-What is missing is stable claim IDs and an append-only place to put them.
+The prediction that extraction was blocked on *stable claim IDs and somewhere to put them* was wrong in an instructive way. **No new place was needed.** The IDs are derived (`S016.p1`, `WP-001.pred1`, `WP-001.e1`) and the store is `graph/`, which is regenerable and holds no facts of its own. What actually unblocked extraction was noticing that the wiki had already written the claims down in tables and numbered lists — the thing this section correctly identified two paragraphs later.
+
+**The diagnosis about reading versus querying held.** [workshop-2day](projections/workshop-2day/README.md) was built by reading, and the first mechanical query against the extracted structure falsified two of its own claims about itself. That is the cost of reading-not-querying, arriving exactly as predicted.
+
+What remains true:
+
+- **The wiki is unusually claim-shaped.** Phase 4 of every seminar day is eight numbered points. Every whitepaper's §9 is falsifiable predictions with named instruments. Every rule carries its provenance. This is prose written by someone who wanted it extracted.
+- **778 `grounded_in` edges** connect wiki assertions to research notes, and 76% of them now name a source rather than a folder.
+- **208 pages carry a `platform_anchor`**, a claim-level annotation that happens to sit in a header.
+
+**What is still missing** is a judged split of the evidence-status prose, where four claims can share one sentence. That would be the first extraction here carrying authoring judgement, and therefore the first able to drift silently between rebuilds.
 
 ## The order of work
 

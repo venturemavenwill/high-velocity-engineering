@@ -48,7 +48,6 @@
 {"from":"concepts/projections","to":"wiki/Home","type":"links_to"}
 {"from":"concepts/projections","to":"projections/workshop-2day/README","type":"links_to"}
 {"from":"concepts/projections","to":"projections/workshop-2day/DERIVATION","type":"links_to"}
-{"from":"concepts/projections","to":"graph/README","type":"links_to"}
 {"from":"concepts/projections","to":"concepts/namespaces","type":"links_to"}
 {"from":"concepts/projections","to":"AGENTS","type":"links_to"}
 {"from":"graph/README","to":"concepts/namespaces","type":"links_to"}
@@ -2258,6 +2257,8 @@
 {"from":"wiki/seminars/S030","to":"wiki/program/04-Seminar-Day-Design-Pattern","type":"links_to"}
 {"from":"wiki/seminars/S030","to":"wiki/program/12-Copilot-Practice-Standard","type":"links_to"}
 {"from":"wiki/seminars/S030","to":"wiki/program/03-Assessment-Architecture","type":"links_to"}
+{"from":"wiki/seminars/S030","to":"wiki/seminars/S010","type":"links_to"}
+{"from":"wiki/seminars/S030","to":"wiki/seminars/S020","type":"links_to"}
 {"from":"wiki/seminars/S030","to":"wiki/quarters/Q4","type":"links_to"}
 {"from":"wiki/seminars/S030","to":"wiki/program/11-Microsoft-AI-Platform-Map","type":"links_to"}
 {"from":"wiki/seminars/S030","to":"wiki/seminars/S026","type":"depends_on"}
@@ -2437,10 +2438,10 @@
 {"from":"wiki/seminars/S038","to":"wiki/program/11-Microsoft-AI-Platform-Map","type":"links_to"}
 {"from":"wiki/seminars/S038","to":"wiki/seminars/S011","type":"depends_on"}
 {"from":"wiki/seminars/S038","to":"wiki/seminars/S037","type":"depends_on"}
-{"from":"wiki/seminars/S038","to":"wiki/seminars/S015","type":"re_tests"}
+{"from":"wiki/seminars/S038","to":"wiki/seminars/S014","type":"re_tests"}
 {"from":"wiki/seminars/S038","to":"wiki/seminars/S011","type":"retrieves_from"}
 {"from":"wiki/seminars/S038","to":"wiki/seminars/S037","type":"retrieves_from"}
-{"from":"wiki/seminars/S038","to":"wiki/seminars/S015","type":"retrieves_from"}
+{"from":"wiki/seminars/S038","to":"wiki/seminars/S014","type":"retrieves_from"}
 {"from":"wiki/seminars/S038","to":"wiki/whitepapers/WP-038","type":"has_whitepaper"}
 {"from":"wiki/seminars/S038","to":"wiki/modules/M08","type":"part_of"}
 {"from":"wiki/seminars/S038","to":"wiki/quarters/Q4","type":"part_of"}
@@ -4297,8 +4298,6 @@
 {"from":"wiki/whitepapers/WP-005","to":"wiki/program/09-Durable-and-Perishable-Register","type":"links_to"}
 {"from":"wiki/whitepapers/WP-005","to":"research/05-fde-craft/microsoft-ise-engineering-playbook","type":"links_to"}
 {"from":"wiki/whitepapers/WP-005","to":"research/05-fde-craft/microsoft-ise-engineering-playbook","type":"grounded_in"}
-{"from":"wiki/whitepapers/WP-005","to":"research/03-measurement-evaluation/husain-your-ai-product-needs-evals","type":"links_to"}
-{"from":"wiki/whitepapers/WP-005","to":"research/03-measurement-evaluation/husain-your-ai-product-needs-evals","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-005","to":"research/01-course-structure/10-gap-analysis-and-course-architecture","type":"links_to"}
 {"from":"wiki/whitepapers/WP-005","to":"research/01-course-structure/10-gap-analysis-and-course-architecture","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-005","to":"research/04-professional-formation/dellacqua-jagged-technological-frontier","type":"links_to"}
@@ -4307,6 +4306,8 @@
 {"from":"wiki/whitepapers/WP-005","to":"research/06-microsoft-platform/collected-materials","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-005","to":"wiki/seminars/S029","type":"links_to"}
 {"from":"wiki/whitepapers/WP-005","to":"wiki/program/11-Microsoft-AI-Platform-Map","type":"links_to"}
+{"from":"wiki/whitepapers/WP-005","to":"research/05-fde-craft/collected-materials","type":"links_to"}
+{"from":"wiki/whitepapers/WP-005","to":"research/05-fde-craft/collected-materials","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-005","to":"wiki/seminars/S005","type":"documents"}
 {"from":"wiki/whitepapers/WP-005","to":"wiki/modules/M01","type":"part_of"}
 {"from":"wiki/whitepapers/WP-005","to":"wiki/quarters/Q1","type":"part_of"}
@@ -4752,6 +4753,9 @@
 {"from":"wiki/whitepapers/WP-026","to":"wiki/seminars/S052","type":"links_to"}
 {"from":"wiki/whitepapers/WP-026","to":"wiki/whitepapers/WP-048","type":"links_to"}
 {"from":"wiki/whitepapers/WP-026","to":"wiki/program/09-Durable-and-Perishable-Register","type":"links_to"}
+{"from":"wiki/whitepapers/WP-026","to":"wiki/seminars/S028","type":"links_to"}
+{"from":"wiki/whitepapers/WP-026","to":"wiki/whitepapers/WP-028","type":"links_to"}
+{"from":"wiki/whitepapers/WP-026","to":"wiki/whitepapers/WP-029","type":"links_to"}
 {"from":"wiki/whitepapers/WP-026","to":"research/03-measurement-evaluation/singh-leaderboard-illusion","type":"links_to"}
 {"from":"wiki/whitepapers/WP-026","to":"research/03-measurement-evaluation/singh-leaderboard-illusion","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-026","to":"research/03-measurement-evaluation/miller-adding-error-bars-to-evals","type":"links_to"}
@@ -5066,10 +5070,14 @@
 {"from":"wiki/whitepapers/WP-039","to":"wiki/whitepapers/WP-031","type":"links_to"}
 {"from":"wiki/whitepapers/WP-039","to":"wiki/whitepapers/WP-036","type":"links_to"}
 {"from":"wiki/whitepapers/WP-039","to":"wiki/whitepapers/WP-038","type":"links_to"}
-{"from":"wiki/whitepapers/WP-039","to":"research/04-professional-formation/collected-materials","type":"links_to"}
-{"from":"wiki/whitepapers/WP-039","to":"research/04-professional-formation/collected-materials","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-039","to":"research/05-fde-craft/fisher-ury-getting-to-yes","type":"links_to"}
 {"from":"wiki/whitepapers/WP-039","to":"research/05-fde-craft/fisher-ury-getting-to-yes","type":"grounded_in"}
+{"from":"wiki/whitepapers/WP-039","to":"research/05-fde-craft/beyer-holtzblatt-contextual-design","type":"links_to"}
+{"from":"wiki/whitepapers/WP-039","to":"research/05-fde-craft/beyer-holtzblatt-contextual-design","type":"grounded_in"}
+{"from":"wiki/whitepapers/WP-039","to":"research/05-fde-craft/fitzpatrick-the-mom-test","type":"links_to"}
+{"from":"wiki/whitepapers/WP-039","to":"research/05-fde-craft/fitzpatrick-the-mom-test","type":"grounded_in"}
+{"from":"wiki/whitepapers/WP-039","to":"research/05-fde-craft/portigal-interviewing-users","type":"links_to"}
+{"from":"wiki/whitepapers/WP-039","to":"research/05-fde-craft/portigal-interviewing-users","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-039","to":"research/05-fde-craft/microsoft-ise-engineering-playbook","type":"links_to"}
 {"from":"wiki/whitepapers/WP-039","to":"research/05-fde-craft/microsoft-ise-engineering-playbook","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-039","to":"research/05-fde-craft/collected-materials","type":"links_to"}
@@ -5133,6 +5141,8 @@
 {"from":"wiki/whitepapers/WP-041","to":"research/06-microsoft-platform/agent-framework-and-evaluations-docs","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-041","to":"research/06-microsoft-platform/collected-materials","type":"links_to"}
 {"from":"wiki/whitepapers/WP-041","to":"research/06-microsoft-platform/collected-materials","type":"grounded_in"}
+{"from":"wiki/whitepapers/WP-041","to":"research/03-measurement-evaluation/singh-leaderboard-illusion","type":"links_to"}
+{"from":"wiki/whitepapers/WP-041","to":"research/03-measurement-evaluation/singh-leaderboard-illusion","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-041","to":"wiki/seminars/S041","type":"documents"}
 {"from":"wiki/whitepapers/WP-041","to":"wiki/modules/M09","type":"part_of"}
 {"from":"wiki/whitepapers/WP-041","to":"wiki/quarters/Q5","type":"part_of"}
@@ -5146,10 +5156,10 @@
 {"from":"wiki/whitepapers/WP-042","to":"wiki/seminars/S066","type":"links_to"}
 {"from":"wiki/whitepapers/WP-042","to":"research/03-measurement-evaluation/singh-leaderboard-illusion","type":"links_to"}
 {"from":"wiki/whitepapers/WP-042","to":"research/03-measurement-evaluation/singh-leaderboard-illusion","type":"grounded_in"}
-{"from":"wiki/whitepapers/WP-042","to":"research/03-measurement-evaluation/shankar-evalgen","type":"links_to"}
-{"from":"wiki/whitepapers/WP-042","to":"research/03-measurement-evaluation/shankar-evalgen","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-042","to":"research/02-technical-foundations/thakur-beir","type":"links_to"}
 {"from":"wiki/whitepapers/WP-042","to":"research/02-technical-foundations/thakur-beir","type":"grounded_in"}
+{"from":"wiki/whitepapers/WP-042","to":"research/03-measurement-evaluation/shankar-evalgen","type":"links_to"}
+{"from":"wiki/whitepapers/WP-042","to":"research/03-measurement-evaluation/shankar-evalgen","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-042","to":"research/06-microsoft-platform/agent-framework-and-evaluations-docs","type":"links_to"}
 {"from":"wiki/whitepapers/WP-042","to":"research/06-microsoft-platform/agent-framework-and-evaluations-docs","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-042","to":"research/06-microsoft-platform/collected-materials","type":"links_to"}
@@ -5819,6 +5829,7 @@
 {"from":"wiki/whitepapers/WP-061","to":"research/01-course-structure/collected-materials","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-061","to":"research/03-measurement-evaluation/miller-adding-error-bars-to-evals","type":"links_to"}
 {"from":"wiki/whitepapers/WP-061","to":"research/03-measurement-evaluation/miller-adding-error-bars-to-evals","type":"grounded_in"}
+{"from":"wiki/whitepapers/WP-061","to":"wiki/whitepapers/WP-029","type":"links_to"}
 {"from":"wiki/whitepapers/WP-061","to":"research/03-measurement-evaluation/thakur-beir","type":"links_to"}
 {"from":"wiki/whitepapers/WP-061","to":"research/03-measurement-evaluation/thakur-beir","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-061","to":"research/06-microsoft-platform/provisioned-throughput-for-foundry-models","type":"links_to"}
@@ -6196,8 +6207,6 @@
 {"from":"wiki/whitepapers/WP-069","to":"research/08-assessment-epas/ten-cate-epa-framework","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-069","to":"research/03-measurement-evaluation/singh-leaderboard-illusion","type":"links_to"}
 {"from":"wiki/whitepapers/WP-069","to":"research/03-measurement-evaluation/singh-leaderboard-illusion","type":"grounded_in"}
-{"from":"wiki/whitepapers/WP-069","to":"research/01-course-structure/collected-materials","type":"links_to"}
-{"from":"wiki/whitepapers/WP-069","to":"research/01-course-structure/collected-materials","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-069","to":"research/06-microsoft-platform/collected-materials","type":"links_to"}
 {"from":"wiki/whitepapers/WP-069","to":"research/06-microsoft-platform/collected-materials","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-069","to":"wiki/seminars/S069","type":"documents"}
@@ -6395,8 +6404,6 @@
 {"from":"wiki/whitepapers/WP-073","to":"research/06-microsoft-platform/azure-ai-search-and-acl-patterns","type":"links_to"}
 {"from":"wiki/whitepapers/WP-073","to":"research/06-microsoft-platform/azure-ai-search-and-acl-patterns","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-073","to":"wiki/program/09-Durable-and-Perishable-Register","type":"links_to"}
-{"from":"wiki/whitepapers/WP-073","to":"research/02-technical-foundations/collected-materials","type":"links_to"}
-{"from":"wiki/whitepapers/WP-073","to":"research/02-technical-foundations/collected-materials","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-073","to":"research/05-fde-craft/fisher-ury-getting-to-yes","type":"links_to"}
 {"from":"wiki/whitepapers/WP-073","to":"research/05-fde-craft/fisher-ury-getting-to-yes","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-073","to":"research/04-professional-formation/keith-frese-error-management-training","type":"links_to"}
@@ -6407,6 +6414,8 @@
 {"from":"wiki/whitepapers/WP-073","to":"research/99-source-register/source-register","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-073","to":"research/06-microsoft-platform/collected-materials","type":"links_to"}
 {"from":"wiki/whitepapers/WP-073","to":"research/06-microsoft-platform/collected-materials","type":"grounded_in"}
+{"from":"wiki/whitepapers/WP-073","to":"research/02-technical-foundations/collected-materials","type":"links_to"}
+{"from":"wiki/whitepapers/WP-073","to":"research/02-technical-foundations/collected-materials","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-073","to":"wiki/seminars/S073","type":"documents"}
 {"from":"wiki/whitepapers/WP-073","to":"wiki/modules/M15","type":"part_of"}
 {"from":"wiki/whitepapers/WP-073","to":"wiki/quarters/Q8","type":"part_of"}
@@ -6493,8 +6502,6 @@
 {"from":"wiki/whitepapers/WP-075","to":"research/03-measurement-evaluation/shankar-evalgen","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-075","to":"research/03-measurement-evaluation/husain-your-ai-product-needs-evals","type":"links_to"}
 {"from":"wiki/whitepapers/WP-075","to":"research/03-measurement-evaluation/husain-your-ai-product-needs-evals","type":"grounded_in"}
-{"from":"wiki/whitepapers/WP-075","to":"research/03-measurement-evaluation/huyen-ai-engineering","type":"links_to"}
-{"from":"wiki/whitepapers/WP-075","to":"research/03-measurement-evaluation/huyen-ai-engineering","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-075","to":"research/03-measurement-evaluation/miller-adding-error-bars-to-evals","type":"links_to"}
 {"from":"wiki/whitepapers/WP-075","to":"research/03-measurement-evaluation/miller-adding-error-bars-to-evals","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-075","to":"research/02-technical-foundations/vaswani-attention-is-all-you-need","type":"links_to"}
@@ -6515,6 +6522,8 @@
 {"from":"wiki/whitepapers/WP-075","to":"research/99-source-register/source-register","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-075","to":"research/06-microsoft-platform/collected-materials","type":"links_to"}
 {"from":"wiki/whitepapers/WP-075","to":"research/06-microsoft-platform/collected-materials","type":"grounded_in"}
+{"from":"wiki/whitepapers/WP-075","to":"research/03-measurement-evaluation/huyen-ai-engineering","type":"links_to"}
+{"from":"wiki/whitepapers/WP-075","to":"research/03-measurement-evaluation/huyen-ai-engineering","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-075","to":"wiki/seminars/S075","type":"documents"}
 {"from":"wiki/whitepapers/WP-075","to":"wiki/modules/M15","type":"part_of"}
 {"from":"wiki/whitepapers/WP-075","to":"wiki/quarters/Q8","type":"part_of"}
@@ -6957,8 +6966,6 @@
 {"from":"wiki/whitepapers/WP-083","to":"research/03-measurement-evaluation/miller-adding-error-bars-to-evals","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-083","to":"research/03-measurement-evaluation/husain-your-ai-product-needs-evals","type":"links_to"}
 {"from":"wiki/whitepapers/WP-083","to":"research/03-measurement-evaluation/husain-your-ai-product-needs-evals","type":"grounded_in"}
-{"from":"wiki/whitepapers/WP-083","to":"research/03-measurement-evaluation/huyen-ai-engineering","type":"links_to"}
-{"from":"wiki/whitepapers/WP-083","to":"research/03-measurement-evaluation/huyen-ai-engineering","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-083","to":"research/08-assessment-epas/ten-cate-epa-framework","type":"links_to"}
 {"from":"wiki/whitepapers/WP-083","to":"research/08-assessment-epas/ten-cate-epa-framework","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-083","to":"research/08-assessment-epas/govaerts-narrative-assessment-literature","type":"links_to"}
@@ -6969,6 +6976,8 @@
 {"from":"wiki/whitepapers/WP-083","to":"research/04-professional-formation/keith-frese-error-management-training","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-083","to":"research/06-microsoft-platform/collected-materials","type":"links_to"}
 {"from":"wiki/whitepapers/WP-083","to":"research/06-microsoft-platform/collected-materials","type":"grounded_in"}
+{"from":"wiki/whitepapers/WP-083","to":"research/03-measurement-evaluation/huyen-ai-engineering","type":"links_to"}
+{"from":"wiki/whitepapers/WP-083","to":"research/03-measurement-evaluation/huyen-ai-engineering","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-083","to":"wiki/seminars/S083","type":"documents"}
 {"from":"wiki/whitepapers/WP-083","to":"wiki/modules/M17","type":"part_of"}
 {"from":"wiki/whitepapers/WP-083","to":"wiki/quarters/Q9","type":"part_of"}
@@ -7127,9 +7136,6 @@
 {"from":"wiki/whitepapers/WP-086","to":"research/05-fde-craft/microsoft-ise-engineering-playbook","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-086","to":"research/05-fde-craft/hiatt-adkar","type":"links_to"}
 {"from":"wiki/whitepapers/WP-086","to":"research/05-fde-craft/hiatt-adkar","type":"grounded_in"}
-{"from":"wiki/whitepapers/WP-086","to":"research/01-course-structure/collected-materials","type":"links_to"}
-{"from":"wiki/whitepapers/WP-086","to":"research/01-course-structure/collected-materials","type":"grounded_in"}
-{"from":"wiki/whitepapers/WP-086","to":"wiki/program/02-Learning-Science-Foundations","type":"links_to"}
 {"from":"wiki/whitepapers/WP-086","to":"research/03-measurement-evaluation/govaerts-narrative-assessment","type":"links_to"}
 {"from":"wiki/whitepapers/WP-086","to":"research/03-measurement-evaluation/govaerts-narrative-assessment","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-086","to":"research/04-professional-formation/edmondson-psychological-safety","type":"links_to"}
@@ -7138,6 +7144,7 @@
 {"from":"wiki/whitepapers/WP-086","to":"research/04-professional-formation/keith-frese-error-management-training","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-086","to":"research/06-microsoft-platform/collected-materials","type":"links_to"}
 {"from":"wiki/whitepapers/WP-086","to":"research/06-microsoft-platform/collected-materials","type":"grounded_in"}
+{"from":"wiki/whitepapers/WP-086","to":"wiki/program/02-Learning-Science-Foundations","type":"links_to"}
 {"from":"wiki/whitepapers/WP-086","to":"wiki/seminars/S086","type":"documents"}
 {"from":"wiki/whitepapers/WP-086","to":"wiki/modules/M18","type":"part_of"}
 {"from":"wiki/whitepapers/WP-086","to":"wiki/quarters/Q9","type":"part_of"}
