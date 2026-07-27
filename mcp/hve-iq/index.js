@@ -487,10 +487,23 @@ if (!PORT) {
     return matches(auth.replace(/^Bearer\s+/i, "")) || matches(req.headers["x-api-key"]);
   };
 
-  const send = (res, code, body) => {
-    res.writeHead(code, { "content-type": "application/json" });
+  const send = (res, code, body, headers = {}) => {
+    res.writeHead(code, { "content-type": "application/json", ...headers });
     res.end(JSON.stringify(body));
   };
+
+  // RFC 6750: a bearer-protected resource must say so when it refuses. A bare
+  // 401 tells the client nothing about which scheme to use, and MCP clients that
+  // see one commonly fall back to OAuth discovery — probing
+  // /.well-known/oauth-authorization-server, finding nothing, and reporting
+  // "failed to discover authorization server metadata" rather than "supply a
+  // token". Naming the scheme here is what stops that.
+  //
+  // Deliberately no resource_metadata parameter: that would advertise an OAuth
+  // authorization server, and this server has none. It takes a shared secret.
+  const unauthorised = (res) =>
+    send(res, 401, { error: "unauthorised", hint: "supply the API key as a bearer token, or in an x-api-key header" },
+         { "www-authenticate": 'Bearer realm="hve-iq", error="invalid_token"' });
 
   createServer(async (req, res) => {
     // Container Apps probes this; it must never require auth.
@@ -498,7 +511,7 @@ if (!PORT) {
       return send(res, 200, { status: "ok", nodes: NODES.length, claims: CLAIMS.length, readonly: true });
     }
     if (req.url !== "/mcp") return send(res, 404, { error: "not found. MCP is at /mcp" });
-    if (!authorised(req)) return send(res, 401, { error: "unauthorised" });
+    if (!authorised(req)) return unauthorised(res);
 
     let body;
     if (req.method === "POST") {
