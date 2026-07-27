@@ -1,6 +1,6 @@
 {
   "node_count": 335,
-  "edge_count": 7400,
+  "edge_count": 7401,
   "claim_count": 581,
   "claim_days": 89,
   "claim_gap_days": 1,
@@ -40,7 +40,7 @@
     "documents": 90,
     "grounded_in": 779,
     "has_whitepaper": 90,
-    "links_to": 5378,
+    "links_to": 5379,
     "part_of": 443,
     "re_tests": 93,
     "retrieves_from": 309,

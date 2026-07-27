@@ -157,17 +157,17 @@
       "path": "mcp/hve-iq/SKILL.md",
       "kind": "other",
       "layer": "root",
-      "title": "HVE IQ",
+      "title": "HVE IQ tutor",
       "headings": [
-        "Always call `hve_namespaces` first",
-        "Which tool answers which question",
-        "Rules that are not optional",
-        "The BSc is a projection, not the truth",
-        "Worked example",
+        "The loop",
+        "Warrant rules that survive every adaptation",
+        "Never assert",
+        "The BSc is one projection, not the truth",
+        "Worked opening",
         "Endpoints"
       ],
-      "words": 864,
-      "lines": 70,
+      "words": 1093,
+      "lines": 89,
       "assessment_bearing": false
     },
     {
@@ -175,15 +175,16 @@
       "path": "mcp/hve-iq/copilot-studio.md",
       "kind": "other",
       "layer": "root",
-      "title": "Copilot Studio agent — instructions and setup",
+      "title": "Copilot Studio tutor — instructions and setup",
       "headings": [
         "1. Agent instructions — paste into the Instructions field",
         "2. Tool description — paste into the MCP server's Server description",
         "3. Connect the MCP server",
-        "4. Things worth knowing before you demo it"
+        "4. Conversation starters worth setting",
+        "5. Things worth knowing before you demo it"
       ],
-      "words": 885,
-      "lines": 119,
+      "words": 1416,
+      "lines": 182,
       "assessment_bearing": false
     },
     {
@@ -13926,6 +13927,11 @@
     {
       "from": "mcp/hve-iq/SKILL",
       "to": "mcp/hve-iq/README",
+      "type": "links_to"
+    },
+    {
+      "from": "mcp/hve-iq/SKILL",
+      "to": "mcp/hve-iq/copilot-studio",
       "type": "links_to"
     },
     {
