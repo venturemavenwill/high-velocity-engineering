@@ -1,7 +1,7 @@
 {
   "generated": "2026-07-27",
-  "node_count": 332,
-  "edge_count": 7394,
+  "node_count": 333,
+  "edge_count": 7398,
   "claim_count": 581,
   "claim_days": 89,
   "claim_gap_days": 1,
@@ -16,7 +16,7 @@
   "nodes_by_kind": {
     "design-analysis": 3,
     "module": 18,
-    "other": 9,
+    "other": 10,
     "program-page": 13,
     "quarter": 9,
     "readme": 1,
@@ -32,7 +32,7 @@
   },
   "nodes_by_layer": {
     "research": 90,
-    "root": 9,
+    "root": 10,
     "sources": 12,
     "wiki": 221
   },
@@ -41,7 +41,7 @@
     "documents": 90,
     "grounded_in": 779,
     "has_whitepaper": 90,
-    "links_to": 5372,
+    "links_to": 5376,
     "part_of": 443,
     "re_tests": 93,
     "retrieves_from": 309,
@@ -53,12 +53,12 @@
     "this-programme-only": 41
   },
   "predictions_by_ns": {
-    "measurement": 158,
-    "ai-systems": 102,
-    "fde-craft": 86,
-    "pedagogy": 71,
-    "platform": 47,
-    "assessment": 24,
-    "curriculum": 24
+    "measurement": 147,
+    "fde-craft": 109,
+    "ai-systems": 96,
+    "pedagogy": 83,
+    "platform": 41,
+    "assessment": 30,
+    "curriculum": 6
   }
 }

@@ -106,20 +106,21 @@ Run `hve_sources({ read: "unread" })` first. The two most load-bearing unread so
 
 ## The write path, and where it attaches
 
-HVE IQ's intended final form is an agent that researches, judges, and maintains the knowledge. **It is not built.** What exists in v0 is the seam it plugs into, which is the part worth getting right first:
+HVE IQ's write path is an agent that researches, judges, and maintains the knowledge. **It lives in a separate private repository — only the knowledge is public.** What exists here is the seam it plugs into, which is the part worth getting right first:
 
 ```
 agent proposes  ──►  pull request  ──►  deterministic gate  ──►  human merge
-  (not built)                        scripts/verify.ps1
+ (private repo)                     scripts/verify.ps1
 ```
 
-[scripts/verify.ps1](/scripts/verify.ps1) runs today and [.github/workflows/verify.yml](/.github/workflows/verify.yml) already fires on **any** pull request, whoever opened it. Adding the agent later changes nothing in the gate — it becomes a second proposer beside the human one. The workflow carries a commented sketch of that job.
+[scripts/verify.ps1](/scripts/verify.ps1) runs today and [.github/workflows/verify.yml](/.github/workflows/verify.yml) fires on **any** pull request, whoever opened it. So the agent is gated by exactly the same checks a human is, and needs nothing added here.
 
-Three rules the agent inherits, none negotiable:
+Four rules it inherits, none negotiable:
 
 1. **It opens a pull request. It never pushes to `main`.** The loop is unattended, so a human merge is the only place a mistake reliably stops.
-2. **It never writes to `graph/`.** That is derived from the markdown and holds no facts of its own. CI fails if the committed graph is stale.
-3. **It may not upgrade an evidence class.** Direction and mechanism only for anything not verified here.
+2. **It never writes to `graph/`.** That is derived from the markdown and holds no facts of its own. CI fails the PR if the committed graph is stale.
+3. **It may not upgrade an evidence class.** Direction and mechanism only for anything not verified here, and no effect size for any source the register marks unread.
+4. **Its PR body states the evidence class of every claim**, so a reviewer checks the class before the content.
 
 **The gate is deliberately not an LLM.** A verifier sharing a model family with the proposer is not a verifier, it is an echo. It is also cheap enough to run on every push, which is what makes it worth having at all.
 

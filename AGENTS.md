@@ -7,7 +7,9 @@
 
 A body of knowledge about **forward-deployed engineering and hypervelocity engineering, and how to teach it** — together with the research it was derived from and the vendor study notes that started it.
 
-It is **332 markdown files, one graph builder and one MCP server.** The knowledge layers are markdown and nothing else — the artefact is the argument. The two pieces of code are both **derived tooling**: [scripts/build-graph.ps1](/scripts/build-graph.ps1) regenerates the index from the files, and [mcp/hve-iq](/mcp/hve-iq/README.md) serves it read-only. **Neither holds a fact of its own, and neither ever writes to the substrate.**
+It is **333 markdown files, one graph builder and one MCP server.** The knowledge layers are markdown and nothing else — the artefact is the argument. The two pieces of code are both **derived tooling**: [scripts/build-graph.ps1](/scripts/build-graph.ps1) regenerates the index from the files, and [mcp/hve-iq](/mcp/hve-iq/README.md) serves it read-only. **Neither holds a fact of its own, and neither ever writes to the substrate.**
+
+**Only the knowledge lives here.** The research agent that proposes upgrades to it runs from a separate private repository, opens pull requests, and is gated by [scripts/verify.ps1](/scripts/verify.ps1) exactly as a human contributor is. The original work is [CC BY 4.0](/LICENSE.md); `sources/vendor-courses/` is vendor-derived and carved out.
 
 **The three-year BSc programme in `wiki/` is a seed, not the product.** It is one *projection* over the knowledge — the first built and the one that happens to be finished. Other projections (a two-day workshop, certification prep, an engagement playbook, a thirty-day onboarding path) are read models over the same claims and are equally legitimate. An agent asked for a format that is not the BSc is not being asked to invent something; it is being asked to project. See [concepts/projections.md](/concepts/projections.md) for what a projection may and may not do.
 
@@ -117,7 +119,7 @@ Get-ChildItem -Recurse -File -Filter *.md |
 Expected: **3 hits only**, all `BROKEN`, all placeholders inside a fenced code block in `05-Whitepaper-Standard.md`. Any `NOT ROOT-ABSOLUTE` hit is a real defect.
 
 ```powershell
-pwsh ./scripts/build-graph.ps1   # expect 332 nodes, ~7390 edges, 581 claims, 512 predictions, 360 evidence rows, 53 sources
+pwsh ./scripts/build-graph.ps1   # expect 333 nodes, ~7390 edges, 581 claims, 512 predictions, 360 evidence rows, 53 sources
 ```
 
 ```bash

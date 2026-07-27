@@ -22,7 +22,7 @@ flowchart TD
   W --> G
   P --> G
   C --> G
-  G["graph/ · 332 nodes · 7,394 edges<br/>581 platform claims · 512 predictions · 360 evidence rows · 53 sources<br/>derived · regenerable · never hand-edited"] --> M["mcp/hve-iq<br/>read-only MCP server"] --> A["any agent"]
+  G["graph/ · 333 nodes · 7,398 edges<br/>581 platform claims · 512 predictions · 360 evidence rows · 53 sources<br/>derived · regenerable · never hand-edited"] --> M["mcp/hve-iq<br/>read-only MCP server"] --> A["any agent"]
 ```
 
 ## Start here
@@ -117,12 +117,21 @@ A reader who cannot see the defect cannot evaluate the correction. **When you ch
 
 ## Validate
 
+**One command gates everything**, and CI runs it on every pull request:
+
 ```powershell
-pwsh ./scripts/build-graph.ps1        # 332 nodes, ~7,394 edges, 581+512+360 claim rows, 53 sources
-cd mcp/hve-iq; npm run smoke          # 40 checks, all must pass
+pwsh ./scripts/verify.ps1
 ```
 
-Link integrity should report exactly **3 broken links** — all placeholders inside a fenced code block in the whitepaper standard. The command is in [AGENTS.md](/AGENTS.md).
+Graph rebuilds, links root-absolute and resolving, no prohibited claim or effect size, all four evidence classes on every whitepaper, every prediction with an instrument, every day with an entry state, and the MCP smoke suite. Invariants, not snapshots — a gate that fails on intended change is a gate someone disables.
+
+## Licence and scope
+
+The original work here is **[CC BY 4.0](/LICENSE.md)** — share and adapt with attribution, including commercially.
+
+**Two carve-outs, both stated in full in [LICENSE.md](/LICENSE.md).** `sources/vendor-courses/` is study notes compiled from Microsoft partner training and is **not** original to this repository; no licence is granted over it and the [source register](/research/99-source-register/source-register.md) marks at least one of those courses non-citable externally. `research/` summarises copyrighted works — the summaries are original, the works are not.
+
+**The write path is not here.** An agent that researches and proposes upgrades to this knowledge runs from a separate private repository; it opens pull requests and is gated by the same `verify.ps1` a human is. Only the knowledge is public.
 
 ## Open issues, honestly recorded
 
