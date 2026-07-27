@@ -466,10 +466,25 @@ if (!PORT) {
   // Optional shared secret. Absent means open, which is correct for a private
   // network and wrong for public ingress — set HVE_API_KEY when exposed.
   const API_KEY = process.env.HVE_API_KEY;
+  const { timingSafeEqual } = await import("node:crypto");
+
+  // Constant time, so a near-miss cannot be distinguished from a far-miss by
+  // how long the comparison took.
+  const matches = (given) => {
+    if (typeof given !== "string" || !API_KEY) return false;
+    const a = Buffer.from(given, "utf8");
+    const b = Buffer.from(API_KEY, "utf8");
+    return a.length === b.length && timingSafeEqual(a, b);
+  };
+
+  // Clients disagree about how a shared secret travels. Copilot Studio sends
+  // whatever you typed as the raw header value; other clients prepend the Bearer
+  // scheme themselves. Accepting all three costs nothing and saves every new
+  // integration from debugging a 401 that is really a formatting difference.
   const authorised = (req) => {
     if (!API_KEY) return true;
-    const h = req.headers.authorization ?? "";
-    return h === `Bearer ${API_KEY}` || req.headers["x-api-key"] === API_KEY;
+    const auth = String(req.headers.authorization ?? "");
+    return matches(auth.replace(/^Bearer\s+/i, "")) || matches(req.headers["x-api-key"]);
   };
 
   const send = (res, code, body) => {
