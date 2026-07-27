@@ -153,6 +153,40 @@
       "assessment_bearing": false
     },
     {
+      "id": "mcp/hve-iq/SKILL",
+      "path": "mcp/hve-iq/SKILL.md",
+      "kind": "other",
+      "layer": "root",
+      "title": "HVE IQ",
+      "headings": [
+        "Always call `hve_namespaces` first",
+        "Which tool answers which question",
+        "Rules that are not optional",
+        "The BSc is a projection, not the truth",
+        "Worked example",
+        "Endpoints"
+      ],
+      "words": 864,
+      "lines": 70,
+      "assessment_bearing": false
+    },
+    {
+      "id": "mcp/hve-iq/copilot-studio",
+      "path": "mcp/hve-iq/copilot-studio.md",
+      "kind": "other",
+      "layer": "root",
+      "title": "Copilot Studio agent — instructions and setup",
+      "headings": [
+        "1. Agent instructions — paste into the Instructions field",
+        "2. Tool description — paste into the MCP server's Server description",
+        "3. Connect the MCP server",
+        "4. Things worth knowing before you demo it"
+      ],
+      "words": 885,
+      "lines": 119,
+      "assessment_bearing": false
+    },
+    {
       "id": "projections/workshop-2day/DERIVATION",
       "path": "projections/workshop-2day/DERIVATION.md",
       "kind": "other",
@@ -13882,6 +13916,21 @@
     {
       "from": "mcp/hve-iq/README",
       "to": "research/99-source-register/source-register",
+      "type": "links_to"
+    },
+    {
+      "from": "mcp/hve-iq/SKILL",
+      "to": "concepts/entry-state",
+      "type": "links_to"
+    },
+    {
+      "from": "mcp/hve-iq/SKILL",
+      "to": "mcp/hve-iq/README",
+      "type": "links_to"
+    },
+    {
+      "from": "mcp/hve-iq/copilot-studio",
+      "to": "mcp/hve-iq/SKILL",
       "type": "links_to"
     },
     {
