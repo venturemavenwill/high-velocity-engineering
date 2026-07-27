@@ -56,8 +56,18 @@ function Get-Layer([string]$rel) {
 
 # The separator class matters: on Linux FullName uses '/', so a backslash-only
 # pattern silently matches nothing and node_modules gets scanned into the graph.
-$files = Get-ChildItem -Path $RepoRoot -Recurse -File -Filter *.md |
-         Where-Object { $_.FullName -notmatch '[\\/](node_modules|\.git)[\\/]' }
+$files = @(Get-ChildItem -Path $RepoRoot -Recurse -File -Filter *.md |
+           Where-Object { $_.FullName -notmatch '[\\/](node_modules|\.git)[\\/]' })
+
+# Get-ChildItem returns filesystem enumeration order, which differs between NTFS
+# and ext4 — so the same substrate produced a different node order on Windows and
+# on CI, and every derived file differed. Sort ORDINALLY: Sort-Object compares
+# with the current culture, which weights '-' and '.' differently in different
+# locales, and a reproducible build cannot depend on the machine's locale.
+[Array]::Sort($files, [System.Comparison[object]] {
+    param($a, $b)
+    [string]::CompareOrdinal((Get-RelPath $a.FullName), (Get-RelPath $b.FullName))
+})
 
 $nodes = [System.Collections.Generic.List[object]]::new()
 $edges = [System.Collections.Generic.List[object]]::new()
@@ -264,7 +274,10 @@ foreach ($n in $nodes) {
     if ($mix.Count -eq 0) { $mix = @{ 'method' = 1 } }
 
     $ordered = [ordered]@{}
-    $mix.GetEnumerator() | Sort-Object Value -Descending | ForEach-Object { $ordered[$_.Key] = $_.Value }
+    # Tie-break on the key. Without it, equal counts fall back to hashtable
+    # enumeration order, which .NET randomises per process — so two builds of
+    # the same substrate on the same machine produced different files.
+    $mix.GetEnumerator() | Sort-Object @{ Expression = 'Value'; Descending = $true }, @{ Expression = 'Key'; Descending = $false } | ForEach-Object { $ordered[$_.Key] = $_.Value }
     $primary = ($ordered.Keys | Select-Object -First 1)
 
     $n | Add-Member -NotePropertyName namespaces        -NotePropertyValue $ordered -Force
@@ -521,8 +534,10 @@ $predictions | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (J
 $evidence | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join-Path $OutDir 'evidence.jsonl') -Encoding utf8
 $sources | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join-Path $OutDir 'sources.jsonl') -Encoding utf8
 
+# No `generated` timestamp. It would change on every rebuild regardless of
+# content, which defeats the staleness check in CI and makes the artefact
+# irreproducible. Git already records when this last changed.
 [pscustomobject]@{
-    generated   = (Get-Date).ToString('yyyy-MM-dd')
     nodes       = $nodes
     edges       = $final
     claims      = $claims
@@ -535,11 +550,10 @@ $kindMap  = [ordered]@{}; $nodes | Group-Object kind  | Sort-Object Name | ForEa
 $layerMap = [ordered]@{}; $nodes | Group-Object layer | Sort-Object Name | ForEach-Object { $layerMap[$_.Name] = $_.Count }
 $typeMap  = [ordered]@{}; $final | Group-Object type  | Sort-Object Name | ForEach-Object { $typeMap[$_.Name]  = $_.Count }
 $esMap    = [ordered]@{}; $nodes | Where-Object { $_.satisfiable_from } | Group-Object satisfiable_from | Sort-Object Name | ForEach-Object { $esMap[$_.Name] = $_.Count }
-$predNs   = [ordered]@{}; $predictions | Where-Object { $_.namespace } | Group-Object namespace | Sort-Object Count -Descending | ForEach-Object { $predNs[$_.Name] = $_.Count }
-$srcRead  = [ordered]@{}; $sources | Group-Object read | Sort-Object Count -Descending | ForEach-Object { $srcRead[$_.Name] = $_.Count }
+$predNs   = [ordered]@{}; $predictions | Where-Object { $_.namespace } | Group-Object namespace | Sort-Object @{ Expression = 'Count'; Descending = $true }, @{ Expression = 'Name'; Descending = $false } | ForEach-Object { $predNs[$_.Name] = $_.Count }
+$srcRead  = [ordered]@{}; $sources | Group-Object read | Sort-Object @{ Expression = 'Count'; Descending = $true }, @{ Expression = 'Name'; Descending = $false } | ForEach-Object { $srcRead[$_.Name] = $_.Count }
 
 [pscustomobject]@{
-    generated         = (Get-Date).ToString('yyyy-MM-dd')
     node_count        = $nodes.Count
     edge_count        = $final.Count
     claim_count       = $claims.Count

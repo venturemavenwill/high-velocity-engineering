@@ -127,9 +127,11 @@ Graph rebuilds, links root-absolute and resolving, no prohibited claim or effect
 
 ## Licence and scope
 
-The original work here is **[CC BY 4.0](/LICENSE.md)** — share and adapt with attribution, including commercially.
+The work here is **[CC BY 4.0](/LICENSE.md)** — share and adapt with attribution, including commercially.
 
-**Two carve-outs, both stated in full in [LICENSE.md](/LICENSE.md).** `sources/vendor-courses/` is study notes compiled from Microsoft partner training and is **not** original to this repository; no licence is granted over it and the [source register](/research/99-source-register/source-register.md) marks at least one of those courses non-citable externally. `research/` summarises copyrighted works — the summaries are original, the works are not.
+`sources/vendor-courses/` and `research/` are **summaries written in this repository's own words**; no source text is reproduced, so the summaries are original work and licensed with everything else. What is not licensed is what was never this repository's to license: the Microsoft partner training and the copyrighted books and papers those summaries are *about*.
+
+**Citability is a separate question.** At least one summarised course is not publicly accessible, so a reader cannot check the summary against it. That limits *verification*, not reuse — which is why the material sits in evidence class 4 rather than class 1. See [LICENSE.md](/LICENSE.md).
 
 **The write path is not here.** An agent that researches and proposes upgrades to this knowledge runs from a separate private repository; it opens pull requests and is gated by the same `verify.ps1` a human is. Only the knowledge is public.
 

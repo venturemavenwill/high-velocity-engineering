@@ -23,36 +23,41 @@ This covers the material authored here:
 | `projections/` | Read models over the claims |
 | `graph/` | Derived index. Regenerable from the markdown; holds no facts of its own |
 | `scripts/`, `mcp/` | Derived tooling |
-| `sources/design-analysis/` | The design documents that turned the notes into a programme brief |
+| `sources/` | The design analyses, and the study notes — original prose, see below |
+| `research/` | Cliff Notes and their verification records — original prose, see below |
 
-## What this licence does NOT cover
+## Summaries are original work; the works they summarise are not
 
-**`sources/vendor-courses/`** is not original to this repository. Those eight
-documents are study notes compiled from Microsoft partner training material
-delivered through LevelUp, and the underlying courses remain the property of
-Microsoft Corporation. At least one of them —
-[03-Accelerate-Agentic-AI.md](/sources/vendor-courses/03-Accelerate-Agentic-AI.md) —
-summarises a course this repository's own
-[source register](/research/99-source-register/source-register.md) records as
-**not publicly accessible and not citable externally**.
+`sources/vendor-courses/` and `research/` are **summaries written in this
+repository's own words**. No source text is reproduced. Copyright protects
+expression rather than facts or ideas, so those summaries are original work and
+are licensed above along with everything else.
 
-**No licence is granted over that material, and none can be.** It is retained
-here because the repository's citation discipline requires a reader to be able
-to see what a claim rests on. Treat it as reference, not as a redistributable
-asset, and do not cite it as an external source — the
-[register](/research/99-source-register/source-register.md) marks it internal
-and non-citable for that reason.
+What is **not** licensed here, because it was never this repository's to license:
 
-**`research/`** contains Cliff Notes summarising external works, many of them
-copyrighted books and papers. The summaries and the verification records around
-them are original and CC BY 4.0. The works they summarise are not, and this
-repository deliberately stores synthesis rather than source text — see the
-copyright handling rule in the
-[source register](/research/99-source-register/source-register.md).
+- The **underlying Microsoft partner training** that `sources/vendor-courses/`
+  summarises. Those courses remain the property of Microsoft Corporation.
+- The **books and papers** that `research/` summarises, many of them
+  copyrighted. This is why the [source register](/research/99-source-register/source-register.md)
+  requires a synthesis rather than a copy — a rule that predates this licence.
 
-Trade marks, product names and service names referenced throughout — Microsoft
-Foundry, Azure AI Search, GitHub Copilot, Copilot Studio and others — belong to
-their respective owners and are used descriptively.
+Trade marks, product names and service names used descriptively throughout —
+Microsoft Foundry, Azure AI Search, GitHub Copilot, Copilot Studio and others —
+belong to their respective owners.
+
+## Citability is a separate question from licensing
+
+The [source register](/research/99-source-register/source-register.md) records
+that at least one summarised course is **not publicly accessible**, and its
+Cliff Note repeats that nothing in it "can serve as an external reference".
+
+**That is a limit on verification, not on reuse.** A reader cannot check the
+summary against a source they cannot reach, so the summary must not be cited as
+though it were an accessible authority. You may reuse the summary under this
+licence; you may not present it as a citable external source. The repository
+tracks the same distinction everywhere through its four evidence classes, and
+this material sits in the fourth: *grounded in vendor documentation, with its
+version and its silence recorded*.
 
 ## Attribution
 
