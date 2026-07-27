@@ -54,8 +54,10 @@ function Get-Layer([string]$rel) {
 
 # ---------------------------------------------------------------- scan
 
+# The separator class matters: on Linux FullName uses '/', so a backslash-only
+# pattern silently matches nothing and node_modules gets scanned into the graph.
 $files = Get-ChildItem -Path $RepoRoot -Recurse -File -Filter *.md |
-         Where-Object { $_.FullName -notmatch '\\(node_modules|\.git)\\' }
+         Where-Object { $_.FullName -notmatch '[\\/](node_modules|\.git)[\\/]' }
 
 $nodes = [System.Collections.Generic.List[object]]::new()
 $edges = [System.Collections.Generic.List[object]]::new()
@@ -117,7 +119,7 @@ $known = @{}
 foreach ($n in $nodes) { $known[$n.id] = $true }
 
 foreach ($n in $nodes) {
-    $full = Join-Path $RepoRoot ($n.path -replace '/', '\')
+    $full = Join-Path $RepoRoot $n.path
     $text = Get-Content -LiteralPath $full -Raw
     if ($null -eq $text) { $text = '' }
 
@@ -282,7 +284,7 @@ foreach ($n in $nodes) {
 # evidence classes actually present in a whitepaper's Evidence status section
 foreach ($n in $nodes) {
     if ($n.kind -ne 'whitepaper') { continue }
-    $t = Get-Content -LiteralPath (Join-Path $RepoRoot ($n.path -replace '/', '\')) -Raw
+    $t = Get-Content -LiteralPath (Join-Path $RepoRoot $n.path) -Raw
     $cls = @()
     if ($t -match 'Verified in this repository')            { $cls += 'verified-in-repo' }
     if ($t -match 'Cited from general knowledge')           { $cls += 'general-knowledge-no-effect-size' }
@@ -301,7 +303,7 @@ foreach ($n in $nodes) {
 # Node-level, not edge-level: the consumer is closure pruning, which asks a node
 # question. See that page for why, and for the limitations on the judgements.
 $entryState = @{}
-$esPath = Join-Path $RepoRoot 'concepts\entry-state.md'
+$esPath = Join-Path $RepoRoot 'concepts/entry-state.md'
 if (Test-Path $esPath) {
     $esText = Get-Content -LiteralPath $esPath -Raw
     $esRow  = '(?m)^\|\s*(S\d{3})\s*\|\s*(this-programme-only|ordinary-professional-experience|either)\s*\|'
@@ -337,7 +339,7 @@ $claims   = [System.Collections.Generic.List[object]]::new()
 $claimGap = @()
 foreach ($n in $nodes) {
     if ($n.kind -ne 'seminar') { continue }
-    $text = Get-Content -LiteralPath (Join-Path $RepoRoot ($n.path -replace '/', '\')) -Raw
+    $text = Get-Content -LiteralPath (Join-Path $RepoRoot $n.path) -Raw
     $i = $text.IndexOf('## Perishable content in this day')
     if ($i -lt 0) { $claimGap += $n.id; continue }
     $j = $text.IndexOf("`n## ", $i + 5)
@@ -377,7 +379,7 @@ foreach ($n in $nodes) {
 $predictions = [System.Collections.Generic.List[object]]::new()
 foreach ($n in $nodes) {
     if ($n.kind -ne 'whitepaper') { continue }
-    $text = Get-Content -LiteralPath (Join-Path $RepoRoot ($n.path -replace '/', '\')) -Raw
+    $text = Get-Content -LiteralPath (Join-Path $RepoRoot $n.path) -Raw
     $wp   = $n.id -replace '.*/', ''
     $day  = 'wiki/seminars/S' + ($wp -replace '\D', '')
     $k = 0
@@ -416,7 +418,7 @@ $EVIDENCE_CLASSES = [ordered]@{
 $evidence = [System.Collections.Generic.List[object]]::new()
 foreach ($n in $nodes) {
     if ($n.kind -ne 'whitepaper') { continue }
-    $text = Get-Content -LiteralPath (Join-Path $RepoRoot ($n.path -replace '/', '\')) -Raw
+    $text = Get-Content -LiteralPath (Join-Path $RepoRoot $n.path) -Raw
     $i = $text.IndexOf('## Evidence status')
     if ($i -lt 0) { continue }
     $sec = $text.Substring($i)
@@ -469,7 +471,7 @@ foreach ($n in $nodes) {
     $noteByFile[$n.id] = ($n.id -replace '.*/', '')
 }
 $sources    = [System.Collections.Generic.List[object]]::new()
-$regPath    = Join-Path $RepoRoot 'research\99-source-register\source-register.md'
+$regPath    = Join-Path $RepoRoot 'research/99-source-register/source-register.md'
 $SKIP_SECTIONS = @('Retrieval methods that worked', 'Retrieval methods that failed',
                    'Internal documents, not external sources',
                    'Memo sources collected from the department simulation')

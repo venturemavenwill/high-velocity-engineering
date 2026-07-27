@@ -2871,8 +2871,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "curriculum": 1,
-        "platform": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "platform": 1
       },
       "primary_namespace": "curriculum",
       "platform_bearing": true,
@@ -2919,9 +2919,9 @@
       "assessment_bearing": true,
       "namespaces": {
         "curriculum": 1,
-        "platform": 1,
+        "ai-systems": 1,
         "fde-craft": 1,
-        "ai-systems": 1
+        "platform": 1
       },
       "primary_namespace": "curriculum",
       "platform_bearing": true,
@@ -2964,15 +2964,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "curriculum": 1,
         "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "curriculum",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "years",
+      "verify_cadence": "annually"
     },
     {
       "id": "wiki/modules/M06",
@@ -3012,9 +3012,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "measurement": 1,
+        "assessment": 1,
         "platform": 1,
-        "curriculum": 1,
-        "assessment": 1
+        "curriculum": 1
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -3109,14 +3109,14 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
+        "pedagogy": 1,
         "curriculum": 1,
-        "fde-craft": 1,
-        "pedagogy": 1
+        "fde-craft": 1
       },
-      "primary_namespace": "curriculum",
+      "primary_namespace": "pedagogy",
       "platform_bearing": true,
-      "decay": "years",
-      "verify_cadence": "annually"
+      "decay": "decades",
+      "verify_cadence": "3 years"
     },
     {
       "id": "wiki/modules/M09",
@@ -3157,15 +3157,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "measurement": 1,
         "ai-systems": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "permanent",
+      "verify_cadence": "on amendment"
     },
     {
       "id": "wiki/modules/M10",
@@ -3206,9 +3206,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "measurement": 1,
-        "platform": 1,
         "assessment": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "platform": 1
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -3253,15 +3253,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "measurement": 1,
         "ai-systems": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "platform": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "permanent",
+      "verify_cadence": "on amendment"
     },
     {
       "id": "wiki/modules/M12",
@@ -3302,16 +3302,16 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "measurement": 1,
         "ai-systems": 1,
         "curriculum": 1,
+        "platform": 1,
         "pedagogy": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "permanent",
+      "verify_cadence": "on amendment"
     },
     {
       "id": "wiki/modules/M13",
@@ -3498,9 +3498,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 3,
-        "assessment": 1,
         "measurement": 1,
         "ai-systems": 1,
+        "assessment": 1,
         "pedagogy": 1
       },
       "primary_namespace": "platform",
@@ -3544,17 +3544,17 @@
       ],
       "assessment_bearing": true,
       "namespaces": {
-        "platform": 1,
-        "assessment": 1,
-        "pedagogy": 1,
         "fde-craft": 1,
+        "pedagogy": 1,
         "curriculum": 1,
-        "measurement": 1
+        "assessment": 1,
+        "measurement": 1,
+        "platform": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "fde-craft",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering"
+      "decay": "slow",
+      "verify_cadence": "3 years"
     },
     {
       "id": "wiki/modules/M18",
@@ -3597,13 +3597,13 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "assessment": 1,
-        "curriculum": 1,
-        "fde-craft": 1,
         "pedagogy": 1,
-        "measurement": 1
+        "assessment": 1,
+        "fde-craft": 1,
+        "measurement": 1,
+        "curriculum": 1
       },
-      "primary_namespace": "assessment",
+      "primary_namespace": "pedagogy",
       "platform_bearing": true,
       "decay": "decades",
       "verify_cadence": "3 years"
@@ -3661,8 +3661,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "curriculum": 1,
-        "platform": 1,
-        "assessment": 1
+        "assessment": 1,
+        "platform": 1
       },
       "primary_namespace": "curriculum",
       "platform_bearing": true,
@@ -4421,14 +4421,14 @@
       "re_tests_raw": "S001",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 2,
         "pedagogy": 2,
+        "platform": 2,
         "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "pedagogy",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "decades",
+      "verify_cadence": "3 years",
       "satisfiable_from": "either"
     },
     {
@@ -4471,8 +4471,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "measurement": 1,
-        "platform": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -4519,8 +4519,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "pedagogy": 2,
-        "platform": 1,
         "assessment": 1,
+        "platform": 1,
         "curriculum": 1
       },
       "primary_namespace": "pedagogy",
@@ -4669,9 +4669,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "pedagogy": 2,
-        "curriculum": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "assessment": 1
+        "curriculum": 1
       },
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
@@ -4914,8 +4914,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "ai-systems": 3,
-        "fde-craft": 1,
-        "assessment": 1
+        "assessment": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -4965,9 +4965,9 @@
       "namespaces": {
         "ai-systems": 3,
         "measurement": 2,
-        "platform": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "assessment": 1
+        "platform": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -5015,8 +5015,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "ai-systems": 3,
-        "fde-craft": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -5115,8 +5115,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "ai-systems": 4,
-        "platform": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -5165,9 +5165,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "ai-systems": 2,
-        "platform": 1,
+        "pedagogy": 1,
         "fde-craft": 1,
-        "pedagogy": 1
+        "platform": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -5214,9 +5214,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "ai-systems": 2,
-        "platform": 1,
         "measurement": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -5265,9 +5265,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "ai-systems": 2,
-        "platform": 1,
         "measurement": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -5369,15 +5369,15 @@
       "re_tests_raw": "S014",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "curriculum": 1,
         "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "curriculum",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "years",
+      "verify_cadence": "annually",
       "satisfiable_from": "either"
     },
     {
@@ -5419,15 +5419,15 @@
       "re_tests_raw": "S019, S021",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "measurement": 1,
         "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "permanent",
+      "verify_cadence": "on amendment",
       "satisfiable_from": "either"
     },
     {
@@ -5469,15 +5469,15 @@
       "re_tests_raw": "S005",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "curriculum": 1,
         "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "curriculum",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "years",
+      "verify_cadence": "annually",
       "satisfiable_from": "this-programme-only"
     },
     {
@@ -5519,16 +5519,16 @@
       "depends_on_raw": "S023",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
-        "assessment": 1,
+        "pedagogy": 1,
         "ai-systems": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "pedagogy": 1
+        "platform": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "pedagogy",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "decades",
+      "verify_cadence": "3 years",
       "satisfiable_from": "either"
     },
     {
@@ -5571,15 +5571,15 @@
       "re_tests_raw": "S015",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 2,
         "measurement": 2,
         "ai-systems": 2,
+        "platform": 2,
         "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "permanent",
+      "verify_cadence": "on amendment",
       "satisfiable_from": "this-programme-only"
     },
     {
@@ -5624,8 +5624,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "measurement": 2,
-        "platform": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -5674,8 +5674,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "measurement": 2,
-        "platform": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -5722,9 +5722,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "measurement": 1,
-        "platform": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "assessment": 1
+        "platform": 1
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -6073,8 +6073,8 @@
       "namespaces": {
         "measurement": 2,
         "fde-craft": 2,
-        "platform": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "platform": 1
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -6172,9 +6172,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "fde-craft": 2,
+        "pedagogy": 1,
         "measurement": 1,
-        "platform": 1,
-        "pedagogy": 1
+        "platform": 1
       },
       "primary_namespace": "fde-craft",
       "platform_bearing": true,
@@ -6224,9 +6224,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "fde-craft": 2,
-        "platform": 1,
+        "pedagogy": 1,
         "ai-systems": 1,
-        "pedagogy": 1
+        "platform": 1
       },
       "primary_namespace": "fde-craft",
       "platform_bearing": true,
@@ -6378,14 +6378,14 @@
       "re_tests_raw": "S009, S026",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 2,
         "measurement": 2,
-        "ai-systems": 2
+        "ai-systems": 2,
+        "platform": 2
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "permanent",
+      "verify_cadence": "on amendment",
       "satisfiable_from": "this-programme-only"
     },
     {
@@ -6428,14 +6428,14 @@
       "re_tests_raw": "S028, S029",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 2,
         "measurement": 2,
+        "platform": 2,
         "ai-systems": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "permanent",
+      "verify_cadence": "on amendment",
       "satisfiable_from": "this-programme-only"
     },
     {
@@ -6530,8 +6530,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 2,
-        "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "ai-systems": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -6637,8 +6637,8 @@
       "namespaces": {
         "measurement": 3,
         "fde-craft": 3,
-        "platform": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "platform": 1
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -6687,8 +6687,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "measurement": 2,
-        "platform": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -6886,9 +6886,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "ai-systems": 3,
-        "platform": 1,
         "measurement": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -6988,8 +6988,8 @@
       "namespaces": {
         "ai-systems": 3,
         "measurement": 2,
-        "platform": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -7039,8 +7039,8 @@
       "namespaces": {
         "measurement": 3,
         "ai-systems": 2,
-        "platform": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "platform": 1
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -7186,9 +7186,9 @@
       "namespaces": {
         "ai-systems": 3,
         "measurement": 2,
+        "pedagogy": 1,
         "platform": 1,
-        "curriculum": 1,
-        "pedagogy": 1
+        "curriculum": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -7284,9 +7284,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "measurement": 4,
-        "platform": 1,
         "ai-systems": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "platform": 1
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -7341,9 +7341,9 @@
         "ai-systems": 4,
         "pedagogy": 3,
         "assessment": 2,
+        "measurement": 1,
         "platform": 1,
-        "curriculum": 1,
-        "measurement": 1
+        "curriculum": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -7587,9 +7587,9 @@
       "assessment_bearing": true,
       "namespaces": {
         "ai-systems": 2,
+        "measurement": 2,
         "assessment": 2,
         "platform": 2,
-        "measurement": 2,
         "pedagogy": 1,
         "curriculum": 1
       },
@@ -7688,8 +7688,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "measurement": 4,
-        "curriculum": 2,
-        "ai-systems": 2
+        "ai-systems": 2,
+        "curriculum": 2
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -7739,8 +7739,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "curriculum": 2,
-        "platform": 1,
         "measurement": 1,
+        "platform": 1,
         "pedagogy": 1
       },
       "primary_namespace": "curriculum",
@@ -7792,9 +7792,9 @@
       "namespaces": {
         "pedagogy": 2,
         "assessment": 1,
-        "platform": 1,
         "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1
       },
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
@@ -7844,12 +7844,12 @@
       "depends_on_raw": "S030, S050, S065, S066, S067, S068, S069",
       "assessment_bearing": true,
       "namespaces": {
-        "assessment": 2,
         "pedagogy": 2,
-        "curriculum": 1,
-        "measurement": 1
+        "assessment": 2,
+        "measurement": 1,
+        "curriculum": 1
       },
-      "primary_namespace": "assessment",
+      "primary_namespace": "pedagogy",
       "platform_bearing": true,
       "decay": "decades",
       "verify_cadence": "3 years",
@@ -7895,15 +7895,15 @@
       "re_tests_raw": "S044",
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 4,
         "pedagogy": 4,
+        "platform": 4,
         "measurement": 2,
         "ai-systems": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "pedagogy",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "decades",
+      "verify_cadence": "3 years",
       "satisfiable_from": "either"
     },
     {
@@ -7999,8 +7999,8 @@
       "namespaces": {
         "platform": 4,
         "pedagogy": 3,
-        "fde-craft": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -8202,10 +8202,10 @@
       "assessment_bearing": false,
       "namespaces": {
         "measurement": 2,
-        "platform": 1,
         "ai-systems": 1,
         "assessment": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "platform": 1
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -8305,9 +8305,9 @@
       "namespaces": {
         "measurement": 2,
         "pedagogy": 2,
-        "platform": 1,
         "curriculum": 1,
-        "assessment": 1
+        "assessment": 1,
+        "platform": 1
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -8359,8 +8359,8 @@
       "assessment_bearing": true,
       "namespaces": {
         "assessment": 3,
-        "pedagogy": 2,
         "fde-craft": 2,
+        "pedagogy": 2,
         "curriculum": 1,
         "measurement": 1
       },
@@ -8458,8 +8458,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "fde-craft": 5,
-        "ai-systems": 2,
         "pedagogy": 2,
+        "ai-systems": 2,
         "platform": 1
       },
       "primary_namespace": "fde-craft",
@@ -8762,14 +8762,14 @@
       "re_tests_raw": "S028",
       "assessment_bearing": false,
       "namespaces": {
-        "assessment": 3,
         "fde-craft": 3,
-        "measurement": 2,
-        "pedagogy": 2
+        "assessment": 3,
+        "pedagogy": 2,
+        "measurement": 2
       },
-      "primary_namespace": "assessment",
+      "primary_namespace": "fde-craft",
       "platform_bearing": true,
-      "decay": "decades",
+      "decay": "slow",
       "verify_cadence": "3 years",
       "satisfiable_from": "this-programme-only"
     },
@@ -8816,8 +8816,8 @@
         "fde-craft": 4,
         "assessment": 3,
         "pedagogy": 2,
-        "platform": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "platform": 1
       },
       "primary_namespace": "fde-craft",
       "platform_bearing": true,
@@ -8918,8 +8918,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "pedagogy": 6,
-        "platform": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       },
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
@@ -8967,14 +8967,14 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 2,
         "pedagogy": 2,
+        "platform": 2,
         "curriculum": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "pedagogy",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "decades",
+      "verify_cadence": "3 years",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -9018,8 +9018,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "measurement": 1,
-        "platform": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -9068,8 +9068,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "pedagogy": 2,
-        "platform": 1,
         "assessment": 1,
+        "platform": 1,
         "curriculum": 1
       },
       "primary_namespace": "pedagogy",
@@ -9221,9 +9221,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "pedagogy": 2,
-        "curriculum": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "assessment": 1
+        "curriculum": 1
       },
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
@@ -9271,9 +9271,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "curriculum": 1,
-        "platform": 1,
+        "assessment": 1,
         "pedagogy": 1,
-        "assessment": 1
+        "platform": 1
       },
       "primary_namespace": "curriculum",
       "platform_bearing": true,
@@ -9474,8 +9474,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "ai-systems": 3,
-        "fde-craft": 1,
-        "assessment": 1
+        "assessment": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -9525,9 +9525,9 @@
       "namespaces": {
         "ai-systems": 3,
         "measurement": 2,
-        "platform": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "assessment": 1
+        "platform": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -9576,8 +9576,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "ai-systems": 3,
-        "fde-craft": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -9677,8 +9677,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "ai-systems": 4,
-        "platform": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -9728,9 +9728,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "ai-systems": 2,
-        "platform": 1,
+        "pedagogy": 1,
         "fde-craft": 1,
-        "pedagogy": 1
+        "platform": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -9779,9 +9779,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "ai-systems": 2,
-        "platform": 1,
         "measurement": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -9831,9 +9831,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "ai-systems": 2,
-        "platform": 1,
         "measurement": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -9935,15 +9935,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "curriculum": 1,
         "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "curriculum",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -9986,15 +9986,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "measurement": 1,
         "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "permanent",
+      "verify_cadence": "on amendment",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -10037,15 +10037,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
         "curriculum": 1,
         "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "curriculum",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "years",
+      "verify_cadence": "annually",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -10089,16 +10089,16 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 1,
-        "assessment": 1,
+        "pedagogy": 1,
         "ai-systems": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "pedagogy": 1
+        "platform": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "pedagogy",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "decades",
+      "verify_cadence": "3 years",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -10142,15 +10142,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 2,
         "measurement": 2,
         "ai-systems": 2,
+        "platform": 2,
         "fde-craft": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "permanent",
+      "verify_cadence": "on amendment",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -10195,8 +10195,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "measurement": 2,
-        "platform": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -10246,8 +10246,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "measurement": 2,
-        "platform": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -10296,9 +10296,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "measurement": 1,
-        "platform": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "assessment": 1
+        "platform": 1
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -10503,9 +10503,9 @@
       "namespaces": {
         "measurement": 3,
         "platform": 2,
+        "fde-craft": 1,
         "ai-systems": 1,
-        "assessment": 1,
-        "fde-craft": 1
+        "assessment": 1
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -10606,15 +10606,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 2,
         "fde-craft": 2,
+        "platform": 2,
         "measurement": 1,
         "ai-systems": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "fde-craft",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "slow",
+      "verify_cadence": "3 years",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -10662,8 +10662,8 @@
       "namespaces": {
         "measurement": 2,
         "fde-craft": 2,
-        "platform": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "platform": 1
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -10764,9 +10764,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "fde-craft": 2,
+        "pedagogy": 1,
         "measurement": 1,
-        "platform": 1,
-        "pedagogy": 1
+        "platform": 1
       },
       "primary_namespace": "fde-craft",
       "platform_bearing": true,
@@ -10817,9 +10817,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "fde-craft": 2,
-        "platform": 1,
+        "pedagogy": 1,
         "ai-systems": 1,
-        "pedagogy": 1
+        "platform": 1
       },
       "primary_namespace": "fde-craft",
       "platform_bearing": true,
@@ -10972,14 +10972,14 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 2,
         "measurement": 2,
-        "ai-systems": 2
+        "ai-systems": 2,
+        "platform": 2
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "permanent",
+      "verify_cadence": "on amendment",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -11023,14 +11023,14 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 2,
         "measurement": 2,
+        "platform": 2,
         "ai-systems": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "permanent",
+      "verify_cadence": "on amendment",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -11127,8 +11127,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 2,
-        "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "ai-systems": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -11234,8 +11234,8 @@
       "namespaces": {
         "measurement": 3,
         "fde-craft": 3,
-        "platform": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "platform": 1
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -11285,8 +11285,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "measurement": 2,
-        "platform": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -11486,9 +11486,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "ai-systems": 3,
-        "platform": 1,
         "measurement": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -11589,8 +11589,8 @@
       "namespaces": {
         "ai-systems": 3,
         "measurement": 2,
-        "platform": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -11641,8 +11641,8 @@
       "namespaces": {
         "measurement": 3,
         "ai-systems": 2,
-        "platform": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "platform": 1
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -11743,10 +11743,10 @@
       "assessment_bearing": false,
       "namespaces": {
         "ai-systems": 3,
-        "platform": 2,
         "measurement": 2,
-        "pedagogy": 1,
-        "curriculum": 1
+        "platform": 2,
+        "curriculum": 1,
+        "pedagogy": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -11797,9 +11797,9 @@
       "namespaces": {
         "ai-systems": 3,
         "measurement": 2,
+        "pedagogy": 1,
         "platform": 1,
-        "curriculum": 1,
-        "pedagogy": 1
+        "curriculum": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -11901,9 +11901,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "measurement": 4,
-        "platform": 1,
         "ai-systems": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "platform": 1
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -11958,9 +11958,9 @@
         "ai-systems": 4,
         "pedagogy": 3,
         "assessment": 2,
+        "measurement": 1,
         "platform": 1,
-        "curriculum": 1,
-        "measurement": 1
+        "curriculum": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -12011,8 +12011,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "ai-systems": 3,
-        "platform": 2,
         "measurement": 2,
+        "platform": 2,
         "curriculum": 1
       },
       "primary_namespace": "ai-systems",
@@ -12064,9 +12064,9 @@
       "namespaces": {
         "ai-systems": 2,
         "platform": 2,
+        "measurement": 1,
         "pedagogy": 1,
-        "curriculum": 1,
-        "measurement": 1
+        "curriculum": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -12170,9 +12170,9 @@
       "namespaces": {
         "platform": 3,
         "ai-systems": 2,
-        "curriculum": 1,
         "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "curriculum": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -12222,9 +12222,9 @@
       "assessment_bearing": true,
       "namespaces": {
         "ai-systems": 2,
+        "measurement": 2,
         "assessment": 2,
         "platform": 2,
-        "measurement": 2,
         "pedagogy": 1,
         "curriculum": 1
       },
@@ -12328,8 +12328,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "measurement": 4,
-        "curriculum": 2,
-        "ai-systems": 2
+        "ai-systems": 2,
+        "curriculum": 2
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -12380,8 +12380,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "curriculum": 2,
-        "platform": 1,
         "measurement": 1,
+        "platform": 1,
         "pedagogy": 1
       },
       "primary_namespace": "curriculum",
@@ -12434,9 +12434,9 @@
       "namespaces": {
         "pedagogy": 2,
         "assessment": 1,
-        "platform": 1,
         "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1
       },
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
@@ -12486,12 +12486,12 @@
       ],
       "assessment_bearing": true,
       "namespaces": {
-        "assessment": 2,
         "pedagogy": 2,
-        "curriculum": 1,
-        "measurement": 1
+        "assessment": 2,
+        "measurement": 1,
+        "curriculum": 1
       },
-      "primary_namespace": "assessment",
+      "primary_namespace": "pedagogy",
       "platform_bearing": true,
       "decay": "decades",
       "verify_cadence": "3 years",
@@ -12538,15 +12538,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 4,
         "pedagogy": 4,
+        "platform": 4,
         "measurement": 2,
         "ai-systems": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "pedagogy",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "decades",
+      "verify_cadence": "3 years",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -12645,8 +12645,8 @@
       "namespaces": {
         "platform": 4,
         "pedagogy": 3,
-        "fde-craft": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "fde-craft": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -12854,10 +12854,10 @@
       "assessment_bearing": false,
       "namespaces": {
         "measurement": 2,
-        "platform": 1,
         "ai-systems": 1,
         "assessment": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "platform": 1
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -12907,17 +12907,17 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "platform": 3,
         "measurement": 3,
-        "ai-systems": 2,
+        "platform": 3,
         "assessment": 2,
-        "pedagogy": 1,
-        "fde-craft": 1
+        "ai-systems": 2,
+        "fde-craft": 1,
+        "pedagogy": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "permanent",
+      "verify_cadence": "on amendment",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -12964,9 +12964,9 @@
       "namespaces": {
         "measurement": 2,
         "pedagogy": 2,
-        "platform": 1,
         "curriculum": 1,
-        "assessment": 1
+        "assessment": 1,
+        "platform": 1
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -13018,8 +13018,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "assessment": 3,
-        "pedagogy": 2,
         "fde-craft": 2,
+        "pedagogy": 2,
         "curriculum": 1,
         "measurement": 1
       },
@@ -13120,8 +13120,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "fde-craft": 5,
-        "ai-systems": 2,
         "pedagogy": 2,
+        "ai-systems": 2,
         "platform": 1
       },
       "primary_namespace": "fde-craft",
@@ -13435,14 +13435,14 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "assessment": 3,
         "fde-craft": 3,
-        "measurement": 2,
-        "pedagogy": 2
+        "assessment": 3,
+        "pedagogy": 2,
+        "measurement": 2
       },
-      "primary_namespace": "assessment",
+      "primary_namespace": "fde-craft",
       "platform_bearing": true,
-      "decay": "decades",
+      "decay": "slow",
       "verify_cadence": "3 years",
       "evidence_classes": [
         "verified-in-repo",
@@ -13491,8 +13491,8 @@
         "fde-craft": 4,
         "assessment": 3,
         "pedagogy": 2,
-        "platform": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "platform": 1
       },
       "primary_namespace": "fde-craft",
       "platform_bearing": true,
@@ -58096,8 +58096,8 @@
       "namespace": "pedagogy",
       "namespaces": {
         "pedagogy": 6,
-        "platform": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       }
     },
     {
@@ -58112,8 +58112,8 @@
       "namespace": "pedagogy",
       "namespaces": {
         "pedagogy": 6,
-        "platform": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       }
     },
     {
@@ -58128,8 +58128,8 @@
       "namespace": "pedagogy",
       "namespaces": {
         "pedagogy": 6,
-        "platform": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       }
     },
     {
@@ -58144,8 +58144,8 @@
       "namespace": "pedagogy",
       "namespaces": {
         "pedagogy": 6,
-        "platform": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       }
     },
     {
@@ -58160,8 +58160,8 @@
       "namespace": "pedagogy",
       "namespaces": {
         "pedagogy": 6,
-        "platform": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       }
     },
     {
@@ -58176,8 +58176,8 @@
       "namespace": "pedagogy",
       "namespaces": {
         "pedagogy": 6,
-        "platform": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       }
     },
     {
@@ -58189,10 +58189,10 @@
       "label": "Prediction 1.",
       "claim": "The majority of students will produce a phase 5 pre-statement that is falsified during tracing, and the falsification will cluster at the single instruction the program was selected for.",
       "instrument": "falsification points collected from the trace artefacts and tabulated by instruction index. If falsifications are uniformly distributed, the program selection was arbitrary and the phase's design rationale is unsupported.",
-      "namespace": "platform",
+      "namespace": "pedagogy",
       "namespaces": {
-        "platform": 2,
         "pedagogy": 2,
+        "platform": 2,
         "curriculum": 1
       }
     },
@@ -58205,10 +58205,10 @@
       "label": "Prediction 2.",
       "claim": "Phase 2 free-recall performance on the S001 mechanisms will be substantially below what students would predict, continuing the S001 calibration gap.",
       "instrument": "an optional confidence rating collected before the recall attempt, compared with scored recall.",
-      "namespace": "platform",
+      "namespace": "pedagogy",
       "namespaces": {
-        "platform": 2,
         "pedagogy": 2,
+        "platform": 2,
         "curriculum": 1
       }
     },
@@ -58221,10 +58221,10 @@
       "label": "Prediction 3.",
       "claim": "At S016, students will predict cache-related performance differences more accurately than a comparison cohort taught the memory hierarchy without a prior complete-machine model.",
       "instrument": "an S016 prediction task, compared across cohorts once a variant delivery exists. **This is the prediction that tests the day's existence, and it cannot be run until at least two cohorts have been taught differently. Until then the day is unfalsified rather than supported.**",
-      "namespace": "platform",
+      "namespace": "pedagogy",
       "namespaces": {
-        "platform": 2,
         "pedagogy": 2,
+        "platform": 2,
         "curriculum": 1
       }
     },
@@ -58237,10 +58237,10 @@
       "label": "Prediction 4.",
       "claim": "Students will retrieve the phase 7 unmodelled-state schema at S032 at a higher rate than they retrieve the instruction set.",
       "instrument": "an S032 free-recall probe covering both.",
-      "namespace": "platform",
+      "namespace": "pedagogy",
       "namespaces": {
-        "platform": 2,
         "pedagogy": 2,
+        "platform": 2,
         "curriculum": 1
       }
     },
@@ -58253,10 +58253,10 @@
       "label": "Prediction 5.",
       "claim": "Where the hand trace and the simulator agree, a minority of students will state that the shared reference card makes the agreement uninformative; the majority will treat agreement as confirmation.",
       "instrument": "phase 5 item 5 responses in the agreement case, coded for whether common provenance is named. **If the majority names it, §3.2's scope statement is being reached without instruction and the artefact element that enforces it is redundant.** The result branches: a cohort scoring high moves to the harder S003 variant, in which two agreeing accounts are supplied and one is wrong.",
-      "namespace": "platform",
+      "namespace": "pedagogy",
       "namespaces": {
-        "platform": 2,
         "pedagogy": 2,
+        "platform": 2,
         "curriculum": 1
       }
     },
@@ -58269,10 +58269,10 @@
       "label": "Prediction 6.",
       "claim": "Groups running phase 3 case C will accept the agent's ranking without asking which metric it used, at a higher rate than they accepted any single metric from their own twenty-five-minute discussion.",
       "instrument": "group written responses to case C, coded for whether the metric question is raised unprompted, against the same group's own committed phase 3 answer. **This is the day's test of whether a fluent external answer suppresses a question the group had already generated**, and it is the mechanism the jagged-frontier material predicts. If the rates are equal, the day's phase 3 payload is not doing what it claims.",
-      "namespace": "platform",
+      "namespace": "pedagogy",
       "namespaces": {
-        "platform": 2,
         "pedagogy": 2,
+        "platform": 2,
         "curriculum": 1
       }
     },
@@ -58288,8 +58288,8 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 1,
-        "platform": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       }
     },
     {
@@ -58304,8 +58304,8 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 1,
-        "platform": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       }
     },
     {
@@ -58320,8 +58320,8 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 1,
-        "platform": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       }
     },
     {
@@ -58336,8 +58336,8 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 1,
-        "platform": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       }
     },
     {
@@ -58352,8 +58352,8 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 1,
-        "platform": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       }
     },
     {
@@ -58368,8 +58368,8 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 1,
-        "platform": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       }
     },
     {
@@ -58384,8 +58384,8 @@
       "namespace": "pedagogy",
       "namespaces": {
         "pedagogy": 2,
-        "platform": 1,
         "assessment": 1,
+        "platform": 1,
         "curriculum": 1
       }
     },
@@ -58401,8 +58401,8 @@
       "namespace": "pedagogy",
       "namespaces": {
         "pedagogy": 2,
-        "platform": 1,
         "assessment": 1,
+        "platform": 1,
         "curriculum": 1
       }
     },
@@ -58418,8 +58418,8 @@
       "namespace": "pedagogy",
       "namespaces": {
         "pedagogy": 2,
-        "platform": 1,
         "assessment": 1,
+        "platform": 1,
         "curriculum": 1
       }
     },
@@ -58435,8 +58435,8 @@
       "namespace": "pedagogy",
       "namespaces": {
         "pedagogy": 2,
-        "platform": 1,
         "assessment": 1,
+        "platform": 1,
         "curriculum": 1
       }
     },
@@ -58452,8 +58452,8 @@
       "namespace": "pedagogy",
       "namespaces": {
         "pedagogy": 2,
-        "platform": 1,
         "assessment": 1,
+        "platform": 1,
         "curriculum": 1
       }
     },
@@ -58469,8 +58469,8 @@
       "namespace": "pedagogy",
       "namespaces": {
         "pedagogy": 2,
-        "platform": 1,
         "assessment": 1,
+        "platform": 1,
         "curriculum": 1
       }
     },
@@ -58690,9 +58690,9 @@
       "namespace": "pedagogy",
       "namespaces": {
         "pedagogy": 2,
-        "curriculum": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "assessment": 1
+        "curriculum": 1
       }
     },
     {
@@ -58707,9 +58707,9 @@
       "namespace": "pedagogy",
       "namespaces": {
         "pedagogy": 2,
-        "curriculum": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "assessment": 1
+        "curriculum": 1
       }
     },
     {
@@ -58724,9 +58724,9 @@
       "namespace": "pedagogy",
       "namespaces": {
         "pedagogy": 2,
-        "curriculum": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "assessment": 1
+        "curriculum": 1
       }
     },
     {
@@ -58741,9 +58741,9 @@
       "namespace": "pedagogy",
       "namespaces": {
         "pedagogy": 2,
-        "curriculum": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "assessment": 1
+        "curriculum": 1
       }
     },
     {
@@ -58758,9 +58758,9 @@
       "namespace": "pedagogy",
       "namespaces": {
         "pedagogy": 2,
-        "curriculum": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "assessment": 1
+        "curriculum": 1
       }
     },
     {
@@ -58775,9 +58775,9 @@
       "namespace": "pedagogy",
       "namespaces": {
         "pedagogy": 2,
-        "curriculum": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "assessment": 1
+        "curriculum": 1
       }
     },
     {
@@ -58792,9 +58792,9 @@
       "namespace": "curriculum",
       "namespaces": {
         "curriculum": 1,
-        "platform": 1,
+        "assessment": 1,
         "pedagogy": 1,
-        "assessment": 1
+        "platform": 1
       }
     },
     {
@@ -58809,9 +58809,9 @@
       "namespace": "curriculum",
       "namespaces": {
         "curriculum": 1,
-        "platform": 1,
+        "assessment": 1,
         "pedagogy": 1,
-        "assessment": 1
+        "platform": 1
       }
     },
     {
@@ -58826,9 +58826,9 @@
       "namespace": "curriculum",
       "namespaces": {
         "curriculum": 1,
-        "platform": 1,
+        "assessment": 1,
         "pedagogy": 1,
-        "assessment": 1
+        "platform": 1
       }
     },
     {
@@ -58843,9 +58843,9 @@
       "namespace": "curriculum",
       "namespaces": {
         "curriculum": 1,
-        "platform": 1,
+        "assessment": 1,
         "pedagogy": 1,
-        "assessment": 1
+        "platform": 1
       }
     },
     {
@@ -58860,9 +58860,9 @@
       "namespace": "curriculum",
       "namespaces": {
         "curriculum": 1,
-        "platform": 1,
+        "assessment": 1,
         "pedagogy": 1,
-        "assessment": 1
+        "platform": 1
       }
     },
     {
@@ -58877,9 +58877,9 @@
       "namespace": "curriculum",
       "namespaces": {
         "curriculum": 1,
-        "platform": 1,
+        "assessment": 1,
         "pedagogy": 1,
-        "assessment": 1
+        "platform": 1
       }
     },
     {
@@ -59182,8 +59182,8 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 3,
-        "fde-craft": 1,
-        "assessment": 1
+        "assessment": 1,
+        "fde-craft": 1
       }
     },
     {
@@ -59198,8 +59198,8 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 3,
-        "fde-craft": 1,
-        "assessment": 1
+        "assessment": 1,
+        "fde-craft": 1
       }
     },
     {
@@ -59214,8 +59214,8 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 3,
-        "fde-craft": 1,
-        "assessment": 1
+        "assessment": 1,
+        "fde-craft": 1
       }
     },
     {
@@ -59230,8 +59230,8 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 3,
-        "fde-craft": 1,
-        "assessment": 1
+        "assessment": 1,
+        "fde-craft": 1
       }
     },
     {
@@ -59246,8 +59246,8 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 3,
-        "fde-craft": 1,
-        "assessment": 1
+        "assessment": 1,
+        "fde-craft": 1
       }
     },
     {
@@ -59263,9 +59263,9 @@
       "namespaces": {
         "ai-systems": 3,
         "measurement": 2,
-        "platform": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "assessment": 1
+        "platform": 1
       }
     },
     {
@@ -59281,9 +59281,9 @@
       "namespaces": {
         "ai-systems": 3,
         "measurement": 2,
-        "platform": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "assessment": 1
+        "platform": 1
       }
     },
     {
@@ -59299,9 +59299,9 @@
       "namespaces": {
         "ai-systems": 3,
         "measurement": 2,
-        "platform": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "assessment": 1
+        "platform": 1
       }
     },
     {
@@ -59317,9 +59317,9 @@
       "namespaces": {
         "ai-systems": 3,
         "measurement": 2,
-        "platform": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "assessment": 1
+        "platform": 1
       }
     },
     {
@@ -59335,9 +59335,9 @@
       "namespaces": {
         "ai-systems": 3,
         "measurement": 2,
-        "platform": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "assessment": 1
+        "platform": 1
       }
     },
     {
@@ -59353,9 +59353,9 @@
       "namespaces": {
         "ai-systems": 3,
         "measurement": 2,
-        "platform": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "assessment": 1
+        "platform": 1
       }
     },
     {
@@ -59370,8 +59370,8 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 3,
-        "fde-craft": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "fde-craft": 1
       }
     },
     {
@@ -59386,8 +59386,8 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 3,
-        "fde-craft": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "fde-craft": 1
       }
     },
     {
@@ -59402,8 +59402,8 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 3,
-        "fde-craft": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "fde-craft": 1
       }
     },
     {
@@ -59418,8 +59418,8 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 3,
-        "fde-craft": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "fde-craft": 1
       }
     },
     {
@@ -59434,8 +59434,8 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 3,
-        "fde-craft": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "fde-craft": 1
       }
     },
     {
@@ -59450,8 +59450,8 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 3,
-        "fde-craft": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "fde-craft": 1
       }
     },
     {
@@ -59562,8 +59562,8 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 4,
-        "platform": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -59578,8 +59578,8 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 4,
-        "platform": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -59594,8 +59594,8 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 4,
-        "platform": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -59610,8 +59610,8 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 4,
-        "platform": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -59626,8 +59626,8 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 4,
-        "platform": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -59642,9 +59642,9 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 2,
-        "platform": 1,
+        "pedagogy": 1,
         "fde-craft": 1,
-        "pedagogy": 1
+        "platform": 1
       }
     },
     {
@@ -59659,9 +59659,9 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 2,
-        "platform": 1,
+        "pedagogy": 1,
         "fde-craft": 1,
-        "pedagogy": 1
+        "platform": 1
       }
     },
     {
@@ -59676,9 +59676,9 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 2,
-        "platform": 1,
+        "pedagogy": 1,
         "fde-craft": 1,
-        "pedagogy": 1
+        "platform": 1
       }
     },
     {
@@ -59693,9 +59693,9 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 2,
-        "platform": 1,
+        "pedagogy": 1,
         "fde-craft": 1,
-        "pedagogy": 1
+        "platform": 1
       }
     },
     {
@@ -59710,9 +59710,9 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 2,
-        "platform": 1,
+        "pedagogy": 1,
         "fde-craft": 1,
-        "pedagogy": 1
+        "platform": 1
       }
     },
     {
@@ -59727,9 +59727,9 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 2,
-        "platform": 1,
         "measurement": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -59744,9 +59744,9 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 2,
-        "platform": 1,
         "measurement": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -59761,9 +59761,9 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 2,
-        "platform": 1,
         "measurement": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -59778,9 +59778,9 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 2,
-        "platform": 1,
         "measurement": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -59795,9 +59795,9 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 2,
-        "platform": 1,
         "measurement": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -59812,9 +59812,9 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 2,
-        "platform": 1,
         "measurement": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -59829,9 +59829,9 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 2,
-        "platform": 1,
         "measurement": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -59846,9 +59846,9 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 2,
-        "platform": 1,
         "measurement": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -59863,9 +59863,9 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 2,
-        "platform": 1,
         "measurement": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -59880,9 +59880,9 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 2,
-        "platform": 1,
         "measurement": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -59984,12 +59984,12 @@
       "label": "Prediction 1.",
       "claim": "The three phase 1 rates will be strictly ordered — identifying the algorithm as suspect will exceed finding the break, which will exceed stating the required property — with a large gap at the second step.",
       "instrument": "per-item rates.",
-      "namespace": "platform",
+      "namespace": "curriculum",
       "namespaces": {
-        "platform": 1,
         "curriculum": 1,
         "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -60001,12 +60001,12 @@
       "label": "Prediction 2.",
       "claim": "Students with strong algorithms backgrounds will choose paradigms correctly at a much higher rate and will produce hypothesis checks rated no better than other students.",
       "instrument": "choice correctness and blind-rated check quality, split by the admission background survey. **This is the §8 objection-1 test: if check quality also tracks background, the check is a skill exposure develops and the day's necessity is weaker.**",
-      "namespace": "platform",
+      "namespace": "curriculum",
       "namespaces": {
-        "platform": 1,
         "curriculum": 1,
         "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -60018,12 +60018,12 @@
       "label": "Prediction 3.",
       "claim": "Fewer than a quarter of artefacts will record a failed check at step 4.",
       "instrument": "step 4 completion rates. **A very low rate is consistent with either accurate first choices or omitted failures, and phase 7's violating-input outcomes are the cross-check: students whose hypotheses were broken at phase 7 and who record no failed check are the diagnostic group.**",
-      "namespace": "platform",
+      "namespace": "curriculum",
       "namespaces": {
-        "platform": 1,
         "curriculum": 1,
         "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -60035,12 +60035,12 @@
       "label": "Prediction 4.",
       "claim": "At S043, students will ask what structural assumption a model family asserts, unprompted, at a higher rate than a comparison cohort.",
       "instrument": "an S043 protocol coded for unprompted structural questioning. Untestable until a variant delivery exists.",
-      "namespace": "platform",
+      "namespace": "curriculum",
       "namespaces": {
-        "platform": 1,
         "curriculum": 1,
         "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -60052,12 +60052,12 @@
       "label": "Prediction 5.",
       "claim": "A large majority of item 5 sealed predictions will state that the agent will choose a fused configuration and assert that it is relevant, and a small minority will name the absence of an empty-result condition, or any other specific defect, as the thing it gets wrong.",
       "instrument": "item 5 responses coded for generic-versus-specific failure identification, against what each student's agent actually produced. **The gap between the two rates is the day's frontier-calibration measure. If the specific rate is high, the cohort's frontier model is better than the design assumes and the phase 6 agent case is redundant; if the generic rate is also low, students are not predicting agent failure at all and the sealed item is measuring nothing.** The result is read by the following year's cohort, per instrumentation rule 9, and a low generic rate is carried to S022's item 5 as a briefing note rather than being re-discovered.",
-      "namespace": "platform",
+      "namespace": "curriculum",
       "namespaces": {
-        "platform": 1,
         "curriculum": 1,
         "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -60069,12 +60069,12 @@
       "label": "Prediction 6.",
       "claim": "In phase 3 round two, more than half of groups will state, unprompted and before phase 4, that a method returning results for a query with no answer cannot signal its own failure.",
       "instrument": "group artefacts from round two, coded for unprompted articulation. **This is the platform anchor's own test. If the rate is low, round two is producing an observation without an inference and point 3 must do work the design currently assigns to phase 3.**",
-      "namespace": "platform",
+      "namespace": "curriculum",
       "namespaces": {
-        "platform": 1,
         "curriculum": 1,
         "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -60086,12 +60086,12 @@
       "label": "Prediction 1.",
       "claim": "A majority will answer phase 1 item 4 negatively before working items 1 to 3, and a large majority affirmatively after.",
       "instrument": "item 4 collected twice.",
-      "namespace": "platform",
+      "namespace": "measurement",
       "namespaces": {
-        "platform": 1,
         "measurement": 1,
         "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -60103,12 +60103,12 @@
       "label": "Prediction 2.",
       "claim": "In phase 3, groups will predict result counts for the exhaustive and during-traversal configurations more accurately than for the after-traversal one, and the errors on the latter will consist of expecting the requested number of results to be returned.",
       "instrument": "per-configuration prediction accuracy with error direction coded.",
-      "namespace": "platform",
+      "namespace": "measurement",
       "namespaces": {
-        "platform": 1,
         "measurement": 1,
         "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -60120,12 +60120,12 @@
       "label": "Prediction 3.",
       "claim": "A large majority of first-attempt step 6 sentences will fail phase 7's actionability test.",
       "instrument": "phase 7 outcomes on first and revised sentences.",
-      "namespace": "platform",
+      "namespace": "measurement",
       "namespaces": {
-        "platform": 1,
         "measurement": 1,
         "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -60137,12 +60137,12 @@
       "label": "Prediction 4.",
       "claim": "At S041, students will spontaneously distinguish a population-level accuracy claim from an individual-level one, at a higher rate than a comparison cohort.",
       "instrument": "an S041 protocol coded for unprompted distinction. **This is the day's principal deferred test and the one that would justify its retained sentence.**",
-      "namespace": "platform",
+      "namespace": "measurement",
       "namespaces": {
-        "platform": 1,
         "measurement": 1,
         "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -60154,12 +60154,12 @@
       "label": "Prediction 5.",
       "claim": "A majority of item 5 sealed predictions will name a change to speed, and fewer than a fifth will name a surrendered guarantee.",
       "instrument": "item 5 responses coded against what each student's agent produced. **A high rate on the second half would mean students already read a configuration change as a guarantee change, in which case point 8 is confirmation rather than instruction and phase 4's time can move to phase 7.**",
-      "namespace": "platform",
+      "namespace": "measurement",
       "namespaces": {
-        "platform": 1,
         "measurement": 1,
         "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -60171,12 +60171,12 @@
       "label": "Prediction 6.",
       "claim": "More than a third of step 1 submissions will state the vendor's count guarantee as the student's own established guarantee on first draft.",
       "instrument": "step 1 attribution coding. **This is the §5 vendor-adoption prediction and it is the one the design most expects to be right. A low rate would mean the attribution clause is unnecessary and the specification's second failing clause can be removed.**",
-      "namespace": "platform",
+      "namespace": "measurement",
       "namespaces": {
-        "platform": 1,
         "measurement": 1,
         "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -60188,12 +60188,12 @@
       "label": "Prediction 1.",
       "claim": "A majority will answer exactly one of items 1 and 2 correctly, and among those, a majority will express confidence at item 4 that they got both right.",
       "instrument": "paired item accuracy against item 4 responses.",
-      "namespace": "platform",
+      "namespace": "curriculum",
       "namespaces": {
-        "platform": 1,
         "curriculum": 1,
         "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -60205,12 +60205,12 @@
       "label": "Prediction 2.",
       "claim": "Students with prior reduction exposure will make the direction error at a rate no lower than students without.",
       "instrument": "item accuracy split by the admission background survey. **A substantially lower rate would mean the error is a knowledge gap rather than a linguistic intuition, and the day's central premise is wrong.**",
-      "namespace": "platform",
+      "namespace": "curriculum",
       "namespaces": {
-        "platform": 1,
         "curriculum": 1,
         "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -60222,12 +60222,12 @@
       "label": "Prediction 3.",
       "claim": "Generality will be the requirement most often skipped at step 4, and phase 7's closest attack will most often be the generality one.",
       "instrument": "per-requirement verification quality and phase 7 closest-attack coding.",
-      "namespace": "platform",
+      "namespace": "curriculum",
       "namespaces": {
-        "platform": 1,
         "curriculum": 1,
         "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -60239,12 +60239,12 @@
       "label": "Prediction 4.",
       "claim": "At S034, students will describe a consistency trade-off as a proved impossibility rather than as an engineering limitation, at a higher rate than a comparison cohort.",
       "instrument": "an S034 protocol coded for impossibility-versus-limitation framing. Untestable until a variant delivery exists.",
-      "namespace": "platform",
+      "namespace": "curriculum",
       "namespaces": {
-        "platform": 1,
         "curriculum": 1,
         "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -60256,12 +60256,12 @@
       "label": "Prediction 5.",
       "claim": "A majority of item 5 sealed predictions will describe the comparison the agent builds in general terms, and fewer than a quarter will name a specific requirement it fails to verify.",
       "instrument": "item 5 responses coded for generic-versus-specific identification against what each student's agent produced. **The measure of interest is not the rate but the movement: the same students' phase 8 restatements are coded on the same scheme, and a cohort whose restatements are no more specific than their predictions has not acquired the vocabulary the day exists to install.**",
-      "namespace": "platform",
+      "namespace": "curriculum",
       "namespaces": {
-        "platform": 1,
         "curriculum": 1,
         "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -60273,12 +60273,12 @@
       "label": "Prediction 6.",
       "claim": "In step 4, more than a third of first submissions will ship three checks that all exercise the transformation.",
       "instrument": "blind inspection of the three checks for what each actually varies. **This is the §5 three-checks-that-are-one prediction. A low rate would mean the executable form does the work the prose form could not, which is the platform anchor's strongest claim on this day and the one least supported at present.**",
-      "namespace": "platform",
+      "namespace": "curriculum",
       "namespaces": {
-        "platform": 1,
         "curriculum": 1,
         "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -60290,13 +60290,13 @@
       "label": "Prediction 1.",
       "claim": "Item 4's predicted deferral delays will be shorter than the substrate's recorded actual delay for the same request.",
       "instrument": "predicted distribution against the recorded history.",
-      "namespace": "platform",
+      "namespace": "pedagogy",
       "namespaces": {
-        "platform": 1,
-        "assessment": 1,
+        "pedagogy": 1,
         "ai-systems": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "pedagogy": 1
+        "platform": 1
       }
     },
     {
@@ -60308,13 +60308,13 @@
       "label": "Prediction 2.",
       "claim": "A majority of item 3 untutored drafts will contain no alternative, and a large majority of step 6 replies will.",
       "instrument": "paired drafts coded for the presence of a substantive alternative.",
-      "namespace": "platform",
+      "namespace": "pedagogy",
       "namespaces": {
-        "platform": 1,
-        "assessment": 1,
+        "pedagogy": 1,
         "ai-systems": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "pedagogy": 1
+        "platform": 1
       }
     },
     {
@@ -60326,13 +60326,13 @@
       "label": "Prediction 3.",
       "claim": "In phase 7, the most common comprehension mismatch will be on the second question — what decision the reader thinks they face — rather than on the first or third.",
       "instrument": "mismatch rates by question. **The platform revision makes the third question cheaper to answer correctly, so a drop in third-question mismatches with no movement on the second is the predicted signature and is the confirmation that the added reader reached only the easy question.**",
-      "namespace": "platform",
+      "namespace": "pedagogy",
       "namespaces": {
-        "platform": 1,
-        "assessment": 1,
+        "pedagogy": 1,
         "ai-systems": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "pedagogy": 1
+        "platform": 1
       }
     },
     {
@@ -60344,13 +60344,13 @@
       "label": "Prediction 4.",
       "claim": "Students with workplace experience will produce item 3 drafts rated more diplomatic and less decisive than those without, and will show a larger phase 7 mismatch on the second question.",
       "instrument": "blind-rated drafts and mismatch rates, split by the admission background survey. **This is the professional-fluency failure stated as a prediction; a null result would mean the hedging pattern is not experience-linked.**",
-      "namespace": "platform",
+      "namespace": "pedagogy",
       "namespaces": {
-        "platform": 1,
-        "assessment": 1,
+        "pedagogy": 1,
         "ai-systems": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "pedagogy": 1
+        "platform": 1
       }
     },
     {
@@ -60362,13 +60362,13 @@
       "label": "Prediction 5.",
       "claim": "A substantial minority of item 5 sealed predictions will state that the agent will flag one or both impossible requests, and the agent will flag neither.",
       "instrument": "item 5 responses against the recorded agent output. **This is the day's frontier datum and the design expects the error to be one-directional. A cohort that predicts correctly at a high rate has a frontier model the programme has not yet given them, in which case point 8 is confirmation rather than instruction and its framing changes** — which is the branch instrumentation rule 4 requires and instrumentation rule 6 requires to be homed, and its home is this day's own next offering.",
-      "namespace": "platform",
+      "namespace": "pedagogy",
       "namespaces": {
-        "platform": 1,
-        "assessment": 1,
+        "pedagogy": 1,
         "ai-systems": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "pedagogy": 1
+        "platform": 1
       }
     },
     {
@@ -60380,13 +60380,13 @@
       "label": "Prediction 6.",
       "claim": "In at least a third of artefacts, the step 1 pre-flight will hard-code the permitted-change list rather than read the live index definition.",
       "instrument": "inspection of the shipped pre-flight. **This is §3.2's unsafe condition committed in the artefact and it is the day's own test of whether the strong-form scope statement at point 10 was heard. A low rate would mean the scope statement is doing work, which no day in this programme has yet demonstrated.**",
-      "namespace": "platform",
+      "namespace": "pedagogy",
       "namespaces": {
-        "platform": 1,
-        "assessment": 1,
+        "pedagogy": 1,
         "ai-systems": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "pedagogy": 1
+        "platform": 1
       }
     },
     {
@@ -60398,11 +60398,11 @@
       "label": "Prediction 1.",
       "claim": "A majority will identify at least one of the three phase 1 descriptions as making a guarantee, and the most-selected will be the one containing a number.",
       "instrument": "item 4 responses by description.",
-      "namespace": "platform",
+      "namespace": "measurement",
       "namespaces": {
-        "platform": 2,
         "measurement": 2,
         "ai-systems": 2,
+        "platform": 2,
         "fde-craft": 1
       }
     },
@@ -60415,11 +60415,11 @@
       "label": "Prediction 2.",
       "claim": "Approach E will be ranked first or second by a majority of groups before the caller requirement is revealed.",
       "instrument": "committed pre-revelation rankings. **If E does not win, its construction has failed and the phase's argument does not land.**",
-      "namespace": "platform",
+      "namespace": "measurement",
       "namespaces": {
-        "platform": 2,
         "measurement": 2,
         "ai-systems": 2,
+        "platform": 2,
         "fde-craft": 1
       }
     },
@@ -60432,11 +60432,11 @@
       "label": "Prediction 3.",
       "claim": "Students with optimisation backgrounds will produce step 4 sentences rated more precise and less checkable by peers than students without.",
       "instrument": "blind precision ratings and phase 8 peer checkability judgements, split by the admission background survey.",
-      "namespace": "platform",
+      "namespace": "measurement",
       "namespaces": {
-        "platform": 2,
         "measurement": 2,
         "ai-systems": 2,
+        "platform": 2,
         "fde-craft": 1
       }
     },
@@ -60449,11 +60449,11 @@
       "label": "Prediction 4.",
       "claim": "In at least a fifth of artefacts, step 6's consistency check will reveal that the S024 alternative cannot be delivered as promised.",
       "instrument": "step 6 outcomes. **A very low rate would suggest S024's step 5 is producing safe rather than substantive alternatives — and now that S024's alternative must be built and demonstrated, a very low rate is more informative than it was, because the safe-alternative route is more expensive to take.**",
-      "namespace": "platform",
+      "namespace": "measurement",
       "namespaces": {
-        "platform": 2,
         "measurement": 2,
         "ai-systems": 2,
+        "platform": 2,
         "fde-craft": 1
       }
     },
@@ -60466,11 +60466,11 @@
       "label": "Prediction 5.",
       "claim": "Fewer than a third of groups will separate approach D from approach E without prompting at phase 3's second task.",
       "instrument": "group artefacts coded for whether the two exclusions are given distinct reasons. **This is the platform anchor's own test on this day. A high rate would mean the unvalidated-instrument distinction is available to students earlier than the measurement strand assumes, and S029's phase 1 opens on a room that already holds it.**",
-      "namespace": "platform",
+      "namespace": "measurement",
       "namespaces": {
-        "platform": 2,
         "measurement": 2,
         "ai-systems": 2,
+        "platform": 2,
         "fde-craft": 1
       }
     },
@@ -60483,11 +60483,11 @@
       "label": "Prediction 6.",
       "claim": "A large majority of item 5 sealed predictions will describe a number and a pass, and fewer than a tenth will name the absence of published agreement, or any other specific missing property, as what the number is not a measure of.",
       "instrument": "item 5 responses coded for generic-versus-specific identification. **The second rate is this quarter's baseline for M06 and is re-probed at S029. A rate near zero is the expected result and is the design's justification for spending a whole quarter on measurement; a rate above a quarter would mean ME101 can start further along than the [Course Catalogue](/wiki/program/06-Course-Catalogue.md) assumes.**",
-      "namespace": "platform",
+      "namespace": "measurement",
       "namespaces": {
-        "platform": 2,
         "measurement": 2,
         "ai-systems": 2,
+        "platform": 2,
         "fde-craft": 1
       }
     },
@@ -60503,8 +60503,8 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 2,
-        "platform": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -60519,8 +60519,8 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 2,
-        "platform": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -60535,8 +60535,8 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 2,
-        "platform": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -60551,8 +60551,8 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 2,
-        "platform": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -60567,8 +60567,8 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 2,
-        "platform": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -60583,8 +60583,8 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 2,
-        "platform": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -60599,8 +60599,8 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 2,
-        "platform": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -60615,8 +60615,8 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 2,
-        "platform": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -60631,8 +60631,8 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 2,
-        "platform": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -60647,8 +60647,8 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 2,
-        "platform": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -60663,8 +60663,8 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 2,
-        "platform": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -60679,8 +60679,8 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 2,
-        "platform": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -60695,9 +60695,9 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 1,
-        "platform": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "assessment": 1
+        "platform": 1
       }
     },
     {
@@ -60712,9 +60712,9 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 1,
-        "platform": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "assessment": 1
+        "platform": 1
       }
     },
     {
@@ -60729,9 +60729,9 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 1,
-        "platform": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "assessment": 1
+        "platform": 1
       }
     },
     {
@@ -60746,9 +60746,9 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 1,
-        "platform": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "assessment": 1
+        "platform": 1
       }
     },
     {
@@ -60763,9 +60763,9 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 1,
-        "platform": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "assessment": 1
+        "platform": 1
       }
     },
     {
@@ -60780,9 +60780,9 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 1,
-        "platform": 1,
+        "assessment": 1,
         "fde-craft": 1,
-        "assessment": 1
+        "platform": 1
       }
     },
     {
@@ -61069,9 +61069,9 @@
       "namespaces": {
         "measurement": 3,
         "platform": 2,
+        "fde-craft": 1,
         "ai-systems": 1,
-        "assessment": 1,
-        "fde-craft": 1
+        "assessment": 1
       }
     },
     {
@@ -61087,9 +61087,9 @@
       "namespaces": {
         "measurement": 3,
         "platform": 2,
+        "fde-craft": 1,
         "ai-systems": 1,
-        "assessment": 1,
-        "fde-craft": 1
+        "assessment": 1
       }
     },
     {
@@ -61105,9 +61105,9 @@
       "namespaces": {
         "measurement": 3,
         "platform": 2,
+        "fde-craft": 1,
         "ai-systems": 1,
-        "assessment": 1,
-        "fde-craft": 1
+        "assessment": 1
       }
     },
     {
@@ -61123,9 +61123,9 @@
       "namespaces": {
         "measurement": 3,
         "platform": 2,
+        "fde-craft": 1,
         "ai-systems": 1,
-        "assessment": 1,
-        "fde-craft": 1
+        "assessment": 1
       }
     },
     {
@@ -61141,9 +61141,9 @@
       "namespaces": {
         "measurement": 3,
         "platform": 2,
+        "fde-craft": 1,
         "ai-systems": 1,
-        "assessment": 1,
-        "fde-craft": 1
+        "assessment": 1
       }
     },
     {
@@ -61257,10 +61257,10 @@
       "label": "Prediction 1.",
       "claim": "A large majority will read item 2's documentation as promising a stronger guarantee than it states, and a majority will also judge it imprecise when asked directly.",
       "instrument": "item 2 and item 4 responses, paired.",
-      "namespace": "platform",
+      "namespace": "fde-craft",
       "namespaces": {
-        "platform": 2,
         "fde-craft": 2,
+        "platform": 2,
         "measurement": 1,
         "ai-systems": 1
       }
@@ -61274,10 +61274,10 @@
       "label": "Prediction 2.",
       "claim": "Fewer than a fifth of groups will propose per-operation contracts before point 5.",
       "instrument": "phase 3 closing-question responses.",
-      "namespace": "platform",
+      "namespace": "fde-craft",
       "namespaces": {
-        "platform": 2,
         "fde-craft": 2,
+        "platform": 2,
         "measurement": 1,
         "ai-systems": 1
       }
@@ -61291,10 +61291,10 @@
       "label": "Prediction 3.",
       "claim": "Students with distributed systems backgrounds will produce anomaly catalogues rated thinner than those without, controlling for contract correctness.",
       "instrument": "blind catalogue ratings against contract correctness and the admission background survey.",
-      "namespace": "platform",
+      "namespace": "fde-craft",
       "namespaces": {
-        "platform": 2,
         "fde-craft": 2,
+        "platform": 2,
         "measurement": 1,
         "ai-systems": 1
       }
@@ -61308,10 +61308,10 @@
       "label": "Prediction 4.",
       "claim": "Phase 8 answers will name a per-operation contract or an anomaly catalogue rather than a model, for a majority.",
       "instrument": "phase 8 answers coded. **This is the [WP-033](/wiki/whitepapers/WP-033.md) §5 deferral's verification; a cohort that cannot answer, or that answers only with model names, indicates the resolution did not occur.**",
-      "namespace": "platform",
+      "namespace": "fde-craft",
       "namespaces": {
-        "platform": 2,
         "fde-craft": 2,
+        "platform": 2,
         "measurement": 1,
         "ai-systems": 1
       }
@@ -61325,10 +61325,10 @@
       "label": "Prediction 5.",
       "claim": "No group will predict, before running the four consumers, that the caching configuration serving caller D is the one endangering caller B.",
       "instrument": "phase 3 pre-run commitments coded for any statement that one mechanism both serves and endangers. **If groups do predict it, the executed payload is redundant and phase 3 can return to its supplied form, which would free ten minutes the §8 objection-3 fix needs.**",
-      "namespace": "platform",
+      "namespace": "fde-craft",
       "namespaces": {
-        "platform": 2,
         "fde-craft": 2,
+        "platform": 2,
         "measurement": 1,
         "ai-systems": 1
       }
@@ -61342,10 +61342,10 @@
       "label": "Prediction 6.",
       "claim": "A majority of item 5 sealed predictions will describe the agent's documentation accurately and fewer than a third will name a specific missing anomaly.",
       "instrument": "item 5 responses coded for accurate-description and for specific-omission, against the documentation produced. **The specific rate is expected to correlate with step 3 catalogue quality within student; a weak correlation would indicate that predicting an omission and producing a catalogue are different competences, and the day treats them as one.**",
-      "namespace": "platform",
+      "namespace": "fde-craft",
       "namespaces": {
-        "platform": 2,
         "fde-craft": 2,
+        "platform": 2,
         "measurement": 1,
         "ai-systems": 1
       }
@@ -61363,8 +61363,8 @@
       "namespaces": {
         "measurement": 2,
         "fde-craft": 2,
-        "platform": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "platform": 1
       }
     },
     {
@@ -61380,8 +61380,8 @@
       "namespaces": {
         "measurement": 2,
         "fde-craft": 2,
-        "platform": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "platform": 1
       }
     },
     {
@@ -61397,8 +61397,8 @@
       "namespaces": {
         "measurement": 2,
         "fde-craft": 2,
-        "platform": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "platform": 1
       }
     },
     {
@@ -61414,8 +61414,8 @@
       "namespaces": {
         "measurement": 2,
         "fde-craft": 2,
-        "platform": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "platform": 1
       }
     },
     {
@@ -61431,8 +61431,8 @@
       "namespaces": {
         "measurement": 2,
         "fde-craft": 2,
-        "platform": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "platform": 1
       }
     },
     {
@@ -61448,8 +61448,8 @@
       "namespaces": {
         "measurement": 2,
         "fde-craft": 2,
-        "platform": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "platform": 1
       }
     },
     {
@@ -61566,9 +61566,9 @@
       "namespace": "fde-craft",
       "namespaces": {
         "fde-craft": 2,
+        "pedagogy": 1,
         "measurement": 1,
-        "platform": 1,
-        "pedagogy": 1
+        "platform": 1
       }
     },
     {
@@ -61583,9 +61583,9 @@
       "namespace": "fde-craft",
       "namespaces": {
         "fde-craft": 2,
+        "pedagogy": 1,
         "measurement": 1,
-        "platform": 1,
-        "pedagogy": 1
+        "platform": 1
       }
     },
     {
@@ -61600,9 +61600,9 @@
       "namespace": "fde-craft",
       "namespaces": {
         "fde-craft": 2,
+        "pedagogy": 1,
         "measurement": 1,
-        "platform": 1,
-        "pedagogy": 1
+        "platform": 1
       }
     },
     {
@@ -61617,9 +61617,9 @@
       "namespace": "fde-craft",
       "namespaces": {
         "fde-craft": 2,
+        "pedagogy": 1,
         "measurement": 1,
-        "platform": 1,
-        "pedagogy": 1
+        "platform": 1
       }
     },
     {
@@ -61634,9 +61634,9 @@
       "namespace": "fde-craft",
       "namespaces": {
         "fde-craft": 2,
+        "pedagogy": 1,
         "measurement": 1,
-        "platform": 1,
-        "pedagogy": 1
+        "platform": 1
       }
     },
     {
@@ -61651,9 +61651,9 @@
       "namespace": "fde-craft",
       "namespaces": {
         "fde-craft": 2,
+        "pedagogy": 1,
         "measurement": 1,
-        "platform": 1,
-        "pedagogy": 1
+        "platform": 1
       }
     },
     {
@@ -61668,9 +61668,9 @@
       "namespace": "fde-craft",
       "namespaces": {
         "fde-craft": 2,
-        "platform": 1,
+        "pedagogy": 1,
         "ai-systems": 1,
-        "pedagogy": 1
+        "platform": 1
       }
     },
     {
@@ -61685,9 +61685,9 @@
       "namespace": "fde-craft",
       "namespaces": {
         "fde-craft": 2,
-        "platform": 1,
+        "pedagogy": 1,
         "ai-systems": 1,
-        "pedagogy": 1
+        "platform": 1
       }
     },
     {
@@ -61702,9 +61702,9 @@
       "namespace": "fde-craft",
       "namespaces": {
         "fde-craft": 2,
-        "platform": 1,
+        "pedagogy": 1,
         "ai-systems": 1,
-        "pedagogy": 1
+        "platform": 1
       }
     },
     {
@@ -61719,9 +61719,9 @@
       "namespace": "fde-craft",
       "namespaces": {
         "fde-craft": 2,
-        "platform": 1,
+        "pedagogy": 1,
         "ai-systems": 1,
-        "pedagogy": 1
+        "platform": 1
       }
     },
     {
@@ -61736,9 +61736,9 @@
       "namespace": "fde-craft",
       "namespaces": {
         "fde-craft": 2,
-        "platform": 1,
+        "pedagogy": 1,
         "ai-systems": 1,
-        "pedagogy": 1
+        "platform": 1
       }
     },
     {
@@ -61753,9 +61753,9 @@
       "namespace": "fde-craft",
       "namespaces": {
         "fde-craft": 2,
-        "platform": 1,
+        "pedagogy": 1,
         "ai-systems": 1,
-        "pedagogy": 1
+        "platform": 1
       }
     },
     {
@@ -61959,11 +61959,11 @@
       "label": "Prediction 1.",
       "claim": "Fewer than a third of students will name a population at item 3, and a large majority will predict the correct direction at item 4.",
       "instrument": "items 3 and 4 coded separately. **The gap between them is the day's premise: direction is intuited, mechanism is not.**",
-      "namespace": "platform",
+      "namespace": "measurement",
       "namespaces": {
-        "platform": 2,
         "measurement": 2,
-        "ai-systems": 2
+        "ai-systems": 2,
+        "platform": 2
       }
     },
     {
@@ -61975,11 +61975,11 @@
       "label": "Prediction 2.",
       "claim": "No group will anticipate protocol A's optimism before the out-of-time comparison.",
       "instrument": "phase 3 committed rankings. **If a group does, the temporal gap in the comparison is too obvious and the phase needs reconstruction.**",
-      "namespace": "platform",
+      "namespace": "measurement",
       "namespaces": {
-        "platform": 2,
         "measurement": 2,
-        "ai-systems": 2
+        "ai-systems": 2,
+        "platform": 2
       }
     },
     {
@@ -61991,11 +61991,11 @@
       "label": "Prediction 3.",
       "claim": "The most-missed leak class will be duplicated events rather than temporal ordering.",
       "instrument": "step 4 audit findings by class against a staff audit of the same pipelines.",
-      "namespace": "platform",
+      "namespace": "measurement",
       "namespaces": {
-        "platform": 2,
         "measurement": 2,
-        "ai-systems": 2
+        "ai-systems": 2,
+        "platform": 2
       }
     },
     {
@@ -62007,11 +62007,11 @@
       "label": "Prediction 4.",
       "claim": "In phase 7, partners will find a source of optimism in a majority of designs, and the rate will not be lower for students with prior machine-learning coursework.",
       "instrument": "phase 7 outcomes split by the admission background survey.",
-      "namespace": "platform",
+      "namespace": "measurement",
       "namespaces": {
-        "platform": 2,
         "measurement": 2,
-        "ai-systems": 2
+        "ai-systems": 2,
+        "platform": 2
       }
     },
     {
@@ -62023,11 +62023,11 @@
       "label": "Prediction 5.",
       "claim": "A large majority of item 5 sealed predictions will say the agent will produce an evaluation and a number, and a small minority will name the specific failure — that it will answer the shipping question anyway.",
       "instrument": "item 5 responses coded for generic-versus-specific failure identification, against what each student's agent actually produced. **The gap between the two rates is the day's frontier-calibration measure. If the specific rate is high, the cohort already holds the distinction between a threshold comparison and a decision, and phase 6's agent case is redundant; if the generic rate is also low, students are not yet predicting agent failure at all and the sealed item is measuring nothing.**",
-      "namespace": "platform",
+      "namespace": "measurement",
       "namespaces": {
-        "platform": 2,
         "measurement": 2,
-        "ai-systems": 2
+        "ai-systems": 2,
+        "platform": 2
       }
     },
     {
@@ -62039,11 +62039,11 @@
       "label": "Prediction 6.",
       "claim": "In the first cohort, a majority of students will report a judged score without the uncalibrated clause on first attempt, and the rate will fall below a quarter by S048.",
       "instrument": "specification submissions coded for the clause's presence and for its placement in the same sentence as the figure. **A high rate that does not fall indicates the clause is being treated as boilerplate, which §8's objection 3 predicts and which the design has no further remedy for at this day.**",
-      "namespace": "platform",
+      "namespace": "measurement",
       "namespaces": {
-        "platform": 2,
         "measurement": 2,
-        "ai-systems": 2
+        "ai-systems": 2,
+        "platform": 2
       }
     },
     {
@@ -62055,10 +62055,10 @@
       "label": "Prediction 1.",
       "claim": "Fewer than a fifth of students will state at item 2 that the larger search yields a worse estimate.",
       "instrument": "item 2 responses coded.",
-      "namespace": "platform",
+      "namespace": "measurement",
       "namespaces": {
-        "platform": 2,
         "measurement": 2,
+        "platform": 2,
         "ai-systems": 1
       }
     },
@@ -62071,10 +62071,10 @@
       "label": "Prediction 2.",
       "claim": "Groups will rank protocol D second or third rather than fourth, for a majority.",
       "instrument": "phase 3 committed rankings.",
-      "namespace": "platform",
+      "namespace": "measurement",
       "namespaces": {
-        "platform": 2,
         "measurement": 2,
+        "platform": 2,
         "ai-systems": 1
       }
     },
@@ -62087,10 +62087,10 @@
       "label": "Prediction 3.",
       "claim": "Fewer than a quarter of students will report in the end-of-module review that the protocol prevented them from doing better work.",
       "instrument": "the module review's constraint item. **A high proportion indicates the §5 affective failure is active and the discipline is being experienced as an obstacle.**",
-      "namespace": "platform",
+      "namespace": "measurement",
       "namespaces": {
-        "platform": 2,
         "measurement": 2,
+        "platform": 2,
         "ai-systems": 1
       }
     },
@@ -62103,10 +62103,10 @@
       "label": "Prediction 4.",
       "claim": "Step 6 optimism estimates will be systematically low relative to staff-computed gaps, and the underestimate will be larger for students with applied-modelling backgrounds.",
       "instrument": "estimates against computed gaps, split by the admission background survey.",
-      "namespace": "platform",
+      "namespace": "measurement",
       "namespaces": {
-        "platform": 2,
         "measurement": 2,
+        "platform": 2,
         "ai-systems": 1
       }
     },
@@ -62119,10 +62119,10 @@
       "label": "Prediction 5.",
       "claim": "The modal step 8 run count will be greater than one, and a majority of the excess will be attributable to agent retries, resubmissions and re-runs after a mapping correction rather than to deliberate re-consultation.",
       "instrument": "run counts against prompt records, coded for the cause of each excess run. **If the modal count is one, either the cohort is under-using the platform or the counts are not being read honestly, and the phase 3 payload has no purchase.**",
-      "namespace": "platform",
+      "namespace": "measurement",
       "namespaces": {
-        "platform": 2,
         "measurement": 2,
+        "platform": 2,
         "ai-systems": 1
       }
     },
@@ -62135,10 +62135,10 @@
       "label": "Prediction 6.",
       "claim": "A large majority of item 5 sealed predictions will say the agent will search broadly and report the best figure, and a small minority will name the specific consequence — that it will consult the reporting set once per candidate without saying so.",
       "instrument": "item 5 responses coded for generic-versus-specific failure identification against what each student's agent did.",
-      "namespace": "platform",
+      "namespace": "measurement",
       "namespaces": {
-        "platform": 2,
         "measurement": 2,
+        "platform": 2,
         "ai-systems": 1
       }
     },
@@ -62250,8 +62250,8 @@
       "namespace": "platform",
       "namespaces": {
         "platform": 2,
-        "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "ai-systems": 1
       }
     },
     {
@@ -62266,8 +62266,8 @@
       "namespace": "platform",
       "namespaces": {
         "platform": 2,
-        "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "ai-systems": 1
       }
     },
     {
@@ -62282,8 +62282,8 @@
       "namespace": "platform",
       "namespaces": {
         "platform": 2,
-        "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "ai-systems": 1
       }
     },
     {
@@ -62298,8 +62298,8 @@
       "namespace": "platform",
       "namespaces": {
         "platform": 2,
-        "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "ai-systems": 1
       }
     },
     {
@@ -62314,8 +62314,8 @@
       "namespace": "platform",
       "namespaces": {
         "platform": 2,
-        "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "ai-systems": 1
       }
     },
     {
@@ -62330,8 +62330,8 @@
       "namespace": "platform",
       "namespaces": {
         "platform": 2,
-        "ai-systems": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "ai-systems": 1
       }
     },
     {
@@ -62466,8 +62466,8 @@
       "namespaces": {
         "measurement": 3,
         "fde-craft": 3,
-        "platform": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "platform": 1
       }
     },
     {
@@ -62483,8 +62483,8 @@
       "namespaces": {
         "measurement": 3,
         "fde-craft": 3,
-        "platform": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "platform": 1
       }
     },
     {
@@ -62500,8 +62500,8 @@
       "namespaces": {
         "measurement": 3,
         "fde-craft": 3,
-        "platform": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "platform": 1
       }
     },
     {
@@ -62517,8 +62517,8 @@
       "namespaces": {
         "measurement": 3,
         "fde-craft": 3,
-        "platform": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "platform": 1
       }
     },
     {
@@ -62534,8 +62534,8 @@
       "namespaces": {
         "measurement": 3,
         "fde-craft": 3,
-        "platform": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "platform": 1
       }
     },
     {
@@ -62550,8 +62550,8 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 2,
-        "platform": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -62566,8 +62566,8 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 2,
-        "platform": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -62582,8 +62582,8 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 2,
-        "platform": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -62598,8 +62598,8 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 2,
-        "platform": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -62614,8 +62614,8 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 2,
-        "platform": 1,
-        "fde-craft": 1
+        "fde-craft": 1,
+        "platform": 1
       }
     },
     {
@@ -62906,9 +62906,9 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 3,
-        "platform": 1,
         "measurement": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       }
     },
     {
@@ -62923,9 +62923,9 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 3,
-        "platform": 1,
         "measurement": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       }
     },
     {
@@ -62940,9 +62940,9 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 3,
-        "platform": 1,
         "measurement": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       }
     },
     {
@@ -62957,9 +62957,9 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 3,
-        "platform": 1,
         "measurement": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       }
     },
     {
@@ -62974,9 +62974,9 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 3,
-        "platform": 1,
         "measurement": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       }
     },
     {
@@ -63072,8 +63072,8 @@
       "namespaces": {
         "ai-systems": 3,
         "measurement": 2,
-        "platform": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       }
     },
     {
@@ -63089,8 +63089,8 @@
       "namespaces": {
         "ai-systems": 3,
         "measurement": 2,
-        "platform": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       }
     },
     {
@@ -63106,8 +63106,8 @@
       "namespaces": {
         "ai-systems": 3,
         "measurement": 2,
-        "platform": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       }
     },
     {
@@ -63123,8 +63123,8 @@
       "namespaces": {
         "ai-systems": 3,
         "measurement": 2,
-        "platform": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       }
     },
     {
@@ -63140,8 +63140,8 @@
       "namespaces": {
         "ai-systems": 3,
         "measurement": 2,
-        "platform": 1,
-        "curriculum": 1
+        "curriculum": 1,
+        "platform": 1
       }
     },
     {
@@ -63157,8 +63157,8 @@
       "namespaces": {
         "measurement": 3,
         "ai-systems": 2,
-        "platform": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "platform": 1
       }
     },
     {
@@ -63174,8 +63174,8 @@
       "namespaces": {
         "measurement": 3,
         "ai-systems": 2,
-        "platform": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "platform": 1
       }
     },
     {
@@ -63191,8 +63191,8 @@
       "namespaces": {
         "measurement": 3,
         "ai-systems": 2,
-        "platform": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "platform": 1
       }
     },
     {
@@ -63208,8 +63208,8 @@
       "namespaces": {
         "measurement": 3,
         "ai-systems": 2,
-        "platform": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "platform": 1
       }
     },
     {
@@ -63225,8 +63225,8 @@
       "namespaces": {
         "measurement": 3,
         "ai-systems": 2,
-        "platform": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "platform": 1
       }
     },
     {
@@ -63326,10 +63326,10 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 3,
-        "platform": 2,
         "measurement": 2,
-        "pedagogy": 1,
-        "curriculum": 1
+        "platform": 2,
+        "curriculum": 1,
+        "pedagogy": 1
       }
     },
     {
@@ -63344,10 +63344,10 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 3,
-        "platform": 2,
         "measurement": 2,
-        "pedagogy": 1,
-        "curriculum": 1
+        "platform": 2,
+        "curriculum": 1,
+        "pedagogy": 1
       }
     },
     {
@@ -63362,10 +63362,10 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 3,
-        "platform": 2,
         "measurement": 2,
-        "pedagogy": 1,
-        "curriculum": 1
+        "platform": 2,
+        "curriculum": 1,
+        "pedagogy": 1
       }
     },
     {
@@ -63380,10 +63380,10 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 3,
-        "platform": 2,
         "measurement": 2,
-        "pedagogy": 1,
-        "curriculum": 1
+        "platform": 2,
+        "curriculum": 1,
+        "pedagogy": 1
       }
     },
     {
@@ -63398,10 +63398,10 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 3,
-        "platform": 2,
         "measurement": 2,
-        "pedagogy": 1,
-        "curriculum": 1
+        "platform": 2,
+        "curriculum": 1,
+        "pedagogy": 1
       }
     },
     {
@@ -63417,9 +63417,9 @@
       "namespaces": {
         "ai-systems": 3,
         "measurement": 2,
+        "pedagogy": 1,
         "platform": 1,
-        "curriculum": 1,
-        "pedagogy": 1
+        "curriculum": 1
       }
     },
     {
@@ -63435,9 +63435,9 @@
       "namespaces": {
         "ai-systems": 3,
         "measurement": 2,
+        "pedagogy": 1,
         "platform": 1,
-        "curriculum": 1,
-        "pedagogy": 1
+        "curriculum": 1
       }
     },
     {
@@ -63453,9 +63453,9 @@
       "namespaces": {
         "ai-systems": 3,
         "measurement": 2,
+        "pedagogy": 1,
         "platform": 1,
-        "curriculum": 1,
-        "pedagogy": 1
+        "curriculum": 1
       }
     },
     {
@@ -63471,9 +63471,9 @@
       "namespaces": {
         "ai-systems": 3,
         "measurement": 2,
+        "pedagogy": 1,
         "platform": 1,
-        "curriculum": 1,
-        "pedagogy": 1
+        "curriculum": 1
       }
     },
     {
@@ -63489,9 +63489,9 @@
       "namespaces": {
         "ai-systems": 3,
         "measurement": 2,
+        "pedagogy": 1,
         "platform": 1,
-        "curriculum": 1,
-        "pedagogy": 1
+        "curriculum": 1
       }
     },
     {
@@ -63591,9 +63591,9 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 4,
-        "platform": 1,
         "ai-systems": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "platform": 1
       }
     },
     {
@@ -63608,9 +63608,9 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 4,
-        "platform": 1,
         "ai-systems": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "platform": 1
       }
     },
     {
@@ -63625,9 +63625,9 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 4,
-        "platform": 1,
         "ai-systems": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "platform": 1
       }
     },
     {
@@ -63642,9 +63642,9 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 4,
-        "platform": 1,
         "ai-systems": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "platform": 1
       }
     },
     {
@@ -63659,9 +63659,9 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 4,
-        "platform": 1,
         "ai-systems": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "platform": 1
       }
     },
     {
@@ -63678,9 +63678,9 @@
         "ai-systems": 4,
         "pedagogy": 3,
         "assessment": 2,
+        "measurement": 1,
         "platform": 1,
-        "curriculum": 1,
-        "measurement": 1
+        "curriculum": 1
       }
     },
     {
@@ -63697,9 +63697,9 @@
         "ai-systems": 4,
         "pedagogy": 3,
         "assessment": 2,
+        "measurement": 1,
         "platform": 1,
-        "curriculum": 1,
-        "measurement": 1
+        "curriculum": 1
       }
     },
     {
@@ -63716,9 +63716,9 @@
         "ai-systems": 4,
         "pedagogy": 3,
         "assessment": 2,
+        "measurement": 1,
         "platform": 1,
-        "curriculum": 1,
-        "measurement": 1
+        "curriculum": 1
       }
     },
     {
@@ -63735,9 +63735,9 @@
         "ai-systems": 4,
         "pedagogy": 3,
         "assessment": 2,
+        "measurement": 1,
         "platform": 1,
-        "curriculum": 1,
-        "measurement": 1
+        "curriculum": 1
       }
     },
     {
@@ -63754,9 +63754,9 @@
         "ai-systems": 4,
         "pedagogy": 3,
         "assessment": 2,
+        "measurement": 1,
         "platform": 1,
-        "curriculum": 1,
-        "measurement": 1
+        "curriculum": 1
       }
     },
     {
@@ -63771,8 +63771,8 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 3,
-        "platform": 2,
         "measurement": 2,
+        "platform": 2,
         "curriculum": 1
       }
     },
@@ -63788,8 +63788,8 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 3,
-        "platform": 2,
         "measurement": 2,
+        "platform": 2,
         "curriculum": 1
       }
     },
@@ -63805,8 +63805,8 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 3,
-        "platform": 2,
         "measurement": 2,
+        "platform": 2,
         "curriculum": 1
       }
     },
@@ -63822,8 +63822,8 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 3,
-        "platform": 2,
         "measurement": 2,
+        "platform": 2,
         "curriculum": 1
       }
     },
@@ -63839,8 +63839,8 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 3,
-        "platform": 2,
         "measurement": 2,
+        "platform": 2,
         "curriculum": 1
       }
     },
@@ -63856,8 +63856,8 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 3,
-        "platform": 2,
         "measurement": 2,
+        "platform": 2,
         "curriculum": 1
       }
     },
@@ -63874,9 +63874,9 @@
       "namespaces": {
         "ai-systems": 2,
         "platform": 2,
+        "measurement": 1,
         "pedagogy": 1,
-        "curriculum": 1,
-        "measurement": 1
+        "curriculum": 1
       }
     },
     {
@@ -63892,9 +63892,9 @@
       "namespaces": {
         "ai-systems": 2,
         "platform": 2,
+        "measurement": 1,
         "pedagogy": 1,
-        "curriculum": 1,
-        "measurement": 1
+        "curriculum": 1
       }
     },
     {
@@ -63910,9 +63910,9 @@
       "namespaces": {
         "ai-systems": 2,
         "platform": 2,
+        "measurement": 1,
         "pedagogy": 1,
-        "curriculum": 1,
-        "measurement": 1
+        "curriculum": 1
       }
     },
     {
@@ -63928,9 +63928,9 @@
       "namespaces": {
         "ai-systems": 2,
         "platform": 2,
+        "measurement": 1,
         "pedagogy": 1,
-        "curriculum": 1,
-        "measurement": 1
+        "curriculum": 1
       }
     },
     {
@@ -63946,9 +63946,9 @@
       "namespaces": {
         "ai-systems": 2,
         "platform": 2,
+        "measurement": 1,
         "pedagogy": 1,
-        "curriculum": 1,
-        "measurement": 1
+        "curriculum": 1
       }
     },
     {
@@ -63964,9 +63964,9 @@
       "namespaces": {
         "ai-systems": 2,
         "platform": 2,
+        "measurement": 1,
         "pedagogy": 1,
-        "curriculum": 1,
-        "measurement": 1
+        "curriculum": 1
       }
     },
     {
@@ -64084,9 +64084,9 @@
       "namespaces": {
         "platform": 3,
         "ai-systems": 2,
-        "curriculum": 1,
         "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "curriculum": 1
       }
     },
     {
@@ -64102,9 +64102,9 @@
       "namespaces": {
         "platform": 3,
         "ai-systems": 2,
-        "curriculum": 1,
         "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "curriculum": 1
       }
     },
     {
@@ -64120,9 +64120,9 @@
       "namespaces": {
         "platform": 3,
         "ai-systems": 2,
-        "curriculum": 1,
         "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "curriculum": 1
       }
     },
     {
@@ -64138,9 +64138,9 @@
       "namespaces": {
         "platform": 3,
         "ai-systems": 2,
-        "curriculum": 1,
         "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "curriculum": 1
       }
     },
     {
@@ -64156,9 +64156,9 @@
       "namespaces": {
         "platform": 3,
         "ai-systems": 2,
-        "curriculum": 1,
         "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "curriculum": 1
       }
     },
     {
@@ -64174,9 +64174,9 @@
       "namespaces": {
         "platform": 3,
         "ai-systems": 2,
-        "curriculum": 1,
         "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "curriculum": 1
       }
     },
     {
@@ -64191,9 +64191,9 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 2,
+        "measurement": 2,
         "assessment": 2,
         "platform": 2,
-        "measurement": 2,
         "pedagogy": 1,
         "curriculum": 1
       }
@@ -64210,9 +64210,9 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 2,
+        "measurement": 2,
         "assessment": 2,
         "platform": 2,
-        "measurement": 2,
         "pedagogy": 1,
         "curriculum": 1
       }
@@ -64229,9 +64229,9 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 2,
+        "measurement": 2,
         "assessment": 2,
         "platform": 2,
-        "measurement": 2,
         "pedagogy": 1,
         "curriculum": 1
       }
@@ -64248,9 +64248,9 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 2,
+        "measurement": 2,
         "assessment": 2,
         "platform": 2,
-        "measurement": 2,
         "pedagogy": 1,
         "curriculum": 1
       }
@@ -64267,9 +64267,9 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 2,
+        "measurement": 2,
         "assessment": 2,
         "platform": 2,
-        "measurement": 2,
         "pedagogy": 1,
         "curriculum": 1
       }
@@ -64286,9 +64286,9 @@
       "namespace": "ai-systems",
       "namespaces": {
         "ai-systems": 2,
+        "measurement": 2,
         "assessment": 2,
         "platform": 2,
-        "measurement": 2,
         "pedagogy": 1,
         "curriculum": 1
       }
@@ -64407,8 +64407,8 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 4,
-        "curriculum": 2,
-        "ai-systems": 2
+        "ai-systems": 2,
+        "curriculum": 2
       }
     },
     {
@@ -64423,8 +64423,8 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 4,
-        "curriculum": 2,
-        "ai-systems": 2
+        "ai-systems": 2,
+        "curriculum": 2
       }
     },
     {
@@ -64439,8 +64439,8 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 4,
-        "curriculum": 2,
-        "ai-systems": 2
+        "ai-systems": 2,
+        "curriculum": 2
       }
     },
     {
@@ -64455,8 +64455,8 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 4,
-        "curriculum": 2,
-        "ai-systems": 2
+        "ai-systems": 2,
+        "curriculum": 2
       }
     },
     {
@@ -64471,8 +64471,8 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 4,
-        "curriculum": 2,
-        "ai-systems": 2
+        "ai-systems": 2,
+        "curriculum": 2
       }
     },
     {
@@ -64487,8 +64487,8 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 4,
-        "curriculum": 2,
-        "ai-systems": 2
+        "ai-systems": 2,
+        "curriculum": 2
       }
     },
     {
@@ -64503,8 +64503,8 @@
       "namespace": "curriculum",
       "namespaces": {
         "curriculum": 2,
-        "platform": 1,
         "measurement": 1,
+        "platform": 1,
         "pedagogy": 1
       }
     },
@@ -64520,8 +64520,8 @@
       "namespace": "curriculum",
       "namespaces": {
         "curriculum": 2,
-        "platform": 1,
         "measurement": 1,
+        "platform": 1,
         "pedagogy": 1
       }
     },
@@ -64537,8 +64537,8 @@
       "namespace": "curriculum",
       "namespaces": {
         "curriculum": 2,
-        "platform": 1,
         "measurement": 1,
+        "platform": 1,
         "pedagogy": 1
       }
     },
@@ -64554,8 +64554,8 @@
       "namespace": "curriculum",
       "namespaces": {
         "curriculum": 2,
-        "platform": 1,
         "measurement": 1,
+        "platform": 1,
         "pedagogy": 1
       }
     },
@@ -64571,8 +64571,8 @@
       "namespace": "curriculum",
       "namespaces": {
         "curriculum": 2,
-        "platform": 1,
         "measurement": 1,
+        "platform": 1,
         "pedagogy": 1
       }
     },
@@ -64588,8 +64588,8 @@
       "namespace": "curriculum",
       "namespaces": {
         "curriculum": 2,
-        "platform": 1,
         "measurement": 1,
+        "platform": 1,
         "pedagogy": 1
       }
     },
@@ -64606,9 +64606,9 @@
       "namespaces": {
         "pedagogy": 2,
         "assessment": 1,
-        "platform": 1,
         "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1
       }
     },
     {
@@ -64624,9 +64624,9 @@
       "namespaces": {
         "pedagogy": 2,
         "assessment": 1,
-        "platform": 1,
         "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1
       }
     },
     {
@@ -64642,9 +64642,9 @@
       "namespaces": {
         "pedagogy": 2,
         "assessment": 1,
-        "platform": 1,
         "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1
       }
     },
     {
@@ -64660,9 +64660,9 @@
       "namespaces": {
         "pedagogy": 2,
         "assessment": 1,
-        "platform": 1,
         "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1
       }
     },
     {
@@ -64678,9 +64678,9 @@
       "namespaces": {
         "pedagogy": 2,
         "assessment": 1,
-        "platform": 1,
         "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1
       }
     },
     {
@@ -64696,9 +64696,9 @@
       "namespaces": {
         "pedagogy": 2,
         "assessment": 1,
-        "platform": 1,
         "fde-craft": 1,
-        "measurement": 1
+        "measurement": 1,
+        "platform": 1
       }
     },
     {
@@ -64710,12 +64710,12 @@
       "label": "Prediction 1.",
       "claim": "More than a quarter of students will change their decision between item 1 and the artefact, and the modal direction will be from ship to conditional rather than from ship to no-ship.",
       "instrument": "item 1 against artefact item 1, coded for direction. **The modal direction is the claim**: a conditional is the move a student makes when re-reading their evidence has made them uncomfortable and the artefact still has to be written.",
-      "namespace": "assessment",
+      "namespace": "pedagogy",
       "namespaces": {
-        "assessment": 2,
         "pedagogy": 2,
-        "curriculum": 1,
-        "measurement": 1
+        "assessment": 2,
+        "measurement": 1,
+        "curriculum": 1
       }
     },
     {
@@ -64727,12 +64727,12 @@
       "label": "Prediction 2.",
       "claim": "More than half of artefact item 8 counter-arguments will be weaker than the same student's item 2, written before any evidence was re-read.",
       "instrument": "item 2 and item 8 paired and rated blind by the assessors against each other, not against a standard. **If this holds, the A4 mechanism does not survive being applied to oneself**, and [WP-069](/wiki/whitepapers/WP-069.md)'s proposed countermeasure is retracted for every contingent reuse under rule 5.",
-      "namespace": "assessment",
+      "namespace": "pedagogy",
       "namespaces": {
-        "assessment": 2,
         "pedagogy": 2,
-        "curriculum": 1,
-        "measurement": 1
+        "assessment": 2,
+        "measurement": 1,
+        "curriculum": 1
       }
     },
     {
@@ -64744,12 +64744,12 @@
       "label": "Prediction 3.",
       "claim": "The cohort's ship, no-ship and conditional split will not correlate with the strength of the students' evidence positions and will correlate with the quality of their detection designs.",
       "instrument": "decisions coded against independent ratings of artefact items 2 and 4. **If the split tracks the evidence instead, phase 6 point 2 is wrong** and the module has taught that a release decision is a quality decision after all.",
-      "namespace": "assessment",
+      "namespace": "pedagogy",
       "namespaces": {
-        "assessment": 2,
         "pedagogy": 2,
-        "curriculum": 1,
-        "measurement": 1
+        "assessment": 2,
+        "measurement": 1,
+        "curriculum": 1
       }
     },
     {
@@ -64761,12 +64761,12 @@
       "label": "Prediction 4.",
       "claim": "In the scoped S050 comparison, real-pressure conduct will diverge downward from constructed-pressure level for a majority of students.",
       "instrument": "the phase 5 part-two field, aggregated by direction. **This is the prediction the programme most needs to be wrong about**, because a systematic downward divergence means every level awarded on a constructed occasion in this programme is an overestimate — and §8 objection 1 states that the instrument is too weak to distinguish that finding from a dose effect, which is why the result is reported with its dose and not as a transfer estimate.",
-      "namespace": "assessment",
+      "namespace": "pedagogy",
       "namespaces": {
-        "assessment": 2,
         "pedagogy": 2,
-        "curriculum": 1,
-        "measurement": 1
+        "assessment": 2,
+        "measurement": 1,
+        "curriculum": 1
       }
     },
     {
@@ -64778,12 +64778,12 @@
       "label": "Prediction 5.",
       "claim": "At item 9, fewer than half of students will state that their gate's judge has no published agreement with human judgement, despite the fact being taught at [S066](/wiki/seminars/S066.md) point 10, restated at that day's phase 8, and retrievable in one line.",
       "instrument": "item 9 second sentences, coded for whether the uncalibration is named. **If the rate is high, the module's most-repeated fact has landed and the fourth failure condition is redundant; if it is low, the design has evidence that a fact taught four times and never required in an artefact does not survive to the occasion that needs it** — which would be the strongest single result in this module and would bear directly on instrumentation rule 7.",
-      "namespace": "assessment",
+      "namespace": "pedagogy",
       "namespaces": {
-        "assessment": 2,
         "pedagogy": 2,
-        "curriculum": 1,
-        "measurement": 1
+        "assessment": 2,
+        "measurement": 1,
+        "curriculum": 1
       }
     },
     {
@@ -64795,12 +64795,12 @@
       "label": "Prediction 6.",
       "claim": "More than a quarter of item 9 third lists — what the student is relying on without having checked — will be empty, and empty third lists will be concentrated among students whose artefacts are longest.",
       "instrument": "item 9 third lists coded for emptiness, against artefact length and against the four-day intervention-record counts. **The correlation is the claim.** An empty third list on a four-day agent-assisted chain is not credible, and if it correlates with length rather than with intervention count then the artefact's polish is being produced by the tool and read as diligence — which is §8 objection 4 becoming measurable in the one place the design can currently see it.",
-      "namespace": "assessment",
+      "namespace": "pedagogy",
       "namespaces": {
-        "assessment": 2,
         "pedagogy": 2,
-        "curriculum": 1,
-        "measurement": 1
+        "assessment": 2,
+        "measurement": 1,
+        "curriculum": 1
       }
     },
     {
@@ -64812,10 +64812,10 @@
       "label": "Prediction 1.",
       "claim": "Fewer than half of the exclusions each student sealed at [S055](/wiki/seminars/S055.md) will be re-labellable at item 1, and the modal stated reason for the remainder will be an intervention that is unavailable rather than an intervention that was run and gave a mixed result.",
       "instrument": "item 1 responses coded label-now / cannot-label, with cannot-label reasons coded by whether the named intervention is available on the substrate. **If the modal reason is a mixed result instead, S055's exclusion route was being used to avoid a judgement rather than to record an inconclusive one**, and S055's humility measure means something different from what that day claimed.",
-      "namespace": "platform",
+      "namespace": "pedagogy",
       "namespaces": {
-        "platform": 4,
         "pedagogy": 4,
+        "platform": 4,
         "measurement": 2,
         "ai-systems": 1
       }
@@ -64829,10 +64829,10 @@
       "label": "Prediction 2.",
       "claim": "More than half of all step 4 boundary lines will carry a blank enforcement field on first submission, and the distribution will be bimodal — a small number of students with almost none, and most with almost all.",
       "instrument": "step 4 lines coded for enforcement presence, per student, before and after the [S073](/wiki/seminars/S073.md) step 5 revision. **If blanks are rare, either the boundaries are trivial or students are naming enforcement that does not exist**; the two are distinguished at S073 step 5, where the enforcement must be located on the student's own control-flow drawing.",
-      "namespace": "platform",
+      "namespace": "pedagogy",
       "namespaces": {
-        "platform": 4,
         "pedagogy": 4,
+        "platform": 4,
         "measurement": 2,
         "ai-systems": 1
       }
@@ -64846,10 +64846,10 @@
       "label": "Prediction 3.",
       "claim": "The rota member's decline-week estimates will be systematically earlier than the peers' for the same stated rates.",
       "instrument": "phase 7's two distributions compared by median week per student. **If the peers are earlier or the two agree, the rule 1 correction bought nothing on this day**, and §8 objection 2's fix is correct in principle and empty in practice — which would be a finding about rule 1's reach rather than about this day.",
-      "namespace": "platform",
+      "namespace": "pedagogy",
       "namespaces": {
-        "platform": 4,
         "pedagogy": 4,
+        "platform": 4,
         "measurement": 2,
         "ai-systems": 1
       }
@@ -64863,10 +64863,10 @@
       "label": "Prediction 4.",
       "claim": "A majority of step 6 predictions will name no action that appears in the step 7 shadow run, and the modal missed action will be one whose reversal is social rather than technical.",
       "instrument": "step 6 and step 7 pairs coded for match; misses coded by reversibility class. **This is the prediction the module most needs to be wrong about**, because [S074](/wiki/seminars/S074.md) step 3 is built to consume the unanticipated set and a small set makes that element thin. If the misses concentrate on socially-irreversible actions, point 7's scope statement is the day's most load-bearing sentence and is currently carried by one artefact clause.",
-      "namespace": "platform",
+      "namespace": "pedagogy",
       "namespaces": {
-        "platform": 4,
         "pedagogy": 4,
+        "platform": 4,
         "measurement": 2,
         "ai-systems": 1
       }
@@ -64880,10 +64880,10 @@
       "label": "Prediction 5.",
       "claim": "At item 5, a large majority will predict that the agent grants more than asked, and a small minority will predict *where* — that the prohibition is expressed in the agent's instructions rather than in a schema, a permission, a precondition or a rate.",
       "instrument": "item 5 responses coded generic / specific, against what each student's agent actually produced at step 2, with the location of the produced prohibition coded into the same six categories used at [S073](/wiki/seminars/S073.md) phase 8. **The gap between the two rates is this day's frontier-calibration measure**, and the design's expectation is that it is wide. **If the specific rate is high, the cohort already holds point 5 and the day's central instruction is redundant**, which would be the most surprising result in the module and would mean two years of agent practice taught something the design assumed it did not.",
-      "namespace": "platform",
+      "namespace": "pedagogy",
       "namespaces": {
-        "platform": 4,
         "pedagogy": 4,
+        "platform": 4,
         "measurement": 2,
         "ai-systems": 1
       }
@@ -64897,10 +64897,10 @@
       "label": "Prediction 6.",
       "claim": "The intervention records' acceptance counts will be **absent or implausibly round** for a substantial minority of artefacts on first submission.",
       "instrument": "step 5 acceptance counts coded present / absent / round-number, joined to the correction count. **A missing denominator is the finding**, not a paperwork failure: it is direct evidence for §8 objection 3's claim that a student who is not reading the output is also not counting it, and it is the datum that decides whether the field should be proposed to the [Copilot Practice Standard](/wiki/program/12-Copilot-Practice-Standard.md) or withdrawn. **Instrumentation note, for the compliance register.** The entry this paper's §8 objection 2 requires, stated so that it can be transcribed without re-derivation: *[WP-071](/wiki/whitepapers/WP-071.md) §8 — [S071](/wiki/seminars/S071.md) phase 7 measured with a peer a judgement an available external observer was positioned to make, and did not carry [S068](/wiki/seminars/S068.md) step 5's remedy across. Rule: instrumentation rules 1 and 5. Status: **Fixed**. Reason: violation of two written rules, with the remedy already in the design's repertoire; no design judgement was in contest.* **A second note, for the [Copilot Practice Standard](/wiki/program/12-Copilot-Practice-Standard.md), argued and not enacted.** §8 objection 3's fix, stated so it can be transcribed if this day's outcome supports it: **\"The intervention record states the number of agent outputs accepted without change alongside the corrections. A record of corrections without a count of acceptances is a numerator without a denominator, and the decline-rate test [S071](/wiki/seminars/S071.md) point 8 establishes cannot be computed from it.\"** Provenance: proposed at [WP-071](/wiki/whitepapers/WP-071.md) §8, used at [S071](/wiki/seminars/S071.md) only, contingent under instrumentation rule 5 as amended, and tested by §9 prediction 6. **This paper cannot edit a shared page and does not.**",
-      "namespace": "platform",
+      "namespace": "pedagogy",
       "namespaces": {
-        "platform": 4,
         "pedagogy": 4,
+        "platform": 4,
         "measurement": 2,
         "ai-systems": 1
       }
@@ -65020,8 +65020,8 @@
       "namespaces": {
         "platform": 4,
         "pedagogy": 3,
-        "fde-craft": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "fde-craft": 1
       }
     },
     {
@@ -65037,8 +65037,8 @@
       "namespaces": {
         "platform": 4,
         "pedagogy": 3,
-        "fde-craft": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "fde-craft": 1
       }
     },
     {
@@ -65054,8 +65054,8 @@
       "namespaces": {
         "platform": 4,
         "pedagogy": 3,
-        "fde-craft": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "fde-craft": 1
       }
     },
     {
@@ -65071,8 +65071,8 @@
       "namespaces": {
         "platform": 4,
         "pedagogy": 3,
-        "fde-craft": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "fde-craft": 1
       }
     },
     {
@@ -65088,8 +65088,8 @@
       "namespaces": {
         "platform": 4,
         "pedagogy": 3,
-        "fde-craft": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "fde-craft": 1
       }
     },
     {
@@ -65105,8 +65105,8 @@
       "namespaces": {
         "platform": 4,
         "pedagogy": 3,
-        "fde-craft": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "fde-craft": 1
       }
     },
     {
@@ -65410,10 +65410,10 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 2,
-        "platform": 1,
         "ai-systems": 1,
         "assessment": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "platform": 1
       }
     },
     {
@@ -65428,10 +65428,10 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 2,
-        "platform": 1,
         "ai-systems": 1,
         "assessment": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "platform": 1
       }
     },
     {
@@ -65446,10 +65446,10 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 2,
-        "platform": 1,
         "ai-systems": 1,
         "assessment": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "platform": 1
       }
     },
     {
@@ -65464,10 +65464,10 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 2,
-        "platform": 1,
         "ai-systems": 1,
         "assessment": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "platform": 1
       }
     },
     {
@@ -65482,10 +65482,10 @@
       "namespace": "measurement",
       "namespaces": {
         "measurement": 2,
-        "platform": 1,
         "ai-systems": 1,
         "assessment": 1,
-        "pedagogy": 1
+        "pedagogy": 1,
+        "platform": 1
       }
     },
     {
@@ -65497,14 +65497,14 @@
       "label": "Prediction 1.",
       "claim": "At item 4, a majority of students will predict that adding the check degrades all principals roughly equally, and the measured effect at step 3 will be concentrated on the most restricted class.",
       "instrument": "item 4 free-text predictions coded for whether they identify a class at all, joined to the step 3 measurement's shape. **The claim is about the coding of the prediction, not its magnitude**: a student who predicts a uniform effect has a different model from one who predicts the wrong class, and only the first is the schema failure §1 describes.",
-      "namespace": "platform",
+      "namespace": "measurement",
       "namespaces": {
-        "platform": 3,
         "measurement": 3,
-        "ai-systems": 2,
+        "platform": 3,
         "assessment": 2,
-        "pedagogy": 1,
-        "fde-craft": 1
+        "ai-systems": 2,
+        "fde-craft": 1,
+        "pedagogy": 1
       }
     },
     {
@@ -65516,14 +65516,14 @@
       "label": "Prediction 2.",
       "claim": "At item 3, more than half of students will answer with a mechanism rather than a duration, and their durations, where given, will be shorter than the measured staleness latency at step 5.",
       "instrument": "item 3 answers coded as duration or mechanism, and the durations compared signed against step 5. **If the durations are accurate, staleness is already held as a latency** and point 5 is a formalisation rather than an introduction, which would move it out of phase 4 and into the artefact form.",
-      "namespace": "platform",
+      "namespace": "measurement",
       "namespaces": {
-        "platform": 3,
         "measurement": 3,
-        "ai-systems": 2,
+        "platform": 3,
         "assessment": 2,
-        "pedagogy": 1,
-        "fde-craft": 1
+        "ai-systems": 2,
+        "fde-craft": 1,
+        "pedagogy": 1
       }
     },
     {
@@ -65535,14 +65535,14 @@
       "label": "Prediction 3.",
       "claim": "Groups will rank P4 as leaking least before the records are supplied, and will rank P3 as leaking least *after* them.",
       "instrument": "committed rankings against post-record rankings, per placement. **The second half is the interesting one**: P3 silently truncates, which is a leak of a different kind, and a room that moves from P4 to P3 has learned that a control can be correct and irrelevant without yet learning that absence is informative — which is what phase 6 is for and would be evidence that the clinic is doing work.",
-      "namespace": "platform",
+      "namespace": "measurement",
       "namespaces": {
-        "platform": 3,
         "measurement": 3,
-        "ai-systems": 2,
+        "platform": 3,
         "assessment": 2,
-        "pedagogy": 1,
-        "fde-craft": 1
+        "ai-systems": 2,
+        "fde-craft": 1,
+        "pedagogy": 1
       }
     },
     {
@@ -65554,14 +65554,14 @@
       "label": "Prediction 4.",
       "claim": "For at least a quarter of the cohort, the least-privileged principal class at step 3 will contain fewer than ten principals.",
       "instrument": "step 3 class sizes, which specification rule 2 requires in the same field as the result. **This is the direct test of §8 objection 2**, and if it holds for more than half the cohort, the per-class measurement is not a measurement on this substrate and the design must either change the substrate's permission structure or stop claiming the finding is the student's own.",
-      "namespace": "platform",
+      "namespace": "measurement",
       "namespaces": {
-        "platform": 3,
         "measurement": 3,
-        "ai-systems": 2,
+        "platform": 3,
         "assessment": 2,
-        "pedagogy": 1,
-        "fde-craft": 1
+        "ai-systems": 2,
+        "fde-craft": 1,
+        "pedagogy": 1
       }
     },
     {
@@ -65573,14 +65573,14 @@
       "label": "Prediction 5.",
       "claim": "At item 5, a large majority of agents will produce the string-filter approach; fewer than one student in five will have predicted that specifically; and **fewer than one in ten will have predicted the missing chunk projection.** At step 6, a majority of pipelines that chunk will be found not to project permissions.",
       "instrument": "item 5 responses coded against what each agent produced, and step 6 results in three categories. **The step 6 rate is the claim that matters.** If most pipelines already project correctly, the chunking run is a demonstration of a solved problem for this cohort and its phase 3 slot should go to the reserve placement in §5; if the rate is high, the day has found a live defect in the cohort's own production retrieval paths, and that finding belongs to the substrate's data owner within the week rather than to a phase 8 slide.",
-      "namespace": "platform",
+      "namespace": "measurement",
       "namespaces": {
-        "platform": 3,
         "measurement": 3,
-        "ai-systems": 2,
+        "platform": 3,
         "assessment": 2,
-        "pedagogy": 1,
-        "fde-craft": 1
+        "ai-systems": 2,
+        "fde-craft": 1,
+        "pedagogy": 1
       }
     },
     {
@@ -65596,9 +65596,9 @@
       "namespaces": {
         "measurement": 2,
         "pedagogy": 2,
-        "platform": 1,
         "curriculum": 1,
-        "assessment": 1
+        "assessment": 1,
+        "platform": 1
       }
     },
     {
@@ -65614,9 +65614,9 @@
       "namespaces": {
         "measurement": 2,
         "pedagogy": 2,
-        "platform": 1,
         "curriculum": 1,
-        "assessment": 1
+        "assessment": 1,
+        "platform": 1
       }
     },
     {
@@ -65632,9 +65632,9 @@
       "namespaces": {
         "measurement": 2,
         "pedagogy": 2,
-        "platform": 1,
         "curriculum": 1,
-        "assessment": 1
+        "assessment": 1,
+        "platform": 1
       }
     },
     {
@@ -65650,9 +65650,9 @@
       "namespaces": {
         "measurement": 2,
         "pedagogy": 2,
-        "platform": 1,
         "curriculum": 1,
-        "assessment": 1
+        "assessment": 1,
+        "platform": 1
       }
     },
     {
@@ -65668,9 +65668,9 @@
       "namespaces": {
         "measurement": 2,
         "pedagogy": 2,
-        "platform": 1,
         "curriculum": 1,
-        "assessment": 1
+        "assessment": 1,
+        "platform": 1
       }
     },
     {
@@ -65685,8 +65685,8 @@
       "namespace": "assessment",
       "namespaces": {
         "assessment": 3,
-        "pedagogy": 2,
         "fde-craft": 2,
+        "pedagogy": 2,
         "curriculum": 1,
         "measurement": 1
       }
@@ -65703,8 +65703,8 @@
       "namespace": "assessment",
       "namespaces": {
         "assessment": 3,
-        "pedagogy": 2,
         "fde-craft": 2,
+        "pedagogy": 2,
         "curriculum": 1,
         "measurement": 1
       }
@@ -65721,8 +65721,8 @@
       "namespace": "assessment",
       "namespaces": {
         "assessment": 3,
-        "pedagogy": 2,
         "fde-craft": 2,
+        "pedagogy": 2,
         "curriculum": 1,
         "measurement": 1
       }
@@ -65739,8 +65739,8 @@
       "namespace": "assessment",
       "namespaces": {
         "assessment": 3,
-        "pedagogy": 2,
         "fde-craft": 2,
+        "pedagogy": 2,
         "curriculum": 1,
         "measurement": 1
       }
@@ -65757,8 +65757,8 @@
       "namespace": "assessment",
       "namespaces": {
         "assessment": 3,
-        "pedagogy": 2,
         "fde-craft": 2,
+        "pedagogy": 2,
         "curriculum": 1,
         "measurement": 1
       }
@@ -65860,8 +65860,8 @@
       "namespace": "fde-craft",
       "namespaces": {
         "fde-craft": 5,
-        "ai-systems": 2,
         "pedagogy": 2,
+        "ai-systems": 2,
         "platform": 1
       }
     },
@@ -65877,8 +65877,8 @@
       "namespace": "fde-craft",
       "namespaces": {
         "fde-craft": 5,
-        "ai-systems": 2,
         "pedagogy": 2,
+        "ai-systems": 2,
         "platform": 1
       }
     },
@@ -65894,8 +65894,8 @@
       "namespace": "fde-craft",
       "namespaces": {
         "fde-craft": 5,
-        "ai-systems": 2,
         "pedagogy": 2,
+        "ai-systems": 2,
         "platform": 1
       }
     },
@@ -65911,8 +65911,8 @@
       "namespace": "fde-craft",
       "namespaces": {
         "fde-craft": 5,
-        "ai-systems": 2,
         "pedagogy": 2,
+        "ai-systems": 2,
         "platform": 1
       }
     },
@@ -65928,8 +65928,8 @@
       "namespace": "fde-craft",
       "namespaces": {
         "fde-craft": 5,
-        "ai-systems": 2,
         "pedagogy": 2,
+        "ai-systems": 2,
         "platform": 1
       }
     },
@@ -66417,12 +66417,12 @@
       "label": "Prediction 1.",
       "claim": "At item 3, self-protection will be the least-cited reason for an omission and, at phase 7, partners will identify the author's position as the beneficiary of the omission more often than authors did.",
       "instrument": "item 3 reasons coded into the four categories, set against phase 7's condition-two classifications for the same items. **The gap is the claim**, not either figure alone: the design predicts that authors and readers of the same omission disagree systematically about who it served.",
-      "namespace": "assessment",
+      "namespace": "fde-craft",
       "namespaces": {
-        "assessment": 3,
         "fde-craft": 3,
-        "measurement": 2,
-        "pedagogy": 2
+        "assessment": 3,
+        "pedagogy": 2,
+        "measurement": 2
       }
     },
     {
@@ -66434,12 +66434,12 @@
       "label": "Prediction 2.",
       "claim": "More than a third of groups will rank R2 first before the outcome is supplied, and the justification will appeal to usability.",
       "instrument": "phase 3 rankings with justifications coded. **This is the prediction the day depends on**: if the room spots R2's omission unprompted, the implicating case does not implicate and phase 4 point 3 is being taught to a room that already holds it.",
-      "namespace": "assessment",
+      "namespace": "fde-craft",
       "namespaces": {
-        "assessment": 3,
         "fde-craft": 3,
-        "measurement": 2,
-        "pedagogy": 2
+        "assessment": 3,
+        "pedagogy": 2,
+        "measurement": 2
       }
     },
     {
@@ -66451,12 +66451,12 @@
       "label": "Prediction 3.",
       "claim": "At phase 8, the cohort's item 4 positions will have moved from their week-thirteen [S013](/wiki/seminars/S013.md) positions in the direction of a stricter standard, and the movement will be larger for students whose S013 position was permissive.",
       "instrument": "the [S013](/wiki/seminars/S013.md) aggregate against item 4, coded for strictness and paired per student where the records permit. **No movement is the informative result** and is the reading [WP-013](/wiki/whitepapers/WP-013.md) §9 prediction 4 specified: it would indicate that neither [S013](/wiki/seminars/S013.md) nor this day changed anything, and that a two-year loop bought the programme nothing.",
-      "namespace": "assessment",
+      "namespace": "fde-craft",
       "namespaces": {
-        "assessment": 3,
         "fde-craft": 3,
-        "measurement": 2,
-        "pedagogy": 2
+        "assessment": 3,
+        "pedagogy": 2,
+        "measurement": 2
       }
     },
     {
@@ -66468,12 +66468,12 @@
       "label": "Prediction 4.",
       "claim": "At step 5, the condition that most often triggers an item's return to the statement will be counterfactual disclosure rather than recoverability, and the returned items will be disproportionately those the author's item 3 reason coded as *uncertainty*.",
       "instrument": "step 5 movements coded by triggering condition and matched to item 3 reasons. **If recoverability dominates instead, the day's third condition is doing no work** and the framework reduces to [S065](/wiki/seminars/S065.md)'s pair with better wording, which would mean this whitepaper's central claim to have advanced the question is false.",
-      "namespace": "assessment",
+      "namespace": "fde-craft",
       "namespaces": {
-        "assessment": 3,
         "fde-craft": 3,
-        "measurement": 2,
-        "pedagogy": 2
+        "assessment": 3,
+        "pedagogy": 2,
+        "measurement": 2
       }
     },
     {
@@ -66485,12 +66485,12 @@
       "label": "Prediction 5 — the practical turn's own, per §8 objection 3.",
       "claim": "The inherited-guarantee heading will be the **longest** of the five in the step 2 enumerations and the **shortest-lived** in the step 3 statements — that is, students will enumerate many inherited guarantees and carry almost none of them through, and the step 5 audit will rarely mark any of them decision-changing.",
       "instrument": "step 2 entries and step 3 survivals coded by heading, with the step 5 condition-three answers for the inherited-guarantee items reported separately. **If that pattern holds, point 10 has been received as a recording exercise and objection 3 is correct**, and the response is the reordering the objection names. **If inherited guarantees are marked decision-changing at the same rate as the other four headings, the platform content has been integrated into the ethics rather than appended to it**, which is what the design intends and has not demonstrated.",
-      "namespace": "assessment",
+      "namespace": "fde-craft",
       "namespaces": {
-        "assessment": 3,
         "fde-craft": 3,
-        "measurement": 2,
-        "pedagogy": 2
+        "assessment": 3,
+        "pedagogy": 2,
+        "measurement": 2
       }
     },
     {
@@ -66502,12 +66502,12 @@
       "label": "Prediction 6 — the frontier item.",
       "claim": "A large majority of item 8 sealed predictions will name a *risk* as the thing the agent will drop, and a small minority will name a *qualification* — a horizon, a confidence, an interval.",
       "instrument": "item 8 responses coded by omission class against what each student's agent actually dropped, with the two distributions reported side by side. **The design predicts that the observed distribution is dominated by qualifications and the predicted distribution by risks**, which would mean the cohort's model of the agent is about content and the agent's actual selection is about form — a frontier finding the phase 6 case states and this instrument would measure. Its reader is next year's cohort.",
-      "namespace": "assessment",
+      "namespace": "fde-craft",
       "namespaces": {
-        "assessment": 3,
         "fde-craft": 3,
-        "measurement": 2,
-        "pedagogy": 2
+        "assessment": 3,
+        "pedagogy": 2,
+        "measurement": 2
       }
     },
     {
@@ -66524,8 +66524,8 @@
         "fde-craft": 4,
         "assessment": 3,
         "pedagogy": 2,
-        "platform": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "platform": 1
       }
     },
     {
@@ -66542,8 +66542,8 @@
         "fde-craft": 4,
         "assessment": 3,
         "pedagogy": 2,
-        "platform": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "platform": 1
       }
     },
     {
@@ -66560,8 +66560,8 @@
         "fde-craft": 4,
         "assessment": 3,
         "pedagogy": 2,
-        "platform": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "platform": 1
       }
     },
     {
@@ -66578,8 +66578,8 @@
         "fde-craft": 4,
         "assessment": 3,
         "pedagogy": 2,
-        "platform": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "platform": 1
       }
     },
     {
@@ -66596,8 +66596,8 @@
         "fde-craft": 4,
         "assessment": 3,
         "pedagogy": 2,
-        "platform": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "platform": 1
       }
     },
     {
@@ -66614,8 +66614,8 @@
         "fde-craft": 4,
         "assessment": 3,
         "pedagogy": 2,
-        "platform": 1,
-        "ai-systems": 1
+        "ai-systems": 1,
+        "platform": 1
       }
     },
     {
@@ -66813,7 +66813,7 @@
         "research/06-microsoft-platform/collected-materials",
         "research/06-microsoft-platform/agent-framework-and-evaluations-docs"
       ],
-      "namespace": "platform",
+      "namespace": "pedagogy",
       "words": 133
     },
     {
@@ -66825,7 +66825,7 @@
       "class_name": "general-knowledge",
       "licenses": "Direction and mechanism only. No effect size, ever.",
       "cites": [],
-      "namespace": "platform",
+      "namespace": "pedagogy",
       "words": 62
     },
     {
@@ -66839,7 +66839,7 @@
       "cites": [
         "research/06-microsoft-platform/collected-materials"
       ],
-      "namespace": "platform",
+      "namespace": "pedagogy",
       "words": 433
     },
     {
@@ -66851,7 +66851,7 @@
       "class_name": "design-reasoning",
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
-      "namespace": "platform",
+      "namespace": "pedagogy",
       "words": 134
     },
     {
@@ -67864,7 +67864,7 @@
         "research/06-microsoft-platform/collected-materials",
         "research/01-course-structure/10-gap-analysis-and-course-architecture"
       ],
-      "namespace": "platform",
+      "namespace": "curriculum",
       "words": 45
     },
     {
@@ -67878,7 +67878,7 @@
       "cites": [
         "research/06-microsoft-platform/collected-materials"
       ],
-      "namespace": "platform",
+      "namespace": "curriculum",
       "words": 446
     },
     {
@@ -67890,7 +67890,7 @@
       "class_name": "general-knowledge",
       "licenses": "Direction and mechanism only. No effect size, ever.",
       "cites": [],
-      "namespace": "platform",
+      "namespace": "curriculum",
       "words": 63
     },
     {
@@ -67902,7 +67902,7 @@
       "class_name": "design-reasoning",
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
-      "namespace": "platform",
+      "namespace": "curriculum",
       "words": 206
     },
     {
@@ -67919,7 +67919,7 @@
         "research/02-technical-foundations/malkov-yashunin-hnsw",
         "research/06-microsoft-platform/collected-materials"
       ],
-      "namespace": "platform",
+      "namespace": "measurement",
       "words": 48
     },
     {
@@ -67933,7 +67933,7 @@
       "cites": [
         "research/06-microsoft-platform/collected-materials"
       ],
-      "namespace": "platform",
+      "namespace": "measurement",
       "words": 443
     },
     {
@@ -67945,7 +67945,7 @@
       "class_name": "general-knowledge",
       "licenses": "Direction and mechanism only. No effect size, ever.",
       "cites": [],
-      "namespace": "platform",
+      "namespace": "measurement",
       "words": 62
     },
     {
@@ -67957,7 +67957,7 @@
       "class_name": "design-reasoning",
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
-      "namespace": "platform",
+      "namespace": "measurement",
       "words": 216
     },
     {
@@ -67974,7 +67974,7 @@
         "research/06-microsoft-platform/collected-materials",
         "research/01-course-structure/10-gap-analysis-and-course-architecture"
       ],
-      "namespace": "platform",
+      "namespace": "curriculum",
       "words": 53
     },
     {
@@ -67988,7 +67988,7 @@
       "cites": [
         "research/06-microsoft-platform/collected-materials"
       ],
-      "namespace": "platform",
+      "namespace": "curriculum",
       "words": 413
     },
     {
@@ -68000,7 +68000,7 @@
       "class_name": "general-knowledge",
       "licenses": "Direction and mechanism only. No effect size, ever.",
       "cites": [],
-      "namespace": "platform",
+      "namespace": "curriculum",
       "words": 68
     },
     {
@@ -68012,7 +68012,7 @@
       "class_name": "design-reasoning",
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
-      "namespace": "platform",
+      "namespace": "curriculum",
       "words": 231
     },
     {
@@ -68030,7 +68030,7 @@
         "research/08-assessment-epas/ten-cate-epa-framework",
         "research/06-microsoft-platform/collected-materials"
       ],
-      "namespace": "platform",
+      "namespace": "pedagogy",
       "words": 49
     },
     {
@@ -68044,7 +68044,7 @@
       "cites": [
         "research/06-microsoft-platform/collected-materials"
       ],
-      "namespace": "platform",
+      "namespace": "pedagogy",
       "words": 420
     },
     {
@@ -68056,7 +68056,7 @@
       "class_name": "general-knowledge",
       "licenses": "Direction and mechanism only. No effect size, ever.",
       "cites": [],
-      "namespace": "platform",
+      "namespace": "pedagogy",
       "words": 67
     },
     {
@@ -68068,7 +68068,7 @@
       "class_name": "design-reasoning",
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
-      "namespace": "platform",
+      "namespace": "pedagogy",
       "words": 260
     },
     {
@@ -68087,7 +68087,7 @@
         "research/02-technical-foundations/jegou-product-quantization",
         "research/06-microsoft-platform/agent-framework-and-evaluations-docs"
       ],
-      "namespace": "platform",
+      "namespace": "measurement",
       "words": 76
     },
     {
@@ -68101,7 +68101,7 @@
       "cites": [
         "research/06-microsoft-platform/collected-materials"
       ],
-      "namespace": "platform",
+      "namespace": "measurement",
       "words": 450
     },
     {
@@ -68113,7 +68113,7 @@
       "class_name": "general-knowledge",
       "licenses": "Direction and mechanism only. No effect size, ever.",
       "cites": [],
-      "namespace": "platform",
+      "namespace": "measurement",
       "words": 58
     },
     {
@@ -68125,7 +68125,7 @@
       "class_name": "design-reasoning",
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
-      "namespace": "platform",
+      "namespace": "measurement",
       "words": 274
     },
     {
@@ -68578,7 +68578,7 @@
         "research/03-measurement-evaluation/collected-materials",
         "research/06-microsoft-platform/apim-ai-gateway-docs"
       ],
-      "namespace": "platform",
+      "namespace": "fde-craft",
       "words": 73
     },
     {
@@ -68592,7 +68592,7 @@
       "cites": [
         "research/06-microsoft-platform/collected-materials"
       ],
-      "namespace": "platform",
+      "namespace": "fde-craft",
       "words": 321
     },
     {
@@ -68604,7 +68604,7 @@
       "class_name": "general-knowledge",
       "licenses": "Direction and mechanism only. No effect size, ever.",
       "cites": [],
-      "namespace": "platform",
+      "namespace": "fde-craft",
       "words": 61
     },
     {
@@ -68616,7 +68616,7 @@
       "class_name": "design-reasoning",
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
-      "namespace": "platform",
+      "namespace": "fde-craft",
       "words": 272
     },
     {
@@ -68974,7 +68974,7 @@
         "research/06-microsoft-platform/collected-materials",
         "research/03-measurement-evaluation/singh-leaderboard-illusion"
       ],
-      "namespace": "platform",
+      "namespace": "measurement",
       "words": 142
     },
     {
@@ -68988,7 +68988,7 @@
       "cites": [
         "research/06-microsoft-platform/collected-materials"
       ],
-      "namespace": "platform",
+      "namespace": "measurement",
       "words": 521
     },
     {
@@ -69000,7 +69000,7 @@
       "class_name": "general-knowledge",
       "licenses": "Direction and mechanism only. No effect size, ever.",
       "cites": [],
-      "namespace": "platform",
+      "namespace": "measurement",
       "words": 72
     },
     {
@@ -69012,7 +69012,7 @@
       "class_name": "design-reasoning",
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
-      "namespace": "platform",
+      "namespace": "measurement",
       "words": 261
     },
     {
@@ -69030,7 +69030,7 @@
         "research/06-microsoft-platform/agent-framework-and-evaluations-docs",
         "research/06-microsoft-platform/collected-materials"
       ],
-      "namespace": "platform",
+      "namespace": "measurement",
       "words": 203
     },
     {
@@ -69044,7 +69044,7 @@
       "cites": [
         "research/06-microsoft-platform/collected-materials"
       ],
-      "namespace": "platform",
+      "namespace": "measurement",
       "words": 379
     },
     {
@@ -69056,7 +69056,7 @@
       "class_name": "general-knowledge",
       "licenses": "Direction and mechanism only. No effect size, ever.",
       "cites": [],
-      "namespace": "platform",
+      "namespace": "measurement",
       "words": 65
     },
     {
@@ -69068,7 +69068,7 @@
       "class_name": "design-reasoning",
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
-      "namespace": "platform",
+      "namespace": "measurement",
       "words": 262
     },
     {
@@ -70629,7 +70629,7 @@
         "research/03-measurement-evaluation/husain-your-ai-product-needs-evals",
         "research/01-course-structure/cmu-17-645-ml-in-production-ai-engineering"
       ],
-      "namespace": "assessment",
+      "namespace": "pedagogy",
       "words": 63
     },
     {
@@ -70641,7 +70641,7 @@
       "class_name": "vendor-docs",
       "licenses": "What the documentation states at a version, together with what it does NOT report that a reader would need.",
       "cites": [],
-      "namespace": "assessment",
+      "namespace": "pedagogy",
       "words": 430
     },
     {
@@ -70653,7 +70653,7 @@
       "class_name": "general-knowledge",
       "licenses": "Direction and mechanism only. No effect size, ever.",
       "cites": [],
-      "namespace": "assessment",
+      "namespace": "pedagogy",
       "words": 88
     },
     {
@@ -70665,7 +70665,7 @@
       "class_name": "design-reasoning",
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
-      "namespace": "assessment",
+      "namespace": "pedagogy",
       "words": 295
     },
     {
@@ -70688,7 +70688,7 @@
         "research/04-professional-formation/frazier-psychological-safety-meta-analysis",
         "research/99-source-register/source-register"
       ],
-      "namespace": "platform",
+      "namespace": "pedagogy",
       "words": 97
     },
     {
@@ -70702,7 +70702,7 @@
       "cites": [
         "research/06-microsoft-platform/collected-materials"
       ],
-      "namespace": "platform",
+      "namespace": "pedagogy",
       "words": 379
     },
     {
@@ -70714,7 +70714,7 @@
       "class_name": "general-knowledge",
       "licenses": "Direction and mechanism only. No effect size, ever.",
       "cites": [],
-      "namespace": "platform",
+      "namespace": "pedagogy",
       "words": 119
     },
     {
@@ -70726,7 +70726,7 @@
       "class_name": "design-reasoning",
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
-      "namespace": "platform",
+      "namespace": "pedagogy",
       "words": 263
     },
     {
@@ -71108,7 +71108,7 @@
         "research/06-microsoft-platform/azure-ai-search-and-acl-patterns",
         "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs"
       ],
-      "namespace": "platform",
+      "namespace": "measurement",
       "words": 115
     },
     {
@@ -71122,7 +71122,7 @@
       "cites": [
         "research/06-microsoft-platform/collected-materials"
       ],
-      "namespace": "platform",
+      "namespace": "measurement",
       "words": 513
     },
     {
@@ -71134,7 +71134,7 @@
       "class_name": "general-knowledge",
       "licenses": "Direction and mechanism only. No effect size, ever.",
       "cites": [],
-      "namespace": "platform",
+      "namespace": "measurement",
       "words": 117
     },
     {
@@ -71146,7 +71146,7 @@
       "class_name": "design-reasoning",
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
-      "namespace": "platform",
+      "namespace": "measurement",
       "words": 277
     },
     {
@@ -71708,7 +71708,7 @@
         "research/08-assessment-epas/govaerts-narrative-assessment-literature",
         "research/04-professional-formation/keith-frese-error-management-training"
       ],
-      "namespace": "assessment",
+      "namespace": "fde-craft",
       "words": 105
     },
     {
@@ -71720,7 +71720,7 @@
       "class_name": "vendor-docs",
       "licenses": "What the documentation states at a version, together with what it does NOT report that a reader would need.",
       "cites": [],
-      "namespace": "assessment",
+      "namespace": "fde-craft",
       "words": 427
     },
     {
@@ -71732,7 +71732,7 @@
       "class_name": "general-knowledge",
       "licenses": "Direction and mechanism only. No effect size, ever.",
       "cites": [],
-      "namespace": "assessment",
+      "namespace": "fde-craft",
       "words": 128
     },
     {
@@ -71744,7 +71744,7 @@
       "class_name": "design-reasoning",
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
-      "namespace": "assessment",
+      "namespace": "fde-craft",
       "words": 345
     },
     {

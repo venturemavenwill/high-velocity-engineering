@@ -43,7 +43,7 @@ function Check([string]$label, [bool]$ok, [string]$detail = '') {
     Write-Host ('  {0}  {1}{2}' -f $mark, $label, $(if ($detail) { "  — $detail" } else { '' }))
 }
 
-$md = Get-ChildItem -Recurse -File -Filter *.md | Where-Object { $_.FullName -notmatch '\\(node_modules|\.git)\\' }
+$md = Get-ChildItem -Recurse -File -Filter *.md | Where-Object { $_.FullName -notmatch '[\\/](node_modules|\.git)[\\/]' }
 
 Write-Host "`nHVE IQ verification gate`n"
 
@@ -79,15 +79,18 @@ Check 'every link resolves'        ($broken.Count -eq 0)       ($broken      | S
 
 Write-Host "`nstanding prohibitions"
 # These may appear ONLY on the two pages that exist to forbid them.
+# NOTE the separator class. A backslash-only pattern matches nothing on Linux,
+# which makes both of these checks scan zero files and pass vacuously — the
+# worst failure a gate can have, because it looks like success.
 $PROHIBITION_PAGES = @('09-Durable-and-Perishable-Register.md', '11-Microsoft-AI-Platform-Map.md')
 $banned = '36%|agents launch in weeks rather than months|five-stage maturity'
-$hits = @($md | Where-Object { $_.FullName -match '\\wiki\\' -and $PROHIBITION_PAGES -notcontains $_.Name } |
+$hits = @($md | Where-Object { $_.FullName -match '[\\/]wiki[\\/]' -and $PROHIBITION_PAGES -notcontains $_.Name } |
              Select-String -Pattern $banned | ForEach-Object { "$($_.Filename):$($_.LineNumber)" })
 Check 'no prohibited claim asserted in the wiki' ($hits.Count -eq 0) ($hits | Select-Object -First 3)
 
 # Narrow on purpose. "Cohen" in a discussion of agreement and "hedges" as a verb
 # are legitimate; only a stated magnitude is not.
-$effect = @($md | Where-Object { $_.FullName -match '\\wiki\\' } |
+$effect = @($md | Where-Object { $_.FullName -match '[\\/]wiki[\\/]' } |
                Select-String -Pattern "\b[dg]\s*=\s*0?\.\d|Cohen's d\s*=|Hedges'?s?\s*g\s*=" |
                ForEach-Object { "$($_.Filename):$($_.LineNumber)" })
 Check 'no effect size asserted in the wiki' ($effect.Count -eq 0) ($effect | Select-Object -First 3)
@@ -95,33 +98,33 @@ Check 'no effect size asserted in the wiki' ($effect.Count -eq 0) ($effect | Sel
 # ---------------------------------------------------------------- structure
 
 Write-Host "`nstructure"
-$papers   = @(Get-ChildItem wiki\whitepapers -Filter 'WP-*.md')
-$seminars = @(Get-ChildItem wiki\seminars    -Filter 'S*.md')
+$papers   = @(Get-ChildItem wiki/whitepapers -Filter 'WP-*.md')
+$seminars = @(Get-ChildItem wiki/seminars    -Filter 'S*.md')
 
-$evidence = @(Get-Content graph\evidence.jsonl | ForEach-Object { $_ | ConvertFrom-Json })
+$evidence = @(Get-Content graph/evidence.jsonl | ForEach-Object { $_ | ConvertFrom-Json })
 $byPaper  = $evidence | Group-Object whitepaper
 Check 'every whitepaper sorts its claims into all four evidence classes' `
       (($byPaper | Where-Object { $_.Count -ne 4 }).Count -eq 0) `
       "$($byPaper.Count) papers, $($evidence.Count) rows"
 
-$preds = @(Get-Content graph\predictions.jsonl | ForEach-Object { $_ | ConvertFrom-Json })
+$preds = @(Get-Content graph/predictions.jsonl | ForEach-Object { $_ | ConvertFrom-Json })
 Check 'every falsifiable prediction names an instrument' `
       (@($preds | Where-Object { -not $_.instrument }).Count -eq 0) "$($preds.Count) predictions"
 
-$nodes = @(Get-Content graph\nodes.jsonl | ForEach-Object { $_ | ConvertFrom-Json })
+$nodes = @(Get-Content graph/nodes.jsonl | ForEach-Object { $_ | ConvertFrom-Json })
 $noEntry = @($nodes | Where-Object { $_.kind -eq 'seminar' -and -not $_.satisfiable_from })
 Check 'every seminar day declares an entry state' ($noEntry.Count -eq 0) `
       "$($seminars.Count) days"
 
-$unpaired = @($seminars | Where-Object { -not (Test-Path ("wiki\whitepapers\WP-" + ($_.BaseName -replace '\D', '') + ".md")) })
+$unpaired = @($seminars | Where-Object { -not (Test-Path ("wiki/whitepapers/WP-" + ($_.BaseName -replace '\D', '') + ".md")) })
 Check 'every seminar day has its whitepaper' ($unpaired.Count -eq 0) `
       "$($papers.Count) papers"
 
 # ---------------------------------------------------------------- server
 
 Write-Host "`nserver"
-if (Test-Path 'mcp\hve-iq\node_modules') {
-    Push-Location 'mcp\hve-iq'
+if (Test-Path 'mcp/hve-iq/node_modules') {
+    Push-Location 'mcp/hve-iq'
     $smoke = & node smoke.js 2>&1
     Pop-Location
     Check 'MCP smoke suite passes' ($LASTEXITCODE -eq 0) `
