@@ -14,34 +14,34 @@ The mapping is many-to-many. `M09 Learning From Data` draws on IS201, MS201, ME2
 
 | # | Module | Quarter | Days | Class | Strands recruited | Platform anchor |
 |---|---|---|---|---|---|---|
-| [M01](wiki/modules/M01.md) | The Machine and the Proof | Q1 | S001–S005 | 1 | CF MS SY PE | GitHub Copilot agent mode; Learn MCP Server |
-| [M02](wiki/modules/M02.md) | Constructing Correct Programs | Q1 | S006–S010 | 1 | CF MS PE | Custom instructions as executable specification; Copilot as a proof-checking adversary |
-| [M03](wiki/modules/M03.md) | Representing Structure | Q2 | S011–S015 | 1 | CF MS SY | Foundry embedding models; Copilot-generated implementations against a cost model stated first |
-| [M04](wiki/modules/M04.md) | Managing Memory, Time and Contention | Q2 | S016–S020 | 2 | SY CF MS PE | Azure MCP Server (read); Azure compute and memory limits as the instance of contention |
-| [M05](wiki/modules/M05.md) | Algorithmic Thinking Under Constraint | Q3 | S021–S025 | 2 | CF MS SY | Copilot's frontier, located empirically; Azure AI Search index schema |
-| [M06](wiki/modules/M06.md) | Evidence, Error and Measurement | Q3 | S026–S030 | 2 | ME MS SY PE | Foundry evaluators; Foundry evaluation score distributions |
-| [M07](wiki/modules/M07.md) | Correctness at Scale | Q4 | S031–S035 | 3 | SY CF MS | API Management load balancing, circuit breaking, partial failure; MCP tool definitions as an interface contract |
-| [M08](wiki/modules/M08.md) | Understanding the Problem Before the Solution | Q4 | S036–S040 | 3 | PE CF SY | Substrate stakeholder work; quota negotiation as a real constraint |
-| [M09](wiki/modules/M09.md) | Learning From Data | Q5 | S041–S045 | 3 | IS MS ME SG | Foundry model catalogue, deployment and the fine-tuning path; Defender AI posture |
-| [M10](wiki/modules/M10.md) | Evaluating What Was Learned | Q5 | S046–S050 | 4 | ME IS MS SG | Foundry cloud evaluation; the conversation split decision |
-| [M11](wiki/modules/M11.md) | Language, Attention and Representation | Q6 | S051–S055 | 4 | IS MS ME | Foundry model catalogue across families; deployment as an architectural choice |
-| [M12](wiki/modules/M12.md) | Finding the Right Thing | Q6 | S056–S060 | 4 | IS ME SY PE | Azure AI Search vector and hybrid retrieval; semantic ranking; the chunking trap |
-| [M13](wiki/modules/M13.md) | The Economics of Inference | Q7 | S061–S065 | 5 | IS SY ME | Provisioned throughput; **quota is not capacity**; spillover; hourly billing |
-| [M14](wiki/modules/M14.md) | Releasing Responsibly | Q7 | S066–S070 | 5 | ME SY SG PE | Foundry cloud evaluation in CI; AI Search document-level ACLs; Purview DSPM for AI |
-| [M15](wiki/modules/M15.md) | Agents That Act | Q8 | S071–S075 | 5 | IS SG ME SY | Microsoft Agent Framework; Foundry Agent Service; MCP |
-| [M16](wiki/modules/M16.md) | The Adversary and the Accident | Q8 | S076–S080 | 6 | SG ME PE IS | Prompt injection against a real agent; Foundry observability and tracing; Defender AI alerts |
-| [M17](wiki/modules/M17.md) | Deployment as Engagement | Q9 | S081–S085 | 6 | PE all | The whole stack, handed over |
-| [M18](wiki/modules/M18.md) | Entrustment and Handover | Q9 | S086–S090 | 6 | all | The whole stack, handed over |
+| [M01](/wiki/modules/M01.md) | The Machine and the Proof | Q1 | S001–S005 | 1 | CF MS SY PE | GitHub Copilot agent mode; Learn MCP Server |
+| [M02](/wiki/modules/M02.md) | Constructing Correct Programs | Q1 | S006–S010 | 1 | CF MS PE | Custom instructions as executable specification; Copilot as a proof-checking adversary |
+| [M03](/wiki/modules/M03.md) | Representing Structure | Q2 | S011–S015 | 1 | CF MS SY | Foundry embedding models; Copilot-generated implementations against a cost model stated first |
+| [M04](/wiki/modules/M04.md) | Managing Memory, Time and Contention | Q2 | S016–S020 | 2 | SY CF MS PE | Azure MCP Server (read); Azure compute and memory limits as the instance of contention |
+| [M05](/wiki/modules/M05.md) | Algorithmic Thinking Under Constraint | Q3 | S021–S025 | 2 | CF MS SY | Copilot's frontier, located empirically; Azure AI Search index schema |
+| [M06](/wiki/modules/M06.md) | Evidence, Error and Measurement | Q3 | S026–S030 | 2 | ME MS SY PE | Foundry evaluators; Foundry evaluation score distributions |
+| [M07](/wiki/modules/M07.md) | Correctness at Scale | Q4 | S031–S035 | 3 | SY CF MS | API Management load balancing, circuit breaking, partial failure; MCP tool definitions as an interface contract |
+| [M08](/wiki/modules/M08.md) | Understanding the Problem Before the Solution | Q4 | S036–S040 | 3 | PE CF SY | Substrate stakeholder work; quota negotiation as a real constraint |
+| [M09](/wiki/modules/M09.md) | Learning From Data | Q5 | S041–S045 | 3 | IS MS ME SG | Foundry model catalogue, deployment and the fine-tuning path; Defender AI posture |
+| [M10](/wiki/modules/M10.md) | Evaluating What Was Learned | Q5 | S046–S050 | 4 | ME IS MS SG | Foundry cloud evaluation; the conversation split decision |
+| [M11](/wiki/modules/M11.md) | Language, Attention and Representation | Q6 | S051–S055 | 4 | IS MS ME | Foundry model catalogue across families; deployment as an architectural choice |
+| [M12](/wiki/modules/M12.md) | Finding the Right Thing | Q6 | S056–S060 | 4 | IS ME SY PE | Azure AI Search vector and hybrid retrieval; semantic ranking; the chunking trap |
+| [M13](/wiki/modules/M13.md) | The Economics of Inference | Q7 | S061–S065 | 5 | IS SY ME | Provisioned throughput; **quota is not capacity**; spillover; hourly billing |
+| [M14](/wiki/modules/M14.md) | Releasing Responsibly | Q7 | S066–S070 | 5 | ME SY SG PE | Foundry cloud evaluation in CI; AI Search document-level ACLs; Purview DSPM for AI |
+| [M15](/wiki/modules/M15.md) | Agents That Act | Q8 | S071–S075 | 5 | IS SG ME SY | Microsoft Agent Framework; Foundry Agent Service; MCP |
+| [M16](/wiki/modules/M16.md) | The Adversary and the Accident | Q8 | S076–S080 | 6 | SG ME PE IS | Prompt injection against a real agent; Foundry observability and tracing; Defender AI alerts |
+| [M17](/wiki/modules/M17.md) | Deployment as Engagement | Q9 | S081–S085 | 6 | PE all | The whole stack, handed over |
+| [M18](/wiki/modules/M18.md) | Entrustment and Handover | Q9 | S086–S090 | 6 | all | The whole stack, handed over |
 
 ### How the module anchors were derived
 
-The [Microsoft AI Platform Map](wiki/program/11-Microsoft-AI-Platform-Map.md) assigns anchors to courses and to quarters, not to modules, because modules are not credit-bearing and the map is written for the reader who is auditing the curriculum. **A module's anchor is therefore the subset of its quarter's course anchors belonging to the courses that module actually recruits.** Nothing above is invented, and where this page and the map disagree the map is correct.
+The [Microsoft AI Platform Map](/wiki/program/11-Microsoft-AI-Platform-Map.md) assigns anchors to courses and to quarters, not to modules, because modules are not credit-bearing and the map is written for the reader who is auditing the curriculum. **A module's anchor is therefore the subset of its quarter's course anchors belonging to the courses that module actually recruits.** Nothing above is invented, and where this page and the map disagree the map is correct.
 
 Two consequences of the derivation rule are worth stating rather than letting a reader discover them.
 
 **Modules that share a quarter do not share an anchor.** M05 and M06 both sit in Q3 and recruit different subsets of it, which is why one is anchored on Copilot's frontier and an index schema and the other on Foundry's evaluators. That is the intended behaviour: the anchor follows the strands, and the strands are what make a module a module.
 
-**M14's anchor is short by one strand, and the reason is a known defect.** M14 recruits PE and Q7 has no PE course, so the derivation has nothing to draw from and the module's professional-formation content has no platform anchor. This is the same misalignment recorded against [WP-069](wiki/whitepapers/WP-069.md) §8 in the [Whitepaper Standard](wiki/program/05-Whitepaper-Standard.md)'s compliance register, where it stands as **Recorded** on the ground that repairing it requires a Course Catalogue change. The platform anchors did not create the defect and do not repair it; they make it visible in a second place, which is the only thing being claimed here.
+**M14's anchor is short by one strand, and the reason is a known defect.** M14 recruits PE and Q7 has no PE course, so the derivation has nothing to draw from and the module's professional-formation content has no platform anchor. This is the same misalignment recorded against [WP-069](/wiki/whitepapers/WP-069.md) §8 in the [Whitepaper Standard](/wiki/program/05-Whitepaper-Standard.md)'s compliance register, where it stands as **Recorded** on the ground that repairing it requires a Course Catalogue change. The platform anchors did not create the defect and do not repair it; they make it visible in a second place, which is the only thing being claimed here.
 
 ---
 
@@ -87,7 +87,7 @@ Two consequences of the derivation rule are worth stating rather than letting a 
 
 **M16 · The Adversary and the Accident.** Complexity class 6. Adversarial machine learning, agent-specific attack classes, incident forensics, and blameless review. Deliberate distinction between attack and accident, and the observation that the detection problem is frequently the same.
 
-**M17 · Deployment as Engagement.** The forward-deployed engagement in full: inquiry, modelling, negotiation, change management, risk communication to non-technical decision-makers. Drawn from [research/05-fde-craft/](research/05-fde-craft/collected-materials.md).
+**M17 · Deployment as Engagement.** The forward-deployed engagement in full: inquiry, modelling, negotiation, change management, risk communication to non-technical decision-makers. Drawn from [research/05-fde-craft/](/research/05-fde-craft/collected-materials.md).
 
 **M18 · Entrustment and Handover.** What transfers, to whom, with what warranty. The safety case. The residual risk statement. The final entrustment occasions and the oral defences that discharge them.
 
@@ -124,7 +124,7 @@ Count of modules recruiting each strand:
 
 ## Related pages
 
-- [Course Catalogue](wiki/program/06-Course-Catalogue.md)
-- [Seminar Day Index](wiki/program/08-Seminar-Day-Index.md)
-- [Seminar Day Design Pattern](wiki/program/04-Seminar-Day-Design-Pattern.md)
-- [Microsoft AI Platform Map](wiki/program/11-Microsoft-AI-Platform-Map.md)
+- [Course Catalogue](/wiki/program/06-Course-Catalogue.md)
+- [Seminar Day Index](/wiki/program/08-Seminar-Day-Index.md)
+- [Seminar Day Design Pattern](/wiki/program/04-Seminar-Day-Design-Pattern.md)
+- [Microsoft AI Platform Map](/wiki/program/11-Microsoft-AI-Platform-Map.md)

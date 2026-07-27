@@ -1,6 +1,6 @@
 # Cliff Notes — Narrative Assessment Literature as an Assessor-Design Manual
 
-> Companion note. The full source reading is at [research/03-measurement-evaluation/govaerts-narrative-assessment.md](research/03-measurement-evaluation/govaerts-narrative-assessment.md); the accreditation reading is at [research/07-accreditation-exemplars/govaerts-narrative-assessment-literature.md](research/07-accreditation-exemplars/govaerts-narrative-assessment-literature.md). This note reads the same two studies as instructions for building the course's assessor-side procedure: what to require of assessors, in what order, with what controls against the specific cognitive failures the evidence documents.
+> Companion note. The full source reading is at [research/03-measurement-evaluation/govaerts-narrative-assessment.md](/research/03-measurement-evaluation/govaerts-narrative-assessment.md); the accreditation reading is at [research/07-accreditation-exemplars/govaerts-narrative-assessment-literature.md](/research/07-accreditation-exemplars/govaerts-narrative-assessment-literature.md). This note reads the same two studies as instructions for building the course's assessor-side procedure: what to require of assessors, in what order, with what controls against the specific cognitive failures the evidence documents.
 
 ## Citation and access
 **Primary source (A):**

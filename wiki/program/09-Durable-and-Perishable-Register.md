@@ -81,7 +81,7 @@ Every course in this programme is now taught against at least one named Microsof
 
 Two things distinguish this class from the perishable table and are the reason it has its own section.
 
-**Its cadence is faster than annual.** The general perishable rule is refreshed at each delivery; the platform layer is **verified before every offering**, which in practice means the check runs at least each time a quarter is prepared. The justification is empirical rather than cautious: of the six sources behind [research/06-microsoft-platform/](research/06-microsoft-platform/collected-materials.md), two were already labelled classic or superseded at the moment they were read, and one capability set moves to a different licence in 2026. That was confirmed again on re-verification for this revision — the Purview data-security-posture page the research folder consulted still describes itself as the classic version and states that it has been replaced. **A layer that supersedes itself between two readings of the same page is not on an annual cycle.**
+**Its cadence is faster than annual.** The general perishable rule is refreshed at each delivery; the platform layer is **verified before every offering**, which in practice means the check runs at least each time a quarter is prepared. The justification is empirical rather than cautious: of the six sources behind [research/06-microsoft-platform/](/research/06-microsoft-platform/collected-materials.md), two were already labelled classic or superseded at the moment they were read, and one capability set moves to a different licence in 2026. That was confirmed again on re-verification for this revision — the Purview data-security-posture page the research folder consulted still describes itself as the classic version and states that it has been replaced. **A layer that supersedes itself between two readings of the same page is not on an annual cycle.**
 
 **Each instance is recorded against the durable claim it carries.** This is the mechanism that makes re-anchoring cheap. When a service is renamed, replaced or withdrawn, the question is not what to do with the day — it is whether the claim in the third column still holds under the replacement. If it does, the day is re-anchored and nothing else changes. **If it does not, that is a finding about the claim rather than about the service, and it is recorded in the durable table's review rather than patched here.**
 
@@ -117,7 +117,7 @@ Four things, in this order, because the cheap checks eliminate most of the work.
 
 ### What must never be asserted from this layer
 
-Carried from [research/06-microsoft-platform/](research/06-microsoft-platform/collected-materials.md) and from the [Microsoft AI Platform Map](wiki/program/11-Microsoft-AI-Platform-Map.md), and binding on every page and every day:
+Carried from [research/06-microsoft-platform/](/research/06-microsoft-platform/collected-materials.md) and from the [Microsoft AI Platform Map](/wiki/program/11-Microsoft-AI-Platform-Map.md), and binding on every page and every day:
 
 - **The 36% retrieval improvement claim.** No benchmark, metric definition, baseline or interval accompanies it anywhere.
 - **"Agents launch in weeks rather than months."** Not a finding.
@@ -135,17 +135,17 @@ Four mechanisms, because a rule with no enforcement is a preference.
 
 1. **Marking at design time.** Every seminar day plan marks perishable material inline. An unmarked perishable claim is a design defect, caught in review.
 2. **Assessment exclusion.** Specification bundles and entrustment rubrics are checked against this register. A specification that requires a student to recall a perishable fact is rejected.
-3. **Whitepaper discipline.** [The whitepaper standard](wiki/program/05-Whitepaper-Standard.md) prohibits a perishable detail from grounding a design claim. A whitepaper may say *students meet this idea in the form of a current serving system*; it may not say *students learn service X because service X is what industry uses*.
+3. **Whitepaper discipline.** [The whitepaper standard](/wiki/program/05-Whitepaper-Standard.md) prohibits a perishable detail from grounding a design claim. A whitepaper may say *students meet this idea in the form of a current serving system*; it may not say *students learn service X because service X is what industry uses*.
 4. **Re-verification passes, at three different cadences.** Before each delivery, the semi-durable table is re-checked and the perishable instances in each affected seminar day are refreshed. **Before every offering, the platform layer is verified in full against the four checks above**, and the outcome is recorded so that the next pass can see what changed rather than re-deriving it. The durable table is reviewed on a three-year cycle.
 5. **A day states its anchor and its perishability together.** Each seminar day's header block names its platform anchor, and the day's own perishability register separates the durable claim from the platform instance carrying it. The claim is assessed; the instance is the vehicle. A day whose header names an anchor and whose register does not name the durable claim behind it has not been designed, and is caught in the same review as an unmarked perishable claim.
 
 ## The machine index
 
-Mechanism 5 above makes every day state its durable claim and its platform instance side by side, and every day now expresses that pairing as a table — which means **it can be read by a machine without anyone re-authoring it**. [scripts/build-graph.ps1](scripts/build-graph.ps1) extracts those rows into `graph/claims.jsonl` — **581 pairs across 89 days** — and [HVE IQ](mcp/hve-iq/README.md) serves them, so the question *"this service changed; what does it cost us?"* is answered by query rather than by re-reading ninety files.
+Mechanism 5 above makes every day state its durable claim and its platform instance side by side, and every day now expresses that pairing as a table — which means **it can be read by a machine without anyone re-authoring it**. [scripts/build-graph.ps1](/scripts/build-graph.ps1) extracts those rows into `graph/claims.jsonl` — **581 pairs across 89 days** — and [HVE IQ](/mcp/hve-iq/README.md) serves them, so the question *"this service changed; what does it cost us?"* is answered by query rather than by re-reading ninety files.
 
 No judgement is applied in the extraction. The claims are the ones the day already wrote; the index adds only the day's anchor, module and quarter by join. **If the index disagrees with a day, the day is right.**
 
-**One blind spot remains, and it is declared by the tool in every answer:** [S090](wiki/seminars/S090.md) has no perishable content of substance. That is a true zero, not a gap — the day's anchor is not a service.
+**One blind spot remains, and it is declared by the tool in every answer:** [S090](/wiki/seminars/S090.md) has no perishable content of substance. That is a true zero, not a gap — the day's anchor is not a service.
 
 ### What the conversion of S001–S015 found
 
@@ -157,7 +157,7 @@ Only S001–S010 needed pairings authored, and their prose already separated dur
 
 Two findings worth keeping:
 
-- **[S002](wiki/seminars/S002.md)'s central durable claim has no platform instance at all.** *A machine's next state is a function of its current state* is carried by a teaching machine that "corresponds to no product and never will." It is the one headline claim in the early modules with zero perishable exposure, and the table records that by omission rather than by inventing a carrier.
+- **[S002](/wiki/seminars/S002.md)'s central durable claim has no platform instance at all.** *A machine's next state is a function of its current state* is carried by a teaching machine that "corresponds to no product and never will." It is the one headline claim in the early modules with zero perishable exposure, and the table records that by omission rather than by inventing a carrier.
 - **One vendor behaviour is load-bearing for two separate days.** The file-visibility-versus-terminal-permission asymmetry carries a durable claim in both S001 and S002. That concentration is exactly what the index exists to surface, and it is now visible.
 
 ## The uncomfortable consequence
@@ -174,9 +174,9 @@ The boundary between semi-durable and durable is not stable. Several items curre
 
 ## Related pages
 
-- [Programme Charter](wiki/program/00-Program-Charter.md)
-- [Whitepaper Standard](wiki/program/05-Whitepaper-Standard.md)
-- [Microsoft AI Platform Map](wiki/program/11-Microsoft-AI-Platform-Map.md)
-- [Copilot Practice Standard](wiki/program/12-Copilot-Practice-Standard.md)
-- [Substrate and Infrastructure](wiki/program/10-Substrate-and-Infrastructure.md)
-- [research/06-microsoft-platform/collected-materials.md](research/06-microsoft-platform/collected-materials.md)
+- [Programme Charter](/wiki/program/00-Program-Charter.md)
+- [Whitepaper Standard](/wiki/program/05-Whitepaper-Standard.md)
+- [Microsoft AI Platform Map](/wiki/program/11-Microsoft-AI-Platform-Map.md)
+- [Copilot Practice Standard](/wiki/program/12-Copilot-Practice-Standard.md)
+- [Substrate and Infrastructure](/wiki/program/10-Substrate-and-Infrastructure.md)
+- [research/06-microsoft-platform/collected-materials.md](/research/06-microsoft-platform/collected-materials.md)

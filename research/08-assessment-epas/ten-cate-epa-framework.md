@@ -1,6 +1,6 @@
 # Cliff Notes — EPA Framework as an Assessment Design Manual
 
-> Companion note. The full source reading is at [research/03-measurement-evaluation/ten-cate-epas.md](research/03-measurement-evaluation/ten-cate-epas.md); the accreditation reading is at [research/07-accreditation-exemplars/ten-cate-epa-framework.md](research/07-accreditation-exemplars/ten-cate-epa-framework.md). This note extracts the constructive machinery — the description template, the supervision scale and the five-step method — and reads it as a specification for building the course's own entrustment design.
+> Companion note. The full source reading is at [research/03-measurement-evaluation/ten-cate-epas.md](/research/03-measurement-evaluation/ten-cate-epas.md); the accreditation reading is at [research/07-accreditation-exemplars/ten-cate-epa-framework.md](/research/07-accreditation-exemplars/ten-cate-epa-framework.md). This note extracts the constructive machinery — the description template, the supervision scale and the five-step method — and reads it as a specification for building the course's own entrustment design.
 
 ## Citation and access
 - **Author:** Olle ten Cate, Center for Research and Development of Education, University Medical Center Utrecht

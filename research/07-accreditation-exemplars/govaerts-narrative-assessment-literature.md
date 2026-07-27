@@ -1,6 +1,6 @@
 # Cliff Notes — Narrative Assessment Literature as an Accreditation Exemplar
 
-> Companion note. The full source reading of both Maastricht studies, including the complete think-aloud findings, the three-phase cognitive process and the assessor quotations, is at [research/03-measurement-evaluation/govaerts-narrative-assessment.md](research/03-measurement-evaluation/govaerts-narrative-assessment.md). This note reads the same evidence through the accreditation lens: what a review committee can and cannot legitimately be told about the reliability of judgement-based assessment, and how to defend narrative evidence when a reviewer asks for numbers.
+> Companion note. The full source reading of both Maastricht studies, including the complete think-aloud findings, the three-phase cognitive process and the assessor quotations, is at [research/03-measurement-evaluation/govaerts-narrative-assessment.md](/research/03-measurement-evaluation/govaerts-narrative-assessment.md). This note reads the same evidence through the accreditation lens: what a review committee can and cannot legitimately be told about the reliability of judgement-based assessment, and how to defend narrative evidence when a reviewer asks for numbers.
 
 ## Citation and access
 **Primary source (A):**

@@ -155,11 +155,11 @@ Specific claims flagged as **unverified** across the research set:
 
 ## The machine index
 
-The tables above are extracted into `graph/sources.jsonl` by [scripts/build-graph.ps1](scripts/build-graph.ps1) and served by [HVE IQ](mcp/hve-iq/README.md), so the **Read** column can be queried rather than read. No judgement is applied; sources are joined to their Cliff Note by author surname, and the 11 rows that do not join — aggregate rows, organisational authors, one bare URL — are kept with a null note rather than dropped.
+The tables above are extracted into `graph/sources.jsonl` by [scripts/build-graph.ps1](/scripts/build-graph.ps1) and served by [HVE IQ](/mcp/hve-iq/README.md), so the **Read** column can be queried rather than read. No judgement is applied; sources are joined to their Cliff Note by author surname, and the 11 rows that do not join — aggregate rows, organisational authors, one bare URL — are kept with a null note rather than dropped.
 
 **53 sources: 13 read in full, 17 abstract only, 23 not read at all.**
 
-That last number is not a defect being confessed. Most of the 23 are copyrighted books, and this register's own [copyright handling](research/99-source-register/source-register.md) rule is to store a synthesis rather than copy the text. The claims resting on them are evidence class 2, which licenses direction and mechanism and forbids an effect size. **The register always knew this. What is new is that a reader can ask.**
+That last number is not a defect being confessed. Most of the 23 are copyrighted books, and this register's own [copyright handling](/research/99-source-register/source-register.md) rule is to store a synthesis rather than copy the text. The claims resting on them are evidence class 2, which licenses direction and mechanism and forbids an effect size. **The register always knew this. What is new is that a reader can ask.**
 
 Two sources are worth naming because of how much sits on them:
 
@@ -168,11 +168,11 @@ Two sources are worth naming because of how much sits on them:
 | Edmondson, psychological safety | **29** | synthesis only |
 | Keith and Frese, error management training | **25** | synthesis only |
 
-Both underpin content the [Durable and Perishable Register](wiki/program/09-Durable-and-Perishable-Register.md) lists as **durable and therefore assessable** — *psychological safety; error management; blameless review*. Durable content may be assessed; the warrant under these two is direction-only. That tension is real, it is not resolved here, and it is exactly what this index exists to make visible.
+Both underpin content the [Durable and Perishable Register](/wiki/program/09-Durable-and-Perishable-Register.md) lists as **durable and therefore assessable** — *psychological safety; error management; blameless review*. Durable content may be assessed; the warrant under these two is direction-only. That tension is real, it is not resolved here, and it is exactly what this index exists to make visible.
 
 ## What resolving the citations exposed
 
-Citations in whitepaper evidence sections used to point at folder-level `collected-materials` files 74% of the time. [The whitepaper standard](wiki/program/05-Whitepaper-Standard.md) requires class 1 to cite **"the specific note… and the depth of verification recorded there carried forward honestly"** — so a folder link was never compliant. 193 of 348 were resolved to named notes by reading the notes and confirming they carry the claim.
+Citations in whitepaper evidence sections used to point at folder-level `collected-materials` files 74% of the time. [The whitepaper standard](/wiki/program/05-Whitepaper-Standard.md) requires class 1 to cite **"the specific note… and the depth of verification recorded there carried forward honestly"** — so a folder link was never compliant. 193 of 348 were resolved to named notes by reading the notes and confirming they carry the claim.
 
 | | Before | After |
 |---|---|---|

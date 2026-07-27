@@ -17,7 +17,7 @@ The design that follows is **six interlocking strands** — foundations, measure
 - **ABET separates assessment from evaluation** — collecting and preparing data versus interpreting it. Conflating them weakens a self-study.
 - **CS2023 vision statement:** "Computer Science is a professional discipline where skills and professional dispositions are just as important as the underlying knowledge", with the concession that the field "has not yet widely accepted" this.
 - **CS2023's guidelines-versus-practices distinction:** guidelines list what should be covered, practices describe how and why. Treated as a separate publication stream.
-- Full note: [abet-cac-and-cs2023.md](research/01-course-structure/abet-cac-and-cs2023.md)
+- Full note: [abet-cac-and-cs2023.md](/research/01-course-structure/abet-cac-and-cs2023.md)
 
 ### CMU 17-645, read structurally
 - **The substrate is the load-bearing choice:** a movie recommendation service serving one million active users, live for several weeks, "graded on how it holds up under real load and changing environment conditions."
@@ -28,14 +28,14 @@ The design that follows is **six interlocking strands** — foundations, measure
 - **Costs stated openly:** twelve hours per week and $20-100 per month in AI subscriptions, "roughly comparable to the cost of traditional textbooks."
 - **Teams of 3-6, instructor-assigned**, TA mentor each, thirty-minute mentor meeting in the week after every milestone, peer rating on "team citizenship".
 - **Target roles named**, including **Forward Deployed Engineer**. Twelve units, running since 2019, all materials Creative Commons.
-- Full note: [cmu-17-645-ml-in-production-ai-engineering.md](research/01-course-structure/cmu-17-645-ml-in-production-ai-engineering.md)
+- Full note: [cmu-17-645-ml-in-production-ai-engineering.md](/research/01-course-structure/cmu-17-645-ml-in-production-ai-engineering.md)
 
 ### 09 Curriculum Design Benchmark and Sources — internal
 - The existing package is a strong enablement track; the gap between that and a curriculum is **structural, not volumetric**.
 - Three exemplars pick three different spines — CMU's live system, Stanford CS336's implementation volume, Berkeley's optional-assignment lecture series — and **only the live-system spine produces evidence of the kind ABET's outcomes require**.
 - Rigour can sit at the exit through evidence rather than at the entrance through prerequisites.
 - The output is a **design requirement, not a critique**: an assessment spine, a project spine, and a documented separation of what is covered from how and why.
-- Full note: [09-curriculum-design-benchmark-and-sources.md](research/01-course-structure/09-curriculum-design-benchmark-and-sources.md)
+- Full note: [09-curriculum-design-benchmark-and-sources.md](/research/01-course-structure/09-curriculum-design-benchmark-and-sources.md)
 
 ### 10 Gap Analysis and Course Architecture — internal
 - **The gap is the inability to certify judgement.** Three subsidiary gaps follow: no substrate, no assessment design, no durable-perishable separation.
@@ -43,14 +43,14 @@ The design that follows is **six interlocking strands** — foundations, measure
 - **Strands interlock at milestones.** A strand only ever exercised alone has been mis-designed.
 - **Assessment spine:** two or three entrusted activities, ordinal supervision sub-levels targeting 3b or 3c, mandatory narrative substantiation, multiple observers and observation types, entrustment-based discussion with what-if questions, independent judgements before deliberation, and a dispositions layer of integrity, reliability and humility.
 - **Perishable content may illustrate durable content but may never be the thing assessed.**
-- Full note: [10-gap-analysis-and-course-architecture.md](research/01-course-structure/10-gap-analysis-and-course-architecture.md)
+- Full note: [10-gap-analysis-and-course-architecture.md](/research/01-course-structure/10-gap-analysis-and-course-architecture.md)
 
 ### 11 Research Brief for Complete Course Design — internal
 - Nine workstreams mapped onto the folder structure, each with the questions it must answer and its current status.
 - The **evidence standard precedes the workstreams**: an evidence hierarchy, a verification rule requiring every count and finding to be traced or flagged, a copyright rule, and a commitment to record negative retrieval results.
 - **Measurement as spine has two halves** — the content students learn, and the discipline the course's own assessment runs under. Neither works alone.
 - The durable-perishable split is a **research management rule** as well as a content rule: WS6 needs a standing refresh cadence that does not yet exist.
-- Full note: [11-research-brief-for-complete-course-design.md](research/01-course-structure/11-research-brief-for-complete-course-design.md)
+- Full note: [11-research-brief-for-complete-course-design.md](/research/01-course-structure/11-research-brief-for-complete-course-design.md)
 
 ## Cross-source observations
 - **ABET's freedom and ABET's constraint point the same way.** Declining to prescribe courses while requiring behavioural outcomes means the standard is indifferent to syllabus order and unforgiving about evidence. That combination is what licenses the entire architecture proposed here.

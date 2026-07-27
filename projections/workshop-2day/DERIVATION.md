@@ -8,7 +8,7 @@ Recorded in the style of SIL's E-findings: what was asked, what was done, what w
 
 ## What was done
 
-Built [workshop-2day](projections/workshop-2day/README.md) from the wiki by reading, not querying — selecting ten claims, deciding what the format could and could not carry, and sequencing eight sessions. No claims were extracted first; that was the point.
+Built [workshop-2day](/projections/workshop-2day/README.md) from the wiki by reading, not querying — selecting ten claims, deciding what the format could and could not carry, and sequencing eight sessions. No claims were extracted first; that was the point.
 
 ## What worked better than expected
 
@@ -45,7 +45,7 @@ I worked around it by reading each day and deciding by hand. That is precisely w
 
 ## Resolved
 
-**The claim/projection split holds.** A second projection was derived from the same knowledge, it obeys all five projection rules, and it abstains explicitly on four things rather than padding. The thesis in [concepts/projections.md](concepts/projections.md) is no longer an assertion.
+**The claim/projection split holds.** A second projection was derived from the same knowledge, it obeys all five projection rules, and it abstains explicitly on four things rather than padding. The thesis in [concepts/projections.md](/concepts/projections.md) is no longer an assertion.
 
 **The pedagogy namespace's prediction was correct.** The format destroys spacing, interleaving and expanding-interval retrieval, and the projection says so on its first morning instead of pretending. That is the failure the projection was expected to produce, and producing it honestly is the result.
 
@@ -116,7 +116,7 @@ The wiki already holds the raw material: **every whitepaper's §2 is "Entry stat
 
 ## What changed as a result
 
-[README.md](projections/workshop-2day/README.md) now carries an **Entry state** section declaring what the workshop assumes, and naming the prerequisites it assumes from experience rather than delivering. That declaration is a claim about the audience and it is untested — which is the correct status for it, and better than the previous status, which was silence.
+[README.md](/projections/workshop-2day/README.md) now carries an **Entry state** section declaring what the workshop assumes, and naming the prerequisites it assumes from experience rather than delivering. That declaration is a claim about the audience and it is untested — which is the correct status for it, and better than the previous status, which was silence.
 
 ## What this says about the method
 
@@ -126,7 +126,7 @@ The split was made because building one projection by hand suggested a defect. W
 
 # Addendum two — the field arrives, and falsifies the section the first addendum wrote
 
-**Recorded the day [`satisfiable_from`](concepts/entry-state.md) was populated.** Addendum one named the missing field. This is what happened when it existed.
+**Recorded the day [`satisfiable_from`](/concepts/entry-state.md) was populated.** Addendum one named the missing field. This is what happened when it existed.
 
 ## What was measured
 
@@ -154,7 +154,7 @@ Addendum one had this projection declare its entry state by hand. It named **thr
 
 ## The third finding, which is the uncomfortable one
 
-Five of the fourteen undelivered dependencies are **the measurement spine**: [S026](wiki/seminars/S026.md), [S027](wiki/seminars/S027.md), [S028](wiki/seminars/S028.md), [S029](wiki/seminars/S029.md), [S049](wiki/seminars/S049.md).
+Five of the fourteen undelivered dependencies are **the measurement spine**: [S026](/wiki/seminars/S026.md), [S027](/wiki/seminars/S027.md), [S028](/wiki/seminars/S028.md), [S029](/wiki/seminars/S029.md), [S049](/wiki/seminars/S049.md).
 
 This is a workshop about judge bias and criterion construction. Its largest undelivered dependency is **measurement itself**. It was attempting to teach the conclusions of a discipline while assuming the discipline, and no amount of audience seniority fixes that — all five are classified `this-programme-only` precisely because ordinary practice teaches proxy-as-truth.
 
@@ -162,7 +162,7 @@ This is a workshop about judge bias and criterion construction. Its largest unde
 
 ## What this costs the register
 
-The register is `method` namespace with no external warrant, and it has a specific credibility problem recorded in [concepts/entry-state.md](concepts/entry-state.md): **nine agents reading this programme's own pages concluded that ordinary practice does not teach what this programme teaches.** That is either corroboration or circularity and the repository cannot currently distinguish them.
+The register is `method` namespace with no external warrant, and it has a specific credibility problem recorded in [concepts/entry-state.md](/concepts/entry-state.md): **nine agents reading this programme's own pages concluded that ordinary practice does not teach what this programme teaches.** That is either corroboration or circularity and the repository cannot currently distinguish them.
 
 So the 23 is not a fact about workshops. It is the arithmetic consequence of a set of untested judgements, and it inherits their status exactly. What it is *not* is silence, which is what stood here before.
 

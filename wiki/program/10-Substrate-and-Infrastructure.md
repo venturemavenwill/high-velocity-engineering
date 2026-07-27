@@ -10,7 +10,7 @@ Every complexity-class-5 and class-6 seminar day depends on it, because those da
 
 ## What it runs on
 
-The substrate is an actual deployment on the Microsoft AI Platform, and its architecture is the programme's syllabus in physical form. It is organised by the four layers of the [Microsoft AI Platform Map](wiki/program/11-Microsoft-AI-Platform-Map.md), because those are the layers whose failures the students are being taught to tell apart.
+The substrate is an actual deployment on the Microsoft AI Platform, and its architecture is the programme's syllabus in physical form. It is organised by the four layers of the [Microsoft AI Platform Map](/wiki/program/11-Microsoft-AI-Platform-Map.md), because those are the layers whose failures the students are being taught to tell apart.
 
 **Capacity.** Microsoft Foundry model deployments, standard rather than provisioned as the default. The reason is a cost argument the students are shown and can check, and it is set out below.
 
@@ -24,7 +24,7 @@ The substrate is an actual deployment on the Microsoft AI Platform, and its arch
 
 ## The precedent
 
-The CMU exemplar verified at [research/01-course-structure/cmu-17-645-ml-in-production-ai-engineering.md](research/01-course-structure/cmu-17-645-ml-in-production-ai-engineering.md) runs a movie recommendation service against roughly one million simulated active users, and grades student work on how the system holds up under that load rather than on the model's offline accuracy. That is the shape being borrowed, with one difference that is the whole difficulty: the exemplar's users are simulated, and this programme's are not.
+The CMU exemplar verified at [research/01-course-structure/cmu-17-645-ml-in-production-ai-engineering.md](/research/01-course-structure/cmu-17-645-ml-in-production-ai-engineering.md) runs a movie recommendation service against roughly one million simulated active users, and grades student work on how the system holds up under that load rather than on the model's offline accuracy. That is the shape being borrowed, with one difference that is the whole difficulty: the exemplar's users are simulated, and this programme's are not.
 
 The exemplar's approach is the safe one. This design takes the harder position deliberately, and the rest of this page is the cost of that position.
 
@@ -75,13 +75,13 @@ Three consequences follow and all three are taught rather than absorbed.
 
 ### The agent toolchain is itself a consumption line
 
-Every student runs an agent against this platform on every day, and that is a cost the original design did not carry. It is budgeted as infrastructure rather than passed to students, per the [Programme Charter](wiki/program/00-Program-Charter.md), and it is metered by the same per-consumer policies as everything else, so that a cohort can see what its own working method costs. **A student who has never seen the token cost of the way they prompt has not been taught inference economics**, whatever else they have been taught.
+Every student runs an agent against this platform on every day, and that is a cost the original design did not carry. It is budgeted as infrastructure rather than passed to students, per the [Programme Charter](/wiki/program/00-Program-Charter.md), and it is metered by the same per-consumer policies as everything else, so that a cohort can see what its own working method costs. **A student who has never seen the token cost of the way they prompt has not been taught inference economics**, whatever else they have been taught.
 
-**Staff.** The dominant cost, and the one usually underestimated. The staff on-call layer, the assessor time required by the multiple-observer discipline, and the office-hours oral verification described in the [Assessment Architecture](wiki/program/03-Assessment-Architecture.md) together represent a staffing model considerably heavier than a conventional programme's. **This is unresolved.**
+**Staff.** The dominant cost, and the one usually underestimated. The staff on-call layer, the assessor time required by the multiple-observer discipline, and the office-hours oral verification described in the [Assessment Architecture](/wiki/program/03-Assessment-Architecture.md) together represent a staffing model considerably heavier than a conventional programme's. **This is unresolved.**
 
 **Duty of care.** Legal, privacy and accessibility obligations to real users. Data minimisation is designed in from the start, both because it is required and because it is the concrete instance that S078 teaches from.
 
-Student-borne tooling cost is separately capped at the figure published in the [Programme Charter](wiki/program/00-Program-Charter.md).
+Student-borne tooling cost is separately capped at the figure published in the [Programme Charter](/wiki/program/00-Program-Charter.md).
 
 ## Risks, ranked
 
@@ -91,19 +91,19 @@ Student-borne tooling cost is separately capped at the figure published in the [
 4. **Harm to users.** Mitigation: domain constraint, staff escalation, and the safety-case discipline of SG390 applied to the substrate itself, not only to student artefacts.
 5. **Cohort discontinuity.** A weak handover year damages the following two years. Mitigation: EA-2 is assessed on the handover's usability by the receiving cohort, measured after the fact.
 6. **Pedagogical capture by operations.** A live system generates unbounded work that is not instructive. Mitigation: a declared cap on operational hours per student per week, with staff absorbing the overflow.
-7. **Student-built artefacts degrade the substrate they were built to serve.** Identified in [WP-029](wiki/whitepapers/WP-029.md) §8. Measurement instruments designed at [S029](wiki/seminars/S029.md), monitoring signals from [S068](wiki/seminars/S068.md) and evaluation harnesses from [S066](wiki/seminars/S066.md) all enter operational use, and the programme's own teaching establishes that their two characteristic failures — a construct-instrument gap, and silent decay after a correct start — are invisible to inspection. Staff review catches design errors and cannot catch either of these.
-8. **The substrate's platform is superseded mid-programme.** A service the substrate depends on is renamed, re-tiered, moved to a different licence or withdrawn between a cohort's second year and its third. This is not speculative: of the six sources behind [research/06-microsoft-platform/](research/06-microsoft-platform/collected-materials.md), two were already labelled classic or superseded at the moment they were read, and one capability set moves to a different licence in 2026. **The base rate for this risk over three years is high and the design assumes it will fire at least once per cohort.**
+7. **Student-built artefacts degrade the substrate they were built to serve.** Identified in [WP-029](/wiki/whitepapers/WP-029.md) §8. Measurement instruments designed at [S029](/wiki/seminars/S029.md), monitoring signals from [S068](/wiki/seminars/S068.md) and evaluation harnesses from [S066](/wiki/seminars/S066.md) all enter operational use, and the programme's own teaching establishes that their two characteristic failures — a construct-instrument gap, and silent decay after a correct start — are invisible to inspection. Staff review catches design errors and cannot catch either of these.
+8. **The substrate's platform is superseded mid-programme.** A service the substrate depends on is renamed, re-tiered, moved to a different licence or withdrawn between a cohort's second year and its third. This is not speculative: of the six sources behind [research/06-microsoft-platform/](/research/06-microsoft-platform/collected-materials.md), two were already labelled classic or superseded at the moment they were read, and one capability set moves to a different licence in 2026. **The base rate for this risk over three years is high and the design assumes it will fire at least once per cohort.**
 
-   Four mitigations, in the order they are reached. The [Durable and Perishable Register](wiki/program/09-Durable-and-Perishable-Register.md) records every platform instance against the durable claim it carries, so a re-anchoring is a lookup rather than a redesign. The infrastructure is declared in Bicep, so a substitution is a diff rather than an archaeology. The serving architecture was already chosen for substitutability under risk 3, and now carries a second load for it. And where a layer can no longer be operated at all, the withdrawal commitment below applies without modification: the affected days are demonstrated rather than operated, and their specifications do not assess them.
+   Four mitigations, in the order they are reached. The [Durable and Perishable Register](/wiki/program/09-Durable-and-Perishable-Register.md) records every platform instance against the durable claim it carries, so a re-anchoring is a lookup rather than a redesign. The infrastructure is declared in Bicep, so a substitution is a diff rather than an archaeology. The serving architecture was already chosen for substitutability under risk 3, and now carries a second load for it. And where a layer can no longer be operated at all, the withdrawal commitment below applies without modification: the affected days are demonstrated rather than operated, and their specifications do not assess them.
 
    **What is not mitigated, and is the reason this risk is listed separately from cost volatility.** If a supersession shows that a durable claim was an artefact of one implementation, then the claim was wrong rather than the service, and the programme has assessed a cohort on it. There is no mechanism for un-assessing, and inventing one would be worse than the problem. The design's only available response is the one it uses everywhere else: record the finding, amend the durable table, tell the affected cohort what changed and why, and leave the error legible. That is a poor remedy and it is the only one available.
 
 ### Adoption conditions for student-built instruments
 
-Two safeguards, both introduced in response to [WP-029](wiki/whitepapers/WP-029.md) §8.
+Two safeguards, both introduced in response to [WP-029](/wiki/whitepapers/WP-029.md) §8.
 
-- **Every adopted student instrument carries a review date** and is withdrawn automatically at that date unless revalidated against its own stated validation criterion. This converts an indefinite exposure into a bounded one and makes the [S029](wiki/seminars/S029.md) step 4 criterion operationally load-bearing rather than an assessment artefact.
-- **The limitation statement propagates with the output, not with the instrument.** Any number the instrument emits carries its [S029](wiki/seminars/S029.md) step 3 statement mechanically, enforced by the substrate's tooling rather than by convention. The failure this prevents is the one disclosed in the S029 error clinic and in [S026](wiki/seminars/S026.md) phase 6: the caveat is written once, is not attached to the number, and the number travels without it.
+- **Every adopted student instrument carries a review date** and is withdrawn automatically at that date unless revalidated against its own stated validation criterion. This converts an indefinite exposure into a bounded one and makes the [S029](/wiki/seminars/S029.md) step 4 criterion operationally load-bearing rather than an assessment artefact.
+- **The limitation statement propagates with the output, not with the instrument.** Any number the instrument emits carries its [S029](/wiki/seminars/S029.md) step 3 statement mechanically, enforced by the substrate's tooling rather than by convention. The failure this prevents is the one disclosed in the S029 error clinic and in [S026](/wiki/seminars/S026.md) phase 6: the caveat is written once, is not attached to the number, and the number travels without it.
 
 Neither safeguard was in the original design. Both are cheap, and their prior absence meant the programme exposed its own operational system to a hazard it teaches students to recognise.
 
@@ -111,7 +111,7 @@ Neither safeguard was in the original design. Both are cheap, and their prior ab
 
 **The service states, in its own interface and in its own terms, that it is operated as a teaching substrate and that its behaviour is deliberately disturbed during announced windows.**
 
-This was absent from the original design and was added after [WP-035](wiki/whitepapers/WP-035.md) §8 identified the gap. The prior position — that degradation was bounded, announced as maintenance, reversible, and in a domain where failure is inconvenient rather than harmful — established proportionality and not consent. A user told that maintenance is occurring has not been told that students will deliberately break the component they depend on in order to observe what happens.
+This was absent from the original design and was added after [WP-035](/wiki/whitepapers/WP-035.md) §8 identified the gap. The prior position — that degradation was bounded, announced as maintenance, reversible, and in a domain where failure is inconvenient rather than harmful — established proportionality and not consent. A user told that maintenance is occurring has not been told that students will deliberately break the component they depend on in order to observe what happens.
 
 The disclosure is one paragraph. Its absence meant the programme was running an experiment on people who had not been told they were part of one, in the same quarter as a module whose fourth day is about what you owe the person on the other side of an interface. That is an exact self-refutation and the design had no defence for it beyond not having considered it.
 
@@ -121,7 +121,7 @@ The disclosure is one paragraph. Its absence meant the programme was running an 
 
 **If the substrate cannot be delivered, the operations, incident and monitoring content is withdrawn rather than simulated.**
 
-Concretely, that means S068, S079 and S080 are not taught, EA-1 is reduced in scope, EA-2 is not assessable in its current form, and the [Programme Charter](wiki/program/00-Program-Charter.md) is amended to remove the claims that depend on them. The programme would be smaller and its entrustment claims weaker, and it would say so.
+Concretely, that means S068, S079 and S080 are not taught, EA-1 is reduced in scope, EA-2 is not assessable in its current form, and the [Programme Charter](/wiki/program/00-Program-Charter.md) is amended to remove the claims that depend on them. The programme would be smaller and its entrustment claims weaker, and it would say so.
 
 The alternative — running these days against an injected-fault simulation and continuing to describe the outcome as production judgement — is the exact failure this programme was designed to correct. A simulated incident produces a student who can perform incident response. The programme claims to produce students who can decide under consequence. Those are different claims and only one of them is worth three years.
 
@@ -139,9 +139,9 @@ The alternative — running these days against an injected-fault simulation and 
 
 ## Related pages
 
-- [Programme Charter](wiki/program/00-Program-Charter.md)
-- [Assessment Architecture](wiki/program/03-Assessment-Architecture.md)
-- [Microsoft AI Platform Map](wiki/program/11-Microsoft-AI-Platform-Map.md)
-- [Durable and Perishable Register](wiki/program/09-Durable-and-Perishable-Register.md)
-- [research/01-course-structure/cmu-17-645-ml-in-production-ai-engineering.md](research/01-course-structure/cmu-17-645-ml-in-production-ai-engineering.md)
-- [research/06-microsoft-platform/collected-materials.md](research/06-microsoft-platform/collected-materials.md)
+- [Programme Charter](/wiki/program/00-Program-Charter.md)
+- [Assessment Architecture](/wiki/program/03-Assessment-Architecture.md)
+- [Microsoft AI Platform Map](/wiki/program/11-Microsoft-AI-Platform-Map.md)
+- [Durable and Perishable Register](/wiki/program/09-Durable-and-Perishable-Register.md)
+- [research/01-course-structure/cmu-17-645-ml-in-production-ai-engineering.md](/research/01-course-structure/cmu-17-645-ml-in-production-ai-engineering.md)
+- [research/06-microsoft-platform/collected-materials.md](/research/06-microsoft-platform/collected-materials.md)

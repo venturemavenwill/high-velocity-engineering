@@ -2,7 +2,7 @@
 
 > **Question asked:** we have Microsoft's Frontier Transformation Engineer material (notes 01–08). We want to teach the Forward Deployed Engineer / Hypervelocity Engineering way of working inside a 3-year computer-engineering degree. **What is missing?**
 >
-> **Scope of research behind this document:** five parallel research streams — (1) FDE intellectual lineage and primary practitioner canon; (2) the Microsoft AI platform surface as of mid-2026; (3) the vendor-neutral AI-engineering body of knowledge; (4) CS2023 / ABET / exemplar university courses; (5) the professional-formation and growth-mindset evidence base. Companion documents: [sources/design-analysis/09-Curriculum-Design-Benchmark-and-Sources.md](sources/design-analysis/09-Curriculum-Design-Benchmark-and-Sources.md).
+> **Scope of research behind this document:** five parallel research streams — (1) FDE intellectual lineage and primary practitioner canon; (2) the Microsoft AI platform surface as of mid-2026; (3) the vendor-neutral AI-engineering body of knowledge; (4) CS2023 / ABET / exemplar university courses; (5) the professional-formation and growth-mindset evidence base. Companion documents: [sources/design-analysis/09-Curriculum-Design-Benchmark-and-Sources.md](/sources/design-analysis/09-Curriculum-Design-Benchmark-and-Sources.md).
 
 **Verification key used throughout:** **[V]** verified against a primary source during research · **[V2]** verified only via a credible secondary source · **[B]** standard bibliographic record, not re-verified · **[?]** unverified or contested — do not print without checking.
 
@@ -186,7 +186,7 @@ These need checking before the notes are used with students.
 
 | Current statement | Verified position | Source |
 |---|---|---|
-| "AI-102 accepted in place of AI-103" ([README.md](README.md)) | Microsoft Learn's Azure AI Engineer Associate page carries *"This certification and the renewal assessment are retired."* Metadata: last updated 2025-12-23, `hidden: true`, `noindex`. **An already-held unexpired cert may still count; a newly attempted one may not be sittable.** Confirm with LevelUp before anyone books. | **[V]** |
+| "AI-102 accepted in place of AI-103" ([README.md](/README.md)) | Microsoft Learn's Azure AI Engineer Associate page carries *"This certification and the renewal assessment are retired."* Metadata: last updated 2025-12-23, `hidden: true`, `noindex`. **An already-held unexpired cert may still count; a newly attempted one may not be sittable.** Confirm with LevelUp before anyone books. | **[V]** |
 | "Azure AI Foundry" | **Microsoft Foundry.** Docs at `/azure/foundry/**`; the prior surface is explicitly **"Foundry (classic)"** at `/azure/foundry-classic/**`. | **[V]** |
 | "Grounding with Bing Search" as the web-grounding tool | **Web Search tool** is now the recommended built-in; Bing grounding is the advanced/market-filtering case. | **[V]** |
 | Agent tool list = Code Interpreter, File Search, Bing, Functions, Logic Apps, OpenAPI | Catalog has grown substantially: Custom Code Interpreter, Image Generation, Browser Automation, Computer Use, Fabric, SharePoint, A2A — plus **Toolbox** and the **private tool catalog**. | **[V]** |
@@ -446,7 +446,7 @@ If you can only do some of this, do it in this order.
 
 | Priority | Action | Why first |
 |---|---|---|
-| **1** | **Resolve the AI-102 substitution** in [README.md](README.md) | Hard blocker; someone may book a retired exam. **[V]** |
+| **1** | **Resolve the AI-102 substitution** in [README.md](/README.md) | Hard blocker; someone may book a retired exam. **[V]** |
 | **2** | **Add the evaluation spine (Strand B)** and the rule that every assignment ships an eval suite first | Largest single gap; highest transfer; changes student behaviour immediately. |
 | **3** | **Add one comprehensive project with oral defence** | Closes C3.2, C3.3, C3.5 and proposed C5.4 with a single instrument, and makes AI policy tractable without detection. **[V]** |
 | **4** | **Add the systems layer beneath the abstraction (Strand A labs)** — BM25, HNSW, KV-cache calculator, raw ReAct loop | Cheap to build, permanently useful, and the fastest way to break the "portal = understanding" illusion. |

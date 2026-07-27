@@ -1,8 +1,8 @@
 # Course Catalogue
 
-> All 36 courses across 9 quarters. Four courses per quarter at five quarter-units each: 20 units per quarter, 180 across the programme, equivalent to 120 semester credits. Strand codes are defined in [Home](wiki/Home.md).
+> All 36 courses across 9 quarters. Four courses per quarter at five quarter-units each: 20 units per quarter, 180 across the programme, equivalent to 120 semester credits. Strand codes are defined in [Home](/wiki/Home.md).
 
-**Every course carries a platform anchor** — the named Microsoft AI Platform service it is taught against — and every course paragraph states what the student actually builds on it. The anchors are taken verbatim from the [Microsoft AI Platform Map](wiki/program/11-Microsoft-AI-Platform-Map.md), which is authoritative where this page and that one differ. A course with no anchor does not exist in this programme.
+**Every course carries a platform anchor** — the named Microsoft AI Platform service it is taught against — and every course paragraph states what the student actually builds on it. The anchors are taken verbatim from the [Microsoft AI Platform Map](/wiki/program/11-Microsoft-AI-Platform-Map.md), which is authoritative where this page and that one differ. A course with no anchor does not exist in this programme.
 
 ## Strand codes
 
@@ -12,7 +12,7 @@
 
 ## Year 1 — Foundations and Fluency
 
-### Q1 · Machines, Programs and Proof — [quarter page](wiki/quarters/Q1.md)
+### Q1 · Machines, Programs and Proof — [quarter page](/wiki/quarters/Q1.md)
 
 | Code | Title | Strand | Prereq | Platform anchor |
 |---|---|---|---|---|
@@ -26,7 +26,7 @@
 **SY101** Representation, the memory hierarchy, instruction execution, and why abstractions leak. Built bottom-up to a working simulated machine. The student then drives the Azure MCP Server in read-only mode from agent mode to inventory the real machine the substrate is billed for, and writes the account of what the abstraction hid.
 **PE101** How to read a paper, how to tell a claim from a finding, calibration of confidence, the formation of engineering self-efficacy, and the programme's own design rationale taught explicitly. The Learn MCP Server is the citation discipline made operable: it searches Microsoft's official documentation and fetches whole articles, and the student builds a claim audit that separates what a source states from what the agent supplied from recall.
 
-### Q2 · Structure and Scale — [quarter page](wiki/quarters/Q2.md)
+### Q2 · Structure and Scale — [quarter page](/wiki/quarters/Q2.md)
 
 | Code | Title | Strand | Prereq | Platform anchor |
 |---|---|---|---|---|
@@ -40,7 +40,7 @@
 **SY102** Processes, scheduling, virtual memory, files, and the resource contention that later reappears as inference economics. Contention is met on real Azure compute and memory limits rather than on a diagram, and the student builds a workload that provokes one.
 **PE102** Writing for a reader who will act on it; interviewing to discover rather than to confirm. First contact with the substrate's real users. The instructions file is the same skill in a second register — writing for a reader who will act, where the reader is an agent and non-conformance is visible immediately — and the student ships one alongside the interview record.
 
-### Q3 · Algorithms and Uncertainty — [quarter page](wiki/quarters/Q3.md)
+### Q3 · Algorithms and Uncertainty — [quarter page](/wiki/quarters/Q3.md)
 
 | Code | Title | Strand | Prereq | Platform anchor |
 |---|---|---|---|---|
@@ -58,7 +58,7 @@
 
 ## Year 2 — Systems, Learning, Measurement
 
-### Q4 · Concurrency and Correctness — [quarter page](wiki/quarters/Q4.md)
+### Q4 · Concurrency and Correctness — [quarter page](/wiki/quarters/Q4.md)
 
 | Code | Title | Strand | Prereq | Platform anchor |
 |---|---|---|---|---|
@@ -70,9 +70,9 @@
 **CF201** Semantics, type systems as lightweight proof, effects, and language design as a decision about which errors become impossible. An MCP tool definition is a type declaration whose consumer is a model rather than a compiler, and the student builds an MCP server whose schema makes a category of wrong call unexpressible — then finds the wrong call the schema still permits.
 **SY201** Threads, synchronisation, consistency models, partial failure, consensus, and the fact that distributed correctness is a specification problem. Azure API Management supplies the concrete instance: backend pools, load balancing and circuit-breaking policies in front of multiple model deployments, where partial failure is a policy decision the student configures and then provokes.
 **MS201** Gradient methods, convexity, conditioning, numerical stability, and the failure modes that look like modelling errors and are not. Foundry's fine-tuning path is where this becomes expensive rather than theoretical: the platform offers supervised, direct-preference and reinforcement techniques, and the student runs one, reads the loss curve, and distinguishes an optimisation failure from a data failure.
-**PE201** Contextual inquiry, domain-driven modelling, ubiquitous language, and principled negotiation. See [research/05-fde-craft/](research/05-fde-craft/collected-materials.md). The negotiation has a real counterparty and a real constraint: quota limits the maximum that may be deployed and is explicitly not a guarantee that capacity exists, so the student negotiates for something the platform may refuse to supply and writes the position they will hold if it does.
+**PE201** Contextual inquiry, domain-driven modelling, ubiquitous language, and principled negotiation. See [research/05-fde-craft/](/research/05-fde-craft/collected-materials.md). The negotiation has a real counterparty and a real constraint: quota limits the maximum that may be deployed and is explicitly not a guarantee that capacity exists, so the student negotiates for something the platform may refuse to supply and writes the position they will hold if it does.
 
-### Q5 · Learning Machines — [quarter page](wiki/quarters/Q5.md)
+### Q5 · Learning Machines — [quarter page](/wiki/quarters/Q5.md)
 
 | Code | Title | Strand | Prereq | Platform anchor |
 |---|---|---|---|---|
@@ -82,11 +82,11 @@
 | SG201 | Threat Modelling and Secure Design | SG | SY201 | Defender AI posture management; the four IaC checks as a minimum baseline |
 
 **IS201** Supervised learning, generalisation, regularisation, model selection, and the bias-variance account of why validation exists. The Foundry model catalogue is where model selection acquires a price and a deployment decision: the student deploys from the catalogue, evaluates, and states what the fine-tuning path would buy before being permitted to take it.
-**ME201** Evaluation as workflow rather than benchmark. Power, clustering, interval construction on realistic data, and evaluation governance. Anchored on [research/03-measurement-evaluation/](research/03-measurement-evaluation/collected-materials.md). Run against Foundry cloud evaluation, whose own documentation states the course's central point plainly — **how you split a conversation determines what you are evaluating** — with last-turn the default, and the student builds the same evaluation under two split strategies and reports the two different numbers.
+**ME201** Evaluation as workflow rather than benchmark. Power, clustering, interval construction on realistic data, and evaluation governance. Anchored on [research/03-measurement-evaluation/](/research/03-measurement-evaluation/collected-materials.md). Run against Foundry cloud evaluation, whose own documentation states the course's central point plainly — **how you split a conversation determines what you are evaluating** — with last-turn the default, and the student builds the same evaluation under two split strategies and reports the two different numbers.
 **SY202** Protocols, service boundaries, latency budgets, caching, and load management. The Azure API Management AI gateway makes tokens the scarce resource rather than requests: the student builds the gateway, sets a token-limit policy per consumer, and adds semantic caching, which requires an external RediSearch-compatible cache and therefore has an architecture rather than a switch.
 **SG201** Trust boundaries, adversary models, authentication and authorisation, and threat modelling as a design activity rather than a review gate. The threat model is built against the cohort's own deployed stack, and is then checked against the posture recommendations Defender emits for it — the point being the gap between the two, since a recommendation engine has no model of what the student is trying to protect.
 
-### Q6 · Language and Retrieval — [quarter page](wiki/quarters/Q6.md)
+### Q6 · Language and Retrieval — [quarter page](/wiki/quarters/Q6.md)
 
 | Code | Title | Strand | Prereq | Platform anchor |
 |---|---|---|---|---|
@@ -95,7 +95,7 @@
 | ME202 | Human and Model Judgement | ME | ME201 | Foundry LLM-as-judge evaluators as instruments to be characterised |
 | PE202 | Teams, Safety and Error Management | PE | PE201 | Copilot as a team member with a jagged frontier; error management on agent output |
 
-**IS202** Representation learning, attention, transformer architecture, training dynamics, alignment and preference optimisation, and documented planning limitations. Sources in [research/02-technical-foundations/](research/02-technical-foundations/collected-materials.md). The Foundry model catalogue spans several families, so deployment stops being a formality and becomes an architectural choice the student must defend: the artefact is the same task served by two families with the differences in behaviour characterised rather than asserted.
+**IS202** Representation learning, attention, transformer architecture, training dynamics, alignment and preference optimisation, and documented planning limitations. Sources in [research/02-technical-foundations/](/research/02-technical-foundations/collected-materials.md). The Foundry model catalogue spans several families, so deployment stops being a formality and becomes an architectural choice the student must defend: the artefact is the same task served by two families with the differences in behaviour characterised rather than asserted.
 **IS203** Lexical ranking baselines, dense retrieval, approximate nearest neighbour structures, quantisation, and the empirical case for zero-shot generalisation testing. Built on Azure AI Search across vector, hybrid and semantic ranking, and the student ships an index and then walks into the chunking trap deliberately — because a chunked document that leaves its permission metadata behind is the failure the next quarter's governance course exists to prevent.
 **ME202** Judge bias and its mitigations, criteria discovery and drift, rater variance, narrative substantiation, and validating the validator. Foundry's judge evaluators are the instruments under characterisation, and the course's hardest fact is one the vendor's documentation supplies by omission: no agreement-with-human data is published for any of them, so the student must build the agreement study themselves or state that the score is uncalibrated.
 **PE202** Psychological safety, error management training, productive failure, and the empirical evidence on AI-assisted productivity and the jagged frontier. Copilot is treated here as a team member whose competence is uneven in ways not predictable from task difficulty, and the student runs an error clinic on the agent's output rather than on their own — including the case where review passed something that was wrong.
@@ -104,7 +104,7 @@
 
 ## Year 3 — Production, Adversary, Entrustment
 
-### Q7 · Serving and Economics — [quarter page](wiki/quarters/Q7.md)
+### Q7 · Serving and Economics — [quarter page](/wiki/quarters/Q7.md)
 
 | Code | Title | Strand | Prereq | Platform anchor |
 |---|---|---|---|---|
@@ -118,7 +118,7 @@
 **ME301** Regression evaluation as a release gate, offline-online divergence, monitoring design, and evaluation of pre-existing traces. Foundry cloud evaluation runs in the substrate's CI, and the platform's ability to score pre-existing responses without re-running the agent is what makes the gate affordable — the student builds the gate, then finds the release it would have passed and should not have.
 **SG301** Document-level authorisation enforced at retrieval, permission metadata staleness, sensitivity classification, and posture management for data and workloads. Built on Azure AI Search document-level access control, where enforcement is a two-stage check — service-level access for the calling application, then per-document permissions validated against the caller's own Entra token — and where the generally available option is simple string matching while the properly authenticated options are preview. The student implements one, breaks it with a stale permission, and states which stage failed.
 
-### Q8 · Agency and Adversary — [quarter page](wiki/quarters/Q8.md)
+### Q8 · Agency and Adversary — [quarter page](/wiki/quarters/Q8.md)
 
 | Code | Title | Strand | Prereq | Platform anchor |
 |---|---|---|---|---|
@@ -132,7 +132,7 @@
 **ME302** Drift detection, alerting design, detectability as a system property, incident forensics, and blameless post-incident analysis. Foundry's observability surface — evaluation, tracing and monitoring together, with continuous evaluation and the agent monitoring dashboard currently in preview — is the instrumentation under study, and the student builds the trace that would have made a real substrate incident visible before a user reported it.
 **PE301** Change management, stakeholder analysis, communicating risk to non-technical decision-makers, and negotiating scope under organisational constraint. The stakeholders are the substrate's, the cost line is the substrate's monthly ceiling, and the refusal is real — the student asks for something the budget or the platform will not give, and communicates the consequence to the person who has to accept it.
 
-### Q9 · Deployment and Entrustment — [quarter page](wiki/quarters/Q9.md)
+### Q9 · Deployment and Entrustment — [quarter page](/wiki/quarters/Q9.md)
 
 | Code | Title | Strand | Prereq | Platform anchor |
 |---|---|---|---|---|
@@ -146,7 +146,7 @@
 **PE390** Handover as an engineered artefact: what transfers, to whom, with what warranty, and what the receiving organisation must be able to do without you. The handover includes the repository's instructions and prompt files, because a receiving organisation that inherits a system without inheriting the specifications that produce conforming changes to it has inherited less than it thinks.
 **SG390** Constructing and defending a safety case; disclosure ethics; residual risk statement. The safety case is made for a system running on a named platform whose posture tooling publishes no detection rate and whose judge evaluators publish no agreement figure, so the residual-risk statement has to be honest about instruments the vendor has not characterised.
 
-**On Q9's anchor.** The [Microsoft AI Platform Map](wiki/program/11-Microsoft-AI-Platform-Map.md) defines course-level anchors for thirty-two of the thirty-six courses and gives Q9 only the quarter-level anchor reproduced above. That is recorded here rather than filled in, because inventing four course anchors for the quarter whose subject is that nothing new is introduced would misrepresent the design. If Q9 later needs course-level anchors, they are added to the map first and copied here second.
+**On Q9's anchor.** The [Microsoft AI Platform Map](/wiki/program/11-Microsoft-AI-Platform-Map.md) defines course-level anchors for thirty-two of the thirty-six courses and gives Q9 only the quarter-level anchor reproduced above. That is recorded here rather than filled in, because inventing four course anchors for the quarter whose subject is that nothing new is introduced would misrepresent the design. If Q9 later needs course-level anchors, they are added to the map first and copied here second.
 
 ---
 
@@ -164,20 +164,20 @@
 | Capstone (counted in `all`) | 1 | 15 | 10.0 |
 | **Total** | **36** | **180** | **120** |
 
-*The capstone's units are drawn from the strands it integrates; the strand rows above exclude it to avoid double counting. Accreditation-relevant totals are reconciled in [Outcomes and Accreditation Map](wiki/program/01-Outcomes-and-Accreditation-Map.md).*
+*The capstone's units are drawn from the strands it integrates; the strand rows above exclude it to avoid double counting. Accreditation-relevant totals are reconciled in [Outcomes and Accreditation Map](/wiki/program/01-Outcomes-and-Accreditation-Map.md).*
 
 ## Design notes
 
-- **Measurement runs from Q3 to Q9 without a gap.** This is the deliberate consequence of treating evaluation as the spine rather than as a topic. See [research/01-course-structure/10-gap-analysis-and-course-architecture.md](research/01-course-structure/10-gap-analysis-and-course-architecture.md).
+- **Measurement runs from Q3 to Q9 without a gap.** This is the deliberate consequence of treating evaluation as the spine rather than as a topic. See [research/01-course-structure/10-gap-analysis-and-course-architecture.md](/research/01-course-structure/10-gap-analysis-and-course-architecture.md).
 - **Professional formation appears in seven of nine quarters.** Strands 5 and 6 of the source architecture cannot be folded into the technical arc without disappearing, and structural separation is what makes them assessable.
 - **Security enters at Q5, not Q9.** Threat modelling is a design activity; teaching it after the system exists teaches it as review.
-- **No course is named after a product.** ~~Platform material appears inside SY301, SG301 and IS302 as instances of durable problems.~~ **Amended when the platform anchors were added.** Platform material now appears in every course, because a course that never puts the student in front of the thing that solves the problem can be read with approval and not followed. The first clause is unchanged and is the one doing the work: a course is named after the durable problem, the anchor names the service the problem is met on, and the [Durable and Perishable Register](wiki/program/09-Durable-and-Perishable-Register.md) is what keeps the second from being assessed as though it were the first. The original sentence is struck through rather than deleted so that the narrowing of this refusal remains legible.
-- **Every course states what the student builds.** This is a consequence of the same correction and is the operative test of it. A course paragraph that names a service and does not say what is produced on it has described a demonstration, and the [Copilot Practice Standard](wiki/program/12-Copilot-Practice-Standard.md) does not accept one.
+- **No course is named after a product.** ~~Platform material appears inside SY301, SG301 and IS302 as instances of durable problems.~~ **Amended when the platform anchors were added.** Platform material now appears in every course, because a course that never puts the student in front of the thing that solves the problem can be read with approval and not followed. The first clause is unchanged and is the one doing the work: a course is named after the durable problem, the anchor names the service the problem is met on, and the [Durable and Perishable Register](/wiki/program/09-Durable-and-Perishable-Register.md) is what keeps the second from being assessed as though it were the first. The original sentence is struck through rather than deleted so that the narrowing of this refusal remains legible.
+- **Every course states what the student builds.** This is a consequence of the same correction and is the operative test of it. A course paragraph that names a service and does not say what is produced on it has described a demonstration, and the [Copilot Practice Standard](/wiki/program/12-Copilot-Practice-Standard.md) does not accept one.
 
 ## Related pages
 
-- [Microsoft AI Platform Map](wiki/program/11-Microsoft-AI-Platform-Map.md)
-- [Copilot Practice Standard](wiki/program/12-Copilot-Practice-Standard.md)
-- [Module Map](wiki/program/07-Module-Map.md)
-- [Seminar Day Index](wiki/program/08-Seminar-Day-Index.md)
-- [Outcomes and Accreditation Map](wiki/program/01-Outcomes-and-Accreditation-Map.md)
+- [Microsoft AI Platform Map](/wiki/program/11-Microsoft-AI-Platform-Map.md)
+- [Copilot Practice Standard](/wiki/program/12-Copilot-Practice-Standard.md)
+- [Module Map](/wiki/program/07-Module-Map.md)
+- [Seminar Day Index](/wiki/program/08-Seminar-Day-Index.md)
+- [Outcomes and Accreditation Map](/wiki/program/01-Outcomes-and-Accreditation-Map.md)

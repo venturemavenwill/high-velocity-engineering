@@ -16,14 +16,14 @@ That is why the boundary is real, and it is why every whitepaper already closes 
 
 | id | Domain | What a claim licenses | Decay | Verify | Primary sources |
 |---|---|---|---|---|---|
-| `platform` | Microsoft AI Platform | What the documentation says, **at a stated version**, together with **what it does not report that a reader would need**. States bounds; never accuracies. | **months** | before every offering | [research/06-microsoft-platform/](research/06-microsoft-platform/collected-materials.md) |
-| `ai-systems` | AI systems, technical | Mechanism, verified. Magnitudes are properties of a particular model after a particular training run and do not transfer. | 1–3 years | annually | [research/02-technical-foundations/](research/02-technical-foundations/collected-materials.md) |
-| `measurement` | Measurement and inference | An identity under a stated model, or an interval with its dependency structure argued. Exactly as good as the model. | permanent | on amendment | [research/03-measurement-evaluation/](research/03-measurement-evaluation/collected-materials.md) |
-| `pedagogy` | Learning science | **Direction and mechanism only. No effect size, ever.** | decades | 3 years | [research/04-professional-formation/](research/04-professional-formation/collected-materials.md) |
-| `assessment` | Entrustment and assessment | An ordinal judgement with mandatory narrative substantiation. No percentages, no carry-forward. | decades | 3 years | [research/08-assessment-epas/](research/08-assessment-epas/collected-materials.md) |
-| `fde-craft` | Forward-deployed craft | A transferable practice pattern with weak formal warrant, honestly labelled as such. | slow | 3 years | [research/05-fde-craft/](research/05-fde-craft/collected-materials.md) |
-| `curriculum` | Curriculum architecture | Design reasoning, plus accreditation mapping where a standard exists. | years | annually | [research/01-course-structure/](research/01-course-structure/collected-materials.md) · [research/07-accreditation-exemplars/](research/07-accreditation-exemplars/collected-materials.md) |
-| `method` | HVE's own discipline | Design reasoning with **no external warrant**. The instrumentation rules, the compliance register, the pattern observations. | on amendment | on amendment | [wiki/program/](wiki/program/04-Seminar-Day-Design-Pattern.md) |
+| `platform` | Microsoft AI Platform | What the documentation says, **at a stated version**, together with **what it does not report that a reader would need**. States bounds; never accuracies. | **months** | before every offering | [research/06-microsoft-platform/](/research/06-microsoft-platform/collected-materials.md) |
+| `ai-systems` | AI systems, technical | Mechanism, verified. Magnitudes are properties of a particular model after a particular training run and do not transfer. | 1–3 years | annually | [research/02-technical-foundations/](/research/02-technical-foundations/collected-materials.md) |
+| `measurement` | Measurement and inference | An identity under a stated model, or an interval with its dependency structure argued. Exactly as good as the model. | permanent | on amendment | [research/03-measurement-evaluation/](/research/03-measurement-evaluation/collected-materials.md) |
+| `pedagogy` | Learning science | **Direction and mechanism only. No effect size, ever.** | decades | 3 years | [research/04-professional-formation/](/research/04-professional-formation/collected-materials.md) |
+| `assessment` | Entrustment and assessment | An ordinal judgement with mandatory narrative substantiation. No percentages, no carry-forward. | decades | 3 years | [research/08-assessment-epas/](/research/08-assessment-epas/collected-materials.md) |
+| `fde-craft` | Forward-deployed craft | A transferable practice pattern with weak formal warrant, honestly labelled as such. | slow | 3 years | [research/05-fde-craft/](/research/05-fde-craft/collected-materials.md) |
+| `curriculum` | Curriculum architecture | Design reasoning, plus accreditation mapping where a standard exists. | years | annually | [research/01-course-structure/](/research/01-course-structure/collected-materials.md) · [research/07-accreditation-exemplars/](/research/07-accreditation-exemplars/collected-materials.md) |
+| `method` | HVE's own discipline | Design reasoning with **no external warrant**. The instrumentation rules, the compliance register, the pattern observations. | on amendment | on amendment | [wiki/program/](/wiki/program/04-Seminar-Day-Design-Pattern.md) |
 
 ## How a document acquires a namespace
 
@@ -31,7 +31,7 @@ That is why the boundary is real, and it is why every whitepaper already closes 
 
 **Wiki pages take theirs by derivation, not declaration.** A page's namespace mix is computed from its `grounded_in` edges — what it actually cites. This is deliberate: a page that *claims* to be about measurement but cites only vendor documentation is a platform page, whatever its title says, and the graph will say so.
 
-The consequence is worth stating plainly. **A page whose namespace mix is dominated by `platform` inherits `platform`'s decay.** Half the wiki now carries a platform anchor, which means half the wiki now decays in months. The [Durable and Perishable Register](wiki/program/09-Durable-and-Perishable-Register.md) is the response, and the per-day perishability registers are where the separation is actually made.
+The consequence is worth stating plainly. **A page whose namespace mix is dominated by `platform` inherits `platform`'s decay.** Half the wiki now carries a platform anchor, which means half the wiki now decays in months. The [Durable and Perishable Register](/wiki/program/09-Durable-and-Perishable-Register.md) is the response, and the per-day perishability registers are where the separation is actually made.
 
 ## The rule that binds them
 
@@ -64,6 +64,6 @@ Each namespace grows differently, and knowing *how* is what makes an autonomous 
 
 ## Related
 
-- [Projections](concepts/projections.md) — why the BSc programme is a read model and not the truth
-- [AGENTS.md](AGENTS.md) — the working contract
-- [graph/README.md](graph/README.md) — namespace fields are on every node
+- [Projections](/concepts/projections.md) — why the BSc programme is a read model and not the truth
+- [AGENTS.md](/AGENTS.md) — the working contract
+- [graph/README.md](/graph/README.md) — namespace fields are on every node

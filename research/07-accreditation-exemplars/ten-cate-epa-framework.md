@@ -1,6 +1,6 @@
 # Cliff Notes — EPA Framework as an Accreditation Exemplar
 
-> Companion note. The full source reading of ten Cate's primer, with the complete supervision scale, the EPA description template and the empirical implementation figures, is at [research/03-measurement-evaluation/ten-cate-epas.md](research/03-measurement-evaluation/ten-cate-epas.md). This note reads the same source through the accreditation lens: what a professional discipline did when it decided that time served was not evidence of readiness, and what a computing programme can borrow from that precedent when facing ABET.
+> Companion note. The full source reading of ten Cate's primer, with the complete supervision scale, the EPA description template and the empirical implementation figures, is at [research/03-measurement-evaluation/ten-cate-epas.md](/research/03-measurement-evaluation/ten-cate-epas.md). This note reads the same source through the accreditation lens: what a professional discipline did when it decided that time served was not evidence of readiness, and what a computing programme can borrow from that precedent when facing ABET.
 
 ## Citation and access
 - **Author:** Olle ten Cate, Center for Research and Development of Education, University Medical Center Utrecht

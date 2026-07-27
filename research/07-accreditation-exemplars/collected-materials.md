@@ -14,7 +14,7 @@ The synthesis these four support is that the course is defensible if it can demo
 - "The curriculum requirements specify topics, but do not prescribe specific courses" — the standard constrains outcomes, not course architecture.
 - ABET's own definition of assessment permits "relevant direct, indirect, quantitative and qualitative measures as appropriate to the outcome being measured", which is the textual hook for narrative and observation-based evidence.
 - **Section V, Proposed Changes** — approved by the Computing Area Delegation on 25 October 2024, comment period closed 15 June 2025, first applied in the **2026-27 review cycle** — introduces the definition **"PROFESSIONAL DISPOSITIONS: Professional dispositions are behaviors desired in the workplace"** and a new Criterion 5 item requiring "a comprehensive project or experience appropriate to the discipline which: 1) builds on technical knowledge and skills acquired in prior advanced course work, and 2) enables the application of appropriate professional dispositions." Proposed CS criteria also add software engineering and artificial intelligence to substantial coverage.
-- Full note: [abet-cac-criteria-and-student-outcomes.md](research/07-accreditation-exemplars/abet-cac-criteria-and-student-outcomes.md)
+- Full note: [abet-cac-criteria-and-student-outcomes.md](/research/07-accreditation-exemplars/abet-cac-criteria-and-student-outcomes.md)
 
 ### CS2023 competency and disposition materials
 - Endorsed by **ACM on 18 January 2024, IEEE-CS on 22 January 2024, and AAAI on 22 February 2024**; single volume, DOI 10.1145/3664191.
@@ -22,7 +22,7 @@ The synthesis these four support is that the course is defensible if it can demo
 - Knowledge areas carry codes and include Artificial Intelligence (AI), Data Management (DM), Software Engineering (SE), Security (SEC), and Society, Ethics and the Profession (SEP), among others.
 - The final report includes a section on **Generative AI and the Curriculum** within its Pedagogy and Practices part.
 - The vision distinguishes Curricular Guidelines, which "list what should be covered", from Curricular Practices, which "describe how and why they should be covered, including challenges, best practices".
-- Full note: [cs2023-competency-and-disposition-materials.md](research/07-accreditation-exemplars/cs2023-competency-and-disposition-materials.md)
+- Full note: [cs2023-competency-and-disposition-materials.md](/research/07-accreditation-exemplars/cs2023-competency-and-disposition-materials.md)
 
 ### CMU 17-645 Machine Learning in Production
 - Maintained by Christian Kaestner; Fall 2026 taught with Bogdan Vasilescu. All materials **Creative Commons** at github.com/mlip-cmu; companion book open access from MIT Press.
@@ -33,7 +33,7 @@ The synthesis these four support is that the course is defensible if it can demo
 - **Token economy**: 8 individual and 8 team tokens, strictly separate; 1 token per late day, 3 tokens to resubmit with 90% of the improvement credited.
 - **AI-tool policy** permits and recommends AI tools with two exceptions — exams and live conversations with staff — resting on the principle that "you will be solely responsible for the correctness of the solution."
 - Grading: 35% individual assignments, 30% group project, 25% midterms and participation, 10% labs, **no final exam**.
-- Full note: [cmu-17-645-ml-in-production-ai-engineering-materials.md](research/07-accreditation-exemplars/cmu-17-645-ml-in-production-ai-engineering-materials.md)
+- Full note: [cmu-17-645-ml-in-production-ai-engineering-materials.md](/research/07-accreditation-exemplars/cmu-17-645-ml-in-production-ai-engineering-materials.md)
 
 ### Stanford CS336 Language Modeling from Scratch
 - Tatsunori Hashimoto and Percy Liang; five units; nineteen lectures; five layered assignments with public repositories.
@@ -41,14 +41,14 @@ The synthesis these four support is that the course is defensible if it can demo
 - AI policy derived from a stated learning mechanism: conceptual and low-level prompting permitted, direct solution generation prohibited, and inline autocomplete strongly discouraged because "we have found that AI autocomplete makes it much harder to engage deeply with the content."
 - Prohibits consulting existing implementations, but pairs the prohibition with a reciprocal obligation — "the handouts we'll give will be self-contained".
 - Publishes H100 hourly prices as of 6 June 2025 so the course is attemptable without institutional compute.
-- Full note: [stanford-cs336-language-modeling-materials.md](research/07-accreditation-exemplars/stanford-cs336-language-modeling-materials.md)
+- Full note: [stanford-cs336-language-modeling-materials.md](/research/07-accreditation-exemplars/stanford-cs336-language-modeling-materials.md)
 
 ### Berkeley Large Language Model Agents MOOC
 - Dawn Song with Xinyun Chen; twelve lectures, each by an external guest, Fall 2024.
 - **Five certificate tiers** — Trailblazer, Mastery, Ninja, Legendary, Honorary — each defined by concrete deliverables, with Mastery (three labs) and Ninja (hackathon submission) as *parallel* rather than nested routes.
 - Quizzes are graded on completion, at most roughly five questions each; the written article is ~500 words posted publicly and graded pass/no-pass on effort, with content depending on the tier pursued.
 - Completing any assessment is explicitly optional: "You are more than welcome to just watch the lectures and audit the course!"
-- Full note: [berkeley-advanced-llm-agent-course-materials.md](research/07-accreditation-exemplars/berkeley-advanced-llm-agent-course-materials.md)
+- Full note: [berkeley-advanced-llm-agent-course-materials.md](/research/07-accreditation-exemplars/berkeley-advanced-llm-agent-course-materials.md)
 
 ### ten Cate EPA framework
 - EPAs proposed in **2005** as a bridge from abstract competency frameworks to the concrete daily work of a profession, in response to Royal College dissatisfaction with time-based licensure.
@@ -56,7 +56,7 @@ The synthesis these four support is that the course is defensible if it can demo
 - Summative entrustment requires **multiple observers and multiple observations** across direct observation, longitudinal observation, case-based discussion and product evaluation.
 - The **entrustment-based discussion** — a short post-activity conversation that "should include 'what-if' questions" — is the principled precedent for oral defence.
 - Programme sizing guidance: **20 to 40 EPAs for a complete programme**; a course claims two or three.
-- Full note: [ten-cate-epa-framework.md](research/07-accreditation-exemplars/ten-cate-epa-framework.md)
+- Full note: [ten-cate-epa-framework.md](/research/07-accreditation-exemplars/ten-cate-epa-framework.md)
 
 ### Govaerts and the Maastricht narrative assessment literature
 - Idiosyncratic rater effects account for **29% to over 50%** of variance in performance ratings, and this idiosyncrasy is **unrelated to rater expertise**.
@@ -64,7 +64,7 @@ The synthesis these four support is that the course is defensible if it can demo
 - Assessors reaching the same pass/fail outcome nonetheless "differed in their information-processing approaches and the reasoning behind their judgments", diverging on assessment beliefs, performance theories and inferences.
 - Assessors "were inclined to stick to their initial judgments even when confronted with seemingly disconfirming evidence."
 - Recommended remedies are structural: group decision-making on high-stakes judgements, multiple assessors, mandatory substantiation, and training aimed at self-awareness rather than instrument calibration.
-- Full note: [govaerts-narrative-assessment-literature.md](research/07-accreditation-exemplars/govaerts-narrative-assessment-literature.md)
+- Full note: [govaerts-narrative-assessment-literature.md](/research/07-accreditation-exemplars/govaerts-narrative-assessment-literature.md)
 
 ## Cross-source observations
 - **The three exemplar syllabi disagree about AI tools, and the disagreement is coherent.** CMU permits nearly everything because it verifies orally; CS336 restricts more because its evidence is the implementation process itself; Berkeley is silent because its stakes are low. The transferable rule is that tool policy follows the evidence the assessment collects, not a moral position about tools.

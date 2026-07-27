@@ -2,11 +2,11 @@
 
 > A dependency is not absolute. **It is relative to an assumed entry state**, and the graph natively encodes exactly one — the BSc's, which is *knows nothing*.
 >
-> This page adds the field that lets a projection compute its own. It is a **`method`-namespace artefact**: design reasoning with no external warrant. See [namespaces.md](concepts/namespaces.md) for what that licenses, and read the limitations at the bottom of this page before using it.
+> This page adds the field that lets a projection compute its own. It is a **`method`-namespace artefact**: design reasoning with no external warrant. See [namespaces.md](/concepts/namespaces.md) for what that licenses, and read the limitations at the bottom of this page before using it.
 
 ## Why the field exists
 
-[projections/workshop-2day](projections/workshop-2day/DERIVATION.md) declared four things it could not deliver, then a mechanical query showed its nine seed days carried a **57-day transitive dependency closure** — 48 implied prerequisites for a two-day format. The projection was not dependency-closed and had never said so.
+[projections/workshop-2day](/projections/workshop-2day/DERIVATION.md) declared four things it could not deliver, then a mechanical query showed its nine seed days carried a **57-day transitive dependency closure** — 48 implied prerequisites for a two-day format. The projection was not dependency-closed and had never said so.
 
 The diagnosis was not that the classification was too generous. It was that *dependency* had been measured against the wrong entry state. `S051` depends on `S011` because S051 asks *"what does S011 tell you it must therefore make expensive?"* — a dependency on S011's **claim**, not on having met it here. A working engineer may already hold that claim from practice. A first-year student holds none of them.
 
@@ -159,11 +159,11 @@ The practical consequence is that `either` is where every projection's real deci
 
 If a cohort of ten engineers matching the reference person is given a claim-level pretest across the 90 days, **fewer than 15 of the 47 `either` days will show a majority already holding the claim in the precise form the dependents need.** If more than 25 do, the tie-break in limitation 2 is wrong and the register should be re-derived with a rule that credits informal knowledge more.
 
-*Instrument:* claim-level pretest, one item per day, scored by two independent raters against the day's stated claim — an application of [S029](wiki/seminars/S029.md) and [S048](wiki/seminars/S048.md) to this repository's own metadata.
+*Instrument:* claim-level pretest, one item per day, scored by two independent raters against the day's stated claim — an application of [S029](/wiki/seminars/S029.md) and [S048](/wiki/seminars/S048.md) to this repository's own metadata.
 
 ## Related pages
 
-- [concepts/projections.md](concepts/projections.md) — what a projection may and may not do
-- [concepts/namespaces.md](concepts/namespaces.md) — why this is `method` and what that licenses
-- [projections/workshop-2day/DERIVATION.md](projections/workshop-2day/DERIVATION.md) — the closure finding that produced this field
-- [mcp/hve-iq/README.md](mcp/hve-iq/README.md) — `hve_dependency_closure` consumes this register
+- [concepts/projections.md](/concepts/projections.md) — what a projection may and may not do
+- [concepts/namespaces.md](/concepts/namespaces.md) — why this is `method` and what that licenses
+- [projections/workshop-2day/DERIVATION.md](/projections/workshop-2day/DERIVATION.md) — the closure finding that produced this field
+- [mcp/hve-iq/README.md](/mcp/hve-iq/README.md) — `hve_dependency_closure` consumes this register

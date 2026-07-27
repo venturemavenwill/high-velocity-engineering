@@ -44,7 +44,7 @@ To these the programme adds one outcome of its own, which the criteria do not re
 | PO6 | CF201, MS101, IS202 assembled-from-primitives artefacts | Product evaluation | S053, S005 |
 | PO7 | EA-1 ship / no-ship decision, four occasions | Entrustment-based discussion | S050, S065, S070 |
 
-**Reading of the table.** PO3, PO5 and PO7 are evidenced by observed behaviour rather than by artefacts, which is why the [Assessment Architecture](wiki/program/03-Assessment-Architecture.md) invests so heavily in narrative discipline. PO1 and PO6 are evidenced by artefacts, which is why the tool policy requires oral defence.
+**Reading of the table.** PO3, PO5 and PO7 are evidenced by observed behaviour rather than by artefacts, which is why the [Assessment Architecture](/wiki/program/03-Assessment-Architecture.md) invests so heavily in narrative discipline. PO1 and PO6 are evidenced by artefacts, which is why the tool policy requires oral defence.
 
 ---
 
@@ -68,11 +68,11 @@ The programme claims that a graduate can architect and ship a working AI system 
 
 This is warranted and is stated at its strongest rather than managed.
 
-**A graduate of this programme will have done substantially all of their practical formation on one vendor's platform, and the programme cannot demonstrate that what they learned transfers off it.** The design's answer is that the durable content is platform-independent — the four layers and their habit of failing invisibly upward, the discipline of characterising an instrument before trusting it, the distinction between a default and a decision — and that the service is the vehicle rather than the cargo. The [Durable and Perishable Register](wiki/program/09-Durable-and-Perishable-Register.md) is the mechanism that keeps the vehicle out of the assessment.
+**A graduate of this programme will have done substantially all of their practical formation on one vendor's platform, and the programme cannot demonstrate that what they learned transfers off it.** The design's answer is that the durable content is platform-independent — the four layers and their habit of failing invisibly upward, the discipline of characterising an instrument before trusting it, the distinction between a default and a decision — and that the service is the vehicle rather than the cargo. The [Durable and Perishable Register](/wiki/program/09-Durable-and-Perishable-Register.md) is the mechanism that keeps the vehicle out of the assessment.
 
 That answer is asserted. No evidence in this repository supports it, no comparable programme has published a transfer study, and the design has no instrument that would detect the failure. A student who can build a retrieval system with document-level authorisation on Azure AI Search and cannot recognise the same problem when it appears as row-level security in an unfamiliar system would falsify the claim, and nothing in the assessment architecture would notice.
 
-The concession is recorded here rather than only on the [Microsoft AI Platform Map](wiki/program/11-Microsoft-AI-Platform-Map.md) because this is the page an external reviewer reads, and a reviewer entitled to ask *point me at the artefact that would let me disagree with you* is entitled to be told when there is not one.
+The concession is recorded here rather than only on the [Microsoft AI Platform Map](/wiki/program/11-Microsoft-AI-Platform-Map.md) because this is the page an external reviewer reads, and a reviewer entitled to ask *point me at the artefact that would let me disagree with you* is entitled to be told when there is not one.
 
 ---
 
@@ -90,7 +90,7 @@ The Criterion 5 requirements the programme must satisfy, and how.
 | Substantial coverage of algorithms, data structures, software design, programming languages, computer architecture | CF102, CF103, CF201, SY101, SY102, SY201 |
 | Exposure to security concerns throughout | SG201 in Q5, SG301, SG302, SG390; and SG recruited in six modules |
 
-**The programme's honest position on the last row.** "Throughout" is the criterion's word and the programme does not fully meet it. Security first appears in Q5. See the strand interlock table in the [Module Map](wiki/program/07-Module-Map.md), where this is named as the design's thinnest area.
+**The programme's honest position on the last row.** "Throughout" is the criterion's word and the programme does not fully meet it. Security first appears in Q5. See the strand interlock table in the [Module Map](/wiki/program/07-Module-Map.md), where this is named as the design's thinnest area.
 
 ---
 
@@ -98,7 +98,7 @@ The Criterion 5 requirements the programme must satisfy, and how.
 
 Two changes proposed for the 2026–27 accreditation cycle are treated by this design as though already in force, because both are things the programme wanted to do anyway.
 
-- **Professional dispositions.** Evidence supplied by the dispositions layer described in the [Assessment Architecture](wiki/program/03-Assessment-Architecture.md): integrity, reliability and humility, evidenced by observed behaviour within activities, never as separate activities.
+- **Professional dispositions.** Evidence supplied by the dispositions layer described in the [Assessment Architecture](/wiki/program/03-Assessment-Architecture.md): integrity, reliability and humility, evidenced by observed behaviour within activities, never as separate activities.
 - **A comprehensive project requirement.** Evidence supplied by CAP390 plus the continuous three-year substrate obligation.
 
 Treating proposed criteria as binding costs nothing if they are not adopted and saves a redesign if they are.
@@ -136,20 +136,20 @@ The programme maps to the CS2023 knowledge areas as follows. Areas are given by 
 
 ## Evidence status
 
-**Verified in this repository.** The structural decisions inherited from the CMU exemplar, and the entrustment and narrative-assessment positions, are grounded in read sources — see [research/07-accreditation-exemplars/](research/07-accreditation-exemplars/collected-materials.md) and [research/08-assessment-epas/](research/08-assessment-epas/collected-materials.md).
+**Verified in this repository.** The structural decisions inherited from the CMU exemplar, and the entrustment and narrative-assessment positions, are grounded in read sources — see [research/07-accreditation-exemplars/](/research/07-accreditation-exemplars/collected-materials.md) and [research/08-assessment-epas/](/research/08-assessment-epas/collected-materials.md).
 
 **Cited from general knowledge, not verified here.** The wording and numbering of the ABET Criterion 3 outcomes and Criterion 5 credit-hour requirements are stated from general familiarity with the published criteria. They are accurate in substance and should be checked against the current criteria document before any submission.
 
-**Explicitly unverified.** The CS2023 competency formula, its named dispositions list, its core-hours figures, and the exact count of its knowledge areas are **not verified in this repository**. Extraction of the sectioned report failed on three attempts, recorded in [research/99-source-register/source-register.md](research/99-source-register/source-register.md). The knowledge-area codes above are used as an organising convenience and must not be cited as an accreditation claim until the primary document is read.
+**Explicitly unverified.** The CS2023 competency formula, its named dispositions list, its core-hours figures, and the exact count of its knowledge areas are **not verified in this repository**. Extraction of the sectioned report failed on three attempts, recorded in [research/99-source-register/source-register.md](/research/99-source-register/source-register.md). The knowledge-area codes above are used as an organising convenience and must not be cited as an accreditation claim until the primary document is read.
 
-**Grounded in vendor documentation, with its version and its silence recorded.** The platform capabilities named in the build-capability table are grounded in open Microsoft Learn documentation, cited in [research/06-microsoft-platform/](research/06-microsoft-platform/collected-materials.md) and re-verified at each offering. Three things must travel with any such claim: what the documentation says, when it said it, and what it does not report that a reader would need. In this case the omission is systematic and is itself taught: **no agreement-with-human figure is published for any Foundry evaluator, and no detection or false-positive rate is published for Purview or Defender.** Every judged score produced by this stack is therefore described as uncalibrated. No effect size, benchmark or numeric finding from vendor material is asserted anywhere in this wiki, on exactly the terms applied to research literature.
+**Grounded in vendor documentation, with its version and its silence recorded.** The platform capabilities named in the build-capability table are grounded in open Microsoft Learn documentation, cited in [research/06-microsoft-platform/](/research/06-microsoft-platform/collected-materials.md) and re-verified at each offering. Three things must travel with any such claim: what the documentation says, when it said it, and what it does not report that a reader would need. In this case the omission is systematic and is itself taught: **no agreement-with-human figure is published for any Foundry evaluator, and no detection or false-positive rate is published for Purview or Defender.** Every judged score produced by this stack is therefore described as uncalibrated. No effect size, benchmark or numeric finding from vendor material is asserted anywhere in this wiki, on exactly the terms applied to research literature.
 
 **Design reasoning with no external warrant.** PO7 is this programme's own addition. The evidence-not-coverage rule, the declared-omission convention and the decision to treat proposed criteria as binding are design positions, not requirements. **So is the claim that formation on one platform transfers off it**, which is conceded above as asserted and uninstrumented.
 
 ## Related pages
 
-- [Programme Charter](wiki/program/00-Program-Charter.md)
-- [Assessment Architecture](wiki/program/03-Assessment-Architecture.md)
-- [Course Catalogue](wiki/program/06-Course-Catalogue.md)
-- [Microsoft AI Platform Map](wiki/program/11-Microsoft-AI-Platform-Map.md)
-- [Copilot Practice Standard](wiki/program/12-Copilot-Practice-Standard.md)
+- [Programme Charter](/wiki/program/00-Program-Charter.md)
+- [Assessment Architecture](/wiki/program/03-Assessment-Architecture.md)
+- [Course Catalogue](/wiki/program/06-Course-Catalogue.md)
+- [Microsoft AI Platform Map](/wiki/program/11-Microsoft-AI-Platform-Map.md)
+- [Copilot Practice Standard](/wiki/program/12-Copilot-Practice-Standard.md)

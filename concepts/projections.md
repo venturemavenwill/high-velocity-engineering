@@ -1,6 +1,6 @@
 # Projections
 
-> The three-year BSc programme in [wiki/](wiki/Home.md) is **not the knowledge**. It is one read model over the knowledge — the first one built, and the one that happens to be finished.
+> The three-year BSc programme in [wiki/](/wiki/Home.md) is **not the knowledge**. It is one read model over the knowledge — the first one built, and the one that happens to be finished.
 >
 > This page states what a projection is, what it may and may not do, and what has to exist before other projections can be built cheaply.
 
@@ -37,7 +37,7 @@ The BSc exists. These are the ones the same claims should support, and the reaso
 | Projection | Shape | What it would test |
 |---|---|---|
 | **`bsc-programme`** *(built)* | 3 years · 90 days · 10 entrustment occasions | Whether the claims support a certifiable judgement of readiness. |
-| **[`workshop-2day`](projections/workshop-2day/README.md)** *(built)* | 2 days · one team · no assessment | Whether anything survives the loss of spacing. **It largely does not — and the projection says so on its first morning.** |
+| **[`workshop-2day`](/projections/workshop-2day/README.md)** *(built)* | 2 days · one team · no assessment | Whether anything survives the loss of spacing. **It largely does not — and the projection says so on its first morning.** |
 | `cert-prep` | GH-300 / AB-100 aligned | Whether `platform` claims stand alone once `method` and `measurement` are stripped out. |
 | `engagement-playbook` | Reference, non-linear | Whether `fde-craft` claims are usable outside a teaching sequence. |
 | `onboarding-30day` | New FDE hire | Whether the complexity-class ladder compresses, or only stretches. |
@@ -46,7 +46,7 @@ The BSc exists. These are the ones the same claims should support, and the reaso
 
 **`workshop-2day` was built second, by hand, deliberately.** It was chosen because it should partly fail: spacing, interleaving and expanding-interval retrieval are the pedagogy namespace's best-warranted content and a two-day format destroys all three. It abstains explicitly on retention, entrustment, complexity class 3+, and consequence.
 
-Its [derivation record](projections/workshop-2day/DERIVATION.md) is the more valuable artefact. Building it by hand established that **the claim/projection split holds** — and found four fields the schema needs that exist nowhere, plus one defect that must be fixed before extraction runs.
+Its [derivation record](/projections/workshop-2day/DERIVATION.md) is the more valuable artefact. Building it by hand established that **the claim/projection split holds** — and found four fields the schema needs that exist nowhere, plus one defect that must be fixed before extraction runs.
 
 ## Current state, stated plainly
 
@@ -64,7 +64,7 @@ Three claim layers now exist, all extracted mechanically from structure the subs
 
 The prediction that extraction was blocked on *stable claim IDs and somewhere to put them* was wrong in an instructive way. **No new place was needed.** The IDs are derived (`S016.p1`, `WP-001.pred1`, `WP-001.e1`) and the store is `graph/`, which is regenerable and holds no facts of its own. What actually unblocked extraction was noticing that the wiki had already written the claims down in tables and numbered lists — the thing this section correctly identified two paragraphs later.
 
-**The diagnosis about reading versus querying held.** [workshop-2day](projections/workshop-2day/README.md) was built by reading, and the first mechanical query against the extracted structure falsified two of its own claims about itself. That is the cost of reading-not-querying, arriving exactly as predicted.
+**The diagnosis about reading versus querying held.** [workshop-2day](/projections/workshop-2day/README.md) was built by reading, and the first mechanical query against the extracted structure falsified two of its own claims about itself. That is the cost of reading-not-querying, arriving exactly as predicted.
 
 What remains true:
 
@@ -78,8 +78,8 @@ What remains true:
 
 1. ~~**Version control.**~~ **Done.** An append-only ledger in a directory with no version control is not append-only.
 2. ~~**Namespace fields on the graph**~~ **Done.** Every node carries `primary_namespace`, `namespaces`, `decay`, `verify_cadence` and `platform_bearing`.
-3. ~~**A second projection**, built to test the split.~~ **Done — [workshop-2day](projections/workshop-2day/README.md).** Built by hand, deliberately ahead of extraction, so the schema would be specified by a real projection's needs rather than guessed.
-4. **Split `retrieves_from` into `depends_on` and `re_tests`.** **This now blocks extraction.** One edge type is carrying two relations — a dependency that constrains ordering in every projection, and a re-test that constrains ordering only where there is spacing. All 309 edges are affected. See [DERIVATION.md](projections/workshop-2day/DERIVATION.md).
+3. ~~**A second projection**, built to test the split.~~ **Done — [workshop-2day](/projections/workshop-2day/README.md).** Built by hand, deliberately ahead of extraction, so the schema would be specified by a real projection's needs rather than guessed.
+4. **Split `retrieves_from` into `depends_on` and `re_tests`.** **This now blocks extraction.** One edge type is carrying two relations — a dependency that constrains ordering in every projection, and a re-test that constrains ordering only where there is spacing. All 309 edges are affected. See [DERIVATION.md](/projections/workshop-2day/DERIVATION.md).
 5. **Claim extraction**, namespace by namespace, starting with `platform` — highest volume, fastest decay, most mechanical, least costly to get wrong.
 6. **Findings**, once a cohort exists, against the §9 predictions.
 
@@ -87,6 +87,6 @@ Step 3 has been taken and the split holds: a second projection was derived, it o
 
 ## Related
 
-- [Namespaces](concepts/namespaces.md) — the eight, and their warrant standards
-- [AGENTS.md](AGENTS.md) — the working contract
-- [wiki/Home.md](wiki/Home.md) — the projection that exists
+- [Namespaces](/concepts/namespaces.md) — the eight, and their warrant standards
+- [AGENTS.md](/AGENTS.md) — the working contract
+- [wiki/Home.md](/wiki/Home.md) — the projection that exists

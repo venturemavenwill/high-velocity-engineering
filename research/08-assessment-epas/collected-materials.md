@@ -17,7 +17,7 @@ The design that follows from all four is a small number of bounded activities, e
 - **Entrustment-based discussion**: a short post-activity conversation that "should probe the student's deep understanding of what was done, but should include 'what-if' questions".
 - **Three professionalism characteristics**, behaviourally defined: integrity, reliability, humility.
 - **Sizing**: 20-40 activities for a complete programme; in a reported cohort of 101 physician-assistant graduates over 2.5 years, learners completed 6.6 on average.
-- Full note: [ten-cate-epa-framework.md](research/08-assessment-epas/ten-cate-epa-framework.md)
+- Full note: [ten-cate-epa-framework.md](/research/08-assessment-epas/ten-cate-epa-framework.md)
 
 ### Govaerts and the Maastricht narrative assessment literature
 - **Idiosyncratic rater effects account for 29% to over 50%** of performance-rating variance, and idiosyncrasy is **unrelated to rater expertise**.
@@ -27,7 +27,7 @@ The design that follows from all four is a small number of bounded activities, e
 - Assessors "**were inclined to stick to their initial judgments even when confronted with seemingly disconfirming evidence**"; final judgements were more elaborate but "not substantially different."
 - **Same outcome, different construct**: identical pass/fail decisions rested on divergent assessment beliefs, performance theories and inferences, with performance theories that "tended to deviate from the formal assessment criteria."
 - **Remedies are structural**: group decision-making on high-stakes judgements, multiple assessors, thorough substantiation, training on self-awareness rather than calibration, and evidence with contextual captions.
-- Full note: [govaerts-narrative-assessment-literature.md](research/08-assessment-epas/govaerts-narrative-assessment-literature.md)
+- Full note: [govaerts-narrative-assessment-literature.md](/research/08-assessment-epas/govaerts-narrative-assessment-literature.md)
 
 ### CMU oral defence and token economy patterns
 - **Oral verification in two forms**: a rubric item on assignments discharged "in person during any office hours within one or two weeks of submitting", and lab credit earned in-session by "showing source code, demoing executions, and verbally answering a few questions."
@@ -38,7 +38,7 @@ The design that follows from all four is a small number of bounded activities, e
 - **AI policy**: recommended and unrestricted for coursework; prohibited only in exams and in live conversations with staff; "you will be solely responsible for the correctness of the solution"; $20-100 per month expected cost, compared to textbooks.
 - **Opt-in participation** shifts 10 percentage points between midterms and participation; **peer rating** on "team citizenship"; teams of 3-6 instructor-assigned with a TA mentor and a 30-minute post-milestone meeting.
 - **Grading**: 35% individual, 30% project, 25% midterms and participation, 10% labs, **no final exam**. Project serves **one million active users** live for several weeks.
-- Full note: [cmu-oral-defense-and-token-economy-patterns.md](research/08-assessment-epas/cmu-oral-defense-and-token-economy-patterns.md)
+- Full note: [cmu-oral-defense-and-token-economy-patterns.md](/research/08-assessment-epas/cmu-oral-defense-and-token-economy-patterns.md)
 
 ### Measurement and evaluation sources applied to assessment
 - Entrustment inference and model evaluation have the same shape: finite noisy observations supporting a claim about unobserved future conditions.
@@ -49,13 +49,13 @@ The design that follows from all four is a small number of bounded activities, e
 - **Validate the validators** against human grades — the same requirement whether the validator is an LLM or a teaching assistant.
 - **Four judge biases** with human analogues: position, verbosity, self-enhancement, limited reasoning. **Over 80% agreement is the human-human ceiling**, not a target to exceed.
 - **Access asymmetry** as an equity constraint, by analogy with the Leaderboard Illusion audit: who books oral verification and uses tokens is invisible in the grade distribution.
-- Full note: [measurement-and-evaluation-sources.md](research/08-assessment-epas/measurement-and-evaluation-sources.md)
+- Full note: [measurement-and-evaluation-sources.md](/research/08-assessment-epas/measurement-and-evaluation-sources.md)
 
 ### The course's own design register
 - Twelve candidate activities under consideration, deliberately more than the course can carry.
 - Screening against the granularity test suggests candidates 4, 7 and 8 are dispositions rather than activities and should fold into the integrity / reliability / humility layer; candidates 1 and 2 may be one activity; candidate 3 is a practice observed within candidate 5.
 - **Provisional selection: candidates 5, 10 and 11** — a bounded evaluation decision, a system handover, and a stakeholder risk communication.
-- Full note: [epa-research-notes.md](research/08-assessment-epas/epa-research-notes.md)
+- Full note: [epa-research-notes.md](/research/08-assessment-epas/epa-research-notes.md)
 
 ## Cross-source observations
 - **CMU's oral verification and ten Cate's entrustment-based discussion are the same mechanism reached from opposite directions** — one from a practical need to verify understanding under a permissive AI policy, one from a theory of what makes delegating responsibility defensible. Citing both makes the oral component convergent practice rather than local preference.
@@ -63,7 +63,7 @@ The design that follows from all four is a small number of bounded activities, e
 - **Three sources independently converge on coarse output.** ten Cate makes the output an ordinal supervision level; Govaerts shows a third to a half of rating variance is the rater; the measurement literature shows single-digit clustered evidence cannot support fine discrimination. Reporting percentages would contradict all three.
 - **The AI-tool question dissolves rather than resolves.** Once the grade is earned by explaining the work, provenance stops mattering, which is why CMU can permit copying on labs. This is a structural answer, not a policy answer, and it is the strongest available.
 - **Two sources treat cost transparency as part of assessment design** — CMU publishes both the expected 12 hours per week and the expected $20-100 monthly AI subscription cost. Assessment honesty extends to what participation costs.
-- **The dispositions layer has external warrant.** ten Cate's integrity, reliability and humility line up with ABET's proposed definition — "professional dispositions are behaviors desired in the workplace" — and with the CS2023 vision statement's argument that dispositions matter as much as knowledge. See [research/07-accreditation-exemplars/collected-materials.md](research/07-accreditation-exemplars/collected-materials.md).
+- **The dispositions layer has external warrant.** ten Cate's integrity, reliability and humility line up with ABET's proposed definition — "professional dispositions are behaviors desired in the workplace" — and with the CS2023 vision statement's argument that dispositions matter as much as knowledge. See [research/07-accreditation-exemplars/collected-materials.md](/research/07-accreditation-exemplars/collected-materials.md).
 
 ## Corrections and open items
 - **"5-level supervision scale" was too coarse in the earlier draft of the design rules.** The source provides expanded sub-levels, and one semester's progression is largely invisible without them. The register now specifies the expanded scale with a target of level 3b or 3c.

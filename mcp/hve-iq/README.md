@@ -20,7 +20,7 @@ Set `HVE_REPO_ROOT` if running outside the repo. The server reads `graph/graph.j
 
 ## Use it from VS Code
 
-Already configured in [.vscode/mcp.json](.vscode/mcp.json). Open Copilot Chat in agent mode and ask:
+Already configured in [.vscode/mcp.json](/.vscode/mcp.json). Open Copilot Chat in agent mode and ask:
 
 > *"Using hve-iq, what would a two-day workshop on judge bias and criterion construction also have to cover?"*
 
@@ -49,11 +49,11 @@ professional-strict     56 days              — assume only what is reliably he
 professional-declared   23 days + 8 declared — assume what is held informally, and say so
 ```
 
-It follows `depends_on` and deliberately **excludes** `re_tests`. A dependency constrains ordering in *every* format; a re-test only constrains it where there is spacing. Those were one edge type until they were split by hand across all 90 days — see [DERIVATION.md](projections/workshop-2day/DERIVATION.md).
+It follows `depends_on` and deliberately **excludes** `re_tests`. A dependency constrains ordering in *every* format; a re-test only constrains it where there is spacing. Those were one edge type until they were split by hand across all 90 days — see [DERIVATION.md](/projections/workshop-2day/DERIVATION.md).
 
 **Traversal stops at whatever the audience already holds.** If they hold a claim, how they came to hold it is not your projection's problem — so its prerequisites are never walked. Seeds are always expanded, because you are teaching those by choice rather than by prerequisite.
 
-The `entry_state` values come from [concepts/entry-state.md](concepts/entry-state.md), which classifies all 90 days against a fixed reference professional. **Read its limitations before quoting a number.** It is `method` namespace, carries no external warrant, and has never been tested against a real audience — and `must_declare` is not optional output. Those are the claims your audience holds informally and may not hold precisely.
+The `entry_state` values come from [concepts/entry-state.md](/concepts/entry-state.md), which classifies all 90 days against a fixed reference professional. **Read its limitations before quoting a number.** It is `method` namespace, carries no external warrant, and has never been tested against a real audience — and `must_declare` is not optional output. Those are the claims your audience holds informally and may not hold precisely.
 
 ### The exposure tool is the decay answer
 
@@ -66,7 +66,7 @@ S016  teaches            Data moves between levels in fixed-size blocks
       instance at risk   The 1,024-token minimum and the 128-token hit increment
 ```
 
-The pairing is the point. **A vendor change should cost you an instance, not a claim** — that is the rule the [Durable and Perishable Register](wiki/program/09-Durable-and-Perishable-Register.md) exists to enforce, and seeing both halves together tells you whether you are swapping an example or rewriting a day.
+The pairing is the point. **A vendor change should cost you an instance, not a claim** — that is the rule the [Durable and Perishable Register](/wiki/program/09-Durable-and-Perishable-Register.md) exists to enforce, and seeing both halves together tells you whether you are swapping an example or rewriting a day.
 
 Nothing here is authored by the extractor; it reads tables the days already carry. **One day is invisible to it** — S090, which has no perishable content of substance. The tool declares that in every answer rather than returning a confidently incomplete list.
 
@@ -92,7 +92,7 @@ What the class level already buys you is the question that actually gets asked: 
 
 ### Warrant strength, which is sharper than citation identity
 
-[research/99-source-register](research/99-source-register/source-register.md) records, per external source, its identifier, whether it could be accessed, and **whether anyone actually read it**. That column is the strongest warrant signal in the repository and nothing could query it before:
+[research/99-source-register](/research/99-source-register/source-register.md) records, per external source, its identifier, whether it could be accessed, and **whether anyone actually read it**. That column is the strongest warrant signal in the repository and nothing could query it before:
 
 | Read state | Sources |
 |---|---|
@@ -113,4 +113,4 @@ Run `hve_sources({ read: "unread" })` first. The two most load-bearing unread so
 
 ## Next
 
-A judged split of the evidence-status prose into atomic claims — the first extraction here that would carry authoring judgement, and so the first needing a drift discipline of its own. Ahead of it sit three findings the citation resolution exposed and did not fix, all recorded in [the source register](research/99-source-register/source-register.md): class-1 paragraphs resting on never-read sources, a contradiction between the register and the notes about effect sizes, and claims cited to folders that hold no such source.
+A judged split of the evidence-status prose into atomic claims — the first extraction here that would carry authoring judgement, and so the first needing a drift discipline of its own. Ahead of it sit three findings the citation resolution exposed and did not fix, all recorded in [the source register](/research/99-source-register/source-register.md): class-1 paragraphs resting on never-read sources, a contradiction between the register and the notes about effect sizes, and claims cited to folders that hold no such source.

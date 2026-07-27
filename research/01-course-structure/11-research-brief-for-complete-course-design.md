@@ -1,6 +1,6 @@
 # Cliff Notes — 11 Research Brief for Complete Course Design
 
-> Internal working document, not an external source. It is the operational plan that follows from the benchmark in [09-curriculum-design-benchmark-and-sources.md](research/01-course-structure/09-curriculum-design-benchmark-and-sources.md) and the architecture in [10-gap-analysis-and-course-architecture.md](research/01-course-structure/10-gap-analysis-and-course-architecture.md). It records the workstreams, the questions each must answer, the evidence standard the research runs under, and what has and has not been closed.
+> Internal working document, not an external source. It is the operational plan that follows from the benchmark in [09-curriculum-design-benchmark-and-sources.md](/research/01-course-structure/09-curriculum-design-benchmark-and-sources.md) and the architecture in [10-gap-analysis-and-course-architecture.md](/research/01-course-structure/10-gap-analysis-and-course-architecture.md). It records the workstreams, the questions each must answer, the evidence standard the research runs under, and what has and has not been closed.
 
 ## What this document is
 The research plan and its current state. It converts the redesign into workstreams that map onto the repository's folder structure, assigns each a question set, states the sourcing discipline the whole effort runs under, and keeps the durable structure separated from perishable platform detail so that the plan does not need rewriting every quarter. It is both a research plan and a curriculum construction guide, and it is deliberately written to be auditable: a reader should be able to tell which questions have been answered from sources, which have been answered by internal judgement, and which remain open.
@@ -10,54 +10,54 @@ This is the discipline the whole effort runs under, and it precedes the workstre
 
 - **Evidence hierarchy.** Primary research, standards documents and published syllabi rank above official platform documentation, which ranks above practitioner canon, which ranks above secondary summaries. A claim should be sourced as high in that hierarchy as it can be.
 - **Verification rule.** No count, benchmark, effect size or requirement is real unless it has been verified directly from the source or explicitly marked as unverified or provisional. Every note ends with a verification status section stating what was read in full, what was verified at abstract or listing level, and what was deliberately not asserted.
-- **Copyright rule.** Where a source is copyrighted or paywalled, the repository stores a Cliff Notes synthesis and citation details rather than the source text. Recorded in [research/99-source-register/source-register.md](research/99-source-register/source-register.md).
+- **Copyright rule.** Where a source is copyrighted or paywalled, the repository stores a Cliff Notes synthesis and citation details rather than the source text. Recorded in [research/99-source-register/source-register.md](/research/99-source-register/source-register.md).
 - **Negative results are recorded.** Sources that could not be retrieved are listed with the reason, so that the gap is visible rather than silently absent.
 
 ## Workstreams
 Each workstream maps to a folder. The questions are what the workstream must answer for the curriculum to be constructible.
 
 ### WS1 — Course structure
-*Folder:* [research/01-course-structure/](research/01-course-structure/collected-materials.md)
+*Folder:* [research/01-course-structure/](/research/01-course-structure/collected-materials.md)
 Questions: what must the curriculum's shape be, what is it free to choose, what spine does it use, how do the strands map onto weeks, and where does the course sit relative to the integrative project and the credit envelope?
 **Status:** standards and exemplars read; architecture proposed; **week-level mapping and credit positioning still open.**
 
 ### WS2 — Technical foundations
-*Folder:* [research/02-technical-foundations/](research/02-technical-foundations/collected-materials.md)
+*Folder:* [research/02-technical-foundations/](/research/02-technical-foundations/collected-materials.md)
 Questions: what is the durable technical content, what are the primary sources for each element, and what is the minimum a graduate must be able to reason about rather than recall?
 **Status:** fourteen notes complete against primary sources. **The durable-content list exists; the "must be able to reason about" threshold has not been set.**
 
 ### WS3 — Measurement and evaluation
-*Folder:* [research/03-measurement-evaluation/](research/03-measurement-evaluation/collected-materials.md)
+*Folder:* [research/03-measurement-evaluation/](/research/03-measurement-evaluation/collected-materials.md)
 Questions: what does defensible evaluation require, what statistical discipline transfers, and how does evaluation become the spine rather than a topic?
 **Status:** twelve notes complete. **Statistical discipline established and applied to the assessment design. One source, Huyen, deliberately not consulted and flagged.**
 
 ### WS4 — Professional formation
-*Folder:* [research/04-professional-formation/](research/04-professional-formation/collected-materials.md)
+*Folder:* [research/04-professional-formation/](/research/04-professional-formation/collected-materials.md)
 Questions: what is the evidence base for developing judgement, error tolerance and psychological safety, and what does the empirical work on AI-assisted productivity say about what students should expect?
 **Status:** twelve notes complete. **Evidence base established; translation into observable indicators for the dispositions layer is open.**
 
 ### WS5 — FDE and engagement craft
-*Folder:* [research/05-fde-craft/](research/05-fde-craft/collected-materials.md)
+*Folder:* [research/05-fde-craft/](/research/05-fde-craft/collected-materials.md)
 Questions: what does the deployed-engineer role actually consist of, what practitioner canon supports it, and which parts are teachable within a course?
 **Status:** eleven notes complete. **Practitioner sourcing is thin by nature and several primary sources were inaccessible.**
 
 ### WS6 — Platform mapping
-*Folder:* [research/06-microsoft-platform/](research/06-microsoft-platform/collected-materials.md)
+*Folder:* [research/06-microsoft-platform/](/research/06-microsoft-platform/collected-materials.md)
 Questions: which platform capabilities instantiate which durable concepts, and how is this material kept quarantined so it can be replaced without disturbing the spine?
 **Status:** content gathered from official documentation. **This is the most perishable workstream and needs an explicit refresh cadence, which does not yet exist.**
 
 ### WS7 — Accreditation and exemplars
-*Folder:* [research/07-accreditation-exemplars/](research/07-accreditation-exemplars/collected-materials.md)
+*Folder:* [research/07-accreditation-exemplars/](/research/07-accreditation-exemplars/collected-materials.md)
 Questions: what do the standards require, what do credible exemplars do, and what precedent exists for the mechanisms this course wants to use?
 **Status:** nine notes complete; ABET, CS2023, CMU, Stanford and Berkeley read directly. **Three CS2023 sectioned PDFs could not be extracted and their contents are not asserted anywhere.**
 
 ### WS8 — Assessment and EPAs
-*Folder:* [research/08-assessment-epas/](research/08-assessment-epas/collected-materials.md)
+*Folder:* [research/08-assessment-epas/](/research/08-assessment-epas/collected-materials.md)
 Questions: what unit is assessed, what does the output look like, what evidence licenses a summative decision, what will assessors get wrong, and how does any of it run inside a semester?
 **Status:** six notes complete. **Design register written; activity set not reduced from twelve to three; no activity written to the seven-part template; assessor capacity unquantified; oral-assessment accommodation undesigned.**
 
 ### WS9 — Source register
-*Folder:* [research/99-source-register/](research/99-source-register/source-register.md)
+*Folder:* [research/99-source-register/](/research/99-source-register/source-register.md)
 Questions: what has been cited, at what verification level, under what licence, and what could not be retrieved?
 **Status:** **incomplete.** Newly verified sources from the current pass are not yet all recorded.
 
@@ -66,7 +66,7 @@ The brief's central structural commitment is that measurement is the spine of th
 
 The first half is content: students learn evaluation as a workflow with a cost gradient, learn where judges are biased and how to mitigate it, learn why criteria drift and what to do about it, learn the statistics of clustering and power well enough to know when a claimed difference is not supported, and learn that generalisation rather than in-distribution performance is the target. The second half is reflexive: **the course's own assessment is built on the same principles**, which is why it reports coarse ordinal levels rather than percentages, requires multiple observers, and publishes its reliability position. The parallel is deliberate and should be made explicit to students, because a course that demands error bars on a benchmark while grading from a single unrepeated observation is teaching one thing and modelling another.
 
-Neither half works alone. Content without the reflexive half is hypocrisy; the reflexive half without content is just an unusual grading scheme. See [research/08-assessment-epas/measurement-and-evaluation-sources.md](research/08-assessment-epas/measurement-and-evaluation-sources.md).
+Neither half works alone. Content without the reflexive half is hypocrisy; the reflexive half without content is just an unusual grading scheme. See [research/08-assessment-epas/measurement-and-evaluation-sources.md](/research/08-assessment-epas/measurement-and-evaluation-sources.md).
 
 ## Durable and perishable, applied to the research plan
 The split is a research management rule as well as a content rule. **Durable workstreams — WS2 through WS5, WS7 and WS8 — are researched once and revisited on a multi-year cycle.** WS6 is perishable and needs a standing refresh cadence, because platform naming, quota mechanics, portal paths and SDK surfaces will drift within a term. The plan's stability depends on that boundary holding, and the current absence of a defined refresh cadence for WS6 is a real gap rather than a formality.

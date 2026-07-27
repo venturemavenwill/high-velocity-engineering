@@ -53,12 +53,12 @@
     "this-programme-only": 41
   },
   "predictions_by_ns": {
-    "measurement": 159,
-    "ai-systems": 102,
-    "fde-craft": 74,
+    "measurement": 153,
+    "ai-systems": 108,
+    "fde-craft": 86,
+    "platform": 76,
     "pedagogy": 59,
-    "assessment": 54,
-    "platform": 46,
-    "curriculum": 18
+    "assessment": 24,
+    "curriculum": 6
   }
 }

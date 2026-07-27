@@ -16,7 +16,7 @@ Against these, the folder contains claims that must not be taught. The internal 
 ## Source-by-source Cliff Notes
 
 ### Provisioned throughput for Foundry models
-Full note: [provisioned-throughput-for-foundry-models.md](research/06-microsoft-platform/provisioned-throughput-for-foundry-models.md)
+Full note: [provisioned-throughput-for-foundry-models.md](/research/06-microsoft-platform/provisioned-throughput-for-foundry-models.md)
 - A provisioned deployment "holds a fixed amount of processing capacity exclusively for your deployment's use, whether or not requests are being made."
 - Four deployment categories with different guarantees: standard, priority processing, provisioned, batch.
 - **Quota is not capacity.** Quota is "a policy limit enforced by Azure, and it has no associated cost"; capacity is what is actually available to deploy. "Having PTU quota doesn't guarantee that capacity is available."
@@ -28,7 +28,7 @@ Full note: [provisioned-throughput-for-foundry-models.md](research/06-microsoft-
 - **"Reservations don't guarantee capacity. First create deployments to confirm that capacity is available, then purchase the reservation."**
 
 ### The AI gateway in Azure API Management
-Full note: [apim-ai-gateway-docs.md](research/06-microsoft-platform/apim-ai-gateway-docs.md)
+Full note: [apim-ai-gateway-docs.md](/research/06-microsoft-platform/apim-ai-gateway-docs.md)
 - "The AI gateway… extends API Management's existing API gateway; it's not a separate offering."
 - Five stated challenges: authentication and authorisation; load balancing across endpoints; monitoring and logging; token usage and quotas across applications; developer self-service.
 - Tokens are the scarce resource. The noisy-neighbour argument is explicit: "you need to make sure that one app doesn't use the whole TPM quota and block other apps."
@@ -40,7 +40,7 @@ Full note: [apim-ai-gateway-docs.md](research/06-microsoft-platform/apim-ai-gate
 - Governs remote **MCP servers** and **A2A agent APIs**, not only model endpoints.
 
 ### Document-level access control in Azure AI Search
-Full note: [azure-ai-search-and-acl-patterns.md](research/06-microsoft-platform/azure-ai-search-and-acl-patterns.md)
+Full note: [azure-ai-search-and-acl-patterns.md](/research/06-microsoft-platform/azure-ai-search-and-acl-patterns.md)
 - Four approaches: security filters (generally available), POSIX-like ACLs and RBAC scopes, Purview sensitivity labels, and SharePoint ACLs — the last three all preview.
 - The documentation calls security trimming a **"workaround"**, contrasting simple string comparison with Entra-authenticated permission filters.
 - Native enforcement is a **two-stage check**: service-level RBAC for the client application, then per-document permissions from the caller's token via the `x-ms-query-source-authorization` header.
@@ -53,7 +53,7 @@ Full note: [azure-ai-search-and-acl-patterns.md](research/06-microsoft-platform/
 - **The chunking trap:** with a chunking skillset, permission metadata must move to index projections, or chunk-level references go unfiltered.
 
 ### Purview DSPM for AI and Defender AI security posture management
-Full note: [purview-dspm-for-ai-and-defender-ai-spm-docs.md](research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs.md)
+Full note: [purview-dspm-for-ai-and-defender-ai-spm-docs.md](/research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs.md)
 - **The oversharing argument:** "Because of the power and speed AI can proactively surface content that might be obsolete, over-permissioned, or lacking governance controls, generative AI amplifies the problem of oversharing data."
 - Default data risk assessment runs weekly over the top 100 SharePoint sites by usage; a Fabric equivalent covers the top 100 workspaces after one-time setup.
 - Assessment detail is structured as **Identify, Protect, Monitor**.
@@ -67,7 +67,7 @@ Full note: [purview-dspm-for-ai-and-defender-ai-spm-docs.md](research/06-microso
 - **Both sources are mid-transition:** the Purview page is the classic version, and agent-level Defender capabilities move to a Microsoft Agent 365 licence from 1 July 2026.
 
 ### Agent Framework evaluation and Foundry agent evaluators
-Full note: [agent-framework-and-evaluations-docs.md](research/06-microsoft-platform/agent-framework-and-evaluations-docs.md)
+Full note: [agent-framework-and-evaluations-docs.md](/research/06-microsoft-platform/agent-framework-and-evaluations-docs.md)
 - Three core types: `EvalItem`, `Evaluator`, `EvalResults`.
 - Two evaluator tiers, mixable in one run: `LocalEvaluator` for inner-loop and CI, `FoundryEvals` for cloud LLM-as-judge.
 - **"How you split determines what you're evaluating."** Three strategies: last turn (default), full, per-turn, plus custom splitters.
@@ -79,7 +79,7 @@ Full note: [agent-framework-and-evaluations-docs.md](research/06-microsoft-platf
 - **No agreement-with-human data is published for any evaluator.**
 
 ### Microsoft Foundry and Copilot Studio build paths
-Full note: [microsoft-foundry-and-copilot-studio-docs.md](research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs.md)
+Full note: [microsoft-foundry-and-copilot-studio-docs.md](/research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs.md)
 - Three build paths by service model: Foundry (PaaS), Copilot Studio (SaaS), GPUs and containers (IaaS). Selection criteria: **technical capabilities, timeline, control requirements.**
 - Declarative agents use the host orchestrator and cannot act proactively; custom engine agents own orchestration and model choice and can be triggered without user input.
 - Orchestrator ownership is the fundamental fork; it determines model choice, extensibility and lifecycle tooling together.
@@ -89,7 +89,7 @@ Full note: [microsoft-foundry-and-copilot-studio-docs.md](research/06-microsoft-
 - **"These options aren't mutually exclusive"** — components compose across platforms through MCP.
 
 ### sources/vendor-courses/03-Accelerate-Agentic-AI.md — internal course document
-Full note: [03-accelerate-agentic-ai.md](research/06-microsoft-platform/03-accelerate-agentic-ai.md)
+Full note: [03-accelerate-agentic-ai.md](/research/06-microsoft-platform/03-accelerate-agentic-ai.md)
 - **Internal, not citable.** The underlying LevelUp course is not publicly accessible.
 - Its problem statement is durable: proofs of concept are easy; production deployment and sustained ROI are the industry struggle.
 - Four essentials of high-performance agents: rich connected context; unified data and signal access; low-friction development and orchestration; governance, observability and trust.
@@ -126,4 +126,4 @@ Full note: [03-accelerate-agentic-ai.md](research/06-microsoft-platform/03-accel
 - The open questions on refresh cadence, lab feasibility and transferability.
 
 ## Public-source notes to keep
-All external sources in this folder are open Microsoft Learn documentation, retrieved via the Learn documentation tools. Full URLs are recorded in [reading-list.md](research/06-microsoft-platform/reading-list.md) and in each individual note's citation section. Two of the pages consulted are explicitly labelled classic or superseded, and their replacements have not yet been read. The internal course document `sources/vendor-courses/03-Accelerate-Agentic-AI.md` is **not a public source** and must not be cited externally; anything taught from it must first be re-grounded in public documentation.
+All external sources in this folder are open Microsoft Learn documentation, retrieved via the Learn documentation tools. Full URLs are recorded in [reading-list.md](/research/06-microsoft-platform/reading-list.md) and in each individual note's citation section. Two of the pages consulted are explicitly labelled classic or superseded, and their replacements have not yet been read. The internal course document `sources/vendor-courses/03-Accelerate-Agentic-AI.md` is **not a public source** and must not be cited externally; anything taught from it must first be re-grounded in public documentation.

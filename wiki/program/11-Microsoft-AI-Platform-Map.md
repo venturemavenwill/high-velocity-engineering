@@ -10,7 +10,7 @@ The correction is not decoration. **A student cannot learn that quota is not cap
 
 ## The four layers
 
-The mapping is organised by the four-layer synthesis in [research/06-microsoft-platform/](research/06-microsoft-platform/collected-materials.md), which is that repository folder's own construction and is not vendor doctrine. It is used here as an organising device because **each layer fails in a way the layer above cannot detect**, which is the programme's argument for teaching the whole stack rather than the application layer.
+The mapping is organised by the four-layer synthesis in [research/06-microsoft-platform/](/research/06-microsoft-platform/collected-materials.md), which is that repository folder's own construction and is not vendor doctrine. It is used here as an organising device because **each layer fails in a way the layer above cannot detect**, which is the programme's argument for teaching the whole stack rather than the application layer.
 
 | Layer | Question it answers | Primary services |
 |---|---|---|
@@ -25,7 +25,7 @@ Agent building and agent evaluation run vertically through all four, because a b
 
 Three things, on every day, from the first week.
 
-**GitHub Copilot in agent mode.** The programme's primary instrument. Students do not learn a platform by memorising its portal; they learn it by asking an agent to operate it and then checking what it did. See the [Copilot Practice Standard](wiki/program/12-Copilot-Practice-Standard.md) for the discipline this requires.
+**GitHub Copilot in agent mode.** The programme's primary instrument. Students do not learn a platform by memorising its portal; they learn it by asking an agent to operate it and then checking what it did. See the [Copilot Practice Standard](/wiki/program/12-Copilot-Practice-Standard.md) for the discipline this requires.
 
 **MCP servers, as the connection between the agent and the platform.** Three are standing:
 
@@ -104,7 +104,7 @@ Quarter-level anchors:
 
 ## What must not be taught as fact
 
-Carried forward from [research/06-microsoft-platform/](research/06-microsoft-platform/collected-materials.md) and binding on every page in this wiki:
+Carried forward from [research/06-microsoft-platform/](/research/06-microsoft-platform/collected-materials.md) and binding on every page in this wiki:
 
 - **The 36% retrieval improvement claim.** No benchmark, metric definition, baseline or interval accompanies it anywhere. It is not citable.
 - **"Agents launch in weeks rather than months."** Not a finding.
@@ -122,7 +122,7 @@ The programme's rule that no effect size is asserted for an unverified source ap
 The programme's response is structural rather than hopeful:
 
 1. **Every seminar day separates its durable claim from its platform instance,** in the day's own perishability register. The durable claim is assessed. The platform instance is the vehicle.
-2. **Verification before every offering**, not once a term. The [Durable and Perishable Register](wiki/program/09-Durable-and-Perishable-Register.md) carries the check.
+2. **Verification before every offering**, not once a term. The [Durable and Perishable Register](/wiki/program/09-Durable-and-Perishable-Register.md) carries the check.
 3. **Where a service is renamed or replaced, the day is re-anchored and the durable claim is unchanged.** If a re-anchoring requires the durable claim to change, that is a finding about the claim and is recorded.
 4. **Preview status is taught, not hidden.** Students learn that the generally available access-control approach is the one the documentation itself calls a workaround, and that choosing correctness sometimes means accepting preview terms.
 
@@ -134,8 +134,8 @@ The programme's response is structural rather than hopeful:
 
 ## Related pages
 
-- [Copilot Practice Standard](wiki/program/12-Copilot-Practice-Standard.md)
-- [Course Catalogue](wiki/program/06-Course-Catalogue.md)
-- [Durable and Perishable Register](wiki/program/09-Durable-and-Perishable-Register.md)
-- [Substrate and Infrastructure](wiki/program/10-Substrate-and-Infrastructure.md)
-- [research/06-microsoft-platform/](research/06-microsoft-platform/collected-materials.md)
+- [Copilot Practice Standard](/wiki/program/12-Copilot-Practice-Standard.md)
+- [Course Catalogue](/wiki/program/06-Course-Catalogue.md)
+- [Durable and Perishable Register](/wiki/program/09-Durable-and-Perishable-Register.md)
+- [Substrate and Infrastructure](/wiki/program/10-Substrate-and-Infrastructure.md)
+- [research/06-microsoft-platform/](/research/06-microsoft-platform/collected-materials.md)

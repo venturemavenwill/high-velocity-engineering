@@ -23,7 +23,7 @@ Set-Location $RepoRoot
 $rootLen = $RepoRoot.TrimEnd('\').Length + 1
 
 function Get-RelPath([string]$full) { ($full.Substring($rootLen)) -replace '\\', '/' }
-function Get-NodeId([string]$rel) { $rel -replace '\.md$', '' }
+function Get-NodeId([string]$rel) { ($rel -replace '^/', '') -replace '\.md$', '' }
 
 function Get-Kind([string]$rel) {
     switch -Regex ($rel) {
@@ -434,7 +434,7 @@ foreach ($n in $nodes) {
         $end   = if ($x + 1 -lt $marks.Count) { $marks[$x + 1].at } else { $sec.Length }
         $body  = $sec.Substring($start, $end - $start)
         $meta  = $EVIDENCE_CLASSES[$marks[$x].lead]
-        $cites = @([regex]::Matches($body, '\((research/[^)\s]+?\.md)\)') | ForEach-Object { $_.Groups[1].Value -replace '\.md$', '' } | Select-Object -Unique)
+        $cites = @([regex]::Matches($body, '\(/?(research/[^)\s]+?\.md)\)') | ForEach-Object { $_.Groups[1].Value -replace '\.md$', '' } | Select-Object -Unique)
         $evidence.Add([pscustomobject]@{
             id          = ('{0}.e{1}' -f $wp, $meta.n)
             whitepaper  = $n.id
