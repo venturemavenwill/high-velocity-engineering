@@ -90,6 +90,16 @@ This design corrects itself in public, and the record of it is the repository's 
 
 ## Validation
 
+**One command gates everything.** Run it before you commit; CI runs it on every pull request.
+
+```powershell
+pwsh ./scripts/verify.ps1
+```
+
+It checks that the graph rebuilds, that every link is root-absolute and resolves, that no prohibited claim or effect size appears in the wiki, that every whitepaper carries all four evidence classes, that every prediction names an instrument, that every day declares an entry state and has its whitepaper, and that the MCP smoke suite passes. **Invariants, not snapshots** — counts that legitimately grow are reported, never asserted, because a gate that fails on intended change is a gate someone disables. Snapshot regressions live in `mcp/hve-iq/smoke.js`.
+
+The individual checks, if you need to run one in isolation:
+
 ```powershell
 # every internal link resolves, AND is written root-absolute.
 # Resolving from the repo root is only valid because every link starts with '/'.

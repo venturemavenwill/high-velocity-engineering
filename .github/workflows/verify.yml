@@ -1,0 +1,106 @@
+# The deterministic gate.
+#
+# Runs on every push and every pull request, whoever or whatever opened it.
+# This is the half of the write path that must never be an LLM: a verifier that
+# shares a model family with the proposer is not a verifier, it is an echo.
+#
+# See the commented `research` job at the bottom for where the HVE IQ agent
+# attaches. Nothing in this job needs to change when it does.
+
+name: verify
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install MCP server dependencies
+        working-directory: mcp/hve-iq
+        run: npm install --no-audit --no-fund
+
+      # pwsh is preinstalled on ubuntu-latest runners.
+      - name: Run the gate
+        shell: pwsh
+        run: ./scripts/verify.ps1
+
+      # graph/ is derived and committed. If a rebuild changes it, the committed
+      # copy was stale — which means a claim query could have answered from a
+      # graph that no longer matches the substrate.
+      - name: Fail if the committed graph is stale
+        shell: pwsh
+        run: |
+          $diff = git status --porcelain graph/
+          if ($diff) {
+            Write-Host "::error::graph/ is stale. Run pwsh ./scripts/build-graph.ps1 and commit the result."
+            $diff | ForEach-Object { Write-Host $_ }
+            exit 1
+          }
+          Write-Host "graph/ is current"
+
+# ---------------------------------------------------------------------------
+# PLACEHOLDER — the HVE IQ research agent
+# ---------------------------------------------------------------------------
+#
+# The intended write path is a GitHub Copilot SDK agent that researches, judges
+# and proposes upgrades to the knowledge. It is not built yet. When it is, it
+# becomes a job here and the `verify` job above gates it unchanged, because
+# pull_request already fires regardless of who opened the PR.
+#
+# THE THREE RULES IT INHERITS, none of which are negotiable:
+#
+#   1. It opens a pull request. It never pushes to main. The loop is unattended,
+#      so a human merge is the only place a mistake reliably stops.
+#   2. It never writes to graph/. That directory is derived from the markdown by
+#      build-graph.ps1 and holds no facts of its own.
+#   3. Every claim it proposes carries one of the four evidence classes, and it
+#      may not upgrade a class. Direction and mechanism only for anything not
+#      verified in this repository.
+#
+# Sketch, deliberately not enabled:
+#
+#   research:
+#     if: github.event_name == 'workflow_dispatch'   # then: schedule, cron nightly
+#     runs-on: ubuntu-latest
+#     permissions:
+#       contents: write         # to push a branch
+#       pull-requests: write    # to open the PR
+#     steps:
+#       - uses: actions/checkout@v4
+#       - uses: actions/setup-node@v4
+#         with: { node-version: '20' }
+#       - working-directory: mcp/hve-iq
+#         run: npm install --no-audit --no-fund
+#
+#       # The agent consumes MCP rather than reading files directly: HVE IQ for
+#       # what this repository already claims, Learn MCP for vendor fact, GitHub
+#       # MCP for repository state. hve_platform_exposure names what has decayed;
+#       # hve_sources names what rests on something nobody read.
+#       - name: Propose knowledge upgrades
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#           # BYOK: usage bills to your own provider and does not consume
+#           # Copilot premium requests. Model is a swappable parameter — choose
+#           # it with the Cliff Note eval, not with benchmarks.
+#           MODEL_ENDPOINT: ${{ secrets.MODEL_ENDPOINT }}
+#           MODEL_API_KEY: ${{ secrets.MODEL_API_KEY }}
+#         run: node agent/research.js        # not yet written
+#
+#       - uses: peter-evans/create-pull-request@v6
+#         with:
+#           branch: hve-iq/proposal
+#           title: 'HVE IQ: proposed knowledge upgrades'
+#           body: |
+#             Opened by the HVE IQ research agent. Not merged automatically.
+#             Every claim below states its evidence class. Check the class before
+#             the content — an upgraded class is the failure mode that matters.

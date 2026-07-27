@@ -104,6 +104,25 @@ Run `hve_sources({ read: "unread" })` first. The two most load-bearing unread so
 
 **Exposure counts are a floor, and the tool says so in every answer.** 24% of citations still point at a folder-level `collected-materials` index rather than a named source, so a source showing few dependants may still be carrying more. That figure was 74% before the citations were resolved by hand; every one of the 90 whitepapers now cites at least one named source, where only 46 did.
 
+## The write path, and where it attaches
+
+HVE IQ's intended final form is an agent that researches, judges, and maintains the knowledge. **It is not built.** What exists in v0 is the seam it plugs into, which is the part worth getting right first:
+
+```
+agent proposes  ──►  pull request  ──►  deterministic gate  ──►  human merge
+  (not built)                        scripts/verify.ps1
+```
+
+[scripts/verify.ps1](/scripts/verify.ps1) runs today and [.github/workflows/verify.yml](/.github/workflows/verify.yml) already fires on **any** pull request, whoever opened it. Adding the agent later changes nothing in the gate — it becomes a second proposer beside the human one. The workflow carries a commented sketch of that job.
+
+Three rules the agent inherits, none negotiable:
+
+1. **It opens a pull request. It never pushes to `main`.** The loop is unattended, so a human merge is the only place a mistake reliably stops.
+2. **It never writes to `graph/`.** That is derived from the markdown and holds no facts of its own. CI fails if the committed graph is stale.
+3. **It may not upgrade an evidence class.** Direction and mechanism only for anything not verified here.
+
+**The gate is deliberately not an LLM.** A verifier sharing a model family with the proposer is not a verifier, it is an echo. It is also cheap enough to run on every push, which is what makes it worth having at all.
+
 ## What v0 does not do
 
 - **The evidence ledger is class-level, not claim-atomic.** Splitting prose claim bundles needs authoring judgement; see above for why that is deferred rather than forgotten.
