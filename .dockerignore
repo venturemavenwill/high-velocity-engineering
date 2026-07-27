@@ -1,0 +1,32 @@
+# The build context is the repository root, but the image needs almost none of
+# it: the server, its lockfile, and graph/graph.json. Everything else is either
+# large, irrelevant, or regenerable.
+
+.git
+.github
+.vscode
+node_modules
+**/node_modules
+
+# The knowledge itself. The server reads the derived graph, never the markdown,
+# so shipping 333 source files would only make the image bigger and staler.
+wiki
+research
+sources
+concepts
+projections
+scripts
+infra
+
+# Derived, but only graph.json is read at runtime.
+graph/*.jsonl
+graph/stats.json
+graph/README.md
+
+# Local-only tooling
+mcp/hve-iq/smoke.js
+mcp/hve-iq/README.md
+mcp/hve-iq/Dockerfile
+
+*.md
+!mcp/hve-iq/package.json

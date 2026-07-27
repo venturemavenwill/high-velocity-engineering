@@ -71,6 +71,10 @@ const WARRANT = {
 
 const ok = (data) => ({ content: [{ type: "text", text: JSON.stringify(data, null, 2) }] });
 
+// Built per connection. stdio needs one; HTTP needs a fresh one per request,
+// because a transport binds to exactly one server. The graph above is loaded
+// once at module scope and shared — only the thin server wrapper is rebuilt.
+function buildServer() {
 const server = new McpServer({ name: "hve-iq", version: "0.1.0" });
 
 // ---------------------------------------------------------------- namespaces
@@ -443,4 +447,60 @@ server.registerTool(
   }
 );
 
-await server.connect(new StdioServerTransport());
+return server;
+}
+
+// ---------------------------------------------------------------- transports
+
+// stdio when run locally, Streamable HTTP when a PORT is present. Copilot Studio
+// and every other remote client speak Streamable HTTP only — SSE was dropped from
+// the MCP spec, and stdio cannot cross a network at all.
+const PORT = process.env.PORT;
+
+if (!PORT) {
+  await buildServer().connect(new StdioServerTransport());
+} else {
+  const { createServer } = await import("node:http");
+  const { StreamableHTTPServerTransport } = await import("@modelcontextprotocol/sdk/server/streamableHttp.js");
+
+  // Optional shared secret. Absent means open, which is correct for a private
+  // network and wrong for public ingress — set HVE_API_KEY when exposed.
+  const API_KEY = process.env.HVE_API_KEY;
+  const authorised = (req) => {
+    if (!API_KEY) return true;
+    const h = req.headers.authorization ?? "";
+    return h === `Bearer ${API_KEY}` || req.headers["x-api-key"] === API_KEY;
+  };
+
+  const send = (res, code, body) => {
+    res.writeHead(code, { "content-type": "application/json" });
+    res.end(JSON.stringify(body));
+  };
+
+  createServer(async (req, res) => {
+    // Container Apps probes this; it must never require auth.
+    if (req.url === "/health") {
+      return send(res, 200, { status: "ok", nodes: NODES.length, claims: CLAIMS.length, readonly: true });
+    }
+    if (req.url !== "/mcp") return send(res, 404, { error: "not found. MCP is at /mcp" });
+    if (!authorised(req)) return send(res, 401, { error: "unauthorised" });
+
+    let body;
+    if (req.method === "POST") {
+      const chunks = [];
+      for await (const c of req) chunks.push(c);
+      const raw = Buffer.concat(chunks).toString("utf8");
+      try { body = raw ? JSON.parse(raw) : undefined; }
+      catch { return send(res, 400, { error: "malformed JSON" }); }
+    }
+
+    // Stateless: no session id, a fresh server and transport per request. Lets
+    // Container Apps scale to zero and add replicas without sticky routing.
+    const transport = new StreamableHTTPServerTransport({ sessionIdGenerator: undefined });
+    res.on("close", () => transport.close());
+    await buildServer().connect(transport);
+    await transport.handleRequest(req, res, body);
+  }).listen(Number(PORT), () => {
+    console.log(`hve-iq listening on ${PORT} — MCP at /mcp, health at /health`);
+  });
+}
