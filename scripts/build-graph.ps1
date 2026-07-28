@@ -5,6 +5,7 @@
 # Outputs (all under ./graph):
 #   nodes.jsonl   one JSON object per document
 #   edges.jsonl   one JSON object per typed relationship
+#   research-claims.jsonl  source-grounded claims authored in research notes
 #   graph.json    both of the above in a single file, for small-context loading
 #   stats.json    counts, for a quick sanity check
 #
@@ -522,6 +523,40 @@ if (Test-Path $regPath) {
     }
 }
 
+# ----------------------------------------------------------- research claims
+
+# Research notes author their source-grounded claims as top-level bullets under
+# `Key concepts and practices`. Keep these separate from claims.jsonl, whose
+# schema is the durable/perishable pairs authored by seminar days. The source
+# register's read depth travels with each claim so consumers can preserve the
+# note's warrant rather than treating every extracted statement alike.
+$sourceByNote = @{}
+foreach ($source in $sources) {
+    if ($source.note) { $sourceByNote[$source.note] = $source }
+}
+
+$researchClaims = [System.Collections.Generic.List[object]]::new()
+foreach ($n in $nodes) {
+    if ($n.kind -ne 'research-note') { continue }
+    $text = Get-Content -LiteralPath (Join-Path $RepoRoot $n.path) -Raw
+    $match = [regex]::Match($text, '(?ms)^## Key concepts and practices\s*\r?\n(?<body>.*?)(?=^##\s|\z)')
+    if (-not $match.Success) { continue }
+
+    $index = 0
+    foreach ($claimMatch in [regex]::Matches($match.Groups['body'].Value, '(?m)^-\s+(.+?)\s*$')) {
+        $index++
+        $source = $sourceByNote[$n.id]
+        $researchClaims.Add([pscustomobject]@{
+            id          = ('{0}.rc{1:D2}' -f $n.id, $index)
+            note        = $n.id
+            claim       = ($claimMatch.Groups[1].Value -replace '\s+', ' ').Trim()
+            namespace   = $n.namespace
+            decay       = $n.decay
+            source_read = if ($source) { $source.read } else { 'unknown' }
+        })
+    }
+}
+
 # ---------------------------------------------------------------- write
 
 $nodesPath = Join-Path $OutDir 'nodes.jsonl'
@@ -530,6 +565,7 @@ $edgesPath = Join-Path $OutDir 'edges.jsonl'
 $nodes | ForEach-Object { $_ | ConvertTo-Json -Compress -Depth 6 } | Set-Content $nodesPath -Encoding utf8
 $final | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content $edgesPath -Encoding utf8
 $claims | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join-Path $OutDir 'claims.jsonl') -Encoding utf8
+$researchClaims | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join-Path $OutDir 'research-claims.jsonl') -Encoding utf8
 $predictions | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join-Path $OutDir 'predictions.jsonl') -Encoding utf8
 $evidence | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join-Path $OutDir 'evidence.jsonl') -Encoding utf8
 $sources | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join-Path $OutDir 'sources.jsonl') -Encoding utf8
@@ -541,6 +577,7 @@ $sources | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join-
     nodes       = $nodes
     edges       = $final
     claims      = $claims
+    research_claims = $researchClaims
     predictions = $predictions
     evidence    = $evidence
     sources     = $sources
@@ -559,6 +596,7 @@ $srcRead  = [ordered]@{}; $sources | Group-Object read | Sort-Object @{ Expressi
     claim_count       = $claims.Count
     claim_days        = @($claims | Select-Object -ExpandProperty day -Unique).Count
     claim_gap_days    = $claimGap.Count
+    research_claim_count = $researchClaims.Count
     prediction_count  = $predictions.Count
     evidence_count    = $evidence.Count
     source_count      = $sources.Count
@@ -577,6 +615,7 @@ if ($esMap.Count) {
     $esMap.GetEnumerator() | ForEach-Object { '  {0,-32} {1}' -f $_.Key, $_.Value }
 }
 Write-Host "platform claims: $($claims.Count) across $(@($claims | Select-Object -ExpandProperty day -Unique).Count) days  (no table: $($claimGap.Count))"
+Write-Host "research claims: $($researchClaims.Count)"
 Write-Host "predictions:     $($predictions.Count)   evidence rows: $($evidence.Count)"
 $predNs.GetEnumerator() | ForEach-Object { '  {0,-14} {1}' -f $_.Key, $_.Value }
 Write-Host "sources: $($sources.Count)  (joined to a note: $(@($sources | Where-Object { $_.note }).Count))"

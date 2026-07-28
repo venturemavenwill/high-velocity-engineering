@@ -4,13 +4,14 @@
   "claim_count": 581,
   "claim_days": 89,
   "claim_gap_days": 1,
+  "research_claim_count": 156,
   "prediction_count": 512,
   "evidence_count": 360,
   "source_count": 53,
   "sources_by_read": {
-    "unread": 23,
+    "unread": 19,
     "abstract": 17,
-    "full": 13
+    "full": 17
   },
   "nodes_by_kind": {
     "design-analysis": 3,

@@ -63,7 +63,7 @@ It is derived entirely from the files and holds no facts of its own, so it is al
 | What breaks if Foundry changes? | `graph/claims.jsonl` — **581 durable/perishable pairs across 89 days**, or `hve_platform_exposure` |
 | What would prove this design wrong? | `graph/predictions.jsonl` — **512 predictions, each with a named instrument**, all unmeasured |
 | What breaks if a source is retracted? | `graph/evidence.jsonl` — **360 rows**, 90 papers × 4 evidence classes, or `hve_evidence` |
-| Did anyone actually read the source? | `graph/sources.jsonl` — **53 sources; 23 were never read**, or `hve_sources` |
+| Did anyone actually read the source? | `graph/sources.jsonl` — **53 sources; 19 were never read**, or `hve_sources` |
 | What decays in months? | filter on `platform_bearing` — **212 pages**, then read their perishability registers |
 | What survives any projection? | filter on `primary_namespace` = `measurement` or `pedagogy` |
 | What does S049 depend on? | follow `depends_on` edges out of `wiki/seminars/S049` |

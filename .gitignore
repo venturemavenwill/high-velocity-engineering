@@ -18,6 +18,12 @@ desktop.ini
 *.swp
 *~
 
+# Source material held locally for reading. NEVER committed.
+# This repository's rule is that a copyrighted source is represented by an
+# original synthesis and its citation details, never by the source text — see
+# the copyright handling section of research/99-source-register/source-register.md.
+raw/
+
 # Transient
 *.tmp
 *.bak

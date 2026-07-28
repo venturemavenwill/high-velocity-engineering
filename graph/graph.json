@@ -54,7 +54,7 @@
         "Licence and scope",
         "Open issues, honestly recorded"
       ],
-      "words": 1789,
+      "words": 1790,
       "lines": 148,
       "assessment_bearing": false
     },
@@ -126,11 +126,12 @@
         "Node schema",
         "Namespace fields",
         "Edge schema",
+        "Research claim schema",
         "Worked queries",
         "Limits"
       ],
-      "words": 1116,
-      "lines": 139,
+      "words": 1218,
+      "lines": 161,
       "assessment_bearing": false
     },
     {
@@ -1482,23 +1483,23 @@
       "path": "research/05-fde-craft/beyer-holtzblatt-contextual-design.md",
       "kind": "research-note",
       "layer": "research",
-      "title": "Cliff Notes — Contextual Design",
+      "title": "Cliff Notes — Contextual Design: Design for Life",
       "headings": [
         "Citation and access",
         "What this source is",
         "The argument in full",
-        "Structure of the original",
+        "Structure of the source",
         "Key concepts and practices",
         "Method and evidence base",
         "Vocabulary the source introduces",
         "What to remember",
-        "Why it matters for the course",
+        "Why it matters for forward-deployed and hypervelocity engineering",
         "How to teach it",
         "Limits and cautions",
         "Verification status"
       ],
-      "words": 2119,
-      "lines": 93,
+      "words": 4537,
+      "lines": 247,
       "assessment_bearing": false,
       "namespace": "fde-craft",
       "decay": "slow",
@@ -1517,7 +1518,7 @@
         "Material retained here",
         "Public-source notes to keep"
       ],
-      "words": 1728,
+      "words": 1788,
       "lines": 111,
       "assessment_bearing": false,
       "namespace": "fde-craft",
@@ -1594,8 +1595,8 @@
         "Limits and cautions",
         "Verification status"
       ],
-      "words": 2123,
-      "lines": 90,
+      "words": 5010,
+      "lines": 195,
       "assessment_bearing": false,
       "namespace": "fde-craft",
       "decay": "slow",
@@ -1621,8 +1622,8 @@
         "Limits and cautions",
         "Verification status"
       ],
-      "words": 1880,
-      "lines": 90,
+      "words": 4754,
+      "lines": 157,
       "assessment_bearing": false,
       "namespace": "fde-craft",
       "decay": "slow",
@@ -1756,8 +1757,8 @@
         "Limits and cautions",
         "Verification status"
       ],
-      "words": 1854,
-      "lines": 92,
+      "words": 6297,
+      "lines": 208,
       "assessment_bearing": false,
       "namespace": "fde-craft",
       "decay": "slow",
@@ -1779,7 +1780,7 @@
         "Adjacent reading, not core",
         "What this folder should answer"
       ],
-      "words": 639,
+      "words": 637,
       "lines": 44,
       "assessment_bearing": false,
       "namespace": "fde-craft",
@@ -2500,7 +2501,7 @@
         "What resolving the citations exposed",
         "Copyright handling"
       ],
-      "words": 2526,
+      "words": 2553,
       "lines": 197,
       "assessment_bearing": false
     },
@@ -58170,6 +58171,1256 @@
       "assessment_bearing": false
     }
   ],
+  "research_claims": [
+    {
+      "id": "research/05-fde-craft/beyer-holtzblatt-contextual-design.rc01",
+      "note": "research/05-fde-craft/beyer-holtzblatt-contextual-design",
+      "claim": "Observe activity where it occurs; do not substitute requested features or generalized self-report for design data.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/beyer-holtzblatt-contextual-design.rc02",
+      "note": "research/05-fde-craft/beyer-holtzblatt-contextual-design",
+      "claim": "Interpret with the person and then again with the cross-functional team.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/beyer-holtzblatt-contextual-design.rc03",
+      "note": "research/05-fde-craft/beyer-holtzblatt-contextual-design",
+      "claim": "Consolidate inductively before claiming population patterns.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/beyer-holtzblatt-contextual-design.rc04",
+      "note": "research/05-fde-craft/beyer-holtzblatt-contextual-design",
+      "claim": "Use multiple models because each representation reveals and hides different structure.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/beyer-holtzblatt-contextual-design.rc05",
+      "note": "research/05-fde-craft/beyer-holtzblatt-contextual-design",
+      "claim": "Keep ideas visibly connected to evidence through the Wall Walk.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/beyer-holtzblatt-contextual-design.rc06",
+      "note": "research/05-fde-craft/beyer-holtzblatt-contextual-design",
+      "claim": "Generate several visions before converging on product concepts.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/beyer-holtzblatt-contextual-design.rc07",
+      "note": "research/05-fde-craft/beyer-holtzblatt-contextual-design",
+      "claim": "Alternate scenario thinking and structural thinking throughout detailed design.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/beyer-holtzblatt-contextual-design.rc08",
+      "note": "research/05-fde-craft/beyer-holtzblatt-contextual-design",
+      "claim": "Define places and purposes before widgets; define interface architecture before visual detail.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/beyer-holtzblatt-contextual-design.rc09",
+      "note": "research/05-fde-craft/beyer-holtzblatt-contextual-design",
+      "claim": "Treat every design as a hypothesis and prototypes as instruments for discovering where it fails.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/beyer-holtzblatt-contextual-design.rc10",
+      "note": "research/05-fde-craft/beyer-holtzblatt-contextual-design",
+      "claim": "Resolve validation findings from practice to product structure to interaction structure to interface detail.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/beyer-holtzblatt-contextual-design.rc11",
+      "note": "research/05-fde-craft/beyer-holtzblatt-contextual-design",
+      "claim": "Slice releases by coherent user value, then prioritize function within the slice.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/beyer-holtzblatt-contextual-design.rc12",
+      "note": "research/05-fde-craft/beyer-holtzblatt-contextual-design",
+      "claim": "Keep the user-facing architecture available to implementation teams so local decisions preserve the whole.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/evans-domain-driven-design.rc01",
+      "note": "research/05-fde-craft/evans-domain-driven-design",
+      "claim": "The hardest problem in complex software is understanding the domain, not the technology.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/evans-domain-driven-design.rc02",
+      "note": "research/05-fde-craft/evans-domain-driven-design",
+      "claim": "Knowledge crunching is a collaborative, iterative modelling activity between engineers and domain experts.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/evans-domain-driven-design.rc03",
+      "note": "research/05-fde-craft/evans-domain-driven-design",
+      "claim": "The ubiquitous language is used rigorously by everyone, in speech, in documents and in the code itself.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/evans-domain-driven-design.rc04",
+      "note": "research/05-fde-craft/evans-domain-driven-design",
+      "claim": "A model that diverges from the code is worse than no model; modellers must be hands-on implementers.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/evans-domain-driven-design.rc05",
+      "note": "research/05-fde-craft/evans-domain-driven-design",
+      "claim": "The domain layer is isolated from user interface, application and infrastructure concerns.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/evans-domain-driven-design.rc06",
+      "note": "research/05-fde-craft/evans-domain-driven-design",
+      "claim": "Entities have identity over time; value objects are defined by their attributes alone; services capture operations belonging to no object.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/evans-domain-driven-design.rc07",
+      "note": "research/05-fde-craft/evans-domain-driven-design",
+      "claim": "An aggregate is a cluster treated as a unit for data change, with a single root, external references only to the root, and invariants enforced at its boundary.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/evans-domain-driven-design.rc08",
+      "note": "research/05-fde-craft/evans-domain-driven-design",
+      "claim": "Repositories present aggregate roots as if they were an in-memory collection; factories encapsulate complex creation.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/evans-domain-driven-design.rc09",
+      "note": "research/05-fde-craft/evans-domain-driven-design",
+      "claim": "Models improve through continuous refactoring punctuated by occasional conceptual breakthroughs.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/evans-domain-driven-design.rc10",
+      "note": "research/05-fde-craft/evans-domain-driven-design",
+      "claim": "Making implicit concepts explicit is the central refactoring move.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/evans-domain-driven-design.rc11",
+      "note": "research/05-fde-craft/evans-domain-driven-design",
+      "claim": "Supple design exists to keep further refactoring cheap.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/evans-domain-driven-design.rc12",
+      "note": "research/05-fde-craft/evans-domain-driven-design",
+      "claim": "A bounded context is an explicit boundary within which a model and its terms apply.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/evans-domain-driven-design.rc13",
+      "note": "research/05-fde-craft/evans-domain-driven-design",
+      "claim": "A context map documents the real contexts and their relationships.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/evans-domain-driven-design.rc14",
+      "note": "research/05-fde-craft/evans-domain-driven-design",
+      "claim": "Integration relationship patterns include shared kernel, customer-supplier, conformist, anticorruption layer, separate ways, open host service and published language.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/evans-domain-driven-design.rc15",
+      "note": "research/05-fde-craft/evans-domain-driven-design",
+      "claim": "Distillation identifies the core domain, the part that differentiates the business, and concentrates effort there.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/fisher-ury-getting-to-yes.rc01",
+      "note": "research/05-fde-craft/fisher-ury-getting-to-yes",
+      "claim": "**Change the game:** reject the false choice between hard positional pressure and soft concession.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/fisher-ury-getting-to-yes.rc02",
+      "note": "research/05-fde-craft/fisher-ury-getting-to-yes",
+      "claim": "**Two-level diagnosis:** keep substantive issues distinct from relationship and process issues; negotiate both on their merits.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/fisher-ury-getting-to-yes.rc03",
+      "note": "research/05-fde-craft/fisher-ury-getting-to-yes",
+      "claim": "**Perception before persuasion:** reconstruct the choice and consequences as the other side sees them.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/fisher-ury-getting-to-yes.rc04",
+      "note": "research/05-fde-craft/fisher-ury-getting-to-yes",
+      "claim": "**Interests behind positions:** ask why and why not; list multiple material, relational, identity, and constituent interests.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/fisher-ury-getting-to-yes.rc05",
+      "note": "research/05-fde-craft/fisher-ury-getting-to-yes",
+      "claim": "**Concrete flexibility:** state interests precisely while treating any particular solution as revisable.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/fisher-ury-getting-to-yes.rc06",
+      "note": "research/05-fde-craft/fisher-ury-getting-to-yes",
+      "claim": "**Invent before deciding:** use explicit no-commitment option generation, then improve and evaluate candidates later.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/fisher-ury-getting-to-yes.rc07",
+      "note": "research/05-fde-craft/fisher-ury-getting-to-yes",
+      "claim": "**Dovetail differences:** trade across forecasts, valuations, timing, risk, scope, and priorities rather than split one number.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/fisher-ury-getting-to-yes.rc08",
+      "note": "research/05-fde-craft/fisher-ury-getting-to-yes",
+      "claim": "**Make their decision easy:** design an agreement the counterpart can implement and explain to constituents.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/fisher-ury-getting-to-yes.rc09",
+      "note": "research/05-fde-craft/fisher-ury-getting-to-yes",
+      "claim": "**Objective criteria and fair procedures:** reason from standards independent of either side's will; examine competing standards rather than invoking “fairness” as a slogan.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/fisher-ury-getting-to-yes.rc10",
+      "note": "research/05-fde-craft/fisher-ury-getting-to-yes",
+      "claim": "**BATNA:** develop and select the best action available without agreement; compare packages against it.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/fisher-ury-getting-to-yes.rc11",
+      "note": "research/05-fde-craft/fisher-ury-getting-to-yes",
+      "claim": "**Trip wire:** predefine a threshold that forces reassessment before a poor agreement is accepted.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/fisher-ury-getting-to-yes.rc12",
+      "note": "research/05-fde-craft/fisher-ury-getting-to-yes",
+      "claim": "**Micro-BATNA:** prepare what to do if this meeting ends without agreement.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/fisher-ury-getting-to-yes.rc13",
+      "note": "research/05-fde-craft/fisher-ury-getting-to-yes",
+      "claim": "**Negotiation jujitsu:** redirect positions, criticism, and personal attack into questions about interests, options, and standards.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/fisher-ury-getting-to-yes.rc14",
+      "note": "research/05-fde-craft/fisher-ury-getting-to-yes",
+      "claim": "**Questions and silence:** use inquiry to surface reasoning, then leave room for an answer.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/fisher-ury-getting-to-yes.rc15",
+      "note": "research/05-fde-craft/fisher-ury-getting-to-yes",
+      "claim": "**One-text procedure:** iterate one draft through criticism when competing proposals cause positional lock-in.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/fisher-ury-getting-to-yes.rc16",
+      "note": "research/05-fde-craft/fisher-ury-getting-to-yes",
+      "claim": "**Negotiate the process:** name suspected tactics, test them, and agree rules before proceeding.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/fisher-ury-getting-to-yes.rc17",
+      "note": "research/05-fde-craft/fisher-ury-getting-to-yes",
+      "claim": "**Framework agreement:** expose unresolved terms early and draft toward operational commitments.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/fisher-ury-getting-to-yes.rc18",
+      "note": "research/05-fde-craft/fisher-ury-getting-to-yes",
+      "claim": "**Seven sources of power:** relationship, communication/process, interests, options, legitimacy, BATNA, and commitment.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/fitzpatrick-the-mom-test.rc01",
+      "note": "research/05-fde-craft/fitzpatrick-the-mom-test",
+      "claim": "**Question quality is owned by the interviewer.** Socially generous respondents are a predictable condition, not an excuse for weak evidence.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/fitzpatrick-the-mom-test.rc02",
+      "note": "research/05-fde-craft/fitzpatrick-the-mom-test",
+      "claim": "**Facts before opinions.** Recent episodes, actual workflows, current costs, prior attempts, and allocated resources are more useful than approval or prediction.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/fitzpatrick-the-mom-test.rc03",
+      "note": "research/05-fde-craft/fitzpatrick-the-mom-test",
+      "claim": "**Importance before detail.** Establish that the problem category is active and consequential before ranking needs inside it.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/fitzpatrick-the-mom-test.rc04",
+      "note": "research/05-fde-craft/fitzpatrick-the-mom-test",
+      "claim": "**Problem ownership and solution ownership differ.** Stakeholders supply evidence about their lives; the product team remains responsible for design judgement.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/fitzpatrick-the-mom-test.rc05",
+      "note": "research/05-fde-craft/fitzpatrick-the-mom-test",
+      "claim": "**Deflect, anchor, dig.** Redirect compliments, ground generic and future claims in past specifics, and investigate the cause beneath requests and emotions.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/fitzpatrick-the-mom-test.rc06",
+      "note": "research/05-fde-craft/fitzpatrick-the-mom-test",
+      "claim": "**Expose the dangerous assumption.** Ask what would cause failure and what must be true for success; include legal, budget, adoption, distribution, and technical dependencies.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/fitzpatrick-the-mom-test.rc07",
+      "note": "research/05-fde-craft/fitzpatrick-the-mom-test",
+      "claim": "**Choose the evidence mechanism by risk.** Conversation can investigate market and customer uncertainty; product risk requires prototypes, technical spikes, usage, or other direct tests.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/fitzpatrick-the-mom-test.rc08",
+      "note": "research/05-fde-craft/fitzpatrick-the-mom-test",
+      "claim": "**Commitment is costly behaviour.** Interpret time, reputation, and money relative to what the particular stakeholder is actually sacrificing.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/fitzpatrick-the-mom-test.rc09",
+      "note": "research/05-fde-craft/fitzpatrick-the-mom-test",
+      "claim": "**Advancement needs a named next state.** A warm meeting without a decision, owner, condition, or next action is not pipeline progress.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/fitzpatrick-the-mom-test.rc10",
+      "note": "research/05-fde-craft/fitzpatrick-the-mom-test",
+      "claim": "**Segmentation makes evidence comparable.** Mixed answers across unlike populations should not be aggregated as one customer voice.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/fitzpatrick-the-mom-test.rc11",
+      "note": "research/05-fde-craft/fitzpatrick-the-mom-test",
+      "claim": "**A useful segment is findable.** Pair a specific kind of person or organisation with the place or behaviour through which they can be reached.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/fitzpatrick-the-mom-test.rc12",
+      "note": "research/05-fde-craft/fitzpatrick-the-mom-test",
+      "claim": "**Learning is a team state.** Shared preparation, first-hand exposure, retrievable notes, and immediate review prevent one person becoming the repository of customer truth.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/fitzpatrick-the-mom-test.rc13",
+      "note": "research/05-fde-craft/fitzpatrick-the-mom-test",
+      "claim": "**Speed means resolving the next uncertainty.** The three-question list changes as beliefs change; conversations stop when they cease adding relevant information.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/hiatt-adkar.rc01",
+      "note": "research/05-fde-craft/hiatt-adkar",
+      "claim": "Change happens one person at a time; the organisation changes only as a consequence.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/hiatt-adkar.rc02",
+      "note": "research/05-fde-craft/hiatt-adkar",
+      "claim": "The five elements are sequential: awareness, desire, knowledge, ability, reinforcement.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/hiatt-adkar.rc03",
+      "note": "research/05-fde-craft/hiatt-adkar",
+      "claim": "Awareness is understanding why, not having been told.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/hiatt-adkar.rc04",
+      "note": "research/05-fde-craft/hiatt-adkar",
+      "claim": "Desire cannot be mandated and is the element leaders control least and assume most.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/hiatt-adkar.rc05",
+      "note": "research/05-fde-craft/hiatt-adkar",
+      "claim": "Knowledge is what training delivers, and training is habitually misapplied to awareness and desire problems.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/hiatt-adkar.rc06",
+      "note": "research/05-fde-craft/hiatt-adkar",
+      "claim": "Ability is demonstrated performance under real conditions, and is separated from knowledge by practice, coaching and obstacle removal.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/hiatt-adkar.rc07",
+      "note": "research/05-fde-craft/hiatt-adkar",
+      "claim": "Reinforcement prevents regression, which is the default outcome without it.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/hiatt-adkar.rc08",
+      "note": "research/05-fde-craft/hiatt-adkar",
+      "claim": "The barrier point is the first unmet element, and it determines which intervention will work.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/hiatt-adkar.rc09",
+      "note": "research/05-fde-craft/hiatt-adkar",
+      "claim": "Effort spent past the barrier point is wasted.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/hiatt-adkar.rc10",
+      "note": "research/05-fde-craft/hiatt-adkar",
+      "claim": "The model complements organisational frameworks rather than replacing them.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/kotter-leading-change.rc01",
+      "note": "research/05-fde-craft/kotter-leading-change",
+      "claim": "Change fails in patterned ways, and the eight errors are the pattern.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/kotter-leading-change.rc02",
+      "note": "research/05-fde-craft/kotter-leading-change",
+      "claim": "The eight steps are the inversion of the eight errors and are presented as sequential.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/kotter-leading-change.rc03",
+      "note": "research/05-fde-craft/kotter-leading-change",
+      "claim": "Complacency is the most common starting failure; urgency must be established from real conditions, not manufactured.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/kotter-leading-change.rc04",
+      "note": "research/05-fde-craft/kotter-leading-change",
+      "claim": "A guiding coalition needs positional power, expertise, credibility and leadership, not just seniority.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/kotter-leading-change.rc05",
+      "note": "research/05-fde-craft/kotter-leading-change",
+      "claim": "A usable vision can be communicated intelligibly in a few minutes.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/kotter-leading-change.rc06",
+      "note": "research/05-fde-craft/kotter-leading-change",
+      "claim": "Vision is chronically undercommunicated, and leaders misjudge sufficiency by counting their own transmissions.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/kotter-leading-change.rc07",
+      "note": "research/05-fde-craft/kotter-leading-change",
+      "claim": "Behaviour inconsistent with the vision destroys it faster than communication can build it.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/kotter-leading-change.rc08",
+      "note": "research/05-fde-craft/kotter-leading-change",
+      "claim": "Empowerment is mostly obstacle removal: structures, systems, incentives and blocking individuals.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/kotter-leading-change.rc09",
+      "note": "research/05-fde-craft/kotter-leading-change",
+      "claim": "Short-term wins must be planned, visible, unambiguous and clearly attributable to the change effort.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/kotter-leading-change.rc10",
+      "note": "research/05-fde-craft/kotter-leading-change",
+      "claim": "Declaring victory too soon is a distinct and serious failure mode.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/kotter-leading-change.rc11",
+      "note": "research/05-fde-craft/kotter-leading-change",
+      "claim": "Culture changes last, not first, and only after new behaviour is seen to produce better results.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/kotter-leading-change.rc12",
+      "note": "research/05-fde-craft/kotter-leading-change",
+      "claim": "Management produces consistency; leadership produces change; transformation fails when over-managed and under-led.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/portigal-interviewing-users.rc01",
+      "note": "research/05-fde-craft/portigal-interviewing-users",
+      "claim": "**Interviewing is skilled, asymmetric inquiry.** A conversational tone coexists with deliberate control of purpose, pacing, follow-up, and attention.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/portigal-interviewing-users.rc02",
+      "note": "research/05-fde-craft/portigal-interviewing-users",
+      "claim": "**Check the team's worldview at the door.** Externalize assumptions before fieldwork so they can be noticed without making confirmation the session's job.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/portigal-interviewing-users.rc03",
+      "note": "research/05-fde-craft/portigal-interviewing-users",
+      "claim": "**Study behavior and meaning together.** A sequence without rationale is incomplete; a stated rationale without observed context may be idealized.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/portigal-interviewing-users.rc04",
+      "note": "research/05-fde-craft/portigal-interviewing-users",
+      "claim": "**Reframe without abandoning the brief.** A deeper problem can extend the commissioned question, but the team remains accountable for the original decision need.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/portigal-interviewing-users.rc05",
+      "note": "research/05-fde-craft/portigal-interviewing-users",
+      "claim": "**Use the participant's context and language.** Artifacts, interruptions, social relations, terminology, and misperceptions are part of the evidence.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/portigal-interviewing-users.rc06",
+      "note": "research/05-fde-craft/portigal-interviewing-users",
+      "claim": "**Prepare to improvise.** Objectives, screening, a field guide, roles, logistics, consent, and equipment make responsible flexibility possible.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/portigal-interviewing-users.rc07",
+      "note": "research/05-fde-craft/portigal-interviewing-users",
+      "claim": "**Treat recruiting as research data.** Scarcity, ambiguity, and mismatched contexts can falsify assumptions about the population or workflow.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/portigal-interviewing-users.rc08",
+      "note": "research/05-fde-craft/portigal-interviewing-users",
+      "claim": "**Ask, show, enact, and make.** Demonstration, mapping, role-play, concepts, sorting, and homework expose different layers of a practice.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/portigal-interviewing-users.rc09",
+      "note": "research/05-fde-craft/portigal-interviewing-users",
+      "claim": "**Build rapport through attention.** Follow-ups, silence, body language, selective self-disclosure, and respect for social norms show that the participant matters.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/portigal-interviewing-users.rc10",
+      "note": "research/05-fde-craft/portigal-interviewing-users",
+      "claim": "**Silence is interpreted, not applied.** It can invite continuation, make room for thought, or signal confusion and distress depending on person and culture.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/portigal-interviewing-users.rc11",
+      "note": "research/05-fde-craft/portigal-interviewing-users",
+      "claim": "**Assume contradictions are intelligible.** Explore the missing distinction instead of accusing the participant or averaging the conflict away.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/portigal-interviewing-users.rc12",
+      "note": "research/05-fde-craft/portigal-interviewing-users",
+      "claim": "**Separate record from interpretation.** Notes, recordings, photographs, sketches, transcripts, highlights, and debriefs have different evidential roles.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/portigal-interviewing-users.rc13",
+      "note": "research/05-fde-craft/portigal-interviewing-users",
+      "claim": "**Analyze cases before extracting themes.** Preserve enough context to understand a participant, then synthesize across cases rather than collecting decontextualized quotes.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/portigal-interviewing-users.rc14",
+      "note": "research/05-fde-craft/portigal-interviewing-users",
+      "claim": "**Research impact is designed.** Stakeholder involvement, visible process, appropriate output forms, and an explicit chain from evidence to implication determine whether findings enter decisions.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/06-microsoft-platform/agent-framework-and-evaluations-docs.rc01",
+      "note": "research/06-microsoft-platform/agent-framework-and-evaluations-docs",
+      "claim": "**Three design principles:** provider-agnostic, zero friction, progressive disclosure.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/agent-framework-and-evaluations-docs.rc02",
+      "note": "research/06-microsoft-platform/agent-framework-and-evaluations-docs",
+      "claim": "**Three core types:** `EvalItem` (one conversation, split into query and response), `Evaluator` (scores items), `EvalResults` (aggregated pass/fail counts, per-item detail, portal links).",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/agent-framework-and-evaluations-docs.rc03",
+      "note": "research/06-microsoft-platform/agent-framework-and-evaluations-docs",
+      "claim": "**Two evaluator tiers:** `LocalEvaluator` for inner-loop and CI smoke tests without API calls; `FoundryEvals` for cloud LLM-as-judge. **They can be mixed in one run.**",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/agent-framework-and-evaluations-docs.rc04",
+      "note": "research/06-microsoft-platform/agent-framework-and-evaluations-docs",
+      "claim": "**`FoundryEvals` defaults to relevance, coherence and task adherence**, adding **tool call accuracy** automatically when tool definitions are present.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/agent-framework-and-evaluations-docs.rc05",
+      "note": "research/06-microsoft-platform/agent-framework-and-evaluations-docs",
+      "claim": "**Three split strategies:** **Last turn** (default; response quality at a point), **Full** (task completion and trajectory), **Per-turn** (fine-grained). Custom splitters accepted. **\"How you split determines what you're evaluating.\"**",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/agent-framework-and-evaluations-docs.rc06",
+      "note": "research/06-microsoft-platform/agent-framework-and-evaluations-docs",
+      "claim": "**Expected outputs** pair positionally with queries; **expected tool calls** can be specified separately.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/agent-framework-and-evaluations-docs.rc07",
+      "note": "research/06-microsoft-platform/agent-framework-and-evaluations-docs",
+      "claim": "**Pre-existing responses from logs can be evaluated without re-running the agent.**",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/agent-framework-and-evaluations-docs.rc08",
+      "note": "research/06-microsoft-platform/agent-framework-and-evaluations-docs",
+      "claim": "**Repetitions** exist \"to detect non-deterministic behavior\".",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/agent-framework-and-evaluations-docs.rc09",
+      "note": "research/06-microsoft-platform/agent-framework-and-evaluations-docs",
+      "claim": "**Workflow evaluation** extracts each sub-agent's interactions and evaluates them individually alongside the workflow's overall output.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/agent-framework-and-evaluations-docs.rc10",
+      "note": "research/06-microsoft-platform/agent-framework-and-evaluations-docs",
+      "claim": "**Agent behaviour evaluators:** `intent_resolution`, `task_adherence`, `task_completion`, `task_navigation_efficiency`.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/agent-framework-and-evaluations-docs.rc11",
+      "note": "research/06-microsoft-platform/agent-framework-and-evaluations-docs",
+      "claim": "**Tool usage evaluators:** `tool_call_accuracy`, `tool_selection`, `tool_input_accuracy`, `tool_output_utilization`, `tool_call_success`.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/agent-framework-and-evaluations-docs.rc12",
+      "note": "research/06-microsoft-platform/agent-framework-and-evaluations-docs",
+      "claim": "**Quality evaluators:** `coherence`, `fluency`, `relevance`, `groundedness`, `response_completeness`, `similarity`. **Safety evaluators:** `violence`, `sexual`, `self_harm`, `hate_unfairness`.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/agent-framework-and-evaluations-docs.rc13",
+      "note": "research/06-microsoft-platform/agent-framework-and-evaluations-docs",
+      "claim": "**`task_navigation_efficiency` takes `actions` and `expected_actions` and requires no model parameter** — the one deterministic agent-behaviour check.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/agent-framework-and-evaluations-docs.rc14",
+      "note": "research/06-microsoft-platform/agent-framework-and-evaluations-docs",
+      "claim": "**Customer Satisfaction uses six dimensions:** helpfulness, completeness, clarity, tone, resolution, adaptability.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/agent-framework-and-evaluations-docs.rc15",
+      "note": "research/06-microsoft-platform/agent-framework-and-evaluations-docs",
+      "claim": "**Output is pass/fail with a `reason`**, plus a numeric `score` for 1–5-scale evaluators; the documented example shows `tool_call_accuracy` 2 against threshold 3 failing.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/agent-framework-and-evaluations-docs.rc16",
+      "note": "research/06-microsoft-platform/agent-framework-and-evaluations-docs",
+      "claim": "**Data mapping:** `{{item.*}}` for dataset fields; `{{sample.output_items}}` for structured output including tool calls, required by the trajectory evaluators; `{{sample.output_text}}` for plain text.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/agent-framework-and-evaluations-docs.rc17",
+      "note": "research/06-microsoft-platform/agent-framework-and-evaluations-docs",
+      "claim": "Many evaluators are **preview**, and one consulted page is a superseded **classic** variant.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/apim-ai-gateway-docs.rc01",
+      "note": "research/06-microsoft-platform/apim-ai-gateway-docs",
+      "claim": "**The AI gateway \"extends API Management's existing API gateway; it's not a separate offering.\"** Capability availability varies by service tier.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/apim-ai-gateway-docs.rc02",
+      "note": "research/06-microsoft-platform/apim-ai-gateway-docs",
+      "claim": "**Supported endpoint types:** OpenAI Chat Completions and Responses, Anthropic Messages (v2 tiers), Google Vertex AI; Foundry and non-Microsoft providers including Amazon Bedrock; remote MCP servers; A2A agent APIs; self-hosted models.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/apim-ai-gateway-docs.rc03",
+      "note": "research/06-microsoft-platform/apim-ai-gateway-docs",
+      "claim": "**Unified model API (preview):** multiple backends behind one OpenAI-compatible endpoint, with automatic format translation and policy applied once.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/apim-ai-gateway-docs.rc04",
+      "note": "research/06-microsoft-platform/apim-ai-gateway-docs",
+      "claim": "**Five stated challenges:** authenticate and authorise; load balance; monitor and log; manage token usage and quotas across applications; enable developer self-service.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/apim-ai-gateway-docs.rc05",
+      "note": "research/06-microsoft-platform/apim-ai-gateway-docs",
+      "claim": "**Token limit policy:** TPM limits or quotas over hourly, daily, weekly, monthly or yearly periods; keyed on subscription key, originating IP, or an arbitrary policy expression; **prompt tokens can be precalculated at the gateway** to avoid backend calls that would exceed the limit; remaining tokens exposed to downstream policy.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/apim-ai-gateway-docs.rc06",
+      "note": "research/06-microsoft-platform/apim-ai-gateway-docs",
+      "claim": "**Semantic caching** compares \"vector proximity of the prompt to prior requests\"; requires Azure Managed Redis or a RediSearch-compatible external cache; implemented by the paired `llm-semantic-cache-store` and `llm-semantic-cache-lookup` policies over the Embeddings API.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/apim-ai-gateway-docs.rc07",
+      "note": "research/06-microsoft-platform/apim-ai-gateway-docs",
+      "claim": "**Scale units and regional gateways** scale the gateway. The docs explicitly warn this does not scale the AI backends, which must be deployed in the same regions.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/apim-ai-gateway-docs.rc08",
+      "note": "research/06-microsoft-platform/apim-ai-gateway-docs",
+      "claim": "**Security:** managed identities remove the need for API keys; OAuth via credential manager for apps and agents including MCP servers; `llm-content-safety` policy for prompt moderation via Azure AI Content Safety.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/apim-ai-gateway-docs.rc09",
+      "note": "research/06-microsoft-platform/apim-ai-gateway-docs",
+      "claim": "**Load balancing modes:** round-robin, weighted, priority-based, session-aware. Priority routing is recommended specifically to saturate PTU endpoints first.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/apim-ai-gateway-docs.rc10",
+      "note": "research/06-microsoft-platform/apim-ai-gateway-docs",
+      "claim": "**Circuit breaker** uses **dynamic trip duration from the backend's `Retry-After` header** rather than a fixed interval.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/apim-ai-gateway-docs.rc11",
+      "note": "research/06-microsoft-platform/apim-ai-gateway-docs",
+      "claim": "**`llm-emit-token-metric`** emits token metrics with custom dimensions for filtering in Azure Monitor; logging captures prompts, completions and token usage \"for billing and auditing\".",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/apim-ai-gateway-docs.rc12",
+      "note": "research/06-microsoft-platform/apim-ai-gateway-docs",
+      "claim": "**Governance plane:** Azure API Center catalogue for APIs, MCP servers and skills; developer portals; policy toolkit; Copilot Studio connector.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/apim-ai-gateway-docs.rc13",
+      "note": "research/06-microsoft-platform/apim-ai-gateway-docs",
+      "claim": "**AI gateway in Microsoft Foundry is preview.**",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs.rc01",
+      "note": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs",
+      "claim": "**Three build paths by service model:** Foundry (PaaS), Copilot Studio (SaaS), GPUs and containers (IaaS). Selection criteria: **technical capabilities, timeline, control requirements.**",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs.rc02",
+      "note": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs",
+      "claim": "**Foundry agent types:** **prompt agents** (declarative, no agent compute) and **hosted agents** (your containerized code on managed container compute).",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs.rc03",
+      "note": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs",
+      "claim": "**Foundry setup options:** **basic** for rapid prototyping, which **lacks network isolation**; **standard** with public networking for enterprise controls or private networking for confidential workloads.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs.rc04",
+      "note": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs",
+      "claim": "**Declarative agents:** individual use, Copilot's orchestrator and models only, **no proactive interaction**, Microsoft 365 channels, hosted in Microsoft 365.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs.rc05",
+      "note": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs",
+      "claim": "**Custom engine agents:** complex workflows, individual or group use, **full orchestration and model choice**, **proactive triggering**, internal and external channels, flexible hosting.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs.rc06",
+      "note": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs",
+      "claim": "**Six published triggers for custom engine agents:** custom orchestration; own or domain-specific or multimodal models; group productivity; integrating an existing assistant; availability outside Microsoft 365; proactive messaging.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs.rc07",
+      "note": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs",
+      "claim": "**Orchestrator ownership differs by tool:** Copilot Studio's own; Teams AI Action Planner; bring-your-own for Agents SDK and Foundry.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs.rc08",
+      "note": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs",
+      "claim": "**Language support differs:** Teams AI (C#, TypeScript, JavaScript, Python); Agents SDK (C#, JavaScript, Python); Foundry (Python, C#); Copilot Studio (not applicable).",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs.rc09",
+      "note": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs",
+      "claim": "**Only Teams SDK, Microsoft 365 Agents SDK and Foundry agents can be published to the Microsoft Commercial Store** via the Agents Toolkit.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs.rc10",
+      "note": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs",
+      "claim": "**Copilot Studio is \"designed for small-scale deployments, such as department-level solutions.\"**",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs.rc11",
+      "note": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs",
+      "claim": "**Copilot Studio's stated limits:** less fine-grained control over API calls, actions and response formatting; less integrated pro-dev tooling than Agents Toolkit; **Adaptive Cards schema 1.6 and earlier**; slower feature availability.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs.rc12",
+      "note": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs",
+      "claim": "**Tools connect via the Tool catalog, MCP and OpenAPI specifications**, with Logic Apps and Functions for serverless automation.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs.rc13",
+      "note": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs",
+      "claim": "**The options are explicitly not mutually exclusive** — components on different platforms compose through MCP.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs.rc14",
+      "note": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs",
+      "claim": "**Two Foundry-to-Microsoft-365 integration paths:** direct publish, which auto-provisions Azure Bot Service and Entra ID; or an Agents Toolkit proxy app for custom logic, SSO and multi-environment deployment.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs.rc01",
+      "note": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs",
+      "claim": "**Purview's four capability groups:** insights and analytics; ready-to-use prompt data-loss policies; data risk assessments for oversharing; compliance controls.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs.rc02",
+      "note": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs",
+      "claim": "**The oversharing argument:** generative AI \"amplifies the problem of oversharing data\" by surfacing content that is \"obsolete, over-permissioned, or lacking governance controls.\"",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs.rc03",
+      "note": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs",
+      "claim": "**Default data risk assessment runs weekly over the top 100 SharePoint sites**, and, once configured, the **top 100 Fabric workspaces**.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs.rc04",
+      "note": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs",
+      "claim": "**Assessment detail is organised as Identify, Protect, Monitor.**",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs.rc05",
+      "note": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs",
+      "claim": "**Remediation options:** restrict access by label via DLP; SharePoint Restricted Content Discovery to exempt sites; auto-labelling for unlabelled sensitive files; retention policies deleting content unaccessed for three years.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs.rc06",
+      "note": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs",
+      "claim": "**Item-level actions:** Resolve, Apply sensitivity label, Notify owner, Remove sharing link — the last flagged as disruptive and to be used sparingly.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs.rc07",
+      "note": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs",
+      "claim": "**Stated limits:** 200,000 items per location; counts possibly inaccurate above 100,000 files per location; OneDrive unsupported for item-level scanning; maximum 10 SharePoint sites for item-level scanning.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs.rc08",
+      "note": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs",
+      "claim": "**Stated latencies:** 24 hours for policy data; 48 hours for custom assessment results; 4-day delay on first default assessment; 30-day expiry on custom results.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs.rc09",
+      "note": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs",
+      "claim": "**Without an explicit policy, Copilot in Fabric and Security Copilot audit the event but not the prompts and responses.**",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs.rc10",
+      "note": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs",
+      "claim": "**Activity explorer captures** activity type and user, timestamp, AI app category and app, app accessed in, sensitive information types, files referenced and sensitive files referenced; prompts and responses are permission-gated.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs.rc11",
+      "note": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs",
+      "claim": "**Workload taxonomy:** Copilot experiences and agents; Enterprise AI apps; Other AI apps.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs.rc12",
+      "note": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs",
+      "claim": "**Defender's AI BOM** covers \"application components, data, and AI artifacts from code to cloud.\"",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs.rc13",
+      "note": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs",
+      "claim": "**Automatic continuous discovery across five services:** Azure OpenAI Service, Azure AI Foundry, Azure Machine Learning, Amazon Bedrock, Google Vertex AI.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs.rc14",
+      "note": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs",
+      "claim": "**Dependency scanning** names TensorFlow, PyTorch and Langchain; covers IaC misconfigurations and container image vulnerabilities.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs.rc15",
+      "note": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs",
+      "claim": "**Four IaC AI security checks:** private endpoints; restricted endpoints; managed identity; identity-based authentication.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs.rc16",
+      "note": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs",
+      "claim": "**Attack path analysis** targets \"toxic combinations\", with grounding and fine-tuning named as the data-exposure moments.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs.rc17",
+      "note": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs",
+      "claim": "**Named AI-native attacks:** prompt injection, wallet attacks, model theft, data poisoning, plus data breach and denial of service.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs.rc18",
+      "note": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs",
+      "claim": "**From 1 July 2026, agent-level discovery and posture require a Microsoft Agent 365 licence.**",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    }
+  ],
   "predictions": [
     {
       "id": "WP-001.pred1",
@@ -72239,11 +73490,11 @@
       "note": null
     },
     {
-      "source": "Beyer and Holtzblatt, Contextual Design",
-      "identifier": "Morgan Kaufmann, 1997",
-      "access": "copyrighted",
-      "read": "unread",
-      "read_raw": "synthesis only",
+      "source": "Beyer and Holtzblatt, Contextual Design: Design for Life, second edition",
+      "identifier": "Morgan Kaufmann, 2017; EPUB ISBN 978-0-12-801351-4",
+      "access": "copyrighted; local EPUB",
+      "read": "full",
+      "read_raw": "full",
       "section": "Forward-deployed engineering craft",
       "note": "research/05-fde-craft/beyer-holtzblatt-contextual-design"
     },
@@ -72257,20 +73508,20 @@
       "note": "research/05-fde-craft/evans-domain-driven-design"
     },
     {
-      "source": "Fisher and Ury, Getting to Yes",
-      "identifier": "Houghton Mifflin, 1981",
-      "access": "copyrighted",
-      "read": "unread",
-      "read_raw": "synthesis only",
+      "source": "Fisher, Ury and Patton, Getting to Yes, third edition",
+      "identifier": "Penguin Books, 2011; EPUB ISBN 978-1-101-53954-5",
+      "access": "copyrighted; local EPUB",
+      "read": "full",
+      "read_raw": "full",
       "section": "Forward-deployed engineering craft",
       "note": "research/05-fde-craft/fisher-ury-getting-to-yes"
     },
     {
       "source": "Fitzpatrick, The Mom Test",
-      "identifier": "2013",
-      "access": "copyrighted",
-      "read": "unread",
-      "read_raw": "synthesis only",
+      "identifier": "edition metadata absent from local EPUB",
+      "access": "copyrighted; local EPUB",
+      "read": "full",
+      "read_raw": "full available text",
       "section": "Forward-deployed engineering craft",
       "note": "research/05-fde-craft/fitzpatrick-the-mom-test"
     },
@@ -72294,10 +73545,10 @@
     },
     {
       "source": "Portigal, Interviewing Users",
-      "identifier": "Rosenfeld Media, 2013",
-      "access": "copyrighted",
-      "read": "unread",
-      "read_raw": "synthesis only",
+      "identifier": "Rosenfeld Media, 2013; ISBN-13 978-1-933820-11-8",
+      "access": "copyrighted; local EPUB",
+      "read": "full",
+      "read_raw": "full",
       "section": "Forward-deployed engineering craft",
       "note": "research/05-fde-craft/portigal-interviewing-users"
     },

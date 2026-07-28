@@ -97,10 +97,10 @@ check("reverse source lookup works", dell.matched > 0, `${dell.matched} evidence
 
 const src = await call("hve_sources", { limit: 1 });
 check("53 sources registered", src.total_sources === 53, `${src.total_sources}`);
-check("read state is tallied", src.all_by_read.unread === 23 && src.all_by_read.full === 13,
+check("read state is tallied", src.all_by_read.unread === 19 && src.all_by_read.full === 17,
   `unread ${src.all_by_read.unread}, abstract ${src.all_by_read.abstract}, full ${src.all_by_read.full}`);
 const unread = await call("hve_sources", { read: "unread", limit: 100 });
-check("unread sources are findable", unread.matched === 23, `${unread.matched}`);
+check("unread sources are findable", unread.matched === 19, `${unread.matched}`);
 check("exposure is declared a floor", /FLOOR/.test(unread.note));
 check("unread sources carry their access reason", unread.results.every((s) => s.access));
 const prof = await call("hve_sources", { whitepaper: "WP-049" });

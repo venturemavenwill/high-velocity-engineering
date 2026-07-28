@@ -15,6 +15,7 @@ The graph is derived entirely from the files and holds no facts of its own. If i
 | `graph.json` | You want the whole graph in one read. Nodes and edges combined. |
 | `nodes.jsonl` | You want to stream or filter documents without loading everything. |
 | `edges.jsonl` | You want to traverse relationships. |
+| `research-claims.jsonl` | You want source-grounded claims and practices authored in research notes, with namespace, decay and source-reading depth. |
 | `stats.json` | You want counts, or to check the graph is current. |
 | `move-manifest.json` | You need to know where a file moved during the 2026-07-26 reorganization. |
 
@@ -86,6 +87,27 @@ Fields after `lines` appear only where the document carries them. All 90 seminar
 Edges are closed: any edge whose target is not a node in this repository is dropped, so traversal never dead-ends.
 
 **`depends_on` and `re_tests` are the pair that matters, and they were one edge type until 2026-07-26.** Splitting them was the first thing [workshop-2day](/projections/workshop-2day/README.md) proved necessary: a short-format projection must honour every dependency and may safely ignore every re-test, and the union could not tell it which was which. All 90 seminar days were reclassified by hand against a fixed test — *does phase 2's Bridge use it, or do phases 3–5 use it as machinery?* — with ties broken toward `re_tests`, because a false dependency over-constrains every future projection while a missed one fails loudly on first delivery.
+
+## Research claim schema
+
+`research-claims.jsonl` is mechanically extracted from top-level bullets in each
+research note's `## Key concepts and practices` section. These are kept separate
+from `claims.jsonl`, which contains seminar-authored durable/perishable pairs.
+
+```json
+{
+  "id": "research/05-fde-craft/fitzpatrick-the-mom-test.rc01",
+  "note": "research/05-fde-craft/fitzpatrick-the-mom-test",
+  "claim": "Question quality is owned by the interviewer...",
+  "namespace": "fde-craft",
+  "decay": "slow",
+  "source_read": "full"
+}
+```
+
+`source_read` is inherited from the source register and is part of the warrant:
+`full`, `abstract`, `unread`, or `unknown`. Extraction applies no additional
+judgement and never upgrades that status.
 
 **A `depends_on` edge is relative to an assumed entry state**, and the one encoded here is the BSc's: *knows nothing*. A projection to experienced practitioners will find much of its closure already satisfied. See the addendum in [DERIVATION.md](/projections/workshop-2day/DERIVATION.md).
 

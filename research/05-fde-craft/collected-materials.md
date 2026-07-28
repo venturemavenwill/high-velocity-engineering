@@ -21,26 +21,26 @@ Each entry below is a pointer. The full source-representative note lives in the
 corresponding file in this folder, written against the original in a common
 twelve-section template.
 
-### Beyer and Holtzblatt, Contextual Design (Morgan Kaufmann, 1998; second edition Design for Life, 2016)
+### Beyer and Holtzblatt, Contextual Design: Design for Life (second edition, Morgan Kaufmann, 2017)
 - Contextual inquiry is structured observation of real work in its own setting, not a generic interview.
 - Four principles govern the inquiry: context, partnership, interpretation and focus, with the master-apprentice relationship as the operating metaphor.
 - Five work models are drawn from the data: flow, sequence, artifact, cultural and physical.
 - Affinity diagramming and model consolidation turn individual observations into a defensible picture of the whole customer population, followed by visioning, storyboarding and User Environment Design.
-- Copyrighted; the note is an original synthesis with no source text reproduced.
+- Copyrighted; the local second-edition EPUB was read in full and the note is an original synthesis with no source text reproduced.
 
-### Portigal, Interviewing Users (Rosenfeld Media, 2013; second edition 2023)
+### Portigal, Interviewing Users (Rosenfeld Media, 2013)
 - The interviewer's job is to embrace not-knowing; domain expertise is treated as a liability during fieldwork because it substitutes assumption for observation.
 - Ask about specific past events rather than generalities or hypotheticals; watch for leading questions; use silence; mirror the participant's vocabulary rather than importing your own.
 - Contradictions between what people say and what they do are signal, not error.
-- The second edition adds remote research method.
-- Copyrighted; the note is an original synthesis with no source text reproduced.
+- The first-edition local EPUB includes remote interviewing among its difficult-context adaptations; it is not the 2023 second edition.
+- Copyrighted; the local EPUB was read in full and the note is an original synthesis with no source text reproduced.
 
 ### Fitzpatrick, The Mom Test (self-published, 2013)
 - Three rules: talk about their life rather than your idea, ask about specifics in the past rather than generics or opinions about the future, and talk less and listen more.
 - Bad data taxonomy: compliments, fluff and ideas, each with a deflect-anchor-dig response.
 - You should be terrified of at least one question in every conversation; if you are not, you are not asking anything that could disconfirm you.
 - Commitment and advancement are the test of interest, measured in the currencies of time, reputation risk and money.
-- Copyrighted; the note is an original synthesis with no source text reproduced.
+- Copyrighted; the complete available local EPUB was read and the note is an original synthesis with no source text reproduced. The package does not supply reliable edition metadata.
 
 ### Evans, Domain-Driven Design (Addison-Wesley, 2003)
 - The hardest problem in complex software is understanding the domain, not the technology.
@@ -50,13 +50,13 @@ twelve-section template.
 - Distillation identifies the core domain and concentrates effort there, which is the same judgement as deciding what to build custom and what to adopt.
 - Copyrighted; the note is an original synthesis with no source text reproduced.
 
-### Fisher and Ury, Getting to Yes (Houghton Mifflin, 1981; second edition with Bruce Patton, 1991; third edition 2011)
+### Fisher, Ury and Patton, Getting to Yes (third edition, Penguin Books, 2011)
 - Product of the Harvard Negotiation Project; structured as The Problem, The Method, and Yes, But.
 - Four principles: separate the people from the problem, focus on interests rather than positions, invent options for mutual gain, and insist on objective criteria.
 - Four obstacles to inventing options: premature judgement, searching for the single answer, the assumption of a fixed pie, and thinking that solving their problem is their problem.
 - BATNA, the best alternative to a negotiated agreement, is the source of negotiating power and the standard against which any offer is judged.
 - Negotiation jujitsu and the one-text procedure handle counterparts who will not play.
-- Copyrighted; the note is an original synthesis with no source text reproduced.
+- Copyrighted; the local third-edition EPUB was read in full and the note is an original synthesis with no source text reproduced.
 
 ### Kotter, Leading Change (Harvard Business Review Press, 1996; anniversary edition 2012)
 - Eight errors, inverted into an eight-stage process: urgency, guiding coalition, vision and strategy, communicating the vision, empowering broad-based action, short-term wins, consolidating gains, anchoring in the culture.
@@ -91,7 +91,7 @@ twelve-section template.
 - The current careers page describes three deliberately overlapping roles, Echos, Deltas and Devs, with the Echo mission spanning identification of the true limiting problem, decomposition into component workflows, stakeholder alignment from the CIO to the nurse, solving backwards from a user's workflow, and building the technical solution.
 
 ## Corrections and open items
-- Seven of the nine sources in this folder are copyrighted books. Those notes are original synthesis written from established knowledge, not from a reading of the text in this research pass. Chapter-level detail, exact wording and any passage intended for quotation must be checked against the text before publication. Each note states this in its own verification status section.
+- Seven of the nine sources in this folder are copyrighted books. Four local EPUBs have now been read in full: *Contextual Design: Design for Life*, *Interviewing Users*, *The Mom Test*, and *Getting to Yes*. Their notes are original, source-grounded syntheses and reproduce no source text. The Evans, Kotter, and Hiatt notes remain provisional syntheses; chapter-level detail, exact wording, and any passage intended for quotation must be checked before publication. Each note states its own verification depth.
 - The companion Palantir post "Dev versus Delta: Demystifying Engineering Roles at Palantir" could not be retrieved; the hosting platform redirected to a sign-in page. The Dev versus Delta distinction recorded above comes from the day-in-the-life interview, which states it directly.
 - The Palantir careers URL for the forward-deployed engineering role returned 404; the current role taxonomy was taken from the top-level careers page instead.
 - The ISE playbook is a living document with a public change history. Any section cited in course materials should be pinned to a commit or a retrieval date. It displayed a last-update date of 22 August 2024 at time of consultation.

@@ -1,16 +1,16 @@
 # Reading List — FDE / Engagement Craft
 
-Grouped by the question each cluster answers. Access status is recorded because
-seven of the nine core sources are copyrighted books held in this repository as
-synthesis only.
+Grouped by the question each cluster answers. Access and reading depth are
+recorded because the craft books are copyrighted and their notes must distinguish
+full-source synthesis from provisional synthesis.
 
 ## Field research method — learning what the work actually is
-- Beyer, H. and Holtzblatt, K. *Contextual Design: Defining Customer-Centered Systems.* Morgan Kaufmann, 1998. Second edition, *Contextual Design: Design for Life*, 2016. **Copyrighted — synthesis only.**
-- Portigal, S. *Interviewing Users: How to Uncover Compelling Insights.* Rosenfeld Media, 2013. Second edition 2023, adding remote research method. **Copyrighted — synthesis only.**
+- Beyer, H. and Holtzblatt, K. *Contextual Design: Design for Life.* Second edition, Morgan Kaufmann, 2017. **Copyrighted — local EPUB read in full.**
+- Portigal, S. *Interviewing Users: How to Uncover Compelling Insights.* Rosenfeld Media, 2013. **Copyrighted — first-edition local EPUB read in full.**
 
 ## Customer conversation and negotiation — getting to truth and to access
-- Fitzpatrick, R. *The Mom Test: How to Talk to Customers and Learn if Your Business is a Good Idea When Everyone is Lying to You.* Self-published, 2013. **Copyrighted — synthesis only.**
-- Fisher, R. and Ury, W. *Getting to Yes: Negotiating Agreement Without Giving In.* Houghton Mifflin, 1981. Second edition with Bruce Patton, 1991; third edition 2011. Harvard Negotiation Project. **Copyrighted — synthesis only.**
+- Fitzpatrick, R. *The Mom Test: How to Talk to Customers and Learn if Your Business is a Good Idea When Everyone is Lying to You.* **Copyrighted — complete available local EPUB read; edition metadata is absent from the package.**
+- Fisher, R., Ury, W. and Patton, B. *Getting to Yes: Negotiating Agreement Without Giving In.* Third edition, Penguin Books, 2011. **Copyrighted — local EPUB read in full.**
 
 ## Translation and modelling — carrying the customer's language into the system
 - Evans, E. *Domain-Driven Design: Tackling Complexity in the Heart of Software.* Addison-Wesley, 2003. **Copyrighted — synthesis only.** The author's organisation publishes a free reference distillation of the pattern definitions, which is open and usable in teaching.

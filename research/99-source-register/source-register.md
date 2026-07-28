@@ -1,6 +1,6 @@
 # Source Register
 
-Date: 2026-07-25
+Date: 2026-07-28
 
 Use this file to track which sources were used, what they supported, and whether they are durable theory or perishable product detail.
 
@@ -68,13 +68,13 @@ Retained but out of scope for source verification: course structure, technical f
 ## Forward-deployed engineering craft
 | Source | Identifier | Access | Read |
 |---|---|---|---|
-| Beyer and Holtzblatt, *Contextual Design* | Morgan Kaufmann, 1997 | copyrighted | synthesis only |
+| Beyer and Holtzblatt, *Contextual Design: Design for Life*, second edition | Morgan Kaufmann, 2017; EPUB ISBN 978-0-12-801351-4 | copyrighted; local EPUB | full |
 | Evans, *Domain-Driven Design* | Addison-Wesley, 2003 | copyrighted | synthesis only |
-| Fisher and Ury, *Getting to Yes* | Houghton Mifflin, 1981 | copyrighted | synthesis only |
-| Fitzpatrick, *The Mom Test* | 2013 | copyrighted | synthesis only |
+| Fisher, Ury and Patton, *Getting to Yes*, third edition | Penguin Books, 2011; EPUB ISBN 978-1-101-53954-5 | copyrighted; local EPUB | full |
+| Fitzpatrick, *The Mom Test* | edition metadata absent from local EPUB | copyrighted; local EPUB | full available text |
 | Hiatt, *ADKAR* | Prosci, 2006 | copyrighted | synthesis only |
 | Kotter, *Leading Change* | HBS Press, 1996 | copyrighted | synthesis only |
-| Portigal, *Interviewing Users* | Rosenfeld Media, 2013 | copyrighted | synthesis only |
+| Portigal, *Interviewing Users* | Rosenfeld Media, 2013; ISBN-13 978-1-933820-11-8 | copyrighted; local EPUB | full |
 | Microsoft ISE Engineering Fundamentals Playbook | `https://microsoft.github.io/code-with-engineering-playbook/`; repo `microsoft/code-with-engineering-playbook` | open | full |
 | "A Day in the Life of a Palantir Forward Deployed Software Engineer" | Palantir Blog, 2 November 2020 | open — **requires `?gi=` query token to fetch** | full |
 | Palantir careers, engineering roles | `https://www.palantir.com/careers/` | open | full |
@@ -157,9 +157,9 @@ Specific claims flagged as **unverified** across the research set:
 
 The tables above are extracted into `graph/sources.jsonl` by [scripts/build-graph.ps1](/scripts/build-graph.ps1) and served by [HVE IQ](/mcp/hve-iq/README.md), so the **Read** column can be queried rather than read. No judgement is applied; sources are joined to their Cliff Note by author surname, and the 11 rows that do not join — aggregate rows, organisational authors, one bare URL — are kept with a null note rather than dropped.
 
-**53 sources: 13 read in full, 17 abstract only, 23 not read at all.**
+**53 sources: 17 read in full, 17 abstract only, 19 not read at all.**
 
-That last number is not a defect being confessed. Most of the 23 are copyrighted books, and this register's own [copyright handling](/research/99-source-register/source-register.md) rule is to store a synthesis rather than copy the text. The claims resting on them are evidence class 2, which licenses direction and mechanism and forbids an effect size. **The register always knew this. What is new is that a reader can ask.**
+That last number is not a defect being confessed. Many of the 19 are copyrighted books, and this register's own copyright handling rule is to store original synthesis rather than copied text. The claims resting on unread sources are evidence class 2, which licenses direction and mechanism and forbids an effect size. **The register always knew this. What is new is that a reader can ask.**
 
 Two sources are worth naming because of how much sits on them:
 
