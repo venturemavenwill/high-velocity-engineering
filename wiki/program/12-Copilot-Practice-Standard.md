@@ -64,6 +64,10 @@ This has consequences that are taught explicitly:
 - **Specification rule 2 applies.** A qualification must travel with the quantity it qualifies, in the same field. An instruction that says "cite sources" and does not say "in the same sentence as the claim" will produce detached citations.
 - **Prompt files are procedures**, and are versioned, reviewed and retired like any other operational artefact. A prompt file with no review date is [S029](/wiki/seminars/S029.md)'s unvalidated instrument in a new costume.
 
+**The equivalence now has a worked example at scale, and it is not this programme's.** [research/06-microsoft-platform/hve-core-repository.md](/research/06-microsoft-platform/hve-core-repository.md) records a public Microsoft repository, read at a pinned commit, in which agent behaviour is authored as instructions, prompts, agents and skills, packaged by manifest into versioned plugins, and checked by a conformance suite that tests the *specifications themselves* rather than only the work they produce. **A student can read a specification, run it, and see what non-conformance looks like in one sitting**, which is the fastest route this programme has to the point S006 makes in prose.
+
+The same corpus carries the harder half, and the [Agent Configuration Standard](/wiki/program/13-Agent-Configuration-Standard.md) exists to keep the two apart: **it is a complete control system with no committed evidence that it works.** That standard adds the programme-wide requirement that every conclusion drawn about an agent-assisted system is placed in one of five classes — configured control, executable check, observed result, outcome evidence, unsupported inference — and that requirement attaches to the prompt record, intervention record and frontier statement specified above rather than adding an artefact to them.
+
 ## What this programme does not claim about Copilot
 
 Stated here so that no seminar day has to hedge, and so that a reader can hold the programme to it.
@@ -73,6 +77,7 @@ Stated here so that no seminar day has to hedge, and so that a reader can hold t
 - **Not that agent output is correct by default.** Two of the four tool-failure shapes produce systems that report success and are wrong.
 - **Not any productivity figure.** No effect size is asserted for AI-assisted productivity anywhere in this wiki. The research folder contains the source; the source's numbers are not taught as this programme's claim.
 - **Not that this transfers to other platforms unchanged.** See the open questions on the [Microsoft AI Platform Map](/wiki/program/11-Microsoft-AI-Platform-Map.md).
+- **Not that a configured agent outperforms an unconfigured one.** No comparison is published in the corpus this programme reads, or anywhere this repository has looked. The configuration is taught because it is an assessable specification, not because it is known to help. See the [Agent Configuration Standard](/wiki/program/13-Agent-Configuration-Standard.md).
 
 ## The dependency risk, stated plainly
 
@@ -91,6 +96,7 @@ Whether three occasions is enough is unknown. It is recorded here as unknown.
 
 ## Related pages
 
+- [Agent Configuration Standard](/wiki/program/13-Agent-Configuration-Standard.md)
 - [Microsoft AI Platform Map](/wiki/program/11-Microsoft-AI-Platform-Map.md)
 - [Seminar Day Design Pattern](/wiki/program/04-Seminar-Day-Design-Pattern.md)
 - [Assessment Architecture](/wiki/program/03-Assessment-Architecture.md)

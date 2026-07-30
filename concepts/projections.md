@@ -43,6 +43,7 @@ The BSc exists. These are the ones the same claims should support, and the reaso
 | `onboarding-30day` | New FDE hire | Whether the complexity-class ladder compresses, or only stretches. |
 | `assessment-kit` | The entrustment machinery alone | Whether `assessment` separates cleanly from `curriculum`. |
 | `platform-brief` | Dated, disposable | Whether the perishable layer can be shipped separately and thrown away on schedule. |
+| `config-audit-lab` | One day · one pinned corpus · no substrate | Whether the **five classes of conclusion** survive without three years of staging — and whether an audit discipline can be taught in a format short enough that nobody has time to acquire the thing being audited. |
 
 **`workshop-2day` was built second, by hand, deliberately.** It was chosen because it should partly fail: spacing, interleaving and expanding-interval retrieval are the pedagogy namespace's best-warranted content and a two-day format destroys all three. It abstains explicitly on retention, entrustment, complexity class 3+, and consequence.
 
@@ -69,7 +70,7 @@ The prediction that extraction was blocked on *stable claim IDs and somewhere to
 What remains true:
 
 - **The wiki is unusually claim-shaped.** Phase 4 of every seminar day is eight numbered points. Every whitepaper's §9 is falsifiable predictions with named instruments. Every rule carries its provenance. This is prose written by someone who wanted it extracted.
-- **778 `grounded_in` edges** connect wiki assertions to research notes, and 76% of them now name a source rather than a folder.
+- **974 `grounded_in` edges** connect wiki assertions to research notes, and 75% of them now name a source rather than a folder. **That count rose from 778 when every seminar day and every whitepaper gained a student-facing takeaway section**, each of which cites the notes its page already rested on — which is evidence that the wiki's citation surface was thinner than its argument, and is now closer to it.
 - **208 pages carry a `platform_anchor`**, a claim-level annotation that happens to sit in a header.
 
 **What is still missing** is a judged split of the evidence-status prose, where four claims can share one sentence. That would be the first extraction here carrying authoring judgement, and therefore the first able to drift silently between rebuilds.

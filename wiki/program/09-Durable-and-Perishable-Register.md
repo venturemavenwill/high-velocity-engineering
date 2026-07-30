@@ -38,6 +38,9 @@ Content whose truth is not expected to change over the life of the programme. Ma
 | Negotiation under constraint; risk communication | S083, S085 | Professional craft |
 | Entrustment as a decision rather than a score | S090 | Assessment theory |
 | The four shapes of tool failure | S074 | A decomposition, not an implementation |
+| The five classes of conclusion: configured control, executable check, observed result, outcome evidence, unsupported inference | PE101, ME101, S088 | An epistemic distinction, independent of any tool that occasions it |
+| A durable record buys provenance and restartability, and buys nothing about correctness | S075, ME302 | Follows from what a record is |
+| Untrusted input is data and never authority | S076, SG201 | Predates agents; it is the injection argument in general form |
 
 ---
 
@@ -81,7 +84,9 @@ Every course in this programme is now taught against at least one named Microsof
 
 Two things distinguish this class from the perishable table and are the reason it has its own section.
 
-**Its cadence is faster than annual.** The general perishable rule is refreshed at each delivery; the platform layer is **verified before every offering**, which in practice means the check runs at least each time a quarter is prepared. The justification is empirical rather than cautious: of the six sources behind [research/06-microsoft-platform/](/research/06-microsoft-platform/collected-materials.md), two were already labelled classic or superseded at the moment they were read, and one capability set moves to a different licence in 2026. That was confirmed again on re-verification for this revision — the Purview data-security-posture page the research folder consulted still describes itself as the classic version and states that it has been replaced. **A layer that supersedes itself between two readings of the same page is not on an annual cycle.**
+**Its cadence is faster than annual.** The general perishable rule is refreshed at each delivery; the platform layer is **verified before every offering**, which in practice means the check runs at least each time a quarter is prepared. The justification is empirical rather than cautious: of the seven sources behind [research/06-microsoft-platform/](/research/06-microsoft-platform/collected-materials.md), two were already labelled classic or superseded at the moment they were read, and one capability set moves to a different licence in 2026. That was confirmed again on re-verification for this revision — the Purview data-security-posture page the research folder consulted still describes itself as the classic version and states that it has been replaced. **A layer that supersedes itself between two readings of the same page is not on an annual cycle.**
+
+**The seventh source sharpens the point rather than softening it.** It is a public repository rather than a documentation page, which means it can be **pinned to a commit** — the only source in the folder that can. That is not an improvement in durability; it is an improvement in *honesty about* durability. A Learn page cited without a version is cited at whatever it says today and nobody can tell; a repository cited without a commit has the same defect and the commit makes it visible. **Where a source can be pinned, this programme pins it, and where it cannot, the citation records the date and the fact that a date is all there is.**
 
 **Each instance is recorded against the durable claim it carries.** This is the mechanism that makes re-anchoring cheap. When a service is renamed, replaced or withdrawn, the question is not what to do with the day — it is whether the claim in the third column still holds under the replacement. If it does, the day is re-anchored and nothing else changes. **If it does not, that is a finding about the claim rather than about the service, and it is recorded in the durable table's review rather than patched here.**
 
@@ -105,6 +110,13 @@ Two things distinguish this class from the perishable table and are the reason i
 | Foundry Agent Service; MCP tool definitions and their limits | Q8 | A tool boundary is a trust boundary, and tool failure has four shapes |
 | Foundry observability, tracing and continuous evaluation surfaces | Q8 | Detectability is a design property rather than a monitoring product |
 | Bicep and the infrastructure-as-code surface | Q4, Q7 | Infrastructure is a reviewable artefact and is reviewed |
+| The agent configuration corpus: its four artifact kinds, directory layout, collection manifests and generated plugin tree | Q1 onward, every year | Agent behaviour is an authored artefact, versioned and retired like any other; authoring source, packaging manifest and generated output are three different things |
+| Its phase model and phase names, and the agent file implementing them | Q1, Q5, Q8 | Phase separation with explicit return paths is a control-flow choice, not a narrative order |
+| Its tracking directory and identifier scheme | Q3 onward | A record addressable by identifier buys provenance and restartability, and nothing about correctness |
+| Its review lenses, severity taxonomy and depth tiers | Q2, Q6, Q8 | Review is comparable across reviewers only if severity is normalised and depth is scaled to risk |
+| Its untrusted-content instruction, and whether the host in use attaches it | Q5, Q8 | Untrusted input is data and never authority |
+| Its advisory and authoritative evaluation tiers, and its regex-graded behavioural checks | Q7, Q8 | A gate's authority is a property of where it runs; a grader tests the shape it was written to test |
+| Its opt-in local telemetry, redaction default and verbatim opt-in | Q8 | Instrumenting your own tool use is a design decision with a privacy cost |
 
 ### What the verification pass checks
 
@@ -124,6 +136,7 @@ Carried from [research/06-microsoft-platform/](/research/06-microsoft-platform/c
 - **The five-stage maturity model**, and any analyst projection.
 - **Any evaluator's agreement with human judgement.** None is published. Every judged score produced by this stack is described as uncalibrated, and students are taught to say so.
 - **Any detection or false-positive rate for Purview or Defender.** None is published.
+- **Any productivity, quality, defect-rate, safety, correctness or learning outcome attributed to an agent configuration corpus**, by its authors or by anyone else. At the pinned revision the corpus behind the [Agent Configuration Standard](/wiki/program/13-Agent-Configuration-Standard.md) contained evaluation machinery and **no committed result corpus**, while its own prose used the vocabulary of demonstrated benefit. **The machinery is real and it is not a result**, and the gap between the two is taught rather than tidied away.
 
 **The rule that no effect size is asserted for an unverified source applies to vendor material exactly as it applies to research literature.** The asymmetry students are taught to notice is that every source in the folder states a latency or a sampling bound and none states an accuracy — a property consistent enough across six independent sources to be a feature of the genre rather than an oversight by any one author.
 
@@ -178,5 +191,7 @@ The boundary between semi-durable and durable is not stable. Several items curre
 - [Whitepaper Standard](/wiki/program/05-Whitepaper-Standard.md)
 - [Microsoft AI Platform Map](/wiki/program/11-Microsoft-AI-Platform-Map.md)
 - [Copilot Practice Standard](/wiki/program/12-Copilot-Practice-Standard.md)
+- [Agent Configuration Standard](/wiki/program/13-Agent-Configuration-Standard.md)
 - [Substrate and Infrastructure](/wiki/program/10-Substrate-and-Infrastructure.md)
 - [research/06-microsoft-platform/collected-materials.md](/research/06-microsoft-platform/collected-materials.md)
+- [research/06-microsoft-platform/hve-core-repository.md](/research/06-microsoft-platform/hve-core-repository.md)

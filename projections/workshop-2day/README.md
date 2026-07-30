@@ -73,6 +73,10 @@ Ten claims, chosen because they are durable, immediately applicable, and each on
 
 **No `method` claims are delivered.** The instrumentation rules, the compliance register and the self-correction record are the design's own discipline and are not portable to a two-day format.
 
+**The agent configuration material is abstained on, deliberately, and this is the clearest abstention in the projection.** The [Agent Configuration Standard](/wiki/program/13-Agent-Configuration-Standard.md) rests on the **five classes of conclusion** — configured control, executable check, observed result, outcome evidence, unsupported inference — and in the BSc that ladder is introduced in year one and retrieved for three years before anyone is asked to apply it to a real control system. **A team cannot audit a corpus it met that morning.** Two days supplies enough exposure for participants to leave believing they have audited something, which is worse than not covering it: the failure mode of this material is *false confidence in one's own scepticism*, and a compressed delivery produces exactly that. Per rule 5, the correct output is to name the missing claims rather than to pad. They are delivered in [`config-audit-lab`](/concepts/projections.md) or not at all.
+
+**One sentence from it does survive and is said once, in S8**, because it costs no session time and the audience is about to need it: *the existence of a control is not evidence that the control works, and that applies to the controls you are about to go home and build.*
+
 ## Shape
 
 Eight sessions of 90 minutes across two days. Each compresses the [eight-phase pattern](/wiki/program/04-Seminar-Day-Design-Pattern.md) to four moves — **predict · execute · consolidate · clinic** — which is the largest compression the pattern survives. Phases 2 (cumulative retrieval), 7 (peer articulation) and 8 (calibration) are cut; the reasons are in DERIVATION.md.

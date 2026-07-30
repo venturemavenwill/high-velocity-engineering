@@ -35,6 +35,8 @@ Three things, on every day, from the first week.
 
 **A repository that configures the agent.** Custom instructions and prompt files are not conveniences here; they are **specifications in executable form**, and the programme already assesses specifications. A student who can write a specification and cannot write an instructions file that produces conforming work has not understood what a specification is for. This equivalence is taught explicitly at S006 and is load-bearing from there on.
 
+That equivalence now has a published worked example at scale, and it carries its own standard: see the [Agent Configuration Standard](/wiki/program/13-Agent-Configuration-Standard.md), grounded in [research/06-microsoft-platform/hve-core-repository.md](/research/06-microsoft-platform/hve-core-repository.md). **The corpus is used for two things and they pull in opposite directions.** It is the demonstration that agent behaviour can be authored, versioned, packaged and conformance-checked like any other engineering artefact — and it is the demonstration that **a complete control system can exist with no committed evidence that it works**, because at the revision this programme read, its graders had no result corpus while its prose used the vocabulary of proven benefit. Both readings are taught, the second one harder than the first, and the corpus is cited only against a pinned commit, package version, host and model.
+
 ## Course-to-service mapping
 
 Every course names at least one service. Where a course's service is introduced before its layer is taught, the course uses it as an instance and defers the mechanism, per the cross-course deferral rule.
@@ -113,7 +115,9 @@ Carried forward from [research/06-microsoft-platform/](/research/06-microsoft-pl
 - **Any Foundry evaluator's agreement with human judgement.** None is published. Until it is, **every judged score in this stack is uncalibrated**, and students are taught to say so.
 - **Any detection or false-positive rate for Purview or Defender.** None is published.
 
-The programme's rule that no effect size is asserted for an unverified source applies to vendor material exactly as it applies to research literature. **The asymmetry students are taught to notice is that every source in this folder states a latency or a sampling bound and none states an accuracy** — a property consistent enough across six independent sources to be a feature of vendor documentation as a genre.
+The programme's rule that no effect size is asserted for an unverified source applies to vendor material exactly as it applies to research literature. **The asymmetry students are taught to notice is that every source in this folder states a latency or a sampling bound and none states an accuracy** — a property consistent enough across seven independent sources to be a feature of vendor material as a genre.
+
+**One source is the instructive exception and it is not an exception to the rule.** The configuration corpus behind the [Agent Configuration Standard](/wiki/program/13-Agent-Configuration-Standard.md) declares its own limits in its own documentation: that its behavioural graders test output shape rather than correctness, that some of its gates are advisory, and that the behaviour of everything it ships depends on a host it does not control. It is still silent on accuracy, because no outcome is measured anywhere in it. **What differs is only whether the reader has to find the gap unaided**, and a source that names its own limits is the better teaching object precisely because its candour cannot be mistaken for evidence.
 
 ## Perishability
 
@@ -135,6 +139,7 @@ The programme's response is structural rather than hopeful:
 ## Related pages
 
 - [Copilot Practice Standard](/wiki/program/12-Copilot-Practice-Standard.md)
+- [Agent Configuration Standard](/wiki/program/13-Agent-Configuration-Standard.md)
 - [Course Catalogue](/wiki/program/06-Course-Catalogue.md)
 - [Durable and Perishable Register](/wiki/program/09-Durable-and-Perishable-Register.md)
 - [Substrate and Infrastructure](/wiki/program/10-Substrate-and-Infrastructure.md)

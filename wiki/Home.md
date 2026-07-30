@@ -28,6 +28,7 @@ This wiki contains the programme architecture, the full course load, a module ma
 | [Substrate and Infrastructure](/wiki/program/10-Substrate-and-Infrastructure.md) | The live system students operate, and what it costs to run |
 | [Microsoft AI Platform Map](/wiki/program/11-Microsoft-AI-Platform-Map.md) | Which named service every course and every day is executed against |
 | [Copilot Practice Standard](/wiki/program/12-Copilot-Practice-Standard.md) | How every day is run with GitHub Copilot in agent mode, and what that may not claim |
+| [Agent Configuration Standard](/wiki/program/13-Agent-Configuration-Standard.md) | How the agent is configured, what every course takes from it, and why a control is not evidence |
 
 ## Quarters
 

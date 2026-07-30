@@ -31,6 +31,8 @@ That is why the boundary is real, and it is why every whitepaper already closes 
 
 **Wiki pages take theirs by derivation, not declaration.** A page's namespace mix is computed from its `grounded_in` edges — what it actually cites. This is deliberate: a page that *claims* to be about measurement but cites only vendor documentation is a platform page, whatever its title says, and the graph will say so.
 
+**One `platform` source can be pinned, and the difference matters more than it looks.** Documentation pages carry no version, so a citation to one is a citation to whatever it says today and no reader can tell. A repository carries a commit. [research/06-microsoft-platform/hve-core-repository.md](/research/06-microsoft-platform/hve-core-repository.md) is the folder's first source read at a fixed revision, and its claims are quotable only with that revision attached. **This does not make the source durable** — it decays as fast as any of them — but it converts silent drift into visible drift, which is the only improvement available inside a namespace whose half-life is months.
+
 The consequence is worth stating plainly. **A page whose namespace mix is dominated by `platform` inherits `platform`'s decay.** Half the wiki now carries a platform anchor, which means half the wiki now decays in months. The [Durable and Perishable Register](/wiki/program/09-Durable-and-Perishable-Register.md) is the response, and the per-day perishability registers are where the separation is actually made.
 
 ## The rule that binds them
@@ -51,7 +53,7 @@ Each namespace grows differently, and knowing *how* is what makes an autonomous 
 
 | Namespace | How it grows | What "more specialized" means here |
 |---|---|---|
-| `platform` | Continuous vendor change. Highest volume, lowest half-life. | Better silence-detection — knowing faster what the docs stopped saying. |
+| `platform` | Continuous vendor change. Highest volume, lowest half-life. | Better silence-detection — knowing faster what the docs stopped saying, and **pinning whatever can be pinned** so drift is visible rather than silent. |
 | `ai-systems` | Published research, fast-moving. | Better separation of durable mechanism from perishable magnitude. |
 | `measurement` | Essentially static. | Better application to *this* domain's odd dependency structures. |
 | `pedagogy` | Slow literature, plus **this programme's own findings**. | Findings that are ours, not borrowed — the only namespace where HVE can originate evidence at scale. |

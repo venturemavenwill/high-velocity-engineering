@@ -107,6 +107,16 @@ Two safeguards, both introduced in response to [WP-029](/wiki/whitepapers/WP-029
 
 Neither safeguard was in the original design. Both are cheap, and their prior absence meant the programme exposed its own operational system to a hazard it teaches students to recognise.
 
+### The agent configuration the programme itself runs
+
+**The instructions, prompt and skill artefacts that configure the programme's own agent are infrastructure, and they are versioned, reviewed and pinned like the rest of it.** They are also, by the [Copilot Practice Standard](/wiki/program/12-Copilot-Practice-Standard.md)'s own argument, specifications — which means the two safeguards above apply to them unchanged: **each carries a review date and is withdrawn at that date unless revalidated**, and any limitation attached to one propagates with the work it produces rather than sitting in the file nobody reads.
+
+Three operating rules follow, and all three exist because the corpus this material is taught from is an external dependency that moves.
+
+- **The revision is pinned per offering, not per term.** Commit, package version, host, model and enabled collections are recorded in the manifest specified by the [Agent Configuration Standard](/wiki/program/13-Agent-Configuration-Standard.md). An upgrade mid-quarter changes the instrument every student is being assessed with.
+- **A configuration change is a substrate change and goes through substrate review.** An instructions file that alters what the agent will do to production code is not a preference, and the programme has no separate lightweight path for it.
+- **What the programme's own configuration cannot establish is stated where students can see it.** The [WP-066](/wiki/whitepapers/WP-066.md) §8 finding — that the programme teaches release gates go unvalidated and does not validate the substrate's own — applies here in its sharpest form. **The programme's configuration has no measured effect on the quality of student work, and none is claimed.** It is taught as an assessable specification, not as an improvement.
+
 ### Disclosure to users
 
 **The service states, in its own interface and in its own terms, that it is operated as a teaching substrate and that its behaviour is deliberately disturbed during announced windows.**
@@ -143,5 +153,7 @@ The alternative — running these days against an injected-fault simulation and 
 - [Assessment Architecture](/wiki/program/03-Assessment-Architecture.md)
 - [Microsoft AI Platform Map](/wiki/program/11-Microsoft-AI-Platform-Map.md)
 - [Durable and Perishable Register](/wiki/program/09-Durable-and-Perishable-Register.md)
+- [Agent Configuration Standard](/wiki/program/13-Agent-Configuration-Standard.md)
+- [research/06-microsoft-platform/hve-core-repository.md](/research/06-microsoft-platform/hve-core-repository.md)
 - [research/01-course-structure/cmu-17-645-ml-in-production-ai-engineering.md](/research/01-course-structure/cmu-17-645-ml-in-production-ai-engineering.md)
 - [research/06-microsoft-platform/collected-materials.md](/research/06-microsoft-platform/collected-materials.md)

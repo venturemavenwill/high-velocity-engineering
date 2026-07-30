@@ -153,3 +153,4 @@ The programme maps to the CS2023 knowledge areas as follows. Areas are given by 
 - [Course Catalogue](/wiki/program/06-Course-Catalogue.md)
 - [Microsoft AI Platform Map](/wiki/program/11-Microsoft-AI-Platform-Map.md)
 - [Copilot Practice Standard](/wiki/program/12-Copilot-Practice-Standard.md)
+- [Agent Configuration Standard](/wiki/program/13-Agent-Configuration-Standard.md)

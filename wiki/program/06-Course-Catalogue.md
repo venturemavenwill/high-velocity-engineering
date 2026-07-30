@@ -173,11 +173,13 @@
 - **Security enters at Q5, not Q9.** Threat modelling is a design activity; teaching it after the system exists teaches it as review.
 - **No course is named after a product.** ~~Platform material appears inside SY301, SG301 and IS302 as instances of durable problems.~~ **Amended when the platform anchors were added.** Platform material now appears in every course, because a course that never puts the student in front of the thing that solves the problem can be read with approval and not followed. The first clause is unchanged and is the one doing the work: a course is named after the durable problem, the anchor names the service the problem is met on, and the [Durable and Perishable Register](/wiki/program/09-Durable-and-Perishable-Register.md) is what keeps the second from being assessed as though it were the first. The original sentence is struck through rather than deleted so that the narrowing of this refusal remains legible.
 - **Every course states what the student builds.** This is a consequence of the same correction and is the operative test of it. A course paragraph that names a service and does not say what is produced on it has described a demonstration, and the [Copilot Practice Standard](/wiki/program/12-Copilot-Practice-Standard.md) does not accept one.
+- **Every course but one takes a named share of the agent configuration material.** The per-course allocation is carried on the [Agent Configuration Standard](/wiki/program/13-Agent-Configuration-Standard.md) rather than duplicated here, and each share is chosen to be the part that course is already competent to assess — conformance in CF101, denominators in MS103, inter-rater work in ME202, a declarative control's dependency set in SG201. **MS102 takes none, and the table records the omission rather than inventing a share**, because an allocation that covers every course by construction is not an allocation.
 
 ## Related pages
 
 - [Microsoft AI Platform Map](/wiki/program/11-Microsoft-AI-Platform-Map.md)
 - [Copilot Practice Standard](/wiki/program/12-Copilot-Practice-Standard.md)
+- [Agent Configuration Standard](/wiki/program/13-Agent-Configuration-Standard.md)
 - [Module Map](/wiki/program/07-Module-Map.md)
 - [Seminar Day Index](/wiki/program/08-Seminar-Day-Index.md)
 - [Outcomes and Accreditation Map](/wiki/program/01-Outcomes-and-Accreditation-Map.md)

@@ -7,7 +7,7 @@
 
 A body of knowledge about **forward-deployed engineering and hypervelocity engineering, and how to teach it** — together with the research it was derived from and the vendor study notes that started it.
 
-It is **333 markdown files, one graph builder and one MCP server.** The knowledge layers are markdown and nothing else — the artefact is the argument. The two pieces of code are both **derived tooling**: [scripts/build-graph.ps1](/scripts/build-graph.ps1) regenerates the index from the files, and [mcp/hve-iq](/mcp/hve-iq/README.md) serves it read-only. **Neither holds a fact of its own, and neither ever writes to the substrate.**
+It is **337 markdown files, one graph builder and one MCP server.** The knowledge layers are markdown and nothing else — the artefact is the argument. The two pieces of code are both **derived tooling**: [scripts/build-graph.ps1](/scripts/build-graph.ps1) regenerates the index from the files, and [mcp/hve-iq](/mcp/hve-iq/README.md) serves it read-only. **Neither holds a fact of its own, and neither ever writes to the substrate.**
 
 **Only the knowledge lives here.** The research agent that proposes upgrades to it runs from a separate private repository, opens pull requests, and is gated by [scripts/verify.ps1](/scripts/verify.ps1) exactly as a human contributor is. The work is [CC BY 4.0](/LICENSE.md) — the summaries in `sources/` and `research/` are original prose and licensed; the training material and books they summarise are not this repository's to license, and are not reproduced.
 
@@ -15,7 +15,11 @@ It is **333 markdown files, one graph builder and one MCP server.** The knowledg
 
 **The knowledge is eight namespaces, not one.** Each has its own warrant standard, its own decay rate and its own specialization frontier, and **claims may not be compared across them raw**. A Learn page and a learning-science finding are both "evidence" and neither licenses what the other licenses. See [concepts/namespaces.md](/concepts/namespaces.md). Every node in the graph carries `primary_namespace`, `namespaces`, `decay` and `platform_bearing`.
 
-The single number worth holding: **212 of 221 wiki pages are platform-bearing, but only 40 have `platform` as their primary namespace.** The durable/perishable split is claim-level inside pages, not page-level.
+The single number worth holding: **214 of 222 wiki pages are platform-bearing, but only 23 have `platform` as their primary namespace.** The durable/perishable split is claim-level inside pages, not page-level.
+
+**That second number moved twice on 2026-07-30, in opposite directions, and both movements were caused by adding text and citing nothing new.** It went 34 → 39 when one platform-namespace source was added and four pages took a citation to it — [S006](/wiki/seminars/S006.md), [S074](/wiki/seminars/S074.md), [WP-074](/wiki/whitepapers/WP-074.md) and [10-Substrate-and-Infrastructure](/wiki/program/10-Substrate-and-Infrastructure.md). It then went 39 → 23 when every seminar day and every whitepaper gained a student-facing section that cites **the notes the page was already resting on**. Pages that had been platform-primary on a thin margin simply started saying what else they stood on.
+
+**Read the number as what it is: a measure of citation density, not of content.** A page does not become less vendor-dependent because it cited a learning-science note; it becomes more honestly described. `platform_bearing` — which is driven by the day's declared anchor rather than by its citation mix — did not move at all, and is the number to use when the question is *what decays in months*. **Nothing was rewritten to cause either movement and nothing should be rewritten to undo them.**
 
 **A dependency is relative to an assumed entry state**, and the wiki natively encodes only one — the BSc's, which is *knows nothing*. [concepts/entry-state.md](/concepts/entry-state.md) classifies all 90 days as `ordinary-professional-experience` (2), `either` (47) or `this-programme-only` (41) against a fixed reference professional, so other projections can compute their own closure. That register is **`method` namespace, has no external warrant, and has never been tested against a real audience** — read its limitations before quoting any number derived from it. It lives in `concepts/` and not in the seminar files on purpose: it is cross-projection, and the seminar files are one projection's substrate.
 
@@ -23,7 +27,7 @@ The single number worth holding: **212 of 221 wiki pages are platform-bearing, b
 
 ```
 sources/     raw material        →  research/    verified notes      →  wiki/       the programme
-11 files                            90 files                            221 files
+11 files                            91 files                            222 files
 ```
 
 Every external factual claim in `wiki/` traces to a Cliff Note in `research/`, and every Cliff Note records what was verified, from where, and what the source does not say. This is not decoration — it is enforced by the `## Evidence status` section that closes all 90 whitepapers, which separates:
@@ -60,11 +64,11 @@ It is derived entirely from the files and holds no facts of its own, so it is al
 | Question | Approach |
 |---|---|
 | Which days teach Azure AI Search? | filter nodes on `platform_anchor` |
-| What breaks if Foundry changes? | `graph/claims.jsonl` — **581 durable/perishable pairs across 89 days**, or `hve_platform_exposure` |
+| What breaks if Foundry changes? | `graph/claims.jsonl` — **597 durable/perishable pairs across 89 days**, or `hve_platform_exposure` |
 | What would prove this design wrong? | `graph/predictions.jsonl` — **512 predictions, each with a named instrument**, all unmeasured |
 | What breaks if a source is retracted? | `graph/evidence.jsonl` — **360 rows**, 90 papers × 4 evidence classes, or `hve_evidence` |
-| Did anyone actually read the source? | `graph/sources.jsonl` — **53 sources; 19 were never read**, or `hve_sources` |
-| What decays in months? | filter on `platform_bearing` — **212 pages**, then read their perishability registers |
+| Did anyone actually read the source? | `graph/sources.jsonl` — **54 sources; 19 were never read**, or `hve_sources` |
+| What decays in months? | filter on `platform_bearing` — **214 pages**, then read their perishability registers |
 | What survives any projection? | filter on `primary_namespace` = `measurement` or `pedagogy` |
 | What does S049 depend on? | follow `depends_on` edges out of `wiki/seminars/S049` |
 | Which later days retrieve S013? | follow `retrieves_from` edges *into* `wiki/seminars/S013` |
@@ -119,7 +123,7 @@ Get-ChildItem -Recurse -File -Filter *.md |
 Expected: **3 hits only**, all `BROKEN`, all placeholders inside a fenced code block in `05-Whitepaper-Standard.md`. Any `NOT ROOT-ABSOLUTE` hit is a real defect.
 
 ```powershell
-pwsh ./scripts/build-graph.ps1   # expect 333 nodes, ~7390 edges, 581 claims, 512 predictions, 360 evidence rows, 53 sources
+pwsh ./scripts/build-graph.ps1   # expect 337 nodes, ~8010 edges, 597 claims, 512 predictions, 360 evidence rows, 54 sources
 ```
 
 ```bash
@@ -128,7 +132,7 @@ cd mcp/hve-iq && npm install && npm run smoke   # 40 checks, all must pass
 
 ## Known open issues, honestly recorded
 
-- **No version control.** There is no `.git` here. Structural changes are irreversible; keep [graph/move-manifest.json](/graph/move-manifest.json) current if you move files.
+- **~~No version control.~~ Corrected 2026-07-30: there is a `.git` here, with a remote.** This entry previously read *"there is no `.git` here. Structural changes are irreversible"* and that was false at the time it was read — `git log` returns commits and `origin/main` exists. The instruction it produced was over-cautious rather than dangerous, but it is exactly the class of stale working-contract claim this file tells everyone else not to make. **Keep [graph/move-manifest.json](/graph/move-manifest.json) current anyway**; a rename that the manifest misses is still invisible to every consumer of the graph, whatever git remembers.
 - **Two rule elevations are unratified** at programme close, recorded in WP-090 §7.
 - **WP-090 §8 concedes the instrumentation is probably unexecutable**, and predicts fewer than one in ten of the wiki's own §9 predictions will ever be measured.
-- **The platform layer is the most perishable content in the repository.** Two of the six vendor sources were already labelled classic or superseded when read. [11-Microsoft-AI-Platform-Map.md](/wiki/program/11-Microsoft-AI-Platform-Map.md) requires verification before every offering, not once a term.
+- **The platform layer is the most perishable content in the repository.** Two of the seven vendor sources were already labelled classic or superseded when read. [11-Microsoft-AI-Platform-Map.md](/wiki/program/11-Microsoft-AI-Platform-Map.md) requires verification before every offering, not once a term. **One of the seven is a repository read at a pinned commit** — see [13-Agent-Configuration-Standard.md](/wiki/program/13-Agent-Configuration-Standard.md) — and it is cited only with that commit, package version, host and model attached. Pinning does not slow the decay; it makes the decay visible.

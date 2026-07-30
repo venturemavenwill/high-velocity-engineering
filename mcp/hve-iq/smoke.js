@@ -20,9 +20,11 @@ const check = (label, cond, detail = "") => {
   else { console.log(`  FAIL  ${label}${detail && "  — " + detail}`); failures++; }
 };
 
-const tools = (await client.listTools()).tools.map((t) => t.name).sort();
+const listedTools = (await client.listTools()).tools;
+const tools = listedTools.map((t) => t.name).sort();
 console.log("\ntools:", tools.join(", "), "\n");
 check("eight tools registered", tools.length === 8, `${tools.length}`);
+check("hve_get advertises body controls", ["section", "start_line", "line_count"].every((key) => listedTools.find((t) => t.name === "hve_get")?.inputSchema?.properties?.[key]));
 
 const ns = await call("hve_namespaces");
 check("eight namespaces", ns.namespaces.length === 8, ns.namespaces.map((n) => n.namespace).join(", "));
@@ -30,13 +32,18 @@ check("platform decays in months", ns.namespaces.find((n) => n.namespace === "pl
 check("pedagogy forbids effect sizes", /No effect size/.test(ns.namespaces.find((n) => n.namespace === "pedagogy")?.licenses ?? ""));
 
 const perishable = await call("hve_search", { platform_bearing: true, limit: 1 });
-check("platform-bearing pages found", perishable.total === 212, `${perishable.total} (expect 212)`);
+check("platform-bearing pages found", perishable.total === 214, `${perishable.total} (expect 214)`);
+const bodySearch = await call("hve_search", { query: "exchangeable model is often wrong about time" });
+check("search finds body-only text", bodySearch.results.some((result) => result.id === "wiki/seminars/S049" && result.snippet?.includes("exchangeable model")));
 
 const s049 = await call("hve_get", { id: "wiki/seminars/S049" });
 check("S049 resolves", s049.title?.includes("Clustering"), s049.title);
 check("S049 depends on S028", s049.depends_on.includes("wiki/seminars/S028"), s049.depends_on.join(", "));
 check("S049 re-tests S022 and S043", s049.re_tests.length === 2, s049.re_tests.join(", "));
 check("S049 paired with WP-049", s049.pair.includes("wiki/whitepapers/WP-049"));
+check("hve_get returns document body", s049.content?.startsWith("# S049 · Clustering") && s049.content_total_lines > 100, `${s049.content_total_lines} lines`);
+const s049Assessment = await call("hve_get", { id: "wiki/seminars/S049", section: "Assessment", line_count: 20 });
+check("hve_get returns a named section", s049Assessment.content?.startsWith("## Assessment") && !s049Assessment.content.includes("## Perishable content"));
 
 const WORKSHOP = ["S051", "S048", "S053", "S046", "S047", "S064", "S074", "S036", "S050"].map((d) => `wiki/seminars/${d}`);
 const workshop = await call("hve_dependency_closure", { ids: WORKSHOP });
@@ -60,7 +67,7 @@ const missing = await call("hve_get", { id: "wiki/seminars/S999" });
 check("unknown id fails gracefully", Boolean(missing.error));
 
 const allClaims = await call("hve_platform_exposure", { limit: 1 });
-check("581 platform claims indexed", allClaims.total_claims_indexed === 581, `${allClaims.total_claims_indexed}`);
+check("597 platform claims indexed", allClaims.total_claims_indexed === 597, `${allClaims.total_claims_indexed}`);
 check("only S090 remains a blind spot", allClaims.blind_spot_days.length === 1 && allClaims.blind_spot_days[0] === "wiki/seminars/S090",
   `${allClaims.blind_spot_days.length} day(s)`);
 
@@ -96,8 +103,8 @@ const dell = await call("hve_evidence", { source: "dellacqua" });
 check("reverse source lookup works", dell.matched > 0, `${dell.matched} evidence rows would be affected`);
 
 const src = await call("hve_sources", { limit: 1 });
-check("53 sources registered", src.total_sources === 53, `${src.total_sources}`);
-check("read state is tallied", src.all_by_read.unread === 19 && src.all_by_read.full === 17,
+check("54 sources registered", src.total_sources === 54, `${src.total_sources}`);
+check("read state is tallied", src.all_by_read.unread === 19 && src.all_by_read.full === 18,
   `unread ${src.all_by_read.unread}, abstract ${src.all_by_read.abstract}, full ${src.all_by_read.full}`);
 const unread = await call("hve_sources", { read: "unread", limit: 100 });
 check("unread sources are findable", unread.matched === 19, `${unread.matched}`);

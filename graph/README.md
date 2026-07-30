@@ -59,7 +59,7 @@ Per [concepts/namespaces.md](/concepts/namespaces.md). These are what make the g
 | `primary_namespace` | wiki pages | The largest share of the mix. |
 | `decay` | all namespaced nodes | `months` · `1-3 years` · `years` · `decades` · `permanent` · `on amendment`. |
 | `verify_cadence` | all namespaced nodes | When this must be re-checked. |
-| `platform_bearing` | wiki pages | Carries at least one claim that decays in months. **212 of 221 pages.** |
+| `platform_bearing` | wiki pages | Carries at least one claim that decays in months. **214 of 222 pages.** |
 | `evidence_classes` | whitepapers | Which of the four `Evidence status` parts are present. All 90 carry all four. |
 
 A seminar day cites almost nothing directly — by design, its evidence lives in the paired whitepaper's `Evidence status`. Seminars therefore **inherit** their whitepaper's namespace mix. Programme pages that ground nothing external fall to `method`, which is correct: they are the design's own discipline and have no external warrant by construction.

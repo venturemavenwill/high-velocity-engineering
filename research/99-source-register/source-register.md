@@ -118,6 +118,14 @@ All open Microsoft Learn documentation, retrieved via the Learn documentation to
 | Choose the right tool to build your declarative agent | `https://learn.microsoft.com/microsoft-365/copilot/extensibility/declarative-agent-tool-comparison` | search excerpts only |
 | Custom engine agents for Microsoft 365 overview | `https://learn.microsoft.com/microsoft-365/copilot/extensibility/overview-custom-engine-agent` | search excerpts only |
 | Agents for Microsoft 365 Copilot | `https://learn.microsoft.com/microsoft-365/copilot/extensibility/agents-overview` | search excerpts only |
+
+## Agent configuration repositories — perishable, pinned by commit
+
+Open source repositories whose content is agent configuration rather than prose. They are cited only against a pinned revision, because an unpinned citation to a repository is a citation to whatever it says today.
+
+| Source | Identifier | Access | Read |
+|---|---|---|---|
+| HVE Core, `microsoft/hve-core` | `https://github.com/microsoft/hve-core`; commit `cf29fb457b0fe62745bb71592ec9394b834957f4`; package version 3.3.101 | open | **cloned and machine-read in full at the pinned commit** |
 | Compare the serverless agents runtime | `https://learn.microsoft.com/azure/azure-functions/compare-serverless-agents-runtime` | search excerpts only |
 
 ## Retrieval methods that worked
@@ -190,7 +198,7 @@ Citations in whitepaper evidence sections used to point at folder-level `collect
 
 **A retraction query still under-counts.** ten Cate, Govaerts and Thakur each exist as several non-identical notes under different filenames across folders, so retracting one source hits nodes this index counts separately. An alias field would fix it.
 
-**Dependency counts remain a floor.** 24% of citations are still folder-level, most of them legitimately — the clearest case being `research/06-microsoft-platform/`, whose claim that *every source states a latency or a bound and none states an accuracy* is a cross-source observation no single note carries.
+**Dependency counts remain a floor.** 25% of citations are still folder-level, most of them legitimately — the clearest case being `research/06-microsoft-platform/`, whose claim that *every source states a latency or a bound and none states an accuracy* is a cross-source observation no single note carries.
 
 ## Copyright handling
 When a source is copyrighted or paywalled, store a Cliff Notes-style synthesis and citation details rather than copying the source text into the repository.

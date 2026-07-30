@@ -29,8 +29,8 @@ Already configured in [.vscode/mcp.json](/.vscode/mcp.json). Open Copilot Chat i
 | Tool | What it answers |
 |---|---|
 | `hve_namespaces` | The eight namespaces, what each licenses, how fast each decays. **Call this first** — claims may not be compared across namespaces raw. |
-| `hve_search` | Find documents by text, namespace, kind, or perishability. `platform_bearing: true` returns everything that decays in months. |
-| `hve_get` | One document with its typed neighbours — depends on, re-tested by, grounded in, paired whitepaper. |
+| `hve_search` | Find documents by title, heading, or body text, with context snippets for body matches. `platform_bearing: true` returns everything that decays in months. |
+| `hve_get` | Read a document body and its typed neighbours. Use `section`, `start_line`, and `line_count` to traverse long documents without flooding context. |
 | `hve_dependency_closure` | **The differentiator.** Given what you intend to teach, what must you also cover? |
 | `hve_platform_exposure` | A vendor shipped a breaking change. What does it cost you? |
 | `hve_predictions` | What does this design say would prove it wrong, and with what instrument? |
@@ -78,7 +78,7 @@ All three claim layers are extracted mechanically from structure the substrate a
 
 | Layer | Rows | Granularity | Covers |
 |---|---|---|---|
-| Platform claims | **581** | atomic — one durable/perishable pair per row | `platform`, 89 of 90 days |
+| Platform claims | **597** | atomic — one durable/perishable pair per row | `platform`, 89 of 90 days |
 | Predictions | **512** | atomic — one falsifiable claim + named instrument | **all namespaces**, 90 papers |
 | Evidence ledger | **360** | **class-level, not atomic** | all namespaces, 90 papers × 4 classes |
 
@@ -102,7 +102,7 @@ What the class level already buys you is the question that actually gets asked: 
 
 Run `hve_sources({ read: "unread" })` first. The two most load-bearing unread sources are **Edmondson on psychological safety, under 29 whitepapers**, and **Keith and Frese on error management training, under 25**. Most of the rest are copyrighted books the register marks as such — this is a documented constraint the design worked within, not an oversight, and the claims above them are class 2, licensing direction and mechanism only.
 
-**Exposure counts are a floor, and the tool says so in every answer.** 24% of citations still point at a folder-level `collected-materials` index rather than a named source, so a source showing few dependants may still be carrying more. That figure was 74% before the citations were resolved by hand; every one of the 90 whitepapers now cites at least one named source, where only 46 did.
+**Exposure counts are a floor, and the tool says so in every answer.** 25% of citations still point at a folder-level `collected-materials` index rather than a named source, so a source showing few dependants may still be carrying more. That figure was 74% before the citations were resolved by hand; every one of the 90 whitepapers now cites at least one named source, where only 46 did.
 
 ## The write path, and where it attaches
 

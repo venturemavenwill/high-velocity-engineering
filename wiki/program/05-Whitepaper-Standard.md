@@ -63,6 +63,21 @@ The audience is a sceptical reader with expertise in either learning science or 
 2. **Canonical literature cited from general knowledge, not verified here** — direction and mechanism only.
 3. **Design reasoning with no external warrant.**
 
+## The student-facing close
+
+**Every whitepaper carries a section headed `## What a student should take from this paper`, placed after §9 and immediately before `## Evidence status`.**
+
+The placement is deliberate and is the only structural constraint on it. `## Evidence status` remains the paper's closing section, because it is the paper's warrant and a warrant that is not last is a warrant something has been allowed to follow. The student section sits between the design's predictions and the design's evidence, which is where a reader crosses from *what this paper argues* to *what it is entitled to argue*.
+
+Four parts.
+
+1. **What the design is claiming**, in plain language, without the apparatus.
+2. **What the evidence licenses.** Which of the four classes the paper's central claim actually rests on, and what that class permits. **A paper whose main claim sits in class 3 says so here in one sentence**, because design reasoning with no external warrant is exactly the thing a student should be able to identify and is exactly the thing an eight-page argument makes easy to miss.
+3. **What to do with it** — guidance the student can act on, including at least one item inferred from the agent configuration corpus where one fits, per the [Agent Configuration Standard](/wiki/program/13-Agent-Configuration-Standard.md).
+4. **The concession worth remembering** — §8's conceded objection, restated so a student can hold the design to it. **This is the part that matters.** §8 already requires at least one objection conceded at its strongest, and a concession buried on page six of a document written for staff is a concession nobody will ever use against the design. Surfacing it is the cheapest honesty available to this standard.
+
+**It introduces nothing.** Every statement in it appears elsewhere in the paper or in a cited note. A takeaway carrying a claim the paper does not make is a defect, and is caught in the same review as a missing evidence class.
+
 ## Evidentiary discipline
 
 ### Vendor documentation is a fourth evidence class
@@ -72,6 +87,10 @@ Every whitepaper's `## Evidence status` carries a fourth labelled part where the
 The class exists because vendor material fails differently from research literature. It is authoritative about its own behaviour, it is superseded without notice, and it is **systematically silent in one direction**: every source consulted for [research/06-microsoft-platform/](/research/06-microsoft-platform/collected-materials.md) states a latency or a sampling bound, and none states an accuracy. A whitepaper citing vendor documentation must therefore record three things — what the documentation says, what version or date it says it at, and **what it does not report that a reader would need**.
 
 The standing prohibitions on the [Microsoft AI Platform Map](/wiki/program/11-Microsoft-AI-Platform-Map.md) bind here without exception. In particular, **no evaluator's agreement with human judgement may be asserted, because none is published**, and every judged score produced by the platform is described as uncalibrated until it is.
+
+**Where the vendor source is a repository rather than a page, the citation carries a commit.** A documentation page cited without a version is cited at whatever it says today and the reader cannot tell; a repository has the same defect and a commit hash removes it, so the class requires one. A paper citing the corpus behind the [Agent Configuration Standard](/wiki/program/13-Agent-Configuration-Standard.md) records the commit, the package version, and the host and model any observation was made against — because an artefact that only acts through a host is not observable independently of it.
+
+**The silence requirement is where repository sources are most easily mishandled.** A repository can contain a full evaluation apparatus and no results, and a paper that cites the apparatus without recording the absence has reported a control as though it were a finding. **The presence of a grader is not evidence of a favourable result**, and where the result corpus is empty the paper says so in this class rather than in §8.
 
 These rules are inherited from the [source register](/research/99-source-register/source-register.md) and are not optional.
 
@@ -143,5 +162,6 @@ The register exists because [WP-045](/wiki/whitepapers/WP-045.md) §8 observed t
 ## Related pages
 
 - [Seminar Day Design Pattern](/wiki/program/04-Seminar-Day-Design-Pattern.md)
+- [Agent Configuration Standard](/wiki/program/13-Agent-Configuration-Standard.md)
 - [Learning Science Foundations](/wiki/program/02-Learning-Science-Foundations.md)
 - [Seminar Day Index](/wiki/program/08-Seminar-Day-Index.md)

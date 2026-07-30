@@ -121,11 +121,26 @@ A whitepaper may justify departure from the pattern in these ways, and must name
 
 ## Every day is executed, not read
 
-This pattern describes the shape of a day. The [Copilot Practice Standard](/wiki/program/12-Copilot-Practice-Standard.md) describes how it is run, and it binds every day in the programme.
+This pattern describes the shape of a day. The [Copilot Practice Standard](/wiki/program/12-Copilot-Practice-Standard.md) describes how it is run, and it binds every day in the programme. The [Agent Configuration Standard](/wiki/program/13-Agent-Configuration-Standard.md) describes how the instrument running it is configured, and adds three further requirements to every day: **the day states its configuration or declares that it runs unconfigured**; **every phase 5 artefact classifies its own conclusions into the five classes**, with a conclusion in no class failing; and **any day using an external configuration corpus pins the revision**, host and model it observed. Three rather than six, deliberately — a day carrying nine additional requirements satisfies none of them well.
 
 In summary: each day names a **platform anchor** and the **MCP servers in use** in its header block; phase 1 carries a sealed prediction about what GitHub Copilot will do and where it will be wrong; phase 3's four contrasting cases are **executed against a real service** wherever the subject permits; phase 4 carries at least one perishable platform-specific point and at least one point naming a **default the platform chose for you**; **phase 5 produces a build**, whose artefact carries a prompt record, an intervention record and a frontier statement; and phase 6's error clinic includes a case where the agent was confidently wrong.
 
 **A day with no platform anchor and no build does not exist in this programme.** The pedagogy below is unchanged by this — the eight phases, the fading, the warrants and the retrieval schedule are all as specified. What changed is that the whole-task learning task is now a whole task.
+
+## What every day hands the student
+
+**Every seminar day closes, before its Related pages, with a section headed `## What to take from this day`.** It is the only part of a day's page written *to the student* rather than to the person evaluating the design, and it exists because the pattern above had a gap that was invisible while the design was being written: **a day could satisfy all eight phases, all nine instrumentation rules and the whole assessment specification, and still never state in one place what a student should walk out holding.** The material was present and distributed across a warrant, a perishability register and a specification, which is the correct place for each of them and the wrong place for a reader who has just spent 320 minutes in the room.
+
+Four parts, fixed, so that a student can compare across days and a designer cannot substitute enthusiasm for content.
+
+1. **The claim to hold.** The day's durable claim in the student's own operating terms — what they should be able to *state and act on*, not what was covered. It is drawn from the left-hand column of the day's perishability register, which already carries it.
+2. **What the sources license, and what they do not.** What the cited material actually supports, at the verification depth the research note records. **Direction and mechanism only where the note is a synthesis or an abstract**, and the section says so rather than leaving the student to infer it.
+3. **Guidance for your own work.** Concrete, checkable actions that survive the room. **At least one is inferred from the agent configuration corpus** — the five classes of conclusion, control-is-not-evidence, provenance-is-not-correctness, advisory-versus-authoritative, untrusted-content-is-data, approval-as-a-stop-condition, or pin-the-revision — chosen because it fits the day. **Where none fits, the section says none fits.** A guidance item forced onto a day it does not belong to teaches that the frame is decorative.
+4. **Where this is easy to get wrong.** The specific failure the day's own material predicts, named so the student can watch for it in themselves.
+
+**It is not assessed and it may not introduce anything.** Every claim in it already appears elsewhere on the day or in a cited note; the section is a projection over the day, in the sense [concepts/projections.md](/concepts/projections.md) uses, and rule 1 there binds it — **a takeaway carrying a fact no phase carries is an invention, and is a defect.** Nothing in it is assessable content, because assessable content is specified in the day's Assessment section and duplicating it in a friendlier register would create two specifications that can disagree.
+
+**Provenance.** Added 2026-07-30, at the same revision that added the [Agent Configuration Standard](/wiki/program/13-Agent-Configuration-Standard.md). The two are connected: the corpus that standard is built on is a large, careful control system that never states, in one place, what its user should conclude — and reading ninety seminar days to check whether this design had the same shape found that it did. **The finding is recorded rather than quietly repaired**, because the design's response to noticing a defect in someone else's artefact was to look for it in its own, and that sequence is worth more than the section.
 
 ## Instrumentation rules
 
