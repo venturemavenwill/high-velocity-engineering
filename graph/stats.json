@@ -1,6 +1,6 @@
 {
   "node_count": 346,
-  "edge_count": 8285,
+  "edge_count": 8993,
   "claim_count": 646,
   "claim_days": 89,
   "claim_gap_days": 1,
@@ -46,9 +46,9 @@
   "edges_by_type": {
     "depends_on": 216,
     "documents": 90,
-    "grounded_in": 1025,
+    "grounded_in": 1194,
     "has_whitepaper": 90,
-    "links_to": 6012,
+    "links_to": 6551,
     "part_of": 448,
     "re_tests": 93,
     "retrieves_from": 309,
@@ -60,12 +60,12 @@
     "this-programme-only": 41
   },
   "predictions_by_ns": {
-    "ai-systems": 143,
-    "fde-craft": 126,
-    "measurement": 108,
-    "assessment": 54,
-    "platform": 43,
-    "pedagogy": 41,
-    "curriculum": 12
+    "pedagogy": 137,
+    "ai-systems": 135,
+    "fde-craft": 109,
+    "measurement": 105,
+    "assessment": 29,
+    "curriculum": 6,
+    "platform": 6
   }
 }
