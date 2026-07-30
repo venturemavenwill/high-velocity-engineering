@@ -4625,6 +4625,8 @@
       "title": "S001 · Why This Programme Feels Wrong: The Design You Are Subject To",
       "headings": [
         "What this day is for",
+        "Key terms",
+        "The core ideas",
         "Phase 1 · Pretest and prediction (25 min)",
         "Phase 2 · Cumulative retrieval set (20 min)",
         "Phase 3 · Contrasting cases and generation (45 min)",
@@ -4636,11 +4638,13 @@
         "Between-day protocol",
         "Assessment",
         "Perishable content in this day",
+        "Exercises",
         "What to take from this day",
+        "Further reading",
         "Related pages"
       ],
-      "words": 4019,
-      "lines": 251,
+      "words": 8193,
+      "lines": 429,
       "module": "M01",
       "quarter": "Q1",
       "complexity_class": 1,
@@ -4656,7 +4660,7 @@
       "retrieves_from_raw": "— (first day)",
       "assessment_bearing": false,
       "namespaces": {
-        "pedagogy": 2
+        "pedagogy": 5
       },
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
@@ -9129,6 +9133,7 @@
       "layer": "wiki",
       "title": "WP-001 — Why This Programme Feels Wrong: The Design You Are Subject To",
       "headings": [
+        "In plain terms",
         "Abstract",
         "1. The instructional problem this day must solve",
         "2. Entry state and prior knowledge assumptions",
@@ -9140,10 +9145,11 @@
         "8. Objections and rebuttals",
         "9. Falsifiable predictions and instrumentation",
         "What a student should take from this paper",
+        "Further reading",
         "Evidence status"
       ],
-      "words": 6978,
-      "lines": 219,
+      "words": 7777,
+      "lines": 249,
       "module": "M01",
       "quarter": "Q1",
       "complexity_class": 1,
@@ -9158,7 +9164,7 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "pedagogy": 6,
+        "pedagogy": 7,
         "curriculum": 1,
         "platform": 1
       },
@@ -23358,6 +23364,11 @@
     },
     {
       "from": "wiki/seminars/S001",
+      "to": "wiki/program/02-Learning-Science-Foundations",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S001",
       "to": "research/04-professional-formation/dellacqua-jagged-technological-frontier",
       "type": "links_to"
     },
@@ -23393,6 +23404,36 @@
     },
     {
       "from": "wiki/seminars/S001",
+      "to": "research/04-professional-formation/metr-ai-assisted-productivity-study",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S001",
+      "to": "research/04-professional-formation/metr-ai-assisted-productivity-study",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/seminars/S001",
+      "to": "research/04-professional-formation/sinha-kapur-productive-failure",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S001",
+      "to": "research/04-professional-formation/sinha-kapur-productive-failure",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/seminars/S001",
+      "to": "research/04-professional-formation/keith-frese-error-management-training",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S001",
+      "to": "research/04-professional-formation/keith-frese-error-management-training",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/seminars/S001",
       "to": "wiki/program/04-Seminar-Day-Design-Pattern",
       "type": "links_to"
     },
@@ -23404,11 +23445,6 @@
     {
       "from": "wiki/seminars/S001",
       "to": "wiki/program/11-Microsoft-AI-Platform-Map",
-      "type": "links_to"
-    },
-    {
-      "from": "wiki/seminars/S001",
-      "to": "wiki/program/02-Learning-Science-Foundations",
       "type": "links_to"
     },
     {
@@ -38443,56 +38479,6 @@
     },
     {
       "from": "wiki/whitepapers/WP-001",
-      "to": "research/04-professional-formation/edmondson-psychological-safety",
-      "type": "links_to"
-    },
-    {
-      "from": "wiki/whitepapers/WP-001",
-      "to": "research/04-professional-formation/edmondson-psychological-safety",
-      "type": "grounded_in"
-    },
-    {
-      "from": "wiki/whitepapers/WP-001",
-      "to": "research/04-professional-formation/frazier-psychological-safety-meta-analysis",
-      "type": "links_to"
-    },
-    {
-      "from": "wiki/whitepapers/WP-001",
-      "to": "research/04-professional-formation/frazier-psychological-safety-meta-analysis",
-      "type": "grounded_in"
-    },
-    {
-      "from": "wiki/whitepapers/WP-001",
-      "to": "research/04-professional-formation/keith-frese-error-management-training",
-      "type": "links_to"
-    },
-    {
-      "from": "wiki/whitepapers/WP-001",
-      "to": "research/04-professional-formation/keith-frese-error-management-training",
-      "type": "grounded_in"
-    },
-    {
-      "from": "wiki/whitepapers/WP-001",
-      "to": "research/04-professional-formation/bandura-self-efficacy",
-      "type": "links_to"
-    },
-    {
-      "from": "wiki/whitepapers/WP-001",
-      "to": "research/04-professional-formation/bandura-self-efficacy",
-      "type": "grounded_in"
-    },
-    {
-      "from": "wiki/whitepapers/WP-001",
-      "to": "research/04-professional-formation/sinha-kapur-productive-failure",
-      "type": "links_to"
-    },
-    {
-      "from": "wiki/whitepapers/WP-001",
-      "to": "research/04-professional-formation/sinha-kapur-productive-failure",
-      "type": "grounded_in"
-    },
-    {
-      "from": "wiki/whitepapers/WP-001",
       "to": "wiki/program/02-Learning-Science-Foundations",
       "type": "links_to"
     },
@@ -38504,6 +38490,71 @@
     {
       "from": "wiki/whitepapers/WP-001",
       "to": "research/04-professional-formation/dellacqua-jagged-technological-frontier",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-001",
+      "to": "research/04-professional-formation/metr-ai-assisted-productivity-study",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-001",
+      "to": "research/04-professional-formation/metr-ai-assisted-productivity-study",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-001",
+      "to": "research/04-professional-formation/sinha-kapur-productive-failure",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-001",
+      "to": "research/04-professional-formation/sinha-kapur-productive-failure",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-001",
+      "to": "research/04-professional-formation/keith-frese-error-management-training",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-001",
+      "to": "research/04-professional-formation/keith-frese-error-management-training",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-001",
+      "to": "research/04-professional-formation/bandura-self-efficacy",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-001",
+      "to": "research/04-professional-formation/bandura-self-efficacy",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-001",
+      "to": "wiki/program/03-Assessment-Architecture",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-001",
+      "to": "research/04-professional-formation/edmondson-psychological-safety",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-001",
+      "to": "research/04-professional-formation/edmondson-psychological-safety",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-001",
+      "to": "research/04-professional-formation/frazier-psychological-safety-meta-analysis",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-001",
+      "to": "research/04-professional-formation/frazier-psychological-safety-meta-analysis",
       "type": "grounded_in"
     },
     {
@@ -65439,7 +65490,7 @@
       "instrument": "sealed P1 against phase 1 scores, resolved same day.",
       "namespace": "pedagogy",
       "namespaces": {
-        "pedagogy": 6,
+        "pedagogy": 7,
         "curriculum": 1,
         "platform": 1
       }
@@ -65455,7 +65506,7 @@
       "instrument": "phase 2 confidence ratings against S003 performance, analysed by condition. **If this fails, the day's central demonstration has failed and the reveal must be handled as a disconfirmation in front of the cohort rather than quietly dropped.** The protocol for that eventuality is fixed in advance precisely so that it cannot be quietly dropped.",
       "namespace": "pedagogy",
       "namespaces": {
-        "pedagogy": 6,
+        "pedagogy": 7,
         "curriculum": 1,
         "platform": 1
       }
@@ -65471,7 +65522,7 @@
       "instrument": "sealed P2 against the S011 delayed measure.",
       "namespace": "pedagogy",
       "namespaces": {
-        "pedagogy": 6,
+        "pedagogy": 7,
         "curriculum": 1,
         "platform": 1
       }
@@ -65487,7 +65538,7 @@
       "instrument": "disclosure counts per clinic, correlated with S010 outcomes. This one is weakly powered at cohort scale and becomes informative only across several cohorts.",
       "namespace": "pedagogy",
       "namespaces": {
-        "pedagogy": 6,
+        "pedagogy": 7,
         "curriculum": 1,
         "platform": 1
       }
@@ -65503,7 +65554,7 @@
       "instrument": "P3 responses coded as *specific location named* / *generic* / *absent*, against the actual phase 8 run. **If most students name a specific location, the design's premise that frontier calibration must be built is wrong for this cohort and phase 4 point 7 is redundant.** The result branches: a cohort scoring high is given the harder S002 item 5 variant, which asks for a detection method rather than a location.",
       "namespace": "pedagogy",
       "namespaces": {
-        "pedagogy": 6,
+        "pedagogy": 7,
         "curriculum": 1,
         "platform": 1
       }
@@ -65519,7 +65570,7 @@
       "instrument": "a one-line group judgement collected before the four outputs are compared, against a blind pairwise comparison of the outputs by staff. **This is the day's sharpest available test of the fluency illusion in its new register**, and it fails informatively either way: if groups correctly report no difference, the illusion does not transfer from self-assessment to tool-assessment, and phase 4 point 8's framing is over-claimed.",
       "namespace": "pedagogy",
       "namespaces": {
-        "pedagogy": 6,
+        "pedagogy": 7,
         "curriculum": 1,
         "platform": 1
       }
