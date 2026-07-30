@@ -62,8 +62,21 @@ function Get-Layer([string]$rel) {
 # LICENSE.md files under .venv/Lib/site-packages/, the scan picked them up, and the
 # committed graph gained two nodes that are not substrate. Anything that a package
 # manager writes into the tree must be excluded here, not just ignored by git.
+#
+# raw/ is here because it happened, and it was worse. raw/ holds source material
+# this repository is not licensed to redistribute — purchased books, and a set of
+# access-controlled internal documents. It is gitignored, and that is not enough:
+# gitignore stops the FILES being committed and does nothing about a derived index
+# built from them. A scan that reached raw/ put 98 internal document paths and
+# titles into graph/nodes.jsonl, which IS committed and IS public. Caught by the
+# link gate before any commit, because the internal documents link to internal
+# hosts and those links do not resolve here.
+#
+# The general rule: the exclusion list must cover everything gitignored that could
+# be read, not just everything written by a tool. Ignoring an input while indexing
+# it is a leak with an audit trail.
 $files = @(Get-ChildItem -Path $RepoRoot -Recurse -File -Filter *.md |
-           Where-Object { $_.FullName -notmatch '[\\/](node_modules|\.git|\.venv|venv|__pycache__|site-packages)[\\/]' })
+           Where-Object { $_.FullName -notmatch '[\\/](node_modules|\.git|\.venv|venv|__pycache__|site-packages|raw)[\\/]' })
 
 # Get-ChildItem returns filesystem enumeration order, which differs between NTFS
 # and ext4 — so the same substrate produced a different node order on Windows and

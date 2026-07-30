@@ -22,7 +22,7 @@ flowchart TD
   W --> G
   P --> G
   C --> G
-  G["graph/ · 341 nodes · 8,188 edges<br/>634 platform claims · 512 predictions · 360 evidence rows · 680 teaching moves · 58 sources<br/>derived · regenerable · never hand-edited"] --> M["mcp/hve-iq<br/>read-only MCP server"] --> A["any agent"]
+  G["graph/ · 341 nodes · 8,200 edges<br/>646 platform claims · 520 predictions · 360 evidence rows · 683 teaching moves · 58 sources<br/>derived · regenerable · never hand-edited"] --> M["mcp/hve-iq<br/>read-only MCP server"] --> A["any agent"]
 ```
 
 ## Start here
@@ -55,12 +55,12 @@ Claims may not be compared across namespaces raw. A Learn page and a learning-sc
 
 | Namespace | Licenses | Decays in | Pages |
 |---|---|---|---|
-| `platform` | Vendor docs at a stated version, plus what they do **not** report | **months** | 23 |
+| `platform` | Vendor docs at a stated version, plus what they do **not** report | **months** | 22 |
 | `ai-systems` | Mechanism verified; magnitudes do not transfer | 1–3 years | 65 |
 | `measurement` | Identity under a stated model and interval, with dependency structure | permanent | 39 |
-| `pedagogy` | **Direction and mechanism only. No effect size, ever.** | decades | 16 |
+| `pedagogy` | **Direction and mechanism only. No effect size, ever.** | decades | 15 |
 | `assessment` | Ordinal judgement with narrative substantiation; no percentages | decades | 24 |
-| `fde-craft` | Practice pattern, weak formal warrant | slow | 42 |
+| `fde-craft` | Practice pattern, weak formal warrant | slow | 45 |
 | `curriculum` | Design reasoning and accreditation mapping | years | 4 |
 | `method` | Design reasoning, no external warrant | on amendment | 9 |
 
@@ -144,7 +144,7 @@ The work here is **[CC BY 4.0](/LICENSE.md)** — share and adapt with attributi
 - **The platform layer is the most perishable content here.** Two of the six vendor sources were already classic or superseded when read; the [study-note package](/sources/README.md) they came from reflects July 2026 and needs checking before it is quoted.
 - **The entry-state register is untested** against a real audience and plausibly circular. It is a usable default, not a finding.
 - **The evidence ledger is class-level, not claim-atomic.** Where a whitepaper places four claims in one sentence, the index sees the sentence. Splitting them needs authoring judgement, which would be the first thing here able to drift silently — deferred deliberately, not forgotten.
-- **19 of 53 external sources were never read** — synthesis-only or not consulted. Four local FDE-craft EPUBs have now been read in full; Edmondson and Keith & Frese remain unread and show as carrying 29 and 25 whitepapers respectively.
+- **13 of 58 external sources were never read** — synthesis-only or not consulted. *Was 19 of 53; ten works were obtained and read in full on 2026-07-30, and five new sources were registered.* **The reach of what remains is the problem, not the count.** Edmondson's 1999 paper is still unread and 29 whitepapers rest on it — its two principal contributions, the team-efficacy discriminant and the mediation of performance by learning behaviour, are **restated by neither of the works that were read**, so both now stand on an abstract and [the folder synthesis has withdrawn them](/research/04-professional-formation/collected-materials.md). Frazier et al. is unread under 8. Keith & Frese was read in full and its 25 whitepapers moved from unread to verified in the same pass.
 - **52 of 90 class-1 paragraphs cite a never-read source.** Permitted by the standard — class 1 means a note exists, not that the source was read — but only if the depth of verification is carried forward honestly, and several do not. Recorded, not fixed.
 - **This repository and its own notes disagree about effect sizes.** The source register marks five formation sources as synthesis-only; those notes carry magnitudes. No whitepaper propagates them, so the prohibition holds, but the contradiction is unresolved.
 - **Two rule elevations are unratified** at programme close ([WP-090](/wiki/whitepapers/WP-090.md) §7).

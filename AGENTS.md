@@ -15,9 +15,9 @@ It is **341 markdown files, one graph builder and one MCP server.** The knowledg
 
 **The knowledge is eight namespaces, not one.** Each has its own warrant standard, its own decay rate and its own specialization frontier, and **claims may not be compared across them raw**. A Learn page and a learning-science finding are both "evidence" and neither licenses what the other licenses. See [concepts/namespaces.md](/concepts/namespaces.md). Every node in the graph carries `primary_namespace`, `namespaces`, `decay` and `platform_bearing`.
 
-The single number worth holding: **214 of 222 wiki pages are platform-bearing, but only 23 have `platform` as their primary namespace.** The durable/perishable split is claim-level inside pages, not page-level.
+The single number worth holding: **214 of 222 wiki pages are platform-bearing, but only 22 have `platform` as their primary namespace.** The durable/perishable split is claim-level inside pages, not page-level.
 
-**That second number moved twice on 2026-07-30, in opposite directions, and both movements were caused by adding text and citing nothing new.** It went 34 → 39 when one platform-namespace source was added and four pages took a citation to it — [S006](/wiki/seminars/S006.md), [S074](/wiki/seminars/S074.md), [WP-074](/wiki/whitepapers/WP-074.md) and [10-Substrate-and-Infrastructure](/wiki/program/10-Substrate-and-Infrastructure.md). It then went 39 → 23 when every seminar day and every whitepaper gained a student-facing section that cites **the notes the page was already resting on**. Pages that had been platform-primary on a thin margin simply started saying what else they stood on.
+**That second number moved three times on 2026-07-30, in both directions, and every movement was caused by adding text and citing nothing new.** It went 34 → 39 when one platform-namespace source was added and four pages took a citation to it — [S006](/wiki/seminars/S006.md), [S074](/wiki/seminars/S074.md), [WP-074](/wiki/whitepapers/WP-074.md) and [10-Substrate-and-Infrastructure](/wiki/program/10-Substrate-and-Infrastructure.md). It then went 39 → 23 when every seminar day and every whitepaper gained a student-facing section that cites **the notes the page was already resting on**. It then went 23 → 22 when a single further day took a citation to an FDE-craft note. Pages that had been platform-primary on a thin margin simply started saying what else they stood on.
 
 **Read the number as what it is: a measure of citation density, not of content.** A page does not become less vendor-dependent because it cited a learning-science note; it becomes more honestly described. `platform_bearing` — which is driven by the day's declared anchor rather than by its citation mix — did not move at all, and is the number to use when the question is *what decays in months*. **Nothing was rewritten to cause either movement and nothing should be rewritten to undo them.**
 
@@ -64,9 +64,9 @@ It is derived entirely from the files and holds no facts of its own, so it is al
 | Question | Approach |
 |---|---|
 | Which days teach Azure AI Search? | filter nodes on `platform_anchor` |
-| What breaks if Foundry changes? | `graph/claims.jsonl` — **634 durable/perishable pairs across 89 days**, or `hve_platform_exposure` |
-| What would prove this design wrong? | `graph/predictions.jsonl` — **512 predictions, each with a named instrument**, all unmeasured |
-| How does a day *open*, before it explains? | `graph/teaching-moves.jsonl` — **680 moves across all 90 days**, or `hve_teaching_moves` |
+| What breaks if Foundry changes? | `graph/claims.jsonl` — **646 durable/perishable pairs across 89 days**, or `hve_platform_exposure` |
+| What would prove this design wrong? | `graph/predictions.jsonl` — **520 predictions, each with a named instrument**, all unmeasured |
+| How does a day *open*, before it explains? | `graph/teaching-moves.jsonl` — **683 moves across all 90 days**, or `hve_teaching_moves` |
 | What breaks if a source is retracted? | `graph/evidence.jsonl` — **360 rows**, 90 papers × 4 evidence classes, or `hve_evidence` |
 | Did anyone actually read the source? | `graph/sources.jsonl` — **58 sources; 13 were never read**, or `hve_sources` |
 | What decays in months? | filter on `platform_bearing` — **214 pages**, then read their perishability registers |
@@ -124,7 +124,7 @@ Get-ChildItem -Recurse -File -Filter *.md |
 Expected: **3 hits only**, all `BROKEN`, all placeholders inside a fenced code block in `05-Whitepaper-Standard.md`. Any `NOT ROOT-ABSOLUTE` hit is a real defect.
 
 ```powershell
-pwsh ./scripts/build-graph.ps1   # expect 341 nodes, ~8190 edges, 634 claims, 512 predictions, 360 evidence rows, 680 teaching moves, 58 sources
+pwsh ./scripts/build-graph.ps1   # expect 341 nodes, ~8200 edges, 646 claims, 520 predictions, 360 evidence rows, 683 teaching moves, 58 sources
 ```
 
 ```bash

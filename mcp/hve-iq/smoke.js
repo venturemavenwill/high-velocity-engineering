@@ -67,7 +67,7 @@ const missing = await call("hve_get", { id: "wiki/seminars/S999" });
 check("unknown id fails gracefully", Boolean(missing.error));
 
 const allClaims = await call("hve_platform_exposure", { limit: 1 });
-check("640 platform claims indexed", allClaims.total_claims_indexed === 640, `${allClaims.total_claims_indexed}`);
+check("646 platform claims indexed", allClaims.total_claims_indexed === 646, `${allClaims.total_claims_indexed}`);
 check("only S090 remains a blind spot", allClaims.blind_spot_days.length === 1 && allClaims.blind_spot_days[0] === "wiki/seminars/S090",
   `${allClaims.blind_spot_days.length} day(s)`);
 
@@ -86,7 +86,7 @@ const early = await call("hve_platform_exposure", { days: ["wiki/seminars/S001"]
 check("the converted early days are now visible", early.matched > 0 && early.blind_spot_days.length === 0, `${early.matched} claims in S001`);
 
 const preds = await call("hve_predictions", { limit: 1 });
-check("515 predictions indexed", preds.total_indexed === 515, `${preds.total_indexed}`);
+check("520 predictions indexed", preds.total_indexed === 520, `${preds.total_indexed}`);
 check("predictions are flagged unmeasured", /UNMEASURED/.test(preds.note));
 const calib = await call("hve_predictions", { query: "calibration", limit: 100 });
 check("predictions are searchable", calib.matched > 0, `${calib.matched} mention calibration`);

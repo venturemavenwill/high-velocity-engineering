@@ -16,7 +16,7 @@ The graph is derived entirely from the files and holds no facts of its own. If i
 | `nodes.jsonl` | You want to stream or filter documents without loading everything. |
 | `edges.jsonl` | You want to traverse relationships. |
 | `research-claims.jsonl` | You want source-grounded claims and practices authored in research notes, with namespace, decay and source-reading depth. |
-| `teaching-moves.jsonl` | You want to know **how a day opens** rather than what it concludes — phase 1's pretest and prediction items, phase 3's labelled contrasting cases. **680 moves across all 90 days**, 454 eliciting and 226 contrasting. Extraction is mechanical and partial: 34 days run phase 3 as prose and contribute no cases. |
+| `teaching-moves.jsonl` | You want to know **how a day opens** rather than what it concludes — phase 1's pretest and prediction items, phase 3's labelled contrasting cases. **683 moves across all 90 days**, 454 eliciting and 229 contrasting. Extraction is mechanical and partial: 33 days run phase 3 as prose and contribute no cases. |
 | `stats.json` | You want counts, or to check the graph is current. |
 | `move-manifest.json` | You need to know where a file moved during the 2026-07-26 reorganization. |
 

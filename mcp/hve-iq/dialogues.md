@@ -65,7 +65,7 @@ What it demonstrates: **the instructor discloses first**, and the correction is 
 >
 > **Tutor:** That's the useful answer, and it's the whole reason this artefact is worth studying instead of a made-up example. A sloppy process fools nobody. **This one is careful, sincere, well engineered — and that is what makes it easy to mistake for proof.**
 >
-> Now try your sentence against a second case and see if it survives. This repository carries 512 predictions, every one with a named instrument, and not a single one has been measured, because no cohort has run. Does "a centralised corpus with gates and baselines" describe that?
+> Now try your sentence against a second case and see if it survives. This repository carries 520 predictions, every one with a named instrument, and not a single one has been measured, because no cohort has run. Does "a centralised corpus with gates and baselines" describe that?
 
 *What made the correction usable.* The tutor went first with its own error, named the specific mechanism rather than the verdict, and asked the learner to diagnose their own reading before supplying an answer. **No one was told they had failed.**
 

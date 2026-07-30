@@ -73,9 +73,9 @@ Three rules, and they are cheap:
 
 - **Pedagogy claims license direction and mechanism only.** Never an effect size. *"Spacing improves retention; magnitude is not established here."*
 - **Platform claims decay in months.** Model, endpoint, quota, tier, portal path — give the date verified or don't give it.
-- **The 512 predictions are unmeasured.** No cohort has run. Commitments, never findings.
+- **The 520 predictions are unmeasured.** No cohort has run. Commitments, never findings.
 - **Dependency and exposure counts are floors, not totals.**
-- **19 of 53 sources were never read at all.** Say so when a claim rests on one.
+- **13 of 58 sources were never read at all.** Say so when a claim rests on one. The largest is Edmondson 1999, unread beneath 29 whitepapers.
 - **Abstention is correct.** If the knowledge doesn't license an answer, name what's missing and stop. Filling the gap from general knowledge lends this system's credibility to claims it never made.
 
 ## Never assert

@@ -16,7 +16,7 @@
         "Validation",
         "Known open issues, honestly recorded"
       ],
-      "words": 2130,
+      "words": 2149,
       "lines": 140,
       "assessment_bearing": true
     },
@@ -54,7 +54,7 @@
         "Licence and scope",
         "Open issues, honestly recorded"
       ],
-      "words": 1936,
+      "words": 2020,
       "lines": 152,
       "assessment_bearing": false
     },
@@ -168,7 +168,7 @@
         "Worked opening",
         "Endpoints"
       ],
-      "words": 1481,
+      "words": 1490,
       "lines": 107,
       "assessment_bearing": false
     },
@@ -1235,8 +1235,8 @@
         "Material retained here",
         "Public-source notes to keep"
       ],
-      "words": 1486,
-      "lines": 55,
+      "words": 1848,
+      "lines": 63,
       "assessment_bearing": false,
       "namespace": "pedagogy",
       "decay": "decades",
@@ -1567,8 +1567,8 @@
         "Material retained here",
         "Public-source notes to keep"
       ],
-      "words": 2649,
-      "lines": 121,
+      "words": 2945,
+      "lines": 122,
       "assessment_bearing": false,
       "namespace": "fde-craft",
       "decay": "slow",
@@ -4211,7 +4211,7 @@
         "Perishability",
         "Related pages"
       ],
-      "words": 2674,
+      "words": 2792,
       "lines": 107,
       "assessment_bearing": false,
       "namespaces": {
@@ -6320,8 +6320,8 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 5268,
-      "lines": 261,
+      "words": 5570,
+      "lines": 264,
       "module": "M08",
       "quarter": "Q4",
       "complexity_class": 3,
@@ -6471,8 +6471,8 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 5289,
-      "lines": 250,
+      "words": 6220,
+      "lines": 258,
       "module": "M08",
       "quarter": "Q4",
       "complexity_class": 3,
@@ -7823,8 +7823,8 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 5950,
-      "lines": 284,
+      "words": 6778,
+      "lines": 293,
       "module": "M14",
       "quarter": "Q7",
       "complexity_class": 5,
@@ -7842,6 +7842,7 @@
       "assessment_bearing": false,
       "namespaces": {
         "measurement": 2,
+        "fde-craft": 1,
         "platform": 1
       },
       "primary_namespace": "measurement",
@@ -8857,6 +8858,7 @@
       "title": "S087 · The Safety Case",
       "headings": [
         "What this day is for",
+        "The delivery standard on this day",
         "Phase 1 · Pretest and prediction (25 min)",
         "Phase 2 · Cumulative retrieval set (20 min)",
         "Phase 3 · Contrasting cases and generation (45 min)",
@@ -8871,8 +8873,8 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 7603,
-      "lines": 278,
+      "words": 8321,
+      "lines": 297,
       "module": "M18",
       "quarter": "Q9",
       "complexity_class": 6,
@@ -8974,8 +8976,8 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 9224,
-      "lines": 302,
+      "words": 9794,
+      "lines": 307,
       "module": "M18",
       "quarter": "Q9",
       "complexity_class": 6,
@@ -10906,8 +10908,8 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 7939,
-      "lines": 250,
+      "words": 8541,
+      "lines": 253,
       "module": "M08",
       "quarter": "Q4",
       "complexity_class": 3,
@@ -11065,8 +11067,8 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 7871,
-      "lines": 251,
+      "words": 8576,
+      "lines": 254,
       "module": "M08",
       "quarter": "Q4",
       "complexity_class": 3,
@@ -12500,8 +12502,8 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 8372,
-      "lines": 263,
+      "words": 9197,
+      "lines": 270,
       "module": "M14",
       "quarter": "Q7",
       "complexity_class": 5,
@@ -12520,6 +12522,7 @@
         "measurement": 3,
         "curriculum": 2,
         "assessment": 1,
+        "fde-craft": 1,
         "platform": 1
       },
       "primary_namespace": "measurement",
@@ -13630,8 +13633,8 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 9126,
-      "lines": 247,
+      "words": 9635,
+      "lines": 250,
       "module": "M18",
       "quarter": "Q9",
       "complexity_class": 6,
@@ -13740,8 +13743,8 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 9818,
-      "lines": 262,
+      "words": 10357,
+      "lines": 265,
       "module": "M18",
       "quarter": "Q9",
       "complexity_class": 6,
@@ -14001,6 +14004,11 @@
     {
       "from": "README",
       "to": "LICENSE",
+      "type": "links_to"
+    },
+    {
+      "from": "README",
+      "to": "research/04-professional-formation/collected-materials",
       "type": "links_to"
     },
     {
@@ -15152,6 +15160,11 @@
       "from": "research/05-fde-craft/beyer-holtzblatt-contextual-design",
       "to": "research/05-fde-craft/collected-materials",
       "type": "part_of"
+    },
+    {
+      "from": "research/05-fde-craft/collected-materials",
+      "to": "research/05-fde-craft/hiatt-adkar",
+      "type": "links_to"
     },
     {
       "from": "research/05-fde-craft/evans-domain-driven-design",
@@ -21850,12 +21863,12 @@
     },
     {
       "from": "wiki/program/14-FDE-Delivery-Standard",
-      "to": "wiki/program/10-Substrate-and-Infrastructure",
+      "to": "wiki/seminars/S089",
       "type": "links_to"
     },
     {
       "from": "wiki/program/14-FDE-Delivery-Standard",
-      "to": "wiki/seminars/S089",
+      "to": "wiki/program/10-Substrate-and-Infrastructure",
       "type": "links_to"
     },
     {
@@ -27570,6 +27583,11 @@
     },
     {
       "from": "wiki/seminars/S036",
+      "to": "wiki/seminars/S089",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S036",
       "to": "wiki/program/12-Copilot-Practice-Standard",
       "type": "links_to"
     },
@@ -32575,6 +32593,11 @@
     },
     {
       "from": "wiki/seminars/S066",
+      "to": "wiki/program/13-Agent-Configuration-Standard",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S066",
       "to": "wiki/program/05-Whitepaper-Standard",
       "type": "links_to"
     },
@@ -32640,8 +32663,13 @@
     },
     {
       "from": "wiki/seminars/S066",
-      "to": "wiki/program/13-Agent-Configuration-Standard",
+      "to": "research/05-fde-craft/microsoft-ise-engineering-playbook",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S066",
+      "to": "research/05-fde-craft/microsoft-ise-engineering-playbook",
+      "type": "grounded_in"
     },
     {
       "from": "wiki/seminars/S066",
@@ -37231,6 +37259,16 @@
     {
       "from": "wiki/seminars/S087",
       "to": "wiki/seminars/S079",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S087",
+      "to": "wiki/program/14-FDE-Delivery-Standard",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S087",
+      "to": "wiki/seminars/S036",
       "type": "links_to"
     },
     {
@@ -42247,6 +42285,11 @@
       "from": "wiki/whitepapers/WP-036",
       "to": "research/04-professional-formation/dellacqua-jagged-technological-frontier",
       "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-036",
+      "to": "wiki/seminars/S089",
+      "type": "links_to"
     },
     {
       "from": "wiki/whitepapers/WP-036",
@@ -47770,6 +47813,11 @@
     },
     {
       "from": "wiki/whitepapers/WP-066",
+      "to": "wiki/program/13-Agent-Configuration-Standard",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-066",
       "to": "wiki/whitepapers/WP-054",
       "type": "links_to"
     },
@@ -47835,11 +47883,6 @@
     },
     {
       "from": "wiki/whitepapers/WP-066",
-      "to": "wiki/program/13-Agent-Configuration-Standard",
-      "type": "links_to"
-    },
-    {
-      "from": "wiki/whitepapers/WP-066",
       "to": "research/03-measurement-evaluation/shankar-evalgen",
       "type": "links_to"
     },
@@ -47896,6 +47939,16 @@
     {
       "from": "wiki/whitepapers/WP-066",
       "to": "research/08-assessment-epas/ten-cate-epa-framework",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-066",
+      "to": "research/05-fde-craft/microsoft-ise-engineering-playbook",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-066",
+      "to": "research/05-fde-craft/microsoft-ise-engineering-playbook",
       "type": "grounded_in"
     },
     {
@@ -53787,6 +53840,16 @@
       "from": "wiki/whitepapers/WP-087",
       "to": "research/04-professional-formation/keith-frese-error-management-training",
       "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-087",
+      "to": "wiki/seminars/S036",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-087",
+      "to": "wiki/program/14-FDE-Delivery-Standard",
+      "type": "links_to"
     },
     {
       "from": "wiki/whitepapers/WP-087",
@@ -57597,6 +57660,19 @@
       "assessment_bearing": false
     },
     {
+      "id": "S036.p11",
+      "day": "wiki/seminars/S036",
+      "module": "M08",
+      "quarter": "Q4",
+      "durable": "Whether to build at all is a governance obligation before it is a preference, and it is cheapest asked before the thing exists",
+      "perishable": "The delivery standard's fifth principle, arriving as an assessment whose standing first question is whether AI is needed",
+      "platform_anchor": "Azure API Management `llm-token-limit` policy, deployed with Bicep",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
       "id": "S037.p1",
       "day": "wiki/seminars/S037",
       "module": "M08",
@@ -57980,6 +58056,32 @@
       "quarter": "Q4",
       "durable": "A table of numbers in a confident voice reads as a benchmark whether or not anyone measured anything",
       "perishable": "The playbook's threshold catalogue, handed over labelled sourceless",
+      "platform_anchor": "Foundry model-deployment quota and the published quota-increase criterion · API Management `llm-token-limit` as the enforced constraint",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S039.p12",
+      "day": "wiki/seminars/S039",
+      "module": "M08",
+      "quarter": "Q4",
+      "durable": "A bound stated as a count is checkable and a bound stated as a duration is arguable",
+      "perishable": "The two-round-trip escalation rule in the playbook's async design-review workflow",
+      "platform_anchor": "Foundry model-deployment quota and the published quota-increase criterion · API Management `llm-token-limit` as the enforced constraint",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S039.p13",
+      "day": "wiki/seminars/S039",
+      "module": "M08",
+      "quarter": "Q4",
+      "durable": "A standard that prescribes freely and promises once has told you which of its instructions it expects to be held to",
+      "perishable": "The single stated review window, the only service level anywhere on the site",
       "platform_anchor": "Foundry model-deployment quota and the published quota-increase criterion · API Management `llm-token-limit` as the enforced constraint",
       "namespace": "platform",
       "decay": "months",
@@ -60418,6 +60520,19 @@
       "assessment_bearing": false
     },
     {
+      "id": "S066.p9",
+      "day": "wiki/seminars/S066",
+      "module": "M14",
+      "quarter": "Q7",
+      "durable": "An instrument's grammar tells you what class of conclusion it licenses, and one document may carry both kinds unmarked",
+      "perishable": "The playbook's nine-field pull request template beside its engineering fundamentals checklist",
+      "platform_anchor": "Foundry cloud evaluation run as a CI gate — the `microsoft/ai-agent-evals` GitHub Action (preview) and the Foundry evaluator catalogue",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
       "id": "S067.p1",
       "day": "wiki/seminars/S067",
       "module": "M14",
@@ -62829,6 +62944,32 @@
       "quarter": "Q9",
       "durable": "A case expires by event as well as by date",
       "perishable": "An authentication change; a table that is being deprecated",
+      "platform_anchor": "Microsoft Foundry observability — agent tracing into the one Application Insights resource connected to the project — as the store every evidence item in the case is produced from",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S087.p9",
+      "day": "wiki/seminars/S087",
+      "module": "M18",
+      "quarter": "Q9",
+      "durable": "An obligation that produces work outlives an approval that produces a state",
+      "perishable": "The delivery standard's fifth principle — architecture, security and responsible AI generating backlog items rather than sign-offs",
+      "platform_anchor": "Microsoft Foundry observability — agent tracing into the one Application Insights resource connected to the project — as the store every evidence item in the case is produced from",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S087.p10",
+      "day": "wiki/seminars/S087",
+      "module": "M18",
+      "quarter": "Q9",
+      "durable": "A document that is maintained is an obligation; one that is filed is a sign-off with an appendix",
+      "perishable": "The responsible-AI review and impact assessment, specified to remain living",
       "platform_anchor": "Microsoft Foundry observability — agent tracing into the one Application Insights resource connected to the project — as the store every evidence item in the case is produced from",
       "namespace": "platform",
       "decay": "months",
@@ -68401,6 +68542,23 @@
       }
     },
     {
+      "id": "WP-036.pred8",
+      "whitepaper": "wiki/whitepapers/WP-036",
+      "day": "wiki/seminars/S036",
+      "module": "M08",
+      "quarter": "Q4",
+      "label": "Prediction 8 — the disagreement task's own, added 2026-07-30.",
+      "claim": "Every group will find at least one disagreement, **and the modal find will be a difference in prescribed convention — a naming scheme, a field count, a template ceiling — rather than a difference in judgement about what is a good idea**, which is the harder and more consequential kind.",
+      "instrument": "the surfaced disagreements coded into two classes, convention and judgement, and by whether both pages sit inside the group's own assigned section. **The prediction is that a reader scanning for inconsistency finds the ones a text search would find**, which would mean the task is exercising attention rather than the reading skill the pass exists to build. If judgement-class disagreements are found at any appreciable rate, the task is doing more than its minute is paying for and should be given the whole pass's closing question rather than a share of it.",
+      "namespace": "fde-craft",
+      "namespaces": {
+        "fde-craft": 5,
+        "pedagogy": 2,
+        "measurement": 1,
+        "platform": 1
+      }
+    },
+    {
       "id": "WP-037.pred1",
       "whitepaper": "wiki/whitepapers/WP-037",
       "day": "wiki/seminars/S037",
@@ -68718,6 +68876,21 @@
       "label": "Prediction 8.",
       "claim": "Among students who state a numeric threshold in the eight-field form, those given the playbook's catalogue will justify their number by reference to it at a higher rate than they justify it from their own evidence, on first attempt and despite the sourceless label.",
       "instrument": "step 1 thresholds coded for justification source. **A high rate would show the label doing no work, which is the result the design expects and the reason the catalogue is handed over at all rather than withheld.**",
+      "namespace": "fde-craft",
+      "namespaces": {
+        "fde-craft": 6,
+        "platform": 1
+      }
+    },
+    {
+      "id": "WP-039.pred9",
+      "whitepaper": "wiki/whitepapers/WP-039",
+      "day": "wiki/seminars/S039",
+      "module": "M08",
+      "quarter": "Q4",
+      "label": "Prediction 9 — point 14's own, added 2026-07-30.",
+      "claim": "Asked at the next-morning retrieval to restate the escalation rule, **a majority of students who reproduce it correctly in substance will state it as a duration rather than as a count** — *after a day or two*, *if it drags on* — and the reversion rate will be higher among students who have worked in an organisation with a stated response-time norm.",
+      "instrument": "the next-morning between-day responses coded into three classes — count-stated, duration-stated, and neither — split by the admission background survey. **The prediction is that the rule's content survives and its form does not**, which matters because the form is the whole of what makes it checkable; if the count is retained at a high rate, point 14's second half is doing no work and the point can be compressed to the workflow alone.",
       "namespace": "fde-craft",
       "namespaces": {
         "fde-craft": 6,
@@ -71188,6 +71361,7 @@
         "measurement": 3,
         "curriculum": 2,
         "assessment": 1,
+        "fde-craft": 1,
         "platform": 1
       }
     },
@@ -71205,6 +71379,7 @@
         "measurement": 3,
         "curriculum": 2,
         "assessment": 1,
+        "fde-craft": 1,
         "platform": 1
       }
     },
@@ -71222,6 +71397,7 @@
         "measurement": 3,
         "curriculum": 2,
         "assessment": 1,
+        "fde-craft": 1,
         "platform": 1
       }
     },
@@ -71239,6 +71415,7 @@
         "measurement": 3,
         "curriculum": 2,
         "assessment": 1,
+        "fde-craft": 1,
         "platform": 1
       }
     },
@@ -71256,6 +71433,7 @@
         "measurement": 3,
         "curriculum": 2,
         "assessment": 1,
+        "fde-craft": 1,
         "platform": 1
       }
     },
@@ -71273,6 +71451,25 @@
         "measurement": 3,
         "curriculum": 2,
         "assessment": 1,
+        "fde-craft": 1,
+        "platform": 1
+      }
+    },
+    {
+      "id": "WP-066.pred7",
+      "whitepaper": "wiki/whitepapers/WP-066",
+      "day": "wiki/seminars/S066",
+      "module": "M14",
+      "quarter": "Q7",
+      "label": "Prediction 7 — point 12's own, added 2026-07-30.",
+      "claim": "At the phase 4 classification, **a majority of students will place the pull request checklist item correctly as an executable check, and a substantial minority will place the aspirational fundamentals item at *executable check* or higher rather than at *configured control***; the misplacement rate will be higher for the aspirational item than for any platform default named at point 9.",
+      "instrument": "the phase 4 written classifications pooled at phase 8, coded per item against the five classes, with the aspirational item's distribution reported separately from the pull request item's. **The prediction is that the ladder is applied confidently to instruments that look like checks and abandoned for instruments that look like standards**, which is the same asymmetry point 2 describes between the two error rates. If both items are classified correctly at a high rate, the cohort holds the distinction already and point 12 is consolidation rather than content.",
+      "namespace": "measurement",
+      "namespaces": {
+        "measurement": 3,
+        "curriculum": 2,
+        "assessment": 1,
+        "fde-craft": 1,
         "platform": 1
       }
     },
@@ -73313,6 +73510,24 @@
       }
     },
     {
+      "id": "WP-087.pred7",
+      "whitepaper": "wiki/whitepapers/WP-087",
+      "day": "wiki/seminars/S087",
+      "module": "M18",
+      "quarter": "Q9",
+      "label": "Prediction 7 — principle 5's own, added 2026-07-30.",
+      "claim": "At step 5, where every assumption must carry a responsible party or an explicit *none*, **the entries that are supplied will more often name an approval that has already happened than work that somebody currently owes** — *reviewed at the design review*, *cleared by the platform team* — and the effect will be strongest in the environment set and weakest in the adversary set, because nobody has signed anything about an adversary.",
+      "instrument": "step 5 responsible-party entries coded into three classes — approval-shaped, work-shaped and explicit none — reported as a distribution and cross-tabulated against assumption kind. **The prediction is that students discharge an ownership requirement with the nearest available signature**, which is the sign-off habit the delivery-standard section exists to name; if work-shaped entries dominate, the distinction is already held and the section is consolidation rather than content. **A high explicit-*none* rate is not a failure on this instrument** and is read against prediction 3's ownership distribution rather than against this one.",
+      "namespace": "measurement",
+      "namespaces": {
+        "measurement": 3,
+        "ai-systems": 2,
+        "fde-craft": 2,
+        "pedagogy": 2,
+        "platform": 1
+      }
+    },
+    {
       "id": "WP-088.pred1",
       "whitepaper": "wiki/whitepapers/WP-088",
       "day": "wiki/seminars/S088",
@@ -73519,6 +73734,24 @@
       "label": "Prediction 6 — the frontier item.",
       "claim": "A large majority of item 8 sealed predictions will name a **deny setting** as the term the agent will choose for them, and a small minority will name the **unmanage action**.",
       "instrument": "item 8 responses coded by setting against the settings the agent actually supplied at step 8. **The design predicts that the room's attention is on protection and the agent's most consequential choice is about destruction**, which is the phase 6 case's mechanism and would be, if it holds, a frontier finding about where a room looks when it reviews generated infrastructure. Its reader is next year's cohort, through the [Durable and Perishable Register](/wiki/program/09-Durable-and-Perishable-Register.md).",
+      "namespace": "fde-craft",
+      "namespaces": {
+        "fde-craft": 4,
+        "assessment": 3,
+        "pedagogy": 2,
+        "ai-systems": 1,
+        "platform": 1
+      }
+    },
+    {
+      "id": "WP-089.pred7",
+      "whitepaper": "wiki/whitepapers/WP-089",
+      "day": "wiki/seminars/S089",
+      "module": "M18",
+      "quarter": "Q9",
+      "label": "Prediction 7 — the contradiction finding's own, added 2026-07-30.",
+      "claim": "At phase 7, where the partner reads the artefact alone and must name one thing they need that it does not tell them, **the modal answer will be an omission and almost none will be an internal disagreement** — a place where the artefact, or a document it incorporates by reference, says two incompatible things.",
+      "instrument": "phase 7 first answers coded into three classes — omission, internal disagreement, and disagreement between the artefact and a document it points at — with the same coding applied to the day 3 between-day exercise on a supplied artefact. **The prediction is that a reader hunting for what is missing does not notice what is doubled**, which is the mechanism by which an unadjudicated contradiction survives a handover review. If internal disagreements are named at any appreciable rate, the delivery-standard section is teaching something the cohort already detects and the material belongs at [S034](/wiki/seminars/S034.md) rather than here.",
       "namespace": "fde-craft",
       "namespaces": {
         "fde-craft": 4,
@@ -75608,7 +75841,7 @@
         "research/05-fde-craft/microsoft-ise-engineering-playbook"
       ],
       "namespace": "fde-craft",
-      "words": 763
+      "words": 983
     },
     {
       "id": "WP-036.e4",
@@ -75646,7 +75879,7 @@
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
       "namespace": "fde-craft",
-      "words": 251
+      "words": 320
     },
     {
       "id": "WP-037.e1",
@@ -75777,7 +76010,7 @@
         "research/05-fde-craft/collected-materials"
       ],
       "namespace": "fde-craft",
-      "words": 544
+      "words": 743
     },
     {
       "id": "WP-039.e4",
@@ -75815,7 +76048,7 @@
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
       "namespace": "fde-craft",
-      "words": 325
+      "words": 386
     },
     {
       "id": "WP-040.e1",
@@ -77324,10 +77557,11 @@
         "research/03-measurement-evaluation/singh-leaderboard-illusion",
         "research/01-course-structure/collected-materials",
         "research/01-course-structure/cmu-17-645-ml-in-production-ai-engineering",
-        "research/08-assessment-epas/ten-cate-epa-framework"
+        "research/08-assessment-epas/ten-cate-epa-framework",
+        "research/05-fde-craft/microsoft-ise-engineering-playbook"
       ],
       "namespace": "measurement",
-      "words": 59
+      "words": 321
     },
     {
       "id": "WP-066.e4",
@@ -77365,7 +77599,7 @@
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
       "namespace": "measurement",
-      "words": 290
+      "words": 347
     },
     {
       "id": "WP-067.e1",
@@ -78584,7 +78818,7 @@
         "research/04-professional-formation/keith-frese-error-management-training"
       ],
       "namespace": "measurement",
-      "words": 86
+      "words": 325
     },
     {
       "id": "WP-087.e4",
@@ -78622,7 +78856,7 @@
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
       "namespace": "measurement",
-      "words": 273
+      "words": 372
     },
     {
       "id": "WP-088.e1",
@@ -78706,7 +78940,7 @@
         "research/04-professional-formation/keith-frese-error-management-training"
       ],
       "namespace": "fde-craft",
-      "words": 305
+      "words": 632
     },
     {
       "id": "WP-089.e4",
@@ -78744,7 +78978,7 @@
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
       "namespace": "fde-craft",
-      "words": 460
+      "words": 510
     },
     {
       "id": "WP-090.e1",

@@ -45,7 +45,7 @@ function Check([string]$label, [bool]$ok, [string]$detail = '') {
 
 # Keep this exclusion list identical to the one in build-graph.ps1. If the gate scans
 # a directory the builder skips, it reports link failures for files that are not nodes.
-$md = Get-ChildItem -Recurse -File -Filter *.md | Where-Object { $_.FullName -notmatch '[\\/](node_modules|\.git|\.venv|venv|__pycache__|site-packages)[\\/]' }
+$md = Get-ChildItem -Recurse -File -Filter *.md | Where-Object { $_.FullName -notmatch '[\\/](node_modules|\.git|\.venv|venv|__pycache__|site-packages|raw)[\\/]' }
 
 Write-Host "`nHVE IQ verification gate`n"
 
@@ -68,6 +68,45 @@ $after  = Get-ChildItem (Join-Path $repo 'graph') -File | Where-Object { $_.Exte
           Sort-Object Name | ForEach-Object { (Get-FileHash $_.FullName).Hash }
 Check 'graph is deterministic across rebuilds' (-not (Compare-Object $before $after)) `
       'two consecutive builds of the same substrate must be byte-identical'
+
+# graph/ is committed and public. raw/ is gitignored because this repository is not
+# licensed to redistribute what is in it -- purchased books, and access-controlled
+# internal documents. Those two facts only stay compatible while nothing derived from
+# raw/ reaches graph/, and gitignore does not enforce that: it stops the FILES being
+# committed and says nothing about an index built from them. A scan that reached raw/
+# put 98 internal document paths and titles into graph/nodes.jsonl. It was caught by
+# the link gate, by luck, because internal documents link to internal hosts.
+#
+# This check removes the luck. Any gitignored path appearing in a committed derived
+# artefact is a leak, whatever produced it, and the assertion is about the OUTPUT so
+# it holds no matter how the exclusion list drifts.
+#
+# The pattern is '"([^"]*/)?<dir>/' and the optional group is load-bearing. The first
+# version written here was '"[^"]*(^|/)<dir>/', which cannot match anything: '^'
+# anchors to the start of the whole string, so after '[^"]*' the alternation collapses
+# to '/' alone and a value that BEGINS with the directory -- which is exactly what a
+# node id looks like -- slips through. That guard passed on a tree that had just
+# leaked 98 records. A gate is not verified by running it on clean input; the
+# negative test below is the check, and it must stay.
+$leakPattern = { param($dir) '"([^"]*/)?' + [regex]::Escape($dir) + '/' }
+if (('{"id":"raw/x/y","path":"raw/x/y.md"}' -notmatch (& $leakPattern 'raw')) -or
+    ('{"id":"wiki/seminars/S066"}'          -match  (& $leakPattern 'raw'))) {
+    throw 'leak-guard self-test failed: the pattern does not discriminate. Fix before trusting this gate.'
+}
+$derived = Get-ChildItem (Join-Path $repo 'graph') -File | Where-Object { $_.Extension -in '.json', '.jsonl' }
+$ignoredTop = @(Get-ChildItem $repo -Directory -Force |
+                Where-Object { $_.Name -notin '.git' } |
+                Where-Object { git check-ignore -q $_.FullName 2>$null; $LASTEXITCODE -eq 0 } |
+                ForEach-Object { $_.Name })
+$leaks = foreach ($dir in $ignoredTop) {
+    foreach ($f in $derived) {
+        if (Select-String -Path $f.FullName -Pattern (& $leakPattern $dir) -Quiet) {
+            "graph/$($f.Name) references gitignored '$dir/'"
+        }
+    }
+}
+Check 'no gitignored path reaches the committed graph' ($leaks.Count -eq 0) `
+      $(if ($leaks) { $leaks -join '; ' } else { "self-tested; checked $($ignoredTop.Count) gitignored top-level directories" })
 
 # ---------------------------------------------------------------- links
 

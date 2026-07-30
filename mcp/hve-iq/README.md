@@ -79,10 +79,10 @@ All three claim layers are extracted mechanically from structure the substrate a
 
 | Layer | Rows | Granularity | Covers |
 |---|---|---|---|
-| Platform claims | **634** | atomic — one durable/perishable pair per row | `platform`, 89 of 90 days |
-| Predictions | **512** | atomic — one falsifiable claim + named instrument | **all namespaces**, 90 papers |
+| Platform claims | **646** | atomic — one durable/perishable pair per row | `platform`, 89 of 90 days |
+| Predictions | **520** | atomic — one falsifiable claim + named instrument | **all namespaces**, 90 papers |
 | Evidence ledger | **360** | **class-level, not atomic** | all namespaces, 90 papers × 4 classes |
-| Teaching moves | **680** | atomic — one eliciting item or one contrasting case | all 90 days; 34 contribute no cases |
+| Teaching moves | **683** | atomic — one eliciting item or one contrasting case | all 90 days; 33 contribute no cases |
 
 **The fourth layer exists because the first three were all answers.** Every one of them returns something finished, and an agent handed only finished things consolidates — not from carelessness, but because consolidating is the only move the data supports. A tutor built on this server did exactly that: it opened a session by delivering eight settled claims to someone who had committed to nothing. `teaching-moves.jsonl` indexes the question each day asks *before* it explains, which is the half of the design that was written down in prose and never made queryable. See [dialogues.md](/mcp/hve-iq/dialogues.md).
 
