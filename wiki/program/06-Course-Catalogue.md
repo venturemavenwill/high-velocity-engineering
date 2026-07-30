@@ -180,6 +180,7 @@
 - [Microsoft AI Platform Map](/wiki/program/11-Microsoft-AI-Platform-Map.md)
 - [Copilot Practice Standard](/wiki/program/12-Copilot-Practice-Standard.md)
 - [Agent Configuration Standard](/wiki/program/13-Agent-Configuration-Standard.md)
+- [FDE Delivery Standard](/wiki/program/14-FDE-Delivery-Standard.md)
 - [Module Map](/wiki/program/07-Module-Map.md)
 - [Seminar Day Index](/wiki/program/08-Seminar-Day-Index.md)
 - [Outcomes and Accreditation Map](/wiki/program/01-Outcomes-and-Accreditation-Map.md)

@@ -9,6 +9,7 @@ Every source below has a Cliff Notes file under `research/`. Entries record the 
 ## Internal documents, not external sources
 - `README.md`
 - `sources/vendor-courses/03-Accelerate-Agentic-AI.md` — synthesis of internal Microsoft LevelUp course ID 2307124. **Not publicly accessible; not citable externally.**
+- **The ISE FDE delivery standard** ("How We Work — ISE FDE") — reachable at a personal GitHub Pages address, but its footer carries a **`CONFIDENTIAL`** marking, it is not hosted on an official Microsoft domain, and it attributes content to named employees, internal document titles and internal meeting dates. **Filed here rather than in a source table: not citable externally, and not published Microsoft guidance.** Only its durable structure — principles, phases, roles, artefact chain — is carried into teaching, and no name, internal title or internal date appears anywhere in this repository. Note: [microsoft-fde-handbook.md](/research/05-fde-craft/microsoft-fde-handbook.md); binding page: [14-FDE-Delivery-Standard.md](/wiki/program/14-FDE-Delivery-Standard.md).
 - `sources/vendor-courses/06-Hypervelocity-Engineering-Framework.md`
 - `research/01-course-structure/09-curriculum-design-benchmark-and-sources.md`
 - `research/01-course-structure/10-gap-analysis-and-course-architecture.md`
@@ -79,7 +80,7 @@ Retained but out of scope for source verification: course structure, technical f
 | Hiatt, *ADKAR* | Prosci Inc., 2006; LCCN 2006903241, verified from the book's own copyright page | copyrighted; local EPUB | **full text** |
 | Kotter, *Leading Change* | HBS Press; the local copy is the later edition carrying the author's new preface | copyrighted; local EPUB | **full text** |
 | Portigal, *Interviewing Users* | Rosenfeld Media, 2013; ISBN-13 978-1-933820-11-8 | copyrighted; local EPUB | full |
-| Microsoft ISE Engineering Fundamentals Playbook | `https://microsoft.github.io/code-with-engineering-playbook/`; repo `microsoft/code-with-engineering-playbook` | open | full |
+| Microsoft ISE Engineering Fundamentals Playbook | `https://microsoft.github.io/code-with-engineering-playbook/`; repo `microsoft/code-with-engineering-playbook` | open | **32 pages fetched and read in full**; page footer dates range 2021–2025, so cite by page and date, never by site |
 | "A Day in the Life of a Palantir Forward Deployed Software Engineer" | Palantir Blog, 2 November 2020 | open — **requires `?gi=` query token to fetch** | full |
 | Palantir careers, engineering roles | `https://www.palantir.com/careers/` | open | full |
 | Palantir "Dev versus Delta" (Medium) | Palantir Blog, 8 April 2019 | previously blocked by a sign-in redirect; local text copy | **full text** |

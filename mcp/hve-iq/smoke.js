@@ -67,7 +67,7 @@ const missing = await call("hve_get", { id: "wiki/seminars/S999" });
 check("unknown id fails gracefully", Boolean(missing.error));
 
 const allClaims = await call("hve_platform_exposure", { limit: 1 });
-check("618 platform claims indexed", allClaims.total_claims_indexed === 618, `${allClaims.total_claims_indexed}`);
+check("634 platform claims indexed", allClaims.total_claims_indexed === 634, `${allClaims.total_claims_indexed}`);
 check("only S090 remains a blind spot", allClaims.blind_spot_days.length === 1 && allClaims.blind_spot_days[0] === "wiki/seminars/S090",
   `${allClaims.blind_spot_days.length} day(s)`);
 

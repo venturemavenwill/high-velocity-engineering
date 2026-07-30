@@ -167,6 +167,7 @@ Three specific exposures follow, and they are recorded rather than mitigated.
 ## Related pages
 
 - [Copilot Practice Standard](/wiki/program/12-Copilot-Practice-Standard.md)
+- [FDE Delivery Standard](/wiki/program/14-FDE-Delivery-Standard.md) — principle 6 is this standard's human-approval rule, reached independently by a second source, and its phase 7 is this RPI loop at engagement scale
 - [Microsoft AI Platform Map](/wiki/program/11-Microsoft-AI-Platform-Map.md)
 - [Durable and Perishable Register](/wiki/program/09-Durable-and-Perishable-Register.md)
 - [Seminar Day Design Pattern](/wiki/program/04-Seminar-Day-Design-Pattern.md)

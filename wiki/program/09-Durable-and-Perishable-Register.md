@@ -41,6 +41,9 @@ Content whose truth is not expected to change over the life of the programme. Ma
 | The five classes of conclusion: configured control, executable check, observed result, outcome evidence, unsupported inference | PE101, ME101, S088 | An epistemic distinction, independent of any tool that occasions it |
 | A durable record buys provenance and restartability, and buys nothing about correctness | S075, ME302 | Follows from what a record is |
 | Untrusted input is data and never authority | S076, SG201 | Predates agents; it is the injection argument in general form |
+| Discovery precedes requirements, and a technical specification is derived from a business one rather than authored beside it | PE strand, S036–S040 | An ordering claim about knowing before committing, independent of any delivery standard |
+| A decision record is the correct home for a change to a settled specification | PE strand, S089 | Follows from what a specification is for |
+| A trade study performed where the choice is already clear is a defect | PE strand | Follows from what a trade study is for |
 
 ---
 
@@ -117,6 +120,9 @@ Two things distinguish this class from the perishable table and are the reason i
 | Its untrusted-content instruction, and whether the host in use attaches it | Q5, Q8 | Untrusted input is data and never authority |
 | Its advisory and authoritative evaluation tiers, and its regex-graded behavioural checks | Q7, Q8 | A gate's authority is a property of where it runs; a grader tests the shape it was written to test |
 | Its opt-in local telemetry, redaction default and verbatim opt-in | Q8 | Instrumenting your own tool use is a design decision with a privacy cost |
+| The FDE delivery standard's eight phases, their durations, owners and role names | PE strand, all three years | Discovery precedes requirements; specification is derived; change becomes a decision record |
+| Its six operating principles as worded, and the checklist tags they map to | PE strand | The principles' content is durable; this wording, and the document carrying it, are not |
+| The engineering playbook's checklists, templates and page-level currency | PE strand | Artefacts are specified precisely enough to be marked; which artefacts, and at what version, is not |
 
 ### What the verification pass checks
 
@@ -137,6 +143,8 @@ Carried from [research/06-microsoft-platform/](/research/06-microsoft-platform/c
 - **Any evaluator's agreement with human judgement.** None is published. Every judged score produced by this stack is described as uncalibrated, and students are taught to say so.
 - **Any detection or false-positive rate for Purview or Defender.** None is published.
 - **Any productivity, quality, defect-rate, safety, correctness or learning outcome attributed to an agent configuration corpus**, by its authors or by anyone else. At the pinned revision the corpus behind the [Agent Configuration Standard](/wiki/program/13-Agent-Configuration-Standard.md) contained evaluation machinery and **no committed result corpus**, while its own prose used the vocabulary of demonstrated benefit. **The machinery is real and it is not a result**, and the gap between the two is taught rather than tidied away.
+- **Any outcome attributed to a delivery standard or an engineering playbook.** Neither source behind the [FDE Delivery Standard](/wiki/program/14-FDE-Delivery-Standard.md) reports an evaluation, a comparison or a measurement; the phase durations are plans and the AI-generation shares are assertions. **That following a standard produces better engagements is not a finding**, and no day may assert it.
+- **That the cost of code review is negative.** The playbook's own code-review page asserts it with no evidence. It appears in this repository only on the page that refuses it.
 
 **The rule that no effect size is asserted for an unverified source applies to vendor material exactly as it applies to research literature.** The asymmetry students are taught to notice is that every source in the folder states a latency or a sampling bound and none states an accuracy — a property consistent enough across six independent sources to be a feature of the genre rather than an oversight by any one author.
 

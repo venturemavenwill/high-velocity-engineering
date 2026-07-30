@@ -287,12 +287,26 @@
 {"from":"research/05-fde-craft/kotter-leading-change","to":"research/99-source-register/source-register","type":"links_to"}
 {"from":"research/05-fde-craft/kotter-leading-change","to":"concepts/namespaces","type":"links_to"}
 {"from":"research/05-fde-craft/kotter-leading-change","to":"research/05-fde-craft/collected-materials","type":"part_of"}
+{"from":"research/05-fde-craft/microsoft-fde-handbook","to":"research/05-fde-craft/microsoft-ise-engineering-playbook","type":"links_to"}
+{"from":"research/05-fde-craft/microsoft-fde-handbook","to":"sources/vendor-courses/03-Accelerate-Agentic-AI","type":"links_to"}
+{"from":"research/05-fde-craft/microsoft-fde-handbook","to":"sources/vendor-courses/03-Accelerate-Agentic-AI","type":"summarises"}
+{"from":"research/05-fde-craft/microsoft-fde-handbook","to":"research/99-source-register/source-register","type":"links_to"}
+{"from":"research/05-fde-craft/microsoft-fde-handbook","to":"research/06-microsoft-platform/hve-core-repository","type":"links_to"}
+{"from":"research/05-fde-craft/microsoft-fde-handbook","to":"concepts/namespaces","type":"links_to"}
+{"from":"research/05-fde-craft/microsoft-fde-handbook","to":"wiki/program/11-Microsoft-AI-Platform-Map","type":"links_to"}
+{"from":"research/05-fde-craft/microsoft-fde-handbook","to":"wiki/program/09-Durable-and-Perishable-Register","type":"links_to"}
+{"from":"research/05-fde-craft/microsoft-fde-handbook","to":"research/05-fde-craft/palantir-fde-practitioner-writing","type":"links_to"}
+{"from":"research/05-fde-craft/microsoft-fde-handbook","to":"research/05-fde-craft/collected-materials","type":"part_of"}
+{"from":"research/05-fde-craft/microsoft-ise-engineering-playbook","to":"research/05-fde-craft/palantir-fde-practitioner-writing","type":"links_to"}
+{"from":"research/05-fde-craft/microsoft-ise-engineering-playbook","to":"research/05-fde-craft/microsoft-fde-handbook","type":"links_to"}
 {"from":"research/05-fde-craft/microsoft-ise-engineering-playbook","to":"research/05-fde-craft/collected-materials","type":"part_of"}
 {"from":"research/05-fde-craft/palantir-fde-practitioner-writing","to":"research/99-source-register/source-register","type":"links_to"}
 {"from":"research/05-fde-craft/palantir-fde-practitioner-writing","to":"research/05-fde-craft/collected-materials","type":"links_to"}
 {"from":"research/05-fde-craft/palantir-fde-practitioner-writing","to":"research/05-fde-craft/reading-list","type":"links_to"}
 {"from":"research/05-fde-craft/palantir-fde-practitioner-writing","to":"research/05-fde-craft/collected-materials","type":"part_of"}
 {"from":"research/05-fde-craft/portigal-interviewing-users","to":"research/05-fde-craft/collected-materials","type":"part_of"}
+{"from":"research/05-fde-craft/reading-list","to":"research/05-fde-craft/microsoft-fde-handbook","type":"links_to"}
+{"from":"research/05-fde-craft/reading-list","to":"research/99-source-register/source-register","type":"links_to"}
 {"from":"research/06-microsoft-platform/03-accelerate-agentic-ai","to":"sources/vendor-courses/03-Accelerate-Agentic-AI","type":"links_to"}
 {"from":"research/06-microsoft-platform/03-accelerate-agentic-ai","to":"sources/vendor-courses/03-Accelerate-Agentic-AI","type":"summarises"}
 {"from":"research/06-microsoft-platform/03-accelerate-agentic-ai","to":"research/03-measurement-evaluation/thakur-beir","type":"links_to"}
@@ -391,6 +405,8 @@
 {"from":"research/08-assessment-epas/ten-cate-epa-framework","to":"research/03-measurement-evaluation/ten-cate-epas","type":"links_to"}
 {"from":"research/08-assessment-epas/ten-cate-epa-framework","to":"research/07-accreditation-exemplars/ten-cate-epa-framework","type":"links_to"}
 {"from":"research/08-assessment-epas/ten-cate-epa-framework","to":"research/08-assessment-epas/collected-materials","type":"part_of"}
+{"from":"research/99-source-register/source-register","to":"research/05-fde-craft/microsoft-fde-handbook","type":"links_to"}
+{"from":"research/99-source-register/source-register","to":"wiki/program/14-FDE-Delivery-Standard","type":"links_to"}
 {"from":"research/99-source-register/source-register","to":"mcp/hve-iq/README","type":"links_to"}
 {"from":"research/99-source-register/source-register","to":"research/04-professional-formation/edmondson-psychological-safety","type":"links_to"}
 {"from":"research/99-source-register/source-register","to":"research/04-professional-formation/bandura-self-efficacy","type":"links_to"}
@@ -426,6 +442,7 @@
 {"from":"wiki/Home","to":"wiki/program/11-Microsoft-AI-Platform-Map","type":"links_to"}
 {"from":"wiki/Home","to":"wiki/program/12-Copilot-Practice-Standard","type":"links_to"}
 {"from":"wiki/Home","to":"wiki/program/13-Agent-Configuration-Standard","type":"links_to"}
+{"from":"wiki/Home","to":"wiki/program/14-FDE-Delivery-Standard","type":"links_to"}
 {"from":"wiki/Home","to":"wiki/quarters/Q1","type":"links_to"}
 {"from":"wiki/Home","to":"wiki/quarters/Q2","type":"links_to"}
 {"from":"wiki/Home","to":"wiki/quarters/Q3","type":"links_to"}
@@ -1074,6 +1091,7 @@
 {"from":"wiki/program/00-Program-Charter","to":"research/04-professional-formation/bandura-self-efficacy","type":"links_to"}
 {"from":"wiki/program/00-Program-Charter","to":"research/04-professional-formation/bandura-self-efficacy","type":"grounded_in"}
 {"from":"wiki/program/00-Program-Charter","to":"wiki/program/01-Outcomes-and-Accreditation-Map","type":"links_to"}
+{"from":"wiki/program/00-Program-Charter","to":"wiki/program/14-FDE-Delivery-Standard","type":"links_to"}
 {"from":"wiki/program/01-Outcomes-and-Accreditation-Map","to":"wiki/program/03-Assessment-Architecture","type":"links_to"}
 {"from":"wiki/program/01-Outcomes-and-Accreditation-Map","to":"wiki/program/09-Durable-and-Perishable-Register","type":"links_to"}
 {"from":"wiki/program/01-Outcomes-and-Accreditation-Map","to":"wiki/program/11-Microsoft-AI-Platform-Map","type":"links_to"}
@@ -1286,6 +1304,7 @@
 {"from":"wiki/program/06-Course-Catalogue","to":"wiki/program/09-Durable-and-Perishable-Register","type":"links_to"}
 {"from":"wiki/program/06-Course-Catalogue","to":"wiki/program/12-Copilot-Practice-Standard","type":"links_to"}
 {"from":"wiki/program/06-Course-Catalogue","to":"wiki/program/13-Agent-Configuration-Standard","type":"links_to"}
+{"from":"wiki/program/06-Course-Catalogue","to":"wiki/program/14-FDE-Delivery-Standard","type":"links_to"}
 {"from":"wiki/program/06-Course-Catalogue","to":"wiki/program/07-Module-Map","type":"links_to"}
 {"from":"wiki/program/06-Course-Catalogue","to":"wiki/program/08-Seminar-Day-Index","type":"links_to"}
 {"from":"wiki/program/07-Module-Map","to":"wiki/modules/M01","type":"links_to"}
@@ -1507,6 +1526,7 @@
 {"from":"wiki/program/09-Durable-and-Perishable-Register","to":"research/06-microsoft-platform/collected-materials","type":"grounded_in"}
 {"from":"wiki/program/09-Durable-and-Perishable-Register","to":"wiki/program/11-Microsoft-AI-Platform-Map","type":"links_to"}
 {"from":"wiki/program/09-Durable-and-Perishable-Register","to":"wiki/program/13-Agent-Configuration-Standard","type":"links_to"}
+{"from":"wiki/program/09-Durable-and-Perishable-Register","to":"wiki/program/14-FDE-Delivery-Standard","type":"links_to"}
 {"from":"wiki/program/09-Durable-and-Perishable-Register","to":"wiki/program/05-Whitepaper-Standard","type":"links_to"}
 {"from":"wiki/program/09-Durable-and-Perishable-Register","to":"mcp/hve-iq/README","type":"links_to"}
 {"from":"wiki/program/09-Durable-and-Perishable-Register","to":"wiki/seminars/S090","type":"links_to"}
@@ -1578,9 +1598,22 @@
 {"from":"wiki/program/13-Agent-Configuration-Standard","to":"wiki/seminars/S076","type":"links_to"}
 {"from":"wiki/program/13-Agent-Configuration-Standard","to":"wiki/whitepapers/WP-090","type":"links_to"}
 {"from":"wiki/program/13-Agent-Configuration-Standard","to":"wiki/seminars/S088","type":"links_to"}
+{"from":"wiki/program/13-Agent-Configuration-Standard","to":"wiki/program/14-FDE-Delivery-Standard","type":"links_to"}
 {"from":"wiki/program/13-Agent-Configuration-Standard","to":"wiki/program/11-Microsoft-AI-Platform-Map","type":"links_to"}
 {"from":"wiki/program/13-Agent-Configuration-Standard","to":"wiki/program/03-Assessment-Architecture","type":"links_to"}
 {"from":"wiki/program/13-Agent-Configuration-Standard","to":"wiki/program/06-Course-Catalogue","type":"links_to"}
+{"from":"wiki/program/14-FDE-Delivery-Standard","to":"research/05-fde-craft/microsoft-ise-engineering-playbook","type":"links_to"}
+{"from":"wiki/program/14-FDE-Delivery-Standard","to":"research/05-fde-craft/microsoft-ise-engineering-playbook","type":"grounded_in"}
+{"from":"wiki/program/14-FDE-Delivery-Standard","to":"research/05-fde-craft/microsoft-fde-handbook","type":"links_to"}
+{"from":"wiki/program/14-FDE-Delivery-Standard","to":"research/05-fde-craft/microsoft-fde-handbook","type":"grounded_in"}
+{"from":"wiki/program/14-FDE-Delivery-Standard","to":"wiki/program/10-Substrate-and-Infrastructure","type":"links_to"}
+{"from":"wiki/program/14-FDE-Delivery-Standard","to":"wiki/seminars/S089","type":"links_to"}
+{"from":"wiki/program/14-FDE-Delivery-Standard","to":"wiki/seminars/S090","type":"links_to"}
+{"from":"wiki/program/14-FDE-Delivery-Standard","to":"wiki/program/12-Copilot-Practice-Standard","type":"links_to"}
+{"from":"wiki/program/14-FDE-Delivery-Standard","to":"wiki/program/13-Agent-Configuration-Standard","type":"links_to"}
+{"from":"wiki/program/14-FDE-Delivery-Standard","to":"wiki/program/06-Course-Catalogue","type":"links_to"}
+{"from":"wiki/program/14-FDE-Delivery-Standard","to":"wiki/program/03-Assessment-Architecture","type":"links_to"}
+{"from":"wiki/program/14-FDE-Delivery-Standard","to":"wiki/program/09-Durable-and-Perishable-Register","type":"links_to"}
 {"from":"wiki/quarters/Q1","to":"wiki/program/11-Microsoft-AI-Platform-Map","type":"links_to"}
 {"from":"wiki/quarters/Q1","to":"wiki/seminars/S002","type":"links_to"}
 {"from":"wiki/quarters/Q1","to":"wiki/modules/M01","type":"links_to"}
@@ -2715,6 +2748,7 @@
 {"from":"wiki/seminars/S036","to":"wiki/modules/M08","type":"links_to"}
 {"from":"wiki/seminars/S036","to":"wiki/quarters/Q4","type":"links_to"}
 {"from":"wiki/seminars/S036","to":"wiki/whitepapers/WP-036","type":"links_to"}
+{"from":"wiki/seminars/S036","to":"wiki/program/14-FDE-Delivery-Standard","type":"links_to"}
 {"from":"wiki/seminars/S036","to":"wiki/program/12-Copilot-Practice-Standard","type":"links_to"}
 {"from":"wiki/seminars/S036","to":"research/05-fde-craft/fitzpatrick-the-mom-test","type":"links_to"}
 {"from":"wiki/seminars/S036","to":"research/05-fde-craft/fitzpatrick-the-mom-test","type":"grounded_in"}
@@ -2740,6 +2774,7 @@
 {"from":"wiki/seminars/S037","to":"wiki/modules/M08","type":"links_to"}
 {"from":"wiki/seminars/S037","to":"wiki/quarters/Q4","type":"links_to"}
 {"from":"wiki/seminars/S037","to":"wiki/whitepapers/WP-037","type":"links_to"}
+{"from":"wiki/seminars/S037","to":"wiki/program/14-FDE-Delivery-Standard","type":"links_to"}
 {"from":"wiki/seminars/S037","to":"wiki/program/12-Copilot-Practice-Standard","type":"links_to"}
 {"from":"wiki/seminars/S037","to":"research/05-fde-craft/beyer-holtzblatt-contextual-design","type":"links_to"}
 {"from":"wiki/seminars/S037","to":"research/05-fde-craft/beyer-holtzblatt-contextual-design","type":"grounded_in"}
@@ -2762,6 +2797,7 @@
 {"from":"wiki/seminars/S038","to":"wiki/modules/M08","type":"links_to"}
 {"from":"wiki/seminars/S038","to":"wiki/quarters/Q4","type":"links_to"}
 {"from":"wiki/seminars/S038","to":"wiki/whitepapers/WP-038","type":"links_to"}
+{"from":"wiki/seminars/S038","to":"wiki/program/14-FDE-Delivery-Standard","type":"links_to"}
 {"from":"wiki/seminars/S038","to":"wiki/program/12-Copilot-Practice-Standard","type":"links_to"}
 {"from":"wiki/seminars/S038","to":"wiki/program/04-Seminar-Day-Design-Pattern","type":"links_to"}
 {"from":"wiki/seminars/S038","to":"research/05-fde-craft/evans-domain-driven-design","type":"links_to"}
@@ -2787,6 +2823,7 @@
 {"from":"wiki/seminars/S039","to":"wiki/modules/M08","type":"links_to"}
 {"from":"wiki/seminars/S039","to":"wiki/quarters/Q4","type":"links_to"}
 {"from":"wiki/seminars/S039","to":"wiki/whitepapers/WP-039","type":"links_to"}
+{"from":"wiki/seminars/S039","to":"wiki/program/14-FDE-Delivery-Standard","type":"links_to"}
 {"from":"wiki/seminars/S039","to":"wiki/program/12-Copilot-Practice-Standard","type":"links_to"}
 {"from":"wiki/seminars/S039","to":"wiki/program/03-Assessment-Architecture","type":"links_to"}
 {"from":"wiki/seminars/S039","to":"research/05-fde-craft/fisher-ury-getting-to-yes","type":"links_to"}
@@ -2812,6 +2849,7 @@
 {"from":"wiki/seminars/S040","to":"wiki/modules/M08","type":"links_to"}
 {"from":"wiki/seminars/S040","to":"wiki/quarters/Q4","type":"links_to"}
 {"from":"wiki/seminars/S040","to":"wiki/whitepapers/WP-040","type":"links_to"}
+{"from":"wiki/seminars/S040","to":"wiki/program/14-FDE-Delivery-Standard","type":"links_to"}
 {"from":"wiki/seminars/S040","to":"wiki/program/04-Seminar-Day-Design-Pattern","type":"links_to"}
 {"from":"wiki/seminars/S040","to":"wiki/program/12-Copilot-Practice-Standard","type":"links_to"}
 {"from":"wiki/seminars/S040","to":"wiki/program/03-Assessment-Architecture","type":"links_to"}
@@ -4375,6 +4413,7 @@
 {"from":"wiki/seminars/S081","to":"wiki/seminars/S036","type":"links_to"}
 {"from":"wiki/seminars/S081","to":"wiki/seminars/S037","type":"links_to"}
 {"from":"wiki/seminars/S081","to":"wiki/seminars/S007","type":"links_to"}
+{"from":"wiki/seminars/S081","to":"wiki/program/14-FDE-Delivery-Standard","type":"links_to"}
 {"from":"wiki/seminars/S081","to":"wiki/seminars/S026","type":"links_to"}
 {"from":"wiki/seminars/S081","to":"wiki/seminars/S069","type":"links_to"}
 {"from":"wiki/seminars/S081","to":"wiki/program/04-Seminar-Day-Design-Pattern","type":"links_to"}
@@ -4498,6 +4537,8 @@
 {"from":"wiki/seminars/S084","to":"wiki/quarters/Q9","type":"links_to"}
 {"from":"wiki/seminars/S084","to":"wiki/whitepapers/WP-084","type":"links_to"}
 {"from":"wiki/seminars/S084","to":"wiki/seminars/S037","type":"links_to"}
+{"from":"wiki/seminars/S084","to":"wiki/program/14-FDE-Delivery-Standard","type":"links_to"}
+{"from":"wiki/seminars/S084","to":"wiki/seminars/S039","type":"links_to"}
 {"from":"wiki/seminars/S084","to":"wiki/seminars/S070","type":"links_to"}
 {"from":"wiki/seminars/S084","to":"wiki/whitepapers/WP-017","type":"links_to"}
 {"from":"wiki/seminars/S084","to":"wiki/seminars/S081","type":"links_to"}
@@ -4512,7 +4553,6 @@
 {"from":"wiki/seminars/S084","to":"wiki/whitepapers/WP-037","type":"links_to"}
 {"from":"wiki/seminars/S084","to":"wiki/seminars/S085","type":"links_to"}
 {"from":"wiki/seminars/S084","to":"wiki/program/03-Assessment-Architecture","type":"links_to"}
-{"from":"wiki/seminars/S084","to":"wiki/seminars/S039","type":"links_to"}
 {"from":"wiki/seminars/S084","to":"wiki/whitepapers/WP-086","type":"links_to"}
 {"from":"wiki/seminars/S084","to":"wiki/whitepapers/WP-090","type":"links_to"}
 {"from":"wiki/seminars/S084","to":"research/05-fde-craft/beyer-holtzblatt-contextual-design","type":"links_to"}
@@ -4740,6 +4780,8 @@
 {"from":"wiki/seminars/S089","to":"wiki/seminars/S025","type":"links_to"}
 {"from":"wiki/seminars/S089","to":"wiki/seminars/S069","type":"links_to"}
 {"from":"wiki/seminars/S089","to":"wiki/whitepapers/WP-069","type":"links_to"}
+{"from":"wiki/seminars/S089","to":"wiki/program/14-FDE-Delivery-Standard","type":"links_to"}
+{"from":"wiki/seminars/S089","to":"wiki/seminars/S090","type":"links_to"}
 {"from":"wiki/seminars/S089","to":"wiki/seminars/S068","type":"links_to"}
 {"from":"wiki/seminars/S089","to":"wiki/program/05-Whitepaper-Standard","type":"links_to"}
 {"from":"wiki/seminars/S089","to":"wiki/program/12-Copilot-Practice-Standard","type":"links_to"}
@@ -4747,7 +4789,6 @@
 {"from":"wiki/seminars/S089","to":"wiki/seminars/S080","type":"links_to"}
 {"from":"wiki/seminars/S089","to":"wiki/seminars/S039","type":"links_to"}
 {"from":"wiki/seminars/S089","to":"wiki/whitepapers/WP-034","type":"links_to"}
-{"from":"wiki/seminars/S089","to":"wiki/seminars/S090","type":"links_to"}
 {"from":"wiki/seminars/S089","to":"wiki/program/03-Assessment-Architecture","type":"links_to"}
 {"from":"wiki/seminars/S089","to":"wiki/program/04-Seminar-Day-Design-Pattern","type":"links_to"}
 {"from":"wiki/seminars/S089","to":"wiki/program/10-Substrate-and-Infrastructure","type":"links_to"}
@@ -5661,6 +5702,9 @@
 {"from":"wiki/whitepapers/WP-036","to":"research/04-professional-formation/collected-materials","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-036","to":"research/05-fde-craft/kotter-leading-change","type":"links_to"}
 {"from":"wiki/whitepapers/WP-036","to":"research/05-fde-craft/kotter-leading-change","type":"grounded_in"}
+{"from":"wiki/whitepapers/WP-036","to":"research/05-fde-craft/microsoft-ise-engineering-playbook","type":"links_to"}
+{"from":"wiki/whitepapers/WP-036","to":"research/05-fde-craft/microsoft-ise-engineering-playbook","type":"grounded_in"}
+{"from":"wiki/whitepapers/WP-036","to":"wiki/program/14-FDE-Delivery-Standard","type":"links_to"}
 {"from":"wiki/whitepapers/WP-036","to":"research/06-microsoft-platform/collected-materials","type":"links_to"}
 {"from":"wiki/whitepapers/WP-036","to":"research/06-microsoft-platform/collected-materials","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-036","to":"wiki/seminars/S036","type":"documents"}
@@ -5686,6 +5730,9 @@
 {"from":"wiki/whitepapers/WP-037","to":"wiki/program/13-Agent-Configuration-Standard","type":"links_to"}
 {"from":"wiki/whitepapers/WP-037","to":"research/04-professional-formation/metr-ai-assisted-productivity-study","type":"links_to"}
 {"from":"wiki/whitepapers/WP-037","to":"research/04-professional-formation/metr-ai-assisted-productivity-study","type":"grounded_in"}
+{"from":"wiki/whitepapers/WP-037","to":"research/05-fde-craft/microsoft-ise-engineering-playbook","type":"links_to"}
+{"from":"wiki/whitepapers/WP-037","to":"research/05-fde-craft/microsoft-ise-engineering-playbook","type":"grounded_in"}
+{"from":"wiki/whitepapers/WP-037","to":"wiki/program/14-FDE-Delivery-Standard","type":"links_to"}
 {"from":"wiki/whitepapers/WP-037","to":"research/06-microsoft-platform/collected-materials","type":"links_to"}
 {"from":"wiki/whitepapers/WP-037","to":"research/06-microsoft-platform/collected-materials","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-037","to":"wiki/seminars/S037","type":"documents"}
@@ -5712,6 +5759,9 @@
 {"from":"wiki/whitepapers/WP-038","to":"research/04-professional-formation/collected-materials","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-038","to":"research/02-technical-foundations/collected-materials","type":"links_to"}
 {"from":"wiki/whitepapers/WP-038","to":"research/02-technical-foundations/collected-materials","type":"grounded_in"}
+{"from":"wiki/whitepapers/WP-038","to":"research/05-fde-craft/microsoft-ise-engineering-playbook","type":"links_to"}
+{"from":"wiki/whitepapers/WP-038","to":"research/05-fde-craft/microsoft-ise-engineering-playbook","type":"grounded_in"}
+{"from":"wiki/whitepapers/WP-038","to":"wiki/program/14-FDE-Delivery-Standard","type":"links_to"}
 {"from":"wiki/whitepapers/WP-038","to":"research/06-microsoft-platform/collected-materials","type":"links_to"}
 {"from":"wiki/whitepapers/WP-038","to":"research/06-microsoft-platform/collected-materials","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-038","to":"wiki/seminars/S038","type":"documents"}
@@ -5741,6 +5791,7 @@
 {"from":"wiki/whitepapers/WP-039","to":"research/05-fde-craft/microsoft-ise-engineering-playbook","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-039","to":"research/05-fde-craft/collected-materials","type":"links_to"}
 {"from":"wiki/whitepapers/WP-039","to":"research/05-fde-craft/collected-materials","type":"grounded_in"}
+{"from":"wiki/whitepapers/WP-039","to":"wiki/program/14-FDE-Delivery-Standard","type":"links_to"}
 {"from":"wiki/whitepapers/WP-039","to":"research/06-microsoft-platform/collected-materials","type":"links_to"}
 {"from":"wiki/whitepapers/WP-039","to":"research/06-microsoft-platform/collected-materials","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-039","to":"wiki/seminars/S039","type":"documents"}
@@ -5773,6 +5824,9 @@
 {"from":"wiki/whitepapers/WP-040","to":"research/08-assessment-epas/ten-cate-epa-framework","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-040","to":"research/04-professional-formation/dellacqua-jagged-technological-frontier","type":"links_to"}
 {"from":"wiki/whitepapers/WP-040","to":"research/04-professional-formation/dellacqua-jagged-technological-frontier","type":"grounded_in"}
+{"from":"wiki/whitepapers/WP-040","to":"research/05-fde-craft/microsoft-ise-engineering-playbook","type":"links_to"}
+{"from":"wiki/whitepapers/WP-040","to":"research/05-fde-craft/microsoft-ise-engineering-playbook","type":"grounded_in"}
+{"from":"wiki/whitepapers/WP-040","to":"wiki/program/14-FDE-Delivery-Standard","type":"links_to"}
 {"from":"wiki/whitepapers/WP-040","to":"research/06-microsoft-platform/collected-materials","type":"links_to"}
 {"from":"wiki/whitepapers/WP-040","to":"research/06-microsoft-platform/collected-materials","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-040","to":"wiki/seminars/S040","type":"documents"}
@@ -7581,6 +7635,7 @@
 {"from":"wiki/whitepapers/WP-081","to":"research/04-professional-formation/edmondson-psychological-safety","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-081","to":"research/04-professional-formation/keith-frese-error-management-training","type":"links_to"}
 {"from":"wiki/whitepapers/WP-081","to":"research/04-professional-formation/keith-frese-error-management-training","type":"grounded_in"}
+{"from":"wiki/whitepapers/WP-081","to":"wiki/program/14-FDE-Delivery-Standard","type":"links_to"}
 {"from":"wiki/whitepapers/WP-081","to":"research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs","type":"links_to"}
 {"from":"wiki/whitepapers/WP-081","to":"research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-081","to":"wiki/seminars/S081","type":"documents"}
@@ -7753,6 +7808,9 @@
 {"from":"wiki/whitepapers/WP-084","to":"research/04-professional-formation/edmondson-psychological-safety","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-084","to":"research/04-professional-formation/keith-frese-error-management-training","type":"links_to"}
 {"from":"wiki/whitepapers/WP-084","to":"research/04-professional-formation/keith-frese-error-management-training","type":"grounded_in"}
+{"from":"wiki/whitepapers/WP-084","to":"research/05-fde-craft/microsoft-ise-engineering-playbook","type":"links_to"}
+{"from":"wiki/whitepapers/WP-084","to":"research/05-fde-craft/microsoft-ise-engineering-playbook","type":"grounded_in"}
+{"from":"wiki/whitepapers/WP-084","to":"wiki/program/14-FDE-Delivery-Standard","type":"links_to"}
 {"from":"wiki/whitepapers/WP-084","to":"research/06-microsoft-platform/collected-materials","type":"links_to"}
 {"from":"wiki/whitepapers/WP-084","to":"research/06-microsoft-platform/collected-materials","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-084","to":"wiki/seminars/S084","type":"documents"}
@@ -8038,6 +8096,7 @@
 {"from":"wiki/whitepapers/WP-089","to":"research/04-professional-formation/edmondson-psychological-safety","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-089","to":"research/04-professional-formation/keith-frese-error-management-training","type":"links_to"}
 {"from":"wiki/whitepapers/WP-089","to":"research/04-professional-formation/keith-frese-error-management-training","type":"grounded_in"}
+{"from":"wiki/whitepapers/WP-089","to":"wiki/program/14-FDE-Delivery-Standard","type":"links_to"}
 {"from":"wiki/whitepapers/WP-089","to":"research/06-microsoft-platform/collected-materials","type":"links_to"}
 {"from":"wiki/whitepapers/WP-089","to":"research/06-microsoft-platform/collected-materials","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-089","to":"wiki/seminars/S089","type":"documents"}

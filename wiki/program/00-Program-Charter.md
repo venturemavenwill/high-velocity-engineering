@@ -111,3 +111,4 @@ These are unresolved and are not hidden by this charter.
 - [Course Catalogue](/wiki/program/06-Course-Catalogue.md)
 - [Microsoft AI Platform Map](/wiki/program/11-Microsoft-AI-Platform-Map.md)
 - [Copilot Practice Standard](/wiki/program/12-Copilot-Practice-Standard.md)
+- [FDE Delivery Standard](/wiki/program/14-FDE-Delivery-Standard.md)

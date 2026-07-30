@@ -1,7 +1,7 @@
 {
-  "node_count": 339,
-  "edge_count": 8129,
-  "claim_count": 618,
+  "node_count": 341,
+  "edge_count": 8188,
+  "claim_count": 634,
   "claim_days": 89,
   "claim_gap_days": 1,
   "research_claim_count": 226,
@@ -24,12 +24,12 @@
     "design-analysis": 3,
     "module": 18,
     "other": 13,
-    "program-page": 14,
+    "program-page": 15,
     "quarter": 9,
     "readme": 1,
     "research-index": 8,
     "research-memo": 7,
-    "research-note": 68,
+    "research-note": 69,
     "research-reading-list": 8,
     "seminar": 90,
     "source-register": 1,
@@ -38,21 +38,21 @@
     "wiki-home": 1
   },
   "nodes_by_layer": {
-    "research": 92,
+    "research": 93,
     "root": 13,
     "sources": 12,
-    "wiki": 222
+    "wiki": 223
   },
   "edges_by_type": {
     "depends_on": 216,
     "documents": 90,
-    "grounded_in": 990,
+    "grounded_in": 997,
     "has_whitepaper": 90,
-    "links_to": 5894,
-    "part_of": 445,
+    "links_to": 5944,
+    "part_of": 446,
     "re_tests": 93,
     "retrieves_from": 309,
-    "summarises": 2
+    "summarises": 3
   },
   "satisfiable_from": {
     "either": 47,
@@ -62,9 +62,9 @@
   "predictions_by_ns": {
     "ai-systems": 143,
     "measurement": 112,
-    "fde-craft": 91,
+    "fde-craft": 97,
     "assessment": 54,
-    "pedagogy": 53,
+    "pedagogy": 47,
     "platform": 47,
     "curriculum": 12
   }

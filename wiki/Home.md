@@ -29,6 +29,7 @@ This wiki contains the programme architecture, the full course load, a module ma
 | [Microsoft AI Platform Map](/wiki/program/11-Microsoft-AI-Platform-Map.md) | Which named service every course and every day is executed against |
 | [Copilot Practice Standard](/wiki/program/12-Copilot-Practice-Standard.md) | How every day is run with GitHub Copilot in agent mode, and what that may not claim |
 | [Agent Configuration Standard](/wiki/program/13-Agent-Configuration-Standard.md) | How the agent is configured, what every course takes from it, and why a control is not evidence |
+| [FDE Delivery Standard](/wiki/program/14-FDE-Delivery-Standard.md) | The six principles behind the professional-formation strand, their two Microsoft sources, and what neither establishes |
 
 ## Quarters
 
