@@ -26,6 +26,50 @@ full-source synthesis from provisional synthesis.
 - Palantir Blog. "A Day in the Life of a Palantir Forward Deployed Software Engineer", 2 November 2020 — **open access**, though the default link redirects to a sign-in page; a working retrieval required appending a `gi` query parameter.
 - Palantir. Careers overview, https://www.palantir.com/careers/ — **open access**; current role taxonomy of Echos, Deltas and Devs. The role-specific forward-deployed engineering URL returns 404.
 
+## What the two Microsoft handbooks cite — a harvest for further reading
+
+Collected 2026-07-30 by reading outward from both handbooks. **Coverage is partial and stated: 29 of roughly 190 playbook pages were fetched, about 15%, plus the FDE handbook's full outbound link set.** Nothing below is a recommendation; it is what the two documents rest on.
+
+**The single most useful finding is the asymmetry.** Every external link across the 29 playbook pages read is publicly reachable. **Roughly half of the FDE handbook's outbound links require a Microsoft sign-in, and the gated half carries the load** — the checklist that defines its own tag taxonomy, its security programme, its entire responsible-AI process, and the HVE Core corpus its roadmap addresses. Its fundamentals layer is collectable; its distinctive content is not.
+
+### Publicly reachable, and worth collecting first
+- **GitHub, Engineering System Success Playbook** — `https://github.com/resources/insights/engineering-system-success-playbook`. Public, and itself the doorway to SPACE, DevEx, DX Core 4 and DORA. The best single onward jump from either handbook.
+- **Azure Well-Architected Framework** — reliability principles, operational excellence and incident response, and SaaS incident management, all on `learn.microsoft.com`.
+- **Observability Lab Workshop** — `https://observability-lab-cse.github.io/observability-lab-workshop/`. A public, runnable lab.
+- **Microsoft REST API Guidelines** — `https://github.com/microsoft/api-guidelines`, which carries its own recommended-reading section.
+- **Principles of Green Software Engineering** — `https://principles.green/`. It is the entire substrate of the playbook's sustainability section.
+
+### Engineering practice and craft
+- **Michael Nygard, "Documenting Architecture Decisions"** — the ADR format is taken from it wholesale.
+- **Jack Ganssle, "A Guide to Code Inspections"** — `http://www.ganssle.com/inspections.pdf`. **Read this one with attention**: it is the only citation on the page that closes by asserting the cost of code review is negative. The claim is not unsourced, but a paper on inspections does not license the assertion in the form the playbook makes it, and this repository refuses the assertion either way.
+- **Martin Fowler**, on pair programming, on distributed-system patterns, on contract testing and integration testing.
+- **Ian Robinson, "Consumer-Driven Contracts"**; **Kent C. Dodds, "Write tests. Not too many. Mostly integration."**; **Google Testing Blog, "Just Say No to More End-to-End Tests"**.
+- The git commit-message canon — Tim Pope, Chris Beams, Peter Hutterer — plus **Conventional Commits** and **SemVer** as standards.
+- **SAFe, "Team and Technical Agility"** — the team-manifesto page's only citation.
+
+### Machine learning, data and evaluation
+- **Aurélien Géron, machine-learning project checklist**, and **fast.ai's data project checklist** — together the source of the playbook's problem-framing and workflow question lists.
+- **Howard, Zwemer and Loukides, "Designing Great Data Products"** — the drivetrain approach.
+- **Lu et al., "Learning Under Concept Drift: A Review"** — arXiv:2004.05785. A genuine paper, and the drift material's anchor.
+- **Moses et al., *Data Quality Fundamentals*** — the one book cited in the ML section.
+- **Stanford CS230 on train/dev/test splits**; two baseline-model essays; **CookieCutter Data Science**.
+- **Microsoft's six Responsible AI principles**, **InterpretML** and **Fairlearn**.
+
+### Resilience, security, privacy and accessibility
+- **Cindy Sridharan, "Testing in Production"**, both parts; **Mark Russinovich on chaos engineering**; *The Landscape of Software Failure Cause Models*.
+- Security cites **only Microsoft** — the SDL threat-modelling material and STRIDE. The rules-of-engagement page cites nothing at all.
+- **Wood et al., "Differential Privacy: A Primer for a Non-Technical Audience"**; **Carnegie Mellon's data-classification guidelines**; **OWASP Access Control Cheat Sheet**.
+- **WCAG 2.0** and the **W3C WAI evaluation tools list**; Microsoft Inclusive Design; **Google's accessible-documentation style guide**.
+
+### What the FDE handbook adds, and what it withholds
+It cites the playbook constantly but never describes the relationship in prose — the playbook is its fundamentals reference and it is the phase, sequencing and AI-assignment layer over it. It names **Accelerate, SAFe and SPACE** in prose and **cites none of them**. It cites **no academic literature and no standards body**, and one book. Its roadmap names five capabilities it wants added to HVE Core — pipeline scaffolding, a proven-starting-points catalogue, artefact reuse tracking, incident-runbook generation and pre-launch drill orchestration — and never links the corpus.
+
+### Gated, recorded so the gap is visible rather than forgotten
+The ISE checklist short link resolves to a tenant-scoped Power Apps canvas; the ISE security-plan repository sits behind a Microsoft enterprise sign-in; every responsible-AI artefact is on SharePoint or Forms; the HVE maturity matrix is behind the same wall. **None of these is collectable without a Microsoft account, and the handbook's most distinctive content depends on them.**
+
+### The citation-density finding, which is itself worth knowing
+Of the 29 playbook pages read, **five cite nothing external at all** and a further four cite only Microsoft-owned material — so roughly a sixth is uncited assertion and near a third rests on no source outside Microsoft. Three pages are essentially pure link lists with almost no argument of their own. **The ML and resilience sections are well sourced; security practice, observability practice and agile process are largely assertion.** A reader collecting from this playbook should expect the quality of its warrant to vary by section far more than its uniform tone suggests.
+
 ## Retrieved but unavailable
 Nothing is currently held here. The section is kept rather than deleted so that the earlier gap stays visible: its one item, Palantir's "Dev versus Delta", was obtained on 2026-07-30 and has moved to *The composite role in practice* above.
 
