@@ -1779,8 +1779,8 @@
         "Limits and cautions",
         "Verification status"
       ],
-      "words": 7380,
-      "lines": 229,
+      "words": 15615,
+      "lines": 406,
       "assessment_bearing": false,
       "namespace": "fde-craft",
       "decay": "slow",
@@ -1857,7 +1857,7 @@
         "Adjacent reading, not core",
         "What this folder should answer"
       ],
-      "words": 1815,
+      "words": 1872,
       "lines": 92,
       "assessment_bearing": false,
       "namespace": "fde-craft",
@@ -2608,7 +2608,7 @@
         "What resolving the citations exposed",
         "Copyright handling"
       ],
-      "words": 3235,
+      "words": 3240,
       "lines": 223,
       "assessment_bearing": false
     },
@@ -4068,8 +4068,8 @@
         "A known failure mode of this register",
         "Related pages"
       ],
-      "words": 3759,
-      "lines": 206,
+      "words": 4048,
+      "lines": 209,
       "assessment_bearing": false,
       "namespaces": {
         "platform": 2
@@ -4211,8 +4211,8 @@
         "Perishability",
         "Related pages"
       ],
-      "words": 1771,
-      "lines": 93,
+      "words": 2674,
+      "lines": 107,
       "assessment_bearing": false,
       "namespaces": {
         "fde-craft": 2
@@ -6320,8 +6320,8 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 4609,
-      "lines": 239,
+      "words": 5268,
+      "lines": 261,
       "module": "M08",
       "quarter": "Q4",
       "complexity_class": 3,
@@ -6471,8 +6471,8 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 3925,
-      "lines": 229,
+      "words": 5289,
+      "lines": 250,
       "module": "M08",
       "quarter": "Q4",
       "complexity_class": 3,
@@ -6724,8 +6724,8 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 3921,
-      "lines": 238,
+      "words": 4332,
+      "lines": 244,
       "module": "M09",
       "quarter": "Q5",
       "complexity_class": 3,
@@ -6744,7 +6744,7 @@
       "re_tests_raw": "S039, S041",
       "assessment_bearing": false,
       "namespaces": {
-        "fde-craft": 1,
+        "fde-craft": 2,
         "platform": 1
       },
       "primary_namespace": "fde-craft",
@@ -10906,8 +10906,8 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 7437,
-      "lines": 246,
+      "words": 7939,
+      "lines": 250,
       "module": "M08",
       "quarter": "Q4",
       "complexity_class": 3,
@@ -11065,8 +11065,8 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 6933,
-      "lines": 239,
+      "words": 7871,
+      "lines": 251,
       "module": "M08",
       "quarter": "Q4",
       "complexity_class": 3,
@@ -11327,8 +11327,8 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 6502,
-      "lines": 224,
+      "words": 6945,
+      "lines": 230,
       "module": "M09",
       "quarter": "Q5",
       "complexity_class": 3,
@@ -11345,14 +11345,14 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
+        "fde-craft": 2,
         "platform": 2,
-        "ai-systems": 1,
-        "fde-craft": 1
+        "ai-systems": 1
       },
-      "primary_namespace": "platform",
+      "primary_namespace": "fde-craft",
       "platform_bearing": true,
-      "decay": "months",
-      "verify_cadence": "before every offering",
+      "decay": "slow",
+      "verify_cadence": "3 years",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -21435,6 +21435,11 @@
     },
     {
       "from": "wiki/program/09-Durable-and-Perishable-Register",
+      "to": "wiki/seminars/S036",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/program/09-Durable-and-Perishable-Register",
       "to": "wiki/program/11-Microsoft-AI-Platform-Map",
       "type": "links_to"
     },
@@ -21870,17 +21875,22 @@
     },
     {
       "from": "wiki/program/14-FDE-Delivery-Standard",
+      "to": "wiki/seminars/S039",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/program/14-FDE-Delivery-Standard",
+      "to": "wiki/program/09-Durable-and-Perishable-Register",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/program/14-FDE-Delivery-Standard",
       "to": "wiki/program/06-Course-Catalogue",
       "type": "links_to"
     },
     {
       "from": "wiki/program/14-FDE-Delivery-Standard",
       "to": "wiki/program/03-Assessment-Architecture",
-      "type": "links_to"
-    },
-    {
-      "from": "wiki/program/14-FDE-Delivery-Standard",
-      "to": "wiki/program/09-Durable-and-Perishable-Register",
       "type": "links_to"
     },
     {
@@ -28640,6 +28650,16 @@
     },
     {
       "from": "wiki/seminars/S044",
+      "to": "research/05-fde-craft/microsoft-ise-engineering-playbook",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S044",
+      "to": "research/05-fde-craft/microsoft-ise-engineering-playbook",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/seminars/S044",
       "to": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs",
       "type": "links_to"
     },
@@ -43456,6 +43476,16 @@
     {
       "from": "wiki/whitepapers/WP-044",
       "to": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-044",
+      "to": "research/05-fde-craft/microsoft-ise-engineering-playbook",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-044",
+      "to": "research/05-fde-craft/microsoft-ise-engineering-playbook",
       "type": "grounded_in"
     },
     {
@@ -57541,6 +57571,32 @@
       "assessment_bearing": false
     },
     {
+      "id": "S036.p9",
+      "day": "wiki/seminars/S036",
+      "module": "M08",
+      "quarter": "Q4",
+      "durable": "A written standard's authority varies page by page and its navigation does not say so",
+      "perishable": "The playbook section classified at the reading pass, and the pages in it that turned out to be recipe or stub",
+      "platform_anchor": "Azure API Management `llm-token-limit` policy, deployed with Bicep",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S036.p10",
+      "day": "wiki/seminars/S036",
+      "module": "M08",
+      "quarter": "Q4",
+      "durable": "Uniform register is not uniform warrant; only the bibliography differs",
+      "perishable": "The page in that section asserting a catalogue of thresholds and citing nothing",
+      "platform_anchor": "Azure API Management `llm-token-limit` policy, deployed with Bicep",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
       "id": "S037.p1",
       "day": "wiki/seminars/S037",
       "module": "M08",
@@ -57885,6 +57941,45 @@
       "quarter": "Q4",
       "durable": "What is already owned is the first thing to extend and the evidence that moves the constraint",
       "perishable": "The delivery standard's third principle — extend what the customer already runs before introducing anything new",
+      "platform_anchor": "Foundry model-deployment quota and the published quota-increase criterion · API Management `llm-token-limit` as the enforced constraint",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S039.p9",
+      "day": "wiki/seminars/S039",
+      "module": "M08",
+      "quarter": "Q4",
+      "durable": "A design is written at the scope of its decision, and scope has an observable boundary",
+      "perishable": "The playbook's four review templates, where the milestone scope is the story scope plus `Operationalization` and nothing else",
+      "platform_anchor": "Foundry model-deployment quota and the published quota-increase criterion · API Management `llm-token-limit` as the enforced constraint",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S039.p10",
+      "day": "wiki/seminars/S039",
+      "module": "M08",
+      "quarter": "Q4",
+      "durable": "A requirement is assessable only where it names its measurement and its verification",
+      "perishable": "The playbook's eight-field capture form, and the two fields marked from it",
+      "platform_anchor": "Foundry model-deployment quota and the published quota-increase criterion · API Management `llm-token-limit` as the enforced constraint",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S039.p11",
+      "day": "wiki/seminars/S039",
+      "module": "M08",
+      "quarter": "Q4",
+      "durable": "A table of numbers in a confident voice reads as a benchmark whether or not anyone measured anything",
+      "perishable": "The playbook's threshold catalogue, handed over labelled sourceless",
       "platform_anchor": "Foundry model-deployment quota and the published quota-increase criterion · API Management `llm-token-limit` as the enforced constraint",
       "namespace": "platform",
       "decay": "months",
@@ -58314,6 +58409,19 @@
       "quarter": "Q5",
       "durable": "Adversarial probability is about value and cost, not frequency",
       "perishable": "The estimation form at step 4",
+      "platform_anchor": "Defender for Cloud AI security posture management — the four infrastructure-as-code checks",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S044.p8",
+      "day": "wiki/seminars/S044",
+      "module": "M09",
+      "quarter": "Q5",
+      "durable": "A threat model is written to decide, so its first pass is mostly acceptances",
+      "perishable": "The published worked example whose every threat is marked not mitigated",
       "platform_anchor": "Defender for Cloud AI security posture management — the four infrastructure-as-code checks",
       "namespace": "platform",
       "decay": "months",
@@ -68276,6 +68384,23 @@
       }
     },
     {
+      "id": "WP-036.pred7",
+      "whitepaper": "wiki/whitepapers/WP-036",
+      "day": "wiki/seminars/S036",
+      "module": "M08",
+      "quarter": "Q4",
+      "label": "Prediction 7.",
+      "claim": "In the reading pass, groups will agree with each other more closely on which pages are stubs than on which pages are substantive, and their defences will cite the page's bibliography less often than its length.",
+      "instrument": "per-page classification agreement across groups within the same section, and defences coded for whether the cited evidence is bibliographic, structural or stylistic. **A defence resting on length has learned the wrong discriminator, and the design expects that to be the modal first attempt — which is the finding the pass exists to produce, not a failure of it.**",
+      "namespace": "fde-craft",
+      "namespaces": {
+        "fde-craft": 5,
+        "pedagogy": 2,
+        "measurement": 1,
+        "platform": 1
+      }
+    },
+    {
       "id": "WP-037.pred1",
       "whitepaper": "wiki/whitepapers/WP-037",
       "day": "wiki/seminars/S037",
@@ -68563,6 +68688,36 @@
       "label": "Prediction 6.",
       "claim": "Evidence packs will be rated substantially higher in completeness than purpose analyses by the same students, and the gap will be larger for students who completed the pack first where ordering was not enforced.",
       "instrument": "blind-rated completeness on both, paired within student. **This is objection 3's failure mode stated as a prediction, and the second half is the test of whether the ordering fix does any work.**",
+      "namespace": "fde-craft",
+      "namespaces": {
+        "fde-craft": 6,
+        "platform": 1
+      }
+    },
+    {
+      "id": "WP-039.pred7",
+      "whitepaper": "wiki/whitepapers/WP-039",
+      "day": "wiki/seminars/S039",
+      "module": "M08",
+      "quarter": "Q4",
+      "label": "Prediction 7.",
+      "claim": "Where a student's decision genuinely sits at the milestone scope, a majority will nonetheless select the story-scope template, and the omitted section will be `Operationalization` rather than any other.",
+      "instrument": "step 6 scope selections adjudicated against the requester's own statement of who will operate the result. **The prediction is about the specific omission, not about the error rate: a student who under-scopes by leaving out risks or dependencies has made an ordinary mistake, and a student who under-scopes by leaving out operation has made the one this day exists to name.**",
+      "namespace": "fde-craft",
+      "namespaces": {
+        "fde-craft": 6,
+        "platform": 1
+      }
+    },
+    {
+      "id": "WP-039.pred8",
+      "whitepaper": "wiki/whitepapers/WP-039",
+      "day": "wiki/seminars/S039",
+      "module": "M08",
+      "quarter": "Q4",
+      "label": "Prediction 8.",
+      "claim": "Among students who state a numeric threshold in the eight-field form, those given the playbook's catalogue will justify their number by reference to it at a higher rate than they justify it from their own evidence, on first attempt and despite the sourceless label.",
+      "instrument": "step 1 thresholds coded for justification source. **A high rate would show the label doing no work, which is the result the design expects and the reason the catalogue is handed over at all rather than withheld.**",
       "namespace": "fde-craft",
       "namespaces": {
         "fde-craft": 6,
@@ -68968,11 +69123,11 @@
       "label": "Prediction 1.",
       "claim": "More than half of each student's item 1 list will fail the item 3 actor filter, and item 4 predictions will underestimate the collapse.",
       "instrument": "paired list lengths against item 4 predictions.",
-      "namespace": "platform",
+      "namespace": "fde-craft",
       "namespaces": {
+        "fde-craft": 2,
         "platform": 2,
-        "ai-systems": 1,
-        "fde-craft": 1
+        "ai-systems": 1
       }
     },
     {
@@ -68984,11 +69139,11 @@
       "label": "Prediction 2.",
       "claim": "Fewer than a fifth of groups will rank actor D first before the point 5 arithmetic.",
       "instrument": "phase 3 committed rankings.",
-      "namespace": "platform",
+      "namespace": "fde-craft",
       "namespaces": {
+        "fde-craft": 2,
         "platform": 2,
-        "ai-systems": 1,
-        "fde-craft": 1
+        "ai-systems": 1
       }
     },
     {
@@ -69000,11 +69155,11 @@
       "label": "Prediction 3.",
       "claim": "Students with security backgrounds will produce shorter accept lists than students without, controlling for total threat count.",
       "instrument": "accept-list length as a proportion of enumerated threats, split by the admission background survey.",
-      "namespace": "platform",
+      "namespace": "fde-craft",
       "namespaces": {
+        "fde-craft": 2,
         "platform": 2,
-        "ai-systems": 1,
-        "fde-craft": 1
+        "ai-systems": 1
       }
     },
     {
@@ -69016,11 +69171,11 @@
       "label": "Prediction 4.",
       "claim": "In phase 7, the detection signal will fail the timing test for a majority of accepted threats.",
       "instrument": "phase 7 outcomes coded for fires-and-in-time, fires-too-late, and does-not-fire.",
-      "namespace": "platform",
+      "namespace": "fde-craft",
       "namespaces": {
+        "fde-craft": 2,
         "platform": 2,
-        "ai-systems": 1,
-        "fde-craft": 1
+        "ai-systems": 1
       }
     },
     {
@@ -69032,11 +69187,11 @@
       "label": "Prediction 5.",
       "claim": "A large majority of student deployment templates will fail at least two of the four checks on first run, and the most common failure will be check 1 rather than check 3 or 4.",
       "instrument": "step 8 results by check. **The prediction is about defaults rather than about students: if templates pass on first run, either the cohort has been more deliberate than the design assumes or the platform's defaults have changed, and phase 3's payload has to be rebuilt either way.**",
-      "namespace": "platform",
+      "namespace": "fde-craft",
       "namespaces": {
+        "fde-craft": 2,
         "platform": 2,
-        "ai-systems": 1,
-        "fde-craft": 1
+        "ai-systems": 1
       }
     },
     {
@@ -69048,11 +69203,11 @@
       "label": "Prediction 6.",
       "claim": "A large majority of item 5 sealed predictions will say the agent will produce a working template, and a small minority will name the specific consequence — publicly reachable, key-authenticated.",
       "instrument": "item 5 responses coded for generic-versus-specific failure identification, scored twice: against the supplied template at phase 3 and against the student's own at phase 5. **A cohort that names it after phase 3 and not before has learned it on the day rather than predicted it, which is the distinction the sealed item exists to preserve.**",
-      "namespace": "platform",
+      "namespace": "fde-craft",
       "namespaces": {
+        "fde-craft": 2,
         "platform": 2,
-        "ai-systems": 1,
-        "fde-craft": 1
+        "ai-systems": 1
       }
     },
     {
@@ -75453,7 +75608,7 @@
         "research/05-fde-craft/microsoft-ise-engineering-playbook"
       ],
       "namespace": "fde-craft",
-      "words": 613
+      "words": 763
     },
     {
       "id": "WP-036.e4",
@@ -75491,7 +75646,7 @@
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
       "namespace": "fde-craft",
-      "words": 226
+      "words": 251
     },
     {
       "id": "WP-037.e1",
@@ -75622,7 +75777,7 @@
         "research/05-fde-craft/collected-materials"
       ],
       "namespace": "fde-craft",
-      "words": 241
+      "words": 544
     },
     {
       "id": "WP-039.e4",
@@ -75660,7 +75815,7 @@
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
       "namespace": "fde-craft",
-      "words": 302
+      "words": 325
     },
     {
       "id": "WP-040.e1",
@@ -75903,10 +76058,11 @@
         "research/02-technical-foundations/collected-materials",
         "research/05-fde-craft/collected-materials",
         "research/99-source-register/source-register",
-        "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs"
+        "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs",
+        "research/05-fde-craft/microsoft-ise-engineering-playbook"
       ],
-      "namespace": "platform",
-      "words": 86
+      "namespace": "fde-craft",
+      "words": 245
     },
     {
       "id": "WP-044.e4",
@@ -75920,7 +76076,7 @@
         "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs",
         "research/06-microsoft-platform/collected-materials"
       ],
-      "namespace": "platform",
+      "namespace": "fde-craft",
       "words": 639
     },
     {
@@ -75932,7 +76088,7 @@
       "class_name": "general-knowledge",
       "licenses": "Direction and mechanism only. No effect size, ever.",
       "cites": [],
-      "namespace": "platform",
+      "namespace": "fde-craft",
       "words": 57
     },
     {
@@ -75944,8 +76100,8 @@
       "class_name": "design-reasoning",
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
-      "namespace": "platform",
-      "words": 289
+      "namespace": "fde-craft",
+      "words": 315
     },
     {
       "id": "WP-045.e1",
@@ -81853,6 +82009,48 @@
       "seq": 5,
       "label": null,
       "text": "**Copilot prediction, sealed.** You will shortly hand the agent this request and ask it to implement it against a disposable gateway. Write down what it will produce, and **name the one thing it will get wrong**. Sealed with items 1 to 4 and opened at phase 8. Item 2 is answerable and most students answer it by restating item 1 in different words. Item 3 is the day's move. Item 5 has a failure mode the day watches for and does not correct: most students will predict a defect — a syntax error, a missing parameter, a wrong scope. The agent will not produce one. **Predicting that the agent will build it badly is the wrong prediction, and finding that out is worth more than getting it right.** **Warrant.** Pretesting on the request-need gap before it is named. The near-identity of items 1 and 2 across the room is the day's opening finding. Item 5 is sealed at phase 1 and may not migrate into phase 5, per instrumentation rule 8: an instrument administered after its answer has been taught measures recall. ---",
+      "day": "wiki/seminars/S036",
+      "day_title": "S036 · The Question You Should Not Have Asked",
+      "module": "M08",
+      "quarter": "Q4",
+      "complexity_class": 3,
+      "platform_anchor": "Azure API Management `llm-token-limit` policy, deployed with Bicep"
+    },
+    {
+      "id": "S036.contrast1",
+      "kind": "contrast",
+      "phase": 3,
+      "seq": 1,
+      "label": "The navigation does not signal which is which, and section size does not predict substance.",
+      "text": "One of the site's longest sections is largely stubs and redirects; one of its shortest is substantive throughout. A reader who assigns work by menu entry assigns badly.",
+      "day": "wiki/seminars/S036",
+      "day_title": "S036 · The Question You Should Not Have Asked",
+      "module": "M08",
+      "quarter": "Q4",
+      "complexity_class": 3,
+      "platform_anchor": "Azure API Management `llm-token-limit` policy, deployed with Bicep"
+    },
+    {
+      "id": "S036.contrast2",
+      "kind": "contrast",
+      "phase": 3,
+      "seq": 2,
+      "label": "The register is uniform and the warrant is not.",
+      "text": "Every page is written in the same flat declarative voice. Some cite the standard literature of their field; some cite only the documentation of the tool they configure; one cites a handful of social-media posts; and one asserts a catalogue of numeric thresholds and cites nothing at all. **Nothing on the page tells you which you are reading, and only the bibliography differs.**",
+      "day": "wiki/seminars/S036",
+      "day_title": "S036 · The Question You Should Not Have Asked",
+      "module": "M08",
+      "quarter": "Q4",
+      "complexity_class": 3,
+      "platform_anchor": "Azure API Management `llm-token-limit` policy, deployed with Bicep"
+    },
+    {
+      "id": "S036.contrast3",
+      "kind": "contrast",
+      "phase": 3,
+      "seq": 3,
+      "label": "The pages carry their own dates and the site carries none.",
+      "text": "The footers span years. A page that renders is not a page that is current, and a recipe naming a tool version is dated whether or not anyone updated its footer.",
       "day": "wiki/seminars/S036",
       "day_title": "S036 · The Question You Should Not Have Asked",
       "module": "M08",
@@ -88559,7 +88757,7 @@
       "identifier": "`https://microsoft.github.io/code-with-engineering-playbook/`; repo `microsoft/code-with-engineering-playbook`",
       "access": "open",
       "read": "full",
-      "read_raw": "32 pages fetched and read in full; page footer dates range 2021–2025, so cite by page and date, never by site",
+      "read_raw": "all 243 pages read in full, enumerated from the site's own sitemap; page footer dates range 2021–2025, so cite by page and date, never by site",
       "section": "Forward-deployed engineering craft",
       "note": "research/05-fde-craft/microsoft-fde-delivery-practice"
     },

@@ -1519,6 +1519,7 @@
 {"from":"wiki/program/08-Seminar-Day-Index","to":"wiki/program/13-Agent-Configuration-Standard","type":"links_to"}
 {"from":"wiki/program/09-Durable-and-Perishable-Register","to":"research/06-microsoft-platform/collected-materials","type":"links_to"}
 {"from":"wiki/program/09-Durable-and-Perishable-Register","to":"research/06-microsoft-platform/collected-materials","type":"grounded_in"}
+{"from":"wiki/program/09-Durable-and-Perishable-Register","to":"wiki/seminars/S036","type":"links_to"}
 {"from":"wiki/program/09-Durable-and-Perishable-Register","to":"wiki/program/11-Microsoft-AI-Platform-Map","type":"links_to"}
 {"from":"wiki/program/09-Durable-and-Perishable-Register","to":"wiki/program/13-Agent-Configuration-Standard","type":"links_to"}
 {"from":"wiki/program/09-Durable-and-Perishable-Register","to":"wiki/program/14-FDE-Delivery-Standard","type":"links_to"}
@@ -1606,9 +1607,10 @@
 {"from":"wiki/program/14-FDE-Delivery-Standard","to":"wiki/seminars/S090","type":"links_to"}
 {"from":"wiki/program/14-FDE-Delivery-Standard","to":"wiki/program/12-Copilot-Practice-Standard","type":"links_to"}
 {"from":"wiki/program/14-FDE-Delivery-Standard","to":"wiki/program/13-Agent-Configuration-Standard","type":"links_to"}
+{"from":"wiki/program/14-FDE-Delivery-Standard","to":"wiki/seminars/S039","type":"links_to"}
+{"from":"wiki/program/14-FDE-Delivery-Standard","to":"wiki/program/09-Durable-and-Perishable-Register","type":"links_to"}
 {"from":"wiki/program/14-FDE-Delivery-Standard","to":"wiki/program/06-Course-Catalogue","type":"links_to"}
 {"from":"wiki/program/14-FDE-Delivery-Standard","to":"wiki/program/03-Assessment-Architecture","type":"links_to"}
-{"from":"wiki/program/14-FDE-Delivery-Standard","to":"wiki/program/09-Durable-and-Perishable-Register","type":"links_to"}
 {"from":"wiki/quarters/Q1","to":"wiki/program/11-Microsoft-AI-Platform-Map","type":"links_to"}
 {"from":"wiki/quarters/Q1","to":"wiki/seminars/S002","type":"links_to"}
 {"from":"wiki/quarters/Q1","to":"wiki/modules/M01","type":"links_to"}
@@ -2960,6 +2962,8 @@
 {"from":"wiki/seminars/S044","to":"wiki/program/03-Assessment-Architecture","type":"links_to"}
 {"from":"wiki/seminars/S044","to":"research/05-fde-craft/collected-materials","type":"links_to"}
 {"from":"wiki/seminars/S044","to":"research/05-fde-craft/collected-materials","type":"grounded_in"}
+{"from":"wiki/seminars/S044","to":"research/05-fde-craft/microsoft-ise-engineering-playbook","type":"links_to"}
+{"from":"wiki/seminars/S044","to":"research/05-fde-craft/microsoft-ise-engineering-playbook","type":"grounded_in"}
 {"from":"wiki/seminars/S044","to":"research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs","type":"links_to"}
 {"from":"wiki/seminars/S044","to":"research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs","type":"grounded_in"}
 {"from":"wiki/seminars/S044","to":"wiki/program/13-Agent-Configuration-Standard","type":"links_to"}
@@ -5924,6 +5928,8 @@
 {"from":"wiki/whitepapers/WP-044","to":"research/99-source-register/source-register","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-044","to":"research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs","type":"links_to"}
 {"from":"wiki/whitepapers/WP-044","to":"research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs","type":"grounded_in"}
+{"from":"wiki/whitepapers/WP-044","to":"research/05-fde-craft/microsoft-ise-engineering-playbook","type":"links_to"}
+{"from":"wiki/whitepapers/WP-044","to":"research/05-fde-craft/microsoft-ise-engineering-playbook","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-044","to":"research/06-microsoft-platform/collected-materials","type":"links_to"}
 {"from":"wiki/whitepapers/WP-044","to":"research/06-microsoft-platform/collected-materials","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-044","to":"wiki/seminars/S044","type":"documents"}
