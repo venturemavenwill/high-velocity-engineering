@@ -37,6 +37,43 @@ const CLAIM_DAYS = new Set(CLAIMS.map((c) => c.day));
 const BLIND = NODES.filter((n) => n.kind === "seminar" && !CLAIM_DAYS.has(n.id)).map((n) => n.id).sort();
 
 const byId = new Map(NODES.map((n) => [n.id, n]));
+const documentCache = new Map();
+const getMarkdown = (node) => {
+  if (!documentCache.has(node.id)) documentCache.set(node.id, readFileSync(join(REPO, node.path), "utf8"));
+  return documentCache.get(node.id);
+};
+
+const readDocument = (node, section, startLine, lineCount) => {
+  const markdown = getMarkdown(node);
+  const allLines = markdown.split(/\r?\n/);
+  let lines = allLines;
+  let baseLine = 1;
+
+  if (section) {
+    const wanted = section.trim().toLowerCase();
+    const sectionStart = allLines.findIndex((line) => {
+      const match = line.match(/^##\s+(.+?)\s*$/);
+      return match?.[1].trim().toLowerCase() === wanted;
+    });
+    if (sectionStart < 0) {
+      return { error: `no such section: ${section}`, available_sections: node.headings ?? [] };
+    }
+    let sectionEnd = allLines.findIndex((line, index) => index > sectionStart && /^##\s+/.test(line));
+    if (sectionEnd < 0) sectionEnd = allLines.length;
+    lines = allLines.slice(sectionStart, sectionEnd);
+    baseLine = sectionStart + 1;
+  }
+
+  const offset = Math.min(startLine - 1, lines.length);
+  const selected = lines.slice(offset, offset + lineCount);
+  return {
+    content: selected.join("\n"),
+    content_start_line: baseLine + offset,
+    content_end_line: baseLine + offset + Math.max(selected.length - 1, 0),
+    content_total_lines: lines.length,
+    content_truncated: offset + selected.length < lines.length
+  };
+};
 
 /** adjacency, built once: type -> from -> [to] */
 const OUT = new Map();
@@ -109,9 +146,9 @@ server.registerTool(
   {
     title: "Search the knowledge",
     description:
-      "Find documents by text, filtered by namespace, kind, or perishability. Use platform_bearing=true to find everything that decays in months.",
+      "Find documents by text across titles, headings, and Markdown bodies, filtered by namespace, kind, or perishability. Body matches include a short context snippet. Use platform_bearing=true to find everything that decays in months.",
     inputSchema: {
-      query: z.string().optional().describe("matched against title, headings and platform anchor"),
+      query: z.string().optional().describe("matched against title, headings, platform anchor, and Markdown body"),
       namespace: z.string().optional().describe("one of the eight; see hve_namespaces"),
       kind: z.string().optional().describe("seminar | whitepaper | module | quarter | program-page | research-note | ..."),
       platform_bearing: z.boolean().optional().describe("true = carries at least one claim that decays in months"),
@@ -125,7 +162,7 @@ server.registerTool(
       if (namespace && (n.namespace ?? n.primary_namespace) !== namespace) return false;
       if (platform_bearing !== undefined && Boolean(n.platform_bearing) !== platform_bearing) return false;
       if (!q) return true;
-      const hay = [n.title, n.id, n.platform_anchor, ...(n.headings ?? [])].join(" ").toLowerCase();
+      const hay = [n.title, n.id, n.platform_anchor, ...(n.headings ?? []), getMarkdown(n)].join(" ").toLowerCase();
       return hay.includes(q);
     });
     return ok({
@@ -134,7 +171,15 @@ server.registerTool(
       results: hits.slice(0, limit).map((n) => ({
         id: n.id, path: n.path, kind: n.kind, title: n.title,
         namespace: n.namespace ?? n.primary_namespace, decay: n.decay,
-        platform_anchor: n.platform_anchor
+        platform_anchor: n.platform_anchor,
+        ...(q ? (() => {
+          const markdown = getMarkdown(n).replace(/\s+/g, " ");
+          const match = markdown.toLowerCase().indexOf(q);
+          if (match < 0) return {};
+          const start = Math.max(0, match - 100);
+          const end = Math.min(markdown.length, match + q.length + 100);
+          return { snippet: `${start > 0 ? "…" : ""}${markdown.slice(start, end)}${end < markdown.length ? "…" : ""}` };
+        })() : {})
       }))
     });
   }
@@ -147,14 +192,22 @@ server.registerTool(
   {
     title: "Get one document with its relationships",
     description:
-      "Full metadata for a node plus its typed neighbours: what it depends on, what re-tests it, what grounds it in research, and its paired whitepaper or seminar.",
-    inputSchema: { id: z.string().describe("e.g. wiki/seminars/S049") }
+      "Read a document body plus its full metadata and typed neighbours. Returns up to line_count lines; use section or start_line to retrieve a focused section or continue through a long document.",
+    inputSchema: {
+      id: z.string().describe("e.g. wiki/seminars/S049"),
+      section: z.string().optional().describe("exact H2 heading, without ##; returns only that section"),
+      start_line: z.number().int().min(1).optional().describe("1-based line within the document or selected section"),
+      line_count: z.number().int().min(1).max(500).optional().describe("lines to return; default 200, maximum 500")
+    }
   },
-  async ({ id }) => {
+  async ({ id, section, start_line = 1, line_count = 200 }) => {
     const n = byId.get(id);
     if (!n) return ok({ error: `no such node: ${id}`, hint: "ids are paths without .md, e.g. wiki/seminars/S049" });
+    const document = readDocument(n, section, start_line, line_count);
+    if (document.error) return ok({ id, ...document });
     return ok({
       ...n,
+      ...document,
       depends_on: out("depends_on", id),
       re_tests: out("re_tests", id),
       depended_on_by: inc("depends_on", id),

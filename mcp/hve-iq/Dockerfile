@@ -20,6 +20,17 @@ RUN cd mcp/hve-iq && npm ci --omit=dev
 COPY mcp/hve-iq/index.js ./mcp/hve-iq/
 COPY graph/graph.json ./graph/
 
+# hve_get serves the authored markdown, not only graph metadata. Copy only the
+# tracked knowledge namespaces; raw copyrighted sources are excluded.
+COPY AGENTS.md LICENSE.md README.md ./
+COPY concepts ./concepts/
+COPY graph/*.md ./graph/
+COPY mcp/hve-iq/*.md ./mcp/hve-iq/
+COPY projections ./projections/
+COPY research ./research/
+COPY sources ./sources/
+COPY wiki ./wiki/
+
 # HVE_REPO_ROOT is how the server locates graph/. PORT is what switches it from
 # stdio to Streamable HTTP — and it must match the Container App's targetPort.
 ENV HVE_REPO_ROOT=/app \
