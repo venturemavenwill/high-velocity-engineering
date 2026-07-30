@@ -486,7 +486,12 @@ foreach ($n in $nodes) {
     $text = Get-Content -LiteralPath (Join-Path $RepoRoot $n.path) -Raw
     $day  = $n.id -replace '.*/', ''
 
-    $common = @{
+    # [ordered] is load-bearing. A plain @{} enumerates in an order .NET randomises
+    # PER PROCESS, so every rebuild emitted the same rows with different key order
+    # and graph/ was permanently dirty. This is the second instance of that exact
+    # defect -- see the tie-break comment in the namespace mix above -- and it was
+    # caught by CI rather than locally, which is why verify.ps1 now builds twice.
+    $common = [ordered]@{
         day              = $n.id
         day_title        = $n.title
         module           = $n.module

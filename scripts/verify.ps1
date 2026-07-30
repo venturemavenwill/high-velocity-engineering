@@ -54,6 +54,19 @@ $build = & pwsh -NoProfile -File (Join-Path $PSScriptRoot 'build-graph.ps1') 2>&
 Check 'graph rebuilds without warnings' (-not ($build | Where-Object { $_ -match 'WARNING|Exception' })) `
       (($build | Where-Object { $_ -match '^nodes:' }) -join '')
 
+# A derived index that changes when nothing changed is worse than no index: it makes
+# graph/ permanently dirty, so a real change becomes invisible in the diff. This has
+# happened twice, both times from a plain @{} whose enumeration order .NET randomises
+# per process. CI caught it both times and this gate did not, which is the wrong way
+# round -- the check costs one extra build and removes an entire class of defect.
+$before = Get-ChildItem (Join-Path $repo 'graph') -File | Where-Object { $_.Extension -in '.json', '.jsonl' } |
+          Sort-Object Name | ForEach-Object { (Get-FileHash $_.FullName).Hash }
+& pwsh -NoProfile -File (Join-Path $PSScriptRoot 'build-graph.ps1') *> $null
+$after  = Get-ChildItem (Join-Path $repo 'graph') -File | Where-Object { $_.Extension -in '.json', '.jsonl' } |
+          Sort-Object Name | ForEach-Object { (Get-FileHash $_.FullName).Hash }
+Check 'graph is deterministic across rebuilds' (-not (Compare-Object $before $after)) `
+      'two consecutive builds of the same substrate must be byte-identical'
+
 # ---------------------------------------------------------------- links
 
 Write-Host "`nlinks"
