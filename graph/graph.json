@@ -1733,11 +1733,11 @@
       "verify_cadence": "3 years"
     },
     {
-      "id": "research/05-fde-craft/microsoft-fde-handbook",
-      "path": "research/05-fde-craft/microsoft-fde-handbook.md",
+      "id": "research/05-fde-craft/microsoft-fde-delivery-practice",
+      "path": "research/05-fde-craft/microsoft-fde-delivery-practice.md",
       "kind": "research-note",
       "layer": "research",
-      "title": "Cliff Notes — The ISE FDE Handbook, \"How We Work\"",
+      "title": "Cliff Notes — Microsoft forward-deployed delivery practice (public paraphrase)",
       "headings": [
         "Citation and access",
         "What this source is",
@@ -1752,8 +1752,8 @@
         "Limits and cautions",
         "Verification status"
       ],
-      "words": 6130,
-      "lines": 199,
+      "words": 2665,
+      "lines": 128,
       "assessment_bearing": false,
       "namespace": "fde-craft",
       "decay": "slow",
@@ -1779,7 +1779,7 @@
         "Limits and cautions",
         "Verification status"
       ],
-      "words": 7367,
+      "words": 7380,
       "lines": 229,
       "assessment_bearing": false,
       "namespace": "fde-craft",
@@ -1852,13 +1852,13 @@
         "Translation and modelling — carrying the customer's language into the system",
         "Adoption and handover — the gap between delivered and used",
         "The composite role in practice",
-        "What the two Microsoft handbooks cite — a harvest for further reading",
+        "What the two Microsoft sources cite — a harvest for further reading",
         "Retrieved but unavailable",
         "Adjacent reading, not core",
         "What this folder should answer"
       ],
-      "words": 1750,
-      "lines": 90,
+      "words": 1815,
+      "lines": 92,
       "assessment_bearing": false,
       "namespace": "fde-craft",
       "decay": "slow",
@@ -2608,8 +2608,8 @@
         "What resolving the citations exposed",
         "Copyright handling"
       ],
-      "words": 3156,
-      "lines": 222,
+      "words": 3235,
+      "lines": 223,
       "assessment_bearing": false
     },
     {
@@ -4203,7 +4203,7 @@
       "title": "FDE Delivery Standard",
       "headings": [
         "The problem this page fixes",
-        "What the FDE handbook is, and what it is not",
+        "What the delivery standard is, and how this page may use it",
         "The six principles, and what each one costs",
         "The phase model, and how this programme is not it",
         "The artefacts, which are where the strand becomes assessable",
@@ -4211,8 +4211,8 @@
         "Perishability",
         "Related pages"
       ],
-      "words": 1707,
-      "lines": 92,
+      "words": 1771,
+      "lines": 93,
       "assessment_bearing": false,
       "namespaces": {
         "fde-craft": 2
@@ -6320,7 +6320,7 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 4581,
+      "words": 4609,
       "lines": 239,
       "module": "M08",
       "quarter": "Q4",
@@ -6371,7 +6371,7 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 3799,
+      "words": 3813,
       "lines": 225,
       "module": "M08",
       "quarter": "Q4",
@@ -6420,7 +6420,7 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 5001,
+      "words": 5020,
       "lines": 234,
       "module": "M08",
       "quarter": "Q4",
@@ -6471,7 +6471,7 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 3908,
+      "words": 3925,
       "lines": 229,
       "module": "M08",
       "quarter": "Q4",
@@ -6522,7 +6522,7 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 3753,
+      "words": 3776,
       "lines": 251,
       "module": "M08",
       "quarter": "Q4",
@@ -8577,7 +8577,7 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 6595,
+      "words": 6606,
       "lines": 282,
       "module": "M17",
       "quarter": "Q9",
@@ -8724,7 +8724,7 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 7375,
+      "words": 7389,
       "lines": 296,
       "module": "M17",
       "quarter": "Q9",
@@ -8974,7 +8974,7 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 9203,
+      "words": 9224,
       "lines": 302,
       "module": "M18",
       "quarter": "Q9",
@@ -11116,7 +11116,7 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 7292,
+      "words": 7302,
       "lines": 240,
       "module": "M08",
       "quarter": "Q4",
@@ -13740,7 +13740,7 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 9807,
+      "words": 9818,
       "lines": 262,
       "module": "M18",
       "quarter": "Q9",
@@ -15274,52 +15274,27 @@
       "type": "part_of"
     },
     {
-      "from": "research/05-fde-craft/microsoft-fde-handbook",
-      "to": "research/05-fde-craft/microsoft-ise-engineering-playbook",
-      "type": "links_to"
-    },
-    {
-      "from": "research/05-fde-craft/microsoft-fde-handbook",
-      "to": "sources/vendor-courses/03-Accelerate-Agentic-AI",
-      "type": "links_to"
-    },
-    {
-      "from": "research/05-fde-craft/microsoft-fde-handbook",
-      "to": "sources/vendor-courses/03-Accelerate-Agentic-AI",
-      "type": "summarises"
-    },
-    {
-      "from": "research/05-fde-craft/microsoft-fde-handbook",
+      "from": "research/05-fde-craft/microsoft-fde-delivery-practice",
       "to": "research/99-source-register/source-register",
       "type": "links_to"
     },
     {
-      "from": "research/05-fde-craft/microsoft-fde-handbook",
+      "from": "research/05-fde-craft/microsoft-fde-delivery-practice",
       "to": "research/06-microsoft-platform/hve-core-repository",
       "type": "links_to"
     },
     {
-      "from": "research/05-fde-craft/microsoft-fde-handbook",
-      "to": "concepts/namespaces",
+      "from": "research/05-fde-craft/microsoft-fde-delivery-practice",
+      "to": "research/05-fde-craft/microsoft-ise-engineering-playbook",
       "type": "links_to"
     },
     {
-      "from": "research/05-fde-craft/microsoft-fde-handbook",
-      "to": "wiki/program/11-Microsoft-AI-Platform-Map",
+      "from": "research/05-fde-craft/microsoft-fde-delivery-practice",
+      "to": "wiki/program/14-FDE-Delivery-Standard",
       "type": "links_to"
     },
     {
-      "from": "research/05-fde-craft/microsoft-fde-handbook",
-      "to": "wiki/program/09-Durable-and-Perishable-Register",
-      "type": "links_to"
-    },
-    {
-      "from": "research/05-fde-craft/microsoft-fde-handbook",
-      "to": "research/05-fde-craft/palantir-fde-practitioner-writing",
-      "type": "links_to"
-    },
-    {
-      "from": "research/05-fde-craft/microsoft-fde-handbook",
+      "from": "research/05-fde-craft/microsoft-fde-delivery-practice",
       "to": "research/05-fde-craft/collected-materials",
       "type": "part_of"
     },
@@ -15330,7 +15305,7 @@
     },
     {
       "from": "research/05-fde-craft/microsoft-ise-engineering-playbook",
-      "to": "research/05-fde-craft/microsoft-fde-handbook",
+      "to": "research/05-fde-craft/microsoft-fde-delivery-practice",
       "type": "links_to"
     },
     {
@@ -15365,7 +15340,7 @@
     },
     {
       "from": "research/05-fde-craft/reading-list",
-      "to": "research/05-fde-craft/microsoft-fde-handbook",
+      "to": "research/05-fde-craft/microsoft-fde-delivery-practice",
       "type": "links_to"
     },
     {
@@ -15865,7 +15840,7 @@
     },
     {
       "from": "research/99-source-register/source-register",
-      "to": "research/05-fde-craft/microsoft-fde-handbook",
+      "to": "research/05-fde-craft/microsoft-fde-delivery-practice",
       "type": "links_to"
     },
     {
@@ -21860,12 +21835,12 @@
     },
     {
       "from": "wiki/program/14-FDE-Delivery-Standard",
-      "to": "research/05-fde-craft/microsoft-fde-handbook",
+      "to": "research/05-fde-craft/microsoft-fde-delivery-practice",
       "type": "links_to"
     },
     {
       "from": "wiki/program/14-FDE-Delivery-Standard",
-      "to": "research/05-fde-craft/microsoft-fde-handbook",
+      "to": "research/05-fde-craft/microsoft-fde-delivery-practice",
       "type": "grounded_in"
     },
     {
@@ -57558,7 +57533,7 @@
       "module": "M08",
       "quarter": "Q4",
       "durable": "The decision an agent cannot make is whether the thing should exist",
-      "perishable": "*AI accelerates, humans decide*, as one delivery standard's sixth principle",
+      "perishable": "The delivery standard's sixth principle — let AI accelerate the work, and require a human to decide",
       "platform_anchor": "Azure API Management `llm-token-limit` policy, deployed with Bicep",
       "namespace": "platform",
       "decay": "months",
@@ -57662,7 +57637,7 @@
       "module": "M08",
       "quarter": "Q4",
       "durable": "The front line is a person, and their time cannot be re-run",
-      "perishable": "*Built for the front line*, as one delivery standard's first principle",
+      "perishable": "The delivery standard's first principle — build for real operational use, not for demonstration",
       "platform_anchor": "Azure API Management `llm-emit-token-metric` policy and Azure Monitor metrics for the Foundry deployment",
       "namespace": "platform",
       "decay": "months",
@@ -57805,7 +57780,7 @@
       "module": "M08",
       "quarter": "Q4",
       "durable": "A shared vocabulary is what stops you being the bottleneck you would otherwise be",
-      "perishable": "*Build capability, not dependency*, as one delivery standard's second principle",
+      "perishable": "The delivery standard's second principle — leave the customer's engineers more capable, not more dependent",
       "platform_anchor": "Bicep resource naming, generated from a repository custom instructions file · Azure Monitor and API Management metric vocabulary",
       "namespace": "platform",
       "decay": "months",
@@ -57909,7 +57884,7 @@
       "module": "M08",
       "quarter": "Q4",
       "durable": "What is already owned is the first thing to extend and the evidence that moves the constraint",
-      "perishable": "*Compound what the customer already owns*, as one delivery standard's third principle",
+      "perishable": "The delivery standard's third principle — extend what the customer already runs before introducing anything new",
       "platform_anchor": "Foundry model-deployment quota and the published quota-increase criterion · API Management `llm-token-limit` as the enforced constraint",
       "namespace": "platform",
       "decay": "months",
@@ -57987,7 +57962,7 @@
       "module": "M08",
       "quarter": "Q4",
       "durable": "Working software anchors a decision and does not conclude it",
-      "perishable": "*Prove it with working software*, beside a running implementation the day forbids adopting",
+      "perishable": "Anchor decisions in working software rather than in presentations — the delivery standard's fourth principle, beside a running implementation the day forbids adopting",
       "platform_anchor": "the substrate's API Management gateway and the quota constraint behind it, unresolved",
       "namespace": "platform",
       "decay": "months",
@@ -62121,7 +62096,7 @@
       "module": "M17",
       "quarter": "Q9",
       "durable": "Earning a place in operations is a claim in a unit of account somebody has to name",
-      "perishable": "*Built for the front line*, whose unit the standard does not state",
+      "perishable": "Build for real operational use, not for demonstration — the delivery standard's first principle, whose unit it does not state",
       "platform_anchor": "the substrate's own estate as the platform describes it — Azure resource inventory through the Azure MCP Server, and Purview's default data risk assessment over the SharePoint estate",
       "namespace": "platform",
       "decay": "months",
@@ -62420,7 +62395,7 @@
       "module": "M17",
       "quarter": "Q9",
       "durable": "The workaround is the thing the customer already owns",
-      "perishable": "*Compound what the customer already owns*, read as a process rather than as a stack",
+      "perishable": "Extend what the customer already runs before introducing anything new — the delivery standard's third principle, read as a process rather than as a stack",
       "platform_anchor": "the AI gateway's per-consumer token metrics — `llm-emit-token-metric` with custom dimensions — against the substrate's own usage series",
       "namespace": "platform",
       "decay": "months",
@@ -62992,7 +62967,7 @@
       "module": "M18",
       "quarter": "Q9",
       "durable": "Capability transferred and capability withheld produce the same artefact",
-      "perishable": "*Build capability, not dependency*, examined through what the author can say",
+      "perishable": "Leave the customer's engineers more capable, not more dependent — the delivery standard's second principle, examined through what the author can say",
       "platform_anchor": "Azure deployment stacks — `actionOnUnmanage` and deny settings as a warranty with enforceable terms — and Foundry and Entra agent identities as ownership that survives a person",
       "namespace": "platform",
       "decay": "months",
@@ -75744,7 +75719,7 @@
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
       "namespace": "fde-craft",
-      "words": 348
+      "words": 358
     },
     {
       "id": "WP-041.e1",
@@ -78613,7 +78588,7 @@
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
       "namespace": "fde-craft",
-      "words": 449
+      "words": 460
     },
     {
       "id": "WP-090.e1",
@@ -88586,7 +88561,7 @@
       "read": "full",
       "read_raw": "32 pages fetched and read in full; page footer dates range 2021–2025, so cite by page and date, never by site",
       "section": "Forward-deployed engineering craft",
-      "note": "research/05-fde-craft/microsoft-fde-handbook"
+      "note": "research/05-fde-craft/microsoft-fde-delivery-practice"
     },
     {
       "source": "\"A Day in the Life of a Palantir Forward Deployed Software Engineer\"",

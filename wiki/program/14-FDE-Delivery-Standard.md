@@ -6,36 +6,37 @@
 
 A strand assembled from its best available parts is not the same thing as a strand with an argument. The PE days were each defensible and the sequence was not derived from anything; it was derived from what the other six strands left room for.
 
-Two Microsoft sources now let that be repaired. [research/05-fde-craft/microsoft-ise-engineering-playbook.md](/research/05-fde-craft/microsoft-ise-engineering-playbook.md) is the published, openly contributable engineering standard of a customer-embedded Microsoft organisation. [research/05-fde-craft/microsoft-fde-handbook.md](/research/05-fde-craft/microsoft-fde-handbook.md) is a delivery standard built on top of it, specific to forward-deployed AI engagements, and **it states that it is built on the playbook**.
+Two Microsoft sources now let that be repaired. [research/05-fde-craft/microsoft-ise-engineering-playbook.md](/research/05-fde-craft/microsoft-ise-engineering-playbook.md) is the published, openly contributable engineering standard of a customer-embedded Microsoft organisation. [research/05-fde-craft/microsoft-fde-delivery-practice.md](/research/05-fde-craft/microsoft-fde-delivery-practice.md) is **a public paraphrase of an internal Microsoft delivery standard built on top of that playbook**, specific to forward-deployed AI engagements.
 
 **Take the second one's warning before its content.**
 
-## What the FDE handbook is, and what it is not
+## What the delivery standard is, and how this page may use it
 
-**It is marked `CONFIDENTIAL` and it is not published Microsoft guidance.** It sits on an individual's personal GitHub Pages domain rather than on `microsoft.github.io`; its footer carries a confidentiality marking; its sections attribute content to named Microsoft employees, internal document titles and internal meeting dates; and the repository behind it simultaneously describes itself as a personal project under a permissive licence. **A confidentiality marking and an open-source licence cannot both be a reliable statement of a document's status**, so this programme takes the restrictive reading.
+**It is internal Microsoft material, and everything below is a paraphrase.** It was reachable at the time of reading, but it carried an internal confidentiality marking, was published from an individual's personal space rather than through an official Microsoft channel, and attributed its content to internal documents and meetings — while the repository behind it simultaneously described itself as a personal project under a permissive licence. **Two provenance signals conflict, and this programme takes the more restrictive one.**
 
 The consequences are operative, not decorative:
 
 - **It is filed under the same rule as the internal vendor course** already in this repository: *not publicly accessible in any citable sense, and not citable externally.*
-- **No individual's name, internal document title or internal meeting date appears anywhere in this wiki**, and the research note records that the attributions exist and were deliberately not carried.
-- **What is taught is the durable structure only** — the operating principles, the phase shape, the role split, the artefact chain. Those are describable without reproducing anything confidential, and they are the part that would survive the document being withdrawn tomorrow.
-- **If it is withdrawn or its status is clarified, this page is re-anchored to the playbook alone**, which is open. The strand is designed so that it can be.
+- **No link to it appears anywhere in this wiki**, and none may be added. This repository is public, and a citation that points a public reader at internal material is a disclosure with a footnote attached.
+- **No exact label is reproduced** — not the rendered title, the internal organisational identifier, the marking's wording, the internal checklist's name, or the phase names as written. **No individual is named, and no internal document title or meeting date appears.**
+- **The principles below are restated in this programme's own words**, not quoted. What is taught is the durable structure — the ordering, the role split, the artefact chain — because that is describable in original prose without reproducing anything restricted, and it is the part that would survive the material being withdrawn tomorrow.
+- **If Microsoft publishes this through an official channel, this page is re-cited properly.** Until then it is a public formulation based on Microsoft's practice, and it says so. If the material is withdrawn instead, the page re-anchors to the playbook alone, which is open. The strand is designed so that it can.
 
 ## The six principles, and what each one costs
 
-These are the spine. They are stated in the handbook's own short form; the gloss and the cost are this design's.
+These are the spine. **They are restated in this programme's own words rather than quoted, for the reason given above.** The gloss and the cost are this design's.
 
-**1. Built for the Front Line.** Every capability earns its place in mission-critical operations. **The cost:** a student's build must survive contact with somebody's actual work, which is why this programme runs a live substrate and withdraws the operations content rather than simulating it. See [Substrate and Infrastructure](/wiki/program/10-Substrate-and-Infrastructure.md).
+**1. Build for real operational use, not for demonstration.** A capability earns its place by surviving mission-critical work. **The cost:** a student's build must survive contact with somebody's actual working day, which is why this programme runs a live substrate and withdraws the operations content rather than simulating it. See [Substrate and Infrastructure](/wiki/program/10-Substrate-and-Infrastructure.md).
 
-**2. Build Capability, Not Dependency.** Pair with the customer's engineers so they leave stronger, not more reliant. **This is the strand's hardest principle and the one this programme is least able to assess.** A student can deliver a working system and leave the recipient less able than before, and the artefact looks identical. [S089](/wiki/seminars/S089.md)'s handover and [S090](/wiki/seminars/S090.md)'s entrustment are where it is examined, and both examine it through what the student can *say*, not through what the recipient can *do*.
+**2. Leave the customer's engineers more capable, not more dependent.** **This is the strand's hardest principle and the one this programme is least able to assess.** A student can deliver a working system and leave the recipient less able than before, and the artefact looks identical. [S089](/wiki/seminars/S089.md)'s handover and [S090](/wiki/seminars/S090.md)'s entrustment are where it is examined, and both examine it through what the student can *say*, not through what the recipient can *do*.
 
-**3. Compound What the Customer Already Owns.** Extend the existing stack before introducing anything new. **The cost:** the interesting architecture is usually the one you are not allowed to build, and a student who has only ever built greenfield has not met the constraint that defines the job.
+**3. Extend what the customer already runs before introducing anything new.** **The cost:** the interesting architecture is usually the one you are not allowed to build, and a student who has only ever built greenfield has not met the constraint that defines the job.
 
-**4. Prove It with Working Software.** Demos beat decks; decisions are anchored in running code. **This one the programme already obeys** — phase 5 of every day produces a build, per the [Copilot Practice Standard](/wiki/program/12-Copilot-Practice-Standard.md) — and it is the reason it does.
+**4. Anchor decisions in working software rather than in presentations.** **This one the programme already obeys** — phase 5 of every day produces a build, per the [Copilot Practice Standard](/wiki/program/12-Copilot-Practice-Standard.md) — and it is the reason it does.
 
-**5. Secure and Responsible by Design.** Security and responsible AI are first-commit requirements, not pre-launch checkpoints. **The cost is sequencing:** it puts threat modelling and responsible-AI assessment before the thing they assess exists, which students experience as premature and is the point.
+**5. Treat security and responsible AI as first-commit obligations, not pre-launch gates.** **The cost is sequencing:** it puts threat modelling and responsible-AI assessment before the thing they assess exists, which students experience as premature and is the point.
 
-**6. AI Accelerates, Humans Decide.** Every AI output ships only after a human reviews it. **This is the same claim the [Agent Configuration Standard](/wiki/program/13-Agent-Configuration-Standard.md) already binds**, arriving from a second source and one register up: there it is an instruction file forbidding an agent to tick a review box, here it is an engagement principle. **Two sources reaching the same rule independently is the strongest warrant either of them has**, and it is still not evidence that the rule works.
+**6. Let AI accelerate the work, and require a human to decide.** **This is the same claim the [Agent Configuration Standard](/wiki/program/13-Agent-Configuration-Standard.md) already binds**, arriving from a second source and one register up: there it is an instruction file forbidding an agent to tick a review box, here it is an engagement principle. **Two sources reaching the same rule independently is the strongest warrant either of them has**, and it is still not evidence that the rule works.
 
 ## The phase model, and how this programme is not it
 
@@ -88,4 +89,4 @@ The playbook offers no comparative evidence for any practice it prescribes. The 
 - [Assessment Architecture](/wiki/program/03-Assessment-Architecture.md)
 - [Durable and Perishable Register](/wiki/program/09-Durable-and-Perishable-Register.md)
 - [research/05-fde-craft/microsoft-ise-engineering-playbook.md](/research/05-fde-craft/microsoft-ise-engineering-playbook.md)
-- [research/05-fde-craft/microsoft-fde-handbook.md](/research/05-fde-craft/microsoft-fde-handbook.md)
+- [research/05-fde-craft/microsoft-fde-delivery-practice.md](/research/05-fde-craft/microsoft-fde-delivery-practice.md)
