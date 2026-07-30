@@ -8,7 +8,17 @@
 node_modules
 **/node_modules
 
-# Local copyrighted source material is never deployed.
+# raw/ holds material this repository may not redistribute: purchased books, and
+# access-controlled internal documents. It must not enter the build CONTEXT, not
+# merely the image — `az acr build` tars the context and uploads it to a registry
+# before any COPY runs, so an unlisted raw/ would leave the machine even though
+# no Dockerfile line ever references it.
+#
+# The Dockerfile also copies only named directories, so this line is the second of
+# two independent barriers rather than the only one. Keep both. The same input was
+# already leaked once through a derived artefact — the graph builder indexed raw/
+# into graph/nodes.jsonl, which is committed and public — and the lesson there was
+# that gitignore protects files and says nothing about anything built from them.
 raw
 
 # Build and deployment tooling is not needed at runtime.
