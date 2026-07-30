@@ -9,7 +9,7 @@
 - **Title:** *Productive Failure: Unlocking Deeper Learning Through the Science of Failing*
 - **Publisher and year:** Jossey-Bass, a Wiley imprint, San Francisco. Copyright © 2025 Manu Kapur
 - **Identifiers as printed on the copyright page:** ISBN 9781394219995 (hardback); 9781394220007 (Adobe PDF); 9781394220014 (EPUB). LCCN 2024024149 (print), 2024024150 (ebook). Foreword by Pierre Dillenbourg, EPFL
-- **Access status:** Copyrighted book, read in full from a locally held EPUB at [/raw/productive-failure.epub](/raw/productive-failure.epub). **No edition statement appears anywhere in the package** — see `## Verification status`. This note quotes short fragments for identification and accuracy and reproduces no substantial portion of the text.
+- **Access status:** Copyrighted book, read in full from a locally held EPUB at `raw/productive-failure.epub`, **which is not in this repository and never will be** — `raw/` is gitignored on purpose. **No edition statement appears anywhere in the package** — see `## Verification status`. This note quotes short fragments for identification and accuracy and reproduces no substantial portion of the text.
 
 **Source B — the meta-analysis (abstract only; unchanged from the previous note).**
 - **Authors:** Tanmay Sinha, Manu Kapur
@@ -293,7 +293,7 @@ This is the source for the ordering of the eight-phase seminar day. The programm
 
 ## Verification status
 
-**The book was read in full from a locally held EPUB on 2026-07-30**, at [/raw/productive-failure.epub](/raw/productive-failure.epub), via a complete plain-text extraction of the package. This replaces a note written without access to the book at all.
+**The book was read in full from a locally held EPUB on 2026-07-30**, at `raw/productive-failure.epub`, via a complete plain-text extraction of the package. This replaces a note written without access to the book at all.
 
 **What was read closely.** The Foreword (Dillenbourg); the Introduction and all six of its sections; the openers to Parts I, II and III; **all eight chapters in full** — Ch. 1 The Problems of Learning, Ch. 2 The Solution, Ch. 3 Activation, Ch. 4 Awareness, Ch. 5 Affect, Ch. 6 Assembly, Ch. 7 Designing for Others, Ch. 8 Designing for Self; every chapter's Key Takeaways block; and the Conclusion. Every quotation in this note was transcribed from that text.
 

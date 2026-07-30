@@ -7,7 +7,7 @@
 - **Format of source B:** interview with Brian, a Forward Deployed Software Engineer at Palantir, at the time delivering data integration solutions to a US Department of Defense customer.
 - **Source C — read at page level in the earlier pass:** Palantir careers site, role taxonomy section. https://www.palantir.com/careers/
 - **Access status:** all three are corporate publications on the public web; copyright Palantir Technologies. This note is a synthesis with short attributed quotations, not a reproduction.
-- **Local copy of source A:** [raw/palantir-dev-vs-delta.txt](/raw/palantir-dev-vs-delta.txt), plain text extracted from the article.
+- **Local copy of source A:** `raw/palantir-dev-vs-delta.txt`, plain text extracted from the article. **It is not in this repository** — `raw/` is gitignored on purpose.
 
 ## What this source is
 This is corporate practitioner writing rather than research. Three artefacts are covered here: a company explanation of its own engineering role structure, written by a hiring manager for candidates; a first-person account of what a forward-deployed software engineer actually does, published by the same company; and the company's current public role taxonomy. Their value to the course is that they are the closest thing available to a primary definition of the role, written from inside the organisation that named it, and they are specific about division of labour, daily activity, technical challenge and career movement in a way that secondary commentary is not.
@@ -176,7 +176,7 @@ The 2019 article also supplies two things the course had been managing without. 
 
 ## Verification status
 
-**Source A — "Dev versus Delta" (2019): read in full, 2026-07-30.** The article was read end to end from a locally held plain-text copy of the full article, retained at [raw/palantir-dev-vs-delta.txt](/raw/palantir-dev-vs-delta.txt). Every quotation attributed to it in this note is verbatim from that text, including American spellings inside quotation marks, which are the source's and are preserved. The publication date of 8 April 2019 and the "9 min read" length are as displayed. The narrator is unnamed; the seven colleagues are identified only by first name or initials and office location.
+**Source A — "Dev versus Delta" (2019): read in full, 2026-07-30.** The article was read end to end from a locally held plain-text copy of the full article, retained at `raw/palantir-dev-vs-delta.txt`. Every quotation attributed to it in this note is verbatim from that text, including American spellings inside quotation marks, which are the source's and are preserved. The publication date of 8 April 2019 and the "9 min read" length are as displayed. The narrator is unnamed; the seven colleagues are identified only by first name or initials and office location.
 
 **The retrieval route that previously failed.** In the earlier research pass this article was recorded as unreachable: the Medium-hosted Palantir blog redirected to a sign-in page. That failure is recorded in [research/99-source-register/source-register.md](/research/99-source-register/source-register.md) as **"sign-in redirect; not retrievable" / "not read"**, and in the site-access notes as "Medium-hosted Palantir content — sign-in redirect". The sibling day-in-the-life post was reachable only with a `?gi=` query token appended. Neither route was used this time: the article text was obtained out of band and read locally. The sign-in redirect has not been shown to be resolved and should be assumed still to apply to anyone attempting a live fetch.
 

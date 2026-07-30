@@ -4,7 +4,7 @@
 - **Author:** Eric Evans
 - **Title:** Domain-Driven Design: Tackling Complexity in the Heart of Software
 - **Publisher and year:** Addison-Wesley, 2003 — **inherited from the reading register, not verified.** The EPUB read for this note carries no publisher, date, creator or edition statement in its package metadata. See `## Verification status`.
-- **Access status:** Copyrighted book, read in full text from a locally held EPUB at [/raw/domain-driven-design.epub](/raw/domain-driven-design.epub). This note quotes short fragments for identification and accuracy; it reproduces no substantial portion of the text.
+- **Access status:** Copyrighted book, read in full text from a locally held EPUB at `raw/domain-driven-design.epub`, **which is not in this repository and never will be** — `raw/` is gitignored on purpose. This note quotes short fragments for identification and accuracy; it reproduces no substantial portion of the text.
 - **Related public material:** Domain Language, the author's organisation, publishes a free reference distillation of the pattern definitions. The book itself directs readers to `domaindrivendesign.org` for supplemental example code and community discussion.
 
 ## What this source is
@@ -194,7 +194,7 @@ Finally, the book's prerequisites bound its use in the course. It assumes iterat
 
 ## Verification status
 
-**Read in full text from a locally held EPUB on 2026-07-30**, at [/raw/domain-driven-design.epub](/raw/domain-driven-design.epub). This replaces a synthesis-only note written without opening the book.
+**Read in full text from a locally held EPUB on 2026-07-30**, at `raw/domain-driven-design.epub`. This replaces a synthesis-only note written without opening the book.
 
 **Edition could not be verified.** The EPUB package metadata carries only a title ("Domain-Driven Design"), a language ("en"), a placeholder identifier (`urn:uuid:00000000-0000-0000-0000-000000000000`) and a modification timestamp generated at extraction time. There is **no publisher, no publication date, no creator and no edition statement** in the package document. The manifest filenames are prefixed with the string `0321125215`, which has the form of an ISBN-10 and is suggestive of a particular printing, but that is a filename convention rather than declared metadata, and its mapping to an edition was **not verified in this pass**. The **Addison-Wesley, 2003 first-edition attribution is therefore inherited from the register and remains unverified.** Any page citation, any quotation of front matter, and any claim about edition-specific content must be checked against a physical or properly catalogued copy before publication. The EPUB spine also placed the appendix first and the front matter last, so navigation for this reading was by content rather than by position.
 

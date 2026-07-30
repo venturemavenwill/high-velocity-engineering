@@ -88,17 +88,31 @@ Check 'graph is deterministic across rebuilds' (-not (Compare-Object $before $af
 # node id looks like -- slips through. That guard passed on a tree that had just
 # leaked 98 records. A gate is not verified by running it on clean input; the
 # negative test below is the check, and it must stay.
+#
+# The directory list is read from .gitignore, NOT from the filesystem. The first
+# version enumerated directories that exist, which made it vacuous exactly where it
+# matters most: in CI, a fresh clone has no raw/ at all, so it reported "checked 0
+# gitignored top-level directories" and passed without testing anything. A guard whose
+# coverage depends on the author's working copy is not a guard. Parsing the ignore
+# rules gives the same answer on every machine, including one that has never held the
+# material -- which is the machine standing between this repository and the public.
 $leakPattern = { param($dir) '"([^"]*/)?' + [regex]::Escape($dir) + '/' }
 if (('{"id":"raw/x/y","path":"raw/x/y.md"}' -notmatch (& $leakPattern 'raw')) -or
     ('{"id":"wiki/seminars/S066"}'          -match  (& $leakPattern 'raw'))) {
     throw 'leak-guard self-test failed: the pattern does not discriminate. Fix before trusting this gate.'
 }
+$ignoreFile = Join-Path $repo '.gitignore'
+$ignoredDirs = @(Get-Content $ignoreFile |
+                 ForEach-Object { $_.Trim() } |
+                 Where-Object { $_ -and $_[0] -ne '#' -and $_[0] -ne '!' } |
+                 Where-Object { $_ -match '^[A-Za-z0-9_.\-]+/$' } |
+                 ForEach-Object { $_.TrimEnd('/') } |
+                 Sort-Object -Unique)
+if ($ignoredDirs.Count -eq 0) {
+    throw 'leak-guard found no directory rules in .gitignore. Either the file moved or the parse broke; fix before trusting this gate.'
+}
 $derived = Get-ChildItem (Join-Path $repo 'graph') -File | Where-Object { $_.Extension -in '.json', '.jsonl' }
-$ignoredTop = @(Get-ChildItem $repo -Directory -Force |
-                Where-Object { $_.Name -notin '.git' } |
-                Where-Object { git check-ignore -q $_.FullName 2>$null; $LASTEXITCODE -eq 0 } |
-                ForEach-Object { $_.Name })
-$leaks = foreach ($dir in $ignoredTop) {
+$leaks = foreach ($dir in $ignoredDirs) {
     foreach ($f in $derived) {
         if (Select-String -Path $f.FullName -Pattern (& $leakPattern $dir) -Quiet) {
             "graph/$($f.Name) references gitignored '$dir/'"
@@ -106,7 +120,7 @@ $leaks = foreach ($dir in $ignoredTop) {
     }
 }
 Check 'no gitignored path reaches the committed graph' ($leaks.Count -eq 0) `
-      $(if ($leaks) { $leaks -join '; ' } else { "self-tested; checked $($ignoredTop.Count) gitignored top-level directories" })
+      $(if ($leaks) { $leaks -join '; ' } else { "self-tested; $($ignoredDirs.Count) ignored dirs from .gitignore: $($ignoredDirs -join ', ')" })
 
 # ---------------------------------------------------------------- links
 
@@ -114,13 +128,21 @@ Write-Host "`nlinks"
 # The only legitimate unresolvable links are the format placeholders inside a
 # fenced code block in the whitepaper standard.
 $PLACEHOLDERS = @('/wiki/seminars/S0NN.md', '/wiki/modules/M0N.md', '/wiki/quarters/QN.md')
+# Test-Path answers "does this exist on THIS machine", which is the wrong question for
+# a public repository. A link into a gitignored directory resolves for whoever holds
+# the material and 404s for everyone else, so the gate passed locally and CI failed on
+# ten links into raw/ -- copyrighted books this repository deliberately never commits.
+# Anything under an ignored directory is broken by construction, wherever it is run.
+$ignoredLinkPattern = '^/(' + (($ignoredDirs | ForEach-Object { [regex]::Escape($_) }) -join '|') + ')/'
 $notAbsolute = @(); $broken = @()
 foreach ($f in $md) {
     $src = ((Resolve-Path $f.FullName -Relative) -replace '^\.\\', '') -replace '\\', '/'
     foreach ($m in [regex]::Matches((Get-Content $f.FullName -Raw), '\]\((?!https?://|#|mailto:)([^)\s]+?)(?:#[^)]*)?\)')) {
         $l = $m.Groups[1].Value
-        if ($l -notmatch '^/')                                                      { $notAbsolute += "$l <- $src" }
-        elseif (($PLACEHOLDERS -notcontains $l) -and -not (Test-Path $l.TrimStart('/'))) { $broken += "$l <- $src" }
+        if ($l -notmatch '^/')                            { $notAbsolute += "$l <- $src" }
+        elseif ($PLACEHOLDERS -contains $l)               { }
+        elseif ($l -match $ignoredLinkPattern)            { $broken += "$l <- $src  (gitignored: never committed, so this 404s for every reader)" }
+        elseif (-not (Test-Path $l.TrimStart('/')))       { $broken += "$l <- $src" }
     }
 }
 # A bare relative link resolves from its OWN file's directory, not the repo root,
