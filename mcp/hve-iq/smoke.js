@@ -23,7 +23,7 @@ const check = (label, cond, detail = "") => {
 const listedTools = (await client.listTools()).tools;
 const tools = listedTools.map((t) => t.name).sort();
 console.log("\ntools:", tools.join(", "), "\n");
-check("eight tools registered", tools.length === 8, `${tools.length}`);
+check("nine tools registered", tools.length === 9, `${tools.length}`);
 check("hve_get advertises body controls", ["section", "start_line", "line_count"].every((key) => listedTools.find((t) => t.name === "hve_get")?.inputSchema?.properties?.[key]));
 
 const ns = await call("hve_namespaces");
@@ -101,6 +101,20 @@ check("general-knowledge class is queryable", risky.matched === 90, `${risky.mat
 check("class 2 licenses direction only", /No effect size/.test(risky.results[0].licenses));
 const dell = await call("hve_evidence", { source: "dellacqua" });
 check("reverse source lookup works", dell.matched > 0, `${dell.matched} evidence rows would be affected`);
+
+const moves = await call("hve_teaching_moves", { limit: 1 });
+check("680 teaching moves indexed", moves.total_moves_indexed === 680, `${moves.total_moves_indexed}`);
+check("every day has an opening", moves.days_matched === 90, `${moves.days_matched} days`);
+check("moves are flagged as openings, not scripts", /not scripts/.test(moves.note));
+const elicit = await call("hve_teaching_moves", { day: "S049", kind: "elicit", limit: 100 });
+check("a day's eliciting items are retrievable", elicit.total > 0 && elicit.results.every((m) => m.phase === 1),
+  `${elicit.total} items in S049`);
+const contrast = await call("hve_teaching_moves", { day: "S072", kind: "contrast", limit: 100 });
+check("contrasting cases carry their label", contrast.total > 0 && contrast.results.every((m) => m.label),
+  `${contrast.total} cases, first ${contrast.results[0]?.label}`);
+check("the extractor declares its own gap", /Absence here is not absence/.test(contrast.incomplete));
+const noDay = await call("hve_teaching_moves", { day: "S999" });
+check("unknown day fails gracefully", Boolean(noDay.error));
 
 const src = await call("hve_sources", { limit: 1 });
 check("54 sources registered", src.total_sources === 54, `${src.total_sources}`);

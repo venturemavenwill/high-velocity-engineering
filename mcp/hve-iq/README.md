@@ -32,6 +32,7 @@ Already configured in [.vscode/mcp.json](/.vscode/mcp.json). Open Copilot Chat i
 | `hve_search` | Find documents by title, heading, or body text, with context snippets for body matches. `platform_bearing: true` returns everything that decays in months. |
 | `hve_get` | Read a document body and its typed neighbours. Use `section`, `start_line`, and `line_count` to traverse long documents without flooding context. |
 | `hve_dependency_closure` | **The differentiator.** Given what you intend to teach, what must you also cover? |
+| `hve_teaching_moves` | **How does this day open?** Phase 1's eliciting items and phase 3's contrasting cases. Call it before `hve_get` whenever you intend to teach. |
 | `hve_platform_exposure` | A vendor shipped a breaking change. What does it cost you? |
 | `hve_predictions` | What does this design say would prove it wrong, and with what instrument? |
 | `hve_evidence` | What does this claim rest on — and what breaks if a source is retracted? |
@@ -81,6 +82,9 @@ All three claim layers are extracted mechanically from structure the substrate a
 | Platform claims | **597** | atomic — one durable/perishable pair per row | `platform`, 89 of 90 days |
 | Predictions | **512** | atomic — one falsifiable claim + named instrument | **all namespaces**, 90 papers |
 | Evidence ledger | **360** | **class-level, not atomic** | all namespaces, 90 papers × 4 classes |
+| Teaching moves | **680** | atomic — one eliciting item or one contrasting case | all 90 days; 34 contribute no cases |
+
+**The fourth layer exists because the first three were all answers.** Every one of them returns something finished, and an agent handed only finished things consolidates — not from carelessness, but because consolidating is the only move the data supports. A tutor built on this server did exactly that: it opened a session by delivering eight settled claims to someone who had committed to nothing. `teaching-moves.jsonl` indexes the question each day asks *before* it explains, which is the half of the design that was written down in prose and never made queryable. See [dialogues.md](/mcp/hve-iq/dialogues.md).
 
 The evidence ledger indexes *which class a set of claims was placed in* and *what that class cites* — not the individual claims, because inside each class they are prose: "transfer-appropriate processing, contrasting cases, the generation effect, retrieval practice at expanding intervals…" is one sentence carrying four claims.
 

@@ -1,12 +1,19 @@
 {
-  "node_count": 337,
-  "edge_count": 8012,
+  "node_count": 338,
+  "edge_count": 8018,
   "claim_count": 597,
   "claim_days": 89,
   "claim_gap_days": 1,
   "research_claim_count": 169,
   "prediction_count": 512,
   "evidence_count": 360,
+  "move_count": 680,
+  "move_days": 90,
+  "move_gap_days": 34,
+  "moves_by_kind": {
+    "contrast": 226,
+    "elicit": 454
+  },
   "source_count": 54,
   "sources_by_read": {
     "unread": 19,
@@ -16,7 +23,7 @@
   "nodes_by_kind": {
     "design-analysis": 3,
     "module": 18,
-    "other": 12,
+    "other": 13,
     "program-page": 14,
     "quarter": 9,
     "readme": 1,
@@ -32,7 +39,7 @@
   },
   "nodes_by_layer": {
     "research": 91,
-    "root": 12,
+    "root": 13,
     "sources": 12,
     "wiki": 222
   },
@@ -41,7 +48,7 @@
     "documents": 90,
     "grounded_in": 974,
     "has_whitepaper": 90,
-    "links_to": 5794,
+    "links_to": 5800,
     "part_of": 444,
     "re_tests": 93,
     "retrieves_from": 309,

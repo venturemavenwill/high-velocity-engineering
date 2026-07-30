@@ -466,6 +466,65 @@ foreach ($n in $nodes) {
     }
 }
 
+# ---------------------------------------------------------------- teaching moves
+
+# The claim layer answers "what should be said" and never answered "how does this
+# day OPEN". That gap is not academic: an agent tutoring from this substrate has
+# mechanical access to 597 finished claims and none at all to the eliciting
+# machinery, so it consolidates when it should be asking. Phase 1's pretest items
+# and phase 3's contrasting cases ARE that machinery, and they were sitting in
+# prose no extractor could see.
+#
+# No judgement is applied, exactly as for the platform claims. The items are the
+# ones the day already wrote. A day whose phase 3 runs as prose rather than as
+# labelled cases contributes no contrast moves and is recorded in the gap list
+# rather than having cases invented for it.
+$moves   = [System.Collections.Generic.List[object]]::new()
+$moveGap = @()
+foreach ($n in $nodes) {
+    if ($n.kind -ne 'seminar') { continue }
+    $text = Get-Content -LiteralPath (Join-Path $RepoRoot $n.path) -Raw
+    $day  = $n.id -replace '.*/', ''
+
+    $common = @{
+        day              = $n.id
+        day_title        = $n.title
+        module           = $n.module
+        quarter          = $n.quarter
+        complexity_class = $n.complexity_class
+        platform_anchor  = $n.platform_anchor
+    }
+
+    # phase 1 - the numbered pretest and prediction items, in order
+    $k = 0
+    $p1 = [regex]::Match($text, '(?ms)^## Phase 1\b.*?(?=^## |\z)')
+    if ($p1.Success) {
+        foreach ($m in [regex]::Matches($p1.Value, '(?ms)^(\d+)\.[ \t]+(.+?)(?=^\d+\.[ \t]|\z)')) {
+            $k++
+            $row = [ordered]@{ id = ('{0}.elicit{1}' -f $day, $k); kind = 'elicit'; phase = 1; seq = $k; label = $null
+                               text = (($m.Groups[2].Value -replace '\s+', ' ').Trim()) }
+            foreach ($p in $common.GetEnumerator()) { $row[$p.Key] = $p.Value }
+            $moves.Add([pscustomobject]$row)
+        }
+    }
+
+    # phase 3 - the labelled contrasting cases, in order
+    $c = 0
+    $p3 = [regex]::Match($text, '(?ms)^## Phase 3\b.*?(?=^## |\z)')
+    if ($p3.Success) {
+        foreach ($m in [regex]::Matches($p3.Value, '(?m)^-[ \t]+\*\*(.+?)\*\*[ \t]*(?:\u2014|\u2013|--|-)?[ \t]*(.*)$')) {
+            $c++
+            $row = [ordered]@{ id = ('{0}.contrast{1}' -f $day, $c); kind = 'contrast'; phase = 3; seq = $c
+                               label = (($m.Groups[1].Value -replace '\s+', ' ').Trim())
+                               text  = (($m.Groups[2].Value -replace '\s+', ' ').Trim()) }
+            foreach ($p in $common.GetEnumerator()) { $row[$p.Key] = $p.Value }
+            $moves.Add([pscustomobject]$row)
+        }
+    }
+
+    if ($k -eq 0 -or $c -eq 0) { $moveGap += $n.id }
+}
+
 # ---------------------------------------------------------------- source register
 
 # research/99-source-register/source-register.md already records, per external
@@ -568,6 +627,7 @@ $claims | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join-P
 $researchClaims | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join-Path $OutDir 'research-claims.jsonl') -Encoding utf8
 $predictions | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join-Path $OutDir 'predictions.jsonl') -Encoding utf8
 $evidence | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join-Path $OutDir 'evidence.jsonl') -Encoding utf8
+$moves | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join-Path $OutDir 'teaching-moves.jsonl') -Encoding utf8
 $sources | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join-Path $OutDir 'sources.jsonl') -Encoding utf8
 
 # No `generated` timestamp. It would change on every rebuild regardless of
@@ -580,6 +640,7 @@ $sources | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join-
     research_claims = $researchClaims
     predictions = $predictions
     evidence    = $evidence
+    teaching_moves = $moves
     sources     = $sources
 } | ConvertTo-Json -Depth 8 | Set-Content (Join-Path $OutDir 'graph.json') -Encoding utf8
 
@@ -589,6 +650,7 @@ $typeMap  = [ordered]@{}; $final | Group-Object type  | Sort-Object Name | ForEa
 $esMap    = [ordered]@{}; $nodes | Where-Object { $_.satisfiable_from } | Group-Object satisfiable_from | Sort-Object Name | ForEach-Object { $esMap[$_.Name] = $_.Count }
 $predNs   = [ordered]@{}; $predictions | Where-Object { $_.namespace } | Group-Object namespace | Sort-Object @{ Expression = 'Count'; Descending = $true }, @{ Expression = 'Name'; Descending = $false } | ForEach-Object { $predNs[$_.Name] = $_.Count }
 $srcRead  = [ordered]@{}; $sources | Group-Object read | Sort-Object @{ Expression = 'Count'; Descending = $true }, @{ Expression = 'Name'; Descending = $false } | ForEach-Object { $srcRead[$_.Name] = $_.Count }
+$moveKind = [ordered]@{}; $moves | Group-Object kind | Sort-Object Name | ForEach-Object { $moveKind[$_.Name] = $_.Count }
 
 [pscustomobject]@{
     node_count        = $nodes.Count
@@ -599,6 +661,10 @@ $srcRead  = [ordered]@{}; $sources | Group-Object read | Sort-Object @{ Expressi
     research_claim_count = $researchClaims.Count
     prediction_count  = $predictions.Count
     evidence_count    = $evidence.Count
+    move_count        = $moves.Count
+    move_days         = @($moves | Select-Object -ExpandProperty day -Unique).Count
+    move_gap_days     = @($moveGap | Select-Object -Unique).Count
+    moves_by_kind     = $moveKind
     source_count      = $sources.Count
     sources_by_read   = $srcRead
     nodes_by_kind     = $kindMap
@@ -618,5 +684,7 @@ Write-Host "platform claims: $($claims.Count) across $(@($claims | Select-Object
 Write-Host "research claims: $($researchClaims.Count)"
 Write-Host "predictions:     $($predictions.Count)   evidence rows: $($evidence.Count)"
 $predNs.GetEnumerator() | ForEach-Object { '  {0,-14} {1}' -f $_.Key, $_.Value }
+Write-Host "teaching moves:  $($moves.Count) across $(@($moves | Select-Object -ExpandProperty day -Unique).Count) days  (incomplete: $(@($moveGap | Select-Object -Unique).Count))"
+$moveKind.GetEnumerator() | ForEach-Object { '  {0,-14} {1}' -f $_.Key, $_.Value }
 Write-Host "sources: $($sources.Count)  (joined to a note: $(@($sources | Where-Object { $_.note }).Count))"
 $srcRead.GetEnumerator() | ForEach-Object { '  {0,-14} {1}' -f $_.Key, $_.Value }

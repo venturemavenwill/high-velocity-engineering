@@ -28,6 +28,7 @@ const EDGES = graph.edges;
 const CLAIMS = graph.claims ?? [];
 const PREDICTIONS = graph.predictions ?? [];
 const EVIDENCE = graph.evidence ?? [];
+const MOVES = graph.teaching_moves ?? [];
 const SOURCES = graph.sources ?? [];
 
 // Days whose perishable content this index cannot see. Only S090 remains: it
@@ -215,6 +216,57 @@ server.registerTool(
       grounded_in: out("grounded_in", id),
       pair: [...out("has_whitepaper", id), ...out("documents", id)],
       part_of: out("part_of", id)
+    });
+  }
+);
+
+// ---------------------------------------------------------------- teaching moves
+
+// Every other tool here returns something finished: a claim, a prediction, an
+// evidence class, a document. An agent handed only finished things consolidates,
+// because that is the only move the data supports — and a tutor that opens by
+// consolidating has lectured. These are the day's OWN opening moves: what it asks
+// before it explains, and the cases it puts side by side.
+server.registerTool(
+  "hve_teaching_moves",
+  {
+    title: "How a day opens, before it explains",
+    description:
+      "The eliciting machinery of a seminar day: phase 1's pretest and prediction items, and phase 3's contrasting cases. Call this BEFORE hve_get when you intend to teach rather than to look something up — hve_get returns the day's conclusions, and delivering those first is the lecture this system is designed to avoid. Returns openings to adapt, never a script to read aloud.",
+    inputSchema: {
+      day: z.string().optional().describe("S049 or wiki/seminars/S049"),
+      kind: z.string().optional().describe("elicit = what the day asks before explaining; contrast = the cases it sets side by side"),
+      query: z.string().optional().describe("matched against the move text and the day title"),
+      limit: z.number().int().min(1).max(100).optional()
+    }
+  },
+  async ({ day, kind, query, limit = 20 }) => {
+    const wanted = day ? (day.includes("/") ? day : `wiki/seminars/${day.toUpperCase()}`) : null;
+    const q = query?.toLowerCase();
+    const hits = MOVES.filter((m) => {
+      if (wanted && m.day !== wanted) return false;
+      if (kind && m.kind !== kind) return false;
+      if (!q) return true;
+      return `${m.text} ${m.label ?? ""} ${m.day_title}`.toLowerCase().includes(q);
+    });
+    if (wanted && !byId.has(wanted)) {
+      return ok({ error: `no such day: ${day}`, hint: "days are S001 to S090" });
+    }
+    const days = [...new Set(hits.map((m) => m.day))];
+    return ok({
+      total: hits.length,
+      returned: Math.min(hits.length, limit),
+      days_matched: days.length,
+      total_moves_indexed: MOVES.length,
+      note:
+        "These are openings, not scripts. Adapt them to the person in front of you and to what they have already told you — reading one aloud reproduces a room this learner is not in. An explanation that arrives before a commitment has nothing to attach to, which is what these exist to prevent.",
+      incomplete:
+        "Extraction is mechanical and partial: a day whose phase 3 runs as prose rather than as labelled cases contributes no contrast moves. Absence here is not absence in the day — read the day if the opening matters.",
+      results: hits.slice(0, limit).map((m) => ({
+        id: m.id, day: m.day, day_title: m.day_title, kind: m.kind, phase: m.phase,
+        seq: m.seq, label: m.label, text: m.text,
+        module: m.module, quarter: m.quarter, complexity_class: m.complexity_class
+      }))
     });
   }
 );

@@ -65,11 +65,17 @@
 {"from":"mcp/hve-iq/README","to":"projections/workshop-2day/DERIVATION","type":"links_to"}
 {"from":"mcp/hve-iq/README","to":"concepts/entry-state","type":"links_to"}
 {"from":"mcp/hve-iq/README","to":"wiki/program/09-Durable-and-Perishable-Register","type":"links_to"}
+{"from":"mcp/hve-iq/README","to":"mcp/hve-iq/dialogues","type":"links_to"}
 {"from":"mcp/hve-iq/README","to":"research/99-source-register/source-register","type":"links_to"}
+{"from":"mcp/hve-iq/SKILL","to":"mcp/hve-iq/dialogues","type":"links_to"}
 {"from":"mcp/hve-iq/SKILL","to":"concepts/entry-state","type":"links_to"}
 {"from":"mcp/hve-iq/SKILL","to":"mcp/hve-iq/README","type":"links_to"}
 {"from":"mcp/hve-iq/SKILL","to":"mcp/hve-iq/copilot-studio","type":"links_to"}
 {"from":"mcp/hve-iq/copilot-studio","to":"mcp/hve-iq/SKILL","type":"links_to"}
+{"from":"mcp/hve-iq/copilot-studio","to":"mcp/hve-iq/dialogues","type":"links_to"}
+{"from":"mcp/hve-iq/dialogues","to":"mcp/hve-iq/SKILL","type":"links_to"}
+{"from":"mcp/hve-iq/dialogues","to":"mcp/hve-iq/README","type":"links_to"}
+{"from":"mcp/hve-iq/dialogues","to":"mcp/hve-iq/copilot-studio","type":"links_to"}
 {"from":"projections/workshop-2day/DERIVATION","to":"projections/workshop-2day/README","type":"links_to"}
 {"from":"projections/workshop-2day/DERIVATION","to":"concepts/projections","type":"links_to"}
 {"from":"projections/workshop-2day/DERIVATION","to":"concepts/entry-state","type":"links_to"}
