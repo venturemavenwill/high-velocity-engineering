@@ -32,13 +32,14 @@ Retained but out of scope for source verification: course structure, technical f
 | Barnett et al., "Seven Failure Points When Engineering a RAG System" | arXiv:2401.05856 | open | abstract and structure |
 | Thakur et al., "BEIR" | arXiv:2104.08663 | open | abstract and structure |
 | Malkov and Yashunin, "HNSW" | arXiv:1603.09320 | open | abstract and structure |
+| Crowe, Hapke, Caveness and Zhu, *Machine Learning Production Systems* | O'Reilly, first edition October 2024; ISBN 978-1-098-15601-5 | copyrighted; local EPUB | **full text**, seventeen chapters closely |
 | Jégou, Douze and Schmid, "Product Quantization for Nearest Neighbor Search" | *IEEE TPAMI* 2011 | **INRIA HAL document endpoint blocked** | synthesis only |
 
 ## Measurement and evaluation
 | Source | Identifier | Access | Read |
 |---|---|---|---|
 | Husain, "Your AI Product Needs Evals" | `https://hamel.dev/blog/posts/evals/` | open | full |
-| Huyen, *AI Engineering* | O'Reilly, 2025 | **copyrighted; book not consulted** | **synthesis only — flagged** |
+| Huyen, *AI Engineering* | O'Reilly, 2025; ISBN 978-1-098-16630-4 | copyrighted; local PDF | **evaluation chapters read in full**; roughly a third of the book read closely |
 | Shankar et al., "EvalGen" / "Who Validates the Validators?" | arXiv:2404.12272 | open | abstract and structure |
 | Zheng et al., "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena" | arXiv:2306.05685 | open | abstract and structure |
 | Angelopoulos et al., "Prediction-Powered Inference" | arXiv:2301.09633 | open | abstract and structure |
@@ -48,9 +49,12 @@ Retained but out of scope for source verification: course structure, technical f
 ## Professional formation
 | Source | Identifier | Access | Read |
 |---|---|---|---|
+| Edmondson, *The Fearless Organization* | Wiley, 2019 | copyrighted; local PDF | **full text** |
+| Bandura (ed.), *Self-efficacy in Changing Societies* | Cambridge University Press, 1995 | copyrighted; local PDF | **full text** |
+| Kapur, *Productive Failure* | book; edition metadata absent from local EPUB | copyrighted; local EPUB | **full text** |
 | Bandura, self-efficacy | *Psychological Review* 84(2), 1977 | copyrighted | synthesis only |
-| Keith and Frese, error management training meta-analysis | *Journal of Applied Psychology* 93(1), 2008 | copyrighted | synthesis only |
-| Kapur, productive failure | *Cognition and Instruction* / *Instructional Science* | copyrighted | synthesis only |
+| Keith and Frese, error management training meta-analysis | *Journal of Applied Psychology* 93(1), 2008 | copyrighted; local PDF | **full text** |
+| Sinha and Kapur, productive failure articles | *Cognition and Instruction* / *Instructional Science* | copyrighted | synthesis only |
 | Macnamara et al., deliberate practice meta-analysis | *Psychological Science* 25(8), 2014 | copyrighted | synthesis only |
 | Edmondson, psychological safety | *ASQ* 44(2), 1999 | copyrighted | synthesis only |
 | Frazier et al., psychological safety meta-analysis | *Personnel Psychology* 70(1), 2017 | copyrighted | synthesis only |
@@ -69,16 +73,16 @@ Retained but out of scope for source verification: course structure, technical f
 | Source | Identifier | Access | Read |
 |---|---|---|---|
 | Beyer and Holtzblatt, *Contextual Design: Design for Life*, second edition | Morgan Kaufmann, 2017; EPUB ISBN 978-0-12-801351-4 | copyrighted; local EPUB | full |
-| Evans, *Domain-Driven Design* | Addison-Wesley, 2003 | copyrighted | synthesis only |
+| Evans, *Domain-Driven Design* | Addison-Wesley, 2003; edition unverified from local EPUB | copyrighted; local EPUB | **full text** |
 | Fisher, Ury and Patton, *Getting to Yes*, third edition | Penguin Books, 2011; EPUB ISBN 978-1-101-53954-5 | copyrighted; local EPUB | full |
 | Fitzpatrick, *The Mom Test* | edition metadata absent from local EPUB | copyrighted; local EPUB | full available text |
-| Hiatt, *ADKAR* | Prosci, 2006 | copyrighted | synthesis only |
-| Kotter, *Leading Change* | HBS Press, 1996 | copyrighted | synthesis only |
+| Hiatt, *ADKAR* | Prosci Inc., 2006; LCCN 2006903241, verified from the book's own copyright page | copyrighted; local EPUB | **full text** |
+| Kotter, *Leading Change* | HBS Press; the local copy is the later edition carrying the author's new preface | copyrighted; local EPUB | **full text** |
 | Portigal, *Interviewing Users* | Rosenfeld Media, 2013; ISBN-13 978-1-933820-11-8 | copyrighted; local EPUB | full |
 | Microsoft ISE Engineering Fundamentals Playbook | `https://microsoft.github.io/code-with-engineering-playbook/`; repo `microsoft/code-with-engineering-playbook` | open | full |
 | "A Day in the Life of a Palantir Forward Deployed Software Engineer" | Palantir Blog, 2 November 2020 | open — **requires `?gi=` query token to fetch** | full |
 | Palantir careers, engineering roles | `https://www.palantir.com/careers/` | open | full |
-| Palantir "Dev versus Delta" (Medium) | — | **sign-in redirect; not retrievable** | **not read** |
+| Palantir "Dev versus Delta" (Medium) | Palantir Blog, 8 April 2019 | previously blocked by a sign-in redirect; local text copy | **full text** |
 
 ## Accreditation, curricular standards and course exemplars
 | Source | Identifier | Access | Read |
@@ -165,7 +169,19 @@ Specific claims flagged as **unverified** across the research set:
 
 The tables above are extracted into `graph/sources.jsonl` by [scripts/build-graph.ps1](/scripts/build-graph.ps1) and served by [HVE IQ](/mcp/hve-iq/README.md), so the **Read** column can be queried rather than read. No judgement is applied; sources are joined to their Cliff Note by author surname, and the 11 rows that do not join — aggregate rows, organisational authors, one bare URL — are kept with a null note rather than dropped.
 
-**53 sources: 17 read in full, 17 abstract only, 19 not read at all.**
+**54 sources: 18 read in full, 17 abstract only, 19 not read at all.**
+
+## Four notes now cover two works at two depths, and the machine field cannot say so
+
+On 2026-07-30 ten previously unobtainable sources were obtained and read. Six of them are the work the register already named, and their rows simply changed depth. **Four are a different work by the same author**, and that is a distinction this register's schema cannot express.
+
+- [edmondson-psychological-safety.md](/research/04-professional-formation/edmondson-psychological-safety.md) now covers **both** *The Fearless Organization* (2019, read in full) and the 1999 *ASQ* paper (**still unread**). The 2019 definition drops *shared* and *team*, which the 1999 paper carries; the team-efficacy discriminant and the mediation of performance by learning behaviour appear only in the unread paper.
+- [bandura-self-efficacy.md](/research/04-professional-formation/bandura-self-efficacy.md) covers the 1995 edited volume (read in full) and the 1977 *Psychological Review* paper (**still unread**). The efficacy-versus-outcome distinction, the three dimensions and the unifying claim rest only on the unread paper.
+- [sinha-kapur-productive-failure.md](/research/04-professional-formation/sinha-kapur-productive-failure.md) covers the book (read in full) and the journal articles (**still unread**).
+- The Kotter row now names the later edition carrying the author's new preface, not the 1996 first printing.
+
+**The join is deliberately conservative.** `graph/sources.jsonl` derives one read depth per note by first-token surname, and where two rows resolve to the same note the last row wins. The unread rows are therefore placed **after** the newly read ones, so a claim extracted from these notes carries `unread` rather than `full`. **That understates the warrant for most claims in those notes and overstates it for none**, which is the error worth making. **The note is authoritative on which claim rests on which work; the graph field is a floor.**
+
 
 That last number is not a defect being confessed. Many of the 19 are copyrighted books, and this register's own copyright handling rule is to store original synthesis rather than copied text. The claims resting on unread sources are evidence class 2, which licenses direction and mechanism and forbids an effect size. **The register always knew this. What is new is that a reader can ask.**
 

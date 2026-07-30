@@ -2,7 +2,7 @@
 
 ## Core references
 - Husain, *Your AI Product Needs Evals* — hamel.dev, 29 March 2024. Open access.
-- Huyen, *AI Engineering: Building Applications with Foundation Models* — O'Reilly, 2025. **Copyrighted; not consulted. Note is synthesis only.**
+- Huyen, *AI Engineering: Building Applications with Foundation Models* — O'Reilly. The copyright line reads 2025 and the edition is dated December 2024; ISBN 978-1-098-16630-4. **Copyrighted; a locally held PDF was read on 2026-07-30. Both evaluation chapters were read in full and roughly a third of the book closely; the remainder was not opened.** This entry previously read "Copyrighted; not consulted. Note is synthesis only." The placeholder note it replaced asserted four things the book does not support, which are recorded in [collected-materials.md](/research/03-measurement-evaluation/collected-materials.md).
 - Shankar et al., *Who Validates the Validators? Aligning LLM-Assisted Evaluation of LLM Outputs with Human Preferences* (EvalGen) — arXiv:2404.12272, 2024.
 - Zheng et al., *Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena* — arXiv:2306.05685; NeurIPS 2023 Datasets and Benchmarks Track.
 - Angelopoulos et al., *Prediction-Powered Inference* — arXiv:2301.09633; *Science*, 2023.

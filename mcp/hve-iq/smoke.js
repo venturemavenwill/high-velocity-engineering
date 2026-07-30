@@ -67,7 +67,7 @@ const missing = await call("hve_get", { id: "wiki/seminars/S999" });
 check("unknown id fails gracefully", Boolean(missing.error));
 
 const allClaims = await call("hve_platform_exposure", { limit: 1 });
-check("597 platform claims indexed", allClaims.total_claims_indexed === 597, `${allClaims.total_claims_indexed}`);
+check("618 platform claims indexed", allClaims.total_claims_indexed === 618, `${allClaims.total_claims_indexed}`);
 check("only S090 remains a blind spot", allClaims.blind_spot_days.length === 1 && allClaims.blind_spot_days[0] === "wiki/seminars/S090",
   `${allClaims.blind_spot_days.length} day(s)`);
 
@@ -117,11 +117,11 @@ const noDay = await call("hve_teaching_moves", { day: "S999" });
 check("unknown day fails gracefully", Boolean(noDay.error));
 
 const src = await call("hve_sources", { limit: 1 });
-check("54 sources registered", src.total_sources === 54, `${src.total_sources}`);
-check("read state is tallied", src.all_by_read.unread === 19 && src.all_by_read.full === 18,
+check("58 sources registered", src.total_sources === 58, `${src.total_sources}`);
+check("read state is tallied", src.all_by_read.unread === 13 && src.all_by_read.full === 28,
   `unread ${src.all_by_read.unread}, abstract ${src.all_by_read.abstract}, full ${src.all_by_read.full}`);
 const unread = await call("hve_sources", { read: "unread", limit: 100 });
-check("unread sources are findable", unread.matched === 19, `${unread.matched}`);
+check("unread sources are findable", unread.matched === 13, `${unread.matched}`);
 check("exposure is declared a floor", /FLOOR/.test(unread.note));
 check("unread sources carry their access reason", unread.results.every((s) => s.access));
 const prof = await call("hve_sources", { whitepaper: "WP-049" });

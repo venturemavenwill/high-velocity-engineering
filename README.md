@@ -8,12 +8,12 @@ Most curricula are a syllabus: a list of topics in an order someone defended onc
 
 It is a body of **claims**, each carrying the evidence that warrants it, the namespace that governs what it may be compared against, and the rate at which it goes stale. Teaching formats are **projected** from that body rather than being the body itself. The three-year BSc in [wiki/](/wiki/Home.md) is the first projection and the only finished one — **it is a seed, not the product.** A two-day workshop, a certification path, a thirty-day onboarding plan and an engagement playbook are equally legitimate read models over the same claims.
 
-338 markdown files, one graph builder, one MCP server. **Every fact lives in the markdown**; the two pieces of code are derived tooling that never writes to the substrate.
+339 markdown files, one graph builder, one MCP server. **Every fact lives in the markdown**; the two pieces of code are derived tooling that never writes to the substrate.
 
 ```mermaid
 flowchart TD
   S["sources/ · 11<br/>raw vendor and design material"] --> R
-  R["research/ · 91<br/>Cliff Notes — what was verified,<br/>from where, and what the source omits"] --> W
+  R["research/ · 92<br/>Cliff Notes — what was verified,<br/>from where, and what the source omits"] --> W
   R --> P
   W["wiki/ · 222<br/>the BSc · 90 seminar days + 90 whitepapers"]
   P["projections/<br/>other read models"]
@@ -22,7 +22,7 @@ flowchart TD
   W --> G
   P --> G
   C --> G
-  G["graph/ · 338 nodes · 8,018 edges<br/>597 platform claims · 512 predictions · 360 evidence rows · 680 teaching moves · 54 sources<br/>derived · regenerable · never hand-edited"] --> M["mcp/hve-iq<br/>read-only MCP server"] --> A["any agent"]
+  G["graph/ · 339 nodes · 8,129 edges<br/>618 platform claims · 512 predictions · 360 evidence rows · 680 teaching moves · 58 sources<br/>derived · regenerable · never hand-edited"] --> M["mcp/hve-iq<br/>read-only MCP server"] --> A["any agent"]
 ```
 
 ## Start here
@@ -56,12 +56,12 @@ Claims may not be compared across namespaces raw. A Learn page and a learning-sc
 | Namespace | Licenses | Decays in | Pages |
 |---|---|---|---|
 | `platform` | Vendor docs at a stated version, plus what they do **not** report | **months** | 23 |
-| `ai-systems` | Mechanism verified; magnitudes do not transfer | 1–3 years | 64 |
-| `measurement` | Identity under a stated model and interval, with dependency structure | permanent | 38 |
+| `ai-systems` | Mechanism verified; magnitudes do not transfer | 1–3 years | 65 |
+| `measurement` | Identity under a stated model and interval, with dependency structure | permanent | 39 |
 | `pedagogy` | **Direction and mechanism only. No effect size, ever.** | decades | 16 |
 | `assessment` | Ordinal judgement with narrative substantiation; no percentages | decades | 24 |
-| `fde-craft` | Practice pattern, weak formal warrant | slow | 43 |
-| `curriculum` | Design reasoning and accreditation mapping | years | 5 |
+| `fde-craft` | Practice pattern, weak formal warrant | slow | 42 |
+| `curriculum` | Design reasoning and accreditation mapping | years | 4 |
 | `method` | Design reasoning, no external warrant | on amendment | 9 |
 
 > **The Pages column was wrong before 2026-07-30 and is now regenerated from `graph/nodes.jsonl` rather than maintained by hand.** It read 40 / 4 / 79 / 39 / 22 / 16 / 12 / 9, which summed correctly to 221 and matched no measurement. A hand-maintained count that sums correctly is the hardest kind of stale number to notice, which is the argument for deriving it.

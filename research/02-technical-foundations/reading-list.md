@@ -24,6 +24,9 @@
 - Kambhampati et al., *LLMs Can't Plan, But Can Help Planning in LLM-Modulo Frameworks*. ICML 2024, PMLR 235. arXiv:2402.01817. CC BY 4.0. Position paper.
 - Barnett et al., *Seven Failure Points When Engineering a Retrieval Augmented Generation System*. arXiv:2401.05856. CC BY 4.0. Experience report.
 
+### The production system around the model
+- Crowe, Hapke, Caveness and Zhu, *Machine Learning Production Systems*. O'Reilly Media, first edition October 2024. ISBN 978-1-098-15601-5. Copyrighted; a locally held EPUB was read in full on 2026-07-30. The only survey in this folder of the lifecycle surrounding a model rather than a mechanism inside one: data validation, feature engineering, lineage, serving, monitoring, drift and privacy. Two cautions travel with it. The title page carries an unremoved production-template line reading "Second Edition"; the copyright page says first edition and is authoritative. And three of the four authors work at Google, so the default toolchain throughout is TensorFlow Extended and Vertex.
+
 ## Suggested teaching order
 1. Vaswani, for the shape of the computation.
 2. Pope, then Kwon, for why that shape costs what it costs to serve.

@@ -29,7 +29,7 @@ Questions: what is the durable technical content, what are the primary sources f
 ### WS3 — Measurement and evaluation
 *Folder:* [research/03-measurement-evaluation/](/research/03-measurement-evaluation/collected-materials.md)
 Questions: what does defensible evaluation require, what statistical discipline transfers, and how does evaluation become the spine rather than a topic?
-**Status:** twelve notes complete. **Statistical discipline established and applied to the assessment design. One source, Huyen, deliberately not consulted and flagged.**
+**Status:** twelve notes complete. **Statistical discipline established and applied to the assessment design. Huyen, the folder's one deliberately unconsulted source, was obtained and read on 2026-07-30 — both evaluation chapters in full — and the placeholder note it replaces is corrected in place rather than deleted.**
 
 ### WS4 — Professional formation
 *Folder:* [research/04-professional-formation/](/research/04-professional-formation/collected-materials.md)
@@ -39,7 +39,7 @@ Questions: what is the evidence base for developing judgement, error tolerance a
 ### WS5 — FDE and engagement craft
 *Folder:* [research/05-fde-craft/](/research/05-fde-craft/collected-materials.md)
 Questions: what does the deployed-engineer role actually consist of, what practitioner canon supports it, and which parts are teachable within a course?
-**Status:** eleven notes complete. **Practitioner sourcing is thin by nature and several primary sources were inaccessible.**
+**Status:** eleven notes complete. **Practitioner sourcing is thin by nature. The access gap has since closed: all seven copyrighted books in the folder have been read in full, and Palantir's "Dev versus Delta", previously blocked by a sign-in redirect, was obtained and read on 2026-07-30.**
 
 ### WS6 — Platform mapping
 *Folder:* [research/06-microsoft-platform/](/research/06-microsoft-platform/collected-materials.md)
@@ -75,7 +75,7 @@ The split is a research management rule as well as a content rule. **Durable wor
 - **Closed:** the standards requirement; the exemplar comparison; the technical, measurement, formation and craft source bases; the assessment theory and its operational precedent; the evidence standard itself.
 - **Open, and blocking:** the substrate question, which much of the architecture is contingent on; the assessor capacity question, which determines whether summative claims are honest; the reduction of the candidate activity set and the first full activity description.
 - **Open, and not blocking:** week-level strand mapping; credit and sequence positioning; the observable-indicator set for dispositions; the WS6 refresh cadence; the source register completion; oral-assessment accommodation.
-- **Deliberately not closed:** the CS2023 competency formula, disposition list, core-hours figures and knowledge-area count, all unextractable; the paywalled Govaerts programmatic-assessment canon; Huyen's *AI Engineering*, not consulted. Each is recorded where it matters rather than papered over.
+- **Deliberately not closed:** the CS2023 competency formula, disposition list, core-hours figures and knowledge-area count, all unextractable; the paywalled Govaerts programmatic-assessment canon. Each is recorded where it matters rather than papered over. **Huyen's *AI Engineering* was a third item on this list and is now closed: the book was read on 2026-07-30.**
 
 ## What to remember
 - The brief is auditable by design: which questions are source-answered, judgement-answered and open should always be visible.
@@ -97,4 +97,4 @@ This is the bridge between research collection and curriculum construction, and 
 - The brief does not schedule anything. Sequencing, ownership and effort are outside its scope and are not recorded anywhere else either.
 
 ## Verification status
-This document makes no external factual claims of its own. Every source-derived statement referenced here carries the verification status recorded in the note cited, and the deliberate non-assertions — the CS2023 items behind the three unextractable PDFs, the paywalled Govaerts works, and Huyen's book — are listed above and flagged in every folder where they are relevant. The workstream status assessments, the workstream division, the blocking-versus-non-blocking classification and the durable-perishable assignment are internal judgements with no external warrant.
+This document makes no external factual claims of its own. Every source-derived statement referenced here carries the verification status recorded in the note cited, and the deliberate non-assertions — the CS2023 items behind the three unextractable PDFs and the paywalled Govaerts works — are listed above and flagged in every folder where they are relevant. Huyen's book was a third such item until it was read on 2026-07-30. The workstream status assessments, the workstream division, the blocking-versus-non-blocking classification and the durable-perishable assignment are internal judgements with no external warrant.

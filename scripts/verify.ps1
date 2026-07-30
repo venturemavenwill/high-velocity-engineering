@@ -43,7 +43,9 @@ function Check([string]$label, [bool]$ok, [string]$detail = '') {
     Write-Host ('  {0}  {1}{2}' -f $mark, $label, $(if ($detail) { "  — $detail" } else { '' }))
 }
 
-$md = Get-ChildItem -Recurse -File -Filter *.md | Where-Object { $_.FullName -notmatch '[\\/](node_modules|\.git)[\\/]' }
+# Keep this exclusion list identical to the one in build-graph.ps1. If the gate scans
+# a directory the builder skips, it reports link failures for files that are not nodes.
+$md = Get-ChildItem -Recurse -File -Filter *.md | Where-Object { $_.FullName -notmatch '[\\/](node_modules|\.git|\.venv|venv|__pycache__|site-packages)[\\/]' }
 
 Write-Host "`nHVE IQ verification gate`n"
 

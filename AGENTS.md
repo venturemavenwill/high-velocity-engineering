@@ -7,7 +7,7 @@
 
 A body of knowledge about **forward-deployed engineering and hypervelocity engineering, and how to teach it** — together with the research it was derived from and the vendor study notes that started it.
 
-It is **338 markdown files, one graph builder and one MCP server.** The knowledge layers are markdown and nothing else — the artefact is the argument. The two pieces of code are both **derived tooling**: [scripts/build-graph.ps1](/scripts/build-graph.ps1) regenerates the index from the files, and [mcp/hve-iq](/mcp/hve-iq/README.md) serves it read-only. **Neither holds a fact of its own, and neither ever writes to the substrate.**
+It is **339 markdown files, one graph builder and one MCP server.** The knowledge layers are markdown and nothing else — the artefact is the argument. The two pieces of code are both **derived tooling**: [scripts/build-graph.ps1](/scripts/build-graph.ps1) regenerates the index from the files, and [mcp/hve-iq](/mcp/hve-iq/README.md) serves it read-only. **Neither holds a fact of its own, and neither ever writes to the substrate.**
 
 **Only the knowledge lives here.** The research agent that proposes upgrades to it runs from a separate private repository, opens pull requests, and is gated by [scripts/verify.ps1](/scripts/verify.ps1) exactly as a human contributor is. The work is [CC BY 4.0](/LICENSE.md) — the summaries in `sources/` and `research/` are original prose and licensed; the training material and books they summarise are not this repository's to license, and are not reproduced.
 
@@ -27,7 +27,7 @@ The single number worth holding: **214 of 222 wiki pages are platform-bearing, b
 
 ```
 sources/     raw material        →  research/    verified notes      →  wiki/       the programme
-11 files                            91 files                            222 files
+11 files                            92 files                            222 files
 ```
 
 Every external factual claim in `wiki/` traces to a Cliff Note in `research/`, and every Cliff Note records what was verified, from where, and what the source does not say. This is not decoration — it is enforced by the `## Evidence status` section that closes all 90 whitepapers, which separates:
@@ -64,11 +64,11 @@ It is derived entirely from the files and holds no facts of its own, so it is al
 | Question | Approach |
 |---|---|
 | Which days teach Azure AI Search? | filter nodes on `platform_anchor` |
-| What breaks if Foundry changes? | `graph/claims.jsonl` — **597 durable/perishable pairs across 89 days**, or `hve_platform_exposure` |
+| What breaks if Foundry changes? | `graph/claims.jsonl` — **618 durable/perishable pairs across 89 days**, or `hve_platform_exposure` |
 | What would prove this design wrong? | `graph/predictions.jsonl` — **512 predictions, each with a named instrument**, all unmeasured |
 | How does a day *open*, before it explains? | `graph/teaching-moves.jsonl` — **680 moves across all 90 days**, or `hve_teaching_moves` |
 | What breaks if a source is retracted? | `graph/evidence.jsonl` — **360 rows**, 90 papers × 4 evidence classes, or `hve_evidence` |
-| Did anyone actually read the source? | `graph/sources.jsonl` — **54 sources; 19 were never read**, or `hve_sources` |
+| Did anyone actually read the source? | `graph/sources.jsonl` — **58 sources; 13 were never read**, or `hve_sources` |
 | What decays in months? | filter on `platform_bearing` — **214 pages**, then read their perishability registers |
 | What survives any projection? | filter on `primary_namespace` = `measurement` or `pedagogy` |
 | What does S049 depend on? | follow `depends_on` edges out of `wiki/seminars/S049` |
@@ -124,7 +124,7 @@ Get-ChildItem -Recurse -File -Filter *.md |
 Expected: **3 hits only**, all `BROKEN`, all placeholders inside a fenced code block in `05-Whitepaper-Standard.md`. Any `NOT ROOT-ABSOLUTE` hit is a real defect.
 
 ```powershell
-pwsh ./scripts/build-graph.ps1   # expect 337 nodes, ~8010 edges, 597 claims, 512 predictions, 360 evidence rows, 680 teaching moves, 54 sources
+pwsh ./scripts/build-graph.ps1   # expect 339 nodes, ~8130 edges, 618 claims, 512 predictions, 360 evidence rows, 680 teaching moves, 58 sources
 ```
 
 ```bash

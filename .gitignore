@@ -29,6 +29,13 @@ raw/
 *.bak
 *.log
 
+# Local Python virtualenvs. Also excluded from the markdown scan in
+# scripts/build-graph.ps1 and scripts/verify.ps1 — a venv's vendored LICENSE.md
+# files were otherwise scanned in as graph nodes.
+.venv/
+venv/
+__pycache__/
+
 # Agent memory. Repo-scoped memory currently lives in VS Code workspaceStorage,
 # outside this tree, so it is excluded by construction. These entries are
 # defensive: if a future memory backend writes in-tree, it must not be committed.

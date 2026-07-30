@@ -57,8 +57,13 @@ function Get-Layer([string]$rel) {
 
 # The separator class matters: on Linux FullName uses '/', so a backslash-only
 # pattern silently matches nothing and node_modules gets scanned into the graph.
+#
+# .venv is here because it happened: a local Python virtualenv put two vendored
+# LICENSE.md files under .venv/Lib/site-packages/, the scan picked them up, and the
+# committed graph gained two nodes that are not substrate. Anything that a package
+# manager writes into the tree must be excluded here, not just ignored by git.
 $files = @(Get-ChildItem -Path $RepoRoot -Recurse -File -Filter *.md |
-           Where-Object { $_.FullName -notmatch '[\\/](node_modules|\.git)[\\/]' })
+           Where-Object { $_.FullName -notmatch '[\\/](node_modules|\.git|\.venv|venv|__pycache__|site-packages)[\\/]' })
 
 # Get-ChildItem returns filesystem enumeration order, which differs between NTFS
 # and ext4 — so the same substrate produced a different node order on Windows and

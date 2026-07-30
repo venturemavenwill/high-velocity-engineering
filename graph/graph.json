@@ -324,7 +324,7 @@
         "Limits and cautions",
         "Verification status"
       ],
-      "words": 1666,
+      "words": 1746,
       "lines": 101,
       "assessment_bearing": false,
       "namespace": "curriculum",
@@ -490,8 +490,35 @@
         "Material retained here",
         "Public-source notes to keep"
       ],
-      "words": 1150,
-      "lines": 75,
+      "words": 1567,
+      "lines": 83,
+      "assessment_bearing": false,
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "verify_cadence": "annually"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "path": "research/02-technical-foundations/crowe-machine-learning-production-systems.md",
+      "kind": "research-note",
+      "layer": "research",
+      "title": "Cliff Notes — Machine Learning Production Systems",
+      "headings": [
+        "Citation and access",
+        "What this source is",
+        "The argument in full",
+        "Structure of the original",
+        "Key concepts and practices",
+        "Method and evidence base",
+        "Vocabulary the source introduces",
+        "What to remember",
+        "Why it matters for the course",
+        "How to teach it",
+        "Limits and cautions",
+        "Verification status"
+      ],
+      "words": 10387,
+      "lines": 231,
       "assessment_bearing": false,
       "namespace": "ai-systems",
       "decay": "1-3 years",
@@ -697,8 +724,8 @@
         "Suggested teaching order",
         "What this folder should answer"
       ],
-      "words": 406,
-      "lines": 39,
+      "words": 514,
+      "lines": 42,
       "assessment_bearing": false,
       "namespace": "ai-systems",
       "decay": "1-3 years",
@@ -871,12 +898,13 @@
       "headings": [
         "Working synthesis",
         "Source-by-source Cliff Notes",
+        "Corrections and open items",
         "Material retained here",
         "Public-source notes to keep",
         "Verification state of the notes"
       ],
-      "words": 694,
-      "lines": 65,
+      "words": 1250,
+      "lines": 80,
       "assessment_bearing": false,
       "namespace": "measurement",
       "decay": "permanent",
@@ -956,8 +984,8 @@
         "Limits and cautions",
         "Verification status"
       ],
-      "words": 2157,
-      "lines": 84,
+      "words": 9177,
+      "lines": 250,
       "assessment_bearing": false,
       "namespace": "measurement",
       "decay": "permanent",
@@ -1025,7 +1053,7 @@
         "Suggested reading order",
         "What this folder should answer"
       ],
-      "words": 368,
+      "words": 432,
       "lines": 28,
       "assessment_bearing": false,
       "namespace": "measurement",
@@ -1172,7 +1200,7 @@
       "path": "research/04-professional-formation/bandura-self-efficacy.md",
       "kind": "research-note",
       "layer": "research",
-      "title": "Cliff Notes — Bandura, Self-Efficacy (1977)",
+      "title": "Cliff Notes — Bandura on Self-Efficacy: the 1977 paper (unread) and the 1995 edited volume (read in full)",
       "headings": [
         "Citation and access",
         "What this source is",
@@ -1187,8 +1215,8 @@
         "Limits and cautions",
         "Verification status"
       ],
-      "words": 2187,
-      "lines": 98,
+      "words": 11495,
+      "lines": 373,
       "assessment_bearing": false,
       "namespace": "pedagogy",
       "decay": "decades",
@@ -1203,11 +1231,12 @@
       "headings": [
         "Working synthesis",
         "Source-by-source Cliff Notes",
+        "Corrections and open items",
         "Material retained here",
         "Public-source notes to keep"
       ],
-      "words": 717,
-      "lines": 44,
+      "words": 1486,
+      "lines": 55,
       "assessment_bearing": false,
       "namespace": "pedagogy",
       "decay": "decades",
@@ -1245,7 +1274,7 @@
       "path": "research/04-professional-formation/edmondson-psychological-safety.md",
       "kind": "research-note",
       "layer": "research",
-      "title": "Cliff Notes — Edmondson, Psychological Safety and Learning Behavior in Work Teams",
+      "title": "Cliff Notes — Edmondson on psychological safety: the 2019 book (read) and the 1999 paper (unread)",
       "headings": [
         "Citation and access",
         "What this source is",
@@ -1260,8 +1289,8 @@
         "Limits and cautions",
         "Verification status"
       ],
-      "words": 2224,
-      "lines": 96,
+      "words": 7499,
+      "lines": 269,
       "assessment_bearing": false,
       "namespace": "pedagogy",
       "decay": "decades",
@@ -1341,8 +1370,8 @@
         "Limits and cautions",
         "Verification status"
       ],
-      "words": 2378,
-      "lines": 105,
+      "words": 6772,
+      "lines": 207,
       "assessment_bearing": false,
       "namespace": "pedagogy",
       "decay": "decades",
@@ -1437,8 +1466,8 @@
         "What this folder should answer",
         "Adjacent folders"
       ],
-      "words": 537,
-      "lines": 27,
+      "words": 839,
+      "lines": 30,
       "assessment_bearing": false,
       "namespace": "pedagogy",
       "decay": "decades",
@@ -1449,7 +1478,7 @@
       "path": "research/04-professional-formation/sinha-kapur-productive-failure.md",
       "kind": "research-note",
       "layer": "research",
-      "title": "Cliff Notes — Sinha & Kapur, Productive Failure meta-analysis",
+      "title": "Cliff Notes — Kapur, *Productive Failure*, and the Sinha & Kapur meta-analysis",
       "headings": [
         "Citation and access",
         "What this source is",
@@ -1464,8 +1493,8 @@
         "Limits and cautions",
         "Verification status"
       ],
-      "words": 2808,
-      "lines": 111,
+      "words": 9730,
+      "lines": 338,
       "assessment_bearing": false,
       "namespace": "pedagogy",
       "decay": "decades",
@@ -1538,8 +1567,8 @@
         "Material retained here",
         "Public-source notes to keep"
       ],
-      "words": 1788,
-      "lines": 111,
+      "words": 2649,
+      "lines": 121,
       "assessment_bearing": false,
       "namespace": "fde-craft",
       "decay": "slow",
@@ -1565,8 +1594,8 @@
         "Limits and cautions",
         "Verification status"
       ],
-      "words": 2581,
-      "lines": 104,
+      "words": 8511,
+      "lines": 242,
       "assessment_bearing": false,
       "namespace": "fde-craft",
       "decay": "slow",
@@ -1669,8 +1698,8 @@
         "Limits and cautions",
         "Verification status"
       ],
-      "words": 2006,
-      "lines": 94,
+      "words": 8183,
+      "lines": 208,
       "assessment_bearing": false,
       "namespace": "fde-craft",
       "decay": "slow",
@@ -1696,8 +1725,8 @@
         "Limits and cautions",
         "Verification status"
       ],
-      "words": 2188,
-      "lines": 89,
+      "words": 9876,
+      "lines": 265,
       "assessment_bearing": false,
       "namespace": "fde-craft",
       "decay": "slow",
@@ -1750,8 +1779,8 @@
         "Limits and cautions",
         "Verification status"
       ],
-      "words": 2706,
-      "lines": 104,
+      "words": 6911,
+      "lines": 195,
       "assessment_bearing": false,
       "namespace": "fde-craft",
       "decay": "slow",
@@ -1800,8 +1829,8 @@
         "Adjacent reading, not core",
         "What this folder should answer"
       ],
-      "words": 637,
-      "lines": 44,
+      "words": 836,
+      "lines": 45,
       "assessment_bearing": false,
       "namespace": "fde-craft",
       "decay": "slow",
@@ -2468,7 +2497,7 @@
         "Limits and cautions",
         "Verification status"
       ],
-      "words": 3245,
+      "words": 3337,
       "lines": 114,
       "assessment_bearing": false,
       "namespace": "assessment",
@@ -2547,11 +2576,12 @@
         "Verification note",
         "Perishability",
         "The machine index",
+        "Four notes now cover two works at two depths, and the machine field cannot say so",
         "What resolving the citations exposed",
         "Copyright handling"
       ],
-      "words": 2630,
-      "lines": 205,
+      "words": 3037,
+      "lines": 221,
       "assessment_bearing": false
     },
     {
@@ -3779,6 +3809,7 @@
       "title": "Learning Science Foundations",
       "headings": [
         "Position",
+        "Four sources moved from synthesis to full reading on 2026-07-30",
         "Part I — Mechanisms of durable encoding",
         "Part II — Managing capacity",
         "Part III — Calibration, motivation and the learner's own model",
@@ -3787,8 +3818,8 @@
         "Known tensions in this foundation",
         "Evidence status"
       ],
-      "words": 4492,
-      "lines": 233,
+      "words": 6529,
+      "lines": 275,
       "assessment_bearing": false,
       "namespaces": {
         "pedagogy": 8,
@@ -4933,8 +4964,8 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 3914,
-      "lines": 242,
+      "words": 4775,
+      "lines": 244,
       "module": "M02",
       "quarter": "Q1",
       "complexity_class": 1,
@@ -5129,8 +5160,8 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 3254,
-      "lines": 204,
+      "words": 3446,
+      "lines": 205,
       "module": "M03",
       "quarter": "Q2",
       "complexity_class": 1,
@@ -5428,8 +5459,8 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 3532,
-      "lines": 240,
+      "words": 3813,
+      "lines": 241,
       "module": "M04",
       "quarter": "Q2",
       "complexity_class": 2,
@@ -5873,8 +5904,8 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 3762,
-      "lines": 216,
+      "words": 4296,
+      "lines": 220,
       "module": "M06",
       "quarter": "Q3",
       "complexity_class": 2,
@@ -5892,7 +5923,7 @@
       "re_tests_raw": "S009, S015",
       "assessment_bearing": false,
       "namespaces": {
-        "measurement": 1
+        "measurement": 2
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -6233,8 +6264,8 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 3834,
-      "lines": 223,
+      "words": 4251,
+      "lines": 226,
       "module": "M08",
       "quarter": "Q4",
       "complexity_class": 3,
@@ -6252,7 +6283,7 @@
       "re_tests_raw": "S001",
       "assessment_bearing": false,
       "namespaces": {
-        "fde-craft": 2,
+        "fde-craft": 3,
         "pedagogy": 1
       },
       "primary_namespace": "fde-craft",
@@ -6331,8 +6362,8 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 3608,
-      "lines": 211,
+      "words": 4643,
+      "lines": 221,
       "module": "M08",
       "quarter": "Q4",
       "complexity_class": 3,
@@ -6790,8 +6821,8 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 2956,
-      "lines": 196,
+      "words": 3656,
+      "lines": 201,
       "module": "M10",
       "quarter": "Q5",
       "complexity_class": 4,
@@ -6809,7 +6840,8 @@
       "re_tests_raw": "S042",
       "assessment_bearing": false,
       "namespaces": {
-        "measurement": 2
+        "measurement": 3,
+        "ai-systems": 1
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -6839,8 +6871,8 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 3803,
-      "lines": 216,
+      "words": 4452,
+      "lines": 218,
       "module": "M10",
       "quarter": "Q5",
       "complexity_class": 4,
@@ -6858,7 +6890,7 @@
       "re_tests_raw": "S047",
       "assessment_bearing": false,
       "namespaces": {
-        "measurement": 1
+        "measurement": 2
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -7830,8 +7862,8 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 6019,
-      "lines": 282,
+      "words": 6760,
+      "lines": 291,
       "module": "M14",
       "quarter": "Q7",
       "complexity_class": 5,
@@ -7849,12 +7881,13 @@
       "depends_on_raw": "S027, S033, S035, S067",
       "assessment_bearing": false,
       "namespaces": {
+        "ai-systems": 1,
         "curriculum": 1,
         "pedagogy": 1
       },
-      "primary_namespace": "curriculum",
+      "primary_namespace": "ai-systems",
       "platform_bearing": true,
-      "decay": "years",
+      "decay": "1-3 years",
       "verify_cadence": "annually",
       "satisfiable_from": "either"
     },
@@ -8181,8 +8214,8 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 7443,
-      "lines": 289,
+      "words": 7870,
+      "lines": 295,
       "module": "M15",
       "quarter": "Q8",
       "complexity_class": 5,
@@ -8199,7 +8232,7 @@
       "depends_on_raw": "S046, S048, S067, S074",
       "assessment_bearing": false,
       "namespaces": {
-        "measurement": 2
+        "measurement": 3
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -8578,8 +8611,8 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 6255,
-      "lines": 271,
+      "words": 6472,
+      "lines": 273,
       "module": "M17",
       "quarter": "Q9",
       "complexity_class": 6,
@@ -8599,7 +8632,7 @@
       "assessment_bearing": false,
       "namespaces": {
         "fde-craft": 2,
-        "measurement": 1
+        "measurement": 2
       },
       "primary_namespace": "fde-craft",
       "platform_bearing": true,
@@ -8629,8 +8662,8 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 6358,
-      "lines": 273,
+      "words": 7043,
+      "lines": 283,
       "module": "M17",
       "quarter": "Q9",
       "complexity_class": 6,
@@ -8646,7 +8679,7 @@
       "depends_on_raw": "S037, S081, S082",
       "assessment_bearing": false,
       "namespaces": {
-        "fde-craft": 3
+        "fde-craft": 4
       },
       "primary_namespace": "fde-craft",
       "platform_bearing": true,
@@ -8727,8 +8760,8 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 6987,
-      "lines": 273,
+      "words": 7597,
+      "lines": 281,
       "module": "M18",
       "quarter": "Q9",
       "complexity_class": 6,
@@ -8745,7 +8778,8 @@
       "depends_on_raw": "S015, S038, S084",
       "assessment_bearing": false,
       "namespaces": {
-        "fde-craft": 3
+        "fde-craft": 3,
+        "ai-systems": 1
       },
       "primary_namespace": "fde-craft",
       "platform_bearing": true,
@@ -8979,7 +9013,7 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 6743,
+      "words": 6978,
       "lines": 219,
       "module": "M01",
       "quarter": "Q1",
@@ -9391,8 +9425,8 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 5986,
-      "lines": 208,
+      "words": 6206,
+      "lines": 210,
       "module": "M02",
       "quarter": "Q1",
       "complexity_class": 1,
@@ -9442,8 +9476,8 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 7381,
-      "lines": 235,
+      "words": 8175,
+      "lines": 239,
       "module": "M02",
       "quarter": "Q1",
       "complexity_class": 1,
@@ -9650,8 +9684,8 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 5708,
-      "lines": 207,
+      "words": 5964,
+      "lines": 209,
       "module": "M03",
       "quarter": "Q2",
       "complexity_class": 1,
@@ -9962,8 +9996,8 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 6327,
-      "lines": 233,
+      "words": 6654,
+      "lines": 235,
       "module": "M04",
       "quarter": "Q2",
       "complexity_class": 2,
@@ -10436,8 +10470,8 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 6505,
-      "lines": 224,
+      "words": 6819,
+      "lines": 226,
       "module": "M06",
       "quarter": "Q3",
       "complexity_class": 2,
@@ -10453,14 +10487,14 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
+        "measurement": 2,
         "fde-craft": 1,
-        "measurement": 1,
         "platform": 1
       },
-      "primary_namespace": "fde-craft",
+      "primary_namespace": "measurement",
       "platform_bearing": true,
-      "decay": "slow",
-      "verify_cadence": "3 years",
+      "decay": "permanent",
+      "verify_cadence": "on amendment",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -10809,8 +10843,8 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 6865,
-      "lines": 240,
+      "words": 7241,
+      "lines": 244,
       "module": "M08",
       "quarter": "Q4",
       "complexity_class": 3,
@@ -10914,8 +10948,8 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 6381,
-      "lines": 233,
+      "words": 7420,
+      "lines": 244,
       "module": "M08",
       "quarter": "Q4",
       "complexity_class": 3,
@@ -11392,8 +11426,8 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 5175,
-      "lines": 218,
+      "words": 5470,
+      "lines": 220,
       "module": "M10",
       "quarter": "Q5",
       "complexity_class": 4,
@@ -11409,7 +11443,8 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "measurement": 2,
+        "measurement": 3,
+        "ai-systems": 1,
         "fde-craft": 1,
         "platform": 1
       },
@@ -11444,8 +11479,8 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 5650,
-      "lines": 221,
+      "words": 5969,
+      "lines": 223,
       "module": "M10",
       "quarter": "Q5",
       "complexity_class": 4,
@@ -11461,7 +11496,7 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "measurement": 3,
+        "measurement": 4,
         "platform": 2
       },
       "primary_namespace": "measurement",
@@ -12507,8 +12542,8 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 7586,
-      "lines": 251,
+      "words": 8014,
+      "lines": 255,
       "module": "M14",
       "quarter": "Q7",
       "complexity_class": 5,
@@ -12526,6 +12561,7 @@
       "assessment_bearing": false,
       "namespaces": {
         "curriculum": 2,
+        "ai-systems": 1,
         "measurement": 1,
         "pedagogy": 1,
         "platform": 1
@@ -12884,8 +12920,8 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 9411,
-      "lines": 277,
+      "words": 9953,
+      "lines": 279,
       "module": "M15",
       "quarter": "Q8",
       "complexity_class": 5,
@@ -13317,8 +13353,8 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 7470,
-      "lines": 244,
+      "words": 7779,
+      "lines": 246,
       "module": "M17",
       "quarter": "Q9",
       "complexity_class": 6,
@@ -13372,8 +13408,8 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 7570,
-      "lines": 246,
+      "words": 8278,
+      "lines": 252,
       "module": "M17",
       "quarter": "Q9",
       "complexity_class": 6,
@@ -13477,8 +13513,8 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 8926,
-      "lines": 249,
+      "words": 9376,
+      "lines": 253,
       "module": "M18",
       "quarter": "Q9",
       "complexity_class": 6,
@@ -13496,6 +13532,7 @@
       "namespaces": {
         "fde-craft": 6,
         "pedagogy": 2,
+        "ai-systems": 1,
         "measurement": 1,
         "platform": 1
       },
@@ -14609,6 +14646,41 @@
       "type": "part_of"
     },
     {
+      "from": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "to": "research/99-source-register/source-register",
+      "type": "links_to"
+    },
+    {
+      "from": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "to": "concepts/namespaces",
+      "type": "links_to"
+    },
+    {
+      "from": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "to": "research/02-technical-foundations/barnett-rag-failure-taxonomy",
+      "type": "links_to"
+    },
+    {
+      "from": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "to": "research/06-microsoft-platform/apim-ai-gateway-docs",
+      "type": "links_to"
+    },
+    {
+      "from": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "to": "research/02-technical-foundations/vaswani-attention-is-all-you-need",
+      "type": "links_to"
+    },
+    {
+      "from": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "to": "research/02-technical-foundations/rafailov-dpo",
+      "type": "links_to"
+    },
+    {
+      "from": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "to": "research/02-technical-foundations/collected-materials",
+      "type": "part_of"
+    },
+    {
       "from": "research/02-technical-foundations/jegou-product-quantization",
       "to": "research/02-technical-foundations/collected-materials",
       "type": "part_of"
@@ -14680,6 +14752,76 @@
     },
     {
       "from": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "to": "research/99-source-register/source-register",
+      "type": "links_to"
+    },
+    {
+      "from": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "to": "research/03-measurement-evaluation/reading-list",
+      "type": "links_to"
+    },
+    {
+      "from": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "to": "research/08-assessment-epas/reading-list",
+      "type": "links_to"
+    },
+    {
+      "from": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "to": "research/03-measurement-evaluation/zheng-mt-bench-chatbot-arena",
+      "type": "links_to"
+    },
+    {
+      "from": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "to": "research/03-measurement-evaluation/singh-leaderboard-illusion",
+      "type": "links_to"
+    },
+    {
+      "from": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "to": "research/03-measurement-evaluation/miller-adding-error-bars-to-evals",
+      "type": "links_to"
+    },
+    {
+      "from": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "to": "research/03-measurement-evaluation/thakur-beir",
+      "type": "links_to"
+    },
+    {
+      "from": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "to": "research/03-measurement-evaluation/shankar-evalgen",
+      "type": "links_to"
+    },
+    {
+      "from": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "to": "research/03-measurement-evaluation/husain-your-ai-product-needs-evals",
+      "type": "links_to"
+    },
+    {
+      "from": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "to": "concepts/namespaces",
+      "type": "links_to"
+    },
+    {
+      "from": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "to": "research/03-measurement-evaluation/collected-materials",
+      "type": "links_to"
+    },
+    {
+      "from": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "to": "research/08-assessment-epas/measurement-and-evaluation-sources",
+      "type": "links_to"
+    },
+    {
+      "from": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "to": "research/08-assessment-epas/collected-materials",
+      "type": "links_to"
+    },
+    {
+      "from": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "to": "research/01-course-structure/11-research-brief-for-complete-course-design",
+      "type": "links_to"
+    },
+    {
+      "from": "research/03-measurement-evaluation/huyen-ai-engineering",
       "to": "research/03-measurement-evaluation/collected-materials",
       "type": "part_of"
     },
@@ -14687,6 +14829,11 @@
       "from": "research/03-measurement-evaluation/miller-adding-error-bars-to-evals",
       "to": "research/03-measurement-evaluation/collected-materials",
       "type": "part_of"
+    },
+    {
+      "from": "research/03-measurement-evaluation/reading-list",
+      "to": "research/03-measurement-evaluation/collected-materials",
+      "type": "links_to"
     },
     {
       "from": "research/03-measurement-evaluation/shankar-evalgen",
@@ -14712,6 +14859,41 @@
       "from": "research/03-measurement-evaluation/zheng-mt-bench-chatbot-arena",
       "to": "research/03-measurement-evaluation/collected-materials",
       "type": "part_of"
+    },
+    {
+      "from": "research/04-professional-formation/bandura-self-efficacy",
+      "to": "research/08-assessment-epas/ten-cate-epa-framework",
+      "type": "links_to"
+    },
+    {
+      "from": "research/04-professional-formation/bandura-self-efficacy",
+      "to": "research/04-professional-formation/sinha-kapur-productive-failure",
+      "type": "links_to"
+    },
+    {
+      "from": "research/04-professional-formation/bandura-self-efficacy",
+      "to": "research/04-professional-formation/keith-frese-error-management-training",
+      "type": "links_to"
+    },
+    {
+      "from": "research/04-professional-formation/bandura-self-efficacy",
+      "to": "concepts/namespaces",
+      "type": "links_to"
+    },
+    {
+      "from": "research/04-professional-formation/bandura-self-efficacy",
+      "to": "wiki/program/09-Durable-and-Perishable-Register",
+      "type": "links_to"
+    },
+    {
+      "from": "research/04-professional-formation/bandura-self-efficacy",
+      "to": "research/04-professional-formation/edmondson-psychological-safety",
+      "type": "links_to"
+    },
+    {
+      "from": "research/04-professional-formation/bandura-self-efficacy",
+      "to": "research/99-source-register/source-register",
+      "type": "links_to"
     },
     {
       "from": "research/04-professional-formation/bandura-self-efficacy",
@@ -14775,6 +14957,36 @@
     },
     {
       "from": "research/04-professional-formation/edmondson-psychological-safety",
+      "to": "research/04-professional-formation/frazier-psychological-safety-meta-analysis",
+      "type": "links_to"
+    },
+    {
+      "from": "research/04-professional-formation/edmondson-psychological-safety",
+      "to": "research/04-professional-formation/ten-cate-epas",
+      "type": "links_to"
+    },
+    {
+      "from": "research/04-professional-formation/edmondson-psychological-safety",
+      "to": "research/04-professional-formation/govaerts-narrative-assessment",
+      "type": "links_to"
+    },
+    {
+      "from": "research/04-professional-formation/edmondson-psychological-safety",
+      "to": "concepts/namespaces",
+      "type": "links_to"
+    },
+    {
+      "from": "research/04-professional-formation/edmondson-psychological-safety",
+      "to": "wiki/program/09-Durable-and-Perishable-Register",
+      "type": "links_to"
+    },
+    {
+      "from": "research/04-professional-formation/edmondson-psychological-safety",
+      "to": "research/99-source-register/source-register",
+      "type": "links_to"
+    },
+    {
+      "from": "research/04-professional-formation/edmondson-psychological-safety",
       "to": "research/04-professional-formation/collected-materials",
       "type": "part_of"
     },
@@ -14790,6 +15002,26 @@
     },
     {
       "from": "research/04-professional-formation/keith-frese-error-management-training",
+      "to": "research/08-assessment-epas/ten-cate-epa-framework",
+      "type": "links_to"
+    },
+    {
+      "from": "research/04-professional-formation/keith-frese-error-management-training",
+      "to": "wiki/program/05-Whitepaper-Standard",
+      "type": "links_to"
+    },
+    {
+      "from": "research/04-professional-formation/keith-frese-error-management-training",
+      "to": "concepts/namespaces",
+      "type": "links_to"
+    },
+    {
+      "from": "research/04-professional-formation/keith-frese-error-management-training",
+      "to": "research/99-source-register/source-register",
+      "type": "links_to"
+    },
+    {
+      "from": "research/04-professional-formation/keith-frese-error-management-training",
       "to": "research/04-professional-formation/collected-materials",
       "type": "part_of"
     },
@@ -14802,6 +15034,46 @@
       "from": "research/04-professional-formation/metr-ai-assisted-productivity-study",
       "to": "research/04-professional-formation/collected-materials",
       "type": "part_of"
+    },
+    {
+      "from": "research/04-professional-formation/sinha-kapur-productive-failure",
+      "to": "wiki/program/04-Seminar-Day-Design-Pattern",
+      "type": "links_to"
+    },
+    {
+      "from": "research/04-professional-formation/sinha-kapur-productive-failure",
+      "to": "research/04-professional-formation/keith-frese-error-management-training",
+      "type": "links_to"
+    },
+    {
+      "from": "research/04-professional-formation/sinha-kapur-productive-failure",
+      "to": "research/04-professional-formation/edmondson-psychological-safety",
+      "type": "links_to"
+    },
+    {
+      "from": "research/04-professional-formation/sinha-kapur-productive-failure",
+      "to": "research/04-professional-formation/frazier-psychological-safety-meta-analysis",
+      "type": "links_to"
+    },
+    {
+      "from": "research/04-professional-formation/sinha-kapur-productive-failure",
+      "to": "wiki/program/09-Durable-and-Perishable-Register",
+      "type": "links_to"
+    },
+    {
+      "from": "research/04-professional-formation/sinha-kapur-productive-failure",
+      "to": "wiki/program/03-Assessment-Architecture",
+      "type": "links_to"
+    },
+    {
+      "from": "research/04-professional-formation/sinha-kapur-productive-failure",
+      "to": "concepts/namespaces",
+      "type": "links_to"
+    },
+    {
+      "from": "research/04-professional-formation/sinha-kapur-productive-failure",
+      "to": "research/04-professional-formation/macnamara-deliberate-practice-limits",
+      "type": "links_to"
     },
     {
       "from": "research/04-professional-formation/sinha-kapur-productive-failure",
@@ -14835,8 +15107,103 @@
     },
     {
       "from": "research/05-fde-craft/hiatt-adkar",
+      "to": "research/04-professional-formation/bandura-self-efficacy",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/hiatt-adkar",
+      "to": "research/05-fde-craft/fisher-ury-getting-to-yes",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/hiatt-adkar",
+      "to": "research/04-professional-formation/edmondson-psychological-safety",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/hiatt-adkar",
+      "to": "research/04-professional-formation/keith-frese-error-management-training",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/hiatt-adkar",
+      "to": "research/05-fde-craft/kotter-leading-change",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/hiatt-adkar",
+      "to": "research/99-source-register/source-register",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/hiatt-adkar",
+      "to": "research/05-fde-craft/reading-list",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/hiatt-adkar",
+      "to": "research/05-fde-craft/collected-materials",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/hiatt-adkar",
+      "to": "wiki/seminars/S084",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/hiatt-adkar",
+      "to": "wiki/whitepapers/WP-084",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/hiatt-adkar",
+      "to": "wiki/whitepapers/WP-086",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/hiatt-adkar",
+      "to": "wiki/whitepapers/WP-089",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/hiatt-adkar",
+      "to": "wiki/whitepapers/WP-090",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/hiatt-adkar",
       "to": "research/05-fde-craft/collected-materials",
       "type": "part_of"
+    },
+    {
+      "from": "research/05-fde-craft/kotter-leading-change",
+      "to": "research/05-fde-craft/hiatt-adkar",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/kotter-leading-change",
+      "to": "research/05-fde-craft/beyer-holtzblatt-contextual-design",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/kotter-leading-change",
+      "to": "wiki/whitepapers/WP-036",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/kotter-leading-change",
+      "to": "wiki/whitepapers/WP-084",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/kotter-leading-change",
+      "to": "research/99-source-register/source-register",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/kotter-leading-change",
+      "to": "concepts/namespaces",
+      "type": "links_to"
     },
     {
       "from": "research/05-fde-craft/kotter-leading-change",
@@ -14847,6 +15214,21 @@
       "from": "research/05-fde-craft/microsoft-ise-engineering-playbook",
       "to": "research/05-fde-craft/collected-materials",
       "type": "part_of"
+    },
+    {
+      "from": "research/05-fde-craft/palantir-fde-practitioner-writing",
+      "to": "research/99-source-register/source-register",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/palantir-fde-practitioner-writing",
+      "to": "research/05-fde-craft/collected-materials",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/palantir-fde-practitioner-writing",
+      "to": "research/05-fde-craft/reading-list",
+      "type": "links_to"
     },
     {
       "from": "research/05-fde-craft/palantir-fde-practitioner-writing",
@@ -15351,6 +15733,21 @@
     {
       "from": "research/99-source-register/source-register",
       "to": "mcp/hve-iq/README",
+      "type": "links_to"
+    },
+    {
+      "from": "research/99-source-register/source-register",
+      "to": "research/04-professional-formation/edmondson-psychological-safety",
+      "type": "links_to"
+    },
+    {
+      "from": "research/99-source-register/source-register",
+      "to": "research/04-professional-formation/bandura-self-efficacy",
+      "type": "links_to"
+    },
+    {
+      "from": "research/99-source-register/source-register",
+      "to": "research/04-professional-formation/sinha-kapur-productive-failure",
       "type": "links_to"
     },
     {
@@ -18830,6 +19227,11 @@
     },
     {
       "from": "wiki/program/02-Learning-Science-Foundations",
+      "to": "concepts/namespaces",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/program/02-Learning-Science-Foundations",
       "to": "research/04-professional-formation/keith-frese-error-management-training",
       "type": "links_to"
     },
@@ -18962,6 +19364,11 @@
       "from": "wiki/program/02-Learning-Science-Foundations",
       "to": "research/99-source-register/source-register",
       "type": "grounded_in"
+    },
+    {
+      "from": "wiki/program/02-Learning-Science-Foundations",
+      "to": "wiki/program/05-Whitepaper-Standard",
+      "type": "links_to"
     },
     {
       "from": "wiki/program/02-Learning-Science-Foundations",
@@ -24830,22 +25237,22 @@
     },
     {
       "from": "wiki/seminars/S020",
-      "to": "research/05-fde-craft/palantir-fde-practitioner-writing",
+      "to": "research/08-assessment-epas/ten-cate-epa-framework",
       "type": "links_to"
     },
     {
       "from": "wiki/seminars/S020",
-      "to": "research/05-fde-craft/palantir-fde-practitioner-writing",
+      "to": "research/08-assessment-epas/ten-cate-epa-framework",
       "type": "grounded_in"
     },
     {
       "from": "wiki/seminars/S020",
-      "to": "research/08-assessment-epas/ten-cate-epa-framework",
+      "to": "research/05-fde-craft/palantir-fde-practitioner-writing",
       "type": "links_to"
     },
     {
       "from": "wiki/seminars/S020",
-      "to": "research/08-assessment-epas/ten-cate-epa-framework",
+      "to": "research/05-fde-craft/palantir-fde-practitioner-writing",
       "type": "grounded_in"
     },
     {
@@ -25950,6 +26357,16 @@
     },
     {
       "from": "wiki/seminars/S029",
+      "to": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S029",
+      "to": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/seminars/S029",
       "to": "wiki/program/12-Copilot-Practice-Standard",
       "type": "links_to"
     },
@@ -26956,6 +27373,16 @@
     {
       "from": "wiki/seminars/S036",
       "to": "research/05-fde-craft/beyer-holtzblatt-contextual-design",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/seminars/S036",
+      "to": "research/05-fde-craft/kotter-leading-change",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S036",
+      "to": "research/05-fde-craft/kotter-leading-change",
       "type": "grounded_in"
     },
     {
@@ -28405,6 +28832,26 @@
     },
     {
       "from": "wiki/seminars/S047",
+      "to": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S047",
+      "to": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/seminars/S047",
+      "to": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S047",
+      "to": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/seminars/S047",
       "to": "wiki/program/12-Copilot-Practice-Standard",
       "type": "links_to"
     },
@@ -28532,6 +28979,16 @@
       "from": "wiki/seminars/S048",
       "to": "wiki/program/12-Copilot-Practice-Standard",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S048",
+      "to": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S048",
+      "to": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "type": "grounded_in"
     },
     {
       "from": "wiki/seminars/S048",
@@ -32252,6 +32709,16 @@
       "from": "wiki/seminars/S068",
       "to": "wiki/seminars/S032",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S068",
+      "to": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S068",
+      "to": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "type": "grounded_in"
     },
     {
       "from": "wiki/seminars/S068",
@@ -33775,6 +34242,21 @@
     },
     {
       "from": "wiki/seminars/S075",
+      "to": "wiki/seminars/S047",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S075",
+      "to": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S075",
+      "to": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/seminars/S075",
       "to": "wiki/seminars/S049",
       "type": "links_to"
     },
@@ -35590,6 +36072,16 @@
     },
     {
       "from": "wiki/seminars/S083",
+      "to": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S083",
+      "to": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/seminars/S083",
       "to": "wiki/seminars/S082",
       "type": "links_to"
     },
@@ -35886,6 +36378,16 @@
     {
       "from": "wiki/seminars/S084",
       "to": "research/05-fde-craft/hiatt-adkar",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/seminars/S084",
+      "to": "research/05-fde-craft/kotter-leading-change",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S084",
+      "to": "research/05-fde-craft/kotter-leading-change",
       "type": "grounded_in"
     },
     {
@@ -36262,6 +36764,16 @@
       "from": "wiki/seminars/S086",
       "to": "wiki/seminars/S089",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S086",
+      "to": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S086",
+      "to": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "type": "grounded_in"
     },
     {
       "from": "wiki/seminars/S086",
@@ -37450,38 +37962,38 @@
     },
     {
       "from": "wiki/whitepapers/WP-001",
-      "to": "research/04-professional-formation/dellacqua-jagged-technological-frontier",
-      "type": "links_to"
-    },
-    {
-      "from": "wiki/whitepapers/WP-001",
-      "to": "research/04-professional-formation/dellacqua-jagged-technological-frontier",
-      "type": "grounded_in"
-    },
-    {
-      "from": "wiki/whitepapers/WP-001",
-      "to": "research/01-course-structure/10-gap-analysis-and-course-architecture",
-      "type": "links_to"
-    },
-    {
-      "from": "wiki/whitepapers/WP-001",
-      "to": "research/01-course-structure/10-gap-analysis-and-course-architecture",
-      "type": "grounded_in"
-    },
-    {
-      "from": "wiki/whitepapers/WP-001",
-      "to": "research/06-microsoft-platform/collected-materials",
-      "type": "links_to"
-    },
-    {
-      "from": "wiki/whitepapers/WP-001",
-      "to": "research/06-microsoft-platform/collected-materials",
-      "type": "grounded_in"
-    },
-    {
-      "from": "wiki/whitepapers/WP-001",
       "to": "wiki/program/02-Learning-Science-Foundations",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-001",
+      "to": "research/04-professional-formation/dellacqua-jagged-technological-frontier",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-001",
+      "to": "research/04-professional-formation/dellacqua-jagged-technological-frontier",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-001",
+      "to": "research/01-course-structure/10-gap-analysis-and-course-architecture",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-001",
+      "to": "research/01-course-structure/10-gap-analysis-and-course-architecture",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-001",
+      "to": "research/06-microsoft-platform/collected-materials",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-001",
+      "to": "research/06-microsoft-platform/collected-materials",
+      "type": "grounded_in"
     },
     {
       "from": "wiki/whitepapers/WP-001",
@@ -38917,6 +39429,11 @@
       "from": "wiki/whitepapers/WP-014",
       "to": "research/05-fde-craft/evans-domain-driven-design",
       "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-014",
+      "to": "wiki/seminars/S038",
+      "type": "links_to"
     },
     {
       "from": "wiki/whitepapers/WP-014",
@@ -40605,6 +41122,16 @@
     },
     {
       "from": "wiki/whitepapers/WP-029",
+      "to": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-029",
+      "to": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-029",
       "to": "research/06-microsoft-platform/hve-core-repository",
       "type": "links_to"
     },
@@ -43070,6 +43597,26 @@
     },
     {
       "from": "wiki/whitepapers/WP-047",
+      "to": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-047",
+      "to": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-047",
+      "to": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-047",
+      "to": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-047",
       "to": "wiki/program/11-Microsoft-AI-Platform-Map",
       "type": "links_to"
     },
@@ -43177,6 +43724,16 @@
       "from": "wiki/whitepapers/WP-048",
       "to": "wiki/seminars/S027",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-048",
+      "to": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-048",
+      "to": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "type": "grounded_in"
     },
     {
       "from": "wiki/whitepapers/WP-048",
@@ -47505,6 +48062,16 @@
     },
     {
       "from": "wiki/whitepapers/WP-068",
+      "to": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-068",
+      "to": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-068",
       "to": "wiki/seminars/S068",
       "type": "documents"
     },
@@ -49355,6 +49922,21 @@
     },
     {
       "from": "wiki/whitepapers/WP-075",
+      "to": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-075",
+      "to": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-075",
+      "to": "wiki/seminars/S047",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-075",
       "to": "research/06-microsoft-platform/collected-materials",
       "type": "links_to"
     },
@@ -49371,16 +49953,6 @@
     {
       "from": "wiki/whitepapers/WP-075",
       "to": "research/06-microsoft-platform/hve-core-repository",
-      "type": "grounded_in"
-    },
-    {
-      "from": "wiki/whitepapers/WP-075",
-      "to": "research/03-measurement-evaluation/huyen-ai-engineering",
-      "type": "links_to"
-    },
-    {
-      "from": "wiki/whitepapers/WP-075",
-      "to": "research/03-measurement-evaluation/huyen-ai-engineering",
       "type": "grounded_in"
     },
     {
@@ -51685,6 +52257,16 @@
     },
     {
       "from": "wiki/whitepapers/WP-083",
+      "to": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-083",
+      "to": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-083",
       "to": "research/06-microsoft-platform/collected-materials",
       "type": "links_to"
     },
@@ -51695,13 +52277,13 @@
     },
     {
       "from": "wiki/whitepapers/WP-083",
-      "to": "research/03-measurement-evaluation/huyen-ai-engineering",
+      "to": "wiki/seminars/S047",
       "type": "links_to"
     },
     {
       "from": "wiki/whitepapers/WP-083",
-      "to": "research/03-measurement-evaluation/huyen-ai-engineering",
-      "type": "grounded_in"
+      "to": "wiki/seminars/S075",
+      "type": "links_to"
     },
     {
       "from": "wiki/whitepapers/WP-083",
@@ -52536,6 +53118,16 @@
     {
       "from": "wiki/whitepapers/WP-086",
       "to": "research/04-professional-formation/keith-frese-error-management-training",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-086",
+      "to": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-086",
+      "to": "research/02-technical-foundations/crowe-machine-learning-production-systems",
       "type": "grounded_in"
     },
     {
@@ -54965,6 +55557,19 @@
       "assessment_bearing": false
     },
     {
+      "id": "S014.p7",
+      "day": "wiki/seminars/S014",
+      "module": "M03",
+      "quarter": "Q2",
+      "durable": "An entity is identity and continuity, not attributes",
+      "perishable": "The substrate's entity schema, whose rows are attributes",
+      "platform_anchor": "the vector index as a proximity graph — an Azure AI Search HNSW configuration, read through the Azure MCP Server",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
       "id": "S015.p1",
       "day": "wiki/seminars/S015",
       "module": "M03",
@@ -55361,6 +55966,19 @@
       "quarter": "Q2",
       "durable": "A remedy has a lead time",
       "perishable": "Quota request, provisioned units, batch path, or nothing",
+      "platform_anchor": "Foundry quota and capacity; the quota increase request as the real decision",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": true
+    },
+    {
+      "id": "S020.p6",
+      "day": "wiki/seminars/S020",
+      "module": "M04",
+      "quarter": "Q2",
+      "durable": "The argument is measured by what the decision-owner does next",
+      "perishable": "The four priced options in front of them today",
       "platform_anchor": "Foundry quota and capacity; the quota increase request as the real decision",
       "namespace": "platform",
       "decay": "months",
@@ -55931,6 +56549,32 @@
       "day": "wiki/seminars/S029",
       "module": "M06",
       "quarter": "Q3",
+      "durable": "A judged instrument is a model, a prompt and a sampling configuration, and changing any of the three makes a different instrument",
+      "perishable": "`deployment_name`, which the platform asks for, and the prompt and sampling settings behind instrument A, which it does not",
+      "platform_anchor": "Microsoft Foundry custom evaluators — prompt-based and code-based — and local evaluators",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S029.p4",
+      "day": "wiki/seminars/S029",
+      "module": "M06",
+      "quarter": "Q3",
+      "durable": "The scale is one of the instrument's parameters, not a container for its output",
+      "perishable": "Ordinal one-to-five and continuous scoring, both assuming higher is better",
+      "platform_anchor": "Microsoft Foundry custom evaluators — prompt-based and code-based — and local evaluators",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S029.p5",
+      "day": "wiki/seminars/S029",
+      "module": "M06",
+      "quarter": "Q3",
       "durable": "Observing can change what is stored about the observed",
       "perishable": "Judge explanations written into telemetry when redaction is disabled",
       "platform_anchor": "Microsoft Foundry custom evaluators — prompt-based and code-based — and local evaluators",
@@ -55940,7 +56584,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S029.p4",
+      "id": "S029.p6",
       "day": "wiki/seminars/S029",
       "module": "M06",
       "quarter": "Q3",
@@ -55953,7 +56597,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S029.p5",
+      "id": "S029.p7",
       "day": "wiki/seminars/S029",
       "module": "M06",
       "quarter": "Q3",
@@ -55966,7 +56610,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S029.p6",
+      "id": "S029.p8",
       "day": "wiki/seminars/S029",
       "module": "M06",
       "quarter": "Q3",
@@ -55979,7 +56623,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S029.p7",
+      "id": "S029.p9",
       "day": "wiki/seminars/S029",
       "module": "M06",
       "quarter": "Q3",
@@ -56525,6 +57169,19 @@
       "assessment_bearing": false
     },
     {
+      "id": "S036.p6",
+      "day": "wiki/seminars/S036",
+      "module": "M08",
+      "quarter": "Q4",
+      "durable": "A request may exist to create urgency rather than to be built",
+      "perishable": "A user's sentence written so that a refusal becomes visible to somebody else",
+      "platform_anchor": "Azure API Management `llm-token-limit` policy, deployed with Bicep",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
       "id": "S037.p1",
       "day": "wiki/seminars/S037",
       "module": "M08",
@@ -56674,6 +57331,45 @@
       "quarter": "Q4",
       "durable": "A specification that produces non-conforming work is defective",
       "perishable": "An instructions file with no rule for the silent case",
+      "platform_anchor": "Bicep resource naming, generated from a repository custom instructions file · Azure Monitor and API Management metric vocabulary",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S038.p7",
+      "day": "wiki/seminars/S038",
+      "module": "M08",
+      "quarter": "Q4",
+      "durable": "The vocabulary is negotiated and there are two vetoes",
+      "perishable": "The terms your instructions file forbids, and the narrowing the expert refuses",
+      "platform_anchor": "Bicep resource naming, generated from a repository custom instructions file · Azure Monitor and API Management metric vocabulary",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S038.p8",
+      "day": "wiki/seminars/S038",
+      "module": "M08",
+      "quarter": "Q4",
+      "durable": "The comprehension test is against the model, and technical components are exempt",
+      "perishable": "Which generated resource names are the domain's and which are the gateway's",
+      "platform_anchor": "Bicep resource naming, generated from a repository custom instructions file · Azure Monitor and API Management metric vocabulary",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S038.p9",
+      "day": "wiki/seminars/S038",
+      "module": "M08",
+      "quarter": "Q4",
+      "durable": "The method assumes iterative work and continuing expert access",
+      "perishable": "A domain expert timetabled for thirty minutes on a day that already had ninety",
       "platform_anchor": "Bicep resource naming, generated from a repository custom instructions file · Azure Monitor and API Management metric vocabulary",
       "namespace": "platform",
       "decay": "months",
@@ -57374,6 +58070,45 @@
       "day": "wiki/seminars/S047",
       "module": "M10",
       "quarter": "Q5",
+      "durable": "An evaluation must change more slowly than the thing it evaluates",
+      "perishable": "Eleven registered versions of one evaluator, against one quarter of system change",
+      "platform_anchor": "Foundry evaluator catalogue versioning; scheduled evaluations and continuous evaluation (preview)",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S047.p6",
+      "day": "wiki/seminars/S047",
+      "module": "M10",
+      "quarter": "Q5",
+      "durable": "Drift and skew are different comparisons, detected differently",
+      "perishable": "A criterion read across time, against a criterion and its scoring pipeline read against each other today",
+      "platform_anchor": "Foundry evaluator catalogue versioning; scheduled evaluations and continuous evaluation (preview)",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S047.p7",
+      "day": "wiki/seminars/S047",
+      "module": "M10",
+      "quarter": "Q5",
+      "durable": "A re-validation cadence assumes a rate of change and must say so",
+      "perishable": "A quarterly schedule on a construct that moves in weeks",
+      "platform_anchor": "Foundry evaluator catalogue versioning; scheduled evaluations and continuous evaluation (preview)",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S047.p8",
+      "day": "wiki/seminars/S047",
+      "module": "M10",
+      "quarter": "Q5",
       "durable": "An unchecked criterion is one nobody committed to checking",
       "perishable": "Skipped runs above the default hourly cap of 100",
       "platform_anchor": "Foundry evaluator catalogue versioning; scheduled evaluations and continuous evaluation (preview)",
@@ -57400,6 +58135,32 @@
       "day": "wiki/seminars/S048",
       "module": "M10",
       "quarter": "Q5",
+      "durable": "A judge is a model, a prompt and a sampling configuration, and changing any of the three makes a different judge",
+      "perishable": "`deployment_name`, which the platform makes you name, and the prompt and sampling settings, which it does not",
+      "platform_anchor": "Foundry LLM-as-judge evaluators and the judge-model choice · GitHub Copilot reviewing its own output",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S048.p3",
+      "day": "wiki/seminars/S048",
+      "module": "M10",
+      "quarter": "Q5",
+      "durable": "A criterion name does not travel between judges",
+      "perishable": "One rubric dimension carried under one name across two tools with two scales",
+      "platform_anchor": "Foundry LLM-as-judge evaluators and the judge-model choice · GitHub Copilot reviewing its own output",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S048.p4",
+      "day": "wiki/seminars/S048",
+      "module": "M10",
+      "quarter": "Q5",
       "durable": "A systematic component does not average out",
       "perishable": "Scaled evaluation adds cases, not judges",
       "platform_anchor": "Foundry LLM-as-judge evaluators and the judge-model choice · GitHub Copilot reviewing its own output",
@@ -57409,7 +58170,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S048.p3",
+      "id": "S048.p5",
       "day": "wiki/seminars/S048",
       "module": "M10",
       "quarter": "Q5",
@@ -57422,7 +58183,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S048.p4",
+      "id": "S048.p6",
       "day": "wiki/seminars/S048",
       "module": "M10",
       "quarter": "Q5",
@@ -57435,7 +58196,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S048.p5",
+      "id": "S048.p7",
       "day": "wiki/seminars/S048",
       "module": "M10",
       "quarter": "Q5",
@@ -57448,7 +58209,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S048.p6",
+      "id": "S048.p8",
       "day": "wiki/seminars/S048",
       "module": "M10",
       "quarter": "Q5",
@@ -57461,7 +58222,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S048.p7",
+      "id": "S048.p9",
       "day": "wiki/seminars/S048",
       "module": "M10",
       "quarter": "Q5",
@@ -59207,6 +59968,45 @@
       "day": "wiki/seminars/S068",
       "module": "M14",
       "quarter": "Q7",
+      "durable": "An aggregate conceals the population it is an average over, and which slices matter is a domain question",
+      "perishable": "M1's threshold on the aggregate run success rate",
+      "platform_anchor": "Foundry observability — tracing, the Agent Monitoring Dashboard and continuous evaluation, the last two preview · Azure Monitor alerts",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S068.p4",
+      "day": "wiki/seminars/S068",
+      "module": "M14",
+      "quarter": "Q7",
+      "durable": "An alert must be actionable as well as unambiguous",
+      "perishable": "A threshold alert that fires correctly and carries nothing a responder can diagnose from",
+      "platform_anchor": "Foundry observability — tracing, the Agent Monitoring Dashboard and continuous evaluation, the last two preview · Azure Monitor alerts",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S068.p5",
+      "day": "wiki/seminars/S068",
+      "module": "M14",
+      "quarter": "Q7",
+      "durable": "A learned system is entangled, so a change's consequences cannot be bounded by reading the diff",
+      "perishable": "Model deployment, prompt, retrieval settings and evaluator version, none of them in the diff",
+      "platform_anchor": "Foundry observability — tracing, the Agent Monitoring Dashboard and continuous evaluation, the last two preview · Azure Monitor alerts",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S068.p6",
+      "day": "wiki/seminars/S068",
+      "module": "M14",
+      "quarter": "Q7",
       "durable": "A monitor that stops without saying so is not a monitor",
       "perishable": "Evaluation runs skipped at an hourly limit whose documented default is a hundred runs an hour, recorded as a troubleshooting symptom",
       "platform_anchor": "Foundry observability — tracing, the Agent Monitoring Dashboard and continuous evaluation, the last two preview · Azure Monitor alerts",
@@ -59216,7 +60016,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S068.p4",
+      "id": "S068.p7",
       "day": "wiki/seminars/S068",
       "module": "M14",
       "quarter": "Q7",
@@ -59229,7 +60029,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S068.p5",
+      "id": "S068.p8",
       "day": "wiki/seminars/S068",
       "module": "M14",
       "quarter": "Q7",
@@ -59242,7 +60042,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S068.p6",
+      "id": "S068.p9",
       "day": "wiki/seminars/S068",
       "module": "M14",
       "quarter": "Q7",
@@ -59255,7 +60055,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S068.p7",
+      "id": "S068.p10",
       "day": "wiki/seminars/S068",
       "module": "M14",
       "quarter": "Q7",
@@ -59961,6 +60761,32 @@
       "day": "wiki/seminars/S075",
       "module": "M15",
       "quarter": "Q8",
+      "durable": "A trajectory judge is a model, a prompt and a sampling configuration, and the prompt has to define the unit before it can score it",
+      "perishable": "E3's rubric text, its judge deployment and the split in force when each score was taken",
+      "platform_anchor": "Microsoft Agent Framework — conversation split strategies and cloud evaluation",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S075.p9",
+      "day": "wiki/seminars/S075",
+      "module": "M15",
+      "quarter": "Q8",
+      "durable": "An evaluation must change more slowly than the capability it evaluates",
+      "perishable": "Six months of E3's record, across however many rubric edits nobody logged",
+      "platform_anchor": "Microsoft Agent Framework — conversation split strategies and cloud evaluation",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S075.p10",
+      "day": "wiki/seminars/S075",
+      "module": "M15",
+      "quarter": "Q8",
       "durable": "A durable record makes a decision findable and does not make it correct",
       "perishable": "A tracking directory holding research, plan, implementation and review records under stable identifiers",
       "platform_anchor": "Microsoft Agent Framework — conversation split strategies and cloud evaluation",
@@ -59970,7 +60796,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S075.p9",
+      "id": "S075.p11",
       "day": "wiki/seminars/S075",
       "module": "M15",
       "quarter": "Q8",
@@ -61196,6 +62022,45 @@
       "day": "wiki/seminars/S086",
       "module": "M18",
       "quarter": "Q9",
+      "durable": "A record the running system writes is checked continuously; a record written about it is checked when somebody reads it",
+      "perishable": "A lineage the pipeline emits against a runbook section headed *how this was built*",
+      "platform_anchor": "the substrate's own infrastructure repository — Bicep and `azure.yaml` — and the Microsoft 365 admin centre agent registry as the tenant's inventory of what exists and who owns it",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S086.p6",
+      "day": "wiki/seminars/S086",
+      "module": "M18",
+      "quarter": "Q9",
+      "durable": "Reproduction, comparison and deletion all depend on provenance recorded before anyone needed it",
+      "perishable": "The archived template, the environment file that is not in it, and the version history `azd` keeps by default",
+      "platform_anchor": "the substrate's own infrastructure repository — Bicep and `azure.yaml` — and the Microsoft 365 admin centre agent registry as the tenant's inventory of what exists and who owns it",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S086.p7",
+      "day": "wiki/seminars/S086",
+      "module": "M18",
+      "quarter": "Q9",
+      "durable": "The component a system is named after is not where the receiver's difficulty is",
+      "perishable": "The surrounding collection, validation, serving, versioning and monitoring surface, none of it in the handover",
+      "platform_anchor": "the substrate's own infrastructure repository — Bicep and `azure.yaml` — and the Microsoft 365 admin centre agent registry as the tenant's inventory of what exists and who owns it",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S086.p8",
+      "day": "wiki/seminars/S086",
+      "module": "M18",
+      "quarter": "Q9",
       "durable": "An inventory tells you a state and not a transition",
       "perishable": "The agent registry's total, ownerless and unmanaged counters",
       "platform_anchor": "the substrate's own infrastructure repository — Bicep and `azure.yaml` — and the Microsoft 365 admin centre agent registry as the tenant's inventory of what exists and who owns it",
@@ -61205,7 +62070,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S086.p6",
+      "id": "S086.p9",
       "day": "wiki/seminars/S086",
       "module": "M18",
       "quarter": "Q9",
@@ -61218,7 +62083,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S086.p7",
+      "id": "S086.p10",
       "day": "wiki/seminars/S086",
       "module": "M18",
       "quarter": "Q9",
@@ -61231,7 +62096,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S086.p8",
+      "id": "S086.p11",
       "day": "wiki/seminars/S086",
       "module": "M18",
       "quarter": "Q9",
@@ -61584,6 +62449,286 @@
   ],
   "research_claims": [
     {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc01",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**A production ML system is mostly not the model.** The authors state that a model usually contains only about five per cent of the code required to put an ML application into production.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc02",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**Production ML differs from research ML on data, priorities and lifetime.** Research ML uses a static dataset, one design priority and a single terminal result; production ML uses shifting real-world data, several competing priorities, and continuous monitoring, assessment and retraining.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc03",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**Training data must cover the feature space of the prediction requests the system will actually receive**, and coverage density matters as much as example count because duplicated or near-duplicated examples add no information.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc04",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**Encoding ambiguity is a data defect with the same status as a missing value.** The authors' example is an elevation reading of zero that may mean sea level or may mean that no measurement arrived.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc05",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**Where one model's output is another model's input, errors propagate over time**, which makes upstream model monitoring a dependency of downstream model correctness.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc06",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**Drift and skew are different comparisons and should not be conflated.** Drift compares successive iterations of one data source over time; skew compares two different sources, characteristically training against serving.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc07",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**Data drift is a change in the distribution of the input features; concept drift is a change in the relationship between inputs and labels.** Concept drift invalidates the mapping the model learned rather than merely moving the inputs.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc08",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**Skew decomposes into schema skew, feature skew and distribution skew**, which are detected by different mechanisms and have different remedies.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc09",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**The rate at which ground truth changes determines the labelling strategy.** Change over months or years permits crowd-based curated datasets; change over days or hours forces direct feedback or weak supervision.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc10",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**Training–serving skew is caused by performing different preprocessing at training and at serving**, and the authors describe it as a common production failure that is hard to detect because the model continues to return plausible answers.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc11",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**The structural remedy for training–serving skew is to export the preprocessing as a graph and attach it to the served model**, so that full-pass statistics computed once at training are applied element-wise at serving by the same code.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc12",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**Transformations divide into instance-level and full-pass**, and only the former can be computed from a single serving request, so full-pass results must be stored as constants and shipped with the model.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc13",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**Aggregate metrics conceal subgroup failure, and which slices matter is a domain-knowledge question rather than a statistical one.** Slicing on metadata the model does not consume can be more informative than slicing on model features.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc14",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**ML systems are sensitive in two ways ordinary software tests do not catch: entanglement, where changing one feature changes the whole model, and configuration, where a small error in hyperparameters, versions or feature lists silently changes behaviour.**",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc15",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**Observability in ML is imported from control theory, where a system can only be controlled to the extent that it can be observed**, and is operationalised through alertability, meaning metrics and thresholds that make failure unambiguous, and actionability, meaning enough signal to support root cause analysis.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc16",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**Monitoring splits into functional monitoring of predictive performance and serving-data distributions, and non-functional monitoring of latency, failures and resource use**, and the second matters independently of the first because a system that is down serves no predictions at all.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc17",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**Drift detection splits into supervised techniques that require fresh labels and unsupervised techniques that do not**, the latter being the practical default because labelling is slow and expensive.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc18",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**Retraining policy is a design decision with no correct answer.** The authors report that scheduled retraining is common because it is simple and often adequate, while noting that it assumes a steady rate of change in the world which frequently does not hold.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc19",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**Latency, throughput and cost trade against each other and against accuracy**, and the authors state as a general rule that shorter latency costs more.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc20",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**For online serving, latency rather than accuracy is usually the binding requirement**, so a simpler model that clears the accuracy bar is preferred to a more accurate model that does not clear the latency bar.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc21",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**Model complexity should be added against a fixed serving infrastructure and a declared gating metric**, so that complexity stops when an operational constraint such as latency or model size is breached rather than when improvement stops.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc22",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**Optimisation techniques trade accuracy for resource cost, and the size of the loss is specific to the model and data and hard to predict in advance.** Quantisation, pruning and knowledge distillation each reduce size or latency at some accuracy cost that must be measured rather than assumed.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc23",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**Neural networks do learn to suppress uninformative features, but the suppressed capacity is still stored, still traversed at inference and still requires the feature to be collected and maintained for the life of the product.**",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc24",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**MLOps extends DevOps in two specific ways: continuous integration must validate data, schemas and models rather than only code, and continuous delivery ships a pipeline that produces a prediction service rather than shipping a model.**",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc25",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**The authors describe MLOps maturity as levels 0, 1 and 2 defined by how much of the workflow is automated**, and mark level 2 as still somewhat speculative at the time of writing.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc26",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**There is no industry-standard scheme for versioning models.** The authors propose a major, minor and pipeline scheme and describe several incompatible alternatives in current use.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc27",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**Lineage is what makes a model reproducible, comparable across runs, and deletable on request.** Recording artefacts, executions and contexts turns provenance questions into queries rather than investigations.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc28",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**Live experimentation exists because model metrics are not business metrics.** A recommender trained to maximise click-through is optimising a labelled proxy for a profit objective that was never in the training data.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc29",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**Equal fairness metrics across groups do not establish that a system is fair**, and fairness evaluation must be repeated through development and after launch rather than treated as a release gate.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc30",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**Interpretability has no mathematical definition and is not cleanly separable from explainability**, so the working definition the authors adopt requires only that a human can understand the model's operations through introspection or a produced explanation.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc31",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**Privacy costs accuracy, computation time, or both**, and the cheapest control is not collecting the data in the first place.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc32",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**A deletion request may force a retrain**, which makes data and model lineage a precondition for satisfying data-protection obligations rather than an optional engineering nicety.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc33",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**Pipeline orchestration is required because components have ordering dependencies and because expensive completed steps must be cached so that a failure reruns only the failing component.**",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc34",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**Not every project needs a pipeline.** Pipelines are unnecessary for pure experimentation and become necessary once a model has users and therefore requires continuous update.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
+      "id": "research/02-technical-foundations/crowe-machine-learning-production-systems.rc35",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems",
+      "claim": "**The book's closing position is to reason about ML systems rather than ML models**, the diagnostic questions being how users interact with the model, whether they can report misclassifications, and whether that feedback reaches retraining.",
+      "namespace": "ai-systems",
+      "decay": "1-3 years",
+      "source_read": "full"
+    },
+    {
       "id": "research/05-fde-craft/beyer-holtzblatt-contextual-design.rc01",
       "note": "research/05-fde-craft/beyer-holtzblatt-contextual-design",
       "claim": "Observe activity where it occurs; do not substitute requested features or generalized self-report for design data.",
@@ -61682,122 +62827,218 @@
     {
       "id": "research/05-fde-craft/evans-domain-driven-design.rc01",
       "note": "research/05-fde-craft/evans-domain-driven-design",
-      "claim": "The hardest problem in complex software is understanding the domain, not the technology.",
+      "claim": "The thesis is two sentences: focus on the domain and domain logic; base complex domain designs on a model.",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/evans-domain-driven-design.rc02",
       "note": "research/05-fde-craft/evans-domain-driven-design",
-      "claim": "Knowledge crunching is a collaborative, iterative modelling activity between engineers and domain experts.",
+      "claim": "Two practices are **prerequisites**, not recommendations: iterative development, and a continuing close relationship between developers and domain experts.",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/evans-domain-driven-design.rc03",
       "note": "research/05-fde-craft/evans-domain-driven-design",
-      "claim": "The ubiquitous language is used rigorously by everyone, in speech, in documents and in the code itself.",
+      "claim": "Knowledge crunching is joint modelling under correction, led by developers; it is not requirements elicitation.",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/evans-domain-driven-design.rc04",
       "note": "research/05-fde-craft/evans-domain-driven-design",
-      "claim": "A model that diverges from the code is worse than no model; modellers must be hands-on implementers.",
+      "claim": "The engineer's goal is not to become a domain expert but to \"talk to experts, understand the major concepts relevant to the application, and sanity-check what we were building.\"",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/evans-domain-driven-design.rc05",
       "note": "research/05-fde-craft/evans-domain-driven-design",
-      "claim": "The domain layer is isolated from user interface, application and infrastructure concerns.",
+      "claim": "The ubiquitous language exists to eliminate translation, because translation creates bilingual bottlenecks whose \"translations are inexact.\"",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/evans-domain-driven-design.rc06",
       "note": "research/05-fde-craft/evans-domain-driven-design",
-      "claim": "Entities have identity over time; value objects are defined by their attributes alone; services capture operations belonging to no object.",
+      "claim": "The language is the customer's jargon **cleaned up** — sharper and narrower — with the experts holding a veto if the cleaning distorts accepted field meaning.",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/evans-domain-driven-design.rc07",
       "note": "research/05-fde-craft/evans-domain-driven-design",
-      "claim": "An aggregate is a cluster treated as a unit for data change, with a single root, external references only to the root, and invariants enforced at its boundary.",
+      "claim": "A change to the language is a change to the model, and must ripple into the code.",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/evans-domain-driven-design.rc08",
       "note": "research/05-fde-craft/evans-domain-driven-design",
-      "claim": "Repositories present aggregate roots as if they were an in-memory collection; factories encapsulate complex creation.",
+      "claim": "Speaking scenarios aloud is a first-class modelling technique; \"Rough edges are easy to hear.\"",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/evans-domain-driven-design.rc09",
       "note": "research/05-fde-craft/evans-domain-driven-design",
-      "claim": "Models improve through continuous refactoring punctuated by occasional conceptual breakthroughs.",
+      "claim": "Sophisticated domain experts must understand the core of the model; technical components are explicitly exempt.",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/evans-domain-driven-design.rc10",
       "note": "research/05-fde-craft/evans-domain-driven-design",
-      "claim": "Making implicit concepts explicit is the central refactoring move.",
+      "claim": "Multiple dialects are expected; the division that must never exist is between experts and developers.",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/evans-domain-driven-design.rc11",
       "note": "research/05-fde-craft/evans-domain-driven-design",
-      "claim": "Supple design exists to keep further refactoring cheap.",
+      "claim": "Model-driven design requires a modelling paradigm with tool support and has \"limited applicability\" in purely procedural languages.",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/evans-domain-driven-design.rc12",
       "note": "research/05-fde-craft/evans-domain-driven-design",
-      "claim": "A bounded context is an explicit boundary within which a model and its terms apply.",
+      "claim": "Anyone contributing to the model must touch the code; specialised roles remain legitimate.",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/evans-domain-driven-design.rc13",
       "note": "research/05-fde-craft/evans-domain-driven-design",
-      "claim": "A context map documents the real contexts and their relationships.",
+      "claim": "Aggregates are consistency boundaries with a single root controlling all access, making it practical to enforce invariants on every state change.",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/evans-domain-driven-design.rc14",
       "note": "research/05-fde-craft/evans-domain-driven-design",
-      "claim": "Integration relationship patterns include shared kernel, customer-supplier, conformist, anticorruption layer, separate ways, open host service and published language.",
+      "claim": "Deep models arrive through many small refactorings punctuated by occasional breakthroughs; a breakthrough \"is not a technique; it is an event.\"",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/evans-domain-driven-design.rc15",
       "note": "research/05-fde-craft/evans-domain-driven-design",
-      "claim": "Distillation identifies the core domain, the part that differentiates the business, and concentrates effort there.",
+      "claim": "Never adopt a model a domain expert would not use, however elegant it seems.",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/evans-domain-driven-design.rc16",
+      "note": "research/05-fde-craft/evans-domain-driven-design",
+      "claim": "Total model unification across a large enterprise \"will not be feasible or cost-effective.\"",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/evans-domain-driven-design.rc17",
+      "note": "research/05-fde-craft/evans-domain-driven-design",
+      "claim": "A bounded context is bounded in team organisation, application usage and physical artefacts — not merely in namespaces; a module is not a context.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/evans-domain-driven-design.rc18",
+      "note": "research/05-fde-craft/evans-domain-driven-design",
+      "claim": "Duplicate concepts and false cognates are the two failure signatures inside a context.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/evans-domain-driven-design.rc19",
+      "note": "research/05-fde-craft/evans-domain-driven-design",
+      "claim": "Context maps describe reality first; \"don't change the map until the change in reality is done.\"",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/evans-domain-driven-design.rc20",
+      "note": "research/05-fde-craft/evans-domain-driven-design",
+      "claim": "Context boundaries follow team and political contours as much as technical ones.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/evans-domain-driven-design.rc21",
+      "note": "research/05-fde-craft/evans-domain-driven-design",
+      "claim": "Conformity to a good upstream model is chosen \"less often than we probably should\" and can drag you into a better design.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/evans-domain-driven-design.rc22",
+      "note": "research/05-fde-craft/evans-domain-driven-design",
+      "claim": "An anticorruption layer translates concepts, not messages, and its isolation must be costed.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/evans-domain-driven-design.rc23",
+      "note": "research/05-fde-craft/evans-domain-driven-design",
+      "claim": "Non-integration is a legitimate, often correct, answer.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/evans-domain-driven-design.rc24",
+      "note": "research/05-fde-craft/evans-domain-driven-design",
+      "claim": "The core domain is relative to point of view, cannot usually be purchased, should be made small, and should get the best people.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/evans-domain-driven-design.rc25",
+      "note": "research/05-fde-craft/evans-domain-driven-design",
+      "claim": "Generic subdomains should not be designed for reuse.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/evans-domain-driven-design.rc26",
+      "note": "research/05-fde-craft/evans-domain-driven-design",
+      "claim": "Large-scale structure must evolve; imposing it up front is likely to be costly.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/evans-domain-driven-design.rc27",
+      "note": "research/05-fde-craft/evans-domain-driven-design",
+      "claim": "Strategic design requires minimalism and humility, and architecture teams must not absorb all the strongest people.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/fisher-ury-getting-to-yes.rc01",
@@ -62050,178 +63291,258 @@
     {
       "id": "research/05-fde-craft/hiatt-adkar.rc01",
       "note": "research/05-fde-craft/hiatt-adkar",
-      "claim": "Change happens one person at a time; the organisation changes only as a consequence.",
+      "claim": "Change happens one person at a time; \"Successful change, at its core, is rooted in something much simpler: How to facilitate change with one person.\"",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/hiatt-adkar.rc02",
       "note": "research/05-fde-craft/hiatt-adkar",
-      "claim": "The five elements are sequential: awareness, desire, knowledge, ability, reinforcement.",
+      "claim": "The five elements are building blocks: \"All five elements must be in place for a change to be realized\", and they \"must occur in sequence and they are cumulative.\"",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/hiatt-adkar.rc03",
       "note": "research/05-fde-craft/hiatt-adkar",
-      "claim": "Awareness is understanding why, not having been told.",
+      "claim": "The ordering argument is **entailment, not evidence** — desire cannot precede awareness, knowledge cannot precede desire, and so on down the chain.",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/hiatt-adkar.rc04",
       "note": "research/05-fde-craft/hiatt-adkar",
-      "claim": "Desire cannot be mandated and is the element leaders control least and assume most.",
+      "claim": "The model \"begins after a change has been identified\" and says nothing about whether the change is right.",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/hiatt-adkar.rc05",
       "note": "research/05-fde-craft/hiatt-adkar",
-      "claim": "Knowledge is what training delivers, and training is habitually misapplied to awareness and desire problems.",
+      "claim": "Awareness covers the nature of the change, the reason for it, the risk of not changing, the internal and external drivers, **and** \"what's in it for me\" — it is not only the *why*.",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/hiatt-adkar.rc06",
       "note": "research/05-fde-craft/hiatt-adkar",
-      "claim": "Ability is demonstrated performance under real conditions, and is separated from knowledge by practice, coaching and obstacle removal.",
+      "claim": "Communicating is not the same as producing awareness: \"Awareness is not achieved based on the messages sent, but rather how the messages are received and internalized by each person.\"",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/hiatt-adkar.rc07",
       "note": "research/05-fde-craft/hiatt-adkar",
-      "claim": "Reinforcement prevents regression, which is the default outcome without it.",
+      "claim": "Reception is governed by five factors, of which contestability of the stated reasons is the one teams most often ignore.",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/hiatt-adkar.rc08",
       "note": "research/05-fde-craft/hiatt-adkar",
-      "claim": "The barrier point is the first unmet element, and it determines which intervention will work.",
+      "claim": "Desire is \"ultimately about personal choice\" and \"by definition, not under our direct control\"; assuming it follows from awareness is the named executive error.",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/hiatt-adkar.rc09",
       "note": "research/05-fde-craft/hiatt-adkar",
-      "claim": "Effort spent past the barrier point is wasted.",
+      "claim": "The correct first move against resistance is to identify the barrier point, then \"stop talking and start listening\".",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/hiatt-adkar.rc10",
       "note": "research/05-fde-craft/hiatt-adkar",
-      "claim": "The model complements organisational frameworks rather than replacing them.",
+      "claim": "Knowledge is not the starting point; training aimed past an awareness or desire barrier does not work.",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/hiatt-adkar.rc11",
+      "note": "research/05-fde-craft/hiatt-adkar",
+      "claim": "Knowledge is not ability: ability is \"turning knowledge into action\" at \"the required performance levels\", and some people never reach it.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/hiatt-adkar.rc12",
+      "note": "research/05-fde-craft/hiatt-adkar",
+      "claim": "Ability requires practice, time, coaching, obstacle removal and \"a safe environment to practice new skills and job roles\".",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/hiatt-adkar.rc13",
+      "note": "research/05-fde-craft/hiatt-adkar",
+      "claim": "An unopened feedback channel makes a broken system look like a failing employee.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/hiatt-adkar.rc14",
+      "note": "research/05-fde-craft/hiatt-adkar",
+      "claim": "Reinforcement must be meaningful, tied to real accomplishment, free of countervailing consequences, and backed by accountability in day-to-day operations.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/hiatt-adkar.rc15",
+      "note": "research/05-fde-craft/hiatt-adkar",
+      "claim": "The barrier point is \"the first element of the model that is weak or would be assessed as 'low'\" — operationally, the first element scoring 3 or below on an anonymous 1–5 self-rating.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/hiatt-adkar.rc16",
+      "note": "research/05-fde-craft/hiatt-adkar",
+      "claim": "Hiatt's own statements about effort past the barrier are conditional (\"will not by itself\", \"will not be productive until\"), with one absolute exception: \"In the absence of desire, no amount of knowledge can produce change.\"",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/hiatt-adkar.rc17",
+      "note": "research/05-fde-craft/hiatt-adkar",
+      "claim": "The model is offered as a lens over existing practice, not as a replacement for it, and explicitly not as a prescribed process.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/hiatt-adkar.rc18",
+      "note": "research/05-fde-craft/hiatt-adkar",
+      "claim": "The elements apply to customers, suppliers, the public and school communities, not only to employees.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/kotter-leading-change.rc01",
       "note": "research/05-fde-craft/kotter-leading-change",
-      "claim": "Change fails in patterned ways, and the eight errors are the pattern.",
+      "claim": "The eight errors are the diagnosis and the eight stages are their inversion; Kotter presents the diagnosis first, and it is the more transferable half.",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/kotter-leading-change.rc02",
       "note": "research/05-fde-craft/kotter-leading-change",
-      "claim": "The eight steps are the inversion of the eight errors and are presented as sequential.",
+      "claim": "The order matters \"usually\", and concurrency is expected: all efforts end up \"operating in multiple stages at once\", and a large transformation contains smaller projects each running the whole sequence.",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/kotter-leading-change.rc03",
       "note": "research/05-fde-craft/kotter-leading-change",
-      "claim": "Complacency is the most common starting failure; urgency must be established from real conditions, not manufactured.",
+      "claim": "Complacency is the default condition and is systemic rather than a defect of individuals; nine specific sources are named, most of them measurement and feedback failures.",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/kotter-leading-change.rc04",
       "note": "research/05-fde-craft/kotter-leading-change",
-      "claim": "A guiding coalition needs positional power, expertise, credibility and leadership, not just seniority.",
+      "claim": "Urgency may legitimately be manufactured. Engineered crises, deliberately accepted unrealistic targets and permitted failures are all endorsed, with a stated preference for opportunity-based routes where they will work.",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/kotter-leading-change.rc05",
       "note": "research/05-fde-craft/kotter-leading-change",
-      "claim": "A usable vision can be communicated intelligibly in a few minutes.",
+      "claim": "A guiding coalition is selected for position power, expertise, credibility and leadership; a coalition of managers only is said to guarantee failure; large egos and \"snakes\" are excluded outright.",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/kotter-leading-change.rc06",
       "note": "research/05-fde-craft/kotter-leading-change",
-      "claim": "Vision is chronically undercommunicated, and leaders misjudge sufficiency by counting their own transmissions.",
+      "claim": "A usable vision is \"explained within five minutes\" and gets a reaction showing \"both understanding and interest\".",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/kotter-leading-change.rc07",
       "note": "research/05-fde-craft/kotter-leading-change",
-      "claim": "Behaviour inconsistent with the vision destroys it faster than communication can build it.",
+      "claim": "The vision is undercommunicated by orders of magnitude, and inconsistent behaviour by senior people \"overwhelms other forms of communication\".",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/kotter-leading-change.rc08",
       "note": "research/05-fde-craft/kotter-leading-change",
-      "claim": "Empowerment is mostly obstacle removal: structures, systems, incentives and blocking individuals.",
+      "claim": "Visible inconsistencies that cannot be removed must be explained aloud rather than defended.",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/kotter-leading-change.rc09",
       "note": "research/05-fde-craft/kotter-leading-change",
-      "claim": "Short-term wins must be planned, visible, unambiguous and clearly attributable to the change effort.",
+      "claim": "Empowerment is barrier removal across four named categories — structures, skills, systems, supervisors — with HR systems singled out.",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/kotter-leading-change.rc10",
       "note": "research/05-fde-craft/kotter-leading-change",
-      "claim": "Declaring victory too soon is a distinct and serious failure mode.",
+      "claim": "Short-term wins are planned, not hoped for; they must be visible, unambiguous and clearly attributable, and they are also a test of the vision.",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/kotter-leading-change.rc11",
       "note": "research/05-fde-craft/kotter-leading-change",
-      "claim": "Culture changes last, not first, and only after new behaviour is seen to produce better results.",
+      "claim": "Wins are dangerous. Celebration is the mechanism by which resisters end change efforts.",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/kotter-leading-change.rc12",
       "note": "research/05-fde-craft/kotter-leading-change",
-      "claim": "Management produces consistency; leadership produces change; transformation fails when over-managed and under-led.",
+      "claim": "Interdependence is why the process needs eight stages: \"you have to change nearly everything\".",
       "namespace": "fde-craft",
       "decay": "slow",
-      "source_read": "unread"
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/kotter-leading-change.rc13",
+      "note": "research/05-fde-craft/kotter-leading-change",
+      "claim": "Culture changes at the end, only after new behaviour has visibly produced better results and the link has been made explicit; succession and promotion decide whether it holds.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
+    },
+    {
+      "id": "research/05-fde-craft/kotter-leading-change.rc14",
+      "note": "research/05-fde-craft/kotter-leading-change",
+      "claim": "Management produces consistency and leadership produces change, and transformation is over-managed and under-led; but stage 6 in particular fails without competent management.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full"
     },
     {
       "id": "research/05-fde-craft/portigal-interviewing-users.rc01",
@@ -65647,10 +66968,10 @@
       "label": "Prediction 1.",
       "claim": "Fewer than a quarter of students will produce a substantive answer to phase 1 item 3, and the rate will be uncorrelated with prior measurement experience.",
       "instrument": "item 3 coded for substantive validation criteria, split by the admission background survey.",
-      "namespace": "fde-craft",
+      "namespace": "measurement",
       "namespaces": {
+        "measurement": 2,
         "fde-craft": 1,
-        "measurement": 1,
         "platform": 1
       }
     },
@@ -65663,10 +66984,10 @@
       "label": "Prediction 2.",
       "claim": "In phase 3, instrument D will be ranked in the top half before the decision context is revealed and in the bottom half afterwards, for a majority of groups.",
       "instrument": "paired rankings.",
-      "namespace": "fde-craft",
+      "namespace": "measurement",
       "namespaces": {
+        "measurement": 2,
         "fde-craft": 1,
-        "measurement": 1,
         "platform": 1
       }
     },
@@ -65679,10 +67000,10 @@
       "label": "Prediction 3.",
       "claim": "Students with instrumentation backgrounds will produce instruments whose step 7 operating cost exceeds the decision's required frequency at a higher rate than other students.",
       "instrument": "step 7 costs against stated frequencies, split by background. **This is the over-engineering failure stated as a prediction.**",
-      "namespace": "fde-craft",
+      "namespace": "measurement",
       "namespaces": {
+        "measurement": 2,
         "fde-craft": 1,
-        "measurement": 1,
         "platform": 1
       }
     },
@@ -65695,10 +67016,10 @@
       "label": "Prediction 4.",
       "claim": "At S046, students will begin instrument design from the decision rather than from the question, unprompted, at a rate above half.",
       "instrument": "an S046 protocol coded for decision-first framing. **This is the better test of whether the module's constructive turn took, and it is delayed by a quarter — which is itself the answer to §8 objection 1's complaint about phase 8's instrument.**",
-      "namespace": "fde-craft",
+      "namespace": "measurement",
       "namespaces": {
+        "measurement": 2,
         "fde-craft": 1,
-        "measurement": 1,
         "platform": 1
       }
     },
@@ -65711,10 +67032,10 @@
       "label": "Prediction 5.",
       "claim": "Fewer than a fifth of item 5 sealed predictions will name the absence of a validation mechanism; the modal prediction will concern the quality of the evaluator's rubric wording.",
       "instrument": "item 5 responses coded by predicted failure register against what each agent produced. **The design's claim is that students predict the agent will write a bad rubric and not that it will write an uncheckable one, and that the two are different classes of defect — the first is visible on reading and the second is not, which is why only the second survives review.**",
-      "namespace": "fde-craft",
+      "namespace": "measurement",
       "namespaces": {
+        "measurement": 2,
         "fde-craft": 1,
-        "measurement": 1,
         "platform": 1
       }
     },
@@ -65727,10 +67048,10 @@
       "label": "Prediction 6.",
       "claim": "In a substantial minority of step 4 artefacts the partner's disagreement with the student will be comparable to the instrument's, and students in that group will produce step 3 limitation statements naming construct ambiguity at a higher rate than students whose partner agreed with them.",
       "instrument": "the two disagreement rates against step 3 statements coded for construct-ambiguity content. **This is the §8 objection-3 repair's own check. If the partner rate is near zero throughout, the substrate's constructs are easier to judge than the design assumes and the second rater is ceremony; if it is high throughout, the module has been assessing construct statements it could not itself have scored consistently, which would be a finding about the module rather than about the students.**",
-      "namespace": "fde-craft",
+      "namespace": "measurement",
       "namespaces": {
+        "measurement": 2,
         "fde-craft": 1,
-        "measurement": 1,
         "platform": 1
       }
     },
@@ -67408,7 +68729,8 @@
       "instrument": "items 2 and 4 coded.",
       "namespace": "measurement",
       "namespaces": {
-        "measurement": 2,
+        "measurement": 3,
+        "ai-systems": 1,
         "fde-craft": 1,
         "platform": 1
       }
@@ -67424,7 +68746,8 @@
       "instrument": "phase 3 check designs by time point.",
       "namespace": "measurement",
       "namespaces": {
-        "measurement": 2,
+        "measurement": 3,
+        "ai-systems": 1,
         "fde-craft": 1,
         "platform": 1
       }
@@ -67440,7 +68763,8 @@
       "instrument": "step 5 results. **A very low proportion is the §8 objection-2 signature and should be read as evidence about threshold-setting rather than about criterion quality.**",
       "namespace": "measurement",
       "namespaces": {
-        "measurement": 2,
+        "measurement": 3,
+        "ai-systems": 1,
         "fde-craft": 1,
         "platform": 1
       }
@@ -67456,7 +68780,8 @@
       "instrument": "phase 7 outcomes against threshold placement.",
       "namespace": "measurement",
       "namespaces": {
-        "measurement": 2,
+        "measurement": 3,
+        "ai-systems": 1,
         "fde-craft": 1,
         "platform": 1
       }
@@ -67472,7 +68797,8 @@
       "instrument": "item 5 responses coded for generic-versus-specific failure identification, against what each student's agent produced. **If the specific rate exceeds the generic rate the item is malformed**, since naming the mechanism entails predicting the fault.",
       "namespace": "measurement",
       "namespaces": {
-        "measurement": 2,
+        "measurement": 3,
+        "ai-systems": 1,
         "fde-craft": 1,
         "platform": 1
       }
@@ -67488,7 +68814,7 @@
       "instrument": "movement against original and re-presented position.",
       "namespace": "measurement",
       "namespaces": {
-        "measurement": 3,
+        "measurement": 4,
         "platform": 2
       }
     },
@@ -67503,7 +68829,7 @@
       "instrument": "phase 3 characterisations against the known property correlations.",
       "namespace": "measurement",
       "namespaces": {
-        "measurement": 3,
+        "measurement": 4,
         "platform": 2
       }
     },
@@ -67518,7 +68844,7 @@
       "instrument": "predictions against findings, coded separately for component and direction. **The asymmetry is the claim: students know which biases exist and not which way they run.**",
       "namespace": "measurement",
       "namespaces": {
-        "measurement": 3,
+        "measurement": 4,
         "platform": 2
       }
     },
@@ -67533,7 +68859,7 @@
       "instrument": "phase 7 constructions coded for inversion versus shift.",
       "namespace": "measurement",
       "namespaces": {
-        "measurement": 3,
+        "measurement": 4,
         "platform": 2
       }
     },
@@ -67548,7 +68874,7 @@
       "instrument": "item 5's two-band prediction against step 8's record after the partner's addition, split by prior intervention-record length. **If no relationship appears, intervention count is a measure of task difficulty rather than of attention, and the [Copilot Practice Standard](/wiki/program/12-Copilot-Practice-Standard.md)'s use of it as a directedness signal is weaker than the standard assumes.**",
       "namespace": "measurement",
       "namespaces": {
-        "measurement": 3,
+        "measurement": 4,
         "platform": 2
       }
     },
@@ -67563,7 +68889,7 @@
       "instrument": "partner additions coded by kind. **This is the prediction that tests whether the objection-3 fix was worth its five minutes**; if partners add almost nothing, the self-report was adequate and the demand should be withdrawn.",
       "namespace": "measurement",
       "namespaces": {
-        "measurement": 3,
+        "measurement": 4,
         "platform": 2
       }
     },
@@ -69362,6 +70688,7 @@
       "namespace": "curriculum",
       "namespaces": {
         "curriculum": 2,
+        "ai-systems": 1,
         "measurement": 1,
         "pedagogy": 1,
         "platform": 1
@@ -69379,6 +70706,7 @@
       "namespace": "curriculum",
       "namespaces": {
         "curriculum": 2,
+        "ai-systems": 1,
         "measurement": 1,
         "pedagogy": 1,
         "platform": 1
@@ -69396,6 +70724,7 @@
       "namespace": "curriculum",
       "namespaces": {
         "curriculum": 2,
+        "ai-systems": 1,
         "measurement": 1,
         "pedagogy": 1,
         "platform": 1
@@ -69413,6 +70742,7 @@
       "namespace": "curriculum",
       "namespaces": {
         "curriculum": 2,
+        "ai-systems": 1,
         "measurement": 1,
         "pedagogy": 1,
         "platform": 1
@@ -69430,6 +70760,7 @@
       "namespace": "curriculum",
       "namespaces": {
         "curriculum": 2,
+        "ai-systems": 1,
         "measurement": 1,
         "pedagogy": 1,
         "platform": 1
@@ -69447,6 +70778,7 @@
       "namespace": "curriculum",
       "namespaces": {
         "curriculum": 2,
+        "ai-systems": 1,
         "measurement": 1,
         "pedagogy": 1,
         "platform": 1
@@ -71081,6 +72413,7 @@
       "namespaces": {
         "fde-craft": 6,
         "pedagogy": 2,
+        "ai-systems": 1,
         "measurement": 1,
         "platform": 1
       }
@@ -71098,6 +72431,7 @@
       "namespaces": {
         "fde-craft": 6,
         "pedagogy": 2,
+        "ai-systems": 1,
         "measurement": 1,
         "platform": 1
       }
@@ -71115,6 +72449,7 @@
       "namespaces": {
         "fde-craft": 6,
         "pedagogy": 2,
+        "ai-systems": 1,
         "measurement": 1,
         "platform": 1
       }
@@ -71132,6 +72467,7 @@
       "namespaces": {
         "fde-craft": 6,
         "pedagogy": 2,
+        "ai-systems": 1,
         "measurement": 1,
         "platform": 1
       }
@@ -71149,6 +72485,7 @@
       "namespaces": {
         "fde-craft": 6,
         "pedagogy": 2,
+        "ai-systems": 1,
         "measurement": 1,
         "platform": 1
       }
@@ -71166,6 +72503,7 @@
       "namespaces": {
         "fde-craft": 6,
         "pedagogy": 2,
+        "ai-systems": 1,
         "measurement": 1,
         "platform": 1
       }
@@ -71634,7 +72972,7 @@
         "research/06-microsoft-platform/collected-materials"
       ],
       "namespace": "pedagogy",
-      "words": 130
+      "words": 365
     },
     {
       "id": "WP-001.e2",
@@ -72077,7 +73415,7 @@
         "research/05-fde-craft/palantir-fde-practitioner-writing"
       ],
       "namespace": "fde-craft",
-      "words": 51
+      "words": 271
     },
     {
       "id": "WP-009.e2",
@@ -72131,7 +73469,7 @@
         "research/05-fde-craft/collected-materials"
       ],
       "namespace": "assessment",
-      "words": 88
+      "words": 585
     },
     {
       "id": "WP-010.e2",
@@ -72143,7 +73481,7 @@
       "licenses": "Direction and mechanism only. No effect size, ever.",
       "cites": [],
       "namespace": "assessment",
-      "words": 197
+      "words": 269
     },
     {
       "id": "WP-010.e4",
@@ -72352,7 +73690,7 @@
         "research/02-technical-foundations/subramanya-diskann"
       ],
       "namespace": "ai-systems",
-      "words": 84
+      "words": 340
     },
     {
       "id": "WP-014.e2",
@@ -72687,7 +74025,7 @@
         "research/04-professional-formation/frazier-psychological-safety-meta-analysis"
       ],
       "namespace": "assessment",
-      "words": 69
+      "words": 396
     },
     {
       "id": "WP-020.e4",
@@ -73176,10 +74514,11 @@
       "licenses": "Cites a Cliff Note in research/, which records what was checked and against what.",
       "cites": [
         "research/03-measurement-evaluation/husain-your-ai-product-needs-evals",
-        "research/05-fde-craft/collected-materials"
+        "research/05-fde-craft/collected-materials",
+        "research/03-measurement-evaluation/huyen-ai-engineering"
       ],
-      "namespace": "fde-craft",
-      "words": 137
+      "namespace": "measurement",
+      "words": 407
     },
     {
       "id": "WP-029.e4",
@@ -73192,7 +74531,7 @@
       "cites": [
         "research/06-microsoft-platform/hve-core-repository"
       ],
-      "namespace": "fde-craft",
+      "namespace": "measurement",
       "words": 623
     },
     {
@@ -73204,7 +74543,7 @@
       "class_name": "general-knowledge",
       "licenses": "Direction and mechanism only. No effect size, ever.",
       "cites": [],
-      "namespace": "fde-craft",
+      "namespace": "measurement",
       "words": 60
     },
     {
@@ -73216,7 +74555,7 @@
       "class_name": "design-reasoning",
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
-      "namespace": "fde-craft",
+      "namespace": "measurement",
       "words": 238
     },
     {
@@ -73572,7 +74911,7 @@
         "research/04-professional-formation/dellacqua-jagged-technological-frontier"
       ],
       "namespace": "fde-craft",
-      "words": 76
+      "words": 452
     },
     {
       "id": "WP-036.e4",
@@ -73682,7 +75021,7 @@
         "research/02-technical-foundations/collected-materials"
       ],
       "namespace": "fde-craft",
-      "words": 35
+      "words": 508
     },
     {
       "id": "WP-038.e4",
@@ -74190,10 +75529,12 @@
       "cites": [
         "research/03-measurement-evaluation/shankar-evalgen",
         "research/03-measurement-evaluation/singh-leaderboard-illusion",
-        "research/05-fde-craft/collected-materials"
+        "research/05-fde-craft/collected-materials",
+        "research/03-measurement-evaluation/huyen-ai-engineering",
+        "research/02-technical-foundations/crowe-machine-learning-production-systems"
       ],
       "namespace": "measurement",
-      "words": 26
+      "words": 321
     },
     {
       "id": "WP-047.e4",
@@ -74244,10 +75585,11 @@
       "cites": [
         "research/03-measurement-evaluation/zheng-mt-bench-chatbot-arena",
         "research/03-measurement-evaluation/govaerts-narrative-assessment",
-        "research/03-measurement-evaluation/husain-your-ai-product-needs-evals"
+        "research/03-measurement-evaluation/husain-your-ai-product-needs-evals",
+        "research/03-measurement-evaluation/huyen-ai-engineering"
       ],
       "namespace": "measurement",
-      "words": 48
+      "words": 367
     },
     {
       "id": "WP-048.e4",
@@ -75394,10 +76736,11 @@
         "research/01-course-structure/collected-materials",
         "research/01-course-structure/cmu-17-645-ml-in-production-ai-engineering",
         "research/06-microsoft-platform/collected-materials",
-        "research/04-professional-formation/edmondson-psychological-safety"
+        "research/04-professional-formation/edmondson-psychological-safety",
+        "research/02-technical-foundations/crowe-machine-learning-production-systems"
       ],
       "namespace": "curriculum",
-      "words": 80
+      "words": 508
     },
     {
       "id": "WP-068.e4",
@@ -75808,10 +77151,11 @@
         "research/04-professional-formation/govaerts-narrative-assessment",
         "research/04-professional-formation/keith-frese-error-management-training",
         "research/04-professional-formation/edmondson-psychological-safety",
-        "research/99-source-register/source-register"
+        "research/99-source-register/source-register",
+        "research/03-measurement-evaluation/huyen-ai-engineering"
       ],
       "namespace": "measurement",
-      "words": 120
+      "words": 355
     },
     {
       "id": "WP-075.e4",
@@ -75837,12 +77181,13 @@
       "class_name": "general-knowledge",
       "licenses": "Direction and mechanism only. No effect size, ever.",
       "cites": [
+        "research/04-professional-formation/keith-frese-error-management-training",
         "research/03-measurement-evaluation/huyen-ai-engineering",
-        "research/03-measurement-evaluation/husain-your-ai-product-needs-evals",
-        "research/99-source-register/source-register"
+        "research/99-source-register/source-register",
+        "research/03-measurement-evaluation/husain-your-ai-product-needs-evals"
       ],
       "namespace": "measurement",
-      "words": 239
+      "words": 519
     },
     {
       "id": "WP-075.e3",
@@ -76288,10 +77633,11 @@
         "research/08-assessment-epas/ten-cate-epa-framework",
         "research/08-assessment-epas/govaerts-narrative-assessment-literature",
         "research/04-professional-formation/edmondson-psychological-safety",
-        "research/04-professional-formation/keith-frese-error-management-training"
+        "research/04-professional-formation/keith-frese-error-management-training",
+        "research/03-measurement-evaluation/huyen-ai-engineering"
       ],
       "namespace": "measurement",
-      "words": 96
+      "words": 215
     },
     {
       "id": "WP-083.e4",
@@ -76319,7 +77665,7 @@
         "research/03-measurement-evaluation/huyen-ai-engineering"
       ],
       "namespace": "measurement",
-      "words": 166
+      "words": 336
     },
     {
       "id": "WP-083.e3",
@@ -76353,7 +77699,7 @@
         "research/04-professional-formation/keith-frese-error-management-training"
       ],
       "namespace": "fde-craft",
-      "words": 106
+      "words": 721
     },
     {
       "id": "WP-084.e4",
@@ -76471,10 +77817,12 @@
         "research/05-fde-craft/hiatt-adkar",
         "research/03-measurement-evaluation/govaerts-narrative-assessment",
         "research/04-professional-formation/edmondson-psychological-safety",
-        "research/04-professional-formation/keith-frese-error-management-training"
+        "research/04-professional-formation/keith-frese-error-management-training",
+        "research/02-technical-foundations/crowe-machine-learning-production-systems",
+        "research/06-microsoft-platform/collected-materials"
       ],
       "namespace": "fde-craft",
-      "words": 79
+      "words": 529
     },
     {
       "id": "WP-086.e4",
@@ -86382,6 +87730,15 @@
       "note": "research/02-technical-foundations/malkov-yashunin-hnsw"
     },
     {
+      "source": "Crowe, Hapke, Caveness and Zhu, Machine Learning Production Systems",
+      "identifier": "O'Reilly, first edition October 2024; ISBN 978-1-098-15601-5",
+      "access": "copyrighted; local EPUB",
+      "read": "full",
+      "read_raw": "full text, seventeen chapters closely",
+      "section": "Technical foundations",
+      "note": "research/02-technical-foundations/crowe-machine-learning-production-systems"
+    },
+    {
       "source": "Jégou, Douze and Schmid, \"Product Quantization for Nearest Neighbor Search\"",
       "identifier": "*IEEE TPAMI* 2011",
       "access": "INRIA HAL document endpoint blocked",
@@ -86401,10 +87758,10 @@
     },
     {
       "source": "Huyen, AI Engineering",
-      "identifier": "O'Reilly, 2025",
-      "access": "copyrighted; book not consulted",
-      "read": "unread",
-      "read_raw": "synthesis only — flagged",
+      "identifier": "O'Reilly, 2025; ISBN 978-1-098-16630-4",
+      "access": "copyrighted; local PDF",
+      "read": "full",
+      "read_raw": "evaluation chapters read in full; roughly a third of the book read closely",
       "section": "Measurement and evaluation",
       "note": "research/03-measurement-evaluation/huyen-ai-engineering"
     },
@@ -86454,6 +87811,33 @@
       "note": "research/03-measurement-evaluation/singh-leaderboard-illusion"
     },
     {
+      "source": "Edmondson, The Fearless Organization",
+      "identifier": "Wiley, 2019",
+      "access": "copyrighted; local PDF",
+      "read": "full",
+      "read_raw": "full text",
+      "section": "Professional formation",
+      "note": "research/04-professional-formation/edmondson-psychological-safety"
+    },
+    {
+      "source": "Bandura (ed.), Self-efficacy in Changing Societies",
+      "identifier": "Cambridge University Press, 1995",
+      "access": "copyrighted; local PDF",
+      "read": "full",
+      "read_raw": "full text",
+      "section": "Professional formation",
+      "note": "research/04-professional-formation/bandura-self-efficacy"
+    },
+    {
+      "source": "Kapur, Productive Failure",
+      "identifier": "book; edition metadata absent from local EPUB",
+      "access": "copyrighted; local EPUB",
+      "read": "full",
+      "read_raw": "full text",
+      "section": "Professional formation",
+      "note": null
+    },
+    {
       "source": "Bandura, self-efficacy",
       "identifier": "*Psychological Review* 84(2), 1977",
       "access": "copyrighted",
@@ -86465,20 +87849,20 @@
     {
       "source": "Keith and Frese, error management training meta-analysis",
       "identifier": "*Journal of Applied Psychology* 93(1), 2008",
-      "access": "copyrighted",
-      "read": "unread",
-      "read_raw": "synthesis only",
+      "access": "copyrighted; local PDF",
+      "read": "full",
+      "read_raw": "full text",
       "section": "Professional formation",
       "note": "research/04-professional-formation/keith-frese-error-management-training"
     },
     {
-      "source": "Kapur, productive failure",
+      "source": "Sinha and Kapur, productive failure articles",
       "identifier": "*Cognition and Instruction* / *Instructional Science*",
       "access": "copyrighted",
       "read": "unread",
       "read_raw": "synthesis only",
       "section": "Professional formation",
-      "note": null
+      "note": "research/04-professional-formation/sinha-kapur-productive-failure"
     },
     {
       "source": "Macnamara et al., deliberate practice meta-analysis",
@@ -86572,10 +87956,10 @@
     },
     {
       "source": "Evans, Domain-Driven Design",
-      "identifier": "Addison-Wesley, 2003",
-      "access": "copyrighted",
-      "read": "unread",
-      "read_raw": "synthesis only",
+      "identifier": "Addison-Wesley, 2003; edition unverified from local EPUB",
+      "access": "copyrighted; local EPUB",
+      "read": "full",
+      "read_raw": "full text",
       "section": "Forward-deployed engineering craft",
       "note": "research/05-fde-craft/evans-domain-driven-design"
     },
@@ -86599,19 +87983,19 @@
     },
     {
       "source": "Hiatt, ADKAR",
-      "identifier": "Prosci, 2006",
-      "access": "copyrighted",
-      "read": "unread",
-      "read_raw": "synthesis only",
+      "identifier": "Prosci Inc., 2006; LCCN 2006903241, verified from the book's own copyright page",
+      "access": "copyrighted; local EPUB",
+      "read": "full",
+      "read_raw": "full text",
       "section": "Forward-deployed engineering craft",
       "note": "research/05-fde-craft/hiatt-adkar"
     },
     {
       "source": "Kotter, Leading Change",
-      "identifier": "HBS Press, 1996",
-      "access": "copyrighted",
-      "read": "unread",
-      "read_raw": "synthesis only",
+      "identifier": "HBS Press; the local copy is the later edition carrying the author's new preface",
+      "access": "copyrighted; local EPUB",
+      "read": "full",
+      "read_raw": "full text",
       "section": "Forward-deployed engineering craft",
       "note": "research/05-fde-craft/kotter-leading-change"
     },
@@ -86653,10 +88037,10 @@
     },
     {
       "source": "Palantir \"Dev versus Delta\" (Medium)",
-      "identifier": "—",
-      "access": "sign-in redirect; not retrievable",
-      "read": "unread",
-      "read_raw": "not read",
+      "identifier": "Palantir Blog, 8 April 2019",
+      "access": "previously blocked by a sign-in redirect; local text copy",
+      "read": "full",
+      "read_raw": "full text",
       "section": "Forward-deployed engineering craft",
       "note": "research/05-fde-craft/palantir-fde-practitioner-writing"
     },
