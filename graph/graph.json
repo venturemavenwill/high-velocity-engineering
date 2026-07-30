@@ -111,8 +111,8 @@
         "The order of work",
         "Related"
       ],
-      "words": 1414,
-      "lines": 94,
+      "words": 1476,
+      "lines": 95,
       "assessment_bearing": false
     },
     {
@@ -206,6 +206,72 @@
       ],
       "words": 1804,
       "lines": 125,
+      "assessment_bearing": false
+    },
+    {
+      "id": "projections/self-study/DERIVATION",
+      "path": "projections/self-study/DERIVATION.md",
+      "kind": "other",
+      "layer": "root",
+      "title": "Derivation — self-study projection",
+      "headings": [
+        "Rule 1 — rebuildable from claims alone",
+        "Rule 2 — no warrant upgraded",
+        "Rule 3 — evidence class and decay travel with the claim",
+        "Rule 4 — nothing asserted beyond what the claims license",
+        "Rule 5 — abstention is a valid output",
+        "What the review found, and what changed",
+        "What is not built"
+      ],
+      "words": 1249,
+      "lines": 74,
+      "assessment_bearing": false
+    },
+    {
+      "id": "projections/self-study/README",
+      "path": "projections/self-study/README.md",
+      "kind": "other",
+      "layer": "root",
+      "title": "Self-study — the programme without a room",
+      "headings": [
+        "The finding, stated first",
+        "What changed from the BSc projection, and why",
+        "What this projection may not do",
+        "Status",
+        "Related"
+      ],
+      "words": 962,
+      "lines": 56,
+      "assessment_bearing": false
+    },
+    {
+      "id": "projections/self-study/S001",
+      "path": "projections/self-study/S001.md",
+      "kind": "other",
+      "layer": "root",
+      "title": "Day 1 — Why this will feel wrong",
+      "headings": [
+        "Before you read anything else",
+        "1. Predict, before you know anything",
+        "2. Five questions you have not been taught",
+        "3. Three timetables",
+        "4. Recap and checkpoint",
+        "5. What is actually going on",
+        "6. The instrument — optional, needs tooling",
+        "7. Read this after section 6",
+        "8. Build something",
+        "9. Resolution",
+        "10. Your dated schedule",
+        "Appendix A — the five pretest items",
+        "Appendix B — three timetables",
+        "Appendix C — build constraints",
+        "Appendix D — a sample failure",
+        "Appendix E — setting up the tools",
+        "Appendix F — checkpoint answers",
+        "Further reading"
+      ],
+      "words": 6255,
+      "lines": 490,
       "assessment_bearing": false
     },
     {
@@ -4625,8 +4691,6 @@
       "title": "S001 · Why This Programme Feels Wrong: The Design You Are Subject To",
       "headings": [
         "What this day is for",
-        "Key terms",
-        "The core ideas",
         "Phase 1 · Pretest and prediction (25 min)",
         "Phase 2 · Cumulative retrieval set (20 min)",
         "Phase 3 · Contrasting cases and generation (45 min)",
@@ -4638,13 +4702,11 @@
         "Between-day protocol",
         "Assessment",
         "Perishable content in this day",
-        "Exercises",
         "What to take from this day",
-        "Further reading",
         "Related pages"
       ],
-      "words": 8193,
-      "lines": 429,
+      "words": 4066,
+      "lines": 252,
       "module": "M01",
       "quarter": "Q1",
       "complexity_class": 1,
@@ -4660,7 +4722,7 @@
       "retrieves_from_raw": "— (first day)",
       "assessment_bearing": false,
       "namespaces": {
-        "pedagogy": 5
+        "pedagogy": 2
       },
       "primary_namespace": "pedagogy",
       "platform_bearing": true,
@@ -14199,6 +14261,11 @@
     },
     {
       "from": "concepts/projections",
+      "to": "projections/self-study/README",
+      "type": "links_to"
+    },
+    {
+      "from": "concepts/projections",
       "to": "projections/workshop-2day/DERIVATION",
       "type": "links_to"
     },
@@ -14295,6 +14362,76 @@
     {
       "from": "mcp/hve-iq/dialogues",
       "to": "mcp/hve-iq/copilot-studio",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/self-study/DERIVATION",
+      "to": "projections/self-study/S001",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/self-study/DERIVATION",
+      "to": "wiki/seminars/S001",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/self-study/README",
+      "to": "projections/workshop-2day/README",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/self-study/README",
+      "to": "concepts/projections",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/self-study/README",
+      "to": "projections/self-study/S001",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/self-study/README",
+      "to": "projections/self-study/DERIVATION",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/self-study/README",
+      "to": "wiki/seminars/S001",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/self-study/S001",
+      "to": "projections/self-study/README",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/self-study/S001",
+      "to": "wiki/seminars/S001",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/self-study/S001",
+      "to": "wiki/program/02-Learning-Science-Foundations",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/self-study/S001",
+      "to": "research/04-professional-formation/dellacqua-jagged-technological-frontier",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/self-study/S001",
+      "to": "research/04-professional-formation/metr-ai-assisted-productivity-study",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/self-study/S001",
+      "to": "research/04-professional-formation/sinha-kapur-productive-failure",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/self-study/S001",
+      "to": "research/04-professional-formation/keith-frese-error-management-training",
       "type": "links_to"
     },
     {
@@ -23364,11 +23501,6 @@
     },
     {
       "from": "wiki/seminars/S001",
-      "to": "wiki/program/02-Learning-Science-Foundations",
-      "type": "links_to"
-    },
-    {
-      "from": "wiki/seminars/S001",
       "to": "research/04-professional-formation/dellacqua-jagged-technological-frontier",
       "type": "links_to"
     },
@@ -23404,33 +23536,8 @@
     },
     {
       "from": "wiki/seminars/S001",
-      "to": "research/04-professional-formation/metr-ai-assisted-productivity-study",
+      "to": "projections/self-study/S001",
       "type": "links_to"
-    },
-    {
-      "from": "wiki/seminars/S001",
-      "to": "research/04-professional-formation/metr-ai-assisted-productivity-study",
-      "type": "grounded_in"
-    },
-    {
-      "from": "wiki/seminars/S001",
-      "to": "research/04-professional-formation/sinha-kapur-productive-failure",
-      "type": "links_to"
-    },
-    {
-      "from": "wiki/seminars/S001",
-      "to": "research/04-professional-formation/sinha-kapur-productive-failure",
-      "type": "grounded_in"
-    },
-    {
-      "from": "wiki/seminars/S001",
-      "to": "research/04-professional-formation/keith-frese-error-management-training",
-      "type": "links_to"
-    },
-    {
-      "from": "wiki/seminars/S001",
-      "to": "research/04-professional-formation/keith-frese-error-management-training",
-      "type": "grounded_in"
     },
     {
       "from": "wiki/seminars/S001",
@@ -23445,6 +23552,11 @@
     {
       "from": "wiki/seminars/S001",
       "to": "wiki/program/11-Microsoft-AI-Platform-Map",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S001",
+      "to": "wiki/program/02-Learning-Science-Foundations",
       "type": "links_to"
     },
     {
