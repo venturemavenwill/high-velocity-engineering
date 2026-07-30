@@ -4912,8 +4912,12 @@
 {"from":"wiki/whitepapers/WP-001","to":"wiki/seminars/S001","type":"links_to"}
 {"from":"wiki/whitepapers/WP-001","to":"wiki/modules/M01","type":"links_to"}
 {"from":"wiki/whitepapers/WP-001","to":"wiki/quarters/Q1","type":"links_to"}
-{"from":"wiki/whitepapers/WP-001","to":"wiki/whitepapers/WP-002","type":"links_to"}
+{"from":"wiki/whitepapers/WP-001","to":"projections/self-study/S001","type":"links_to"}
+{"from":"wiki/whitepapers/WP-001","to":"wiki/program/04-Seminar-Day-Design-Pattern","type":"links_to"}
 {"from":"wiki/whitepapers/WP-001","to":"wiki/program/05-Whitepaper-Standard","type":"links_to"}
+{"from":"wiki/whitepapers/WP-001","to":"wiki/program/13-Agent-Configuration-Standard","type":"links_to"}
+{"from":"wiki/whitepapers/WP-001","to":"wiki/program/03-Assessment-Architecture","type":"links_to"}
+{"from":"wiki/whitepapers/WP-001","to":"wiki/whitepapers/WP-002","type":"links_to"}
 {"from":"wiki/whitepapers/WP-001","to":"wiki/seminars/S005","type":"links_to"}
 {"from":"wiki/whitepapers/WP-001","to":"wiki/seminars/S010","type":"links_to"}
 {"from":"wiki/whitepapers/WP-001","to":"wiki/seminars/S002","type":"links_to"}
@@ -4922,7 +4926,6 @@
 {"from":"wiki/whitepapers/WP-001","to":"wiki/program/12-Copilot-Practice-Standard","type":"links_to"}
 {"from":"wiki/whitepapers/WP-001","to":"wiki/seminars/S045","type":"links_to"}
 {"from":"wiki/whitepapers/WP-001","to":"wiki/seminars/S090","type":"links_to"}
-{"from":"wiki/whitepapers/WP-001","to":"wiki/program/13-Agent-Configuration-Standard","type":"links_to"}
 {"from":"wiki/whitepapers/WP-001","to":"wiki/program/02-Learning-Science-Foundations","type":"links_to"}
 {"from":"wiki/whitepapers/WP-001","to":"research/04-professional-formation/dellacqua-jagged-technological-frontier","type":"links_to"}
 {"from":"wiki/whitepapers/WP-001","to":"research/04-professional-formation/dellacqua-jagged-technological-frontier","type":"grounded_in"}
@@ -4934,7 +4937,6 @@
 {"from":"wiki/whitepapers/WP-001","to":"research/04-professional-formation/keith-frese-error-management-training","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-001","to":"research/04-professional-formation/bandura-self-efficacy","type":"links_to"}
 {"from":"wiki/whitepapers/WP-001","to":"research/04-professional-formation/bandura-self-efficacy","type":"grounded_in"}
-{"from":"wiki/whitepapers/WP-001","to":"wiki/program/03-Assessment-Architecture","type":"links_to"}
 {"from":"wiki/whitepapers/WP-001","to":"research/04-professional-formation/edmondson-psychological-safety","type":"links_to"}
 {"from":"wiki/whitepapers/WP-001","to":"research/04-professional-formation/edmondson-psychological-safety","type":"grounded_in"}
 {"from":"wiki/whitepapers/WP-001","to":"research/04-professional-formation/frazier-psychological-safety-meta-analysis","type":"links_to"}

@@ -270,8 +270,8 @@
         "Appendix F — checkpoint answers",
         "Further reading"
       ],
-      "words": 6255,
-      "lines": 490,
+      "words": 6395,
+      "lines": 493,
       "assessment_bearing": false
     },
     {
@@ -4705,8 +4705,8 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 4066,
-      "lines": 252,
+      "words": 4189,
+      "lines": 254,
       "module": "M01",
       "quarter": "Q1",
       "complexity_class": 1,
@@ -9210,8 +9210,8 @@
         "Further reading",
         "Evidence status"
       ],
-      "words": 7777,
-      "lines": 249,
+      "words": 9406,
+      "lines": 322,
       "module": "M01",
       "quarter": "Q1",
       "complexity_class": 1,
@@ -38536,12 +38536,32 @@
     },
     {
       "from": "wiki/whitepapers/WP-001",
-      "to": "wiki/whitepapers/WP-002",
+      "to": "projections/self-study/S001",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-001",
+      "to": "wiki/program/04-Seminar-Day-Design-Pattern",
       "type": "links_to"
     },
     {
       "from": "wiki/whitepapers/WP-001",
       "to": "wiki/program/05-Whitepaper-Standard",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-001",
+      "to": "wiki/program/13-Agent-Configuration-Standard",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-001",
+      "to": "wiki/program/03-Assessment-Architecture",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-001",
+      "to": "wiki/whitepapers/WP-002",
       "type": "links_to"
     },
     {
@@ -38582,11 +38602,6 @@
     {
       "from": "wiki/whitepapers/WP-001",
       "to": "wiki/seminars/S090",
-      "type": "links_to"
-    },
-    {
-      "from": "wiki/whitepapers/WP-001",
-      "to": "wiki/program/13-Agent-Configuration-Standard",
       "type": "links_to"
     },
     {
@@ -38643,11 +38658,6 @@
       "from": "wiki/whitepapers/WP-001",
       "to": "research/04-professional-formation/bandura-self-efficacy",
       "type": "grounded_in"
-    },
-    {
-      "from": "wiki/whitepapers/WP-001",
-      "to": "wiki/program/03-Assessment-Architecture",
-      "type": "links_to"
     },
     {
       "from": "wiki/whitepapers/WP-001",
@@ -74596,7 +74606,7 @@
         "research/06-microsoft-platform/collected-materials"
       ],
       "namespace": "pedagogy",
-      "words": 538
+      "words": 1340
     },
     {
       "id": "WP-001.e3",
