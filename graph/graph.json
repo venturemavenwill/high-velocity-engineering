@@ -1733,6 +1733,67 @@
       "verify_cadence": "3 years"
     },
     {
+      "id": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "path": "research/05-fde-craft/microsoft-accelerated-delivery-practice.md",
+      "kind": "research-note",
+      "layer": "research",
+      "title": "Cliff Notes — an accelerated customer-embedded delivery practice (white-labelled)",
+      "headings": [
+        "Source and access status",
+        "What it is",
+        "The operating model, and where it is interesting",
+        "Design thinking inside engineering delivery",
+        "The workshop delivery system",
+        "The discovery question bank",
+        "The value-conversation framework",
+        "Security hygiene, and withdrawal as estate hygiene",
+        "The responsible-AI regime, and what its revision reveals",
+        "Method and evidence base",
+        "Human-voice claims worth carrying",
+        "What to remember",
+        "Why it matters for the course",
+        "How to teach it",
+        "Limits and cautions"
+      ],
+      "words": 5340,
+      "lines": 221,
+      "assessment_bearing": false,
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "verify_cadence": "3 years"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-agentic-threat-modelling",
+      "path": "research/05-fde-craft/microsoft-agentic-threat-modelling.md",
+      "kind": "research-note",
+      "layer": "research",
+      "title": "Cliff Notes — a chained agent pipeline for threat modelling (white-labelled)",
+      "headings": [
+        "Source and access status",
+        "Why this note exists separately",
+        "The design",
+        "The artefact chain, which is the reusable part",
+        "The best thing in it: closure re-derived rather than asserted",
+        "Where it goes wrong, which is why it is worth teaching",
+        "No approval gate anywhere — and that is the finding",
+        "Classified against the five classes of conclusion",
+        "Is the evaluator calibrated against human judgement? No",
+        "Evidence audit",
+        "Human-voice claims worth carrying",
+        "Contradictions",
+        "What to remember",
+        "Why it matters for the course",
+        "How to teach it",
+        "Limits and cautions"
+      ],
+      "words": 4220,
+      "lines": 193,
+      "assessment_bearing": false,
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "verify_cadence": "3 years"
+    },
+    {
       "id": "research/05-fde-craft/microsoft-fde-delivery-practice",
       "path": "research/05-fde-craft/microsoft-fde-delivery-practice.md",
       "kind": "research-note",
@@ -2608,8 +2669,8 @@
         "What resolving the citations exposed",
         "Copyright handling"
       ],
-      "words": 3240,
-      "lines": 223,
+      "words": 3473,
+      "lines": 226,
       "assessment_bearing": false
     },
     {
@@ -4208,14 +4269,15 @@
         "The phase model, and how this programme is not it",
         "The artefacts, which are where the strand becomes assessable",
         "What neither source establishes, stated once so no day has to",
+        "A second internal corpus, read 2026-07-30",
         "Perishability",
         "Related pages"
       ],
-      "words": 2792,
-      "lines": 107,
+      "words": 3590,
+      "lines": 125,
       "assessment_bearing": false,
       "namespaces": {
-        "fde-craft": 2
+        "fde-craft": 4
       },
       "primary_namespace": "fde-craft",
       "platform_bearing": false,
@@ -5814,8 +5876,8 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 3688,
-      "lines": 225,
+      "words": 4679,
+      "lines": 235,
       "module": "M06",
       "quarter": "Q3",
       "complexity_class": 2,
@@ -5833,7 +5895,8 @@
       "re_tests_raw": "S001, S009",
       "assessment_bearing": false,
       "namespaces": {
-        "measurement": 2
+        "measurement": 2,
+        "fde-craft": 1
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -6371,8 +6434,8 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 3813,
-      "lines": 225,
+      "words": 4608,
+      "lines": 235,
       "module": "M08",
       "quarter": "Q4",
       "complexity_class": 3,
@@ -6388,7 +6451,7 @@
       "depends_on_raw": "S036",
       "assessment_bearing": false,
       "namespaces": {
-        "fde-craft": 2,
+        "fde-craft": 3,
         "pedagogy": 1
       },
       "primary_namespace": "fde-craft",
@@ -6724,8 +6787,8 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 4332,
-      "lines": 244,
+      "words": 5019,
+      "lines": 262,
       "module": "M09",
       "quarter": "Q5",
       "complexity_class": 3,
@@ -6744,7 +6807,7 @@
       "re_tests_raw": "S039, S041",
       "assessment_bearing": false,
       "namespaces": {
-        "fde-craft": 2,
+        "fde-craft": 3,
         "platform": 1
       },
       "primary_namespace": "fde-craft",
@@ -7975,8 +8038,8 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 6215,
-      "lines": 292,
+      "words": 6857,
+      "lines": 300,
       "module": "M14",
       "quarter": "Q7",
       "complexity_class": 5,
@@ -7994,7 +8057,7 @@
       "depends_on_raw": "S039, S046, S066, S068",
       "assessment_bearing": false,
       "namespaces": {
-        "fde-craft": 1
+        "fde-craft": 2
       },
       "primary_namespace": "fde-craft",
       "platform_bearing": true,
@@ -8125,8 +8188,8 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 6163,
-      "lines": 278,
+      "words": 6848,
+      "lines": 290,
       "module": "M15",
       "quarter": "Q8",
       "complexity_class": 5,
@@ -8144,6 +8207,7 @@
       "assessment_bearing": false,
       "namespaces": {
         "ai-systems": 1,
+        "fde-craft": 1,
         "platform": 1
       },
       "primary_namespace": "ai-systems",
@@ -8174,8 +8238,8 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 6815,
-      "lines": 281,
+      "words": 7442,
+      "lines": 291,
       "module": "M15",
       "quarter": "Q8",
       "complexity_class": 5,
@@ -8194,7 +8258,7 @@
       "re_tests_raw": "S039",
       "assessment_bearing": false,
       "namespaces": {
-        "fde-craft": 1,
+        "fde-craft": 2,
         "platform": 1
       },
       "primary_namespace": "fde-craft",
@@ -8976,8 +9040,8 @@
         "What to take from this day",
         "Related pages"
       ],
-      "words": 9794,
-      "lines": 307,
+      "words": 10620,
+      "lines": 321,
       "module": "M18",
       "quarter": "Q9",
       "complexity_class": 6,
@@ -8995,7 +9059,7 @@
       "depends_on_raw": "S034, S069, S086, S088",
       "assessment_bearing": false,
       "namespaces": {
-        "fde-craft": 2
+        "fde-craft": 3
       },
       "primary_namespace": "fde-craft",
       "platform_bearing": true,
@@ -10379,8 +10443,8 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 6437,
-      "lines": 219,
+      "words": 6955,
+      "lines": 223,
       "module": "M06",
       "quarter": "Q3",
       "complexity_class": 2,
@@ -10396,14 +10460,14 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
+        "fde-craft": 3,
         "measurement": 2,
-        "fde-craft": 1,
         "platform": 1
       },
-      "primary_namespace": "measurement",
+      "primary_namespace": "fde-craft",
       "platform_bearing": true,
-      "decay": "permanent",
-      "verify_cadence": "on amendment",
+      "decay": "slow",
+      "verify_cadence": "3 years",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -10961,8 +11025,8 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 6962,
-      "lines": 234,
+      "words": 7600,
+      "lines": 238,
       "module": "M08",
       "quarter": "Q4",
       "complexity_class": 3,
@@ -10977,7 +11041,7 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "fde-craft": 3,
+        "fde-craft": 5,
         "measurement": 1,
         "pedagogy": 1,
         "platform": 1
@@ -11329,8 +11393,8 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 6945,
-      "lines": 230,
+      "words": 7461,
+      "lines": 234,
       "module": "M09",
       "quarter": "Q5",
       "complexity_class": 3,
@@ -11347,7 +11411,7 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "fde-craft": 2,
+        "fde-craft": 4,
         "platform": 2,
         "ai-systems": 1
       },
@@ -12663,8 +12727,8 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 7243,
-      "lines": 250,
+      "words": 7737,
+      "lines": 254,
       "module": "M14",
       "quarter": "Q7",
       "complexity_class": 5,
@@ -12681,15 +12745,15 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
+        "fde-craft": 3,
         "pedagogy": 2,
         "assessment": 1,
-        "fde-craft": 1,
         "measurement": 1,
         "platform": 1
       },
-      "primary_namespace": "pedagogy",
+      "primary_namespace": "fde-craft",
       "platform_bearing": true,
-      "decay": "decades",
+      "decay": "slow",
       "verify_cadence": "3 years",
       "evidence_classes": [
         "verified-in-repo",
@@ -12826,8 +12890,8 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 7482,
-      "lines": 246,
+      "words": 8003,
+      "lines": 250,
       "module": "M15",
       "quarter": "Q8",
       "complexity_class": 5,
@@ -12844,6 +12908,7 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 3,
+        "fde-craft": 2,
         "pedagogy": 2,
         "ai-systems": 1,
         "curriculum": 1
@@ -12879,8 +12944,8 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 8441,
-      "lines": 258,
+      "words": 8999,
+      "lines": 262,
       "module": "M15",
       "quarter": "Q8",
       "complexity_class": 5,
@@ -12898,9 +12963,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "platform": 4,
+        "fde-craft": 3,
         "pedagogy": 3,
-        "ai-systems": 1,
-        "fde-craft": 1
+        "ai-systems": 1
       },
       "primary_namespace": "platform",
       "platform_bearing": true,
@@ -13743,8 +13808,8 @@
         "What a student should take from this paper",
         "Evidence status"
       ],
-      "words": 10357,
-      "lines": 265,
+      "words": 10961,
+      "lines": 269,
       "module": "M18",
       "quarter": "Q9",
       "complexity_class": 6,
@@ -13761,7 +13826,7 @@
       ],
       "assessment_bearing": false,
       "namespaces": {
-        "fde-craft": 4,
+        "fde-craft": 6,
         "assessment": 3,
         "pedagogy": 2,
         "ai-systems": 1,
@@ -15287,6 +15352,36 @@
       "type": "part_of"
     },
     {
+      "from": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "to": "research/99-source-register/source-register",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "to": "research/05-fde-craft/collected-materials",
+      "type": "part_of"
+    },
+    {
+      "from": "research/05-fde-craft/microsoft-agentic-threat-modelling",
+      "to": "research/99-source-register/source-register",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/microsoft-agentic-threat-modelling",
+      "to": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/microsoft-agentic-threat-modelling",
+      "to": "wiki/program/13-Agent-Configuration-Standard",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/microsoft-agentic-threat-modelling",
+      "to": "research/05-fde-craft/collected-materials",
+      "type": "part_of"
+    },
+    {
       "from": "research/05-fde-craft/microsoft-fde-delivery-practice",
       "to": "research/99-source-register/source-register",
       "type": "links_to"
@@ -15859,6 +15954,16 @@
     {
       "from": "research/99-source-register/source-register",
       "to": "wiki/program/14-FDE-Delivery-Standard",
+      "type": "links_to"
+    },
+    {
+      "from": "research/99-source-register/source-register",
+      "to": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "type": "links_to"
+    },
+    {
+      "from": "research/99-source-register/source-register",
+      "to": "research/05-fde-craft/microsoft-agentic-threat-modelling",
       "type": "links_to"
     },
     {
@@ -21893,6 +21998,56 @@
     },
     {
       "from": "wiki/program/14-FDE-Delivery-Standard",
+      "to": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/program/14-FDE-Delivery-Standard",
+      "to": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/program/14-FDE-Delivery-Standard",
+      "to": "research/05-fde-craft/microsoft-agentic-threat-modelling",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/program/14-FDE-Delivery-Standard",
+      "to": "research/05-fde-craft/microsoft-agentic-threat-modelling",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/program/14-FDE-Delivery-Standard",
+      "to": "wiki/seminars/S026",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/program/14-FDE-Delivery-Standard",
+      "to": "wiki/seminars/S037",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/program/14-FDE-Delivery-Standard",
+      "to": "wiki/seminars/S044",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/program/14-FDE-Delivery-Standard",
+      "to": "wiki/seminars/S069",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/program/14-FDE-Delivery-Standard",
+      "to": "wiki/seminars/S072",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/program/14-FDE-Delivery-Standard",
+      "to": "wiki/seminars/S073",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/program/14-FDE-Delivery-Standard",
       "to": "wiki/program/09-Durable-and-Perishable-Register",
       "type": "links_to"
     },
@@ -26223,6 +26378,16 @@
     },
     {
       "from": "wiki/seminars/S026",
+      "to": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S026",
+      "to": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/seminars/S026",
       "to": "wiki/program/05-Whitepaper-Standard",
       "type": "links_to"
     },
@@ -27718,28 +27883,38 @@
     },
     {
       "from": "wiki/seminars/S037",
+      "to": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S037",
+      "to": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/seminars/S037",
+      "to": "research/05-fde-craft/portigal-interviewing-users",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S037",
+      "to": "research/05-fde-craft/portigal-interviewing-users",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/seminars/S037",
+      "to": "research/05-fde-craft/beyer-holtzblatt-contextual-design",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S037",
+      "to": "research/05-fde-craft/beyer-holtzblatt-contextual-design",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/seminars/S037",
       "to": "wiki/program/12-Copilot-Practice-Standard",
       "type": "links_to"
-    },
-    {
-      "from": "wiki/seminars/S037",
-      "to": "research/05-fde-craft/beyer-holtzblatt-contextual-design",
-      "type": "links_to"
-    },
-    {
-      "from": "wiki/seminars/S037",
-      "to": "research/05-fde-craft/beyer-holtzblatt-contextual-design",
-      "type": "grounded_in"
-    },
-    {
-      "from": "wiki/seminars/S037",
-      "to": "research/05-fde-craft/portigal-interviewing-users",
-      "type": "links_to"
-    },
-    {
-      "from": "wiki/seminars/S037",
-      "to": "research/05-fde-craft/portigal-interviewing-users",
-      "type": "grounded_in"
     },
     {
       "from": "wiki/seminars/S037",
@@ -28649,6 +28824,21 @@
     {
       "from": "wiki/seminars/S044",
       "to": "wiki/program/12-Copilot-Practice-Standard",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S044",
+      "to": "research/05-fde-craft/microsoft-agentic-threat-modelling",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S044",
+      "to": "research/05-fde-craft/microsoft-agentic-threat-modelling",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/seminars/S044",
+      "to": "wiki/seminars/S026",
       "type": "links_to"
     },
     {
@@ -33233,6 +33423,16 @@
     },
     {
       "from": "wiki/seminars/S069",
+      "to": "research/05-fde-craft/microsoft-agentic-threat-modelling",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S069",
+      "to": "research/05-fde-craft/microsoft-agentic-threat-modelling",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/seminars/S069",
       "to": "wiki/seminars/S070",
       "type": "links_to"
     },
@@ -33858,6 +34058,16 @@
     },
     {
       "from": "wiki/seminars/S072",
+      "to": "research/05-fde-craft/microsoft-agentic-threat-modelling",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S072",
+      "to": "research/05-fde-craft/microsoft-agentic-threat-modelling",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/seminars/S072",
       "to": "wiki/seminars/S073",
       "type": "links_to"
     },
@@ -34073,6 +34283,21 @@
     },
     {
       "from": "wiki/seminars/S073",
+      "to": "research/05-fde-craft/microsoft-agentic-threat-modelling",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S073",
+      "to": "research/05-fde-craft/microsoft-agentic-threat-modelling",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/seminars/S073",
+      "to": "wiki/program/13-Agent-Configuration-Standard",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S073",
       "to": "wiki/program/03-Assessment-Architecture",
       "type": "links_to"
     },
@@ -34150,11 +34375,6 @@
       "from": "wiki/seminars/S073",
       "to": "research/06-microsoft-platform/agent-framework-and-evaluations-docs",
       "type": "grounded_in"
-    },
-    {
-      "from": "wiki/seminars/S073",
-      "to": "wiki/program/13-Agent-Configuration-Standard",
-      "type": "links_to"
     },
     {
       "from": "wiki/seminars/S073",
@@ -37788,6 +38008,16 @@
     },
     {
       "from": "wiki/seminars/S089",
+      "to": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S089",
+      "to": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/seminars/S089",
       "to": "wiki/program/05-Whitepaper-Standard",
       "type": "links_to"
     },
@@ -41128,6 +41358,26 @@
     },
     {
       "from": "wiki/whitepapers/WP-026",
+      "to": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-026",
+      "to": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-026",
+      "to": "research/05-fde-craft/microsoft-agentic-threat-modelling",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-026",
+      "to": "research/05-fde-craft/microsoft-agentic-threat-modelling",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-026",
       "to": "wiki/seminars/S026",
       "type": "documents"
     },
@@ -42543,6 +42793,26 @@
     },
     {
       "from": "wiki/whitepapers/WP-037",
+      "to": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-037",
+      "to": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-037",
+      "to": "research/05-fde-craft/microsoft-agentic-threat-modelling",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-037",
+      "to": "research/05-fde-craft/microsoft-agentic-threat-modelling",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-037",
       "to": "research/06-microsoft-platform/collected-materials",
       "type": "links_to"
     },
@@ -43478,6 +43748,11 @@
     },
     {
       "from": "wiki/whitepapers/WP-044",
+      "to": "wiki/seminars/S068",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-044",
       "to": "research/02-technical-foundations/collected-materials",
       "type": "links_to"
     },
@@ -43533,6 +43808,26 @@
     },
     {
       "from": "wiki/whitepapers/WP-044",
+      "to": "research/05-fde-craft/microsoft-agentic-threat-modelling",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-044",
+      "to": "research/05-fde-craft/microsoft-agentic-threat-modelling",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-044",
+      "to": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-044",
+      "to": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-044",
       "to": "research/06-microsoft-platform/collected-materials",
       "type": "links_to"
     },
@@ -43540,6 +43835,11 @@
       "from": "wiki/whitepapers/WP-044",
       "to": "research/06-microsoft-platform/collected-materials",
       "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-044",
+      "to": "wiki/seminars/S026",
+      "type": "links_to"
     },
     {
       "from": "wiki/whitepapers/WP-044",
@@ -48698,6 +48998,26 @@
     },
     {
       "from": "wiki/whitepapers/WP-069",
+      "to": "research/05-fde-craft/microsoft-agentic-threat-modelling",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-069",
+      "to": "research/05-fde-craft/microsoft-agentic-threat-modelling",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-069",
+      "to": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-069",
+      "to": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-069",
       "to": "research/06-microsoft-platform/collected-materials",
       "type": "links_to"
     },
@@ -49498,6 +49818,26 @@
     },
     {
       "from": "wiki/whitepapers/WP-072",
+      "to": "research/05-fde-craft/microsoft-agentic-threat-modelling",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-072",
+      "to": "research/05-fde-craft/microsoft-agentic-threat-modelling",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-072",
+      "to": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-072",
+      "to": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-072",
       "to": "research/06-microsoft-platform/collected-materials",
       "type": "links_to"
     },
@@ -49749,6 +50089,26 @@
     {
       "from": "wiki/whitepapers/WP-073",
       "to": "research/99-source-register/source-register",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-073",
+      "to": "research/05-fde-craft/microsoft-agentic-threat-modelling",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-073",
+      "to": "research/05-fde-craft/microsoft-agentic-threat-modelling",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-073",
+      "to": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-073",
+      "to": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
       "type": "grounded_in"
     },
     {
@@ -54390,6 +54750,26 @@
       "from": "wiki/whitepapers/WP-089",
       "to": "wiki/program/14-FDE-Delivery-Standard",
       "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-089",
+      "to": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-089",
+      "to": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-089",
+      "to": "research/05-fde-craft/microsoft-agentic-threat-modelling",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-089",
+      "to": "research/05-fde-craft/microsoft-agentic-threat-modelling",
+      "type": "grounded_in"
     },
     {
       "from": "wiki/whitepapers/WP-089",
@@ -67464,10 +67844,10 @@
       "label": "Prediction 1.",
       "claim": "A large majority will answer \"none\" or equivalent at phase 1 item 3, and the rate will not differ materially by prior research-methods exposure.",
       "instrument": "item 3 responses coded, split by the admission background survey.",
-      "namespace": "measurement",
+      "namespace": "fde-craft",
       "namespaces": {
+        "fde-craft": 3,
         "measurement": 2,
-        "fde-craft": 1,
         "platform": 1
       }
     },
@@ -67480,10 +67860,10 @@
       "label": "Prediction 2.",
       "claim": "In phase 3, groups will classify the two inverted constructs as uninformative rather than inverted at a higher rate than they misclassify any of the other three.",
       "instrument": "per-construct classification with error direction.",
-      "namespace": "measurement",
+      "namespace": "fde-craft",
       "namespaces": {
+        "fde-craft": 3,
         "measurement": 2,
-        "fde-craft": 1,
         "platform": 1
       }
     },
@@ -67496,10 +67876,10 @@
       "label": "Prediction 3.",
       "claim": "Step 4 divergence cases will fail step 5's reachability test for a substantial minority, and failure will correlate with prior research-methods exposure rather than against it.",
       "instrument": "step 5 outcomes split by background. **This is the abstraction failure from §5 stated as a prediction.**",
-      "namespace": "measurement",
+      "namespace": "fde-craft",
       "namespaces": {
+        "fde-craft": 3,
         "measurement": 2,
-        "fde-craft": 1,
         "platform": 1
       }
     },
@@ -67512,10 +67892,10 @@
       "label": "Prediction 4.",
       "claim": "At S046, students will state a construct separately from an instrument without prompting at a higher rate than at S026, and the improvement will be larger for students whose S026 step 4 case was substrate-reachable.",
       "instrument": "an S046 protocol coded for unprompted separation, conditioned on S026 step 5 outcomes.",
-      "namespace": "measurement",
+      "namespace": "fde-craft",
       "namespaces": {
+        "fde-craft": 3,
         "measurement": 2,
-        "fde-craft": 1,
         "platform": 1
       }
     },
@@ -67528,10 +67908,10 @@
       "label": "Prediction 5.",
       "claim": "A large majority of item 5 sealed predictions will state that the agent will get something wrong, and a small minority will name the omission of a construct statement specifically; the most common named error will instead be a coding or configuration error, which will not occur.",
       "instrument": "item 5 responses coded into three categories — generic error, code-level error, construct-level error — against what each student's agent actually produced. **The design's claim is that students predict agent failure in the register they have been taught to review in, which is correctness of code, and that the frontier is somewhere else entirely. If the construct-level rate is high, the cohort's frontier model is better than the design assumes and phase 6's agent case is redundant; if the generic rate is also low, students are not yet predicting agent failure at all and the sealed item is measuring nothing.**",
-      "namespace": "measurement",
+      "namespace": "fde-craft",
       "namespaces": {
+        "fde-craft": 3,
         "measurement": 2,
-        "fde-craft": 1,
         "platform": 1
       }
     },
@@ -67544,10 +67924,26 @@
       "label": "Prediction 6.",
       "claim": "A substantial minority of step 4 divergence cases will not reproduce when executed at step 5, and the failure will be concentrated in cases asserting that the evaluator measures something it in fact does not measure at all — that is, students will over-predict divergence rather than under-predict it.",
       "instrument": "step 5 execution outcomes coded for direction of error. **This is the objection-2 over-application failure appearing in a form the day can finally observe, and it is the practical turn's contribution to a question the paper record has carried unanswered since S026 was first written.**",
-      "namespace": "measurement",
+      "namespace": "fde-craft",
       "namespaces": {
+        "fde-craft": 3,
         "measurement": 2,
-        "fde-craft": 1,
+        "platform": 1
+      }
+    },
+    {
+      "id": "WP-026.pred7",
+      "whitepaper": "wiki/whitepapers/WP-026",
+      "day": "wiki/seminars/S026",
+      "module": "M06",
+      "quarter": "Q3",
+      "label": "Prediction 7 — point 11's own, added 2026-07-30.",
+      "claim": "Among the divergence cases students construct at step 4, **almost none will be of the form *this instrument cannot return a disconfirming result*.** Students will build instruments that measure the wrong quantity, and not instruments that cannot be wrong.",
+      "instrument": "step 4 cases re-coded into two classes — wrong-quantity and unfalsifiable-by-construction — alongside the existing step 5 reachability outcome; no new artefact element is required, since the divergence case is already a checked element. **The claim is that the day's own apparatus makes only the first class thinkable**, which is point 11's reason for existing and is also the reason it cannot be assessed here: a student cannot be asked to build a case in a form the phase 3 contrast set never exhibits. If unfalsifiable-by-construction cases appear at any appreciable rate, the cohort reaches the second failure unaided and point 11's first half is redundant.",
+      "namespace": "fde-craft",
+      "namespaces": {
+        "fde-craft": 3,
+        "measurement": 2,
         "platform": 1
       }
     },
@@ -68569,7 +68965,7 @@
       "instrument": "paired predicted and recorded counts, self and partner. **The self-versus-partner discrepancy is now measurable and its direction is the test of objection 2's residual concession: if partner counts systematically exceed self counts, the self-report bias the rule anticipated is real and the earlier design was measuring compliance rather than behaviour.**",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 3,
+        "fde-craft": 5,
         "measurement": 1,
         "pedagogy": 1,
         "platform": 1
@@ -68586,7 +68982,7 @@
       "instrument": "paired answers, blind-rated for material difference.",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 3,
+        "fde-craft": 5,
         "measurement": 1,
         "pedagogy": 1,
         "platform": 1
@@ -68603,7 +68999,7 @@
       "instrument": "column ratios split by the admission background survey.",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 3,
+        "fde-craft": 5,
         "measurement": 1,
         "pedagogy": 1,
         "platform": 1
@@ -68620,7 +69016,7 @@
       "instrument": "phase 7 comparisons. **A very low divergence rate would suggest students are converging before writing, which step 5's isolation is designed to prevent and which would indicate the isolation is not being maintained.**",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 3,
+        "fde-craft": 5,
         "measurement": 1,
         "pedagogy": 1,
         "platform": 1
@@ -68637,7 +69033,7 @@
       "instrument": "item 5 responses coded for technical-versus-definitional, against the step 6 reconciliations. **This is the same shape as [WP-036](/wiki/whitepapers/WP-036.md) §9 prediction 5 and is the module's second frontier-calibration datum. If both predict a defect rather than an omission, the cohort's model of an agent and its model of an instrument share a single error, which is a more useful finding than either alone.**",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 3,
+        "fde-craft": 5,
         "measurement": 1,
         "pedagogy": 1,
         "platform": 1
@@ -68654,7 +69050,24 @@
       "instrument": "committed answers before phase 4. **A majority preferring C would indicate the room already treats machine records sceptically and point 8 is less necessary than the design assumes; a majority preferring D confirms the substitution risk objection 3 describes and makes point 5's explicit statement load-bearing rather than precautionary.**",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 3,
+        "fde-craft": 5,
+        "measurement": 1,
+        "pedagogy": 1,
+        "platform": 1
+      }
+    },
+    {
+      "id": "WP-037.pred7",
+      "whitepaper": "wiki/whitepapers/WP-037",
+      "day": "wiki/seminars/S037",
+      "module": "M08",
+      "quarter": "Q4",
+      "label": "Prediction 7 — point 11's own, added 2026-07-30.",
+      "claim": "Among the interventions a partner records at phase 7, **solution endorsement** — inviting the informant to agree that a thing the student intends to build would help — will be the modal steering type, ahead of all four of point 4's named classes.",
+      "instrument": "phase 7 partner-recorded interventions coded into five classes — leading question, suggestion-as-question, filled silence, premature agreement, and solution endorsement — with the fifth class added to the existing coding scheme; no new artefact element is required, since the paired intervention counts are already recorded. **The claim is that the failure point 11 finds as the *template* of a professional question bank is also the one this cohort produces unprompted**, which would explain why a bank written by experienced practitioners contains it in every block. If solution endorsement is rare here, the bank's failure is a property of its authors' commercial position rather than a general hazard of interviewing, and point 11 should say so instead of generalising.",
+      "namespace": "fde-craft",
+      "namespaces": {
+        "fde-craft": 5,
         "measurement": 1,
         "pedagogy": 1,
         "platform": 1
@@ -69298,7 +69711,7 @@
       "instrument": "paired list lengths against item 4 predictions.",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 2,
+        "fde-craft": 4,
         "platform": 2,
         "ai-systems": 1
       }
@@ -69314,7 +69727,7 @@
       "instrument": "phase 3 committed rankings.",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 2,
+        "fde-craft": 4,
         "platform": 2,
         "ai-systems": 1
       }
@@ -69330,7 +69743,7 @@
       "instrument": "accept-list length as a proportion of enumerated threats, split by the admission background survey.",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 2,
+        "fde-craft": 4,
         "platform": 2,
         "ai-systems": 1
       }
@@ -69346,7 +69759,7 @@
       "instrument": "phase 7 outcomes coded for fires-and-in-time, fires-too-late, and does-not-fire.",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 2,
+        "fde-craft": 4,
         "platform": 2,
         "ai-systems": 1
       }
@@ -69362,7 +69775,7 @@
       "instrument": "step 8 results by check. **The prediction is about defaults rather than about students: if templates pass on first run, either the cohort has been more deliberate than the design assumes or the platform's defaults have changed, and phase 3's payload has to be rebuilt either way.**",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 2,
+        "fde-craft": 4,
         "platform": 2,
         "ai-systems": 1
       }
@@ -69378,7 +69791,23 @@
       "instrument": "item 5 responses coded for generic-versus-specific failure identification, scored twice: against the supplied template at phase 3 and against the student's own at phase 5. **A cohort that names it after phase 3 and not before has learned it on the day rather than predicted it, which is the distinction the sealed item exists to preserve.**",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 2,
+        "fde-craft": 4,
+        "platform": 2,
+        "ai-systems": 1
+      }
+    },
+    {
+      "id": "WP-044.pred7",
+      "whitepaper": "wiki/whitepapers/WP-044",
+      "day": "wiki/seminars/S044",
+      "module": "M09",
+      "quarter": "Q5",
+      "label": "Prediction 7 — point 11's own, added 2026-07-30.",
+      "claim": "Among step 4 entries whose probability or consequence rests on a value the student **inferred** rather than observed — an assumed transport, an assumed authentication mode, an assumed classification — a majority will record a provenance naming the reasoning (*best practice*, *standard for this transport*, *the template does this*) **without recording that the value itself was unavailable.**",
+      "instrument": "step 4 provenance fields re-coded into three classes — observed value with source, inferred value marked as inferred, inferred value presented as observed — against the student's own step 1 deployment context; no new artefact element is required, since provenance in the same field is already a checked element. **The third class is point 11's failure occurring in the student's own artefact rather than in somebody else's pipeline**, and it is the only place this day can observe it. If the third class is rare, the inference-laundering trace is being learned as a story about a system rather than as a property of threat models, and it belongs at [S068](/wiki/seminars/S068.md) rather than here.",
+      "namespace": "fde-craft",
+      "namespaces": {
+        "fde-craft": 4,
         "platform": 2,
         "ai-systems": 1
       }
@@ -71686,11 +72115,11 @@
       "label": "Prediction 1.",
       "claim": "At items 1 and 2, more than three-quarters of students will name a different party than the record shows decided, and the modal record answer will be *whoever was available* rather than either the evidence-holder or the authority-holder.",
       "instrument": "items 1 and 2 coded against the record, with the record's decider classified by role.",
-      "namespace": "pedagogy",
+      "namespace": "fde-craft",
       "namespaces": {
+        "fde-craft": 3,
         "pedagogy": 2,
         "assessment": 1,
-        "fde-craft": 1,
         "measurement": 1,
         "platform": 1
       }
@@ -71704,11 +72133,11 @@
       "label": "Prediction 2.",
       "claim": "At item 3, a majority of students will discharge the escalation duty by telling one person, and the proportion will fall below a quarter when the same question is asked at the next morning's retrieval.",
       "instrument": "item 3 answers coded against point 4's three conditions, paired with the day-1 retrieval response. **If the next-morning figure does not move, point 4 is being learned as a list rather than as a standard.**",
-      "namespace": "pedagogy",
+      "namespace": "fde-craft",
       "namespaces": {
+        "fde-craft": 3,
         "pedagogy": 2,
         "assessment": 1,
-        "fde-craft": 1,
         "measurement": 1,
         "platform": 1
       }
@@ -71722,11 +72151,11 @@
       "label": "Prediction 3.",
       "claim": "At step 6, more than a third of not-detected entries across the cohort will be recorded as having no owner, and the unowned proportion will be highest for entries in the user-visible-only class.",
       "instrument": "step 6 assignments coded for owner presence and entry class. **If the unowned proportion is near zero, students are inventing owners** and the function-name fail condition is not catching it.",
-      "namespace": "pedagogy",
+      "namespace": "fde-craft",
       "namespaces": {
+        "fde-craft": 3,
         "pedagogy": 2,
         "assessment": 1,
-        "fde-craft": 1,
         "measurement": 1,
         "platform": 1
       }
@@ -71740,11 +72169,11 @@
       "label": "Prediction 4.",
       "claim": "More than a third of step 7 arrangements will be declined by the accountable staff member, and the modal ground will be the reversal path's cost rather than the owner or the authority.",
       "instrument": "step 7 outcomes and grounds, coded. **The modal ground is the claim**: the design predicts that students specify ownership carefully and reversal carelessly, because ownership is what the day is visibly about.",
-      "namespace": "pedagogy",
+      "namespace": "fde-craft",
       "namespaces": {
+        "fde-craft": 3,
         "pedagogy": 2,
         "assessment": 1,
-        "fde-craft": 1,
         "measurement": 1,
         "platform": 1
       }
@@ -71758,11 +72187,11 @@
       "label": "Prediction 5.",
       "claim": "At phase 3's executed opening, more than three-quarters of groups will find at least one identity holding a gate-changing permission that no member of the group can name, and more than half will find that no member of the group can say who granted any assignment.",
       "instrument": "the groups' recorded answers against the actual assignment list. **If the unnameable-identity rate is low, the substrate's project has been provisioned more carefully than a real one** and the opening's finding will not transfer; the fallback is to run it against a second, older project.",
-      "namespace": "pedagogy",
+      "namespace": "fde-craft",
       "namespaces": {
+        "fde-craft": 3,
         "pedagogy": 2,
         "assessment": 1,
-        "fde-craft": 1,
         "measurement": 1,
         "platform": 1
       }
@@ -71776,11 +72205,29 @@
       "label": "Prediction 6.",
       "claim": "At step 8, the median number of arrangement parts a student records as enforced by nothing but agreement will be three or more, and the part most often recorded as unenforced will be the reversal path.",
       "instrument": "step 8 statements coded by part. **The modal unenforced part is the claim** and it is the same claim as prediction 4 from the other side: if students both specify reversal carelessly and leave it unenforced, the day's four parts are not equally weighted in practice and point 6 needs the emphasis point 2 currently has.",
-      "namespace": "pedagogy",
+      "namespace": "fde-craft",
       "namespaces": {
+        "fde-craft": 3,
         "pedagogy": 2,
         "assessment": 1,
-        "fde-craft": 1,
+        "measurement": 1,
+        "platform": 1
+      }
+    },
+    {
+      "id": "WP-069.pred7",
+      "whitepaper": "wiki/whitepapers/WP-069",
+      "day": "wiki/seminars/S069",
+      "module": "M14",
+      "quarter": "Q7",
+      "label": "Prediction 7 — point 12's own, added 2026-07-30.",
+      "claim": "At step 8, among the arrangement parts a student records as enforced by **something other than agreement**, almost none will name an enforcement whose satisfaction can be established **without asking a person** — that is, students will name a gate somebody runs, an approval somebody gives or a check somebody performs, and not a condition derivable from an artefact.",
+      "instrument": "step 8 statements re-coded on a second axis — person-attested or artefact-derivable — alongside the existing coding by arrangement part; no new artefact element is required, since the step 8 statement is already a checked element. **The claim is that the cohort's model of enforcement is a person with a duty**, which is what points 1 to 8 spend fifty minutes building and is exactly why point 12 has to arrive from outside the day's own argument. If artefact-derivable enforcements appear at any appreciable rate, the cohort holds the distinction already and point 12 is confirming rather than teaching.",
+      "namespace": "fde-craft",
+      "namespaces": {
+        "fde-craft": 3,
+        "pedagogy": 2,
+        "assessment": 1,
         "measurement": 1,
         "platform": 1
       }
@@ -72007,6 +72454,7 @@
       "namespace": "platform",
       "namespaces": {
         "platform": 3,
+        "fde-craft": 2,
         "pedagogy": 2,
         "ai-systems": 1,
         "curriculum": 1
@@ -72024,6 +72472,7 @@
       "namespace": "platform",
       "namespaces": {
         "platform": 3,
+        "fde-craft": 2,
         "pedagogy": 2,
         "ai-systems": 1,
         "curriculum": 1
@@ -72041,6 +72490,7 @@
       "namespace": "platform",
       "namespaces": {
         "platform": 3,
+        "fde-craft": 2,
         "pedagogy": 2,
         "ai-systems": 1,
         "curriculum": 1
@@ -72058,6 +72508,7 @@
       "namespace": "platform",
       "namespaces": {
         "platform": 3,
+        "fde-craft": 2,
         "pedagogy": 2,
         "ai-systems": 1,
         "curriculum": 1
@@ -72075,6 +72526,7 @@
       "namespace": "platform",
       "namespaces": {
         "platform": 3,
+        "fde-craft": 2,
         "pedagogy": 2,
         "ai-systems": 1,
         "curriculum": 1
@@ -72088,10 +72540,29 @@
       "quarter": "Q8",
       "label": "Prediction 6.",
       "claim": "At item 5, the modal sealed prediction will be that the agent produces a *correct drawing with a wrong bound*, and the agent's stated bound will cluster with the room's at item 4 rather than with the cap.",
-      "instrument": "item 5 responses coded against the agent's actual output per student, with agent bounds compared to drawn-branch counts and to the cap on the same axis as item 4. **The clustering is the claim.** If the agent bounds correctly while the room does not, the day has an unusually clean frontier datum in the opposite direction from the one the design expects, and the phase 6 agent case is the wrong case. **Instrumentation note, for the compliance register.** The entry §8 objection 1 requires, stated so that it can be transcribed without re-derivation: *[WP-072](/wiki/whitepapers/WP-072.md) §8 — [S072](/wiki/seminars/S072.md) phase 3 generalised from a single task record and did not carry [S017](/wiki/seminars/S017.md) phase 3's second-workload remedy across. Rule: instrumentation rule 5. Status: **Fixed**. Reason: violation of a written rule with the remedy already in the repertoire and cited in the same day's phase 2; no design judgement was in contest.* The paper additionally argues, without enacting, for **a rule-5 checklist maintained alongside the compliance register**, listing each remedy in the repertoire with the failure it addresses, to be consulted at §5 of every whitepaper — on the ground that rule 5 is the only instrumentation rule with no checkable trigger and has now failed twice in two consecutive days.",
+      "instrument": "item 5 responses coded against the agent's actual output per student, with agent bounds compared to drawn-branch counts and to the cap on the same axis as item 4. **The clustering is the claim.** If the agent bounds correctly while the room does not, the day has an unusually clean frontier datum in the opposite direction from the one the design expects, and the phase 6 agent case is the wrong case.",
       "namespace": "platform",
       "namespaces": {
         "platform": 3,
+        "fde-craft": 2,
+        "pedagogy": 2,
+        "ai-systems": 1,
+        "curriculum": 1
+      }
+    },
+    {
+      "id": "WP-072.pred7",
+      "whitepaper": "wiki/whitepapers/WP-072",
+      "day": "wiki/seminars/S072",
+      "module": "M15",
+      "quarter": "Q8",
+      "label": "Prediction 7 — point 11's own, added 2026-07-30.",
+      "claim": "At step 1's unnamed-composition clause, among compositions students do propose, **the integration between components will be expressed as a call in a large majority and as a written artefact in almost none** — that is, students will describe who invokes whom rather than who writes what for whom to read.",
+      "instrument": "step 1 compositions re-coded on a second axis — call-mediated, artefact-mediated, or mixed — alongside the existing coding against the framework's catalogue; no new artefact element is required. **The claim is that the call graph is the only integration vocabulary the cohort holds**, which would explain why the path-set arithmetic at point 3 feels like the whole of the design problem to them, and why point 11's folder contract has to be shown rather than derived. If artefact-mediated compositions appear at any appreciable rate, the cohort already holds the distinction, point 11 is confirming rather than teaching, and it should be cut to its last paragraph. **Instrumentation note, for the compliance register.** The entry §8 objection 1 requires, stated so that it can be transcribed without re-derivation: *[WP-072](/wiki/whitepapers/WP-072.md) §8 — [S072](/wiki/seminars/S072.md) phase 3 generalised from a single task record and did not carry [S017](/wiki/seminars/S017.md) phase 3's second-workload remedy across. Rule: instrumentation rule 5. Status: **Fixed**. Reason: violation of a written rule with the remedy already in the repertoire and cited in the same day's phase 2; no design judgement was in contest.* The paper additionally argues, without enacting, for **a rule-5 checklist maintained alongside the compliance register**, listing each remedy in the repertoire with the failure it addresses, to be consulted at §5 of every whitepaper — on the ground that rule 5 is the only instrumentation rule with no checkable trigger and has now failed twice in two consecutive days.",
+      "namespace": "platform",
+      "namespaces": {
+        "platform": 3,
+        "fde-craft": 2,
         "pedagogy": 2,
         "ai-systems": 1,
         "curriculum": 1
@@ -72109,9 +72580,9 @@
       "namespace": "platform",
       "namespaces": {
         "platform": 4,
+        "fde-craft": 3,
         "pedagogy": 3,
-        "ai-systems": 1,
-        "fde-craft": 1
+        "ai-systems": 1
       }
     },
     {
@@ -72126,9 +72597,9 @@
       "namespace": "platform",
       "namespaces": {
         "platform": 4,
+        "fde-craft": 3,
         "pedagogy": 3,
-        "ai-systems": 1,
-        "fde-craft": 1
+        "ai-systems": 1
       }
     },
     {
@@ -72143,9 +72614,9 @@
       "namespace": "platform",
       "namespaces": {
         "platform": 4,
+        "fde-craft": 3,
         "pedagogy": 3,
-        "ai-systems": 1,
-        "fde-craft": 1
+        "ai-systems": 1
       }
     },
     {
@@ -72160,9 +72631,9 @@
       "namespace": "platform",
       "namespaces": {
         "platform": 4,
+        "fde-craft": 3,
         "pedagogy": 3,
-        "ai-systems": 1,
-        "fde-craft": 1
+        "ai-systems": 1
       }
     },
     {
@@ -72177,9 +72648,9 @@
       "namespace": "platform",
       "namespaces": {
         "platform": 4,
+        "fde-craft": 3,
         "pedagogy": 3,
-        "ai-systems": 1,
-        "fde-craft": 1
+        "ai-systems": 1
       }
     },
     {
@@ -72190,13 +72661,30 @@
       "quarter": "Q8",
       "label": "Prediction 6.",
       "claim": "At item 5, the modal predicted location for the agent's prohibition will be the tool's description, and the modal actual location will be the same.",
-      "instrument": "item 5 responses and produced artefacts both coded into the six locations reported at phase 8. **Agreement is the claim, and agreement is the uncomfortable result**: it would mean the cohort can predict the failure and would not have caught it, because predicting where an artefact will be wrong and reviewing for it are different acts. If the room predicts the description and the agent uses a schema constraint, the instrument has found a capability the design did not credit and the phase 6 agent case needs replacing. **Instrumentation note.** No compliance-register entry is required by this paper. §8 objection 2's finding is a **recorded** widening argument rather than a violation of a written rule, since the rule as written does not reach backward reliance; the day's fix was taken anyway, on rule 5 grounds, and is annotated at the point of change. **§8 objection 3's fix is likewise annotated in the day and requires no register entry**: it repairs an internal inconsistency between the day's own teaching and its own assessment rather than a violation of a shared rule, and the argument for it is carried here so that it can be disagreed with.",
+      "instrument": "item 5 responses and produced artefacts both coded into the six locations reported at phase 8. **Agreement is the claim, and agreement is the uncomfortable result**: it would mean the cohort can predict the failure and would not have caught it, because predicting where an artefact will be wrong and reviewing for it are different acts. If the room predicts the description and the agent uses a schema constraint, the instrument has found a capability the design did not credit and the phase 6 agent case needs replacing.",
       "namespace": "platform",
       "namespaces": {
         "platform": 4,
+        "fde-craft": 3,
         "pedagogy": 3,
-        "ai-systems": 1,
-        "fde-craft": 1
+        "ai-systems": 1
+      }
+    },
+    {
+      "id": "WP-073.pred7",
+      "whitepaper": "wiki/whitepapers/WP-073",
+      "day": "wiki/seminars/S073",
+      "module": "M15",
+      "quarter": "Q8",
+      "label": "Prediction 7 — the specimen's own, added 2026-07-30.",
+      "claim": "Among step 3 clauses a student marks *enforced*, the modal **invalid** mechanism named will be a check the system performs on **itself** — a validation step, a verification pass, a checklist a component runs over its own output — rather than an annotation.",
+      "instrument": "step 3 clauses marked enforced, coded by the named mechanism against point 2's four, with invalid mechanisms classified into annotation, self-check, downstream-of-the-boundary, and other; no new artefact element is required, since the named mechanism is already a checked element. **The claim is that §7's corollary catches the wrong error.** The corollary fails a clause whose named enforcement is an annotation, and it exists because point 9 made annotations salient; **nothing makes a self-check salient**, and point 11's specimen is the design's reason for expecting it to be the commoner mistake. If annotations dominate anyway, point 11 is redundant to point 9 and belongs in the between-day set rather than in phase 4. **Instrumentation note.** No compliance-register entry is required by this paper. §8 objection 2's finding is a **recorded** widening argument rather than a violation of a written rule, since the rule as written does not reach backward reliance; the day's fix was taken anyway, on rule 5 grounds, and is annotated at the point of change. **§8 objection 3's fix is likewise annotated in the day and requires no register entry**: it repairs an internal inconsistency between the day's own teaching and its own assessment rather than a violation of a shared rule, and the argument for it is carried here so that it can be disagreed with.",
+      "namespace": "platform",
+      "namespaces": {
+        "platform": 4,
+        "fde-craft": 3,
+        "pedagogy": 3,
+        "ai-systems": 1
       }
     },
     {
@@ -73646,7 +74134,7 @@
       "instrument": "item 3 coded binary against the per-student obligation count. **If the item 3 rate is low, phase 3's payload is not defeating a belief this cohort holds** and W4's staging is spending forty-five minutes on a point already made by [S039](/wiki/seminars/S039.md).",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 4,
+        "fde-craft": 6,
         "assessment": 3,
         "pedagogy": 2,
         "ai-systems": 1,
@@ -73664,7 +74152,7 @@
       "instrument": "item 4 answers coded into three categories — function, successor, both — and matched against [S069](/wiki/seminars/S069.md) specification outcomes where records permit. **The correlation is the claim**: it would indicate that the students who best internalised the earlier rule are the ones the contradiction damages most, which is what a rule taught without its scope does.",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 4,
+        "fde-craft": 6,
         "assessment": 3,
         "pedagogy": 2,
         "ai-systems": 1,
@@ -73682,7 +74170,7 @@
       "instrument": "the phase 7 third answer, with a comparison arm supplied by the four phase 3 artefacts read under the same protocol on day 3 of the between-day set. **This is the design's only test of whether slot-and-occupant helps a reader**, it is weak, and §8 objection 1 states why a better one was declined.",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 4,
+        "fde-craft": 6,
         "assessment": 3,
         "pedagogy": 2,
         "ai-systems": 1,
@@ -73700,7 +74188,7 @@
       "instrument": "step 6 records coded by obligation class. **If almost nothing is declined, the negotiation is ceremonial** — either the obligations were written to be acceptable, which the assessors can see in the table, or the receiving party does not believe they will be held to them, which is worse and is not visible in the artefact at all.",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 4,
+        "fde-craft": 6,
         "assessment": 3,
         "pedagogy": 2,
         "ai-systems": 1,
@@ -73718,7 +74206,7 @@
       "instrument": "reconciliation tables at submission and after adjudication, coded by setting. **The prediction is that students write warranties about what they intend to guarantee and stacks about what they intend to prevent, and never notice the third category** — what the mechanism does that nobody promised. If *enforces more* is populated on first submission, the reconciliation is doing less work than the design claims and step 8 could be shortened to a declaration without a table.",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 4,
+        "fde-craft": 6,
         "assessment": 3,
         "pedagogy": 2,
         "ai-systems": 1,
@@ -73736,7 +74224,7 @@
       "instrument": "item 8 responses coded by setting against the settings the agent actually supplied at step 8. **The design predicts that the room's attention is on protection and the agent's most consequential choice is about destruction**, which is the phase 6 case's mechanism and would be, if it holds, a frontier finding about where a room looks when it reviews generated infrastructure. Its reader is next year's cohort, through the [Durable and Perishable Register](/wiki/program/09-Durable-and-Perishable-Register.md).",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 4,
+        "fde-craft": 6,
         "assessment": 3,
         "pedagogy": 2,
         "ai-systems": 1,
@@ -73754,7 +74242,25 @@
       "instrument": "phase 7 first answers coded into three classes — omission, internal disagreement, and disagreement between the artefact and a document it points at — with the same coding applied to the day 3 between-day exercise on a supplied artefact. **The prediction is that a reader hunting for what is missing does not notice what is doubled**, which is the mechanism by which an unadjudicated contradiction survives a handover review. If internal disagreements are named at any appreciable rate, the delivery-standard section is teaching something the cohort already detects and the material belongs at [S034](/wiki/seminars/S034.md) rather than here.",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 4,
+        "fde-craft": 6,
+        "assessment": 3,
+        "pedagogy": 2,
+        "ai-systems": 1,
+        "platform": 1
+      }
+    },
+    {
+      "id": "WP-089.pred8",
+      "whitepaper": "wiki/whitepapers/WP-089",
+      "day": "wiki/seminars/S089",
+      "module": "M18",
+      "quarter": "Q9",
+      "label": "Prediction 8 — point 11's own, added 2026-07-30.",
+      "claim": "At step 7, the completion check's **failure consequence** — what happens if the receiver cannot operate, diagnose and change on the stated date — will be written as a further communication in a large majority of artefacts (*we will meet*, *we will review*, *we will extend support*) and as a **named obligation on a named slot with a date** in almost none.",
+      "instrument": "step 7 completion-check consequences re-coded into three classes — further communication, named obligation on a slot, and no consequence stated — with the same coding applied to the four phase 3 artefacts as a comparison arm; no new artefact element is required, since the failure consequence is already a checked element. **The claim is that a cohort will mechanise what it is asked to mechanise and leave the transfer as an intention**, which is point 11's finding about somebody else's organisation reappearing in the students' own artefacts under assessment conditions. If named obligations are common, the completion check is doing the work point 8 claims for it and point 11 is a specimen the cohort did not need.",
+      "namespace": "fde-craft",
+      "namespaces": {
+        "fde-craft": 6,
         "assessment": 3,
         "pedagogy": 2,
         "ai-systems": 1,
@@ -75284,10 +75790,12 @@
         "research/03-measurement-evaluation/singh-leaderboard-illusion",
         "research/03-measurement-evaluation/miller-adding-error-bars-to-evals",
         "research/05-fde-craft/collected-materials",
-        "research/06-microsoft-platform/collected-materials"
+        "research/06-microsoft-platform/collected-materials",
+        "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+        "research/05-fde-craft/microsoft-agentic-threat-modelling"
       ],
-      "namespace": "measurement",
-      "words": 107
+      "namespace": "fde-craft",
+      "words": 411
     },
     {
       "id": "WP-026.e4",
@@ -75298,7 +75806,7 @@
       "class_name": "vendor-docs",
       "licenses": "What the documentation states at a version, together with what it does NOT report that a reader would need.",
       "cites": [],
-      "namespace": "measurement",
+      "namespace": "fde-craft",
       "words": 451
     },
     {
@@ -75310,7 +75818,7 @@
       "class_name": "general-knowledge",
       "licenses": "Direction and mechanism only. No effect size, ever.",
       "cites": [],
-      "namespace": "measurement",
+      "namespace": "fde-craft",
       "words": 61
     },
     {
@@ -75322,8 +75830,8 @@
       "class_name": "design-reasoning",
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
-      "namespace": "measurement",
-      "words": 231
+      "namespace": "fde-craft",
+      "words": 279
     },
     {
       "id": "WP-027.e1",
@@ -75894,10 +76402,12 @@
         "research/05-fde-craft/beyer-holtzblatt-contextual-design",
         "research/05-fde-craft/portigal-interviewing-users",
         "research/03-measurement-evaluation/collected-materials",
-        "research/05-fde-craft/microsoft-ise-engineering-playbook"
+        "research/05-fde-craft/microsoft-ise-engineering-playbook",
+        "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+        "research/05-fde-craft/microsoft-agentic-threat-modelling"
       ],
       "namespace": "fde-craft",
-      "words": 212
+      "words": 564
     },
     {
       "id": "WP-037.e4",
@@ -75935,7 +76445,7 @@
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
       "namespace": "fde-craft",
-      "words": 291
+      "words": 373
     },
     {
       "id": "WP-038.e1",
@@ -76292,10 +76802,12 @@
         "research/05-fde-craft/collected-materials",
         "research/99-source-register/source-register",
         "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs",
-        "research/05-fde-craft/microsoft-ise-engineering-playbook"
+        "research/05-fde-craft/microsoft-ise-engineering-playbook",
+        "research/05-fde-craft/microsoft-agentic-threat-modelling",
+        "research/05-fde-craft/microsoft-accelerated-delivery-practice"
       ],
       "namespace": "fde-craft",
-      "words": 245
+      "words": 513
     },
     {
       "id": "WP-044.e4",
@@ -76334,7 +76846,7 @@
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
       "namespace": "fde-craft",
-      "words": 315
+      "words": 372
     },
     {
       "id": "WP-045.e1",
@@ -77728,10 +78240,12 @@
         "research/04-professional-formation/edmondson-psychological-safety",
         "research/05-fde-craft/fisher-ury-getting-to-yes",
         "research/08-assessment-epas/ten-cate-epa-framework",
-        "research/03-measurement-evaluation/singh-leaderboard-illusion"
+        "research/03-measurement-evaluation/singh-leaderboard-illusion",
+        "research/05-fde-craft/microsoft-agentic-threat-modelling",
+        "research/05-fde-craft/microsoft-accelerated-delivery-practice"
       ],
-      "namespace": "pedagogy",
-      "words": 60
+      "namespace": "fde-craft",
+      "words": 298
     },
     {
       "id": "WP-069.e4",
@@ -77744,7 +78258,7 @@
       "cites": [
         "research/06-microsoft-platform/collected-materials"
       ],
-      "namespace": "pedagogy",
+      "namespace": "fde-craft",
       "words": 420
     },
     {
@@ -77756,7 +78270,7 @@
       "class_name": "general-knowledge",
       "licenses": "Direction and mechanism only. No effect size, ever.",
       "cites": [],
-      "namespace": "pedagogy",
+      "namespace": "fde-craft",
       "words": 89
     },
     {
@@ -77768,8 +78282,8 @@
       "class_name": "design-reasoning",
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
-      "namespace": "pedagogy",
-      "words": 262
+      "namespace": "fde-craft",
+      "words": 292
     },
     {
       "id": "WP-070.e1",
@@ -77904,10 +78418,12 @@
         "research/07-accreditation-exemplars/berkeley-advanced-llm-agent-course-materials",
         "research/04-professional-formation/keith-frese-error-management-training",
         "research/04-professional-formation/edmondson-psychological-safety",
-        "research/99-source-register/source-register"
+        "research/99-source-register/source-register",
+        "research/05-fde-craft/microsoft-agentic-threat-modelling",
+        "research/05-fde-craft/microsoft-accelerated-delivery-practice"
       ],
       "namespace": "platform",
-      "words": 99
+      "words": 380
     },
     {
       "id": "WP-072.e4",
@@ -77945,7 +78461,7 @@
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
       "namespace": "platform",
-      "words": 283
+      "words": 323
     },
     {
       "id": "WP-073.e1",
@@ -77962,10 +78478,12 @@
         "research/05-fde-craft/fisher-ury-getting-to-yes",
         "research/04-professional-formation/keith-frese-error-management-training",
         "research/04-professional-formation/edmondson-psychological-safety",
-        "research/99-source-register/source-register"
+        "research/99-source-register/source-register",
+        "research/05-fde-craft/microsoft-agentic-threat-modelling",
+        "research/05-fde-craft/microsoft-accelerated-delivery-practice"
       ],
       "namespace": "platform",
-      "words": 78
+      "words": 372
     },
     {
       "id": "WP-073.e4",
@@ -78005,7 +78523,7 @@
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
       "namespace": "platform",
-      "words": 310
+      "words": 360
     },
     {
       "id": "WP-074.e1",
@@ -78937,10 +79455,12 @@
         "research/08-assessment-epas/ten-cate-epa-framework",
         "research/08-assessment-epas/cmu-oral-defense-and-token-economy-patterns",
         "research/04-professional-formation/edmondson-psychological-safety",
-        "research/04-professional-formation/keith-frese-error-management-training"
+        "research/04-professional-formation/keith-frese-error-management-training",
+        "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+        "research/05-fde-craft/microsoft-agentic-threat-modelling"
       ],
       "namespace": "fde-craft",
-      "words": 632
+      "words": 939
     },
     {
       "id": "WP-089.e4",
@@ -78978,7 +79498,7 @@
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
       "namespace": "fde-craft",
-      "words": 510
+      "words": 606
     },
     {
       "id": "WP-090.e1",
@@ -88993,7 +89513,7 @@
       "read": "full",
       "read_raw": "all 243 pages read in full, enumerated from the site's own sitemap; page footer dates range 2021–2025, so cite by page and date, never by site",
       "section": "Forward-deployed engineering craft",
-      "note": "research/05-fde-craft/microsoft-fde-delivery-practice"
+      "note": "research/05-fde-craft/microsoft-accelerated-delivery-practice"
     },
     {
       "source": "\"A Day in the Life of a Palantir Forward Deployed Software Engineer\"",

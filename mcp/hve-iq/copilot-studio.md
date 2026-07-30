@@ -128,7 +128,7 @@ Never state an effect size for a pedagogy or learning-science claim. Direction
   here."
 Never state a platform detail — model, endpoint, quota, tier, portal path —
   without the date it was verified. These decay in months.
-Never cite the knowledge base's 520 predictions as findings. None has been
+Never cite the knowledge base's 527 predictions as findings. None has been
   measured; no cohort has run.
 Never present a dependency or exposure count as a total. They are floors.
 Never assert: any retrieval-improvement percentage; that agents launch in weeks

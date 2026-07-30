@@ -80,7 +80,7 @@ All three claim layers are extracted mechanically from structure the substrate a
 | Layer | Rows | Granularity | Covers |
 |---|---|---|---|
 | Platform claims | **646** | atomic — one durable/perishable pair per row | `platform`, 89 of 90 days |
-| Predictions | **520** | atomic — one falsifiable claim + named instrument | **all namespaces**, 90 papers |
+| Predictions | **527** | atomic — one falsifiable claim + named instrument | **all namespaces**, 90 papers |
 | Evidence ledger | **360** | **class-level, not atomic** | all namespaces, 90 papers × 4 classes |
 | Teaching moves | **683** | atomic — one eliciting item or one contrasting case | all 90 days; 33 contribute no cases |
 

@@ -86,7 +86,7 @@ const early = await call("hve_platform_exposure", { days: ["wiki/seminars/S001"]
 check("the converted early days are now visible", early.matched > 0 && early.blind_spot_days.length === 0, `${early.matched} claims in S001`);
 
 const preds = await call("hve_predictions", { limit: 1 });
-check("520 predictions indexed", preds.total_indexed === 520, `${preds.total_indexed}`);
+check("527 predictions indexed", preds.total_indexed === 527, `${preds.total_indexed}`);
 check("predictions are flagged unmeasured", /UNMEASURED/.test(preds.note));
 const calib = await call("hve_predictions", { query: "calibration", limit: 100 });
 check("predictions are searchable", calib.matched > 0, `${calib.matched} mention calibration`);

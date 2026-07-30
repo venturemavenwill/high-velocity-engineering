@@ -22,7 +22,7 @@ flowchart TD
   W --> G
   P --> G
   C --> G
-  G["graph/ · 341 nodes · 8,200 edges<br/>646 platform claims · 520 predictions · 360 evidence rows · 683 teaching moves · 58 sources<br/>derived · regenerable · never hand-edited"] --> M["mcp/hve-iq<br/>read-only MCP server"] --> A["any agent"]
+  G["graph/ · 343 nodes · 8,264 edges<br/>646 platform claims · 527 predictions · 360 evidence rows · 683 teaching moves · 58 sources<br/>derived · regenerable · never hand-edited"] --> M["mcp/hve-iq<br/>read-only MCP server"] --> A["any agent"]
 ```
 
 ## Start here
@@ -57,10 +57,10 @@ Claims may not be compared across namespaces raw. A Learn page and a learning-sc
 |---|---|---|---|
 | `platform` | Vendor docs at a stated version, plus what they do **not** report | **months** | 22 |
 | `ai-systems` | Mechanism verified; magnitudes do not transfer | 1–3 years | 65 |
-| `measurement` | Identity under a stated model and interval, with dependency structure | permanent | 39 |
-| `pedagogy` | **Direction and mechanism only. No effect size, ever.** | decades | 15 |
+| `measurement` | Identity under a stated model and interval, with dependency structure | permanent | 38 |
+| `pedagogy` | **Direction and mechanism only. No effect size, ever.** | decades | 14 |
 | `assessment` | Ordinal judgement with narrative substantiation; no percentages | decades | 24 |
-| `fde-craft` | Practice pattern, weak formal warrant | slow | 45 |
+| `fde-craft` | Practice pattern, weak formal warrant | slow | 47 |
 | `curriculum` | Design reasoning and accreditation mapping | years | 4 |
 | `method` | Design reasoning, no external warrant | on amendment | 9 |
 
