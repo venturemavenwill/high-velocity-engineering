@@ -127,6 +127,26 @@ All open Microsoft Learn documentation, retrieved via the Learn documentation to
 | Choose the right tool to build your declarative agent | `https://learn.microsoft.com/microsoft-365/copilot/extensibility/declarative-agent-tool-comparison` | search excerpts only |
 | Custom engine agents for Microsoft 365 overview | `https://learn.microsoft.com/microsoft-365/copilot/extensibility/overview-custom-engine-agent` | search excerpts only |
 | Agents for Microsoft 365 Copilot | `https://learn.microsoft.com/microsoft-365/copilot/extensibility/agents-overview` | search excerpts only |
+| Microsoft Learn MCP Server overview | `https://learn.microsoft.com/training/support/mcp` | **fetched and read in full**, 2026-07-31 |
+| Microsoft Learn MCP Server developer reference | `https://learn.microsoft.com/training/support/mcp-developer-reference` | **fetched and read in full**, 2026-07-31 |
+| Best practices for using the Microsoft Learn MCP Server | `https://learn.microsoft.com/training/support/mcp-best-practices` | **fetched and read in full**, 2026-07-31 — closing section truncated at source |
+| Microsoft Learn MCP Server frequently asked questions | `https://learn.microsoft.com/training/support/mcp-faq` | **fetched and read in full**, 2026-07-31 |
+| Microsoft Learn MCP Server release notes | `https://learn.microsoft.com/training/support/mcp-release-notes` | **fetched and read in full**, 2026-07-31 — seven entries, 2025-06-12 to 2026-03-23 |
+| Get started with the Microsoft Learn MCP Server (VS Code) | `https://learn.microsoft.com/training/support/mcp-get-started` | **fetched and read in full**, 2026-07-31 |
+| Get started with Microsoft Learn MCP Server in Microsoft Foundry | `https://learn.microsoft.com/training/support/mcp-get-started-foundry` | **fetched and read in full**, 2026-07-31 |
+| Microsoft Learn Terms of Use | `https://learn.microsoft.com/legal/termsofuse` | **not read** — a stated condition of using the MCP server |
+
+### Host, client and background sources for the Learn MCP Server
+Grouped separately because the section note above does not describe them: these document the **host** that decides whether the server is ever called, or the **background** to the corpus behind it, rather than the Learn MCP Server product. Of the six rows, four were retrieved by general web fetch rather than by the Learn documentation tools; the Visual Studio row is Learn documentation read at excerpt depth; and one row is an engineering blog rather than product documentation. Note: [learn-mcp-server-docs.md](/research/06-microsoft-platform/learn-mcp-server-docs.md).
+
+| Source | URL | Read |
+|---|---|---|
+| `MicrosoftDocs/mcp` repository README — docs, CLI, agent skills and plugin manifests; CC BY 4.0 and MIT | `https://github.com/MicrosoftDocs/mcp` | general web fetch, 2026-07-31 — **navigation-heavy extraction, tables partly flattened**; the hosted server's implementation does not appear to be published in it |
+| Add and manage MCP servers in VS Code | `https://code.visualstudio.com/docs/copilot/customization/mcp-servers` | general web fetch, 2026-07-31; page footer dated 7/29/2026 — **collapsed FAQ bodies did not expand and were not read** |
+| Use tools in chat (VS Code) | `https://code.visualstudio.com/docs/chat/chat-tools` | general web fetch, 2026-07-31; footer 7/29/2026 — **collapsed FAQ bodies not read**, including the "more than 128 tools per request" answer |
+| Use custom instructions in VS Code | `https://code.visualstudio.com/docs/copilot/customization/custom-instructions` | general web fetch, 2026-07-31; footer 7/29/2026 — **collapsed worked examples not read** |
+| Use MCP servers in Visual Studio | `https://learn.microsoft.com/visualstudio/ide/mcp-servers` | search excerpts only |
+| "How we built *Ask Learn*, the RAG-based knowledge service" — Microsoft engineering blog, 22 April 2024 | `https://devblogs.microsoft.com/engineering-at-microsoft/how-we-built-ask-learn-the-rag-based-knowledge-service/` | general web fetch, 2026-07-31 — **background on the corpus, not on the MCP server, which it predates by over a year** |
 
 ## Agent configuration repositories — perishable, pinned by commit
 
@@ -153,6 +173,8 @@ Open source repositories whose content is agent configuration rather than prose.
 - Medium-hosted Palantir content — sign-in redirect.
 - The ABET 2024–2025 criteria URL — 404. Use the 2025–2026 URL.
 - `palantir.com/careers/engineering/forward-deployed/` — 404. Use the careers index.
+- **Collapsed accordion blocks on `code.visualstudio.com` — FAQ answers and worked examples — do not expand under a general web fetch.** Their headings are returned and their bodies are not. Anything behind one is unread, and must be recorded as such rather than inferred from the heading.
+- `https://learn.microsoft.com/api/mcp` cannot be read in a browser or by a general web fetch. It is an MCP endpoint and returns `405 Method Not Allowed`; reach it with an MCP client or MCP Inspector.
 
 ## Verification note
 Every Cliff Notes file ends with a `## Verification status` section stating what was verified against the original and what remains provisional. Claims marked provisional must not be repeated as fact.
@@ -164,11 +186,15 @@ Specific claims flagged as **unverified** across the research set:
 - No Microsoft Foundry evaluator publishes agreement rates with human judgement, calibration data, or threshold rationale.
 - No governance source publishes detection or false-positive rates.
 - Analyst projections quoted in internal material (IDC, Capgemini, Gartner) are attributed but not independently verified.
+- **The Microsoft Learn MCP Server publishes no measure of retrieval quality, no indexing-lag bound, no rate-limit value, no availability target, and no evidence that grounding through it improves answer accuracy.** Rate limits are confirmed to exist and are not quantified; a golden dataset is described in a 2024 engineering blog and no result from it is published. Its repository README asserts outcomes — "Eliminate Hallucinations", "100% Trusted & Safe" — which are **marketing and must not be repeated in any form**.
+- No measure exists, from any source, of how often a model declines to call an attached MCP tool, before or after applying the vendor's recommended instructions file. Both the Learn getting-started page and the repository confirm the failure occurs.
+- **The claim that MCP tool checkboxes arrive cleared by default is not supported by the VS Code documentation as read on 2026-07-31.** It is asserted in `wiki/seminars/S001.md`, `S012.md` and `S020.md` and must be treated as a build-specific observation pending re-verification. The durable claim it supports — a connected tool is not an invoked tool — is separately documented and unaffected.
 
 ## Perishability
 - **Durable:** research papers, standards documents, assessment literature, craft books, and the accreditation criteria.
 - **Semi-durable:** course exemplars, which are offering-specific and change yearly.
 - **Perishable:** everything in `research/06-microsoft-platform/`. Two pages consulted were already superseded at the time of reading, and one Defender capability moves to a separate licence on 1 July 2026. Re-verify before every offering.
+- **Most perishable of all:** the Learn MCP Server. Its own release notes record **seven dated changes between 2025-06-12 and 2026-03-23** — the initial release, two tool additions after it, the general-availability declaration, and three changes to the access surface — and its developer reference reserves the right to change the tool list and its request and response formats without notice. The endpoint is the only part safe to quote from memory; **discover the tools with `tools/list` rather than citing this repository for them.**
 
 ## The machine index
 
