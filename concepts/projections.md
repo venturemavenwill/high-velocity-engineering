@@ -32,13 +32,15 @@ Five rules. Each has a counterpart already enforced somewhere in the wiki.
 
 ## Projections worth building
 
-The BSc exists. These are the ones the same claims should support, and the reason each is a genuine test rather than a repackaging.
+Two programmes now exist as source material: the archived BSc, and the [engagement programme](/wiki/Home.md) that replaced it. These are the projections the same claims should support, and the reason each is a genuine test rather than a repackaging.
 
 | Projection | Shape | What it would test |
 |---|---|---|
-| **`bsc-programme`** *(built)* | 3 years · 90 days · 10 entrustment occasions | Whether the claims support a certifiable judgement of readiness. |
-| **[`workshop-2day`](/projections/workshop-2day/README.md)** *(built)* | 2 days · one team · no assessment | Whether anything survives the loss of spacing. **It largely does not — and the projection says so on its first morning.** |
-| **[`self-study`](/projections/bsc-self-study/README.md)** *(one day built)* | Solo · no cohort · no instructor · no assessment | Whether the claims survive the loss of **the room**. **Six of eight phase mechanisms survive, two do not** — error disclosure needs a status asymmetry to break, and a genuine adversary cannot be simulated. Both are reported rather than substituted at equal advertised strength. |
+| **[`engagement-programme`](/wiki/Home.md)** *(built)* | 9 stages · 90 sessions · 18 entrustment occasions | Whether the claims support a practice shaped like the work rather than like a degree. |
+| **[`self-study`](/projections/self-study/README.md)** *(one unit built)* | Solo · no cohort · no facilitator · no assessor | Whether the engagement claims survive the loss of **the room** when the platform detail is *kept* rather than stripped. **Departs from its predecessor on exactly that point** — see its [derivation](/projections/self-study/DERIVATION.md). |
+| `bsc-programme` *(archived)* | 3 years · 90 days · 10 entrustment occasions | Whether the claims support a certifiable judgement of readiness. **Superseded 2026-07-30**; kept at [archive/bsc-programme](/archive/bsc-programme/Home.md). |
+| **[`workshop-2day`](/archive/projections/workshop-2day/README.md)** *(archived)* | 2 days · one team · no assessment | Whether anything survives the loss of spacing. **It largely does not — and the projection says so on its first morning.** |
+| **[`bsc-self-study`](/archive/projections/bsc-self-study/README.md)** *(archived)* | Solo · BSc claims · no platform detail | Whether the BSc claims survive the loss of the room. **Six of eight phase mechanisms survive, two do not** — error disclosure needs a status asymmetry to break, and a genuine adversary cannot be simulated. Both are reported rather than substituted at equal advertised strength. |
 | `cert-prep` | GH-300 / AB-100 aligned | Whether `platform` claims stand alone once `method` and `measurement` are stripped out. |
 | `engagement-playbook` | Reference, non-linear | Whether `fde-craft` claims are usable outside a teaching sequence. |
 | `onboarding-30day` | New FDE hire | Whether the complexity-class ladder compresses, or only stretches. |
@@ -46,9 +48,11 @@ The BSc exists. These are the ones the same claims should support, and the reaso
 | `platform-brief` | Dated, disposable | Whether the perishable layer can be shipped separately and thrown away on schedule. |
 | `config-audit-lab` | One day · one pinned corpus · no substrate | Whether the **five classes of conclusion** survive without three years of staging — and whether an audit discipline can be taught in a format short enough that nobody has time to acquire the thing being audited. |
 
+**The three archived rows are kept rather than deleted.** Their findings are cited from [concepts/entry-state.md](/concepts/entry-state.md), [graph/README.md](/graph/README.md) and the [MCP server's documentation](/mcp/hve-iq/README.md) — the `depends_on` / `re_tests` split exists because `workshop-2day` proved it necessary, and the entry-state register exists because that projection's dependency closure was computed and found to be 57 days deep for a two-day format. **Deleting the projection would leave those corrections without their provenance.**
+
 **`workshop-2day` was built second, by hand, deliberately.** It was chosen because it should partly fail: spacing, interleaving and expanding-interval retrieval are the pedagogy namespace's best-warranted content and a two-day format destroys all three. It abstains explicitly on retention, entrustment, complexity class 3+, and consequence.
 
-Its [derivation record](/projections/workshop-2day/DERIVATION.md) is the more valuable artefact. Building it by hand established that **the claim/projection split holds** — and found four fields the schema needs that exist nowhere, plus one defect that must be fixed before extraction runs.
+Its [derivation record](/archive/projections/workshop-2day/DERIVATION.md) is the more valuable artefact. Building it by hand established that **the claim/projection split holds** — and found four fields the schema needs that exist nowhere, plus one defect that must be fixed before extraction runs.
 
 ## Current state, stated plainly
 
@@ -66,7 +70,7 @@ Three claim layers now exist, all extracted mechanically from structure the subs
 
 The prediction that extraction was blocked on *stable claim IDs and somewhere to put them* was wrong in an instructive way. **No new place was needed.** The IDs are derived (`S016.p1`, `WP-001.pred1`, `WP-001.e1`) and the store is `graph/`, which is regenerable and holds no facts of its own. What actually unblocked extraction was noticing that the wiki had already written the claims down in tables and numbered lists — the thing this section correctly identified two paragraphs later.
 
-**The diagnosis about reading versus querying held.** [workshop-2day](/projections/workshop-2day/README.md) was built by reading, and the first mechanical query against the extracted structure falsified two of its own claims about itself. That is the cost of reading-not-querying, arriving exactly as predicted.
+**The diagnosis about reading versus querying held.** [workshop-2day](/archive/projections/workshop-2day/README.md) was built by reading, and the first mechanical query against the extracted structure falsified two of its own claims about itself. That is the cost of reading-not-querying, arriving exactly as predicted.
 
 What remains true:
 
@@ -80,8 +84,8 @@ What remains true:
 
 1. ~~**Version control.**~~ **Done.** An append-only ledger in a directory with no version control is not append-only.
 2. ~~**Namespace fields on the graph**~~ **Done.** Every node carries `primary_namespace`, `namespaces`, `decay`, `verify_cadence` and `platform_bearing`.
-3. ~~**A second projection**, built to test the split.~~ **Done — [workshop-2day](/projections/workshop-2day/README.md).** Built by hand, deliberately ahead of extraction, so the schema would be specified by a real projection's needs rather than guessed.
-4. **Split `retrieves_from` into `depends_on` and `re_tests`.** **This now blocks extraction.** One edge type is carrying two relations — a dependency that constrains ordering in every projection, and a re-test that constrains ordering only where there is spacing. All 309 edges are affected. See [DERIVATION.md](/projections/workshop-2day/DERIVATION.md).
+3. ~~**A second projection**, built to test the split.~~ **Done — [workshop-2day](/archive/projections/workshop-2day/README.md).** Built by hand, deliberately ahead of extraction, so the schema would be specified by a real projection's needs rather than guessed.
+4. **Split `retrieves_from` into `depends_on` and `re_tests`.** **This now blocks extraction.** One edge type is carrying two relations — a dependency that constrains ordering in every projection, and a re-test that constrains ordering only where there is spacing. All 309 edges are affected. See [DERIVATION.md](/archive/projections/workshop-2day/DERIVATION.md).
 5. **Claim extraction**, namespace by namespace, starting with `platform` — highest volume, fastest decay, most mechanical, least costly to get wrong.
 6. **Findings**, once a cohort exists, against the §9 predictions.
 
@@ -91,4 +95,5 @@ Step 3 has been taken and the split holds: a second projection was derived, it o
 
 - [Namespaces](/concepts/namespaces.md) — the eight, and their warrant standards
 - [AGENTS.md](/AGENTS.md) — the working contract
-- [wiki/Home.md](/archive/bsc-programme/Home.md) — the projection that exists
+- [wiki/Home.md](/wiki/Home.md) — the current programme
+- [archive/bsc-programme/Home.md](/archive/bsc-programme/Home.md) — the superseded one, kept for its self-correction record

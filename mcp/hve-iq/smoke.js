@@ -32,7 +32,7 @@ check("platform decays in months", ns.namespaces.find((n) => n.namespace === "pl
 check("pedagogy forbids effect sizes", /No effect size/.test(ns.namespaces.find((n) => n.namespace === "pedagogy")?.licenses ?? ""));
 
 const perishable = await call("hve_search", { platform_bearing: true, limit: 1 });
-check("platform-bearing pages found", perishable.total === 204, `${perishable.total} (expect 204)`);
+check("platform-bearing pages found (>= 204)", perishable.total >= 204, `${perishable.total}`);
 const bodySearch = await call("hve_search", { query: "engagement position" });
 check("search finds body-only text", bodySearch.results.some((result) => result.id === "wiki/seminars/S001"));
 

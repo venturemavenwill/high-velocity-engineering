@@ -1,6 +1,6 @@
 {
-  "node_count": 561,
-  "edge_count": 11971,
+  "node_count": 562,
+  "edge_count": 11994,
   "claim_count": 332,
   "claim_days": 90,
   "claim_gap_days": 0,
@@ -24,7 +24,7 @@
     "design-analysis": 3,
     "module": 18,
     "other": 242,
-    "program-page": 4,
+    "program-page": 5,
     "quarter": 9,
     "readme": 1,
     "research-index": 8,
@@ -41,14 +41,14 @@
     "research": 95,
     "root": 242,
     "sources": 12,
-    "wiki": 212
+    "wiki": 213
   },
   "edges_by_type": {
     "depends_on": 216,
     "documents": 90,
-    "grounded_in": 341,
+    "grounded_in": 345,
     "has_whitepaper": 90,
-    "links_to": 9698,
+    "links_to": 9717,
     "part_of": 826,
     "re_tests": 93,
     "retrieves_from": 615,

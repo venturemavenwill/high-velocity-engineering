@@ -2,7 +2,7 @@
 
 > How this projection was built from the same claims as the facilitated programme, what it created, what it dropped, and what it refused to substitute.
 
-This file inherits the five rules established by the [BSc self-study derivation](/projections/bsc-self-study/DERIVATION.md) and records where this projection departs from them. **The departures are two, and both are deliberate.**
+This file inherits the five rules established by the [BSc self-study derivation](/archive/projections/bsc-self-study/DERIVATION.md) and records where this projection departs from them. **The departures are two, and both are deliberate.**
 
 ## Rule 1 — rebuildable from claims alone
 

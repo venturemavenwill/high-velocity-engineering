@@ -77,7 +77,7 @@ Full definitions: [concepts/namespaces.md](/concepts/namespaces.md).
 A projection may select, sequence, compress and re-voice. It may **not** upgrade an evidence class, assert what the claims do not license, or quietly drop the decay clock. **Abstention is a valid output** — a projection that cannot honestly cover something says so.
 
 - [wiki/](/archive/bsc-programme/Home.md) — the BSc. 9 quarters, 18 modules, 90 seminar days, 90 whitepapers, 11 assessed days.
-- [projections/workshop-2day/](/projections/workshop-2day/README.md) — ten claims, four explicit abstentions, and a [derivation log](/projections/workshop-2day/DERIVATION.md) recording every place the format broke.
+- [projections/workshop-2day/](/archive/projections/workshop-2day/README.md) — ten claims, four explicit abstentions, and a [derivation log](/archive/projections/workshop-2day/DERIVATION.md) recording every place the format broke.
 
 ### What a projection owes its audience
 
@@ -115,7 +115,7 @@ The most valuable and most fragile thing here. Superseded positions stay visible
 - A **compliance register** recording where the design broke its own rules, with `Fixed` / `Recorded` / `Discharged` status ([05-Whitepaper-Standard.md](/archive/bsc-programme/program/05-Whitepaper-Standard.md)).
 - Specifications close with **"Nothing else is assessed."** — except S001–S040, which predate the rule and are **deliberately left unamended** so the defect that produced it stays legible ([03-Assessment-Architecture.md](/archive/bsc-programme/program/03-Assessment-Architecture.md)).
 - Every whitepaper's §8 states at least two objections at their strongest, **concedes at least one**, and names the fix it declined.
-- The workshop projection has now been corrected twice by mechanical queries against its own claims, both corrections kept in view ([DERIVATION.md](/projections/workshop-2day/DERIVATION.md)).
+- The workshop projection has now been corrected twice by mechanical queries against its own claims, both corrections kept in view ([DERIVATION.md](/archive/projections/workshop-2day/DERIVATION.md)).
 
 A reader who cannot see the defect cannot evaluate the correction. **When you change something here, add to the record rather than erasing what it replaced.**
 

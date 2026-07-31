@@ -50,7 +50,7 @@ professional-strict     56 days              — assume only what is reliably he
 professional-declared   23 days + 8 declared — assume what is held informally, and say so
 ```
 
-It follows `depends_on` and deliberately **excludes** `re_tests`. A dependency constrains ordering in *every* format; a re-test only constrains it where there is spacing. Those were one edge type until they were split by hand across all 90 days — see [DERIVATION.md](/projections/workshop-2day/DERIVATION.md).
+It follows `depends_on` and deliberately **excludes** `re_tests`. A dependency constrains ordering in *every* format; a re-test only constrains it where there is spacing. Those were one edge type until they were split by hand across all 90 days — see [DERIVATION.md](/archive/projections/workshop-2day/DERIVATION.md).
 
 **Traversal stops at whatever the audience already holds.** If they hold a claim, how they came to hold it is not your projection's problem — so its prerequisites are never walked. Seeds are always expanded, because you are teaching those by choice rather than by prerequisite.
 

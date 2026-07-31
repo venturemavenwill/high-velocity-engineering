@@ -6,7 +6,7 @@
 
 ## Why the field exists
 
-[projections/workshop-2day](/projections/workshop-2day/DERIVATION.md) declared four things it could not deliver, then a mechanical query showed its nine seed days carried a **57-day transitive dependency closure** — 48 implied prerequisites for a two-day format. The projection was not dependency-closed and had never said so.
+[projections/workshop-2day](/archive/projections/workshop-2day/DERIVATION.md) declared four things it could not deliver, then a mechanical query showed its nine seed days carried a **57-day transitive dependency closure** — 48 implied prerequisites for a two-day format. The projection was not dependency-closed and had never said so.
 
 The diagnosis was not that the classification was too generous. It was that *dependency* had been measured against the wrong entry state. `S051` depends on `S011` because S051 asks *"what does S011 tell you it must therefore make expensive?"* — a dependency on S011's **claim**, not on having met it here. A working engineer may already hold that claim from practice. A first-year student holds none of them.
 
@@ -165,5 +165,5 @@ If a cohort of ten engineers matching the reference person is given a claim-leve
 
 - [concepts/projections.md](/concepts/projections.md) — what a projection may and may not do
 - [concepts/namespaces.md](/concepts/namespaces.md) — why this is `method` and what that licenses
-- [projections/workshop-2day/DERIVATION.md](/projections/workshop-2day/DERIVATION.md) — the closure finding that produced this field
+- [projections/workshop-2day/DERIVATION.md](/archive/projections/workshop-2day/DERIVATION.md) — the closure finding that produced this field
 - [mcp/hve-iq/README.md](/mcp/hve-iq/README.md) — `hve_dependency_closure` consumes this register

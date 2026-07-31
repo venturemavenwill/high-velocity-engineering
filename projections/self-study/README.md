@@ -35,7 +35,7 @@ The largest recurring gap is a genuine adversary. An objection you construct you
 ## Standing rules this projection inherits
 
 - **No effect size appears anywhere.** Direction and mechanism only, including where a source states a number in a text that was read in full.
-- **Platform detail is named and dated.** Unlike the [BSc self-study projection](/projections/bsc-self-study/README.md), which refuses product names because it has no verification cycle, this projection names them and attaches a perishability warning at the point of use — because the workflows are the point. **If what you find contradicts what is written, what you found is right.**
+- **Platform detail is named and dated.** Unlike the [BSc self-study projection](/archive/projections/bsc-self-study/README.md), which refuses product names because it has no verification cycle, this projection names them and attaches a perishability warning at the point of use — because the workflows are the point. **If what you find contradicts what is written, what you found is right.**
 - **Constructed materials are labelled as constructed** at the point of use, every time.
 
 ## Related

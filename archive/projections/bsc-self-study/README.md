@@ -19,7 +19,7 @@
 | Error disclosure after higher-status modelling | **No** | The mechanism is the status asymmetry. Alone, there is none. A written self-post-mortem against a rubric is offered as a weaker substitute, labelled as weaker |
 | Peer articulation and the break attempt | **Partly** | Explaining to a recording and attacking your own explanation a day later recovers some of it; a partner who genuinely disagrees is not recoverable |
 
-**Two of the eight do not survive. That is the projection's result, and it is reported rather than papered over** — the same way [`workshop-2day`](/projections/workshop-2day/README.md) reports that spacing does not survive a two-day compression and says so on its first morning.
+**Two of the eight do not survive. That is the projection's result, and it is reported rather than papered over** — the same way [`workshop-2day`](/archive/projections/workshop-2day/README.md) reports that spacing does not survive a two-day compression and says so on its first morning.
 
 ## What changed from the BSc projection, and why
 
@@ -46,10 +46,10 @@ It is bound by [concepts/projections.md](/concepts/projections.md) exactly as ev
 
 ## Status
 
-**One day built, as an exemplar: [S001](/projections/bsc-self-study/S001.md).** The remaining 89 are not built. The derivation is recorded at [DERIVATION.md](/projections/bsc-self-study/DERIVATION.md).
+**One day built, as an exemplar: [S001](/archive/projections/bsc-self-study/S001.md).** The remaining 89 are not built. The derivation is recorded at [DERIVATION.md](/archive/projections/bsc-self-study/DERIVATION.md).
 
 ## Related
 
 - [concepts/projections.md](/concepts/projections.md) — what a projection may and may not do
-- [projections/workshop-2day/README.md](/projections/workshop-2day/README.md) — the other built projection, and the other honest negative result
+- [projections/workshop-2day/README.md](/archive/projections/workshop-2day/README.md) — the other built projection, and the other honest negative result
 - [wiki/seminars/S001.md](/archive/bsc-programme/seminars/S001.md) — the BSc projection of the same claims, which remains the facilitator's document

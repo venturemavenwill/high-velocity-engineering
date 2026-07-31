@@ -2,7 +2,7 @@
 
 > A two-day workshop for a working engineering team, derived from the same claims as the [BSc programme](/archive/bsc-programme/Home.md).
 >
-> **Status:** built by hand from the wiki, not from extracted claims. See [DERIVATION.md](/projections/workshop-2day/DERIVATION.md) for what that cost and what it revealed.
+> **Status:** built by hand from the wiki, not from extracted claims. See [DERIVATION.md](/archive/projections/workshop-2day/DERIVATION.md) for what that cost and what it revealed.
 
 ## What this projection is for
 
@@ -24,7 +24,7 @@ Per [projection rule 5](/concepts/projections.md), abstention is a valid output.
 
 ## Entry state
 
-**Written by hand after the first closure was computed, then corrected by a second mechanical query.** Both corrections are recorded in the [addendum](/projections/workshop-2day/DERIVATION.md); the superseded position is kept below because it is evidence about how projections mislead themselves.
+**Written by hand after the first closure was computed, then corrected by a second mechanical query.** Both corrections are recorded in the [addendum](/archive/projections/workshop-2day/DERIVATION.md); the superseded position is kept below because it is evidence about how projections mislead themselves.
 
 Once [`satisfiable_from`](/concepts/entry-state.md) existed, the closure could be recomputed against a real audience rather than against the BSc's "knows nothing":
 
@@ -132,5 +132,5 @@ Claim 10 is the weakest transfer in the projection. In the BSc it has a precurso
 ## Related
 
 - [concepts/projections.md](/concepts/projections.md) — the rules this projection obeys
-- [DERIVATION.md](/projections/workshop-2day/DERIVATION.md) — what building this by hand revealed
+- [DERIVATION.md](/archive/projections/workshop-2day/DERIVATION.md) — what building this by hand revealed
 - [wiki/Home.md](/archive/bsc-programme/Home.md) — the projection that has been finished

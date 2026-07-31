@@ -8851,6 +8851,121 @@
       "assessment_bearing": false
     },
     {
+      "id": "archive/projections/bsc-self-study/DERIVATION",
+      "path": "archive/projections/bsc-self-study/DERIVATION.md",
+      "kind": "other",
+      "layer": "root",
+      "title": "Derivation — self-study projection",
+      "headings": [
+        "Rule 1 — rebuildable from claims alone",
+        "Rule 2 — no warrant upgraded",
+        "Rule 3 — evidence class and decay travel with the claim",
+        "Rule 4 — nothing asserted beyond what the claims license",
+        "Rule 5 — abstention is a valid output",
+        "What the review found, and what changed",
+        "What is not built"
+      ],
+      "words": 1249,
+      "lines": 74,
+      "assessment_bearing": false
+    },
+    {
+      "id": "archive/projections/bsc-self-study/README",
+      "path": "archive/projections/bsc-self-study/README.md",
+      "kind": "other",
+      "layer": "root",
+      "title": "Self-study — the programme without a room",
+      "headings": [
+        "The finding, stated first",
+        "What changed from the BSc projection, and why",
+        "What this projection may not do",
+        "Status",
+        "Related"
+      ],
+      "words": 962,
+      "lines": 56,
+      "assessment_bearing": false
+    },
+    {
+      "id": "archive/projections/bsc-self-study/S001",
+      "path": "archive/projections/bsc-self-study/S001.md",
+      "kind": "other",
+      "layer": "root",
+      "title": "Day 1 — Why this will feel wrong",
+      "headings": [
+        "Before you read anything else",
+        "1. Predict, before you know anything",
+        "2. Five questions you have not been taught",
+        "3. Three timetables",
+        "4. Recap and checkpoint",
+        "5. What is actually going on",
+        "6. The instrument — optional, needs tooling",
+        "7. Read this after section 6",
+        "8. Build something",
+        "9. Resolution",
+        "10. Your dated schedule",
+        "Appendix A — the five pretest items",
+        "Appendix B — three timetables",
+        "Appendix C — build constraints",
+        "Appendix D — a sample failure",
+        "Appendix E — setting up the tools",
+        "Appendix F — checkpoint answers",
+        "Further reading"
+      ],
+      "words": 6395,
+      "lines": 493,
+      "assessment_bearing": false
+    },
+    {
+      "id": "archive/projections/workshop-2day/DERIVATION",
+      "path": "archive/projections/workshop-2day/DERIVATION.md",
+      "kind": "other",
+      "layer": "root",
+      "title": "DERIVATION — what building this projection by hand revealed",
+      "headings": [
+        "What was done",
+        "What worked better than expected",
+        "What was missing",
+        "The defect worth fixing before extraction",
+        "Resolved",
+        "Next",
+        "Honest limits of this finding",
+        "What was measured",
+        "What it means",
+        "The field this adds to the schema",
+        "What changed as a result",
+        "What this says about the method",
+        "What was measured",
+        "The first finding: declaring is worth 33 days, and strictness is worth one",
+        "The second finding: the workshop under-counted its own gap, again",
+        "The third finding, which is the uncomfortable one",
+        "What this costs the register"
+      ],
+      "words": 2142,
+      "lines": 169,
+      "assessment_bearing": false
+    },
+    {
+      "id": "archive/projections/workshop-2day/README",
+      "path": "archive/projections/workshop-2day/README.md",
+      "kind": "other",
+      "layer": "root",
+      "title": "workshop-2day",
+      "headings": [
+        "What this projection is for",
+        "What it cannot deliver, stated first",
+        "Entry state",
+        "What it does deliver",
+        "Shape",
+        "After the workshop",
+        "Fidelity",
+        "Related"
+      ],
+      "words": 1949,
+      "lines": 137,
+      "assessment_bearing": false
+    },
+    {
       "id": "concepts/entry-state",
       "path": "concepts/entry-state.md",
       "kind": "other",
@@ -8903,8 +9018,8 @@
         "The order of work",
         "Related"
       ],
-      "words": 1476,
-      "lines": 95,
+      "words": 1647,
+      "lines": 100,
       "assessment_bearing": false
     },
     {
@@ -9001,72 +9116,6 @@
       "assessment_bearing": false
     },
     {
-      "id": "projections/bsc-self-study/DERIVATION",
-      "path": "projections/bsc-self-study/DERIVATION.md",
-      "kind": "other",
-      "layer": "root",
-      "title": "Derivation — self-study projection",
-      "headings": [
-        "Rule 1 — rebuildable from claims alone",
-        "Rule 2 — no warrant upgraded",
-        "Rule 3 — evidence class and decay travel with the claim",
-        "Rule 4 — nothing asserted beyond what the claims license",
-        "Rule 5 — abstention is a valid output",
-        "What the review found, and what changed",
-        "What is not built"
-      ],
-      "words": 1249,
-      "lines": 74,
-      "assessment_bearing": false
-    },
-    {
-      "id": "projections/bsc-self-study/README",
-      "path": "projections/bsc-self-study/README.md",
-      "kind": "other",
-      "layer": "root",
-      "title": "Self-study — the programme without a room",
-      "headings": [
-        "The finding, stated first",
-        "What changed from the BSc projection, and why",
-        "What this projection may not do",
-        "Status",
-        "Related"
-      ],
-      "words": 962,
-      "lines": 56,
-      "assessment_bearing": false
-    },
-    {
-      "id": "projections/bsc-self-study/S001",
-      "path": "projections/bsc-self-study/S001.md",
-      "kind": "other",
-      "layer": "root",
-      "title": "Day 1 — Why this will feel wrong",
-      "headings": [
-        "Before you read anything else",
-        "1. Predict, before you know anything",
-        "2. Five questions you have not been taught",
-        "3. Three timetables",
-        "4. Recap and checkpoint",
-        "5. What is actually going on",
-        "6. The instrument — optional, needs tooling",
-        "7. Read this after section 6",
-        "8. Build something",
-        "9. Resolution",
-        "10. Your dated schedule",
-        "Appendix A — the five pretest items",
-        "Appendix B — three timetables",
-        "Appendix C — build constraints",
-        "Appendix D — a sample failure",
-        "Appendix E — setting up the tools",
-        "Appendix F — checkpoint answers",
-        "Further reading"
-      ],
-      "words": 6395,
-      "lines": 493,
-      "assessment_bearing": false
-    },
-    {
       "id": "projections/self-study/DERIVATION",
       "path": "projections/self-study/DERIVATION.md",
       "kind": "other",
@@ -9128,55 +9177,6 @@
       ],
       "words": 3807,
       "lines": 316,
-      "assessment_bearing": false
-    },
-    {
-      "id": "projections/workshop-2day/DERIVATION",
-      "path": "projections/workshop-2day/DERIVATION.md",
-      "kind": "other",
-      "layer": "root",
-      "title": "DERIVATION — what building this projection by hand revealed",
-      "headings": [
-        "What was done",
-        "What worked better than expected",
-        "What was missing",
-        "The defect worth fixing before extraction",
-        "Resolved",
-        "Next",
-        "Honest limits of this finding",
-        "What was measured",
-        "What it means",
-        "The field this adds to the schema",
-        "What changed as a result",
-        "What this says about the method",
-        "What was measured",
-        "The first finding: declaring is worth 33 days, and strictness is worth one",
-        "The second finding: the workshop under-counted its own gap, again",
-        "The third finding, which is the uncomfortable one",
-        "What this costs the register"
-      ],
-      "words": 2142,
-      "lines": 169,
-      "assessment_bearing": false
-    },
-    {
-      "id": "projections/workshop-2day/README",
-      "path": "projections/workshop-2day/README.md",
-      "kind": "other",
-      "layer": "root",
-      "title": "workshop-2day",
-      "headings": [
-        "What this projection is for",
-        "What it cannot deliver, stated first",
-        "Entry state",
-        "What it does deliver",
-        "Shape",
-        "After the workshop",
-        "Fidelity",
-        "Related"
-      ],
-      "words": 1949,
-      "lines": 137,
       "assessment_bearing": false
     },
     {
@@ -12632,6 +12632,36 @@
       "platform_bearing": false,
       "decay": "on amendment",
       "verify_cadence": "on amendment"
+    },
+    {
+      "id": "wiki/program/09-Durable-and-Perishable-Register",
+      "path": "wiki/program/09-Durable-and-Perishable-Register.md",
+      "kind": "program-page",
+      "layer": "wiki",
+      "title": "Durable and Perishable Register",
+      "headings": [
+        "Why this register exists",
+        "Durable",
+        "Semi-durable",
+        "Perishable",
+        "The platform layer",
+        "How the rule is enforced",
+        "The machine index",
+        "The uncomfortable consequence",
+        "A known failure mode of this register",
+        "Related pages"
+      ],
+      "words": 4072,
+      "lines": 208,
+      "assessment_bearing": false,
+      "namespaces": {
+        "fde-craft": 2,
+        "platform": 2
+      },
+      "primary_namespace": "fde-craft",
+      "platform_bearing": true,
+      "decay": "slow",
+      "verify_cadence": "3 years"
     },
     {
       "id": "wiki/quarters/Q1",
@@ -20818,12 +20848,12 @@
     },
     {
       "from": "README",
-      "to": "projections/workshop-2day/README",
+      "to": "archive/projections/workshop-2day/README",
       "type": "links_to"
     },
     {
       "from": "README",
-      "to": "projections/workshop-2day/DERIVATION",
+      "to": "archive/projections/workshop-2day/DERIVATION",
       "type": "links_to"
     },
     {
@@ -27443,7 +27473,7 @@
     },
     {
       "from": "archive/bsc-programme/seminars/S001",
-      "to": "projections/bsc-self-study/S001",
+      "to": "archive/projections/bsc-self-study/S001",
       "type": "links_to"
     },
     {
@@ -43523,7 +43553,7 @@
     },
     {
       "from": "archive/bsc-programme/whitepapers/WP-001",
-      "to": "projections/bsc-self-study/S001",
+      "to": "archive/projections/bsc-self-study/S001",
       "type": "links_to"
     },
     {
@@ -59302,13 +59332,313 @@
       "type": "part_of"
     },
     {
+      "from": "archive/projections/bsc-self-study/DERIVATION",
+      "to": "archive/projections/bsc-self-study/S001",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/bsc-self-study/DERIVATION",
+      "to": "archive/bsc-programme/seminars/S001",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/bsc-self-study/README",
+      "to": "archive/projections/workshop-2day/README",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/bsc-self-study/README",
+      "to": "concepts/projections",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/bsc-self-study/README",
+      "to": "archive/projections/bsc-self-study/S001",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/bsc-self-study/README",
+      "to": "archive/projections/bsc-self-study/DERIVATION",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/bsc-self-study/README",
+      "to": "archive/bsc-programme/seminars/S001",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/bsc-self-study/S001",
+      "to": "archive/projections/bsc-self-study/README",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/bsc-self-study/S001",
+      "to": "archive/bsc-programme/seminars/S001",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/bsc-self-study/S001",
+      "to": "archive/bsc-programme/program/02-Learning-Science-Foundations",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/bsc-self-study/S001",
+      "to": "research/04-professional-formation/dellacqua-jagged-technological-frontier",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/bsc-self-study/S001",
+      "to": "research/04-professional-formation/metr-ai-assisted-productivity-study",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/bsc-self-study/S001",
+      "to": "research/04-professional-formation/sinha-kapur-productive-failure",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/bsc-self-study/S001",
+      "to": "research/04-professional-formation/keith-frese-error-management-training",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/DERIVATION",
+      "to": "archive/projections/workshop-2day/README",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/DERIVATION",
+      "to": "concepts/projections",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/DERIVATION",
+      "to": "concepts/entry-state",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/DERIVATION",
+      "to": "archive/bsc-programme/seminars/S026",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/DERIVATION",
+      "to": "archive/bsc-programme/seminars/S027",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/DERIVATION",
+      "to": "archive/bsc-programme/seminars/S028",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/DERIVATION",
+      "to": "archive/bsc-programme/seminars/S029",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/DERIVATION",
+      "to": "archive/bsc-programme/seminars/S049",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/Home",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/projections/workshop-2day/DERIVATION",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "concepts/projections",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "concepts/entry-state",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S007",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S011",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S016",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S017",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S039",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S062",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S068",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S073",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S004",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S013",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S018",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S019",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S020",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S026",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S027",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S028",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S029",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S037",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S049",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S052",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S061",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S063",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/program/04-Seminar-Day-Design-Pattern",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S051",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S048",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S053",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S046",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S047",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/program/12-Copilot-Practice-Standard",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S064",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S074",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S036",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/seminars/S050",
+      "type": "links_to"
+    },
+    {
+      "from": "archive/projections/workshop-2day/README",
+      "to": "archive/bsc-programme/program/13-Agent-Configuration-Standard",
+      "type": "links_to"
+    },
+    {
       "from": "concepts/entry-state",
       "to": "concepts/namespaces",
       "type": "links_to"
     },
     {
       "from": "concepts/entry-state",
-      "to": "projections/workshop-2day/DERIVATION",
+      "to": "archive/projections/workshop-2day/DERIVATION",
       "type": "links_to"
     },
     {
@@ -59408,17 +59738,47 @@
     },
     {
       "from": "concepts/projections",
-      "to": "projections/workshop-2day/README",
+      "to": "wiki/Home",
       "type": "links_to"
     },
     {
       "from": "concepts/projections",
-      "to": "projections/bsc-self-study/README",
+      "to": "projections/self-study/README",
       "type": "links_to"
     },
     {
       "from": "concepts/projections",
-      "to": "projections/workshop-2day/DERIVATION",
+      "to": "projections/self-study/DERIVATION",
+      "type": "links_to"
+    },
+    {
+      "from": "concepts/projections",
+      "to": "archive/projections/workshop-2day/README",
+      "type": "links_to"
+    },
+    {
+      "from": "concepts/projections",
+      "to": "archive/projections/bsc-self-study/README",
+      "type": "links_to"
+    },
+    {
+      "from": "concepts/projections",
+      "to": "concepts/entry-state",
+      "type": "links_to"
+    },
+    {
+      "from": "concepts/projections",
+      "to": "graph/README",
+      "type": "links_to"
+    },
+    {
+      "from": "concepts/projections",
+      "to": "mcp/hve-iq/README",
+      "type": "links_to"
+    },
+    {
+      "from": "concepts/projections",
+      "to": "archive/projections/workshop-2day/DERIVATION",
       "type": "links_to"
     },
     {
@@ -59438,17 +59798,17 @@
     },
     {
       "from": "graph/README",
-      "to": "projections/workshop-2day/README",
+      "to": "archive/projections/workshop-2day/README",
       "type": "links_to"
     },
     {
       "from": "graph/README",
-      "to": "projections/workshop-2day/DERIVATION",
+      "to": "archive/projections/workshop-2day/DERIVATION",
       "type": "links_to"
     },
     {
       "from": "mcp/hve-iq/README",
-      "to": "projections/workshop-2day/DERIVATION",
+      "to": "archive/projections/workshop-2day/DERIVATION",
       "type": "links_to"
     },
     {
@@ -59517,78 +59877,8 @@
       "type": "links_to"
     },
     {
-      "from": "projections/bsc-self-study/DERIVATION",
-      "to": "projections/bsc-self-study/S001",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/bsc-self-study/DERIVATION",
-      "to": "archive/bsc-programme/seminars/S001",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/bsc-self-study/README",
-      "to": "projections/workshop-2day/README",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/bsc-self-study/README",
-      "to": "concepts/projections",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/bsc-self-study/README",
-      "to": "projections/bsc-self-study/S001",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/bsc-self-study/README",
-      "to": "projections/bsc-self-study/DERIVATION",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/bsc-self-study/README",
-      "to": "archive/bsc-programme/seminars/S001",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/bsc-self-study/S001",
-      "to": "projections/bsc-self-study/README",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/bsc-self-study/S001",
-      "to": "archive/bsc-programme/seminars/S001",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/bsc-self-study/S001",
-      "to": "archive/bsc-programme/program/02-Learning-Science-Foundations",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/bsc-self-study/S001",
-      "to": "research/04-professional-formation/dellacqua-jagged-technological-frontier",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/bsc-self-study/S001",
-      "to": "research/04-professional-formation/metr-ai-assisted-productivity-study",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/bsc-self-study/S001",
-      "to": "research/04-professional-formation/sinha-kapur-productive-failure",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/bsc-self-study/S001",
-      "to": "research/04-professional-formation/keith-frese-error-management-training",
-      "type": "links_to"
-    },
-    {
       "from": "projections/self-study/DERIVATION",
-      "to": "projections/bsc-self-study/DERIVATION",
+      "to": "archive/projections/bsc-self-study/DERIVATION",
       "type": "links_to"
     },
     {
@@ -59638,7 +59928,7 @@
     },
     {
       "from": "projections/self-study/README",
-      "to": "projections/bsc-self-study/README",
+      "to": "archive/projections/bsc-self-study/README",
       "type": "links_to"
     },
     {
@@ -59694,236 +59984,6 @@
     {
       "from": "projections/self-study/S001",
       "to": "concepts/projections",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/DERIVATION",
-      "to": "projections/workshop-2day/README",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/DERIVATION",
-      "to": "concepts/projections",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/DERIVATION",
-      "to": "concepts/entry-state",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/DERIVATION",
-      "to": "archive/bsc-programme/seminars/S026",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/DERIVATION",
-      "to": "archive/bsc-programme/seminars/S027",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/DERIVATION",
-      "to": "archive/bsc-programme/seminars/S028",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/DERIVATION",
-      "to": "archive/bsc-programme/seminars/S029",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/DERIVATION",
-      "to": "archive/bsc-programme/seminars/S049",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/Home",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "projections/workshop-2day/DERIVATION",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "concepts/projections",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "concepts/entry-state",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S007",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S011",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S016",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S017",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S039",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S062",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S068",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S073",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S004",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S013",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S018",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S019",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S020",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S026",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S027",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S028",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S029",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S037",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S049",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S052",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S061",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S063",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/program/04-Seminar-Day-Design-Pattern",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S051",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S048",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S053",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S046",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S047",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/program/12-Copilot-Practice-Standard",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S064",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S074",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S036",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/seminars/S050",
-      "type": "links_to"
-    },
-    {
-      "from": "projections/workshop-2day/README",
-      "to": "archive/bsc-programme/program/13-Agent-Configuration-Standard",
       "type": "links_to"
     },
     {
@@ -63549,6 +63609,91 @@
     {
       "from": "wiki/program/07-Module-Map",
       "to": "wiki/program/05-Whitepaper-Standard",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/program/09-Durable-and-Perishable-Register",
+      "to": "research/06-microsoft-platform/collected-materials",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/program/09-Durable-and-Perishable-Register",
+      "to": "research/06-microsoft-platform/collected-materials",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/program/09-Durable-and-Perishable-Register",
+      "to": "wiki/seminars/S036",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/program/09-Durable-and-Perishable-Register",
+      "to": "research/06-microsoft-platform/hve-core-repository",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/program/09-Durable-and-Perishable-Register",
+      "to": "research/06-microsoft-platform/hve-core-repository",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/program/09-Durable-and-Perishable-Register",
+      "to": "research/05-fde-craft/microsoft-fde-delivery-practice",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/program/09-Durable-and-Perishable-Register",
+      "to": "research/05-fde-craft/microsoft-fde-delivery-practice",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/program/09-Durable-and-Perishable-Register",
+      "to": "research/05-fde-craft/microsoft-ise-engineering-playbook",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/program/09-Durable-and-Perishable-Register",
+      "to": "research/05-fde-craft/microsoft-ise-engineering-playbook",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/program/09-Durable-and-Perishable-Register",
+      "to": "wiki/program/05-Whitepaper-Standard",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/program/09-Durable-and-Perishable-Register",
+      "to": "mcp/hve-iq/README",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/program/09-Durable-and-Perishable-Register",
+      "to": "wiki/seminars/S090",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/program/09-Durable-and-Perishable-Register",
+      "to": "wiki/seminars/S002",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/program/09-Durable-and-Perishable-Register",
+      "to": "wiki/program/01-Programme-Map",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/program/09-Durable-and-Perishable-Register",
+      "to": "wiki/program/03-Assessment-Architecture",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/program/09-Durable-and-Perishable-Register",
+      "to": "wiki/program/07-Module-Map",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/program/09-Durable-and-Perishable-Register",
+      "to": "concepts/namespaces",
       "type": "links_to"
     },
     {

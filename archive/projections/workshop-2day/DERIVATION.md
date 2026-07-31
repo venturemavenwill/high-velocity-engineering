@@ -8,7 +8,7 @@ Recorded in the style of SIL's E-findings: what was asked, what was done, what w
 
 ## What was done
 
-Built [workshop-2day](/projections/workshop-2day/README.md) from the wiki by reading, not querying — selecting ten claims, deciding what the format could and could not carry, and sequencing eight sessions. No claims were extracted first; that was the point.
+Built [workshop-2day](/archive/projections/workshop-2day/README.md) from the wiki by reading, not querying — selecting ten claims, deciding what the format could and could not carry, and sequencing eight sessions. No claims were extracted first; that was the point.
 
 ## What worked better than expected
 
@@ -116,7 +116,7 @@ The wiki already holds the raw material: **every whitepaper's §2 is "Entry stat
 
 ## What changed as a result
 
-[README.md](/projections/workshop-2day/README.md) now carries an **Entry state** section declaring what the workshop assumes, and naming the prerequisites it assumes from experience rather than delivering. That declaration is a claim about the audience and it is untested — which is the correct status for it, and better than the previous status, which was silence.
+[README.md](/archive/projections/workshop-2day/README.md) now carries an **Entry state** section declaring what the workshop assumes, and naming the prerequisites it assumes from experience rather than delivering. That declaration is a claim about the audience and it is untested — which is the correct status for it, and better than the previous status, which was silence.
 
 ## What this says about the method
 

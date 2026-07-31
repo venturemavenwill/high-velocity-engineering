@@ -4,15 +4,15 @@
 
 ## Rule 1 — rebuildable from claims alone
 
-Every substantive claim in [S001](/projections/bsc-self-study/S001.md) traces to a claim already carried by [wiki/seminars/S001.md](/archive/bsc-programme/seminars/S001.md) and its whitepaper, or to the research notes those rest on. Nothing new was learned in building this projection.
+Every substantive claim in [S001](/archive/projections/bsc-self-study/S001.md) traces to a claim already carried by [wiki/seminars/S001.md](/archive/bsc-programme/seminars/S001.md) and its whitepaper, or to the research notes those rest on. Nothing new was learned in building this projection.
 
 **Three things were *created* rather than carried, and each is labelled as constructed at the point of use:**
 
 | Artefact | Why it had to be created | How it is labelled |
 |---|---|---|
-| Five pretest items ([Appendix A](/projections/bsc-self-study/S001.md#appendix-a--the-five-pretest-items)) | The BSc day describes the items by subject and count but does not supply them. A self-learner cannot sit a test that does not exist | Supplied with a key. Items 4 and 5 have no single recallable answer by design |
-| Three timetables ([Appendix B](/projections/bsc-self-study/S001.md#appendix-b--three-timetables)) | The BSc day says "three real timetables from three real programmes, with outcome data attached". **Those data are not in this repository and this projection will not invent them** | Marked in bold as **constructed cases, not real programmes**, with an explicit instruction not to cite them as data |
-| A sample failure ([Appendix D](/projections/bsc-self-study/S001.md#appendix-d--a-sample-failure)) | The BSc day uses an output "from a previous cohort or from staff preparation". No cohort has run | Marked as **a constructed example, not a transcript of a real event** |
+| Five pretest items ([Appendix A](/archive/projections/bsc-self-study/S001.md#appendix-a--the-five-pretest-items)) | The BSc day describes the items by subject and count but does not supply them. A self-learner cannot sit a test that does not exist | Supplied with a key. Items 4 and 5 have no single recallable answer by design |
+| Three timetables ([Appendix B](/archive/projections/bsc-self-study/S001.md#appendix-b--three-timetables)) | The BSc day says "three real timetables from three real programmes, with outcome data attached". **Those data are not in this repository and this projection will not invent them** | Marked in bold as **constructed cases, not real programmes**, with an explicit instruction not to cite them as data |
+| A sample failure ([Appendix D](/archive/projections/bsc-self-study/S001.md#appendix-d--a-sample-failure)) | The BSc day uses an output "from a previous cohort or from staff preparation". No cohort has run | Marked as **a constructed example, not a transcript of a real event** |
 
 **The constructed timetables are the sharpest case.** The facilitated day claims real outcome data. This projection could have quietly reproduced that claim; instead it constructs cases that make the same teaching point and says they are constructed. **A projection may select, sequence and stage; it may not upgrade warrant** — and inventing data would have been the largest possible violation of that rule.
 
