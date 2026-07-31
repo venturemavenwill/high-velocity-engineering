@@ -80,7 +80,7 @@ A synthesis of vendor training material. Its authority is descriptive: it accura
 - The five orchestration patterns are the most transferable content in the document.
 - Agent identity as a first-class security principal is a genuine architectural claim with auditing, least-privilege and revocation consequences.
 - An agent registry answers the same inventory problem as an AI bill of materials, from the other end of the estate.
-- The 36% retrieval claim has no benchmark, metric definition or interval. It is unusable as evidence and excellent as a teaching artefact.
+- **The 36% retrieval claim is still unusable and the reason has changed. Amended 2026-07-31.** This line previously read that the claim *has no benchmark, metric definition or interval*. That was true when written and is now false: a methodology has since appeared in first-party documentation, with named authors and per-dataset results, recorded at [microsoft-iq-intelligence-layer.md](/research/06-microsoft-platform/microsoft-iq-intelligence-layer.md). **The claim remains prohibited on stronger grounds than before** — the published comparison is between *medium* and *minimal* retrieval reasoning effort, which is the product against itself at its lowest setting, while the vendor's own FAQ restates it as an improvement over traditional single-shot RAG. **That comparison was never run.** It is a better teaching artefact now than it was as a bare number.
 - Maturity models and value-driver frameworks here are marketing instruments. Teach them as objects of criticism, not as analysis.
 - Licensing content is the most perishable in the repository and should never enter teaching material.
 - The document's own labs assess procedure, not judgement — which is precisely the gap this course exists to close.
@@ -102,7 +102,7 @@ It serves three purposes and should be used for all three deliberately. First, i
 - **Internal and non-citable.** The underlying course is not publicly accessible, so nothing here can serve as an external reference. Public documentation must be substituted wherever a claim is to be taught.
 - **The most perishable document in the repository.** Product names, agent-type names, framework names, control-plane names and licensing bundles all change frequently.
 - Analyst projections are quoted, not verified, and projections of this kind have a poor historical record.
-- The 36% retrieval claim and the "weeks rather than months" claim have no supporting methodology and must not be repeated as fact.
+- **The "weeks rather than months" claim has no supporting methodology and must not be repeated as fact. The 36% retrieval claim now has one, and must still not be repeated — see the amended entry under `## What to remember`**, where the published comparison turns out to be the product against itself at a lower setting rather than against the baseline the claim names.
 - Maturity models and value-driver frameworks are unfalsifiable as stated.
 - Single-vendor by construction. It contains no comparison to alternatives and should never be the only platform material a student sees.
 - Its labs and self-tests assess procedure and recall, which is the assessment gap this course intends to close, not a model to copy.
