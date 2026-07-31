@@ -185,8 +185,15 @@ Check 'no effect size asserted in the wiki' ($effect.Count -eq 0) ($effect | Sel
 # links resolve, the headings parse, the graph builds. Three files carried 18
 # occurrences between them before anyone looked, and they were found by an
 # author reading prose rather than by this script.
+#
+# The escaped quote was added after the first version of this check missed it:
+# the check was written for the two forms that had already been seen, and a
+# fourth file carrying the third form passed the gate it was meant to fail.
+# There were zero legitimate occurrences in the wiki when it was added. A JSON
+# sample in a fenced block could want one -- if that day comes, the answer is
+# the one S089 records: change the writing, not the detector.
 $escapes = @($md | Where-Object { $_.FullName -notmatch '[\\/](archive|node_modules)[\\/]' } |
-                Select-String -Pattern '\\u[0-9a-fA-F]{4}|\\n\\n' |
+                Select-String -Pattern '\\u[0-9a-fA-F]{4}|\\n\\n|\\"' |
                 ForEach-Object { "$($_.Filename):$($_.LineNumber)" })
 Check 'no literal escape sequence survives in the prose' ($escapes.Count -eq 0) `
       ($escapes | Select-Object -First 3)
@@ -215,6 +222,28 @@ Check 'every seminar day declares an entry state' ($noEntry.Count -eq 0) `
 $unpaired = @($seminars | Where-Object { -not (Test-Path ("wiki/whitepapers/WP-" + ($_.BaseName -replace '\D', '') + ".md")) })
 Check 'every seminar day has its whitepaper' ($unpaired.Count -eq 0) `
       "$($papers.Count) papers"
+
+# A seminar and its whitepaper both carry platform_anchor into the graph, so a
+# divergence between them is two different answers to the same question with
+# nothing to arbitrate. It is invisible to every other check here: both files
+# parse, both resolve, both build.
+#
+# Nine pairs had drifted before this existed, all the same way -- a session was
+# updated and its paper was not. That is the direction the defect always takes,
+# because the session is what an author edits.
+$anchorDrift = @($seminars | ForEach-Object {
+    $num = $_.BaseName -replace '\D', ''
+    $paper = "wiki/whitepapers/WP-$num.md"
+    if (Test-Path $paper) {
+        $s = Get-Content $_.FullName -Raw
+        $w = Get-Content $paper -Raw
+        $sa = if ($s -match '(?m)^\*\*Platform anchor:\*\*(.+)$') { $matches[1].Trim() }
+        $wa = if ($w -match '(?m)^\*\*Platform anchor:\*\*(.+)$') { $matches[1].Trim() }
+        if ($sa -ne $wa) { "S$num" }
+    }
+})
+Check 'every seminar and its whitepaper declare the same platform anchor' `
+      ($anchorDrift.Count -eq 0) ($anchorDrift | Select-Object -First 5)
 
 # ---------------------------------------------------------------- server
 
