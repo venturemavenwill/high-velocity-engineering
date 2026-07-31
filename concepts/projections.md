@@ -1,6 +1,6 @@
 # Projections
 
-> The three-year BSc programme in [wiki/](/wiki/Home.md) is **not the knowledge**. It is one read model over the knowledge — the first one built, and the one that happens to be finished.
+> The three-year BSc programme in [wiki/](/archive/bsc-programme/Home.md) is **not the knowledge**. It is one read model over the knowledge — the first one built, and the one that happens to be finished.
 >
 > This page states what a projection is, what it may and may not do, and what has to exist before other projections can be built cheaply.
 
@@ -38,7 +38,7 @@ The BSc exists. These are the ones the same claims should support, and the reaso
 |---|---|---|
 | **`bsc-programme`** *(built)* | 3 years · 90 days · 10 entrustment occasions | Whether the claims support a certifiable judgement of readiness. |
 | **[`workshop-2day`](/projections/workshop-2day/README.md)** *(built)* | 2 days · one team · no assessment | Whether anything survives the loss of spacing. **It largely does not — and the projection says so on its first morning.** |
-| **[`self-study`](/projections/self-study/README.md)** *(one day built)* | Solo · no cohort · no instructor · no assessment | Whether the claims survive the loss of **the room**. **Six of eight phase mechanisms survive, two do not** — error disclosure needs a status asymmetry to break, and a genuine adversary cannot be simulated. Both are reported rather than substituted at equal advertised strength. |
+| **[`self-study`](/projections/bsc-self-study/README.md)** *(one day built)* | Solo · no cohort · no instructor · no assessment | Whether the claims survive the loss of **the room**. **Six of eight phase mechanisms survive, two do not** — error disclosure needs a status asymmetry to break, and a genuine adversary cannot be simulated. Both are reported rather than substituted at equal advertised strength. |
 | `cert-prep` | GH-300 / AB-100 aligned | Whether `platform` claims stand alone once `method` and `measurement` are stripped out. |
 | `engagement-playbook` | Reference, non-linear | Whether `fde-craft` claims are usable outside a teaching sequence. |
 | `onboarding-30day` | New FDE hire | Whether the complexity-class ladder compresses, or only stretches. |
@@ -91,4 +91,4 @@ Step 3 has been taken and the split holds: a second projection was derived, it o
 
 - [Namespaces](/concepts/namespaces.md) — the eight, and their warrant standards
 - [AGENTS.md](/AGENTS.md) — the working contract
-- [wiki/Home.md](/wiki/Home.md) — the projection that exists
+- [wiki/Home.md](/archive/bsc-programme/Home.md) — the projection that exists

@@ -1,55 +1,45 @@
-# Self-study — the programme without a room
+# Self-study projection — the engagement programme
 
-> **The test this projection runs:** whether the claims survive the loss of the room.
->
-> The BSc projection assumes a cohort, an instructor, a partner who will argue with you, and a timetable somebody else enforces. **Five of the eight phases in a seminar day are irreducibly social.** This projection removes all of it and reports honestly on what breaks.
+> A learner-facing edition of the 90-session engagement programme, for someone working alone with no cohort, no facilitator and no assessor.
 
-## The finding, stated first
+## What this is
 
-**Some of it does not survive, and the text says so where it happens rather than quietly substituting.**
+One of several **projections** over the same claims. The programme in [wiki/](/wiki/Home.md) is written for a facilitated cohort; this is the same content re-staged for a solo reader who has to supply their own materials, their own adversary and their own schedule.
 
-| Mechanism | Survives alone? | What this projection does |
+A projection may **select, sequence and stage**. It may not **upgrade warrant**, invent evidence, or present a substitute as an equivalent. See [concepts/projections.md](/concepts/projections.md) for the rule and [DERIVATION.md](/projections/self-study/DERIVATION.md) for how this one was built.
+
+**This is not a summary and not a simplification.** Several units here are longer than the sessions they derive from, because a room supplies things a page has to write down.
+
+## What is built
+
+| Unit | Session | State |
 |---|---|---|
-| Retrieval practice | **Yes, fully** | Checkpoints are embedded at the point of first contact, not collected at the end |
-| Spacing | **Yes, but only with a dated schedule** | Actual dates and actual prompts are written out; "an expanding-interval schedule" as a noun is useless to a solo reader |
-| Pretesting and generation | **Yes, if the materials exist and are not spoiled** | Items and cases are supplied; the explanation is gated behind them |
-| Contrasting cases | **Yes, in sequence rather than in parallel** | You run all four configurations yourself, one after another, instead of one per group |
-| Interleaving | **Partly** | Requires material from several days to mix; a solo reader on day one has nothing to interleave with |
-| Calibration against a cohort | **No** | **No cohort has ever run this programme, so no distribution exists to compare against.** A substitute resolution rule is supplied and its weakness is stated |
-| Error disclosure after higher-status modelling | **No** | The mechanism is the status asymmetry. Alone, there is none. A written self-post-mortem against a rubric is offered as a weaker substitute, labelled as weaker |
-| Peer articulation and the break attempt | **Partly** | Explaining to a recording and attacking your own explanation a day later recovers some of it; a partner who genuinely disagrees is not recoverable |
+| [S001 — Deciding whether to build it](/projections/self-study/S001.md) | [S001](/wiki/seminars/S001.md) | Built |
+| S002–S090 | — | **Not built** |
 
-**Two of the eight do not survive. That is the projection's result, and it is reported rather than papered over** — the same way [`workshop-2day`](/projections/workshop-2day/README.md) reports that spacing does not survive a two-day compression and says so on its first morning.
+**One unit exists.** It is the exemplar that establishes the standard; the rest is not written and this file will not pretend otherwise.
 
-## What changed from the BSc projection, and why
+## How to use a unit
 
-This projection exists because a review found that the seminar day, read alone, **is three documents wearing one coat**: a learner-facing chapter, a facilitator's run-sheet, and a governance register. A solo reader could use a minority of it, and the reading order the page mandated destroyed the mechanisms the page taught.
+- **Work the sections in order.** Some explanations are deliberately gated behind activities they would spoil, and the gating has a stated reason rather than a stylistic one.
+- **Write your answers in a file you do not edit.** Several units ask you to compare your earlier answer against a criterion, and a remembered answer is not comparable.
+- **Do the dated schedule.** It is the part with the weakest immediate payoff and the strongest delayed one, which is exactly why it gets skipped.
+- **Read the "what this does not establish" section before deciding how much to believe.** It is not a disclaimer; it is where the boundary of the evidence is stated.
 
-Eight structural defects were named. Each has a fix, and the fixes are what this projection is:
+## What working alone costs you
 
-1. **It spoiled its own experiments.** The chapter told you what the pretest would show and what the contrasting cases would reveal, then instructed you to read it first. **Fix: sequence is now enforced structurally.** Nothing that spoils an activity appears before that activity. Explanations are gated.
-2. **The activities had no materials.** The pretest items, the three timetables, the build constraints and the sample failure did not exist on the page. **Fix: an appendix supplies all of them.**
-3. **Half the phases were irreducibly social with no solo analogue.** **Fix: every social phase carries a stated substitution, and where the substitution is weaker, that is said.**
-4. **No feedback, no keys, no rubrics.** A text about calibration that gives no ground truth cannot train calibration; prediction without resolution is journaling. **Fix: every exercise carries a key, a model answer or an explicit criterion, and the resolution rule is stated before the prediction is made.**
-5. **It violated its own cognitive-load principles** — over-bolding destroyed signalling, unexplained jargon appeared in the first four lines, load-bearing claims were outsourced to links, and there were no segmentation cues or time budgets. **Fix: bold is rationed to roughly one sentence per section, jargon is defined at first use, load-bearing evidence is inlined with its boundary conditions, and every section carries a time estimate and a recap.**
-6. **It was exposition with retrieval bolted on at the end** — which demonstrated the fluency illusion on the reader, in a text warning them about it. **Fix: retrieval is embedded after each idea, and the spacing schedule is dated with its prompts written out.**
-7. **Governance content was mixed into learner content.** **Fix: it stays in the wiki, where it belongs, and is not reproduced here.**
-8. **The tone told the reader what they would feel and fail at.** **Fix: predictions about the reader are converted into questions the reader answers.**
+Every unit closes with an appendix naming what a room provides that a page cannot, with the substitute offered and **its strength honestly labelled**. Some rows have no substitute, and none is invented for them.
 
-## What this projection may not do
+The largest recurring gap is a genuine adversary. An objection you construct yourself shares your blind spots. Where a unit asks you to attack your own position, it is recovering part of that and not all of it.
 
-It is bound by [concepts/projections.md](/concepts/projections.md) exactly as every other projection is. In particular:
+## Standing rules this projection inherits
 
-- **It may not upgrade warrant.** Teaching something first, at length, or with conviction does not improve its evidence. Every claim arrives carrying the same evidence class and decay it has in the wiki.
-- **It may not assert what the claims do not license.** No effect size appears here for an unverified source. Where the literature is more conditional than a flat statement would suggest, **the boundary condition is stated inline** rather than deferred to a link — because a self-learner may not have the link.
-- **Abstention is a valid output.** Where no cohort distribution exists, this projection says so instead of inventing one.
-
-## Status
-
-**One day built, as an exemplar: [S001](/projections/self-study/S001.md).** The remaining 89 are not built. The derivation is recorded at [DERIVATION.md](/projections/self-study/DERIVATION.md).
+- **No effect size appears anywhere.** Direction and mechanism only, including where a source states a number in a text that was read in full.
+- **Platform detail is named and dated.** Unlike the [BSc self-study projection](/projections/bsc-self-study/README.md), which refuses product names because it has no verification cycle, this projection names them and attaches a perishability warning at the point of use — because the workflows are the point. **If what you find contradicts what is written, what you found is right.**
+- **Constructed materials are labelled as constructed** at the point of use, every time.
 
 ## Related
 
-- [concepts/projections.md](/concepts/projections.md) — what a projection may and may not do
-- [projections/workshop-2day/README.md](/projections/workshop-2day/README.md) — the other built projection, and the other honest negative result
-- [wiki/seminars/S001.md](/wiki/seminars/S001.md) — the BSc projection of the same claims, which remains the facilitator's document
+- [The programme](/wiki/Home.md) · [Programme Map](/wiki/program/01-Programme-Map.md)
+- [Derivation](/projections/self-study/DERIVATION.md) — how this was built and what it dropped
+- [Other projections](/concepts/projections.md)

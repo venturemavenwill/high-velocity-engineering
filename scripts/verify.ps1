@@ -127,7 +127,15 @@ Check 'no gitignored path reaches the committed graph' ($leaks.Count -eq 0) `
 Write-Host "`nlinks"
 # The only legitimate unresolvable links are the format placeholders inside a
 # fenced code block in the whitepaper standard.
-$PLACEHOLDERS = @('/wiki/seminars/S0NN.md', '/wiki/modules/M0N.md', '/wiki/quarters/QN.md')
+# The only legitimate unresolvable links are the format placeholders inside a
+# fenced code block in the whitepaper standard. Both path forms are listed: the
+# archived programme's copy moved under archive/ on 2026-07-31 and its placeholders
+# moved with it, which broke this allowlist and produced three failures that looked
+# like real defects.
+$PLACEHOLDERS = @(
+    '/wiki/seminars/S0NN.md', '/wiki/modules/M0N.md', '/wiki/quarters/QN.md',
+    '/archive/bsc-programme/seminars/S0NN.md', '/archive/bsc-programme/modules/M0N.md', '/archive/bsc-programme/quarters/QN.md'
+)
 # Test-Path answers "does this exist on THIS machine", which is the wrong question for
 # a public repository. A link into a gitignored directory resolves for whoever holds
 # the material and 404s for everyone else, so the gate passed locally and CI failed on

@@ -1,18 +1,18 @@
 {
-  "node_count": 346,
-  "edge_count": 8993,
-  "claim_count": 646,
-  "claim_days": 89,
-  "claim_gap_days": 1,
+  "node_count": 561,
+  "edge_count": 11971,
+  "claim_count": 332,
+  "claim_days": 90,
+  "claim_gap_days": 0,
   "research_claim_count": 226,
-  "prediction_count": 527,
+  "prediction_count": 353,
   "evidence_count": 360,
-  "move_count": 683,
+  "move_count": 961,
   "move_days": 90,
-  "move_gap_days": 33,
+  "move_gap_days": 0,
   "moves_by_kind": {
-    "contrast": 229,
-    "elicit": 454
+    "contrast": 511,
+    "elicit": 450
   },
   "source_count": 58,
   "sources_by_read": {
@@ -23,8 +23,8 @@
   "nodes_by_kind": {
     "design-analysis": 3,
     "module": 18,
-    "other": 16,
-    "program-page": 15,
+    "other": 242,
+    "program-page": 4,
     "quarter": 9,
     "readme": 1,
     "research-index": 8,
@@ -39,19 +39,19 @@
   },
   "nodes_by_layer": {
     "research": 95,
-    "root": 16,
+    "root": 242,
     "sources": 12,
-    "wiki": 223
+    "wiki": 212
   },
   "edges_by_type": {
     "depends_on": 216,
     "documents": 90,
-    "grounded_in": 1194,
+    "grounded_in": 341,
     "has_whitepaper": 90,
-    "links_to": 6551,
-    "part_of": 448,
+    "links_to": 9698,
+    "part_of": 826,
     "re_tests": 93,
-    "retrieves_from": 309,
+    "retrieves_from": 615,
     "summarises": 2
   },
   "satisfiable_from": {
@@ -60,12 +60,7 @@
     "this-programme-only": 41
   },
   "predictions_by_ns": {
-    "pedagogy": 137,
-    "ai-systems": 135,
-    "fde-craft": 109,
-    "measurement": 105,
-    "assessment": 29,
-    "curriculum": 6,
-    "platform": 6
+    "fde-craft": 343,
+    "pedagogy": 10
   }
 }

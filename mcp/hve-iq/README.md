@@ -67,7 +67,7 @@ S016  teaches            Data moves between levels in fixed-size blocks
       instance at risk   The 1,024-token minimum and the 128-token hit increment
 ```
 
-The pairing is the point. **A vendor change should cost you an instance, not a claim** — that is the rule the [Durable and Perishable Register](/wiki/program/09-Durable-and-Perishable-Register.md) exists to enforce, and seeing both halves together tells you whether you are swapping an example or rewriting a day.
+The pairing is the point. **A vendor change should cost you an instance, not a claim** — that is the rule the [Durable and Perishable Register](/archive/bsc-programme/program/09-Durable-and-Perishable-Register.md) exists to enforce, and seeing both halves together tells you whether you are swapping an example or rewriting a day.
 
 Nothing here is authored by the extractor; it reads tables the days already carry. **One day is invisible to it** — S090, which has no perishable content of substance. The tool declares that in every answer rather than returning a confidently incomplete list.
 

@@ -94,7 +94,7 @@ It supplies the professional-formation strand with something it did not have: **
 
 It also arrives with a second, sharper use. **It is the second complete, carefully built control system this repository has read in a week that reports no outcome at all**, the first being the agent-configuration corpus. Two independent artefacts, from the same organisation, both meticulous and both unmeasured, is not a coincidence to be smoothed over. It is a property of the genre, and a student who has met it twice will recognise it a third time in their own work.
 
-The binding page is [/wiki/program/14-FDE-Delivery-Standard.md](/wiki/program/14-FDE-Delivery-Standard.md), which carries the paraphrase into teaching and repeats the prohibition on claiming any outcome for it.
+The binding page is [/wiki/program/14-FDE-Delivery-Standard.md](/archive/bsc-programme/program/14-FDE-Delivery-Standard.md), which carries the paraphrase into teaching and repeats the prohibition on claiming any outcome for it.
 
 ## How to teach it
 

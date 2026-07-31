@@ -1,63 +1,45 @@
-# Applied Computer Science Programme Wiki
+# Forward-Deployed Engineering — the engagement arc
 
-A three-year, year-round undergraduate computer science programme in **Applied AI Systems and Forward-Deployed Engineering**, designed so that every teaching hour has a defensible basis in learning science and every assessment produces evidence about judgement rather than recall.
-
-This wiki contains the programme architecture, the full course load, a module map, ninety planned seminar days, and a doctoral-level whitepaper defending the instructional design of each seminar day.
-
----
+> **Ninety working sessions, shaped like an engagement rather than a degree.** From deciding whether to take the work, through discovery, framing, proof, build, assurance, operation and transfer, to compounding what was learned into the next one.
 
 ## Start here
 
-| Page | What it settles |
+| If you want to | Go to |
 |---|---|
-| [Programme Charter](/wiki/program/00-Program-Charter.md) | What the programme is for, who it is for, and what it refuses to do |
-| [Outcomes and Accreditation Map](/wiki/program/01-Outcomes-and-Accreditation-Map.md) | ABET and CS2023 alignment, and where each outcome is actually evidenced |
-| [Learning Science Foundations](/wiki/program/02-Learning-Science-Foundations.md) | The empirical basis every seminar day and whitepaper argues from |
-| [Assessment Architecture](/wiki/program/03-Assessment-Architecture.md) | The entrustment spine, ordinal scales, narrative substantiation, rater discipline |
-| [Seminar Day Design Pattern](/wiki/program/04-Seminar-Day-Design-Pattern.md) | The eight-phase template every one of the ninety days instantiates |
-| [Whitepaper Standard](/wiki/program/05-Whitepaper-Standard.md) | The required structure and evidentiary discipline for each day's whitepaper |
+| See the whole arc and all 90 sessions | [Programme Map](/wiki/program/01-Programme-Map.md) |
+| See stages, modules and complexity classes | [Stage and Module Map](/wiki/program/07-Module-Map.md) |
+| Understand how anything is assessed | [Assessment Architecture](/wiki/program/03-Assessment-Architecture.md) |
+| Understand what a claim here is worth | [Whitepaper Standard](/wiki/program/05-Whitepaper-Standard.md) |
+| Begin | [S001 · Why this programme is shaped like an engagement](/wiki/seminars/S001.md) |
 
-## The plan
+## The arc
 
-| Page | Contents |
-|---|---|
-| [Course Catalogue](/wiki/program/06-Course-Catalogue.md) | All 36 courses across 9 quarters, with credits, strands and prerequisites |
-| [Module Map](/wiki/program/07-Module-Map.md) | The 18 modules, their seminar days, and how strands interlock |
-| [Seminar Day Index](/wiki/program/08-Seminar-Day-Index.md) | All 90 seminar days with links to plans and whitepapers |
-| [Durable and Perishable Register](/wiki/program/09-Durable-and-Perishable-Register.md) | What is assessable and what may only illustrate |
-| [Substrate and Infrastructure](/wiki/program/10-Substrate-and-Infrastructure.md) | The live system students operate, and what it costs to run |
-| [Microsoft AI Platform Map](/wiki/program/11-Microsoft-AI-Platform-Map.md) | Which named service every course and every day is executed against |
-| [Copilot Practice Standard](/wiki/program/12-Copilot-Practice-Standard.md) | How every day is run with GitHub Copilot in agent mode, and what that may not claim |
-| [Agent Configuration Standard](/wiki/program/13-Agent-Configuration-Standard.md) | How the agent is configured, what every course takes from it, and why a control is not evidence |
-| [FDE Delivery Standard](/wiki/program/14-FDE-Delivery-Standard.md) | The six principles behind the professional-formation strand, their two Microsoft sources, and what neither establishes |
+**Qualify → Discover → Frame → Prove → Build → Assure → Operate → Transfer → Compound**
 
-## Quarters
+The arc **closes into a cycle rather than an exit.** Stage 9 feeds Stage 1. That is the source material's own logic: across the practice corpus this programme rests on, language about iteration, maturity, adoption and reinforcement outnumbers language about decommissioning by more than two orders of magnitude.
 
-| Year | Quarter | Theme |
-|---|---|---|
-| 1 | [Q1](/wiki/quarters/Q1.md) | Machines, Programs and Proof |
-| 1 | [Q2](/wiki/quarters/Q2.md) | Structure and Scale |
-| 1 | [Q3](/wiki/quarters/Q3.md) | Algorithms and Uncertainty |
-| 2 | [Q4](/wiki/quarters/Q4.md) | Concurrency and Correctness |
-| 2 | [Q5](/wiki/quarters/Q5.md) | Learning Machines |
-| 2 | [Q6](/wiki/quarters/Q6.md) | Language and Retrieval |
-| 3 | [Q7](/wiki/quarters/Q7.md) | Serving and Economics |
-| 3 | [Q8](/wiki/quarters/Q8.md) | Agency and Adversary |
-| 3 | [Q9](/wiki/quarters/Q9.md) | Deployment and Entrustment |
+## What this is built on, and what that is worth
 
----
+This programme is built on **a public formulation of practice from a customer-embedded engineering organisation within a large technology vendor**, recorded as original prose at [research/05-fde-craft/microsoft-accelerated-delivery-practice.md](/research/05-fde-craft/microsoft-accelerated-delivery-practice.md) and [research/05-fde-craft/microsoft-agentic-threat-modelling.md](/research/05-fde-craft/microsoft-agentic-threat-modelling.md), together with the openly published engineering playbook at [research/05-fde-craft/microsoft-ise-engineering-playbook.md](/research/05-fde-craft/microsoft-ise-engineering-playbook.md).
 
-## The programme in one paragraph
+**The internal material is paraphrased, never linked, never quoted by label, and carries no name, identifier or address.** The rule is recorded in [research/99-source-register/source-register.md](/research/99-source-register/source-register.md).
 
-Thirty-six courses over nine ten-week quarters, organised into eighteen modules and delivered against a spine of ninety integrative seminar days — one per teaching week. Each seminar day is a six-hour session built on a fixed eight-phase pattern derived from four-component instructional design, the desirable-difficulties literature, and the evidence on retrieval and spacing. Students operate a single live system with real users for the whole three years, so that incidents, degradation and consequence are available as teaching material rather than simulated. Assessment is entrustment-based: ordinal supervision levels with mandatory narrative substantiation, multiple observers, and oral verification, rather than percentages. Platform-specific content may illustrate but is never the thing assessed.
+**Nothing here is evidence that any of this works.** The corpus reports no outcome, no evaluation, no comparison and no measurement of the practice it describes; its case studies all succeed and its only failure narrative is synthetic. This programme's own predictions are unmeasured, because no cohort has run. Every session closes on **what this does not establish**, and that section is not decoration.
 
-## How this wiki relates to the research
+## The two stages written past the source
 
-Every design claim traces to one of two places. External empirical claims cite either a Cliff Notes file under [research/](/research/99-source-register/source-register.md), which records exactly what was verified and how, or canonical learning-science literature explicitly marked as cited from general knowledge and not verified in this repository. Design reasoning with no external warrant is labelled as such. This discipline is inherited from the [source register](/research/99-source-register/source-register.md) and is enforced in the `## Evidence status` section that closes every whitepaper.
+[Qualify](/wiki/quarters/Q1.md) exists because the corpus refuses work exactly once, in a note attached to a slide.
 
-## Conventions
+[Compound](/wiki/quarters/Q9.md) exists because the cycle is implied throughout and stated as a model nowhere. It replaced a stage called *Withdraw* after a reviewer challenged it — **a challenge that survived checking, decisively.**
 
-- **Strand codes:** CF Computing Foundations · SY Systems · MS Mathematics and Statistical Inference · IS Intelligent Systems · ME Measurement and Evaluation · SG Security, Safety and Governance · PE Professional Formation and Engagement Craft.
-- **Seminar days** are numbered `S001`–`S090` continuously across the programme, not restarted per quarter, because the spacing schedule is cumulative and programme-wide.
-- **Whitepapers** are numbered `WP-001`–`WP-090` and correspond one-to-one with seminar days.
-- **Ordinal supervision levels** follow the entrustment scale described in [Assessment Architecture](/wiki/program/03-Assessment-Architecture.md). Percentages appear nowhere in student-facing assessment.
+Both are **class 3 — design reasoning with no external warrant** — and every session in them says so.
+
+## The archived programme
+
+The previous projection over the same knowledge — a three-year BSc, 90 seminar days, 90 whitepapers — is retained in full at [archive/bsc-programme/](/archive/bsc-programme/Home.md). It is not deprecated and it is not wrong; it is a different read model for a different audience, and its self-correction record is worth reading on its own terms.
+
+## Related
+
+- [concepts/projections.md](/concepts/projections.md) — what a projection may and may not do
+- [research/](/research/99-source-register/source-register.md) — every source, with what was verified and what was not
+- [AGENTS.md](/AGENTS.md) — the working contract for agents operating here

@@ -159,7 +159,7 @@ The practical consequence is that `either` is where every projection's real deci
 
 If a cohort of ten engineers matching the reference person is given a claim-level pretest across the 90 days, **fewer than 15 of the 47 `either` days will show a majority already holding the claim in the precise form the dependents need.** If more than 25 do, the tie-break in limitation 2 is wrong and the register should be re-derived with a rule that credits informal knowledge more.
 
-*Instrument:* claim-level pretest, one item per day, scored by two independent raters against the day's stated claim — an application of [S029](/wiki/seminars/S029.md) and [S048](/wiki/seminars/S048.md) to this repository's own metadata.
+*Instrument:* claim-level pretest, one item per day, scored by two independent raters against the day's stated claim — an application of [S029](/archive/bsc-programme/seminars/S029.md) and [S048](/archive/bsc-programme/seminars/S048.md) to this repository's own metadata.
 
 ## Related pages
 

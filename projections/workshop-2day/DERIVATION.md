@@ -154,7 +154,7 @@ Addendum one had this projection declare its entry state by hand. It named **thr
 
 ## The third finding, which is the uncomfortable one
 
-Five of the fourteen undelivered dependencies are **the measurement spine**: [S026](/wiki/seminars/S026.md), [S027](/wiki/seminars/S027.md), [S028](/wiki/seminars/S028.md), [S029](/wiki/seminars/S029.md), [S049](/wiki/seminars/S049.md).
+Five of the fourteen undelivered dependencies are **the measurement spine**: [S026](/archive/bsc-programme/seminars/S026.md), [S027](/archive/bsc-programme/seminars/S027.md), [S028](/archive/bsc-programme/seminars/S028.md), [S029](/archive/bsc-programme/seminars/S029.md), [S049](/archive/bsc-programme/seminars/S049.md).
 
 This is a workshop about judge bias and criterion construction. Its largest undelivered dependency is **measurement itself**. It was attempting to teach the conclusions of a discipline while assuming the discipline, and no amount of audience seniority fixes that — all five are classified `this-programme-only` precisely because ordinary practice teaches proxy-as-truth.
 

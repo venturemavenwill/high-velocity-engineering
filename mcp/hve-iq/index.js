@@ -213,6 +213,12 @@ server.registerTool(
       re_tests: out("re_tests", id),
       depended_on_by: inc("depends_on", id),
       re_tested_by: inc("re_tests", id),
+      // retrieves_from is the engagement programme's primary backward reference —
+      // a session names the two or three it reaches back to. It was in the graph
+      // from the beginning and was never surfaced here, which made every session
+      // in that programme look like it had no antecedents at all.
+      retrieves_from: out("retrieves_from", id),
+      retrieved_by: inc("retrieves_from", id),
       grounded_in: out("grounded_in", id),
       pair: [...out("has_whitepaper", id), ...out("documents", id)],
       part_of: out("part_of", id)

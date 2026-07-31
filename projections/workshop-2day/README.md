@@ -1,6 +1,6 @@
 # workshop-2day
 
-> A two-day workshop for a working engineering team, derived from the same claims as the [BSc programme](/wiki/Home.md).
+> A two-day workshop for a working engineering team, derived from the same claims as the [BSc programme](/archive/bsc-programme/Home.md).
 >
 > **Status:** built by hand from the wiki, not from extracted claims. See [DERIVATION.md](/projections/workshop-2day/DERIVATION.md) for what that cost and what it revealed.
 
@@ -40,19 +40,19 @@ Declaring assumptions is worth 33 days. It is not worth 57, and the gap is the p
 
 Commonly held by practising engineers, but informally — so some of your room will not have them. Naming them is the price of assuming them.
 
-[S007](/wiki/seminars/S007.md) seams · [S011](/wiki/seminars/S011.md) what a representation makes cheap · [S016](/wiki/seminars/S016.md) memory hierarchy · [S017](/wiki/seminars/S017.md) scheduling · [S039](/wiki/seminars/S039.md) requirements as negotiated constraint · [S062](/wiki/seminars/S062.md) batching and throughput · [S068](/wiki/seminars/S068.md) detectability · [S073](/wiki/seminars/S073.md) tools and the trust boundary
+[S007](/archive/bsc-programme/seminars/S007.md) seams · [S011](/archive/bsc-programme/seminars/S011.md) what a representation makes cheap · [S016](/archive/bsc-programme/seminars/S016.md) memory hierarchy · [S017](/archive/bsc-programme/seminars/S017.md) scheduling · [S039](/archive/bsc-programme/seminars/S039.md) requirements as negotiated constraint · [S062](/archive/bsc-programme/seminars/S062.md) batching and throughput · [S068](/archive/bsc-programme/seminars/S068.md) detectability · [S073](/archive/bsc-programme/seminars/S073.md) tools and the trust boundary
 
 **Nothing is assumed silently.** Neither of the two days marked `ordinary-professional-experience` in the register lies in this closure.
 
 ### The fourteen it must deliver and does not
 
-[S004](/wiki/seminars/S004.md) · [S013](/wiki/seminars/S013.md) · [S018](/wiki/seminars/S018.md) · [S019](/wiki/seminars/S019.md) · [S020](/wiki/seminars/S020.md) ⊘ · [S026](/wiki/seminars/S026.md) · [S027](/wiki/seminars/S027.md) · [S028](/wiki/seminars/S028.md) · [S029](/wiki/seminars/S029.md) · [S037](/wiki/seminars/S037.md) · [S049](/wiki/seminars/S049.md) · [S052](/wiki/seminars/S052.md) · [S061](/wiki/seminars/S061.md) · [S063](/wiki/seminars/S063.md)
+[S004](/archive/bsc-programme/seminars/S004.md) · [S013](/archive/bsc-programme/seminars/S013.md) · [S018](/archive/bsc-programme/seminars/S018.md) · [S019](/archive/bsc-programme/seminars/S019.md) · [S020](/archive/bsc-programme/seminars/S020.md) ⊘ · [S026](/archive/bsc-programme/seminars/S026.md) · [S027](/archive/bsc-programme/seminars/S027.md) · [S028](/archive/bsc-programme/seminars/S028.md) · [S029](/archive/bsc-programme/seminars/S029.md) · [S037](/archive/bsc-programme/seminars/S037.md) · [S049](/archive/bsc-programme/seminars/S049.md) · [S052](/archive/bsc-programme/seminars/S052.md) · [S061](/archive/bsc-programme/seminars/S061.md) · [S063](/archive/bsc-programme/seminars/S063.md)
 
-**Five of the fourteen are the measurement spine** — [S026](/wiki/seminars/S026.md) construct and instrument, [S027](/wiki/seminars/S027.md) error structure, [S028](/wiki/seminars/S028.md) sampling and intervals, [S029](/wiki/seminars/S029.md) instrument design, [S049](/wiki/seminars/S049.md) clustering and power. That is not an incidental gap. **It is the workshop's own subject matter appearing as its largest undelivered dependency**, which is what happens when a two-day format tries to teach the *conclusions* of measurement without the measurement.
+**Five of the fourteen are the measurement spine** — [S026](/archive/bsc-programme/seminars/S026.md) construct and instrument, [S027](/archive/bsc-programme/seminars/S027.md) error structure, [S028](/archive/bsc-programme/seminars/S028.md) sampling and intervals, [S029](/archive/bsc-programme/seminars/S029.md) instrument design, [S049](/archive/bsc-programme/seminars/S049.md) clustering and power. That is not an incidental gap. **It is the workshop's own subject matter appearing as its largest undelivered dependency**, which is what happens when a two-day format tries to teach the *conclusions* of measurement without the measurement.
 
 **A team missing the measurement spine should be offered a longer format, not this one.** That recommendation survives; only its basis has changed, from taste to arithmetic.
 
-> **Superseded, kept deliberately.** This section previously named **three** at-risk prerequisites — S026, S028 and S036 — chosen by reading the material and asking which felt thin. The mechanical answer is fourteen, and S036 was not among them because it is a seed the workshop already teaches. **A hand-built projection under-counted its own gap by a factor of four, twice, in the same section.** Recorded under [instrumentation rule 9](/wiki/program/04-Seminar-Day-Design-Pattern.md).
+> **Superseded, kept deliberately.** This section previously named **three** at-risk prerequisites — S026, S028 and S036 — chosen by reading the material and asking which felt thin. The mechanical answer is fourteen, and S036 was not among them because it is a seed the workshop already teaches. **A hand-built projection under-counted its own gap by a factor of four, twice, in the same section.** Recorded under [instrumentation rule 9](/archive/bsc-programme/program/04-Seminar-Day-Design-Pattern.md).
 
 ## What it does deliver
 
@@ -60,26 +60,26 @@ Ten claims, chosen because they are durable, immediately applicable, and each on
 
 | # | Claim | Namespace | Source |
 |---|---|---|---|
-| 1 | *Similar* is a construction, not a property of text | `ai-systems` | [S051](/wiki/seminars/S051.md) |
-| 2 | A judge has a systematic error component that more judging does not average out | `measurement` | [S048](/wiki/seminars/S048.md) |
-| 3 | Agreement is not accuracy | `measurement` | [S048](/wiki/seminars/S048.md) |
-| 4 | An aggregate metric hides class-specific catastrophe | `measurement` | [S053](/wiki/seminars/S053.md) |
-| 5 | A criterion is constructed by named people, and drifts | `measurement` | [S046](/wiki/seminars/S046.md), [S047](/wiki/seminars/S047.md) |
-| 6 | Defaults are opinions; thresholds are policy | `platform` | [12-Copilot-Practice-Standard](/wiki/program/12-Copilot-Practice-Standard.md) |
-| 7 | Quota is not capacity | `platform` | [S064](/wiki/seminars/S064.md) |
-| 8 | Tool failure has four shapes, two of which report success | `ai-systems` | [S074](/wiki/seminars/S074.md) |
-| 9 | The request is somebody's conclusion, not their problem | `fde-craft` | [S036](/wiki/seminars/S036.md) |
-| 10 | Saying what a measurement does not license, to someone who wants more | `fde-craft` | [S050](/wiki/seminars/S050.md) |
+| 1 | *Similar* is a construction, not a property of text | `ai-systems` | [S051](/archive/bsc-programme/seminars/S051.md) |
+| 2 | A judge has a systematic error component that more judging does not average out | `measurement` | [S048](/archive/bsc-programme/seminars/S048.md) |
+| 3 | Agreement is not accuracy | `measurement` | [S048](/archive/bsc-programme/seminars/S048.md) |
+| 4 | An aggregate metric hides class-specific catastrophe | `measurement` | [S053](/archive/bsc-programme/seminars/S053.md) |
+| 5 | A criterion is constructed by named people, and drifts | `measurement` | [S046](/archive/bsc-programme/seminars/S046.md), [S047](/archive/bsc-programme/seminars/S047.md) |
+| 6 | Defaults are opinions; thresholds are policy | `platform` | [12-Copilot-Practice-Standard](/archive/bsc-programme/program/12-Copilot-Practice-Standard.md) |
+| 7 | Quota is not capacity | `platform` | [S064](/archive/bsc-programme/seminars/S064.md) |
+| 8 | Tool failure has four shapes, two of which report success | `ai-systems` | [S074](/archive/bsc-programme/seminars/S074.md) |
+| 9 | The request is somebody's conclusion, not their problem | `fde-craft` | [S036](/archive/bsc-programme/seminars/S036.md) |
+| 10 | Saying what a measurement does not license, to someone who wants more | `fde-craft` | [S050](/archive/bsc-programme/seminars/S050.md) |
 
 **No `method` claims are delivered.** The instrumentation rules, the compliance register and the self-correction record are the design's own discipline and are not portable to a two-day format.
 
-**The agent configuration material is abstained on, deliberately, and this is the clearest abstention in the projection.** The [Agent Configuration Standard](/wiki/program/13-Agent-Configuration-Standard.md) rests on the **five classes of conclusion** — configured control, executable check, observed result, outcome evidence, unsupported inference — and in the BSc that ladder is introduced in year one and retrieved for three years before anyone is asked to apply it to a real control system. **A team cannot audit a corpus it met that morning.** Two days supplies enough exposure for participants to leave believing they have audited something, which is worse than not covering it: the failure mode of this material is *false confidence in one's own scepticism*, and a compressed delivery produces exactly that. Per rule 5, the correct output is to name the missing claims rather than to pad. They are delivered in [`config-audit-lab`](/concepts/projections.md) or not at all.
+**The agent configuration material is abstained on, deliberately, and this is the clearest abstention in the projection.** The [Agent Configuration Standard](/archive/bsc-programme/program/13-Agent-Configuration-Standard.md) rests on the **five classes of conclusion** — configured control, executable check, observed result, outcome evidence, unsupported inference — and in the BSc that ladder is introduced in year one and retrieved for three years before anyone is asked to apply it to a real control system. **A team cannot audit a corpus it met that morning.** Two days supplies enough exposure for participants to leave believing they have audited something, which is worse than not covering it: the failure mode of this material is *false confidence in one's own scepticism*, and a compressed delivery produces exactly that. Per rule 5, the correct output is to name the missing claims rather than to pad. They are delivered in [`config-audit-lab`](/concepts/projections.md) or not at all.
 
 **One sentence from it does survive and is said once, in S8**, because it costs no session time and the audience is about to need it: *the existence of a control is not evidence that the control works, and that applies to the controls you are about to go home and build.*
 
 ## Shape
 
-Eight sessions of 90 minutes across two days. Each compresses the [eight-phase pattern](/wiki/program/04-Seminar-Day-Design-Pattern.md) to four moves — **predict · execute · consolidate · clinic** — which is the largest compression the pattern survives. Phases 2 (cumulative retrieval), 7 (peer articulation) and 8 (calibration) are cut; the reasons are in DERIVATION.md.
+Eight sessions of 90 minutes across two days. Each compresses the [eight-phase pattern](/archive/bsc-programme/program/04-Seminar-Day-Design-Pattern.md) to four moves — **predict · execute · consolidate · clinic** — which is the largest compression the pattern survives. Phases 2 (cumulative retrieval), 7 (peer articulation) and 8 (calibration) are cut; the reasons are in DERIVATION.md.
 
 ### Day 1 — What your evaluation is actually telling you
 
@@ -133,4 +133,4 @@ Claim 10 is the weakest transfer in the projection. In the BSc it has a precurso
 
 - [concepts/projections.md](/concepts/projections.md) — the rules this projection obeys
 - [DERIVATION.md](/projections/workshop-2day/DERIVATION.md) — what building this by hand revealed
-- [wiki/Home.md](/wiki/Home.md) — the projection that has been finished
+- [wiki/Home.md](/archive/bsc-programme/Home.md) — the projection that has been finished

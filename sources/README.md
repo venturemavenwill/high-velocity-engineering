@@ -1,13 +1,13 @@
 # Sources — the raw material
 
-The bottom layer of the citation chain. **Nothing here is authored by this repository**, and nothing here may be cited by [wiki/](/wiki/Home.md) directly — a wiki claim cites a [research/](/research/99-source-register/source-register.md) Cliff Note, and the Cliff Note cites one of these.
+The bottom layer of the citation chain. **Nothing here is authored by this repository**, and nothing here may be cited by [wiki/](/archive/bsc-programme/Home.md) directly — a wiki claim cites a [research/](/research/99-source-register/source-register.md) Cliff Note, and the Cliff Note cites one of these.
 
 | Folder | What it holds | Files |
 |---|---|---|
 | [vendor-courses/](/sources/vendor-courses/06-Hypervelocity-Engineering-Framework.md) | Study notes compiled from Microsoft's Frontier Transformation Engineer badge journey. The seed the whole repository grew from. | 8 |
 | [design-analysis/](/sources/design-analysis/10-Gap-Analysis-and-Course-Architecture.md) | The three design documents that turned those notes into a programme brief. | 3 |
 
-**These are the most perishable documents in the repository.** They describe a vendor platform at a moment in 2026, and two of the six vendor sources were already labelled classic or superseded when read. See [11-Microsoft-AI-Platform-Map.md](/wiki/program/11-Microsoft-AI-Platform-Map.md) for what that obliges before every offering.
+**These are the most perishable documents in the repository.** They describe a vendor platform at a moment in 2026, and two of the six vendor sources were already labelled classic or superseded when read. See [11-Microsoft-AI-Platform-Map.md](/archive/bsc-programme/program/11-Microsoft-AI-Platform-Map.md) for what that obliges before every offering.
 
 ---
 
@@ -96,4 +96,4 @@ Do the **assessments** in Phase 2 even if you skip the preparation courses — o
 4. **Choose the right build surface.** No-code Agent Builder → low-code Copilot Studio → pro-code Agents Toolkit / Foundry.
 5. **Delivery discipline is part of the credential.** HVE and Forward Deployed Engineering are how capability becomes delivery — and Phase 3 is the assessment you cannot skip.
 
-> **A note on how these are used downstream.** Everything above is vendor material read at a point in time. Where the wiki draws on it, the claim is marked *grounded in vendor documentation, with its version and its silence recorded* — the fourth evidence class — and what the documentation does **not** report is recorded alongside what it does. Several widely repeated figures from this material are on the repository's [prohibited list](/wiki/program/09-Durable-and-Perishable-Register.md) precisely because no published source substantiates them.
+> **A note on how these are used downstream.** Everything above is vendor material read at a point in time. Where the wiki draws on it, the claim is marked *grounded in vendor documentation, with its version and its silence recorded* — the fourth evidence class — and what the documentation does **not** report is recorded alongside what it does. Several widely repeated figures from this material are on the repository's [prohibited list](/archive/bsc-programme/program/09-Durable-and-Perishable-Register.md) precisely because no published source substantiates them.

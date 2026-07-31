@@ -23,7 +23,7 @@ That is why the boundary is real, and it is why every whitepaper already closes 
 | `assessment` | Entrustment and assessment | An ordinal judgement with mandatory narrative substantiation. No percentages, no carry-forward. | decades | 3 years | [research/08-assessment-epas/](/research/08-assessment-epas/collected-materials.md) |
 | `fde-craft` | Forward-deployed craft | A transferable practice pattern with weak formal warrant, honestly labelled as such. | slow | 3 years | [research/05-fde-craft/](/research/05-fde-craft/collected-materials.md) |
 | `curriculum` | Curriculum architecture | Design reasoning, plus accreditation mapping where a standard exists. | years | annually | [research/01-course-structure/](/research/01-course-structure/collected-materials.md) · [research/07-accreditation-exemplars/](/research/07-accreditation-exemplars/collected-materials.md) |
-| `method` | HVE's own discipline | Design reasoning with **no external warrant**. The instrumentation rules, the compliance register, the pattern observations. | on amendment | on amendment | [wiki/program/](/wiki/program/04-Seminar-Day-Design-Pattern.md) |
+| `method` | HVE's own discipline | Design reasoning with **no external warrant**. The instrumentation rules, the compliance register, the pattern observations. | on amendment | on amendment | [wiki/program/](/archive/bsc-programme/program/04-Seminar-Day-Design-Pattern.md) |
 
 ## How a document acquires a namespace
 
@@ -33,7 +33,7 @@ That is why the boundary is real, and it is why every whitepaper already closes 
 
 **One `platform` source can be pinned, and the difference matters more than it looks.** Documentation pages carry no version, so a citation to one is a citation to whatever it says today and no reader can tell. A repository carries a commit. [research/06-microsoft-platform/hve-core-repository.md](/research/06-microsoft-platform/hve-core-repository.md) is the folder's first source read at a fixed revision, and its claims are quotable only with that revision attached. **This does not make the source durable** — it decays as fast as any of them — but it converts silent drift into visible drift, which is the only improvement available inside a namespace whose half-life is months.
 
-The consequence is worth stating plainly. **A page whose namespace mix is dominated by `platform` inherits `platform`'s decay.** Half the wiki now carries a platform anchor, which means half the wiki now decays in months. The [Durable and Perishable Register](/wiki/program/09-Durable-and-Perishable-Register.md) is the response, and the per-day perishability registers are where the separation is actually made.
+The consequence is worth stating plainly. **A page whose namespace mix is dominated by `platform` inherits `platform`'s decay.** Half the wiki now carries a platform anchor, which means half the wiki now decays in months. The [Durable and Perishable Register](/archive/bsc-programme/program/09-Durable-and-Perishable-Register.md) is the response, and the per-day perishability registers are where the separation is actually made.
 
 ## The rule that binds them
 

@@ -1,73 +1,68 @@
-# Derivation — self-study projection
+# Derivation — self-study projection (engagement programme)
 
-> How this projection was built from the same claims as the BSc, what it dropped, and what it could not carry.
+> How this projection was built from the same claims as the facilitated programme, what it created, what it dropped, and what it refused to substitute.
+
+This file inherits the five rules established by the [BSc self-study derivation](/projections/bsc-self-study/DERIVATION.md) and records where this projection departs from them. **The departures are two, and both are deliberate.**
 
 ## Rule 1 — rebuildable from claims alone
 
-Every substantive claim in [S001](/projections/self-study/S001.md) traces to a claim already carried by [wiki/seminars/S001.md](/wiki/seminars/S001.md) and its whitepaper, or to the research notes those rest on. Nothing new was learned in building this projection.
+Every substantive claim in [S001](/projections/self-study/S001.md) traces to [wiki/seminars/S001.md](/wiki/seminars/S001.md), [WP-001](/wiki/whitepapers/WP-001.md), or the research notes those rest on. Nothing was learned in building this projection.
 
-**Three things were *created* rather than carried, and each is labelled as constructed at the point of use:**
+**Three artefacts were created rather than carried, and each is labelled as constructed at the point of use:**
 
 | Artefact | Why it had to be created | How it is labelled |
 |---|---|---|
-| Five pretest items ([Appendix A](/projections/self-study/S001.md#appendix-a--the-five-pretest-items)) | The BSc day describes the items by subject and count but does not supply them. A self-learner cannot sit a test that does not exist | Supplied with a key. Items 4 and 5 have no single recallable answer by design |
-| Three timetables ([Appendix B](/projections/self-study/S001.md#appendix-b--three-timetables)) | The BSc day says "three real timetables from three real programmes, with outcome data attached". **Those data are not in this repository and this projection will not invent them** | Marked in bold as **constructed cases, not real programmes**, with an explicit instruction not to cite them as data |
-| A sample failure ([Appendix D](/projections/self-study/S001.md#appendix-d--a-sample-failure)) | The BSc day uses an output "from a previous cohort or from staff preparation". No cohort has run | Marked as **a constructed example, not a transcript of a real event** |
+| The brief ([Appendix A](/projections/self-study/S001.md#appendix-a--the-brief)) | The facilitated session works from a brief supplied in the room. A solo learner has none | Marked in bold as **a constructed brief, not a real engagement**, with an instruction not to cite it |
+| The "what most people write" column ([Appendix B](/projections/self-study/S001.md#appendix-b--the-five-items-and-what-each-is-for)) | The room supplies this by letting learners hear each other | Marked **second-hand and not measured** in [Appendix D](/projections/self-study/S001.md#appendix-d--what-you-are-missing-by-working-alone) |
+| The planted findings ([Appendix C](/projections/self-study/S001.md#appendix-c--what-the-brief-was-hiding)) | A constructed brief needs a key, or the section 4 activity has no resolution | Presented as what was planted, not as what a real brief would contain |
 
-**The constructed timetables are the sharpest case.** The facilitated day claims real outcome data. This projection could have quietly reproduced that claim; instead it constructs cases that make the same teaching point and says they are constructed. **A projection may select, sequence and stage; it may not upgrade warrant** — and inventing data would have been the largest possible violation of that rule.
+**No cohort data is invented.** The facilitated session's predictions resolve against a distribution; section 8 states plainly that a single reader is not a distribution and resolves against the reader alone, labelling that as much weaker.
 
 ## Rule 2 — no warrant upgraded
 
-The jagged-frontier material is the test case. In the wiki it carries a recorded limitation: the note behind it was written from an abstract rather than a full text, and no magnitude is usable. **That limitation is restated inline in section 7.2**, in the body text rather than in a footnote or a link, precisely because a self-learner may be reading without the rest of the repository available.
+Three limitations that the wiki defers to linked notes are **inlined in the body text**, because a solo reader may have nothing else open:
 
-Three further boundary conditions were **added inline** that the wiki defers to linked notes. This is not new knowledge; it is the same knowledge moved to where a solo reader will encounter it:
+- The jagged-frontier note rests on an abstract; shape usable, no number is (§7).
+- Productive Failure's evidence is school, university and laboratory; the author's adult-and-corporate claim is uncited in his own reference list (§7).
+- The vendor documentation is definitional and publishes no adoption or failure-rate data (§5.1).
 
-- Retrieval practice depends on success, or on failure followed by correction (§5.2).
-- The useful spacing gap is not a constant and scales with the retention interval (§5.3).
-- Interleaving helps most when the categories are genuinely confusable (§5.4).
+**The third is the one most likely to be lost in a projection**, because a workflow section reads as authoritative by virtue of being executable. It is stated twice.
 
-Each of these is a case where **a flat directional statement would have given a self-learner a more confident picture than the evidence supports** — from a text whose thesis is calibration.
+## Rule 3 — evidence class and decay travel with the claim — **DEPARTURE**
 
-## Rule 3 — evidence class and decay travel with the claim
+**The BSc projection refuses to name products, versions or menu paths.** Its reasoning was sound: it has no verification cycle, so it carries the durable shape and declines the perishable detail.
 
-`pedagogy` claims arrive with direction and mechanism and no magnitude, exactly as in the wiki. No effect size appears anywhere in this projection.
+**This projection names them.** The departure is deliberate and the reason is that the programme's purpose changed: these units exist to teach a workflow on a specific platform, and a workflow with the product removed is not a weaker version of the lesson but a different and largely useless one.
 
-`platform` claims — the agent-mode and documentation-server behaviour in §6, §7.3 and Appendix E — are **deliberately written without naming a product, a version, an endpoint or a menu path.** The BSc day names all of them because it is verified before each offering and has a register to catch the decay. This projection has no such cycle, so it carries the durable shape and refuses the perishable detail. Appendix E describes what to look for rather than where to click.
+**The compensation is a perishability warning at the point of use**, stating that product names, tiers and feature boundaries change frequently, instructing the reader to record the date they checked, and — the load-bearing sentence — **"if what you find today contradicts what is written above, what you found is right and this page is stale."**
+
+**This is a real increase in decay risk and it is accepted rather than solved.** A reader who finds this projection three years from now will find product detail that has moved. The durable/perishable split in each unit is what they should read instead.
 
 ## Rule 4 — nothing asserted beyond what the claims license
 
-One place required abstention, and it is recorded in the text itself.
-
-**The facilitated day resolves prediction P2 against a cohort distribution. No cohort has ever run this programme, so no distribution exists.** Section 9 states this in the body rather than substituting a plausible number, and tells the reader their P2 resolves against themselves alone — explicitly a weaker instrument, to be treated as one observation rather than evidence about people in general.
+One abstention is recorded in the text. The facilitated session's premise is that most learners cannot answer opening item 2. **A solo reader who answers it well is not a counter-example to the premise**, and §8 says so directly rather than letting the reader conclude either that the session is wrong or that they are unusual.
 
 ## Rule 5 — abstention is a valid output
 
-**Two of the eight phase mechanisms do not survive the loss of the room**, and the projection says so rather than offering a substitute of equal advertised strength.
+**One mechanism does not survive the loss of the room, and no substitute is offered for it.**
 
-- **Error disclosure after higher-status modelling.** The mechanism *is* the status asymmetry — a senior person discloses a real failure first, which is what makes disclosure safe. Alone there is no asymmetry and nothing to make safe. A written self-post-mortem against a four-item rubric is offered and is **labelled in the text as a substitute that is not as good.**
-- **Peer articulation with a genuine adversary.** A partner who actually disagrees cannot be simulated. A 24-hour delay and a written self-attack recovers part of it — the delay is doing the work that the second person did — and the text says which part is lost.
+Error disclosure after higher-status modelling — a senior practitioner describing an engagement they should have declined — depends on the status asymmetry for its safety. Alone there is no asymmetry. [Appendix D](/projections/self-study/S001.md#appendix-d--what-you-are-missing-by-working-alone)'s final row is left empty rather than filled with a journalling prompt.
 
-A third is partial: **interleaving requires material from several days to mix**, and a solo reader on day one has nothing to interleave with. The dated schedule in §10 is where interleaving first becomes available, which is why it is a table with real prompts rather than an instruction to "space your revision".
+Two mechanisms are partially recovered and labelled:
 
-## What the review found, and what changed
+- **A genuine adversary** → the stated criterion applied by the reader. **Weaker: you will pass conditions a stranger would not.**
+- **A cohort distribution** → self-resolution. **Much weaker: one observation.**
 
-This projection exists because a structural review of the BSc day found that, read alone, it was **three documents wearing one coat** — a learner chapter, a facilitator run-sheet and a governance register — and that the reading order it mandated destroyed the mechanisms it taught.
+## Rule 6 — the social precondition is raised early — **DEPARTURE**
 
-| Defect found | What this projection does |
-|---|---|
-| Spoiled its own experiments by mandating the chapter be read first | Sequence enforced structurally; explanations gated behind the activities they would spoil |
-| Activities had no materials | Appendices A to D supply them |
-| Social phases had no solo analogue | Every one carries a stated substitution, with its strength labelled |
-| No keys, rubrics or ground truth | Every activity has a key, a model answer or a scoring rubric; resolution rules are stated **before** predictions are made |
-| Violated its own cognitive-load principles | Bold rationed to roughly one sentence per section; jargon defined at first use; load-bearing evidence inlined; time estimates and recaps added |
-| Exposition with retrieval bolted on at the end | Checkpoints embedded after each idea; dated schedule with prompts written out |
-| Governance mixed into learner content | Left in the wiki; none reproduced here |
-| Told the reader what they would feel and fail at | Converted into questions the reader answers |
+The facilitated programme does not address psychological safety until Stage 2, on the load grounds recorded in [WP-001 §8](/wiki/whitepapers/WP-001.md).
 
-**The BSc day was not degraded to build this.** It was restored to the design document it is, and the two now serve the readers they were each written for.
+**This projection raises it in §7 of the first unit.** The reason is that the load argument does not transfer: a solo reader is not spending affective budget in a room, and more importantly, **nobody else will raise it for them.** A learner who finishes this page able to construct a disqualifying condition and unable to say it aloud has been left in a worse position than a cohort learner, who at least has eight sessions and a facilitator ahead of them.
+
+This is a projection making a different sequencing choice from its source, which [concepts/projections.md](/concepts/projections.md) permits — sequencing is explicitly within a projection's licence. **It is recorded here because a reader comparing the two will notice the difference and should find it explained rather than have to infer it.**
 
 ## What is not built
 
-**Eighty-nine days.** This is one exemplar. The remaining days need the same treatment, and the materials problem does not get easier — several later days depend on a live substrate, a cohort, and an assessed portfolio, none of which a solo learner has.
+**Eighty-nine units.** This is one exemplar, and the honest expectation is that the projection gets harder rather than easier: later sessions lean on a live customer, a running system, a team and an assessed portfolio, and the materials problem compounds.
 
-**The honest expectation is that the projection degrades as the programme progresses**, because the later days lean harder on things a room provides. Whether it degrades gracefully or falls over is the question the next few days will answer, and the answer belongs in this file when it is known.
+**The stages most at risk are Assure, Operate and Transfer**, where the session's object is an organisation rather than an artefact. Whether a solo edition of those degrades gracefully or falls over is unknown, and the answer belongs in this file when it is known.

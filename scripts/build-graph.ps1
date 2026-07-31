@@ -367,12 +367,23 @@ if ($esMissing.Count) {
 #   S001-S015 formerly used a prose heading that this parser skipped. Converted
 #             2026-07-26: the heading was the whole defect -- S011-S015 already
 #             had conforming tables and were invisible only because of it.
+#
+# 2026-07-31: the heading became a defect a SECOND time. The engagement-shaped
+# programme writes "Perishable content in this session", and this parser -- which
+# matched one literal string -- silently returned zero claims for all ninety
+# sessions while every structural gate still passed. Both headings are now
+# accepted. The lesson is the one the repository already learned once: an
+# extractor keyed to a literal heading fails silently and reports success.
 $claims   = [System.Collections.Generic.List[object]]::new()
 $claimGap = @()
 foreach ($n in $nodes) {
     if ($n.kind -ne 'seminar') { continue }
     $text = Get-Content -LiteralPath (Join-Path $RepoRoot $n.path) -Raw
-    $i = $text.IndexOf('## Perishable content in this day')
+    $i = -1
+    foreach ($h in @('## Perishable content in this session', '## Perishable content in this day')) {
+        $i = $text.IndexOf($h)
+        if ($i -ge 0) { break }
+    }
     if ($i -lt 0) { $claimGap += $n.id; continue }
     $j = $text.IndexOf("`n## ", $i + 5)
     if ($j -lt 0) { $j = $text.Length }
@@ -494,9 +505,18 @@ foreach ($n in $nodes) {
 # prose no extractor could see.
 #
 # No judgement is applied, exactly as for the platform claims. The items are the
-# ones the day already wrote. A day whose phase 3 runs as prose rather than as
-# labelled cases contributes no contrast moves and is recorded in the gap list
-# rather than having cases invented for it.
+# ones the day already wrote. A day whose contrasting section runs as prose rather
+# than as labelled cases contributes no contrast moves and is recorded in the gap
+# list rather than having cases invented for it.
+#
+# 2026-07-31: two structures are now accepted, because the engagement-shaped
+# programme replaced eight numbered phases with seven named movements. The
+# eliciting machinery moved from "Phase 1" to "The situation" and the contrasting
+# machinery from "Phase 3" to "How it goes wrong", which is a better home for it --
+# a labelled failure mode with a warning sign IS a contrasting case, and it is the
+# format the source practice uses. The `phase` field is retained rather than
+# renamed so that existing consumers keep working; it now records which movement
+# the move came from, not which timed phase.
 $moves   = [System.Collections.Generic.List[object]]::new()
 $moveGap = @()
 foreach ($n in $nodes) {
@@ -518,9 +538,11 @@ foreach ($n in $nodes) {
         platform_anchor  = $n.platform_anchor
     }
 
-    # phase 1 - the numbered pretest and prediction items, in order
+    # the eliciting items - numbered, in order. "The situation" in the engagement
+    # programme; "Phase 1" in the archived seminar shape.
     $k = 0
-    $p1 = [regex]::Match($text, '(?ms)^## Phase 1\b.*?(?=^## |\z)')
+    $p1 = [regex]::Match($text, '(?ms)^## The situation\b.*?(?=^## |\z)')
+    if (-not $p1.Success) { $p1 = [regex]::Match($text, '(?ms)^## Phase 1\b.*?(?=^## |\z)') }
     if ($p1.Success) {
         foreach ($m in [regex]::Matches($p1.Value, '(?ms)^(\d+)\.[ \t]+(.+?)(?=^\d+\.[ \t]|\z)')) {
             $k++
@@ -531,13 +553,16 @@ foreach ($n in $nodes) {
         }
     }
 
-    # phase 3 - the labelled contrasting cases, in order
+    # the contrasting cases - labelled, in order. "How it goes wrong" in the
+    # engagement programme; "Phase 3" in the archived seminar shape.
     $c = 0
-    $p3 = [regex]::Match($text, '(?ms)^## Phase 3\b.*?(?=^## |\z)')
+    $p3 = [regex]::Match($text, '(?ms)^## How it goes wrong\b.*?(?=^## |\z)')
+    $ph = 4
+    if (-not $p3.Success) { $p3 = [regex]::Match($text, '(?ms)^## Phase 3\b.*?(?=^## |\z)'); $ph = 3 }
     if ($p3.Success) {
         foreach ($m in [regex]::Matches($p3.Value, '(?m)^-[ \t]+\*\*(.+?)\*\*[ \t]*(?:\u2014|\u2013|--|-)?[ \t]*(.*)$')) {
             $c++
-            $row = [ordered]@{ id = ('{0}.contrast{1}' -f $day, $c); kind = 'contrast'; phase = 3; seq = $c
+            $row = [ordered]@{ id = ('{0}.contrast{1}' -f $day, $c); kind = 'contrast'; phase = $ph; seq = $c
                                label = (($m.Groups[1].Value -replace '\s+', ' ').Trim())
                                text  = (($m.Groups[2].Value -replace '\s+', ' ').Trim()) }
             foreach ($p in $common.GetEnumerator()) { $row[$p.Key] = $p.Value }

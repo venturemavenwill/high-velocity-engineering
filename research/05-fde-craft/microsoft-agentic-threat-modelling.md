@@ -84,7 +84,7 @@ There are **placeholders shaped like sign-off**: a reviewer row per control with
 
 ## Classified against the five classes of conclusion
 
-This programme's [Agent Configuration Standard](/wiki/program/13-Agent-Configuration-Standard.md) distinguishes a configured control, an executable check, an observed result, outcome evidence, and unsupported inference. Applying it strictly:
+This programme's [Agent Configuration Standard](/archive/bsc-programme/program/13-Agent-Configuration-Standard.md) distinguishes a configured control, an executable check, an observed result, outcome evidence, and unsupported inference. Applying it strictly:
 
 | Class | What this pipeline has |
 |---|---|
