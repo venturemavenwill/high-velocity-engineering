@@ -179,6 +179,18 @@ $effect = @($md | Where-Object { $_.FullName -match '[\\/]wiki[\\/]' } |
                ForEach-Object { "$($_.Filename):$($_.LineNumber)" })
 Check 'no effect size asserted in the wiki' ($effect.Count -eq 0) ($effect | Select-Object -First 3)
 
+# A JSON-escaped string written through a raw-parameter edit tool leaves its
+# escapes behind as literal text: \u2014 where an em dash belongs, \" where a
+# quote does. It renders as visible garbage, and every other gate passes -- the
+# links resolve, the headings parse, the graph builds. Three files carried 18
+# occurrences between them before anyone looked, and they were found by an
+# author reading prose rather than by this script.
+$escapes = @($md | Where-Object { $_.FullName -notmatch '[\\/](archive|node_modules)[\\/]' } |
+                Select-String -Pattern '\\u[0-9a-fA-F]{4}|\\n\\n' |
+                ForEach-Object { "$($_.Filename):$($_.LineNumber)" })
+Check 'no literal escape sequence survives in the prose' ($escapes.Count -eq 0) `
+      ($escapes | Select-Object -First 3)
+
 # ---------------------------------------------------------------- structure
 
 Write-Host "`nstructure"

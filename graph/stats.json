@@ -1,17 +1,17 @@
 {
   "node_count": 563,
-  "edge_count": 14306,
-  "claim_count": 656,
+  "edge_count": 15039,
+  "claim_count": 765,
   "claim_days": 90,
   "claim_gap_days": 0,
   "research_claim_count": 247,
-  "prediction_count": 589,
+  "prediction_count": 638,
   "evidence_count": 360,
-  "move_count": 1097,
+  "move_count": 1156,
   "move_days": 90,
   "move_gap_days": 0,
   "moves_by_kind": {
-    "contrast": 647,
+    "contrast": 706,
     "elicit": 450
   },
   "source_count": 58,
@@ -46,9 +46,9 @@
   "edges_by_type": {
     "depends_on": 216,
     "documents": 90,
-    "grounded_in": 1283,
+    "grounded_in": 1561,
     "has_whitepaper": 90,
-    "links_to": 11090,
+    "links_to": 11545,
     "part_of": 827,
     "re_tests": 93,
     "retrieves_from": 615,
@@ -60,10 +60,10 @@
     "this-programme-only": 41
   },
   "predictions_by_ns": {
-    "fde-craft": 377,
+    "fde-craft": 385,
+    "measurement": 88,
     "ai-systems": 74,
-    "measurement": 74,
-    "pedagogy": 43,
+    "pedagogy": 70,
     "platform": 15,
     "assessment": 6
   }
