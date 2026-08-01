@@ -24,6 +24,17 @@ desktop.ini
 # the copyright handling section of research/99-source-register/source-register.md.
 raw/
 
+# Correspondence. NEVER committed. This repository is public.
+# Incoming mail carries third-party email addresses, message IDs, tenant IDs and
+# — in at least one case already — a OneDrive sharing URL with a live access
+# token in the query string. None of that is ours to publish, and a .eml is not
+# obviously dangerous when you are looking at a file listing.
+#
+# It was untracked but not ignored until 2026-08-01, which is the state that
+# loses: `git add -A` would have swept it in silently, and the leak guard in
+# scripts/verify.ps1 only covers directories named here.
+inquiries/
+
 # Transient
 *.tmp
 *.bak
