@@ -6,7 +6,7 @@
 
 Most curricula are a syllabus: a list of topics in an order someone defended once, in a format chosen before the content existed. This is the other thing.
 
-It is a body of **claims**, each carrying the evidence that warrants it, the namespace that governs what it may be compared against, and the rate at which it goes stale. Teaching formats are **projected** from that body rather than being the body itself. The three-year BSc in [wiki/](/archive/bsc-programme/Home.md) is the first projection and the only finished one — **it is a seed, not the product.** A two-day workshop, a certification path, a thirty-day onboarding plan and an engagement playbook are equally legitimate read models over the same claims.
+It is a body of **claims**, each carrying the evidence that warrants it, the namespace that governs what it may be compared against, and the rate at which it goes stale. Teaching formats are **projected** from that body rather than being the body itself. The current [engagement-shaped programme](/wiki/Home.md) is one projection; the superseded BSc remains under `archive/` as part of the correction record and is excluded from the live graph.
 
 341 markdown files, one graph builder, one MCP server. **Every fact lives in the markdown**; the two pieces of code are derived tooling that never writes to the substrate.
 
@@ -15,21 +15,21 @@ flowchart TD
   S["sources/ · 11<br/>raw vendor and design material"] --> R
   R["research/ · 93<br/>Cliff Notes — what was verified,<br/>from where, and what the source omits"] --> W
   R --> P
-  W["wiki/ · 223<br/>the BSc · 90 seminar days + 90 whitepapers"]
+  W["wiki/ · 213<br/>the engagement programme · 90 sessions + 90 whitepapers"]
   P["projections/<br/>other read models"]
   C["concepts/ · 3<br/>namespaces · projections · entry state"] -.governs.-> W
   C -.governs.-> P
   W --> G
   P --> G
   C --> G
-  G["graph/ · 343 nodes · 8,264 edges<br/>646 platform claims · 527 predictions · 360 evidence rows · 683 teaching moves · 58 sources<br/>derived · regenerable · never hand-edited"] --> M["mcp/hve-iq<br/>read-only MCP server"] --> A["any agent"]
+  G["graph/ · 340 nodes · 7,720 edges<br/>48 course claims · 1,001 platform claims · 638 predictions · 360 evidence rows · 1,158 teaching moves · 58 sources<br/>derived · regenerable · never hand-edited"] --> M["mcp/hve-iq<br/>read-only MCP server"] --> A["any agent"]
 ```
 
 ## Start here
 
 | If you want to | Go to |
 |---|---|
-| Read the programme | [wiki/Home.md](/archive/bsc-programme/Home.md) |
+| Read the programme | [wiki/Home.md](/wiki/Home.md) |
 | Check what backs a claim | [research/](/research/99-source-register/source-register.md) |
 | Build your own format from this | [concepts/projections.md](/concepts/projections.md) |
 | Query it from an agent | [mcp/hve-iq/](/mcp/hve-iq/README.md) |
@@ -105,7 +105,7 @@ Registered in [.vscode/mcp.json](/.vscode/mcp.json), so in Copilot agent mode yo
 
 > *"Using hve-iq, what would a two-day workshop on judge bias and criterion construction also have to cover, for an audience of experienced engineers?"*
 
-Eight tools. Four answer structural questions; four are the claim and warrant layer — `hve_platform_exposure` (what a vendor change broke), `hve_predictions` (what would prove this wrong), `hve_evidence` (what a claim rests on) and `hve_sources` (**whether anyone actually read it**). Details and known gaps: [mcp/hve-iq/README.md](/mcp/hve-iq/README.md).
+Ten tools. `hve_course_claims` serves the current programme's human-voice practitioner judgements; `hve_platform_exposure` keeps the separate decay-aware durable/perishable layer. Details and known gaps: [mcp/hve-iq/README.md](/mcp/hve-iq/README.md).
 ## It corrects itself in public
 
 The most valuable and most fragile thing here. Superseded positions stay visible; amendments are annotated where they happened.

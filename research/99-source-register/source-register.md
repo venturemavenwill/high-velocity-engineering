@@ -119,6 +119,15 @@ All open Microsoft Learn documentation, retrieved via the Learn documentation to
 | What is Microsoft Defender for Cloud? | `https://learn.microsoft.com/azure/defender-for-cloud/defender-for-cloud-introduction` | search excerpts only |
 | Security for AI — discover and protect | `https://learn.microsoft.com/security/security-for-ai/discover`, `/protect` | search excerpts only |
 
+### Hypervelocity Engineering lifecycle — read 2026-08-05
+Note: [hypervelocity-engineering-lifecycle.md](/research/06-microsoft-platform/hypervelocity-engineering-lifecycle.md). **A first-party GitHub and Microsoft Azure programme graphic, supplied directly as an image rather than retrieved from a documentation site.** It is the source of the eight canonical stage names this programme adopted at [11-Canonical-Lifecycle.md](/wiki/program/11-Canonical-Lifecycle.md).
+
+**Two limitations belong with it and are recorded rather than smoothed away.** No Microsoft Learn article carrying this sequence under this name was located on the day of reading, so **the artefact cannot be cited by URL, edition or publication date**. And it carries no version marker, which for vocabulary that decays in months is the field most worth having.
+
+| Source | URL | Read |
+|---|---|---|
+| Hypervelocity Engineering lifecycle graphic, GitHub Copilot and Microsoft Azure branded | **none — supplied as an image; no Learn article carrying this sequence located 2026-08-05** | **read in full 2026-08-05 — definitional for vocabulary only; its eight benefit tiles carry no baseline, period, denominator or instrument and license nothing** |
+
 ### Foundry agent build and runtime — read 2026-07-31
 Note: [foundry-agent-build-and-runtime.md](/research/06-microsoft-platform/foundry-agent-build-and-runtime.md). Roughly thirty Learn pages were touched across eleven searches; the rows below record the four read in full and the excerpt-only sources grouped by subject. **Several consulted pages are `foundry-classic` variants of superseded surfaces, and one documents a model its own first paragraph calls deprecated — recorded rather than smoothed away.**
 

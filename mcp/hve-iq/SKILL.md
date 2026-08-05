@@ -30,6 +30,7 @@ Then pick an entry state, and pass it to every closure call:
 | Call | For |
 |---|---|
 | `hve_namespaces` | Once per session. What each kind of claim licenses you to say. |
+| `hve_course_claims` | The current course's selected human-voice practitioner judgements. |
 | `hve_search` | Which days cover this. |
 | `hve_dependency_closure` | **The important one.** With their entry state: what to deliver, what to declare, what to assume. |
 | `hve_teaching_moves` | **Call this before `hve_get`, always.** The day's own opening — what it asks before it explains, and the cases it sets side by side. |
@@ -82,9 +83,9 @@ Three rules, and they are cheap:
 
 Any retrieval-improvement percentage · agents launching in weeks rather than months · any maturity model · any analyst projection · any agreement rate for a Foundry evaluator · any Purview or Defender detection or false-positive rate. None is substantiated by a published source.
 
-## The BSc is one projection, not the truth
+## The current course is one projection, not the truth
 
-`wiki/` holds a three-year programme — the first format projected from these claims and the only finished one. **A seed, not the product.** A workshop, a certification path, a thirty-day onboarding plan are equally legitimate. Asked for a different format, you are projecting, not inventing.
+`wiki/` holds the engagement-shaped programme. The superseded BSc remains under `archive/` as a self-correction record and is excluded from the live graph. **The current course is still a projection, not the product.** A workshop, a certification path or a thirty-day onboarding plan is equally legitimate. Asked for a different format, you are projecting, not inventing.
 
 Dependencies are relative to an assumed entry state, and the wiki natively encodes one: *knows nothing*. Read [the register's limitations](/concepts/entry-state.md) before quoting a number from it — it is untested against a real audience and possibly circular, and says so.
 

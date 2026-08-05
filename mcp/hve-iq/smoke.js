@@ -23,13 +23,18 @@ const check = (label, cond, detail = "") => {
 const listedTools = (await client.listTools()).tools;
 const tools = listedTools.map((t) => t.name).sort();
 console.log("\ntools:", tools.join(", "), "\n");
-check("nine tools registered", tools.length === 9, `${tools.length}`);
+check("ten tools registered", tools.length === 10, `${tools.length}`);
 check("hve_get advertises body controls", ["section", "start_line", "line_count"].every((key) => listedTools.find((t) => t.name === "hve_get")?.inputSchema?.properties?.[key]));
 
 const ns = await call("hve_namespaces");
 check("eight namespaces", ns.namespaces.length === 8, ns.namespaces.map((n) => n.namespace).join(", "));
 check("platform decays in months", ns.namespaces.find((n) => n.namespace === "platform")?.decay === "months");
 check("pedagogy forbids effect sizes", /No effect size/.test(ns.namespaces.find((n) => n.namespace === "pedagogy")?.licenses ?? ""));
+
+const courseClaims = await call("hve_course_claims", { query: "wrong problem", limit: 100 });
+check("current human-voice claims indexed", courseClaims.total_indexed === 48, `${courseClaims.total_indexed}`);
+check("human-voice claims are searchable", courseClaims.matched > 0, `${courseClaims.matched} match(es)`);
+check("human-voice claims retain their warrant", courseClaims.results.every((claim) => /practitioner judgement/.test(claim.warrant)));
 
 const perishable = await call("hve_search", { platform_bearing: true, limit: 1 });
 check("platform-bearing pages found (>= 204)", perishable.total >= 204, `${perishable.total}`);

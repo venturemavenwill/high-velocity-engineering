@@ -25,7 +25,8 @@ const REPO = process.env.HVE_REPO_ROOT ?? join(HERE, "..", "..");
 const graph = JSON.parse(readFileSync(join(REPO, "graph", "graph.json"), "utf8"));
 const NODES = graph.nodes;
 const EDGES = graph.edges;
-const CLAIMS = graph.claims ?? [];
+const COURSE_CLAIMS = graph.claims ?? [];
+const PLATFORM_CLAIMS = graph.platform_claims ?? COURSE_CLAIMS.filter((claim) => claim.durable && claim.perishable);
 const PREDICTIONS = graph.predictions ?? [];
 const EVIDENCE = graph.evidence ?? [];
 const MOVES = graph.teaching_moves ?? [];
@@ -34,7 +35,7 @@ const SOURCES = graph.sources ?? [];
 // Days whose perishable content this index cannot see. Only S090 remains: it
 // genuinely has none. Surfaced by the exposure tool rather than left as a silent
 // gap in a decay answer.
-const CLAIM_DAYS = new Set(CLAIMS.map((c) => c.day));
+const CLAIM_DAYS = new Set(PLATFORM_CLAIMS.map((c) => c.day));
 const BLIND = NODES.filter((n) => n.kind === "seminar" && !CLAIM_DAYS.has(n.id)).map((n) => n.id).sort();
 
 const byId = new Map(NODES.map((n) => [n.id, n]));
@@ -136,6 +137,39 @@ server.registerTool(
     return ok({
       rule: "No claim crosses a namespace boundary without decoding. A platform claim is not evidence for a pedagogy conclusion, and a pedagogy claim never carries a magnitude anywhere.",
       namespaces: [...seen.values()].sort((a, b) => b.pages - a.pages)
+    });
+  }
+);
+
+// ---------------------------------------------------------- course claims
+
+server.registerTool(
+  "hve_course_claims",
+  {
+    title: "Find the current course's human-voice claims",
+    description:
+      "Search practitioner judgements carried into the current engagement-shaped course. These are paraphrased human-voice claims from the course's two internal-practice research notes, not claims from the archived BSc and not vendor documentation.",
+    inputSchema: {
+      query: z.string().optional().describe("matched against claim text"),
+      note: z.string().optional().describe("restrict to a source-note id or filename fragment"),
+      limit: z.number().int().min(1).max(100).optional()
+    }
+  },
+  async ({ query, note, limit = 20 }) => {
+    const q = query?.toLowerCase();
+    const wantedNote = note?.toLowerCase();
+    const hits = COURSE_CLAIMS.filter((claim) => {
+      if (wantedNote && !claim.note.toLowerCase().includes(wantedNote)) return false;
+      return !q || claim.claim.toLowerCase().includes(q);
+    });
+    return ok({
+      total_indexed: COURSE_CLAIMS.length,
+      matched: hits.length,
+      returned: Math.min(hits.length, limit),
+      results: hits.slice(0, limit),
+      truncated: hits.length > limit,
+      note:
+        "These are practitioner judgements, not measured outcomes. Preserve the warrant and do not turn field experience into an effect size."
     });
   }
 );
@@ -366,7 +400,7 @@ server.registerTool(
   async ({ product, days, limit = 40 }) => {
     const q = product?.toLowerCase();
     const dayFilter = days?.length ? new Set(days) : null;
-    const hits = CLAIMS.filter((c) => {
+    const hits = PLATFORM_CLAIMS.filter((c) => {
       if (dayFilter && !dayFilter.has(c.day)) return false;
       if (!q) return true;
       return `${c.platform_anchor ?? ""} ${c.perishable} ${c.durable}`.toLowerCase().includes(q);
@@ -383,7 +417,7 @@ server.registerTool(
 
     return ok({
       product: product ?? "(all)",
-      total_claims_indexed: CLAIMS.length,
+      total_claims_indexed: PLATFORM_CLAIMS.length,
       matched: hits.length,
       days_affected: byDay.size,
       by_day: [...byDay.entries()]
@@ -619,7 +653,13 @@ if (!PORT) {
   createServer(async (req, res) => {
     // Container Apps probes this; it must never require auth.
     if (req.url === "/health") {
-      return send(res, 200, { status: "ok", nodes: NODES.length, claims: CLAIMS.length, readonly: true });
+      return send(res, 200, {
+        status: "ok",
+        nodes: NODES.length,
+        course_claims: COURSE_CLAIMS.length,
+        platform_claims: PLATFORM_CLAIMS.length,
+        readonly: true
+      });
     }
     if (req.url !== "/mcp") return send(res, 404, { error: "not found. MCP is at /mcp" });
     if (!authorised(req)) return unauthorised(res);

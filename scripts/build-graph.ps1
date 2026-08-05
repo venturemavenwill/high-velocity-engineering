@@ -5,6 +5,8 @@
 # Outputs (all under ./graph):
 #   nodes.jsonl   one JSON object per document
 #   edges.jsonl   one JSON object per typed relationship
+#   claims.jsonl           human-voice claims carried by the current course
+#   platform-claims.jsonl  durable/perishable pairs authored in current sessions
 #   research-claims.jsonl  source-grounded claims authored in research notes
 #   graph.json    both of the above in a single file, for small-context loading
 #   stats.json    counts, for a quick sanity check
@@ -76,7 +78,7 @@ function Get-Layer([string]$rel) {
 # be read, not just everything written by a tool. Ignoring an input while indexing
 # it is a leak with an audit trail.
 $files = @(Get-ChildItem -Path $RepoRoot -Recurse -File -Filter *.md |
-           Where-Object { $_.FullName -notmatch '[\\/](node_modules|\.git|\.venv|venv|__pycache__|site-packages|raw)[\\/]' })
+           Where-Object { $_.FullName -notmatch '[\\/](archive|node_modules|\.git|\.venv|venv|__pycache__|site-packages|raw)[\\/]' })
 
 # Get-ChildItem returns filesystem enumeration order, which differs between NTFS
 # and ext4 — so the same substrate produced a different node order on Windows and
@@ -664,6 +666,34 @@ foreach ($n in $nodes) {
     }
 }
 
+# --------------------------------------------------------- course claims
+
+# The engagement-shaped course was authored from practitioner judgements carried
+# in explicitly labelled `Human-voice claims worth carrying` sections. Those
+# claims replace the archived BSc's course-level claim surface. They remain
+# mechanically extracted: the judgement is in the note, never in this builder.
+$courseClaims = [System.Collections.Generic.List[object]]::new()
+foreach ($n in $nodes) {
+    if ($n.kind -ne 'research-note') { continue }
+    $text = Get-Content -LiteralPath (Join-Path $RepoRoot $n.path) -Raw
+    $match = [regex]::Match($text, '(?ms)^## Human-voice claims worth carrying\s*\r?\n(?<body>.*?)(?=^##\s|\z)')
+    if (-not $match.Success) { continue }
+
+    $index = 0
+    foreach ($claimMatch in [regex]::Matches($match.Groups['body'].Value, '(?m)^-\s+(.+?)\s*$')) {
+        $index++
+        $courseClaims.Add([pscustomobject]@{
+            id          = ('{0}.hv{1:D2}' -f $n.id, $index)
+            note        = $n.id
+            claim       = (($claimMatch.Groups[1].Value -replace '\*\*', '') -replace '\s+', ' ').Trim()
+            namespace   = $n.namespace
+            decay       = $n.decay
+            source_read = if ($text -match '(?im)^- \*\*Read:\*\*.*\bread in full\b') { 'full' } else { 'unknown' }
+            warrant     = 'practitioner judgement, paraphrased from internal practice material'
+        })
+    }
+}
+
 # ---------------------------------------------------------------- write
 
 $nodesPath = Join-Path $OutDir 'nodes.jsonl'
@@ -671,7 +701,8 @@ $edgesPath = Join-Path $OutDir 'edges.jsonl'
 
 $nodes | ForEach-Object { $_ | ConvertTo-Json -Compress -Depth 6 } | Set-Content $nodesPath -Encoding utf8
 $final | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content $edgesPath -Encoding utf8
-$claims | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join-Path $OutDir 'claims.jsonl') -Encoding utf8
+$courseClaims | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join-Path $OutDir 'claims.jsonl') -Encoding utf8
+$claims | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join-Path $OutDir 'platform-claims.jsonl') -Encoding utf8
 $researchClaims | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join-Path $OutDir 'research-claims.jsonl') -Encoding utf8
 $predictions | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join-Path $OutDir 'predictions.jsonl') -Encoding utf8
 $evidence | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join-Path $OutDir 'evidence.jsonl') -Encoding utf8
@@ -684,7 +715,8 @@ $sources | ForEach-Object { $_ | ConvertTo-Json -Compress } | Set-Content (Join-
 [pscustomobject]@{
     nodes       = $nodes
     edges       = $final
-    claims      = $claims
+    claims      = $courseClaims
+    platform_claims = $claims
     research_claims = $researchClaims
     predictions = $predictions
     evidence    = $evidence
@@ -703,9 +735,11 @@ $moveKind = [ordered]@{}; $moves | Group-Object kind | Sort-Object Name | ForEac
 [pscustomobject]@{
     node_count        = $nodes.Count
     edge_count        = $final.Count
-    claim_count       = $claims.Count
-    claim_days        = @($claims | Select-Object -ExpandProperty day -Unique).Count
-    claim_gap_days    = $claimGap.Count
+    claim_count       = $courseClaims.Count
+    claim_notes       = @($courseClaims | Select-Object -ExpandProperty note -Unique).Count
+    platform_claim_count = $claims.Count
+    platform_claim_days = @($claims | Select-Object -ExpandProperty day -Unique).Count
+    platform_claim_gap_days = $claimGap.Count
     research_claim_count = $researchClaims.Count
     prediction_count  = $predictions.Count
     evidence_count    = $evidence.Count
@@ -728,6 +762,7 @@ if ($esMap.Count) {
     Write-Host 'satisfiable_from:'
     $esMap.GetEnumerator() | ForEach-Object { '  {0,-32} {1}' -f $_.Key, $_.Value }
 }
+Write-Host "course claims:   $($courseClaims.Count) across $(@($courseClaims | Select-Object -ExpandProperty note -Unique).Count) notes"
 Write-Host "platform claims: $($claims.Count) across $(@($claims | Select-Object -ExpandProperty day -Unique).Count) days  (no table: $($claimGap.Count))"
 Write-Host "research claims: $($researchClaims.Count)"
 Write-Host "predictions:     $($predictions.Count)   evidence rows: $($evidence.Count)"

@@ -3,19 +3,21 @@
 > **This programme is shaped like an engagement, not like a degree.** Nine stages follow what a forward-deployed engineer actually does, from deciding whether to take the work through to compounding what was learned into the next one.
 >
 > 90 working sessions · 9 stages · 18 modules · 5 sessions per module
+>
+> **Eight stages carry the canonical Hypervelocity Engineering names published by GitHub and Microsoft.** The ninth has no canonical equivalent and keeps its own. The mapping, and what it cost, is at [Canonical Lifecycle](/wiki/program/11-Canonical-Lifecycle.md).
 
 ## The arc
 
 | Stage | Sessions | The question it answers |
 |---|---|---|
-| **1 · Qualify** | [S001–S010](#stage-1--qualify) | Should this work happen at all, and can you say no? |
-| **2 · Discover** | [S011–S020](#stage-2--discover) | What is the real problem, and who actually has it? |
-| **3 · Frame** | [S021–S030](#stage-3--frame) | What can be built, against what that cannot move? |
-| **4 · Prove** | [S031–S040](#stage-4--prove) | Is it feasible, and how cheaply can you find out? |
-| **5 · Build** | [S041–S050](#stage-5--build) | How is it delivered under real constraint? |
-| **6 · Assure** | [S051–S060](#stage-6--assure) | Is it safe, and how would you know? |
-| **7 · Operate** | [S061–S070](#stage-7--operate) | Does it work in production, and what does that measurement license? |
-| **8 · Transfer** | [S071–S080](#stage-8--transfer) | Can they run it without you? |
+| **1 · Discover** | [S001–S010](#stage-1--discover) | Should this work happen at all, and can you say no? |
+| **2 · Define** | [S011–S020](#stage-2--define) | What is the real problem, and who actually has it? |
+| **3 · Decompose** | [S021–S030](#stage-3--decompose) | What can be built, against what that cannot move? |
+| **4 · Plan** | [S031–S040](#stage-4--plan) | Is it feasible, and how cheaply can you find out? |
+| **5 · Implement** | [S041–S050](#stage-5--implement) | How is it delivered under real constraint? |
+| **6 · Review** | [S051–S060](#stage-6--review) | Is it safe, and how would you know? |
+| **7 · Deliver** | [S061–S070](#stage-7--deliver) | Does it work in production, and what does that measurement license? |
+| **8 · Operate** | [S071–S080](#stage-8--operate) | Can they run it without you? |
 | **9 · Compound** | [S081–S090](#stage-9--compound) | What is better next time — the system, the people, or the practice? |
 
 **The arc closes into a cycle rather than an exit.** Stage 9 feeds Stage 1. That is the source material's own logic and not this design's invention: across the corpus behind this programme, language about iteration, maturity, adoption and reinforcement outnumbers language about decommissioning by more than two orders of magnitude.
@@ -30,7 +32,7 @@ This programme is built on **a public formulation of practice from a customer-em
 
 ---
 
-## Stage 1 · Qualify
+## Stage 1 · Discover
 
 **M01 · The engagement before it starts**
 
@@ -52,7 +54,7 @@ This programme is built on **a public formulation of practice from a customer-em
 | S009 | The cost of doing nothing |
 | S010 | A refusal you can defend ⊘ |
 
-## Stage 2 · Discover
+## Stage 2 · Define
 
 **M03 · The workshop as an instrument**
 
@@ -74,7 +76,7 @@ This programme is built on **a public formulation of practice from a customer-em
 | S019 | The commitment ask |
 | S020 | A discovery you can act on ⊘ |
 
-## Stage 3 · Frame
+## Stage 3 · Decompose
 
 **M05 · From problem to requirement**
 
@@ -96,7 +98,7 @@ This programme is built on **a public formulation of practice from a customer-em
 | S029 | Trade studies, and when not to run one |
 | S030 | A design at the scope of its decision ⊘ |
 
-## Stage 4 · Prove
+## Stage 4 · Plan
 
 **M07 · Cheap evidence first**
 
@@ -118,7 +120,7 @@ This programme is built on **a public formulation of practice from a customer-em
 | S039 | From prototype to commitment |
 | S040 | A proof somebody will fund ⊘ |
 
-## Stage 5 · Build
+## Stage 5 · Implement
 
 **M09 · Delivery under constraint**
 
@@ -140,7 +142,7 @@ This programme is built on **a public formulation of practice from a customer-em
 | S049 | What the agent did that you cannot explain |
 | S050 | A build you can defend line by line ⊘ |
 
-## Stage 6 · Assure
+## Stage 6 · Review
 
 **M11 · Threat modelling as an engineered artefact**
 
@@ -162,7 +164,7 @@ This programme is built on **a public formulation of practice from a customer-em
 | S059 | Sensitive use, and the decision it forces |
 | S060 | An assessment that generates work, not a sign-off ⊘ |
 
-## Stage 7 · Operate
+## Stage 7 · Deliver
 
 **M13 · Running what you built**
 
@@ -184,7 +186,7 @@ This programme is built on **a public formulation of practice from a customer-em
 | S069 | Reporting a result that undermines you |
 | S070 | A measurement you will defend ⊘ |
 
-## Stage 8 · Transfer
+## Stage 8 · Operate
 
 **M15 · Handover as an engineered act**
 

@@ -1,6 +1,6 @@
 # Forward-Deployed Engineering — the engagement arc
 
-> **Ninety working sessions, shaped like an engagement rather than a degree.** From deciding whether to take the work, through discovery, framing, proof, build, assurance, operation and transfer, to compounding what was learned into the next one.
+> **Ninety working sessions, shaped like an engagement rather than a degree.** From deciding whether to take the work, through definition, decomposition, planning, implementation, review and delivery, to leaving somebody else able to operate it and compounding what was learned into the next engagement.
 
 ## Start here
 
@@ -8,13 +8,16 @@
 |---|---|
 | See the whole arc and all 90 sessions | [Programme Map](/wiki/program/01-Programme-Map.md) |
 | See stages, modules and complexity classes | [Stage and Module Map](/wiki/program/07-Module-Map.md) |
+| See how the stages map to the canonical lifecycle | [Canonical Lifecycle](/wiki/program/11-Canonical-Lifecycle.md) |
 | Understand how anything is assessed | [Assessment Architecture](/wiki/program/03-Assessment-Architecture.md) |
 | Understand what a claim here is worth | [Whitepaper Standard](/wiki/program/05-Whitepaper-Standard.md) |
 | Begin | [S001 · Why this programme is shaped like an engagement](/wiki/seminars/S001.md) |
 
 ## The arc
 
-**Qualify → Discover → Frame → Prove → Build → Assure → Operate → Transfer → Compound**
+**Discover → Define → Decompose → Plan → Implement → Review → Deliver → Operate → Compound**
+
+Eight of the nine carry the canonical [Hypervelocity Engineering](/wiki/program/11-Canonical-Lifecycle.md) names published by GitHub and Microsoft. **Compound is this programme's own**, because the published lifecycle closes through a feedback arrow rather than a named step — and a feedback arrow is not a place where anyone is accountable for anything.
 
 The arc **closes into a cycle rather than an exit.** Stage 9 feeds Stage 1. That is the source material's own logic: across the practice corpus this programme rests on, language about iteration, maturity, adoption and reinforcement outnumbers language about decommissioning by more than two orders of magnitude.
 
@@ -28,7 +31,7 @@ This programme is built on **a public formulation of practice from a customer-em
 
 ## The two stages written past the source
 
-[Qualify](/wiki/quarters/Q1.md) exists because the corpus refuses work exactly once, in a note attached to a slide.
+[Stage 1 · Discover](/wiki/quarters/Q1.md) is a qualification stage that can decline the work, and the corpus refuses work exactly once, in a note attached to a slide. **The canonical lifecycle is silent in the same place: it opens at Discover and contains no refusal.**
 
 [Compound](/wiki/quarters/Q9.md) exists because the cycle is implied throughout and stated as a model nowhere. It replaced a stage called *Withdraw* after a reviewer challenged it — **a challenge that survived checking, decisively.**
 

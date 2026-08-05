@@ -15,10 +15,16 @@ The graph is derived entirely from the files and holds no facts of its own. If i
 | `graph.json` | You want the whole graph in one read. Nodes and edges combined. |
 | `nodes.jsonl` | You want to stream or filter documents without loading everything. |
 | `edges.jsonl` | You want to traverse relationships. |
+| `claims.jsonl` | You want the 48 human-voice practitioner claims carried into the current engagement-shaped course. |
+| `platform-claims.jsonl` | You want the 1,001 durable/perishable pairs from the current course's 90 sessions. |
 | `research-claims.jsonl` | You want source-grounded claims and practices authored in research notes, with namespace, decay and source-reading depth. |
 | `teaching-moves.jsonl` | You want to know **how a day opens** rather than what it concludes — phase 1's pretest and prediction items, phase 3's labelled contrasting cases. **683 moves across all 90 days**, 454 eliciting and 229 contrasting. Extraction is mechanical and partial: 33 days run phase 3 as prose and contribute no cases. |
 | `stats.json` | You want counts, or to check the graph is current. |
 | `move-manifest.json` | You need to know where a file moved during the 2026-07-26 reorganization. |
+
+`archive/` is deliberately absent. It preserves the superseded BSc as history,
+but the live graph serves the current course and must not return both versions
+for the same query.
 
 ## Node schema
 
@@ -89,11 +95,35 @@ Edges are closed: any edge whose target is not a node in this repository is drop
 
 **`depends_on` and `re_tests` are the pair that matters, and they were one edge type until 2026-07-26.** Splitting them was the first thing [workshop-2day](/archive/projections/workshop-2day/README.md) proved necessary: a short-format projection must honour every dependency and may safely ignore every re-test, and the union could not tell it which was which. All 90 seminar days were reclassified by hand against a fixed test — *does phase 2's Bridge use it, or do phases 3–5 use it as machinery?* — with ties broken toward `re_tests`, because a false dependency over-constrains every future projection while a missed one fails loudly on first delivery.
 
+## Current-course claim schema
+
+`claims.jsonl` is mechanically extracted from the `## Human-voice claims worth
+carrying` sections in the two internal-practice research notes that shaped the
+current course. These are practitioner judgements, not measured outcomes.
+
+```json
+{
+  "id": "research/05-fde-craft/microsoft-accelerated-delivery-practice.hv01",
+  "note": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+  "claim": "A delivery can meet every agreed criterion and still produce nothing of value.",
+  "namespace": "fde-craft",
+  "decay": "slow",
+  "source_read": "full",
+  "warrant": "practitioner judgement, paraphrased from internal practice material"
+}
+```
+
+## Platform claim schema
+
+`platform-claims.jsonl` contains the current sessions' durable/perishable pairs.
+It remains separate because a vendor change should cost the course an instance,
+not rewrite its durable claim.
+
 ## Research claim schema
 
 `research-claims.jsonl` is mechanically extracted from top-level bullets in each
 research note's `## Key concepts and practices` section. These are kept separate
-from `claims.jsonl`, which contains seminar-authored durable/perishable pairs.
+from both the selected current-course claims and the session-authored platform pairs.
 
 ```json
 {
