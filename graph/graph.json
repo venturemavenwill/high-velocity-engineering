@@ -1750,6 +1750,30 @@
       "verify_cadence": "3 years"
     },
     {
+      "id": "research/05-fde-craft/meppiel-agentic-sdlc-handbook",
+      "path": "research/05-fde-craft/meppiel-agentic-sdlc-handbook.md",
+      "kind": "research-note",
+      "layer": "research",
+      "title": "Cliff Notes — The Agentic SDLC Handbook (Meppiel)",
+      "headings": [
+        "Citation and access",
+        "What kind of source this is",
+        "The argument in full",
+        "The case study, which is the evidence and is where the value is",
+        "Method and evidence base",
+        "Key concepts and practices",
+        "What to remember",
+        "Why it matters for the course",
+        "How to teach it"
+      ],
+      "words": 2826,
+      "lines": 120,
+      "assessment_bearing": false,
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "verify_cadence": "3 years"
+    },
+    {
       "id": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
       "path": "research/05-fde-craft/microsoft-accelerated-delivery-practice.md",
       "kind": "research-note",
@@ -1832,6 +1856,64 @@
       ],
       "words": 2665,
       "lines": 128,
+      "assessment_bearing": false,
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "verify_cadence": "3 years"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "path": "research/05-fde-craft/microsoft-hve-enablement-hub.md",
+      "kind": "research-note",
+      "layer": "research",
+      "title": "Cliff Notes — an internal HVE workshop enablement corpus (white-labelled)",
+      "headings": [
+        "Source and access status",
+        "What it is",
+        "The four pillars, and the one the summary drops",
+        "The workshop system",
+        "The facilitator guides, and a rename that is visible in the file system",
+        "The discovery questionnaire, and what it now confirms",
+        "Governance, and two maturity matrices",
+        "The examples, which are why this note exists",
+        "Method and evidence base",
+        "Human-voice claims worth carrying",
+        "Contradictions",
+        "What to remember",
+        "Why it matters for the course",
+        "How to teach it"
+      ],
+      "words": 4232,
+      "lines": 185,
+      "assessment_bearing": false,
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "verify_cadence": "3 years"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "path": "research/05-fde-craft/microsoft-hve-partner-summit.md",
+      "kind": "research-note",
+      "layer": "research",
+      "title": "Cliff Notes — a partner summit on frontier transformation and hypervelocity engineering (white-labelled)",
+      "headings": [
+        "Source and access status",
+        "Where this is filed, and why the decision is recorded",
+        "What kind of source this is",
+        "The definitional contribution, which is small and genuinely useful",
+        "The organisation's account of its own restructuring",
+        "The engineering track's failure narrative, which is the most valuable thing here",
+        "The methodology, and the one mechanism claim worth keeping",
+        "Perishable platform surface, recorded because it will move",
+        "Method and evidence base",
+        "Contradictions and tensions",
+        "Human-voice claims worth carrying",
+        "What to remember",
+        "Why it matters for the course",
+        "How to teach it"
+      ],
+      "words": 4007,
+      "lines": 189,
       "assessment_bearing": false,
       "namespace": "fde-craft",
       "decay": "slow",
@@ -2108,6 +2190,31 @@
       "verify_cadence": "before every offering"
     },
     {
+      "id": "research/06-microsoft-platform/caira-reference-architectures",
+      "path": "research/06-microsoft-platform/caira-reference-architectures.md",
+      "kind": "research-note",
+      "layer": "research",
+      "title": "Cliff Notes — CAIRA, composable AI reference architectures for coding agents",
+      "headings": [
+        "Citation and access",
+        "What this source is",
+        "The argument in full",
+        "The weekly test, which is the specimen worth teaching",
+        "Supply-chain and pipeline hygiene, which is better than the average",
+        "Method and evidence base",
+        "Key concepts and practices",
+        "What to remember",
+        "Why it matters for the course",
+        "How to teach it"
+      ],
+      "words": 2441,
+      "lines": 106,
+      "assessment_bearing": false,
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering"
+    },
+    {
       "id": "research/06-microsoft-platform/collected-materials",
       "path": "research/06-microsoft-platform/collected-materials.md",
       "kind": "research-index",
@@ -2257,6 +2364,35 @@
       ],
       "words": 6636,
       "lines": 162,
+      "assessment_bearing": false,
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "path": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform.md",
+      "kind": "research-note",
+      "layer": "research",
+      "title": "Cliff Notes — low-code and citizen development: the adoption hubs and the Learn guidance beneath them",
+      "headings": [
+        "Citation and access",
+        "What kind of source this is",
+        "What they actually state",
+        "The guidance layer: what the routes actually lead to",
+        "Where the documentation contradicts itself",
+        "What must not cross into teaching material",
+        "What this changes for the course, assessed against what the course already teaches",
+        "What this source does not establish",
+        "Key concepts and practices",
+        "Human-voice claims worth carrying",
+        "What to remember",
+        "Where this lands in the programme",
+        "Why it matters for the course",
+        "How to teach it"
+      ],
+      "words": 3999,
+      "lines": 215,
       "assessment_bearing": false,
       "namespace": "platform",
       "decay": "months",
@@ -2878,8 +3014,8 @@
         "What resolving the citations exposed",
         "Copyright handling"
       ],
-      "words": 9621,
-      "lines": 451,
+      "words": 11101,
+      "lines": 494,
       "assessment_bearing": false
     },
     {
@@ -4485,8 +4621,8 @@
         "Perishable content in this session",
         "Related pages"
       ],
-      "words": 4953,
-      "lines": 302,
+      "words": 5782,
+      "lines": 326,
       "module": "M01",
       "quarter": "Q1",
       "complexity_class": 1,
@@ -4499,11 +4635,11 @@
       "assessment_bearing": true,
       "namespaces": {
         "fde-craft": 3,
+        "platform": 2,
         "assessment": 1,
         "curriculum": 1,
         "measurement": 1,
-        "pedagogy": 1,
-        "platform": 1
+        "pedagogy": 1
       },
       "primary_namespace": "fde-craft",
       "platform_bearing": true,
@@ -4573,8 +4709,8 @@
         "Perishable content in this session",
         "Related pages"
       ],
-      "words": 7234,
-      "lines": 382,
+      "words": 8059,
+      "lines": 406,
       "module": "M02",
       "quarter": "Q1",
       "complexity_class": 2,
@@ -4587,7 +4723,7 @@
       "assessment_bearing": false,
       "namespaces": {
         "fde-craft": 5,
-        "platform": 4,
+        "platform": 5,
         "pedagogy": 2,
         "ai-systems": 1
       },
@@ -4835,8 +4971,8 @@
         "Perishable content in this session",
         "Related pages"
       ],
-      "words": 5570,
-      "lines": 307,
+      "words": 7394,
+      "lines": 357,
       "module": "M03",
       "quarter": "Q2",
       "complexity_class": 2,
@@ -4847,7 +4983,7 @@
       "retrieves_from_raw": "S004, S011",
       "assessment_bearing": false,
       "namespaces": {
-        "fde-craft": 3,
+        "fde-craft": 4,
         "pedagogy": 3,
         "platform": 1
       },
@@ -5005,8 +5141,8 @@
         "Perishable content in this session",
         "Related pages"
       ],
-      "words": 6569,
-      "lines": 323,
+      "words": 7692,
+      "lines": 359,
       "module": "M04",
       "quarter": "Q2",
       "complexity_class": 2,
@@ -5018,7 +5154,7 @@
       "retrieves_from_raw": "S003, S016",
       "assessment_bearing": false,
       "namespaces": {
-        "fde-craft": 3,
+        "fde-craft": 4,
         "ai-systems": 2,
         "platform": 2,
         "pedagogy": 1
@@ -6138,8 +6274,8 @@
         "Perishable content in this session",
         "Related pages"
       ],
-      "words": 7890,
-      "lines": 364,
+      "words": 8588,
+      "lines": 383,
       "module": "M09",
       "quarter": "Q5",
       "complexity_class": 3,
@@ -6152,9 +6288,9 @@
       "assessment_bearing": false,
       "namespaces": {
         "measurement": 4,
+        "fde-craft": 2,
         "pedagogy": 2,
-        "platform": 2,
-        "fde-craft": 1
+        "platform": 2
       },
       "primary_namespace": "measurement",
       "platform_bearing": true,
@@ -6354,8 +6490,8 @@
         "Perishable content in this session",
         "Related pages"
       ],
-      "words": 7902,
-      "lines": 358,
+      "words": 9079,
+      "lines": 387,
       "module": "M10",
       "quarter": "Q5",
       "complexity_class": 3,
@@ -6368,8 +6504,8 @@
       "assessment_bearing": false,
       "namespaces": {
         "pedagogy": 4,
+        "platform": 4,
         "measurement": 3,
-        "platform": 3,
         "fde-craft": 1
       },
       "primary_namespace": "pedagogy",
@@ -6746,8 +6882,8 @@
         "Perishable content in this session",
         "Related pages"
       ],
-      "words": 5604,
-      "lines": 280,
+      "words": 6347,
+      "lines": 301,
       "module": "M12",
       "quarter": "Q6",
       "complexity_class": 4,
@@ -6761,8 +6897,8 @@
       "namespaces": {
         "ai-systems": 3,
         "fde-craft": 2,
-        "pedagogy": 1,
-        "platform": 1
+        "platform": 2,
+        "pedagogy": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -8433,8 +8569,8 @@
         "Further reading",
         "Evidence status"
       ],
-      "words": 6130,
-      "lines": 247,
+      "words": 6543,
+      "lines": 251,
       "module": "M01",
       "quarter": "Q1",
       "complexity_class": 1,
@@ -8447,10 +8583,10 @@
       "namespaces": {
         "fde-craft": 4,
         "pedagogy": 2,
+        "platform": 2,
         "assessment": 1,
         "curriculum": 1,
-        "measurement": 1,
-        "platform": 1
+        "measurement": 1
       },
       "primary_namespace": "fde-craft",
       "platform_bearing": true,
@@ -8537,8 +8673,8 @@
         "Further reading",
         "Evidence status"
       ],
-      "words": 7349,
-      "lines": 276,
+      "words": 7834,
+      "lines": 280,
       "module": "M02",
       "quarter": "Q1",
       "complexity_class": 2,
@@ -8550,7 +8686,7 @@
       "assessment_bearing": false,
       "namespaces": {
         "fde-craft": 6,
-        "platform": 4,
+        "platform": 5,
         "pedagogy": 2,
         "ai-systems": 1
       },
@@ -8841,8 +8977,8 @@
         "Further reading",
         "Evidence status"
       ],
-      "words": 6637,
-      "lines": 252,
+      "words": 7667,
+      "lines": 273,
       "module": "M03",
       "quarter": "Q2",
       "complexity_class": 2,
@@ -8852,7 +8988,7 @@
       "platform_anchor": "GitHub Copilot custom chat modes and instructions files — constraining what an agent may ask and in what order, as facilitation encoded and inspectable",
       "assessment_bearing": false,
       "namespaces": {
-        "fde-craft": 3,
+        "fde-craft": 4,
         "pedagogy": 3,
         "platform": 1
       },
@@ -9038,8 +9174,8 @@
         "Further reading",
         "Evidence status"
       ],
-      "words": 7029,
-      "lines": 254,
+      "words": 7335,
+      "lines": 258,
       "module": "M04",
       "quarter": "Q2",
       "complexity_class": 2,
@@ -9050,7 +9186,7 @@
       "platform_anchor": "Work IQ and Azure AI Search — retrieving the artefacts a person actually produced, under their own identity, and comparing them with the process they described",
       "assessment_bearing": false,
       "namespaces": {
-        "fde-craft": 3,
+        "fde-craft": 4,
         "ai-systems": 2,
         "platform": 2,
         "pedagogy": 1
@@ -10348,8 +10484,8 @@
         "Further reading",
         "Evidence status"
       ],
-      "words": 7504,
-      "lines": 270,
+      "words": 7804,
+      "lines": 274,
       "module": "M09",
       "quarter": "Q5",
       "complexity_class": 3,
@@ -10360,15 +10496,15 @@
       "platform_anchor": "An executable specification for conversation behaviour — the Microsoft 365 Agents Playground's headless conversation driver, deterministic and model-free in CI, beside the evaluator catalogue it neither reaches nor mentions",
       "assessment_bearing": false,
       "namespaces": {
+        "fde-craft": 4,
         "measurement": 4,
-        "fde-craft": 3,
         "pedagogy": 2,
         "platform": 2
       },
-      "primary_namespace": "measurement",
+      "primary_namespace": "fde-craft",
       "platform_bearing": true,
-      "decay": "permanent",
-      "verify_cadence": "on amendment",
+      "decay": "slow",
+      "verify_cadence": "3 years",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -10599,8 +10735,8 @@
         "Further reading",
         "Evidence status"
       ],
-      "words": 8455,
-      "lines": 290,
+      "words": 8892,
+      "lines": 296,
       "module": "M10",
       "quarter": "Q5",
       "complexity_class": 3,
@@ -10611,15 +10747,15 @@
       "platform_anchor": "The Agents Toolkit scaffold — a project a generator writes in seconds, with the debt concentrated in the two directories nobody reads, audited against an evaluation framework that cannot check what you cannot state",
       "assessment_bearing": false,
       "namespaces": {
+        "platform": 5,
         "pedagogy": 4,
-        "platform": 4,
         "measurement": 3,
         "fde-craft": 1
       },
-      "primary_namespace": "pedagogy",
+      "primary_namespace": "platform",
       "platform_bearing": true,
-      "decay": "decades",
-      "verify_cadence": "3 years",
+      "decay": "months",
+      "verify_cadence": "before every offering",
       "evidence_classes": [
         "verified-in-repo",
         "general-knowledge-no-effect-size",
@@ -11054,8 +11190,8 @@
         "Further reading",
         "Evidence status"
       ],
-      "words": 7565,
-      "lines": 279,
+      "words": 7920,
+      "lines": 283,
       "module": "M12",
       "quarter": "Q6",
       "complexity_class": 4,
@@ -11068,8 +11204,8 @@
       "namespaces": {
         "ai-systems": 3,
         "fde-craft": 2,
-        "pedagogy": 1,
-        "platform": 1
+        "platform": 2,
+        "pedagogy": 1
       },
       "primary_namespace": "ai-systems",
       "platform_bearing": true,
@@ -13881,6 +14017,31 @@
       "type": "part_of"
     },
     {
+      "from": "research/05-fde-craft/meppiel-agentic-sdlc-handbook",
+      "to": "wiki/seminars/S043",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/meppiel-agentic-sdlc-handbook",
+      "to": "wiki/seminars/S047",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/meppiel-agentic-sdlc-handbook",
+      "to": "wiki/seminars/S049",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/meppiel-agentic-sdlc-handbook",
+      "to": "wiki/seminars/S088",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/meppiel-agentic-sdlc-handbook",
+      "to": "research/05-fde-craft/collected-materials",
+      "type": "part_of"
+    },
+    {
       "from": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
       "to": "research/99-source-register/source-register",
       "type": "links_to"
@@ -13922,6 +14083,106 @@
     },
     {
       "from": "research/05-fde-craft/microsoft-fde-delivery-practice",
+      "to": "research/05-fde-craft/collected-materials",
+      "type": "part_of"
+    },
+    {
+      "from": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "to": "research/99-source-register/source-register",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "to": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "to": "wiki/program/09-Durable-and-Perishable-Register",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "to": "wiki/seminars/S088",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "to": "wiki/seminars/S011",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "to": "wiki/seminars/S012",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "to": "wiki/seminars/S013",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "to": "wiki/seminars/S014",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "to": "wiki/seminars/S016",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "to": "wiki/seminars/S066",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "to": "wiki/seminars/S068",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "to": "research/05-fde-craft/collected-materials",
+      "type": "part_of"
+    },
+    {
+      "from": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "to": "research/99-source-register/source-register",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "to": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "to": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "to": "wiki/program/09-Durable-and-Perishable-Register",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "to": "wiki/seminars/S017",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "to": "wiki/seminars/S047",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "to": "wiki/seminars/S068",
+      "type": "links_to"
+    },
+    {
+      "from": "research/05-fde-craft/microsoft-hve-partner-summit",
       "to": "research/05-fde-craft/collected-materials",
       "type": "part_of"
     },
@@ -14237,6 +14498,26 @@
     },
     {
       "from": "research/06-microsoft-platform/azure-ai-search-and-acl-patterns",
+      "to": "research/06-microsoft-platform/collected-materials",
+      "type": "part_of"
+    },
+    {
+      "from": "research/06-microsoft-platform/caira-reference-architectures",
+      "to": "wiki/seminars/S048",
+      "type": "links_to"
+    },
+    {
+      "from": "research/06-microsoft-platform/caira-reference-architectures",
+      "to": "wiki/seminars/S043",
+      "type": "links_to"
+    },
+    {
+      "from": "research/06-microsoft-platform/caira-reference-architectures",
+      "to": "wiki/seminars/S046",
+      "type": "links_to"
+    },
+    {
+      "from": "research/06-microsoft-platform/caira-reference-architectures",
       "to": "research/06-microsoft-platform/collected-materials",
       "type": "part_of"
     },
@@ -14592,6 +14873,91 @@
     },
     {
       "from": "research/06-microsoft-platform/learn-mcp-server-docs",
+      "to": "research/06-microsoft-platform/collected-materials",
+      "type": "part_of"
+    },
+    {
+      "from": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "to": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "type": "links_to"
+    },
+    {
+      "from": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "to": "wiki/program/09-Durable-and-Perishable-Register",
+      "type": "links_to"
+    },
+    {
+      "from": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "to": "wiki/seminars/S011",
+      "type": "links_to"
+    },
+    {
+      "from": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "to": "wiki/seminars/S014",
+      "type": "links_to"
+    },
+    {
+      "from": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "to": "wiki/seminars/S036",
+      "type": "links_to"
+    },
+    {
+      "from": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "to": "wiki/seminars/S038",
+      "type": "links_to"
+    },
+    {
+      "from": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "to": "wiki/seminars/S082",
+      "type": "links_to"
+    },
+    {
+      "from": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "to": "wiki/seminars/S005",
+      "type": "links_to"
+    },
+    {
+      "from": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "to": "wiki/seminars/S008",
+      "type": "links_to"
+    },
+    {
+      "from": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "to": "wiki/modules/M12",
+      "type": "links_to"
+    },
+    {
+      "from": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "to": "wiki/whitepapers/WP-057",
+      "type": "links_to"
+    },
+    {
+      "from": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "to": "wiki/seminars/S026",
+      "type": "links_to"
+    },
+    {
+      "from": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "to": "wiki/seminars/S074",
+      "type": "links_to"
+    },
+    {
+      "from": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "to": "wiki/seminars/S007",
+      "type": "links_to"
+    },
+    {
+      "from": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "to": "wiki/seminars/S079",
+      "type": "links_to"
+    },
+    {
+      "from": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "to": "wiki/seminars/S057",
+      "type": "links_to"
+    },
+    {
+      "from": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
       "to": "research/06-microsoft-platform/collected-materials",
       "type": "part_of"
     },
@@ -15062,12 +15428,52 @@
     },
     {
       "from": "research/99-source-register/source-register",
+      "to": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "type": "links_to"
+    },
+    {
+      "from": "research/99-source-register/source-register",
+      "to": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "type": "links_to"
+    },
+    {
+      "from": "research/99-source-register/source-register",
+      "to": "wiki/program/09-Durable-and-Perishable-Register",
+      "type": "links_to"
+    },
+    {
+      "from": "research/99-source-register/source-register",
       "to": "research/06-microsoft-platform/hypervelocity-engineering-lifecycle",
       "type": "links_to"
     },
     {
       "from": "research/99-source-register/source-register",
       "to": "wiki/program/11-Canonical-Lifecycle",
+      "type": "links_to"
+    },
+    {
+      "from": "research/99-source-register/source-register",
+      "to": "research/06-microsoft-platform/caira-reference-architectures",
+      "type": "links_to"
+    },
+    {
+      "from": "research/99-source-register/source-register",
+      "to": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "type": "links_to"
+    },
+    {
+      "from": "research/99-source-register/source-register",
+      "to": "wiki/seminars/S005",
+      "type": "links_to"
+    },
+    {
+      "from": "research/99-source-register/source-register",
+      "to": "wiki/seminars/S057",
+      "type": "links_to"
+    },
+    {
+      "from": "research/99-source-register/source-register",
+      "to": "wiki/seminars/S007",
       "type": "links_to"
     },
     {
@@ -19107,6 +19513,16 @@
     },
     {
       "from": "wiki/seminars/S005",
+      "to": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S005",
+      "to": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/seminars/S005",
       "to": "research/05-fde-craft/fisher-ury-getting-to-yes",
       "type": "links_to"
     },
@@ -19462,6 +19878,31 @@
     },
     {
       "from": "wiki/seminars/S007",
+      "to": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S007",
+      "to": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/seminars/S007",
+      "to": "wiki/seminars/S006",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S007",
+      "to": "wiki/seminars/S017",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S007",
+      "to": "wiki/seminars/S082",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S007",
       "to": "research/05-fde-craft/hiatt-adkar",
       "type": "links_to"
     },
@@ -19574,11 +20015,6 @@
       "from": "wiki/seminars/S007",
       "to": "research/06-microsoft-platform/purview-dspm-for-ai-and-defender-ai-spm-docs",
       "type": "grounded_in"
-    },
-    {
-      "from": "wiki/seminars/S007",
-      "to": "wiki/seminars/S006",
-      "type": "links_to"
     },
     {
       "from": "wiki/seminars/S007",
@@ -20548,6 +20984,16 @@
     {
       "from": "wiki/seminars/S013",
       "to": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/seminars/S013",
+      "to": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S013",
+      "to": "research/05-fde-craft/microsoft-hve-enablement-hub",
       "type": "grounded_in"
     },
     {
@@ -21152,6 +21598,16 @@
     },
     {
       "from": "wiki/seminars/S017",
+      "to": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S017",
+      "to": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/seminars/S017",
       "to": "research/05-fde-craft/portigal-interviewing-users",
       "type": "links_to"
     },
@@ -21224,6 +21680,11 @@
       "from": "wiki/seminars/S017",
       "to": "research/04-professional-formation/sinha-kapur-productive-failure",
       "type": "grounded_in"
+    },
+    {
+      "from": "wiki/seminars/S017",
+      "to": "wiki/modules/M03",
+      "type": "links_to"
     },
     {
       "from": "wiki/seminars/S017",
@@ -25977,6 +26438,16 @@
     },
     {
       "from": "wiki/seminars/S043",
+      "to": "research/05-fde-craft/meppiel-agentic-sdlc-handbook",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S043",
+      "to": "research/05-fde-craft/meppiel-agentic-sdlc-handbook",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/seminars/S043",
       "to": "research/06-microsoft-platform/agents-toolkit-and-sdk-family",
       "type": "links_to"
     },
@@ -26847,6 +27318,21 @@
     },
     {
       "from": "wiki/seminars/S048",
+      "to": "research/06-microsoft-platform/caira-reference-architectures",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S048",
+      "to": "research/06-microsoft-platform/caira-reference-architectures",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/seminars/S048",
+      "to": "wiki/seminars/S046",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S048",
       "to": "research/06-microsoft-platform/agent-framework-and-evaluations-docs",
       "type": "links_to"
     },
@@ -26958,11 +27444,6 @@
     {
       "from": "wiki/seminars/S048",
       "to": "wiki/seminars/S044",
-      "type": "links_to"
-    },
-    {
-      "from": "wiki/seminars/S048",
-      "to": "wiki/seminars/S046",
       "type": "links_to"
     },
     {
@@ -28573,6 +29054,16 @@
     {
       "from": "wiki/seminars/S057",
       "to": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/seminars/S057",
+      "to": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/seminars/S057",
+      "to": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
       "type": "grounded_in"
     },
     {
@@ -35782,6 +36273,16 @@
     },
     {
       "from": "wiki/whitepapers/WP-005",
+      "to": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-005",
+      "to": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-005",
       "to": "wiki/seminars/S005",
       "type": "documents"
     },
@@ -36174,6 +36675,21 @@
       "from": "wiki/whitepapers/WP-007",
       "to": "research/04-professional-formation/sinha-kapur-productive-failure",
       "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-007",
+      "to": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-007",
+      "to": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-007",
+      "to": "wiki/program/09-Durable-and-Perishable-Register",
+      "type": "links_to"
     },
     {
       "from": "wiki/whitepapers/WP-007",
@@ -37162,6 +37678,16 @@
     },
     {
       "from": "wiki/whitepapers/WP-013",
+      "to": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-013",
+      "to": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-013",
       "to": "wiki/seminars/S001",
       "type": "links_to"
     },
@@ -37858,6 +38384,16 @@
     {
       "from": "wiki/whitepapers/WP-017",
       "to": "research/04-professional-formation/sinha-kapur-productive-failure",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-017",
+      "to": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-017",
+      "to": "research/05-fde-craft/microsoft-hve-partner-summit",
       "type": "grounded_in"
     },
     {
@@ -42517,6 +43053,16 @@
     },
     {
       "from": "wiki/whitepapers/WP-043",
+      "to": "research/05-fde-craft/meppiel-agentic-sdlc-handbook",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-043",
+      "to": "research/05-fde-craft/meppiel-agentic-sdlc-handbook",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-043",
       "to": "wiki/seminars/S043",
       "type": "documents"
     },
@@ -43393,6 +43939,16 @@
     {
       "from": "wiki/whitepapers/WP-048",
       "to": "research/04-professional-formation/sinha-kapur-productive-failure",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-048",
+      "to": "research/06-microsoft-platform/caira-reference-architectures",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-048",
+      "to": "research/06-microsoft-platform/caira-reference-architectures",
       "type": "grounded_in"
     },
     {
@@ -45113,6 +45669,16 @@
     {
       "from": "wiki/whitepapers/WP-057",
       "to": "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+      "type": "grounded_in"
+    },
+    {
+      "from": "wiki/whitepapers/WP-057",
+      "to": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "type": "links_to"
+    },
+    {
+      "from": "wiki/whitepapers/WP-057",
+      "to": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
       "type": "grounded_in"
     },
     {
@@ -51913,6 +52479,465 @@
       "decay": "slow",
       "source_read": "full",
       "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-enablement-hub.hv01",
+      "note": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "claim": "A workshop that ends in thanks and good feelings, with no committed pilot, has failed.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-enablement-hub.hv02",
+      "note": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "claim": "Awareness and enthusiasm are not acceptable outcomes for a technical engagement.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-enablement-hub.hv03",
+      "note": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "claim": "The biggest mistake is asking how to produce more code instead of asking where the engineering system loses time.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-enablement-hub.hv04",
+      "note": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "claim": "An agenda finalised before the customer is understood is a warning sign, not a sign of preparation.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-enablement-hub.hv05",
+      "note": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "claim": "A room of managers with no hands-on engineers is a room the engagement will not survive.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-enablement-hub.hv06",
+      "note": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "claim": "If nobody asked for a sandbox, the engagement has already been reframed as a demonstration.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-enablement-hub.hv07",
+      "note": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "claim": "Ask how the customer knows their own number; an estimate and a tracked figure are different objects.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-enablement-hub.hv08",
+      "note": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "claim": "Close on named owners, a time-box and a public commitment from the sponsor, or nothing will happen.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-enablement-hub.hv09",
+      "note": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "claim": "Validate a sceptic's history before challenging their conclusion, and recruit them to explain the obstacles.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-enablement-hub.hv10",
+      "note": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "claim": "Do not dismiss, argue, take sides, or shut down respectful debate.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-enablement-hub.hv11",
+      "note": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "claim": "Your own energy sets the room's tone when something fails.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-enablement-hub.hv12",
+      "note": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "claim": "Say *I do not know, let me find out* rather than deferring the question invisibly.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-enablement-hub.hv13",
+      "note": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "claim": "Do not hold the whole group for one person's broken environment; pair them and move.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-enablement-hub.hv14",
+      "note": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "claim": "Perfect delivery is not the goal; learning is.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-enablement-hub.hv15",
+      "note": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "claim": "Low energy after lunch is a scheduling fact, not a judgement about the participants.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-enablement-hub.hv16",
+      "note": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "claim": "AI amplifies human skill and does not replace judgement; teams must know where human review is essential.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-enablement-hub.hv17",
+      "note": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "claim": "Ground model outputs in persistent artefacts, and define who reviews what, and when, before starting.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-enablement-hub.hv18",
+      "note": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "claim": "Isolate context per subagent to limit bleed-over between them.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-enablement-hub.hv19",
+      "note": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "claim": "Require human approval for merges and for any high-risk refactor an agent produced.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-enablement-hub.hv20",
+      "note": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "claim": "Discovery precedes research-plan-implement on an existing codebase, and skipping it is how brownfield work fails.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-enablement-hub.hv21",
+      "note": "research/05-fde-craft/microsoft-hve-enablement-hub",
+      "claim": "This is not vibe coding; expert validation is what makes the speed safe.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-partner-summit.hv01",
+      "note": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "claim": "Going fast in the wrong direction gets you nowhere expensively, and speed makes engineering rigour more necessary rather than less.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-partner-summit.hv02",
+      "note": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "claim": "A delivery can meet every agreed success criterion, use good architecture and sound fundamentals, reach production, and create no value at all.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-partner-summit.hv03",
+      "note": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "claim": "The smaller the iteration, the less distance you can travel in the wrong direction before finding out.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-partner-summit.hv04",
+      "note": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "claim": "Use AI to give yourself more time to think.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-partner-summit.hv05",
+      "note": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "claim": "Be intentional and explicit about the quality of the output, not only the quantity.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-partner-summit.hv06",
+      "note": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "claim": "The most valuable thing about a minimum viable product is the word *valuable*.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-partner-summit.hv07",
+      "note": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "claim": "The output is bounded by the quality of the context, not by the quality of the model.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-partner-summit.hv08",
+      "note": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "claim": "Forbidding implementation during research changes what the model optimises for, from plausible code to verified truth.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-partner-summit.hv09",
+      "note": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "claim": "Move from prompt engineering to context engineering: phrasing is individual and unshareable, context is standardisable and belongs to the team.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-partner-summit.hv10",
+      "note": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "claim": "Point the research step at your own codebase rather than at general practice, so the recommendations inherit your constraints.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-partner-summit.hv11",
+      "note": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "claim": "Regardless of how code was generated, if it is going to production you are responsible for it and need a process capable of bearing that.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-partner-summit.hv12",
+      "note": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "claim": "Generated backlogs get most of the way, not all of the way, and the remainder is hand work.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-partner-summit.hv13",
+      "note": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "claim": "A team re-formed for every engagement loses the context of how its members work; keeping crews durable is what lets them arrive coordinated.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-partner-summit.hv14",
+      "note": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "claim": "Have people report into a discipline other than their own if you want the disciplines to learn from each other.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-partner-summit.hv15",
+      "note": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "claim": "Engineering fundamentals are non-negotiable and independent of technology.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-partner-summit.hv16",
+      "note": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "claim": "Nothing is worse than discovering a fundamental security flaw at the end of an engagement because nobody called security until shipping.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-partner-summit.hv17",
+      "note": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "claim": "Even in a mostly frozen situation there is always something you can change, and a little curiosity applied early beats a method applied late.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-partner-summit.hv18",
+      "note": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "claim": "The toolkit is nascent, differs from its state a few months ago, and will look primitive in six.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-partner-summit.hv19",
+      "note": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "claim": "Design thinking is not an all-or-nothing commitment; a little more curiosity, applied a little earlier, changes the outcome.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/05-fde-craft/microsoft-hve-partner-summit.hv20",
+      "note": "research/05-fde-craft/microsoft-hve-partner-summit",
+      "claim": "A customer's reported improvement is the customer's claim, not your measurement.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform.hv01",
+      "note": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "claim": "A control built on a platform's public API can only observe and respond after the fact, while a control built inside the platform can refuse before the fact; the difference is latency rather than strength, and a reactive control produces non-compliant assets as a matter of routine.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform.hv02",
+      "note": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "claim": "The pro-code party's deliverable in a low-code engagement is the conditions under which someone else builds, not the build.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform.hv03",
+      "note": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "claim": "A person who builds without being on the delivery team is a party to the engagement, and the sponsor has no reason to introduce them because they hold no budget.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform.hv04",
+      "note": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "claim": "The same check should run in every environment, and what varies is whether it warns or blocks; that severity is a function of blast radius rather than of the check.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform.hv05",
+      "note": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "claim": "Governance is frequently acquired by moving an artefact into a governed tool rather than by adding controls where it was built.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform.hv06",
+      "note": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "claim": "An environment every employee can reach, which no lifecycle process covers, is where an unsurveyed estate accumulates, and ownerless assets are its characteristic failure.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform.hv07",
+      "note": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "claim": "A vendor that publishes the exit cost of its own governance tier, feature by feature, has said something about reversibility that most vendors decline to say.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform.hv08",
+      "note": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "claim": "Within a single vendor documentation library currency is per-page, and a component can be deprecated on one page while four others recommend it in the present tense.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform.hv09",
+      "note": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "claim": "A maturity ladder and a routing rule are different claims, and a routing rule embedded in a maturity ladder can be assessed on its own merits after the ladder is discarded.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform.hv10",
+      "note": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "claim": "Two roles named as separate audiences for one product is a statement that the product is built by populations with different accountabilities and different failure modes.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "full",
+      "warrant": "practitioner judgement, paraphrased from internal practice material"
     }
   ],
   "platform_claims": [
@@ -52437,6 +53462,32 @@
       "assessment_bearing": true
     },
     {
+      "id": "S005.p10",
+      "day": "wiki/seminars/S005",
+      "module": "M01",
+      "quarter": "Q1",
+      "durable": "A build-path choice allocates future authorship, not just present capability",
+      "perishable": "This term's tier names, and which authoring surface each population is pointed at",
+      "platform_anchor": "Microsoft Foundry versus Copilot Studio build-path selection, recorded as an architecture decision record against the capability, timeline and control triple",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": true
+    },
+    {
+      "id": "S005.p11",
+      "day": "wiki/seminars/S005",
+      "module": "M01",
+      "quarter": "Q1",
+      "durable": "Governance is often acquired by moving an artefact into a governed tool rather than by hardening where it was built",
+      "perishable": "The particular promotion operation between tiers and what it currently confers",
+      "platform_anchor": "Microsoft Foundry versus Copilot Studio build-path selection, recorded as an architecture decision record against the capability, timeline and control triple",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": true
+    },
+    {
       "id": "S006.p1",
       "day": "wiki/seminars/S006",
       "module": "M02",
@@ -52688,6 +53739,32 @@
       "day": "wiki/seminars/S007",
       "module": "M02",
       "quarter": "Q1",
+      "durable": "A population that builds without being on the delivery team is a party to the engagement",
+      "perishable": "The current low-code product names, the maker roles the vendor publishes, and the environment boundaries that define an estate",
+      "platform_anchor": "Azure AI Search security trimming, and Microsoft Agent 365's tenant-wide tool consent and published agent-risk role matrix — the absent people whose rights and approvals decide what the system may return and who may investigate it",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S007.p6",
+      "day": "wiki/seminars/S007",
+      "module": "M02",
+      "quarter": "Q1",
+      "durable": "A workaround somebody built is a statement about where the sanctioned process fails",
+      "perishable": "The particular apps, flows and agents this business unit is running outside any register",
+      "platform_anchor": "Azure AI Search security trimming, and Microsoft Agent 365's tenant-wide tool consent and published agent-risk role matrix — the absent people whose rights and approvals decide what the system may return and who may investigate it",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S007.p7",
+      "day": "wiki/seminars/S007",
+      "module": "M02",
+      "quarter": "Q1",
       "durable": "Application authorisation and user authorisation are separate checks and both are needed",
       "perishable": "The request header carrying the end user's token, and the role names on either side of it",
       "platform_anchor": "Azure AI Search security trimming, and Microsoft Agent 365's tenant-wide tool consent and published agent-risk role matrix — the absent people whose rights and approvals decide what the system may return and who may investigate it",
@@ -52697,7 +53774,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S007.p6",
+      "id": "S007.p8",
       "day": "wiki/seminars/S007",
       "module": "M02",
       "quarter": "Q1",
@@ -52710,7 +53787,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S007.p7",
+      "id": "S007.p9",
       "day": "wiki/seminars/S007",
       "module": "M02",
       "quarter": "Q1",
@@ -52723,7 +53800,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S007.p8",
+      "id": "S007.p10",
       "day": "wiki/seminars/S007",
       "module": "M02",
       "quarter": "Q1",
@@ -52736,7 +53813,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S007.p9",
+      "id": "S007.p11",
       "day": "wiki/seminars/S007",
       "module": "M02",
       "quarter": "Q1",
@@ -52749,7 +53826,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S007.p10",
+      "id": "S007.p12",
       "day": "wiki/seminars/S007",
       "module": "M02",
       "quarter": "Q1",
@@ -52762,7 +53839,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S007.p11",
+      "id": "S007.p13",
       "day": "wiki/seminars/S007",
       "module": "M02",
       "quarter": "Q1",
@@ -52775,7 +53852,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S007.p12",
+      "id": "S007.p14",
       "day": "wiki/seminars/S007",
       "module": "M02",
       "quarter": "Q1",
@@ -53620,6 +54697,58 @@
       "assessment_bearing": false
     },
     {
+      "id": "S013.p10",
+      "day": "wiki/seminars/S013",
+      "module": "M03",
+      "quarter": "Q2",
+      "durable": "Facilitation is a set of posts rather than a personal skill, and an unassigned post is a job done badly by whoever notices last",
+      "perishable": "The particular role names and the assignment lead time this corpus currently publishes",
+      "platform_anchor": "GitHub Copilot custom chat modes and instructions files — constraining what an agent may ask and in what order, as facilitation encoded and inspectable",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S013.p11",
+      "day": "wiki/seminars/S013",
+      "module": "M03",
+      "quarter": "Q2",
+      "durable": "A signal for help must be agreed before the person needs it",
+      "perishable": "The channel the team happens to be signalling on this term",
+      "platform_anchor": "GitHub Copilot custom chat modes and instructions files — constraining what an agent may ask and in what order, as facilitation encoded and inspectable",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S013.p12",
+      "day": "wiki/seminars/S013",
+      "module": "M03",
+      "quarter": "Q2",
+      "durable": "A correction loop that nothing schedules is dropped on the days that generated something to correct",
+      "perishable": "The current scheduling artefacts, and which of them has a debrief line in it",
+      "platform_anchor": "GitHub Copilot custom chat modes and instructions files — constraining what an agent may ask and in what order, as facilitation encoded and inspectable",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S013.p13",
+      "day": "wiki/seminars/S013",
+      "module": "M03",
+      "quarter": "Q2",
+      "durable": "The opening period teaches the room what an answer costs",
+      "perishable": "Present conventions for session length, opening formats and the tools that mediate them",
+      "platform_anchor": "GitHub Copilot custom chat modes and instructions files — constraining what an agent may ask and in what order, as facilitation encoded and inspectable",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
       "id": "S014.p1",
       "day": "wiki/seminars/S014",
       "module": "M03",
@@ -53975,6 +55104,32 @@
       "day": "wiki/seminars/S017",
       "module": "M04",
       "quarter": "Q2",
+      "durable": "The route a system replaces is the comparison nobody runs",
+      "perishable": "The current cost and speed of the incumbent process in this customer's estate",
+      "platform_anchor": "Work IQ and Azure AI Search — retrieving the artefacts a person actually produced, under their own identity, and comparing them with the process they described",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S017.p5",
+      "day": "wiki/seminars/S017",
+      "module": "M04",
+      "quarter": "Q2",
+      "durable": "A source that shapes the work can appear in no account of the work",
+      "perishable": "The particular documents, threads and spreadsheets this team keeps outside its systems",
+      "platform_anchor": "Work IQ and Azure AI Search — retrieving the artefacts a person actually produced, under their own identity, and comparing them with the process they described",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S017.p6",
+      "day": "wiki/seminars/S017",
+      "module": "M04",
+      "quarter": "Q2",
       "durable": "Consent to observe a person is not consent to capture their screen",
       "perishable": "Current data-handling law, policy and platform behaviour, none of which this session states",
       "platform_anchor": "Work IQ and Azure AI Search — retrieving the artefacts a person actually produced, under their own identity, and comparing them with the process they described",
@@ -53984,7 +55139,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S017.p5",
+      "id": "S017.p7",
       "day": "wiki/seminars/S017",
       "module": "M04",
       "quarter": "Q2",
@@ -53997,7 +55152,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S017.p6",
+      "id": "S017.p8",
       "day": "wiki/seminars/S017",
       "module": "M04",
       "quarter": "Q2",
@@ -54010,7 +55165,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S017.p7",
+      "id": "S017.p9",
       "day": "wiki/seminars/S017",
       "module": "M04",
       "quarter": "Q2",
@@ -54023,7 +55178,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S017.p8",
+      "id": "S017.p10",
       "day": "wiki/seminars/S017",
       "module": "M04",
       "quarter": "Q2",
@@ -54036,7 +55191,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S017.p9",
+      "id": "S017.p11",
       "day": "wiki/seminars/S017",
       "module": "M04",
       "quarter": "Q2",
@@ -54049,7 +55204,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S017.p10",
+      "id": "S017.p12",
       "day": "wiki/seminars/S017",
       "module": "M04",
       "quarter": "Q2",
@@ -54062,7 +55217,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S017.p11",
+      "id": "S017.p13",
       "day": "wiki/seminars/S017",
       "module": "M04",
       "quarter": "Q2",
@@ -54075,7 +55230,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S017.p12",
+      "id": "S017.p14",
       "day": "wiki/seminars/S017",
       "module": "M04",
       "quarter": "Q2",
@@ -54088,7 +55243,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S017.p13",
+      "id": "S017.p15",
       "day": "wiki/seminars/S017",
       "module": "M04",
       "quarter": "Q2",
@@ -58651,6 +59806,45 @@
       "assessment_bearing": false
     },
     {
+      "id": "S048.p13",
+      "day": "wiki/seminars/S048",
+      "module": "M10",
+      "quarter": "Q5",
+      "durable": "A record of what was deliberately not taken is the diff a scaffold never gives you",
+      "perishable": "The particular reference paths, component names and module versions a library publishes this term",
+      "platform_anchor": "The Agents Toolkit scaffold — a project a generator writes in seconds, with the debt concentrated in the two directories nobody reads, audited against an evaluation framework that cannot check what you cannot state",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S048.p14",
+      "day": "wiki/seminars/S048",
+      "module": "M10",
+      "quarter": "Q5",
+      "durable": "A generated artefact graded by a generator of the same family is not independently graded",
+      "perishable": "Which model the generating and verifying runs resolve to on the day the scheduled job fires",
+      "platform_anchor": "The Agents Toolkit scaffold — a project a generator writes in seconds, with the debt concentrated in the two directories nobody reads, audited against an evaluation framework that cannot check what you cannot state",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S048.p15",
+      "day": "wiki/seminars/S048",
+      "module": "M10",
+      "quarter": "Q5",
+      "durable": "A presence check establishes form, and a build establishes rather less than people assume",
+      "perishable": "Which of your scheduled jobs currently execute anything, and which only inspect files",
+      "platform_anchor": "The Agents Toolkit scaffold — a project a generator writes in seconds, with the debt concentrated in the two directories nobody reads, audited against an evaluation framework that cannot check what you cannot state",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
       "id": "S049.p1",
       "day": "wiki/seminars/S049",
       "module": "M10",
@@ -59981,6 +61175,32 @@
       "day": "wiki/seminars/S057",
       "module": "M12",
       "quarter": "Q6",
+      "durable": "A control's latency is a property of where it sits, not of how strictly it is written",
+      "perishable": "Which of this term's governance products enforce inline and which observe afterwards",
+      "platform_anchor": "Foundry prompt agents versus hosted agents — what changes about scope when the system gains its own code, compute and the ability to act without being asked",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S057.p7",
+      "day": "wiki/seminars/S057",
+      "module": "M12",
+      "quarter": "Q6",
+      "durable": "A test that routes a deliverable to an observe-only control has documented the hole rather than closed it",
+      "perishable": "The particular guardrails available inline in the platform this term",
+      "platform_anchor": "Foundry prompt agents versus hosted agents — what changes about scope when the system gains its own code, compute and the ability to act without being asked",
+      "namespace": "platform",
+      "decay": "months",
+      "verify_cadence": "before every offering",
+      "assessment_bearing": false
+    },
+    {
+      "id": "S057.p8",
+      "day": "wiki/seminars/S057",
+      "module": "M12",
+      "quarter": "Q6",
       "durable": "A regime that catches everything is routed around",
       "perishable": "The specific compliance load in force now",
       "platform_anchor": "Foundry prompt agents versus hosted agents — what changes about scope when the system gains its own code, compute and the ability to act without being asked",
@@ -59990,7 +61210,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S057.p7",
+      "id": "S057.p9",
       "day": "wiki/seminars/S057",
       "module": "M12",
       "quarter": "Q6",
@@ -60003,7 +61223,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S057.p8",
+      "id": "S057.p10",
       "day": "wiki/seminars/S057",
       "module": "M12",
       "quarter": "Q6",
@@ -60016,7 +61236,7 @@
       "assessment_bearing": false
     },
     {
-      "id": "S057.p9",
+      "id": "S057.p11",
       "day": "wiki/seminars/S057",
       "module": "M12",
       "quarter": "Q6",
@@ -66028,6 +67248,118 @@
       "source_read": "full"
     },
     {
+      "id": "research/05-fde-craft/meppiel-agentic-sdlc-handbook.rc01",
+      "note": "research/05-fde-craft/meppiel-agentic-sdlc-handbook",
+      "claim": "**The failure of agents on real codebases is an information problem, not an intelligence problem.**",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/meppiel-agentic-sdlc-handbook.rc02",
+      "note": "research/05-fde-craft/meppiel-agentic-sdlc-handbook",
+      "claim": "**An agent works from different information than a human, not merely less** — the undocumented half of a codebase is invisible to it.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/meppiel-agentic-sdlc-handbook.rc03",
+      "note": "research/05-fde-craft/meppiel-agentic-sdlc-handbook",
+      "claim": "**A larger context window does not fix attention**; more capacity filled with more irrelevance is not an improvement.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/meppiel-agentic-sdlc-handbook.rc04",
+      "note": "research/05-fde-craft/meppiel-agentic-sdlc-handbook",
+      "claim": "**A model always produces something, so quality failures are silent** — the contrast with a compiler is exact and worth teaching.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/meppiel-agentic-sdlc-handbook.rc05",
+      "note": "research/05-fde-craft/meppiel-agentic-sdlc-handbook",
+      "claim": "**A strong model with poor context fails more dangerously than a weak one**, because fluency conceals invariant violations.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/meppiel-agentic-sdlc-handbook.rc06",
+      "note": "research/05-fde-craft/meppiel-agentic-sdlc-handbook",
+      "claim": "**Reliability is architected through constraints, structure and grounding**, not obtained from the model.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/meppiel-agentic-sdlc-handbook.rc07",
+      "note": "research/05-fde-craft/meppiel-agentic-sdlc-handbook",
+      "claim": "**Constraints induce properties** — the REST analogy, applied to five named constraints for agent work.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/meppiel-agentic-sdlc-handbook.rc08",
+      "note": "research/05-fde-craft/meppiel-agentic-sdlc-handbook",
+      "claim": "**Agent success messages are probabilistic output; a diff is deterministic.** Verify filesystem state, never the self-report.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/meppiel-agentic-sdlc-handbook.rc09",
+      "note": "research/05-fde-craft/meppiel-agentic-sdlc-handbook",
+      "claim": "**A checkpoint must assert observable behaviour**, because a large passing suite can assert nothing about whether a feature does anything.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/meppiel-agentic-sdlc-handbook.rc10",
+      "note": "research/05-fde-craft/meppiel-agentic-sdlc-handbook",
+      "claim": "**Budget context before dispatching** — count the work in the unit you are about to hand over, and split it if it will not fit.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/meppiel-agentic-sdlc-handbook.rc11",
+      "note": "research/05-fde-craft/meppiel-agentic-sdlc-handbook",
+      "claim": "**Expert panels are audits, not oracles**; validate findings before wiring them in.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/meppiel-agentic-sdlc-handbook.rc12",
+      "note": "research/05-fde-craft/meppiel-agentic-sdlc-handbook",
+      "claim": "**Expand scope through the plan gate**: mid-planning expansion is healthy, mid-wave expansion is dangerous.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/meppiel-agentic-sdlc-handbook.rc13",
+      "note": "research/05-fde-craft/meppiel-agentic-sdlc-handbook",
+      "claim": "**Three escalation tiers** — re-dispatch with guidance, human takeover, or plan-scope change — separate a failed run from a wrong plan.",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
+      "id": "research/05-fde-craft/meppiel-agentic-sdlc-handbook.rc14",
+      "note": "research/05-fde-craft/meppiel-agentic-sdlc-handbook",
+      "claim": "**The highest-leverage decision in the documented session was human and unprompted by any agent.**",
+      "namespace": "fde-craft",
+      "decay": "slow",
+      "source_read": "unread"
+    },
+    {
       "id": "research/05-fde-craft/portigal-interviewing-users.rc01",
       "note": "research/05-fde-craft/portigal-interviewing-users",
       "claim": "**Interviewing is skilled, asymmetric inquiry.** A conversational tone coexists with deliberate control of purpose, pacing, follow-up, and attention.",
@@ -66895,6 +68227,94 @@
       "id": "research/06-microsoft-platform/apim-ai-gateway-docs.rc13",
       "note": "research/06-microsoft-platform/apim-ai-gateway-docs",
       "claim": "**AI gateway in Microsoft Foundry is preview.**",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/caira-reference-architectures.rc01",
+      "note": "research/06-microsoft-platform/caira-reference-architectures",
+      "claim": "**A reference library is not an application generator**, and the difference is enforced by rules that make the agent take less.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/caira-reference-architectures.rc02",
+      "note": "research/06-microsoft-platform/caira-reference-architectures",
+      "claim": "**The intended reader is an agent, so the code is the source of truth and prose is routing**; the skill forbids stopping at the README.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/caira-reference-architectures.rc03",
+      "note": "research/06-microsoft-platform/caira-reference-architectures",
+      "claim": "**Intake before generation:** establish the outcome, what already exists, the security boundaries, the language preference, and which components are genuinely needed.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/caira-reference-architectures.rc04",
+      "note": "research/06-microsoft-platform/caira-reference-architectures",
+      "claim": "**Determine what the user already has before proposing new infrastructure.**",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/caira-reference-architectures.rc05",
+      "note": "research/06-microsoft-platform/caira-reference-architectures",
+      "claim": "**Prefer the smallest component over the full stack**, and delete the sample values, model names and variables that do not apply.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/caira-reference-architectures.rc06",
+      "note": "research/06-microsoft-platform/caira-reference-architectures",
+      "claim": "**State which reference paths were used and what was deliberately left out** — a provenance and exclusion record attached to generated code.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/caira-reference-architectures.rc07",
+      "note": "research/06-microsoft-platform/caira-reference-architectures",
+      "claim": "**Passwordless by default, stated as a prohibition with an explicit user override.**",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/caira-reference-architectures.rc08",
+      "note": "research/06-microsoft-platform/caira-reference-architectures",
+      "claim": "**Preserve each component's own validation idiom** rather than unifying the toolchain; independent validatability is treated as the property worth keeping.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/caira-reference-architectures.rc09",
+      "note": "research/06-microsoft-platform/caira-reference-architectures",
+      "claim": "**Health, metrics and a credential-diagnostic endpoint belong in the reference contract**, not in a later ticket.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/caira-reference-architectures.rc10",
+      "note": "research/06-microsoft-platform/caira-reference-architectures",
+      "claim": "**A scheduled test in which one agent generates and another grades, on presence criteria, with nothing built or run**, establishes shape and not function.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/caira-reference-architectures.rc11",
+      "note": "research/06-microsoft-platform/caira-reference-architectures",
+      "claim": "**Pin actions by commit, mint short-lived federated credentials, name the least-privilege role, and validate the pipeline's own preconditions first.**",
       "namespace": "platform",
       "decay": "months",
       "source_read": "unknown"
@@ -67876,6 +69296,70 @@
       "source_read": "unknown"
     },
     {
+      "id": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform.rc01",
+      "note": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "claim": "**The same product has at least four audiences** — leadership, administration, makers, developers — with different accountabilities and different failure modes.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform.rc02",
+      "note": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "claim": "**A maker and a developer are different populations**, not the same population at different skill levels.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform.rc03",
+      "note": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "claim": "**The pro-code deliverable in a fusion engagement is the environment, not the artefact.**",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform.rc04",
+      "note": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "claim": "**A control's latency is a property of where it sits**, not of how strict it is written to be.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform.rc05",
+      "note": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "claim": "**Severity is a design variable**: one check, tuned per environment to blast radius.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform.rc06",
+      "note": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "claim": "**Governance is a stage of adoption, not a gate at the end** — the framing both hubs use, asserted rather than argued.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform.rc07",
+      "note": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "claim": "**A hub is a routing table**, and its currency is bought with self-containment.",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
+      "id": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform.rc08",
+      "note": "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
+      "claim": "**A ten-minute self-scored maturity benchmark is a conversation, not a measurement.**",
+      "namespace": "platform",
+      "decay": "months",
+      "source_read": "unknown"
+    },
+    {
       "id": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs.rc01",
       "note": "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs",
       "claim": "**Three build paths by service model:** Foundry (PaaS), Copilot Studio (SaaS), GPUs and containers (IaaS). Selection criteria: **technical capabilities, timeline, control requirements.**",
@@ -68796,10 +70280,10 @@
       "namespaces": {
         "fde-craft": 4,
         "pedagogy": 2,
+        "platform": 2,
         "assessment": 1,
         "curriculum": 1,
-        "measurement": 1,
-        "platform": 1
+        "measurement": 1
       }
     },
     {
@@ -68815,10 +70299,10 @@
       "namespaces": {
         "fde-craft": 4,
         "pedagogy": 2,
+        "platform": 2,
         "assessment": 1,
         "curriculum": 1,
-        "measurement": 1,
-        "platform": 1
+        "measurement": 1
       }
     },
     {
@@ -68834,10 +70318,10 @@
       "namespaces": {
         "fde-craft": 4,
         "pedagogy": 2,
+        "platform": 2,
         "assessment": 1,
         "curriculum": 1,
-        "measurement": 1,
-        "platform": 1
+        "measurement": 1
       }
     },
     {
@@ -68853,10 +70337,10 @@
       "namespaces": {
         "fde-craft": 4,
         "pedagogy": 2,
+        "platform": 2,
         "assessment": 1,
         "curriculum": 1,
-        "measurement": 1,
-        "platform": 1
+        "measurement": 1
       }
     },
     {
@@ -68872,10 +70356,10 @@
       "namespaces": {
         "fde-craft": 4,
         "pedagogy": 2,
+        "platform": 2,
         "assessment": 1,
         "curriculum": 1,
-        "measurement": 1,
-        "platform": 1
+        "measurement": 1
       }
     },
     {
@@ -68891,10 +70375,10 @@
       "namespaces": {
         "fde-craft": 4,
         "pedagogy": 2,
+        "platform": 2,
         "assessment": 1,
         "curriculum": 1,
-        "measurement": 1,
-        "platform": 1
+        "measurement": 1
       }
     },
     {
@@ -68910,10 +70394,29 @@
       "namespaces": {
         "fde-craft": 4,
         "pedagogy": 2,
+        "platform": 2,
         "assessment": 1,
         "curriculum": 1,
-        "measurement": 1,
-        "platform": 1
+        "measurement": 1
+      }
+    },
+    {
+      "id": "WP-005.pred8",
+      "whitepaper": "wiki/whitepapers/WP-005",
+      "day": "wiki/seminars/S005",
+      "module": "M01",
+      "quarter": "Q1",
+      "label": "Prediction 8.",
+      "claim": "Build-path records will name the technology and omit the population that will build or extend it, and the omission will persist after the §3 material is read.",
+      "instrument": "each submitted record coded by a second reader for whether it identifies a building population and an inheriting population, scored separately, with the cohort split on whether the record chose a low-code or a pro-code path. **The design expects the omission to be worse on pro-code records**, because the pro-code path makes the delivery team the implicit answer; a null on that split would mean the asymmetry claim in §3 is wrong even if the general omission holds.",
+      "namespace": "fde-craft",
+      "namespaces": {
+        "fde-craft": 4,
+        "pedagogy": 2,
+        "platform": 2,
+        "assessment": 1,
+        "curriculum": 1,
+        "measurement": 1
       }
     },
     {
@@ -69061,7 +70564,7 @@
       "namespace": "fde-craft",
       "namespaces": {
         "fde-craft": 6,
-        "platform": 4,
+        "platform": 5,
         "pedagogy": 2,
         "ai-systems": 1
       }
@@ -69078,7 +70581,7 @@
       "namespace": "fde-craft",
       "namespaces": {
         "fde-craft": 6,
-        "platform": 4,
+        "platform": 5,
         "pedagogy": 2,
         "ai-systems": 1
       }
@@ -69095,7 +70598,7 @@
       "namespace": "fde-craft",
       "namespaces": {
         "fde-craft": 6,
-        "platform": 4,
+        "platform": 5,
         "pedagogy": 2,
         "ai-systems": 1
       }
@@ -69112,7 +70615,7 @@
       "namespace": "fde-craft",
       "namespaces": {
         "fde-craft": 6,
-        "platform": 4,
+        "platform": 5,
         "pedagogy": 2,
         "ai-systems": 1
       }
@@ -69129,7 +70632,7 @@
       "namespace": "fde-craft",
       "namespaces": {
         "fde-craft": 6,
-        "platform": 4,
+        "platform": 5,
         "pedagogy": 2,
         "ai-systems": 1
       }
@@ -69146,7 +70649,7 @@
       "namespace": "fde-craft",
       "namespaces": {
         "fde-craft": 6,
-        "platform": 4,
+        "platform": 5,
         "pedagogy": 2,
         "ai-systems": 1
       }
@@ -69163,7 +70666,24 @@
       "namespace": "fde-craft",
       "namespaces": {
         "fde-craft": 6,
-        "platform": 4,
+        "platform": 5,
+        "pedagogy": 2,
+        "ai-systems": 1
+      }
+    },
+    {
+      "id": "WP-007.pred8",
+      "whitepaper": "wiki/whitepapers/WP-007",
+      "day": "wiki/seminars/S007",
+      "module": "M02",
+      "quarter": "Q1",
+      "label": "Prediction 8.",
+      "claim": "Where the customer's estate contains anything built outside the delivery team, a majority of maps will omit that population entirely on first attempt, and of the maps that include it, most will classify it as a user rather than as an affected non-buyer.",
+      "instrument": "the map's entries, coded for presence of a builder-population row and for its class, by a second reader, against a binary record of whether such an estate exists in the brief. **If most learners include the population unaided, §3's addition is redundant and should be cut to a single line in the produce list rather than kept as a subsection.**",
+      "namespace": "fde-craft",
+      "namespaces": {
+        "fde-craft": 6,
+        "platform": 5,
         "pedagogy": 2,
         "ai-systems": 1
       }
@@ -69792,7 +71312,7 @@
       "instrument": "the observer's tally, collected per round.",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 3,
+        "fde-craft": 4,
         "pedagogy": 3,
         "platform": 1
       }
@@ -69808,7 +71328,7 @@
       "instrument": "a peer's binary judgement on whether the list contains a move the author is inclined to make, collected at both points.",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 3,
+        "fde-craft": 4,
         "pedagogy": 3,
         "platform": 1
       }
@@ -69824,7 +71344,7 @@
       "instrument": "field-presence counts across submitted plans.",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 3,
+        "fde-craft": 4,
         "pedagogy": 3,
         "platform": 1
       }
@@ -69840,7 +71360,7 @@
       "instrument": "the amendments, coded *adds an activity* / *removes or bounds an activity*. **If additions dominate, the session has taught the learner to document the constraint rather than to obey it**, and the movement should be rewritten to require a removal.",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 3,
+        "fde-craft": 4,
         "pedagogy": 3,
         "platform": 1
       }
@@ -69856,7 +71376,7 @@
       "instrument": "a single free-text item, coded *shape* / *quality* / *conflated* by a second reader. **This predicts the failure of §8's third countermeasure**, and it is included because a countermeasure whose failure rate is unmeasured is an assumption.",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 3,
+        "fde-craft": 4,
         "pedagogy": 3,
         "platform": 1
       }
@@ -69872,7 +71392,7 @@
       "instrument": "the recorded outcome, coded *held and reported* / *held silently* / *did not hold*, per learner and per host-and-model pair. **If constraints hold reliably across hosts, the session's claim that enforceability is a property of the host rather than the file is wrong and §3.7 should be rewritten.**",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 3,
+        "fde-craft": 4,
         "pedagogy": 3,
         "platform": 1
       }
@@ -69888,7 +71408,23 @@
       "instrument": "a second reader's binary judgement, split within cohort on exercise-5 completion. **The same prediction is made at [WP-010](/wiki/whitepapers/WP-010.md), [WP-011](/wiki/whitepapers/WP-011.md) and [WP-012](/wiki/whitepapers/WP-012.md), so a null across all four would indict the comparison pattern rather than any one session.**",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 3,
+        "fde-craft": 4,
+        "pedagogy": 3,
+        "platform": 1
+      }
+    },
+    {
+      "id": "WP-013.pred8",
+      "whitepaper": "wiki/whitepapers/WP-013",
+      "day": "wiki/seminars/S013",
+      "module": "M03",
+      "quarter": "Q2",
+      "label": "Prediction 8.",
+      "claim": "Asked to staff their segment at exercise 7, a majority of learners will leave the silence line blank or assign it to the person already running the session.",
+      "instrument": "the staffing sheets, coded *named holder with a stated trade-off* / *assigned to the facilitator* / *recorded as unowned* / *blank*. **If most learners spontaneously assign a dedicated holder, then §3.8's claim that the silence is the post nobody thinks of is wrong and the subsection should be rewritten.** A high count of *recorded as unowned* is a pass rather than a failure, and the coding must not treat it otherwise.",
+      "namespace": "fde-craft",
+      "namespaces": {
+        "fde-craft": 4,
         "pedagogy": 3,
         "platform": 1
       }
@@ -70261,7 +71797,7 @@
       "instrument": "the two accounts, compared by a second reader for steps present in one and not the other.",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 3,
+        "fde-craft": 4,
         "ai-systems": 2,
         "platform": 2,
         "pedagogy": 1
@@ -70278,7 +71814,7 @@
       "instrument": "count of recorded corrections per record.",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 3,
+        "fde-craft": 4,
         "ai-systems": 2,
         "platform": 2,
         "pedagogy": 1
@@ -70295,7 +71831,7 @@
       "instrument": "the restoration errors, coded by direction.",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 3,
+        "fde-craft": 4,
         "ai-systems": 2,
         "platform": 2,
         "pedagogy": 1
@@ -70312,7 +71848,7 @@
       "instrument": "the sections, coded for specificity, against whether an argument was submitted. **This prediction has a plausible confound in general conscientiousness and the design does not control for it.** Recorded rather than fixed.",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 3,
+        "fde-craft": 4,
         "ai-systems": 2,
         "platform": 2,
         "pedagogy": 1
@@ -70329,7 +71865,7 @@
       "instrument": "the submitted index definition, coded for projection presence, against whether the leak was reported before or after step 3. **This is the direct test of §8's third objection's mitigation.** If most learners find it only when told to look, the claim that a deliberate lab leak inoculates against an accidental engagement leak is unsupported and the movement should be restructured or dropped.",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 3,
+        "fde-craft": 4,
         "ai-systems": 2,
         "platform": 2,
         "pedagogy": 1
@@ -70346,7 +71882,7 @@
       "instrument": "correction counts against a binary coding of whether an unaccounted artefact was found. **This predicts the failure of §5's artefact-promotion countermeasure** — the more the index gives, the less the learner asks the person.",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 3,
+        "fde-craft": 4,
         "ai-systems": 2,
         "platform": 2,
         "pedagogy": 1
@@ -70363,7 +71899,24 @@
       "instrument": "a single free-text item at the close, coded for whether the revocation lag is named as surprising; plus the measured window submitted with the record, whose value is recorded per deployment and **is not compared across learners, because it is a property of their environment rather than of their work.**",
       "namespace": "fde-craft",
       "namespaces": {
-        "fde-craft": 3,
+        "fde-craft": 4,
+        "ai-systems": 2,
+        "platform": 2,
+        "pedagogy": 1
+      }
+    },
+    {
+      "id": "WP-017.pred8",
+      "whitepaper": "wiki/whitepapers/WP-017",
+      "day": "wiki/seminars/S017",
+      "module": "M04",
+      "quarter": "Q2",
+      "label": "Prediction 8.",
+      "claim": "Asked at exercise 8 which method would have caught each cause of the failure case, a majority of learners will assign the incumbent-route cause to an elicitation method — an interview, a workshop or an observation pass — rather than to a measurement.",
+      "instrument": "the four assignments per learner, coded *elicitation* / *measurement* / *unassigned* for the incumbent cause only. **If most learners assign it to a measurement unaided, the session is over-teaching a distinction they already hold and the exercise should be cut rather than kept.**",
+      "namespace": "fde-craft",
+      "namespaces": {
+        "fde-craft": 4,
         "ai-systems": 2,
         "platform": 2,
         "pedagogy": 1
@@ -73638,10 +75191,10 @@
       "label": "Prediction 1.",
       "claim": "Most learners will produce an empty or one-line untestable residue on first attempt.",
       "instrument": "the residue's entry count and the presence of named holders, before and after the work movement.",
-      "namespace": "measurement",
+      "namespace": "fde-craft",
       "namespaces": {
+        "fde-craft": 4,
         "measurement": 4,
-        "fde-craft": 3,
         "pedagogy": 2,
         "platform": 2
       }
@@ -73655,10 +75208,10 @@
       "label": "Prediction 2.",
       "claim": "Wrong implementations that pass will be produced by a minority of learners, and the ones produced will reveal defects the learner then fixes.",
       "instrument": "the wrong implementation's presence, and the diff between the specification before and after it.",
-      "namespace": "measurement",
+      "namespace": "fde-craft",
       "namespaces": {
+        "fde-craft": 4,
         "measurement": 4,
-        "fde-craft": 3,
         "pedagogy": 2,
         "platform": 2
       }
@@ -73672,10 +75225,10 @@
       "label": "Prediction 3.",
       "claim": "Delegation failures will cluster on constraints the learner had classified as residue rather than on behaviours specified as checks.",
       "instrument": "the failure record coded against the specification's own two parts, by a second reader.",
-      "namespace": "measurement",
+      "namespace": "fde-craft",
       "namespaces": {
+        "fde-craft": 4,
         "measurement": 4,
-        "fde-craft": 3,
         "pedagogy": 2,
         "platform": 2
       }
@@ -73689,10 +75242,10 @@
       "label": "Prediction 4.",
       "claim": "Learners will report spending less effort on the specification than on the implementation, contradicting the testimony's account of where the effort goes.",
       "instrument": "self-reported effort split, collected at the session and again at [S050](/wiki/seminars/S050.md). **The design expects this prediction to hold at this session and to weaken by [S050](/wiki/seminars/S050.md)**, and if it does not weaken, the redistribution claim in §1 has no support at this scale.",
-      "namespace": "measurement",
+      "namespace": "fde-craft",
       "namespaces": {
+        "fde-craft": 4,
         "measurement": 4,
-        "fde-craft": 3,
         "pedagogy": 2,
         "platform": 2
       }
@@ -73706,10 +75259,10 @@
       "label": "Prediction 5.",
       "claim": "Most learners will leave the split strategy at its default on first attempt, and a majority of those will be unable to say what their score would do under a different split.",
       "instrument": "the configuration file's split field and a single free-text question at the review movement, coded *can state the consequence* / *cannot* by a second reader.",
-      "namespace": "measurement",
+      "namespace": "fde-craft",
       "namespaces": {
+        "fde-craft": 4,
         "measurement": 4,
-        "fde-craft": 3,
         "pedagogy": 2,
         "platform": 2
       }
@@ -73723,10 +75276,10 @@
       "label": "Prediction 6.",
       "claim": "A majority of learners will record no criterion as having become statable only after an output was seen, and their specifications will nonetheless differ between the failing version and the submitted one.",
       "instrument": "the dated criteria list against a diff of the specification across the session. **A silent revision is the failure §8's third objection predicts**, and this is the only instrument that separates it from genuine stability.",
-      "namespace": "measurement",
+      "namespace": "fde-craft",
       "namespaces": {
+        "fde-craft": 4,
         "measurement": 4,
-        "fde-craft": 3,
         "pedagogy": 2,
         "platform": 2
       }
@@ -73740,10 +75293,27 @@
       "label": "Prediction 7.",
       "claim": "Learners who hand-label traces and compute a disagreement rate against a built-in evaluator will justify their thresholds differently from those who do not, and will be more likely to move a threshold away from its default.",
       "instrument": "the threshold justification field, split on whether a validation exercise was completed, coded *appeals to default* / *appeals to observed cases* by a second reader. **If this fails, the validate-the-validator exercise is ceremony**, and the session should require it only of learners who intend to gate on the result.",
-      "namespace": "measurement",
+      "namespace": "fde-craft",
       "namespaces": {
+        "fde-craft": 4,
         "measurement": 4,
-        "fde-craft": 3,
+        "pedagogy": 2,
+        "platform": 2
+      }
+    },
+    {
+      "id": "WP-043.pred8",
+      "whitepaper": "wiki/whitepapers/WP-043",
+      "day": "wiki/seminars/S043",
+      "module": "M09",
+      "quarter": "Q5",
+      "label": "Prediction 8.",
+      "claim": "Shown the documented incident — a large passing suite alongside a feature producing no output — and asked what went wrong, a majority of learners will look for a broken or missing *test* before they name a missing *assertion about observable behaviour*.",
+      "instrument": "a single free-text response collected before the diagnosis is given, coded *broken test* / *missing assertion* / *other* by a second reader. **If most learners name the missing assertion unaided, the incident is redundant with §3's shape-check material and should be cut rather than kept.**",
+      "namespace": "fde-craft",
+      "namespaces": {
+        "fde-craft": 4,
+        "measurement": 4,
         "pedagogy": 2,
         "platform": 2
       }
@@ -74223,10 +75793,10 @@
       "label": "Prediction 1.",
       "claim": "Item 1, performed on a randomly selected region, will produce an answer the learner themselves classifies as inadequate in most cases.",
       "instrument": "the learner's own post-hoc classification of their item-1 answer, plus a second reader's.",
-      "namespace": "pedagogy",
+      "namespace": "platform",
       "namespaces": {
+        "platform": 5,
         "pedagogy": 4,
-        "platform": 4,
         "measurement": 3,
         "fde-craft": 1
       }
@@ -74240,10 +75810,10 @@
       "label": "Prediction 2.",
       "claim": "A majority of learners will be unable to write an evaluator for at least one region they initially classified as *explained*, and the classes will move.",
       "instrument": "the audit's class distribution before and after the evaluator movement, per learner, with the movements retained in the record.",
-      "namespace": "pedagogy",
+      "namespace": "platform",
       "namespaces": {
+        "platform": 5,
         "pedagogy": 4,
-        "platform": 4,
         "measurement": 3,
         "fde-craft": 1
       }
@@ -74257,10 +75827,10 @@
       "label": "Prediction 3.",
       "claim": "First audits will over-populate the *explained* class relative to what the review movement's colleague test supports.",
       "instrument": "the audit's class distribution against the colleague's reading extent for the tested region.",
-      "namespace": "pedagogy",
+      "namespace": "platform",
       "namespaces": {
+        "platform": 5,
         "pedagogy": 4,
-        "platform": 4,
         "measurement": 3,
         "fde-craft": 1
       }
@@ -74274,10 +75844,10 @@
       "label": "Prediction 4.",
       "claim": "Most learners will discover at least one standing permission they had forgotten granting.",
       "instrument": "the confirmation record, comparing recalled permissions with reconstructed ones.",
-      "namespace": "pedagogy",
+      "namespace": "platform",
       "namespaces": {
+        "platform": 5,
         "pedagogy": 4,
-        "platform": 4,
         "measurement": 3,
         "fde-craft": 1
       }
@@ -74291,10 +75861,10 @@
       "label": "Prediction 5.",
       "claim": "A majority of learners will treat a passing evaluator as confirmation of comprehension in the [S050](/wiki/seminars/S050.md) defence, despite the session stating the asymmetry and step 8 exercising it.",
       "instrument": "the defence transcript, coded for whether a region's *explained* status is justified by the check passing or by an account of the region. **This predicts the failure of §8's third objection's countermeasure**, and it is the prediction this paper most expects to be confirmed.",
-      "namespace": "pedagogy",
+      "namespace": "platform",
       "namespaces": {
+        "platform": 5,
         "pedagogy": 4,
-        "platform": 4,
         "measurement": 3,
         "fde-craft": 1
       }
@@ -74308,10 +75878,10 @@
       "label": "Prediction 6.",
       "claim": "Most first evaluators will restate the implementation rather than state a behaviour, and will therefore be unfalsifiable by any input.",
       "instrument": "the evaluator specifications, coded *behavioural* / *structural* by a second reader.",
-      "namespace": "pedagogy",
+      "namespace": "platform",
       "namespaces": {
+        "platform": 5,
         "pedagogy": 4,
-        "platform": 4,
         "measurement": 3,
         "fde-craft": 1
       }
@@ -74325,10 +75895,10 @@
       "label": "Prediction 7.",
       "claim": "Almost no learner will justify a judged threshold, and most will retain an inherited default rather than deleting the check.",
       "instrument": "the specification files, counting thresholds with a non-empty rationale against those without.",
-      "namespace": "pedagogy",
+      "namespace": "platform",
       "namespaces": {
+        "platform": 5,
         "pedagogy": 4,
-        "platform": 4,
         "measurement": 3,
         "fde-craft": 1
       }
@@ -74342,10 +75912,27 @@
       "label": "Prediction 8.",
       "claim": "Opaque regions will correlate with the portions the [S044](/wiki/seminars/S044.md) review record marked unread.",
       "instrument": "the audit's opaque regions against the review record's unread boundary, paired per learner. **If this fails, the claim in §2 that unread review is where unexplained code lives has no support at this scale**, and the retrieval link from [S044](/wiki/seminars/S044.md) should be removed.",
-      "namespace": "pedagogy",
+      "namespace": "platform",
       "namespaces": {
+        "platform": 5,
         "pedagogy": 4,
-        "platform": 4,
+        "measurement": 3,
+        "fde-craft": 1
+      }
+    },
+    {
+      "id": "WP-048.pred9",
+      "whitepaper": "wiki/whitepapers/WP-048",
+      "day": "wiki/seminars/S048",
+      "module": "M10",
+      "quarter": "Q5",
+      "label": "Prediction 9.",
+      "claim": "Asked what a weekly green result on the public reference library's skill test licenses them to believe, a majority of learners will describe it as evidence that the generated project works rather than as evidence about the shape of the files produced.",
+      "instrument": "a single free-text item, coded *functional* / *shape* / *conflated* by a second reader, collected once before the five criteria are examined and again after. **If most learners read it as a shape check unaided, the specimen adds nothing to the pinned corpus's own statement about its graders and should be cut rather than kept.**",
+      "namespace": "platform",
+      "namespaces": {
+        "platform": 5,
+        "pedagogy": 4,
         "measurement": 3,
         "fde-craft": 1
       }
@@ -75418,8 +77005,8 @@
       "namespaces": {
         "ai-systems": 3,
         "fde-craft": 2,
-        "pedagogy": 1,
-        "platform": 1
+        "platform": 2,
+        "pedagogy": 1
       }
     },
     {
@@ -75435,8 +77022,8 @@
       "namespaces": {
         "ai-systems": 3,
         "fde-craft": 2,
-        "pedagogy": 1,
-        "platform": 1
+        "platform": 2,
+        "pedagogy": 1
       }
     },
     {
@@ -75452,8 +77039,8 @@
       "namespaces": {
         "ai-systems": 3,
         "fde-craft": 2,
-        "pedagogy": 1,
-        "platform": 1
+        "platform": 2,
+        "pedagogy": 1
       }
     },
     {
@@ -75469,8 +77056,8 @@
       "namespaces": {
         "ai-systems": 3,
         "fde-craft": 2,
-        "pedagogy": 1,
-        "platform": 1
+        "platform": 2,
+        "pedagogy": 1
       }
     },
     {
@@ -75486,8 +77073,8 @@
       "namespaces": {
         "ai-systems": 3,
         "fde-craft": 2,
-        "pedagogy": 1,
-        "platform": 1
+        "platform": 2,
+        "pedagogy": 1
       }
     },
     {
@@ -75503,8 +77090,8 @@
       "namespaces": {
         "ai-systems": 3,
         "fde-craft": 2,
-        "pedagogy": 1,
-        "platform": 1
+        "platform": 2,
+        "pedagogy": 1
       }
     },
     {
@@ -75520,8 +77107,25 @@
       "namespaces": {
         "ai-systems": 3,
         "fde-craft": 2,
-        "pedagogy": 1,
-        "platform": 1
+        "platform": 2,
+        "pedagogy": 1
+      }
+    },
+    {
+      "id": "WP-057.pred8",
+      "whitepaper": "wiki/whitepapers/WP-057",
+      "day": "wiki/seminars/S057",
+      "module": "M12",
+      "quarter": "Q6",
+      "label": "Prediction 8.",
+      "claim": "Most learners will name at least one control in their test that can only observe after the fact, and will not have noticed.",
+      "instrument": "each control named in the submitted test, coded *preventive* / *detective* by a second reader against the control's documented mechanism, compared with whether the learner's own artefact records the distinction anywhere. **A null result — learners spontaneously distinguishing enforcement from notification — would mean §3's latency material is redundant** and it should be cut to a single line in the workflow rather than kept as a subsection.",
+      "namespace": "ai-systems",
+      "namespaces": {
+        "ai-systems": 3,
+        "fde-craft": 2,
+        "platform": 2,
+        "pedagogy": 1
       }
     },
     {
@@ -79711,7 +81315,7 @@
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
       "namespace": "fde-craft",
-      "words": 116
+      "words": 151
     },
     {
       "id": "WP-005.e4",
@@ -79722,10 +81326,11 @@
       "class_name": "vendor-docs",
       "licenses": "What the documentation states at a version, together with what it does NOT report that a reader would need.",
       "cites": [
-        "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs"
+        "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs",
+        "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform"
       ],
       "namespace": "fde-craft",
-      "words": 331
+      "words": 601
     },
     {
       "id": "WP-006.e1",
@@ -79824,7 +81429,7 @@
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
       "namespace": "fde-craft",
-      "words": 111
+      "words": 165
     },
     {
       "id": "WP-007.e4",
@@ -79836,11 +81441,12 @@
       "licenses": "What the documentation states at a version, together with what it does NOT report that a reader would need.",
       "cites": [
         "research/06-microsoft-platform/azure-ai-search-and-acl-patterns",
+        "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform",
         "research/06-microsoft-platform/agent-365-and-agent-identity",
         "research/06-microsoft-platform/microsoft-iq-intelligence-layer"
       ],
       "namespace": "fde-craft",
-      "words": 730
+      "words": 1055
     },
     {
       "id": "WP-008.e1",
@@ -80133,10 +81739,11 @@
         "research/05-fde-craft/microsoft-accelerated-delivery-practice",
         "research/05-fde-craft/portigal-interviewing-users",
         "research/05-fde-craft/beyer-holtzblatt-contextual-design",
+        "research/05-fde-craft/microsoft-hve-enablement-hub",
         "research/04-professional-formation/frazier-psychological-safety-meta-analysis"
       ],
       "namespace": "fde-craft",
-      "words": 303
+      "words": 457
     },
     {
       "id": "WP-013.e2",
@@ -80160,7 +81767,7 @@
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
       "namespace": "fde-craft",
-      "words": 100
+      "words": 186
     },
     {
       "id": "WP-013.e4",
@@ -80351,10 +81958,11 @@
       "cites": [
         "research/05-fde-craft/microsoft-accelerated-delivery-practice",
         "research/05-fde-craft/beyer-holtzblatt-contextual-design",
-        "research/05-fde-craft/portigal-interviewing-users"
+        "research/05-fde-craft/portigal-interviewing-users",
+        "research/05-fde-craft/microsoft-hve-partner-summit"
       ],
       "namespace": "fde-craft",
-      "words": 167
+      "words": 314
     },
     {
       "id": "WP-017.e2",
@@ -80378,7 +81986,7 @@
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
       "namespace": "fde-craft",
-      "words": 104
+      "words": 174
     },
     {
       "id": "WP-017.e4",
@@ -81815,10 +83423,11 @@
       "licenses": "Cites a Cliff Note in research/, which records what was checked and against what.",
       "cites": [
         "research/05-fde-craft/microsoft-ise-engineering-playbook",
-        "research/05-fde-craft/microsoft-accelerated-delivery-practice"
+        "research/05-fde-craft/microsoft-accelerated-delivery-practice",
+        "research/05-fde-craft/meppiel-agentic-sdlc-handbook"
       ],
-      "namespace": "measurement",
-      "words": 251
+      "namespace": "fde-craft",
+      "words": 435
     },
     {
       "id": "WP-043.e2",
@@ -81829,7 +83438,7 @@
       "class_name": "general-knowledge",
       "licenses": "Direction and mechanism only. No effect size, ever.",
       "cites": [],
-      "namespace": "measurement",
+      "namespace": "fde-craft",
       "words": 55
     },
     {
@@ -81841,8 +83450,8 @@
       "class_name": "design-reasoning",
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
-      "namespace": "measurement",
-      "words": 97
+      "namespace": "fde-craft",
+      "words": 123
     },
     {
       "id": "WP-043.e4",
@@ -81856,7 +83465,7 @@
         "research/06-microsoft-platform/agent-framework-and-evaluations-docs",
         "research/06-microsoft-platform/agents-toolkit-and-sdk-family"
       ],
-      "namespace": "measurement",
+      "namespace": "fde-craft",
       "words": 867
     },
     {
@@ -82087,7 +83696,7 @@
         "research/04-professional-formation/macnamara-deliberate-practice-limits",
         "research/04-professional-formation/metr-ai-assisted-productivity-study"
       ],
-      "namespace": "pedagogy",
+      "namespace": "platform",
       "words": 318
     },
     {
@@ -82099,7 +83708,7 @@
       "class_name": "general-knowledge",
       "licenses": "Direction and mechanism only. No effect size, ever.",
       "cites": [],
-      "namespace": "pedagogy",
+      "namespace": "platform",
       "words": 70
     },
     {
@@ -82111,8 +83720,8 @@
       "class_name": "design-reasoning",
       "licenses": "The design's own argument. Carries no evidential weight outside it.",
       "cites": [],
-      "namespace": "pedagogy",
-      "words": 113
+      "namespace": "platform",
+      "words": 161
     },
     {
       "id": "WP-048.e4",
@@ -82124,10 +83733,11 @@
       "licenses": "What the documentation states at a version, together with what it does NOT report that a reader would need.",
       "cites": [
         "research/06-microsoft-platform/agent-framework-and-evaluations-docs",
+        "research/06-microsoft-platform/caira-reference-architectures",
         "research/06-microsoft-platform/agents-toolkit-and-sdk-family"
       ],
-      "namespace": "pedagogy",
-      "words": 927
+      "namespace": "platform",
+      "words": 1216
     },
     {
       "id": "WP-049.e1",
@@ -82637,10 +84247,11 @@
       "class_name": "vendor-docs",
       "licenses": "What the documentation states at a version, together with what it does NOT report that a reader would need.",
       "cites": [
-        "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs"
+        "research/06-microsoft-platform/microsoft-foundry-and-copilot-studio-docs",
+        "research/06-microsoft-platform/microsoft-adoption-hubs-copilot-studio-power-platform"
       ],
       "namespace": "ai-systems",
-      "words": 448
+      "words": 710
     },
     {
       "id": "WP-058.e1",
@@ -85342,6 +86953,20 @@
       "platform_anchor": "Microsoft Foundry versus Copilot Studio build-path selection, recorded as an architecture decision record against the capability, timeline and control triple"
     },
     {
+      "id": "S005.contrast8",
+      "kind": "contrast",
+      "phase": 4,
+      "seq": 8,
+      "label": "The unstaffed decision",
+      "text": "the record argues capability, speed and control and never says which population will build or extend the thing. *Warning sign:* your record would read identically whether the customer's team was six engineers or six business analysts.",
+      "day": "wiki/seminars/S005",
+      "day_title": "S005 · The Qualification Decision ⊘",
+      "module": "M01",
+      "quarter": "Q1",
+      "complexity_class": 1,
+      "platform_anchor": "Microsoft Foundry versus Copilot Studio build-path selection, recorded as an architecture decision record against the capability, timeline and control triple"
+    },
+    {
       "id": "S006.elicit1",
       "kind": "elicit",
       "phase": 1,
@@ -85612,8 +87237,8 @@
       "kind": "contrast",
       "phase": 4,
       "seq": 2,
-      "label": "Charitable ventriloquism",
-      "text": "you state each absent objection in the form you are best placed to answer. *Warning sign:* every objection on your page has a rebuttal beneath it.",
+      "label": "The estate you discovered by breaking it",
+      "text": "somebody in the business had already built the thing, or something the thing depends on, and no survey found it. *Warning sign:* your constraint register contains no artefact built by anyone outside the delivery team.",
       "day": "wiki/seminars/S007",
       "day_title": "S007 · Who Is Not in the Room",
       "module": "M02",
@@ -85626,8 +87251,8 @@
       "kind": "contrast",
       "phase": 4,
       "seq": 3,
-      "label": "The consulted formality",
-      "text": "the absent party is to be informed rather than asked. *Warning sign:* your ask has no possible answer other than agreement.",
+      "label": "Charitable ventriloquism",
+      "text": "you state each absent objection in the form you are best placed to answer. *Warning sign:* every objection on your page has a rebuttal beneath it.",
       "day": "wiki/seminars/S007",
       "day_title": "S007 · Who Is Not in the Room",
       "module": "M02",
@@ -85640,8 +87265,8 @@
       "kind": "contrast",
       "phase": 4,
       "seq": 4,
-      "label": "Deferred consultation",
-      "text": "the data owner, the security reviewer or the operator is scheduled after the design is settled. *Warning sign:* the phrase \"we will bring them in once we know what we are building\".",
+      "label": "The consulted formality",
+      "text": "the absent party is to be informed rather than asked. *Warning sign:* your ask has no possible answer other than agreement.",
       "day": "wiki/seminars/S007",
       "day_title": "S007 · Who Is Not in the Room",
       "module": "M02",
@@ -85654,8 +87279,8 @@
       "kind": "contrast",
       "phase": 4,
       "seq": 5,
-      "label": "The convention mistaken for a boundary",
-      "text": "a string filter supplied by your own application is recorded as enforcement. *Warning sign:* you cannot say what would happen if the string were wrong, because nothing would.",
+      "label": "Deferred consultation",
+      "text": "the data owner, the security reviewer or the operator is scheduled after the design is settled. *Warning sign:* the phrase \"we will bring them in once we know what we are building\".",
       "day": "wiki/seminars/S007",
       "day_title": "S007 · Who Is Not in the Room",
       "module": "M02",
@@ -85668,8 +87293,8 @@
       "kind": "contrast",
       "phase": 4,
       "seq": 6,
-      "label": "The unprojected chunk",
-      "text": "permissions are correct on the document and absent on the pieces of it that are actually retrieved. *Warning sign:* your protection was verified by querying for whole documents.",
+      "label": "The convention mistaken for a boundary",
+      "text": "a string filter supplied by your own application is recorded as enforcement. *Warning sign:* you cannot say what would happen if the string were wrong, because nothing would.",
       "day": "wiki/seminars/S007",
       "day_title": "S007 · Who Is Not in the Room",
       "module": "M02",
@@ -85682,6 +87307,20 @@
       "kind": "contrast",
       "phase": 4,
       "seq": 7,
+      "label": "The unprojected chunk",
+      "text": "permissions are correct on the document and absent on the pieces of it that are actually retrieved. *Warning sign:* your protection was verified by querying for whole documents.",
+      "day": "wiki/seminars/S007",
+      "day_title": "S007 · Who Is Not in the Room",
+      "module": "M02",
+      "quarter": "Q1",
+      "complexity_class": 2,
+      "platform_anchor": "Azure AI Search security trimming, and Microsoft Agent 365's tenant-wide tool consent and published agent-risk role matrix — the absent people whose rights and approvals decide what the system may return and who may investigate it"
+    },
+    {
+      "id": "S007.contrast8",
+      "kind": "contrast",
+      "phase": 4,
+      "seq": 8,
       "label": "The instantaneous revocation",
       "text": "the system is assumed to honour a permission change as soon as it is made. *Warning sign:* your map has no revocation window, or it has one and nobody measured it.",
       "day": "wiki/seminars/S007",
@@ -86593,7 +88232,21 @@
       "phase": 1,
       "seq": 5,
       "label": null,
-      "text": "You have run the session, well, four days in a row. What is the fifth day worse at? **Item 2 is where most engineers fail.** The instinct is to rescue the silence by offering options, and the options are the answer. Item 4 is the one the session will spend most of its time on, because two of your three reasons will be about the person and the third will be the one that matters.",
+      "text": "You have run the session, well, four days in a row. What is the fifth day worse at?",
+      "day": "wiki/seminars/S013",
+      "day_title": "S013 · Facilitation as a Technical Skill",
+      "module": "M03",
+      "quarter": "Q2",
+      "complexity_class": 2,
+      "platform_anchor": "GitHub Copilot custom chat modes and instructions files — constraining what an agent may ask and in what order, as facilitation encoded and inspectable"
+    },
+    {
+      "id": "S013.elicit6",
+      "kind": "elicit",
+      "phase": 1,
+      "seq": 6,
+      "label": null,
+      "text": "List every job that has to be done while the session is running, and who does each one. **Then mark which of those jobs you are also doing while facilitating.** **Item 2 is where most engineers fail.** The instinct is to rescue the silence by offering options, and the options are the answer. Item 4 is the one the session will spend most of its time on, because two of your three reasons will be about the person and the third will be the one that matters. **Item 6 usually comes back with one name on it, and that is the finding** — not that you are overloaded, but that several jobs you listed have no holder and will therefore be done badly by whoever notices last.",
       "day": "wiki/seminars/S013",
       "day_title": "S013 · Facilitation as a Technical Skill",
       "module": "M03",
@@ -86676,8 +88329,8 @@
       "kind": "contrast",
       "phase": 4,
       "seq": 6,
-      "label": "The mechanical wait.",
-      "text": "*Warning sign:* you waited through a silence in which somebody was visibly struggling, because waiting is the technique. Silence is read differently by different people, and a rule applied without reading the room is a habit rather than a skill.",
+      "label": "The unowned silence.",
+      "text": "*Warning sign:* you can name who owns the environment and who owns the sponsor, and not who owns the person who has not spoken. Every post is watching something that announces itself; the one signal that never announces itself belongs to nobody.",
       "day": "wiki/seminars/S013",
       "day_title": "S013 · Facilitation as a Technical Skill",
       "module": "M03",
@@ -86690,6 +88343,62 @@
       "kind": "contrast",
       "phase": 4,
       "seq": 7,
+      "label": "The coach who solves it.",
+      "text": "*Warning sign:* the team's environment works and nobody on it can say what was wrong. Help arrived before the participant reached the edge of what they knew, so the exercise ran and taught nothing.",
+      "day": "wiki/seminars/S013",
+      "day_title": "S013 · Facilitation as a Technical Skill",
+      "module": "M03",
+      "quarter": "Q2",
+      "complexity_class": 2,
+      "platform_anchor": "GitHub Copilot custom chat modes and instructions files — constraining what an agent may ask and in what order, as facilitation encoded and inspectable"
+    },
+    {
+      "id": "S013.contrast8",
+      "kind": "contrast",
+      "phase": 4,
+      "seq": 8,
+      "label": "The lectured first hour.",
+      "text": "*Warning sign:* the first question to the room came after the break. The room has already been told what kind of room it is, and the invitation afterwards contradicts sixty minutes of evidence.",
+      "day": "wiki/seminars/S013",
+      "day_title": "S013 · Facilitation as a Technical Skill",
+      "module": "M03",
+      "quarter": "Q2",
+      "complexity_class": 2,
+      "platform_anchor": "GitHub Copilot custom chat modes and instructions files — constraining what an agent may ask and in what order, as facilitation encoded and inspectable"
+    },
+    {
+      "id": "S013.contrast9",
+      "kind": "contrast",
+      "phase": 4,
+      "seq": 9,
+      "label": "The debrief that was going to happen.",
+      "text": "*Warning sign:* the day ran late, and the correction loop is the thing that moved. Nothing schedules it, so it is always available to be dropped, and it is dropped precisely on the days that generated something to correct.",
+      "day": "wiki/seminars/S013",
+      "day_title": "S013 · Facilitation as a Technical Skill",
+      "module": "M03",
+      "quarter": "Q2",
+      "complexity_class": 2,
+      "platform_anchor": "GitHub Copilot custom chat modes and instructions files — constraining what an agent may ask and in what order, as facilitation encoded and inspectable"
+    },
+    {
+      "id": "S013.contrast10",
+      "kind": "contrast",
+      "phase": 4,
+      "seq": 10,
+      "label": "The mechanical wait.",
+      "text": "*Warning sign:* you waited through a silence in which somebody was visibly struggling, because waiting is the technique. Silence is read differently by different people, and a rule applied without reading the room is a habit rather than a skill.",
+      "day": "wiki/seminars/S013",
+      "day_title": "S013 · Facilitation as a Technical Skill",
+      "module": "M03",
+      "quarter": "Q2",
+      "complexity_class": 2,
+      "platform_anchor": "GitHub Copilot custom chat modes and instructions files — constraining what an agent may ask and in what order, as facilitation encoded and inspectable"
+    },
+    {
+      "id": "S013.contrast11",
+      "kind": "contrast",
+      "phase": 4,
+      "seq": 11,
       "label": "Shape mistaken for quality.",
       "text": "*Warning sign:* your constraints all held and you cannot say what you learned. An enforceable prohibition tells you the question had the right form. **It cannot tell you the question was worth asking.**",
       "day": "wiki/seminars/S013",
@@ -87348,6 +89057,34 @@
       "kind": "contrast",
       "phase": 4,
       "seq": 6,
+      "label": "The incumbent nobody timed",
+      "text": "you established the need, built the thing, and never measured it against what people already do. *Warning sign:* nobody can say how long the current route takes.",
+      "day": "wiki/seminars/S017",
+      "day_title": "S017 · Watching Work Instead of Asking About It",
+      "module": "M04",
+      "quarter": "Q2",
+      "complexity_class": 2,
+      "platform_anchor": "Work IQ and Azure AI Search — retrieving the artefacts a person actually produced, under their own identity, and comparing them with the process they described"
+    },
+    {
+      "id": "S017.contrast7",
+      "kind": "contrast",
+      "phase": 4,
+      "seq": 7,
+      "label": "The undisclosed source",
+      "text": "the work is shaped by a manual, a spreadsheet or a thread that nobody mentioned and you never went looking for. *Warning sign:* your artefact list contains only things somebody named to you.",
+      "day": "wiki/seminars/S017",
+      "day_title": "S017 · Watching Work Instead of Asking About It",
+      "module": "M04",
+      "quarter": "Q2",
+      "complexity_class": 2,
+      "platform_anchor": "Work IQ and Azure AI Search — retrieving the artefacts a person actually produced, under their own identity, and comparing them with the process they described"
+    },
+    {
+      "id": "S017.contrast8",
+      "kind": "contrast",
+      "phase": 4,
+      "seq": 8,
       "label": "Observation as ceremony",
       "text": "a direct test would have answered the question faster and you ran a field study anyway. *Warning sign:* you already knew what you would see.",
       "day": "wiki/seminars/S017",
@@ -91796,6 +93533,34 @@
       "platform_anchor": "An executable specification for conversation behaviour — the Microsoft 365 Agents Playground's headless conversation driver, deterministic and model-free in CI, beside the evaluator catalogue it neither reaches nor mentions"
     },
     {
+      "id": "S043.contrast10",
+      "kind": "contrast",
+      "phase": 4,
+      "seq": 10,
+      "label": "The absent assertion",
+      "text": "the suite is green and says nothing about the behaviour anybody cares about, because no check ever looked at it. *Warning sign:* you cannot name the test that would go red if the feature stopped producing output entirely.",
+      "day": "wiki/seminars/S043",
+      "day_title": "S043 · Tests as the Specification",
+      "module": "M09",
+      "quarter": "Q5",
+      "complexity_class": 3,
+      "platform_anchor": "An executable specification for conversation behaviour — the Microsoft 365 Agents Playground's headless conversation driver, deterministic and model-free in CI, beside the evaluator catalogue it neither reaches nor mentions"
+    },
+    {
+      "id": "S043.contrast11",
+      "kind": "contrast",
+      "phase": 4,
+      "seq": 11,
+      "label": "The accepted self-report",
+      "text": "an executor said it did the work and you recorded that it did the work. *Warning sign:* between the claim and your record there is no diff, no file listing and no command output.",
+      "day": "wiki/seminars/S043",
+      "day_title": "S043 · Tests as the Specification",
+      "module": "M09",
+      "quarter": "Q5",
+      "complexity_class": 3,
+      "platform_anchor": "An executable specification for conversation behaviour — the Microsoft 365 Agents Playground's headless conversation driver, deterministic and model-free in CI, beside the evaluator catalogue it neither reaches nor mentions"
+    },
+    {
       "id": "S044.elicit1",
       "kind": "elicit",
       "phase": 1,
@@ -92670,6 +94435,34 @@
       "seq": 7,
       "label": "The debt attributed to the machine",
       "text": "the opaque regions are all generated, none is yours, and the audit becomes an argument about tooling. *Warning sign:* your own code is exempt.",
+      "day": "wiki/seminars/S048",
+      "day_title": "S048 · Comprehension Debt",
+      "module": "M10",
+      "quarter": "Q5",
+      "complexity_class": 3,
+      "platform_anchor": "The Agents Toolkit scaffold — a project a generator writes in seconds, with the debt concentrated in the two directories nobody reads, audited against an evaluation framework that cannot check what you cannot state"
+    },
+    {
+      "id": "S048.contrast8",
+      "kind": "contrast",
+      "phase": 4,
+      "seq": 8,
+      "label": "The undeclared exclusion",
+      "text": "you took a reference component and deleted the parts that did not apply, and no record of what you removed survives. *Warning sign:* you cannot say what the original contained that you decided you did not need.",
+      "day": "wiki/seminars/S048",
+      "day_title": "S048 · Comprehension Debt",
+      "module": "M10",
+      "quarter": "Q5",
+      "complexity_class": 3,
+      "platform_anchor": "The Agents Toolkit scaffold — a project a generator writes in seconds, with the debt concentrated in the two directories nobody reads, audited against an evaluation framework that cannot check what you cannot state"
+    },
+    {
+      "id": "S048.contrast9",
+      "kind": "contrast",
+      "phase": 4,
+      "seq": 9,
+      "label": "The shape check read as a working system",
+      "text": "a scheduled job goes green every week, nothing in it builds or runs anything, and the team reports the tick as evidence of health. *Warning sign:* you cannot name a single thing the test would have to execute in order to fail for a functional reason.",
       "day": "wiki/seminars/S048",
       "day_title": "S048 · Comprehension Debt",
       "module": "M10",
@@ -94294,6 +96087,20 @@
       "seq": 8,
       "label": "The orphaned exclusion",
       "text": "you named the excluded case and then did nothing, because the regime did not require it. *Warning sign:* your answer to the last element is that it is out of scope.",
+      "day": "wiki/seminars/S057",
+      "day_title": "S057 · The Scope Test That Survives Agentic Delivery",
+      "module": "M12",
+      "quarter": "Q6",
+      "complexity_class": 4,
+      "platform_anchor": "Foundry prompt agents versus hosted agents — what changes about scope when the system gains its own code, compute and the ability to act without being asked"
+    },
+    {
+      "id": "S057.contrast9",
+      "kind": "contrast",
+      "phase": 4,
+      "seq": 9,
+      "label": "The observe-only control",
+      "text": "the test classifies correctly, routes to a control that can only notice after the fact, and the register records a governed deliverable. *Warning sign:* you cannot say whether any control your test invokes is able to refuse.",
       "day": "wiki/seminars/S057",
       "day_title": "S057 · The Scope Test That Survives Agentic Delivery",
       "module": "M12",
@@ -101043,6 +102850,15 @@
       "read_raw": "not read",
       "section": "Assessment, EPAs and narrative judgement",
       "note": null
+    },
+    {
+      "source": "Meppiel, The Agentic SDLC Handbook, v0.11.0 (June 2026)",
+      "identifier": "`https://danielmeppiel.github.io/agentic-sdlc-handbook/`",
+      "access": "open web, free",
+      "read": "unread",
+      "read_raw": "preface, thesis chapter and primary case study read in full; Parts II–III, three case studies and both appendices not read",
+      "section": "Forward-deployed engineering craft",
+      "note": "research/05-fde-craft/meppiel-agentic-sdlc-handbook"
     },
     {
       "source": "Beyer and Holtzblatt, Contextual Design: Design for Life, second edition",

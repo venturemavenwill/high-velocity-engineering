@@ -32,7 +32,11 @@ check("platform decays in months", ns.namespaces.find((n) => n.namespace === "pl
 check("pedagogy forbids effect sizes", /No effect size/.test(ns.namespaces.find((n) => n.namespace === "pedagogy")?.licenses ?? ""));
 
 const courseClaims = await call("hve_course_claims", { query: "wrong problem", limit: 100 });
-check("current human-voice claims indexed", courseClaims.total_indexed === 48, `${courseClaims.total_indexed}`);
+// A lower bound, not a snapshot. This count rises whenever a research note gains a
+// human-voice section, and the assertion's real job is catching an extractor that
+// silently returns zero -- which has happened twice. An exact count here failed the
+// gate on an intended content addition, which is how a gate gets disabled.
+check("current human-voice claims indexed (>= 48)", courseClaims.total_indexed >= 48, `${courseClaims.total_indexed}`);
 check("human-voice claims are searchable", courseClaims.matched > 0, `${courseClaims.matched} match(es)`);
 check("human-voice claims retain their warrant", courseClaims.results.every((claim) => /practitioner judgement/.test(claim.warrant)));
 
@@ -128,11 +132,19 @@ const noDay = await call("hve_teaching_moves", { day: "S999" });
 check("unknown day fails gracefully", Boolean(noDay.error));
 
 const src = await call("hve_sources", { limit: 1 });
-check("58 sources registered", src.total_sources === 58, `${src.total_sources}`);
-check("read state is tallied", src.all_by_read.unread === 13 && src.all_by_read.full === 28,
+// Lower bounds and invariants, not snapshots. The register grows whenever a source
+// is added, and a partially-read source is classified `unread` by the builder's own
+// convention -- so exact counts here fail on intended change, which is how a gate
+// gets disabled. The real job of these checks is catching a register that silently
+// stops parsing and returns zero, or a read-state normaliser that stops classifying.
+check("sources registered (>= 58)", src.total_sources >= 58, `${src.total_sources}`);
+check("read state is tallied", src.all_by_read.unread >= 13 && src.all_by_read.full >= 28,
   `unread ${src.all_by_read.unread}, abstract ${src.all_by_read.abstract}, full ${src.all_by_read.full}`);
+check("read states sum to the register", 
+  Object.values(src.all_by_read).reduce((a, b) => a + b, 0) === src.total_sources,
+  `${Object.values(src.all_by_read).reduce((a, b) => a + b, 0)} of ${src.total_sources}`);
 const unread = await call("hve_sources", { read: "unread", limit: 100 });
-check("unread sources are findable", unread.matched === 13, `${unread.matched}`);
+check("unread sources are findable (>= 13)", unread.matched >= 13, `${unread.matched}`);
 check("exposure is declared a floor", /FLOOR/.test(unread.note));
 check("unread sources carry their access reason", unread.results.every((s) => s.access));
 const prof = await call("hve_sources", { whitepaper: "WP-049" });
