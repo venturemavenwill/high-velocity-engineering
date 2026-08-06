@@ -65,4 +65,6 @@ This is a projection making a different sequencing choice from its source, which
 
 **Eighty-nine units.** This is one exemplar, and the honest expectation is that the projection gets harder rather than easier: later sessions lean on a live customer, a running system, a team and an assessed portfolio, and the materials problem compounds.
 
-**The stages most at risk are Assure, Operate and Transfer**, where the session's object is an organisation rather than an artefact. Whether a solo edition of those degrades gracefully or falls over is unknown, and the answer belongs in this file when it is known.
+**The stages most at risk are Review, Deliver and Operate — stages 6, 7 and 8** — where the session's object is an organisation rather than an artefact. Whether a solo edition of those degrades gracefully or falls over is unknown, and the answer belongs in this file when it is known.
+
+> **Those three stages were named *Assure*, *Operate* and *Transfer* when this sentence was written**, and were relabelled when the programme adopted the canonical lifecycle names ([11-Canonical-Lifecycle.md](/wiki/program/11-Canonical-Lifecycle.md)). The stage numbers are now given alongside the names because **stages 7 and 8 exchanged the word "operate" in that rename** — so the original sentence, read against the current vocabulary, would point at a stage it did not mean. **Nothing about the risk judgement changed; only the labels did.**

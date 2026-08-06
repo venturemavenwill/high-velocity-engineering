@@ -225,8 +225,8 @@
         "Rule 6 — the social precondition is raised early — **DEPARTURE**",
         "What is not built"
       ],
-      "words": 1000,
-      "lines": 69,
+      "words": 1084,
+      "lines": 71,
       "assessment_bearing": false
     },
     {
@@ -13169,6 +13169,11 @@
     {
       "from": "projections/self-study/DERIVATION",
       "to": "concepts/projections",
+      "type": "links_to"
+    },
+    {
+      "from": "projections/self-study/DERIVATION",
+      "to": "wiki/program/11-Canonical-Lifecycle",
       "type": "links_to"
     },
     {
